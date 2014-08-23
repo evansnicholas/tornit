@@ -9,3 +9,11 @@ GET     /                           controllers.Application.index
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 GET /entrypoints                    controllers.Application.listEntrypoints
+
+GET /dtsGraph/*entrypointPath       controllers.Application.computeDtsGraph(entrypointPath)
+
+GET /presentationViewer             controllers.Application.presentationViewer
+
+GET /dimensionViewer                controllers.Application.dimensionViewer
+
+GET /dtsGraph                       controllers.Application.dtsGraph

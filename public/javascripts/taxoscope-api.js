@@ -1,30 +1,69 @@
 var TaxoscopeApi = {
 
-  test: function() {
-    alert("hello");
+  test: function( text ) {
+    alert(text);
   },
 
   getEntrypointsList: function() {
-    // Using the core $.ajax() method
     $.ajax({
-      // the URL for the request
       url: "/entrypoints",
-      // whether this is a POST or GET request
       type: "GET",
-      // the type of data we expect back
       dataType : "json",
-      // code to run if the request succeeds;
-      // the response is passed to the function
+
       success: function( json ) {
         var myItems = [];
         var myList = $( "#entrypointsList" );
         for ( var i = 0; i < json.length; i++ ) {
-          myItems.push( "<li><a href=\"#\">" + json[i].uri + "</a></li>" );
+          var uri = json[i].uri
+          myItems.push( "<li onclick=\"TaxoscopeApi.getDtsGraph(" + "\'" + uri + "\'" + ")\"><a href=\"#\">" + uri + "</a></li>" );
         }
         myList.append( myItems.join( "" ) );
       },
-      // code to run if the request fails; the raw request an
-      // status codes are passed to the function
+
+      error: function( xhr, status, errorThrown ) {
+        alert( "Sorry, there was a problem!" );
+        console.log( "Error: " + errorThrown );
+        console.log( "Status: " + status );
+        console.dir( xhr );
+      },
+      // code to run regardless of success or failure
+      complete: function( xhr, status ) {
+      }
+    });
+  },
+
+  getDtsGraph: function(entrypointUri) {
+    var entrypointPath = entrypointUri.substring(7)
+    var url = "/dtsGraph/" + entrypointPath
+     
+    function processDtsGraph( json ) {
+      function processNode( node ) {
+        var processedChildrenList = [];
+        for ( var i = 0; i < node.children.length; i++ ) {
+          var child = node.children[i];
+          var processedChild = processNode( child );
+          processedChildrenList.push( processedChild );
+        }
+        var processedChildren = processedChildrenList.join( "" );
+        return "<li>" + node.uri + "<ul>" + processedChildren + "</ul></li>";
+      }
+      var processedGraph = processNode( json );
+      return "<ul>"+ processedGraph + "</ul>";
+    }
+
+
+    $.ajax({
+      url: url,
+      type: "GET",
+      dataType : "json",
+
+      success: function( json ) {
+        var myItems = [];
+        var resultsDiv = $( "#dts-graph-result" );
+        resultsDiv.html( "" );
+        resultsDiv.append( processDtsGraph( json ) );
+      },
+
       error: function( xhr, status, errorThrown ) {
         alert( "Sorry, there was a problem!" );
         console.log( "Error: " + errorThrown );
