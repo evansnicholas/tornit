@@ -1,6 +1,7 @@
 package model
 
 import java.net.URI
+import java.net.URLDecoder
 
 case class Entrypoint(uri: String)
 
@@ -11,7 +12,7 @@ object Taxonomies {
   }
   
   def computeDtsGraph(entrypointPath: String): DtsGraph = {
-    val entrypointUri = new URI(s"http://$entrypointPath")
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
     val taxo = dtsCollection.findEntrypointDtsAsTaxonomy(entrypointUri)
     DtsGraph.computeGraph(taxo, entrypointUri)
   }

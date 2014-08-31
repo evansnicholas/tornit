@@ -10,7 +10,7 @@ GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 GET /entrypoints                    controllers.Application.listEntrypoints
 
-GET /dtsGraph/*entrypointPath       controllers.Application.computeDtsGraph(entrypointPath)
+GET /dtsGraph                       controllers.Application.computeDtsGraph(uri)
 
 GET /presentationViewer             controllers.Application.presentationViewer
 

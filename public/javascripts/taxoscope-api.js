@@ -33,8 +33,6 @@ var TaxoscopeApi = {
   },
 
   getDtsGraph: function(entrypointUri) {
-    var entrypointPath = entrypointUri.substring(7)
-    var url = "/dtsGraph/" + entrypointPath
      
     function processDtsGraph( json ) {
       function processNode( node ) {
@@ -53,9 +51,12 @@ var TaxoscopeApi = {
 
 
     $.ajax({
-      url: url,
+      url: "dtsGraph",
       type: "GET",
       dataType : "json",
+      data: {
+        uri: encodeURI(entrypointUri)
+      },
 
       success: function( json ) {
         var myItems = [];
