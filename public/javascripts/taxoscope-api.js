@@ -62,7 +62,8 @@ var TaxoscopeApi = {
         var myItems = [];
         var resultsDiv = $( "#dts-graph-result" );
         resultsDiv.html( "" );
-        resultsDiv.append( processDtsGraph( json ) );
+        //resultsDiv.append( processDtsGraph( json ) );
+        Viz.displayDtsGraph( json, "#dts-graph-result" );
       },
 
       error: function( xhr, status, errorThrown ) {
