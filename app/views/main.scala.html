@@ -1,4 +1,4 @@
-@(title: String)(content: Html)
+@(title: String)
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,13 +11,16 @@
     <title>@title</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="@routes.Assets.at("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <link href="@routes.Assets.at("bower_components/bootstrap/dist/css/bootstrap.min.css")" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="@routes.Assets.at("stylesheets/dashboard.css")" rel="stylesheet">
 
     <!-- Styles needed for d3 visualization -->
     <link href="@routes.Assets.at("stylesheets/viz-sheets/viz.css")" rel="stylesheet">
+    
+    <!-- Styles for typeahead -->
+    <link href="@routes.Assets.at("stylesheets/typeahead.css")" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,15 +43,18 @@
           <a class="navbar-brand" href="#">Taxoscope</a>
         </div>
         <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-left" >
+            <div id="entrypoint-select">
+              <input type="text" class="form-control typeahead" placeholder="Find entrypoint...">
+            </div>
+          </form>
           <ul class="nav navbar-nav navbar-right">
+            <li><p class="navbar-text" id="selected-entrypoint"></p></li>
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Settings</a></li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Help</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
         </div>
       </div>
     </div>
@@ -57,17 +63,16 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="/dtsGraph">DTS Graph</a></li>
-            <li><a href="/presentationViewer">Presentation Viewer</a></li>
-            <li><a href="/dimensionViewer">Dimensions Viewer</a></li>
+            <li class="active"><a href="#" onclick="TaxoscopeApi.loadDtsGraphPage()" >DTS Graph</a></li>
+            <li><a href="#" onclick="TaxoscopeApi.loadPresentationViewerPage()">Presentation Viewer</a></li>
+            <li><a href="#">Dimensions Viewer</a></li>
           </ul>
           <ul class="nav nav-sidebar">
           </ul>
           <ul class="nav nav-sidebar">
           </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          @content
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="content">
         </div>
       </div>
     </div>
@@ -75,11 +80,12 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="@routes.Assets.at("javascripts/bootstrap.min.js")"></script>
+    <script src="@routes.Assets.at("bower_components/jquery/dist/jquery.min.js")"></script>
+    <script src="@routes.Assets.at("bower_components/bootstrap/dist/js/bootstrap.min.js")"></script>
+    <script src="@routes.Assets.at("bower_components/typeahead.js/dist/typeahead.bundle.min.js")"></script>
     <script src="@routes.Assets.at("javascripts/taxoscope-api.js")"></script>
     <script src="@routes.Assets.at("javascripts/taxoscope.js")"></script>
-    <script src="http://d3js.org/d3.v3.min.js"></script>    
+    <script src="@routes.Assets.at("bower_components/d3/d3.min.js")"></script>    
     <script src="@routes.Assets.at("javascripts/viz.js")"></script>
   </body>
 </html>

@@ -1,3 +1,3 @@
 $( document ).ready(function() {
-  TaxoscopeApi.getEntrypointsList();
+  TaxoscopeApi.initializeTypeahead();
 });

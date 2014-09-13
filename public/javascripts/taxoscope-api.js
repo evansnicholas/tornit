@@ -4,34 +4,6 @@ var TaxoscopeApi = {
     alert(text);
   },
 
-  getEntrypointsList: function() {
-    $.ajax({
-      url: "/entrypoints",
-      type: "GET",
-      dataType : "json",
-
-      success: function( json ) {
-        var myItems = [];
-        var myList = $( "#entrypointsList" );
-        for ( var i = 0; i < json.length; i++ ) {
-          var uri = json[i].uri
-          myItems.push( "<li onclick=\"TaxoscopeApi.getDtsGraph(" + "\'" + uri + "\'" + ")\"><a href=\"#\">" + uri + "</a></li>" );
-        }
-        myList.append( myItems.join( "" ) );
-      },
-
-      error: function( xhr, status, errorThrown ) {
-        alert( "Sorry, there was a problem!" );
-        console.log( "Error: " + errorThrown );
-        console.log( "Status: " + status );
-        console.dir( xhr );
-      },
-      // code to run regardless of success or failure
-      complete: function( xhr, status ) {
-      }
-    });
-  },
-
   getDtsGraph: function(entrypointUri) {
      
     function processDtsGraph( json ) {
@@ -76,6 +48,44 @@ var TaxoscopeApi = {
       complete: function( xhr, status ) {
       }
     });
+  },
+
+  initializeTypeahead:  function() {
+    var entrypoints = new Bloodhound({
+      datumTokenizer: Bloodhound.tokenizers.obj.whitespace('uri'),
+      queryTokenizer: Bloodhound.tokenizers.whitespace,
+      remote: '/entrypoints?query=%QUERY'
+    });   
+       
+    entrypoints.initialize();
+
+    $('#entrypoint-select .typeahead')
+      .typeahead({
+        minLength: 1,
+        highlight: true,
+      },
+      {
+        name: 'entrypoints',
+        displayKey: 'uri',
+        source: entrypoints.ttAdapter() 
+      })
+      .on("typeahead:selected", function( event, sug, data ) {
+        TaxoscopeApi.getDtsGraph(sug.uri);
+        $('#selected-entrypoint').html(sug.uri);
+        $('.typeahead').typeahead('val', 'Find entrypoint...');
+      });
+  },
+
+  loadDtsGraphPage: function() {
+    $("#content").html('<h1 class="page-header">DTS Graph</h1><div id="dts-graph-result"></div>');
+    var selectedEntrypoint = $("#selected-entrypoint").text();
+    if (selectedEntrypoint.length > 0) {
+     TaxoscopeApi.getDtsGraph(selectedEntrypoint);
+    }
+  },
+
+  loadPresentationViewerPage: function() {
+    $("#content").html('<h1 class="page-header">Presentation Viewer</h1><div id="presentation-viewer"></div>');
   }
 
 };

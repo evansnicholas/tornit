@@ -9,24 +9,12 @@ import play.api.libs.functional.syntax._
 
 object Application extends Controller {
 
-  def index = Action {
-    Ok(views.html.index("Your new application is ready."))
+  def main = Action {
+    Ok(views.html.main("Taxoscope"))
   }
   
-  def dtsGraph = Action {
-    Ok(views.html.dtsgraph())
-  }
-  
-  def presentationViewer = Action {
-    Ok(views.html.presentationviewer())
-  }
-  
-  def dimensionViewer = Action {
-    Ok(views.html.dimensionviewer())
-  }
-  
-  def listEntrypoints = Action {
-    val json = Json.toJson(Taxonomies.listEntrypoints)
+  def listEntrypoints(query: String) = Action {
+    val json = Json.toJson(Taxonomies.listEntrypoints(query))
     Ok(json)
   }
   
