@@ -72,7 +72,7 @@ var TaxoscopeApi = {
       .on("typeahead:selected", function( event, sug, data ) {
         TaxoscopeApi.getDtsGraph(sug.uri);
         $('#selected-entrypoint').html(sug.uri);
-        $('.typeahead').typeahead('val', 'Find entrypoint...');
+        $('.typeahead').typeahead('val', '');
       });
   },
 
