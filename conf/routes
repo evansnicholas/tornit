@@ -11,3 +11,5 @@ GET     /assets/*file               controllers.Assets.at(path="/public", file)
 GET /entrypoints                    controllers.Application.listEntrypoints(query)
 
 GET /dtsGraph                       controllers.Application.computeDtsGraph(uri)
+
+GET /concepts                       controllers.Application.listConcepts(uri, query)

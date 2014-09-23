@@ -4,7 +4,7 @@ import play.api._
 import play.api.mvc._
 import java.net.URI
 import play.api.libs.json._
-import model.{ Entrypoint, Taxonomies, DtsGraph }
+import model.{ Entrypoint, Taxonomies, DtsGraph, Concept }
 import play.api.libs.functional.syntax._
 
 object Application extends Controller {
@@ -20,6 +20,17 @@ object Application extends Controller {
   
   implicit val entrypointWrites: Writes[Entrypoint] = 
     ((JsPath \ "uri").write[String].contramap((f: Entrypoint) => f.uri)) 
+    
+  def listConcepts(entrypointPath: String, query: String) = Action {
+    val json = Json.toJson(Taxonomies.listConcepts(entrypointPath, query))
+    Ok(json)
+  } 
+  
+  implicit val conceptWrites: Writes[Concept] = (
+    (JsPath \ "namespace").write[String] and
+    (JsPath \ "localPart").write[String] and 
+    (JsPath \ "conceptType").write[String]
+  )(unlift(Concept.unapply))
     
   def computeDtsGraph(entrypointPath: String) = Action {
     val json = Json.toJson(Taxonomies.computeDtsGraph(entrypointPath))
