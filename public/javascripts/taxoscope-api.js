@@ -4,6 +4,20 @@ var TaxoscopeApi = {
     alert(text);
   },
 
+  getSelectedEntrypoint: function() {
+    var selectedEntrypoint = $("#selected-entrypoint").text();
+    return selectedEntrypoint;
+  },
+
+  doForSelectedEntrypoint: function( action ) {
+    var selectedEntrypoint = TaxoscopeApi.getSelectedEntrypoint();
+    if (selectedEntrypoint.length === 0) 
+      alert("No entrypoint selected!");
+    else {
+      action(selectedEntrypoint);
+    }
+  },
+
   getDtsGraph: function(entrypointUri) {
      
     function processDtsGraph( json ) {
@@ -34,7 +48,6 @@ var TaxoscopeApi = {
         var myItems = [];
         var resultsDiv = $( "#dts-graph-result" );
         resultsDiv.html( "" );
-        //resultsDiv.append( processDtsGraph( json ) );
         Viz.displayDtsGraph( json, "#dts-graph-result" );
       },
 
@@ -54,7 +67,7 @@ var TaxoscopeApi = {
     var entrypoints = new Bloodhound({
       datumTokenizer: Bloodhound.tokenizers.obj.whitespace('uri'),
       queryTokenizer: Bloodhound.tokenizers.whitespace,
-      remote: '/entrypoints?query=%QUERY'
+      remote: '/entrypoints?uri=%QUERY'
     });   
        
     entrypoints.initialize();
@@ -70,22 +83,51 @@ var TaxoscopeApi = {
         source: entrypoints.ttAdapter() 
       })
       .on("typeahead:selected", function( event, sug, data ) {
-        TaxoscopeApi.getDtsGraph(sug.uri);
         $('#selected-entrypoint').html(sug.uri);
         $('.typeahead').typeahead('val', '');
+        $('#content').html("");
+      });
+  },
+
+  initializeConceptTypeahead:  function( uri ) {
+    var concepts = new Bloodhound({
+      datumTokenizer: Bloodhound.tokenizers.obj.whitespace('localPart'),
+      queryTokenizer: Bloodhound.tokenizers.whitespace,
+      remote: '/concepts?uri='+ uri + '&concept=%QUERY'
+    });   
+       
+    concepts.initialize();
+
+    $('#concept-select .typeahead')
+      .typeahead({
+        minLength: 3,
+        highlight: true,
+      },
+      {
+        name: 'concepts',
+        displayKey: 'localPart',
+        source: concepts.ttAdapter() 
+      })
+      .on("typeahead:selected", function( event, sug, data ) {
+         console.log(sug);
+         $('.typeahead').typeahead('val', '');
+         
       });
   },
 
   loadDtsGraphPage: function() {
     $("#content").html('<h1 class="page-header">DTS Graph</h1><div id="dts-graph-result"></div>');
-    var selectedEntrypoint = $("#selected-entrypoint").text();
-    if (selectedEntrypoint.length > 0) {
-     TaxoscopeApi.getDtsGraph(selectedEntrypoint);
-    }
+    TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getDtsGraph(uri); });
   },
 
   loadPresentationViewerPage: function() {
     $("#content").html('<h1 class="page-header">Presentation Viewer</h1><div id="presentation-viewer"></div>');
+  },
+
+  loadConceptViewerPage: function() {
+    $("#content").load('/assets/html/concept-viewer.html', function() {
+      TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.initializeConceptTypeahead( uri ); });
+    });
   }
 
 };
