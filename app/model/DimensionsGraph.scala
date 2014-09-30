@@ -6,7 +6,7 @@ import eu.cdevreeze.yaidom.EName
 import nl.ebpi.tqa.dimensionaware.DimensionalPathQueryApi
 import nl.ebpi.tqa.model.dimensions.Primary
 
-case class DimensionalGraphNode(concept: String, children: Iterable[DimensionalGraphNode])
+case class DimensionalGraphNode(concept: String, children: IndexedSeq[DimensionalGraphNode])
 
 case class DimensionsGraph(elr: String, graph: DimensionalGraphNode)
 
@@ -21,9 +21,9 @@ object DimensionsGraph {
             val memberNodes = members map { case mem => DimensionalGraphNode(mem.conceptDeclaration.targetEName.toString, IndexedSeq.empty[DimensionalGraphNode]) }
             DimensionalGraphNode(dimension.toString, memberNodes)
           }
-          DimensionalGraphNode(hypercube.conceptDeclaration.targetEName.toString, dimensionNodes)
+          DimensionalGraphNode(hypercube.conceptDeclaration.targetEName.toString, dimensionNodes.toVector)
         }
-        val conceptNode = DimensionalGraphNode(conceptEName.toString, hypercubeNodes)
+        val conceptNode = DimensionalGraphNode(conceptEName.toString, hypercubeNodes.toVector)
         DimensionsGraph(elr, conceptNode)   
     }
     graphs

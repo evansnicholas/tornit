@@ -4,8 +4,9 @@ import play.api._
 import play.api.mvc._
 import java.net.URI
 import play.api.libs.json._
-import model.{ Entrypoint, Taxonomies, DtsGraph, Concept }
+import model.{ Entrypoint, Taxonomies, DtsGraph, Concept, DimensionsGraph, DimensionalGraphNode }
 import play.api.libs.functional.syntax._
+import eu.cdevreeze.yaidom.EName
 
 object Application extends Controller {
 
@@ -41,5 +42,22 @@ object Application extends Controller {
     (JsPath \ "uri").write[String] and
     (JsPath \ "children").lazyWrite(Writes.seq[DtsGraph](dtsGraphWrites))
   )(unlift(DtsGraph.unapply))
+  
+  def computeDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String) = Action {
+    val conceptEName = EName(namespace, localPart)
+    val json = Json.toJson(Taxonomies.computeDimensionalGraphs(entrypointPath, conceptEName))
+    Ok(json)
+  }
+  
+  implicit val dimGraphWrites: Writes[DimensionsGraph] = (
+    (JsPath \ "elr").write[String] and
+    (JsPath \ "graph").write[DimensionalGraphNode]
+  )(unlift(DimensionsGraph.unapply))
+  
+  implicit lazy val dimGraphNodeWrites: Writes[DimensionalGraphNode] = (
+    (JsPath \ "concept").write[String] and
+    (JsPath \ "children").lazyWrite(Writes.seq[DimensionalGraphNode](dimGraphNodeWrites))
+  )(unlift(DimensionalGraphNode.unapply))
+  
 
 }

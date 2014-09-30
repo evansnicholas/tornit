@@ -6,6 +6,7 @@ import play.api.cache.Cache
 import play.api.Logger
 import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
 import play.api.Play.current
+import eu.cdevreeze.yaidom.EName
 
 case class Entrypoint(uri: String)
 
@@ -42,5 +43,15 @@ object Taxonomies {
     }
     DtsGraph.computeGraph(rat.taxonomy, entrypointUri)
   }
+  
+  def computeDimensionalGraphs(entrypointPath: String, conceptEName: EName): List[DimensionsGraph] = {
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
+    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
+      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    }
+    DimensionsGraph.computeGraph(rat, entrypointUri, conceptEName).toList
+  }
+  
+  
   
 }
