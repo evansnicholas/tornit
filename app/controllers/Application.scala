@@ -44,8 +44,7 @@ object Application extends Controller {
   )(unlift(DtsGraph.unapply))
   
   def computeDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String) = Action {
-    val conceptEName = EName(namespace, localPart)
-    val json = Json.toJson(Taxonomies.computeDimensionalGraphs(entrypointPath, conceptEName))
+    val json = Json.toJson(Taxonomies.computeDimensionalGraphs(entrypointPath, namespace, localPart))
     Ok(json)
   }
   
@@ -55,7 +54,8 @@ object Application extends Controller {
   )(unlift(DimensionsGraph.unapply))
   
   implicit lazy val dimGraphNodeWrites: Writes[DimensionalGraphNode] = (
-    (JsPath \ "concept").write[String] and
+    (JsPath \ "namespace").write[String] and
+    (JsPath \ "localPart").write[String] and
     (JsPath \ "children").lazyWrite(Writes.seq[DimensionalGraphNode](dimGraphNodeWrites))
   )(unlift(DimensionalGraphNode.unapply))
   

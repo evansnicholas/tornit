@@ -44,11 +44,13 @@ object Taxonomies {
     DtsGraph.computeGraph(rat.taxonomy, entrypointUri)
   }
   
-  def computeDimensionalGraphs(entrypointPath: String, conceptEName: EName): List[DimensionsGraph] = {
+  def computeDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String): List[DimensionsGraph] = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
     val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
       dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
     }
+    val decodedNs = URLDecoder.decode(namespace, "UTF-8")
+    val conceptEName = EName(decodedNs, localPart)
     DimensionsGraph.computeGraph(rat, entrypointUri, conceptEName).toList
   }
   

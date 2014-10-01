@@ -13,3 +13,5 @@ GET /entrypoints                    controllers.Application.listEntrypoints(uri)
 GET /dtsGraph                       controllers.Application.computeDtsGraph(uri)
 
 GET /concepts                       controllers.Application.listConcepts(uri, concept)
+
+GET /dimensionsGraph                controllers.Application.computeDimensionalGraphs(uri, namespace, localPart)

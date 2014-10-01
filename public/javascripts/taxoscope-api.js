@@ -19,23 +19,7 @@ var TaxoscopeApi = {
   },
 
   getDtsGraph: function(entrypointUri) {
-     
-    function processDtsGraph( json ) {
-      function processNode( node ) {
-        var processedChildrenList = [];
-        for ( var i = 0; i < node.children.length; i++ ) {
-          var child = node.children[i];
-          var processedChild = processNode( child );
-          processedChildrenList.push( processedChild );
-        }
-        var processedChildren = processedChildrenList.join( "" );
-        return "<li>" + node.uri + "<ul>" + processedChildren + "</ul></li>";
-      }
-      var processedGraph = processNode( json );
-      return "<ul>"+ processedGraph + "</ul>";
-    }
-
-
+    
     $.ajax({
       url: "dtsGraph",
       type: "GET",
@@ -109,10 +93,45 @@ var TaxoscopeApi = {
         source: concepts.ttAdapter() 
       })
       .on("typeahead:selected", function( event, sug, data ) {
-         console.log(sug);
          $('.typeahead').typeahead('val', '');
-         
+         TaxoscopeApi.getDimensionGraphs( sug.namespace, sug.localPart );
       });
+  },
+
+  getDimensionGraphs: function( namespace, localPart ) {
+    TaxoscopeApi.doForSelectedEntrypoint( function( entrypointUri ) {
+      $.ajax({
+        url: "dimensionsGraph",
+        type: "GET",
+        dataType : "json",
+        data: {
+          uri: encodeURI(entrypointUri),
+          namespace: encodeURI(namespace),
+          localPart: localPart         
+        },
+
+        success: function( json ) {
+          var resultsDiv = $( "#concept-info" );
+          resultsDiv.html( "" ); 
+          _.each( json, function( element, index, list ) { 
+             var divId = "dim-graph-result-"+ index
+             resultsDiv.append("<div id='"+ divId + "' />");
+             resultsDiv.append("<h4>ELR: "+element.elr+"</h4>");
+             Viz.displayDimensionsGraph( element.graph, "#"+divId );
+          });
+        },
+
+        error: function( xhr, status, errorThrown ) {
+          alert( "Sorry, there was a problem!" );
+          console.log( "Error: " + errorThrown );
+          console.log( "Status: " + status );
+          console.dir( xhr );
+        },
+        // code to run regardless of success or failure
+        complete: function( xhr, status ) {
+        }
+      });
+    });
   },
 
   loadDtsGraphPage: function() {
