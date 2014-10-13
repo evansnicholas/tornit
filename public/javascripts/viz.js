@@ -54,7 +54,7 @@ var Viz = {
 	    .attr("dy", function(d) { return (d.depth % 2 === 0) ? -5 : 5; })
 	    .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
 	    .text(function(d) { return extractName(d.uri); })
-            .on('click', function(d){ console.log(d); });
+            .on('click', function(d){ console.log(d.uri); TaxoscopeApi.showTaxonomyDocument( d.uri ); });
   
   },
 

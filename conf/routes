@@ -15,3 +15,5 @@ GET /dtsGraph                       controllers.Application.computeDtsGraph(uri)
 GET /concepts                       controllers.Application.listConcepts(uri, concept)
 
 GET /dimensionsGraph                controllers.Application.computeDimensionalGraphs(uri, namespace, localPart)
+
+GET /taxoDoc                        controllers.Application.showTaxonomyDocument(uri, docUri)

@@ -59,5 +59,8 @@ object Application extends Controller {
     (JsPath \ "children").lazyWrite(Writes.seq[DimensionalGraphNode](dimGraphNodeWrites))
   )(unlift(DimensionalGraphNode.unapply))
   
-
+  def showTaxonomyDocument(uri: String, docUri: String) = Action {
+    val json = Taxonomies.showTaxonomyDocument(uri, docUri)
+    Ok(json)
+  }
 }

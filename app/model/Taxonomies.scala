@@ -8,6 +8,8 @@ import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
 import play.api.Play.current
 import eu.cdevreeze.yaidom.EName
 
+import utils.Utils
+
 case class Entrypoint(uri: String)
 
 case class Concept(namespace: String, localPart: String, conceptType: String)
@@ -54,6 +56,15 @@ object Taxonomies {
     DimensionsGraph.computeGraph(rat, entrypointUri, conceptEName).toList
   }
   
+  def showTaxonomyDocument(entrypointPath: String, docUriString: String): String = {
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
+    val docUri = new URI(URLDecoder.decode(docUriString, "UTF-8"))
+    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
+      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    }
+    val doc = rat.taxonomy.taxonomyDocsByUri(docUri).doc.document
+    Utils.docPrinter.print(doc)
+  }
   
   
 }

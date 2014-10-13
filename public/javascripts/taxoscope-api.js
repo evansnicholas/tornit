@@ -134,6 +134,42 @@ var TaxoscopeApi = {
     });
   },
 
+  getTaxoDoc: function( entrypointUri, docUri ) {
+    
+    $.ajax({
+      url: "taxoDoc",
+      type: "GET",
+      dataType : "text",
+      data: {
+        uri: encodeURI(entrypointUri),
+        docUri: encodeURI(docUri)
+      },
+
+      success: function( json ) {
+        var resultsDiv = $( "#doc-display pre code" );
+        resultsDiv.text( json );
+        resultsDiv.each(function(i, block){
+         hljs.highlightBlock(this);
+        });
+      },
+
+      error: function( xhr, status, errorThrown ) {
+        alert( "Sorry, there was a problem!" );
+        console.log( "Error: " + errorThrown );
+        console.log( "Status: " + status );
+        console.dir( xhr );
+      },
+      // code to run regardless of success or failure
+      complete: function( xhr, status ) {
+      }
+    });
+  },
+
+  showTaxonomyDocument: function( docUri ) {
+    $("#content").html('<h1 class="page-header">Doc Viewer</h1><div id="doc-display"><pre><code></code></pre></div>');
+    TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getTaxoDoc(uri, docUri); });
+  },
+
   loadDtsGraphPage: function() {
     $("#content").html('<h1 class="page-header">DTS Graph</h1><div id="dts-graph-result"></div>');
     TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getDtsGraph(uri); });
