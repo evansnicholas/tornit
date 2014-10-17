@@ -56,6 +56,14 @@ object Taxonomies {
     DimensionsGraph.computeGraph(rat, entrypointUri, conceptEName).toList
   }
   
+  def computePresentationTree(entrypointPath: String): List[PresentationELR] = {
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
+    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
+      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    }
+    PresentationTree.createPresentationTree(rat)
+  }
+  
   def showTaxonomyDocument(entrypointPath: String, docUriString: String): String = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
     val docUri = new URI(URLDecoder.decode(docUriString, "UTF-8"))

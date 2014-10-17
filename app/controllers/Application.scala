@@ -4,7 +4,7 @@ import play.api._
 import play.api.mvc._
 import java.net.URI
 import play.api.libs.json._
-import model.{ Entrypoint, Taxonomies, DtsGraph, Concept, DimensionsGraph, DimensionalGraphNode }
+import model._
 import play.api.libs.functional.syntax._
 import eu.cdevreeze.yaidom.EName
 
@@ -58,6 +58,33 @@ object Application extends Controller {
     (JsPath \ "localPart").write[String] and
     (JsPath \ "children").lazyWrite(Writes.seq[DimensionalGraphNode](dimGraphNodeWrites))
   )(unlift(DimensionalGraphNode.unapply))
+  
+  def computePresentationTree(entrypointPath: String) = Action {
+    val json = Json.toJson(Taxonomies.computePresentationTree(entrypointPath))
+    Ok(json)
+  }
+  
+  implicit lazy val presentationNodeWrites: Writes[PresentationNode] = (
+    (JsPath \ "concept").write[PresentationConcept] and
+    (JsPath \ "children").lazyWrite(Writes.seq[PresentationNode](presentationNodeWrites))
+  )(unlift(PresentationNode.unapply))
+  
+  implicit val presentationElrWrites: Writes[PresentationELR] = (
+    (JsPath \ "elr").write[String] and
+    (JsPath \ "roots").lazyWrite(Writes.seq[PresentationNode](presentationNodeWrites))
+  )(unlift(PresentationELR.unapply))
+  
+  implicit lazy val labelWrites: Writes[Label] = ( 
+    (JsPath \ "role").write[String] and 
+    (JsPath \ "language").write[String] and 
+    (JsPath \ "text").write[String] 
+  )(unlift(Label.unapply))
+  
+  implicit val presentationConceptWrites: Writes[PresentationConcept] = (
+    (JsPath \ "ename").write[String] and 
+    (JsPath \ "labels").lazyWrite(Writes.seq[Label](labelWrites))
+  )(unlift(PresentationConcept.unapply))
+  
   
   def showTaxonomyDocument(uri: String, docUri: String) = Action {
     val json = Taxonomies.showTaxonomyDocument(uri, docUri)

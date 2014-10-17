@@ -17,3 +17,5 @@ GET /concepts                       controllers.Application.listConcepts(uri, co
 GET /dimensionsGraph                controllers.Application.computeDimensionalGraphs(uri, namespace, localPart)
 
 GET /taxoDoc                        controllers.Application.showTaxonomyDocument(uri, docUri)
+
+GET /presentationTree               controllers.Application.computePresentationTree(uri)
