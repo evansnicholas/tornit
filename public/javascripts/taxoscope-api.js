@@ -165,6 +165,32 @@ var TaxoscopeApi = {
     });
   },
 
+  getPresentationTree: function( entrypointUri ) {
+    
+    $.ajax({
+      url: "presentationTree",
+      type: "GET",
+      dataType : "json",
+      data: {
+        uri: encodeURI(entrypointUri)
+      },
+
+      success: function( json ) {
+        Viz.displayPresentationTree( json, "#presentation-display" ); 
+      },
+
+      error: function( xhr, status, errorThrown ) {
+        alert( "Sorry, there was a problem!" );
+        console.log( "Error: " + errorThrown );
+        console.log( "Status: " + status );
+        console.dir( xhr );
+      },
+      // code to run regardless of success or failure
+      complete: function( xhr, status ) {
+      }
+    });
+  },
+
   showTaxonomyDocument: function( docUri ) {
     $("#content").html('<h1 class="page-header">Doc Viewer</h1><div id="doc-display"><pre><code></code></pre></div>');
     TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getTaxoDoc(uri, docUri); });
@@ -176,7 +202,9 @@ var TaxoscopeApi = {
   },
 
   loadPresentationViewerPage: function() {
-    $("#content").html('<h1 class="page-header">Presentation Viewer</h1><div id="presentation-viewer"></div>');
+    $("#content").load('/assets/html/presentation-viewer.html', function() {
+      TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getPresentationTree( uri ); });
+    });
   },
 
   loadConceptViewerPage: function() {
