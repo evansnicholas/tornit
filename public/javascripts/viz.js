@@ -116,21 +116,24 @@ var Viz = {
      var xPos = index*40;
      element["x"] = xPos;
      element["y"] = 0;
-   }); 
+   });
 
-   console.log(positionedElrs);
-
+   var firstElr = json[0]; 
+   var positionedConcepts = new Array();
+   var totalConcepts = Viz.positionConcepts(firstElr.roots, 0, 0, positionedConcepts);
+   var height = totalConcepts * 15
+ 
    var svg = d3.select( container ).append("svg")
          .attr("width", "500")
-         .attr("height", "1000")
+         .attr("height", height)
          .append("g")
          .attr("transform", "translate(10,20)");
 
    var node = svg.selectAll("g.node")
-	    .data(json)
+	    .data(positionedConcepts)
 	    .enter().append("g")
 	    .attr("class", "node")
-            .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+            .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 	   
 	
     node.append("circle")
@@ -140,62 +143,26 @@ var Viz = {
 	    .attr("dx", function(d) { return 7; })
 	    .attr("dy", function(d) { return 3; })
 	    .attr("text-anchor", "start")
-	    .text(function(d) { return d.elr; })
+	    .text(function(d) { return d.concept.ename; })
             .on('click', function(d){ console.log(d); });
-
-    node.each(Viz.appendRoots);
-
+   
   },
 
-  appendRoots: function( d, i ){
-    
-    var root = d3.select(this);
-                  
-    var rootNode = root.selectAll("g.node").data(d.roots).enter()
-            .append("circle")
-	    .attr("r", 4.5)
-            .attr("cx", 15)
-            .attr("cy", i * 15 + 15);
-	
-    rootNode.append("text")
-	    .attr("dx", function(d) { return 21; })
-	    .attr("dy", function(d) { return i*18 + 18; })
-	    .attr("text-anchor", "start")
-	    .text(function(d) { return d.concept.ename; })
-            .on('click', function(d){ console.log(d); });      
-
-    var positionedChildren = new Array();
-    Viz.positionChildren(d.roots[0].children, 2, positionedChildren);
-    console.log(positionedChildren);
-
-    var child = root.selectAll("g.node").data(positionedChildren).enter()
-        .append("g")
-	.attr("class", "node")
-        .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-      
-    child.append("circle")
-	    .attr("r", 4.5)
-            .attr("cx", 15)
-            .attr("cy", 15);
-	    
-    child.append("text")
-	    .attr("dx", function(d) { return 21; })
-	    .attr("dy", function(d) { return 18; })
-	    .attr("text-anchor", "start")
-	    .text(function(d) { return d.concept.ename; })
-            .on('click', function(d){ console.log(d); }); 
-  },
-
-  positionChildren: function( children, depth, accumulatedChildren ) {
-   var seenChildren = accumulatedChildren.length; 
-   _.each(children, function( element, index, list ){
+  positionConcepts: function( concepts, depth, totalSeenConcepts, accumulatedConcepts ) {
+   function positionConcept( memo, element, index, list){
      var xPos = depth*15;
-     var yPos = seenChildren + (index*50);
+     var yPos = memo*15;
      element["x"] = xPos;
      element["y"] = yPos;
-     accumulatedChildren.push(element);
-     Viz.positionChildren(element.children, depth + 1, accumulatedChildren);
-   });
+     accumulatedConcepts.push(element);
+     var totalSeenConcepts = Viz.positionConcepts(element.children, depth + 1, memo + 1, accumulatedConcepts);
+     console.log("subtotal " + totalSeenConcepts);
+     return totalSeenConcepts;
+   }
+ 
+   var additionalConcepts = _.reduce(concepts, positionConcept, totalSeenConcepts);   
+
+   return additionalConcepts; 
   }
-  
+
 };
