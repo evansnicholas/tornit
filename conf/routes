@@ -18,4 +18,6 @@ GET /dimensionsGraph                controllers.Application.computeDimensionalGr
 
 GET /taxoDoc                        controllers.Application.showTaxonomyDocument(uri, docUri)
 
-GET /presentationTree               controllers.Application.computePresentationTree(uri)
+GET /presentationElrs               controllers.Application.listPresentationElrs(uri)
+
+GET /presentationTree               controllers.Application.computePresentationTree(uri, elr)

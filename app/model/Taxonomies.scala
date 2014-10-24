@@ -4,8 +4,11 @@ import java.net.URI
 import java.net.URLDecoder
 import play.api.cache.Cache
 import play.api.Logger
-import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
 import play.api.Play.current
+
+import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
+import nl.ebpi.tqa.model.relationship.ParentChildRelationship
+
 import eu.cdevreeze.yaidom.EName
 
 import utils.Utils
@@ -38,6 +41,14 @@ object Taxonomies {
     (items ++ tuples).toList filter { case Concept(_, lp, _) => lp.startsWith(query) }
   }
   
+  def listPresentationElrs(entrypointPath: String): List[String] = {
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
+    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
+      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    }
+    rat.findRelationships[ParentChildRelationship].map(_.extendedLinkRole).distinct.toList
+  }
+  
   def computeDtsGraph(entrypointPath: String): DtsGraph = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
     val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
@@ -56,12 +67,12 @@ object Taxonomies {
     DimensionsGraph.computeGraph(rat, entrypointUri, conceptEName).toList
   }
   
-  def computePresentationTree(entrypointPath: String): List[PresentationELR] = {
+  def computePresentationTree(entrypointPath: String, elr: String): PresentationELR = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
     val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
       dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
     }
-    PresentationTree.createPresentationTree(rat)
+    PresentationTree.createPresentationTree(rat, elr)
   }
   
   def showTaxonomyDocument(entrypointPath: String, docUriString: String): String = {

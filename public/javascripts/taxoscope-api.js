@@ -165,17 +165,54 @@ var TaxoscopeApi = {
     });
   },
 
-  getPresentationTree: function( entrypointUri ) {
+  getPresentationElrs: function( entrypointUri ) {
     
     $.ajax({
-      url: "presentationTree",
+      url: "presentationElrs",
       type: "GET",
       dataType : "json",
       data: {
         uri: encodeURI(entrypointUri)
       },
 
+      success: function( elrs ) {
+        var elrBtns = $("#presentation-elrs");
+        _.each(elrs, function( element, index, list ) {
+          var btn = "<li><a href=\"#\" class=\"elr-selector\">" + element + "</a></li>";
+          elrBtns.append(btn)
+          });
+         $(".elr-selector").click(function(){
+            var elr = $( this ).text();
+            TaxoscopeApi.doForSelectedEntrypoint(function( uri ) { TaxoscopeApi.getPresentationTree( uri, elr ) });
+        });
+      },
+
+      error: function( xhr, status, errorThrown ) {
+        alert( "Sorry, there was a problem!" );
+        console.log( "Error: " + errorThrown );
+        console.log( "Status: " + status );
+        console.dir( xhr );
+      },
+      // code to run regardless of success or failure
+      complete: function( xhr, status ) {
+      }
+    });
+  },
+
+  getPresentationTree: function( entrypointUri, elr ) {
+    
+    $.ajax({
+      url: "presentationTree",
+      type: "GET",
+      dataType : "json",
+      data: {
+        uri: encodeURI(entrypointUri),
+        elr: elr
+      },
+
       success: function( json ) {
+        $("#selected-elr").text(elr);
+        $("#presentation-display").html("");
         Viz.displayPresentationTree( json, "#presentation-display" ); 
       },
 
@@ -203,7 +240,7 @@ var TaxoscopeApi = {
 
   loadPresentationViewerPage: function() {
     $("#content").load('/assets/html/presentation-viewer.html', function() {
-      TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getPresentationTree( uri ); });
+      TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getPresentationElrs( uri ); });
     });
   },
 

@@ -11,18 +11,11 @@ case class Label(role: String, language: String, text: String)
 
 object PresentationTree {
   
-  def createPresentationTree(rat: RelationshipAwareTaxonomy): List[PresentationELR] = {
-    val parentChildRelsByElr = rat.findRelationships[ParentChildRelationship] groupBy { _.extendedLinkRole }
-    (parentChildRelsByElr map { case (elr, rels) => processRelationshipsForElr(rat)(rels) }).toList
-  }
-  
-  /*
-   * This method assumes that all the relationships that are passed are from the same elr.
-   */
-  private def processRelationshipsForElr(rat: RelationshipAwareTaxonomy)(relationships: IndexedSeq[ParentChildRelationship]): PresentationELR = {
-    val elr = relationships.head.extendedLinkRole
-    val parentChildRelsBySource = relationships.groupBy(_.sourceConceptEName)
-    val allChildren = relationships.map(_.targetConceptEName).toSet
+  def createPresentationTree(rat: RelationshipAwareTaxonomy, elr: String): PresentationELR = {
+    val parentChildRels = rat.findRelationshipsByExtendedLinkRole[ParentChildRelationship](elr)
+    
+    val parentChildRelsBySource = parentChildRels.groupBy(_.sourceConceptEName)
+    val allChildren = parentChildRels.map(_.targetConceptEName).toSet
     val allParents = parentChildRelsBySource.keySet
     val roots = allParents diff allChildren
     

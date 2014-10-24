@@ -110,18 +110,11 @@ var Viz = {
   
   },
 
-  displayPresentationTree: function( json, container ){
-
-   var positionedElrs = _.each(json, function( element, index, list ){
-     var xPos = index*40;
-     element["x"] = xPos;
-     element["y"] = 0;
-   });
-
-   var firstElr = json[0]; 
+  displayPresentationTree: function( elrJson, container ){
+ 
    var positionedConcepts = new Array();
-   var totalConcepts = Viz.positionConcepts(firstElr.roots, 0, 0, positionedConcepts);
-   var height = totalConcepts * 15
+   var totalConcepts = Viz.positionConcepts(elrJson.roots, 0, 0, positionedConcepts);
+   var height = totalConcepts * 25;
  
    var svg = d3.select( container ).append("svg")
          .attr("width", "500")
@@ -151,12 +144,11 @@ var Viz = {
   positionConcepts: function( concepts, depth, totalSeenConcepts, accumulatedConcepts ) {
    function positionConcept( memo, element, index, list){
      var xPos = depth*15;
-     var yPos = memo*15;
+     var yPos = memo*20;
      element["x"] = xPos;
      element["y"] = yPos;
      accumulatedConcepts.push(element);
      var totalSeenConcepts = Viz.positionConcepts(element.children, depth + 1, memo + 1, accumulatedConcepts);
-     console.log("subtotal " + totalSeenConcepts);
      return totalSeenConcepts;
    }
  

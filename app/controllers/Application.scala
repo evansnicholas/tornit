@@ -33,6 +33,11 @@ object Application extends Controller {
     (JsPath \ "conceptType").write[String]
   )(unlift(Concept.unapply))
     
+  def listPresentationElrs(entrypointPath: String) = Action {
+    val json = Json.toJson(Taxonomies.listPresentationElrs(entrypointPath))
+    Ok(json)
+  }
+  
   def computeDtsGraph(entrypointPath: String) = Action {
     val json = Json.toJson(Taxonomies.computeDtsGraph(entrypointPath))
     Ok(json)
@@ -59,8 +64,8 @@ object Application extends Controller {
     (JsPath \ "children").lazyWrite(Writes.seq[DimensionalGraphNode](dimGraphNodeWrites))
   )(unlift(DimensionalGraphNode.unapply))
   
-  def computePresentationTree(entrypointPath: String) = Action {
-    val json = Json.toJson(Taxonomies.computePresentationTree(entrypointPath))
+  def computePresentationTree(entrypointPath: String, elr: String) = Action {
+    val json = Json.toJson(Taxonomies.computePresentationTree(entrypointPath, elr))
     Ok(json)
   }
   
