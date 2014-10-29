@@ -67,7 +67,7 @@ class ApplicationSpec extends Specification {
       contentAsString(conceptLabelsResult).trim must contain ("[]")
     }
 
-    "send 404 on concept labels request for non-existing entrypoint" in new WithApplication{
+    "send 400 on concept labels request for a non-existing entrypoint" in new WithApplication{
       val entrypointUri = new java.net.URI("")
       
       val conceptEName = EName("http://blah", "blah")
@@ -117,7 +117,7 @@ class ApplicationSpec extends Specification {
       contentAsString(conceptRefsResult).trim must contain ("[]")
     }
 
-    "send 404 on concept references request for non-existing entrypoint" in new WithApplication{
+    "send 400 on concept references request for a non-existing entrypoint" in new WithApplication{
       val entrypointUri = new java.net.URI("")
       
       val conceptEName = EName("http://blah", "blah")
