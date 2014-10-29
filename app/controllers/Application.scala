@@ -107,22 +107,6 @@ object Application extends Controller {
     }
   }
 
-  implicit lazy val abbreviatedReferencePartWrites = new Writes[ReferenceAbbreviatedPart] {
-    def writes(part: ReferenceAbbreviatedPart): JsObject = {
-      Json.obj(
-        "localName" -> part.partLocalName,
-        "value" -> part.partValue)
-    }
-  }
-
-  implicit lazy val abbreviatedReferenceWrites = new Writes[AbbreviatedReference] {
-    def writes(reference: AbbreviatedReference): JsObject = {
-      Json.obj(
-        "role" -> reference.role,
-        "parts" -> JsArray(reference.parts.map(p => Json.toJson(p))))
-    }
-  }
-
   def showTaxonomyDocument(uri: String, docUri: String) = Action {
     val json = Taxonomies.showTaxonomyDocument(uri, docUri)
     Ok(json)
@@ -135,11 +119,6 @@ object Application extends Controller {
 
   def findConceptReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
     val json = Json.toJson(Taxonomies.findConceptReferences(entrypointPath, conceptNamespace, conceptLocalName))
-    Ok(json)
-  }
-
-  def findConceptAbbreviatedReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
-    val json = Json.toJson(Taxonomies.findConceptAbbreviatedReferences(entrypointPath, conceptNamespace, conceptLocalName))
     Ok(json)
   }
 }

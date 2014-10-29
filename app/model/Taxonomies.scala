@@ -118,8 +118,4 @@ object Taxonomies {
       Reference(conceptRef.resourceRole, parts)
     }
   }
-
-  def findConceptAbbreviatedReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[AbbreviatedReference] = {
-    findConceptReferences(entrypointPath, conceptNamespace, conceptLocalName).map(_.abbreviate)
-  }
 }
