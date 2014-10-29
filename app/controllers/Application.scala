@@ -3,6 +3,7 @@ package controllers
 import play.api._
 import play.api.mvc._
 import java.net.URI
+import scala.util._
 import play.api.libs.json._
 import model._
 import play.api.libs.functional.syntax._
@@ -113,12 +114,20 @@ object Application extends Controller {
   }
 
   def findConceptLabels(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
-    val json = Json.toJson(Taxonomies.findConceptLabels(entrypointPath, conceptNamespace, conceptLocalName))
-    Ok(json)
+    Try {
+      Json.toJson(Taxonomies.findConceptLabels(entrypointPath, conceptNamespace, conceptLocalName))
+    } match {
+      case Success(json) => Ok(json)
+      case Failure(t) => BadRequest(Json.obj("error" -> t.toString))
+    }
   }
 
   def findConceptReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
-    val json = Json.toJson(Taxonomies.findConceptReferences(entrypointPath, conceptNamespace, conceptLocalName))
-    Ok(json)
+    Try {
+      Json.toJson(Taxonomies.findConceptReferences(entrypointPath, conceptNamespace, conceptLocalName))
+    } match {
+      case Success(json) => Ok(json)
+      case Failure(t) => BadRequest(Json.obj("error" -> t.toString))
+    }
   }
 }
