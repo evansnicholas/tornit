@@ -89,7 +89,40 @@ object Application extends Controller {
     (JsPath \ "ename").write[String] and 
     (JsPath \ "labels").lazyWrite(Writes.seq[Label](labelWrites))
   )(unlift(PresentationConcept.unapply))
-  
+
+  implicit lazy val referencePartWrites = new Writes[ReferencePart] {
+    def writes(part: ReferencePart): JsObject = {
+      Json.obj(
+        "namespace" -> part.partNamespace,
+        "localName" -> part.partLocalName,
+        "value" -> part.partValue)
+    }
+  }
+
+  implicit lazy val referenceWrites = new Writes[Reference] {
+    def writes(reference: Reference): JsObject = {
+      Json.obj(
+        "role" -> reference.role,
+        "parts" -> JsArray(reference.parts.map(p => Json.toJson(p))))
+    }
+  }
+
+  implicit lazy val abbreviatedReferencePartWrites = new Writes[ReferenceAbbreviatedPart] {
+    def writes(part: ReferenceAbbreviatedPart): JsObject = {
+      Json.obj(
+        "localName" -> part.partLocalName,
+        "value" -> part.partValue)
+    }
+  }
+
+  implicit lazy val abbreviatedReferenceWrites = new Writes[AbbreviatedReference] {
+    def writes(reference: AbbreviatedReference): JsObject = {
+      Json.obj(
+        "role" -> reference.role,
+        "parts" -> JsArray(reference.parts.map(p => Json.toJson(p))))
+    }
+  }
+
   def showTaxonomyDocument(uri: String, docUri: String) = Action {
     val json = Taxonomies.showTaxonomyDocument(uri, docUri)
     Ok(json)
@@ -97,6 +130,16 @@ object Application extends Controller {
 
   def findConceptLabels(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
     val json = Json.toJson(Taxonomies.findConceptLabels(entrypointPath, conceptNamespace, conceptLocalName))
+    Ok(json)
+  }
+
+  def findConceptReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
+    val json = Json.toJson(Taxonomies.findConceptReferences(entrypointPath, conceptNamespace, conceptLocalName))
+    Ok(json)
+  }
+
+  def findConceptAbbreviatedReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
+    val json = Json.toJson(Taxonomies.findConceptAbbreviatedReferences(entrypointPath, conceptNamespace, conceptLocalName))
     Ok(json)
   }
 }

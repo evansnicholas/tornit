@@ -98,4 +98,28 @@ object Taxonomies {
       Label(role = conceptLabel.resourceRole, language = conceptLabel.language, text = conceptLabel.labelText)
     }
   }
+
+  def findConceptReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[Reference] = {
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
+    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString) {
+      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    }
+
+    val conceptEName = EName(conceptNamespace, conceptLocalName)
+    val conceptReferences = rat.findConceptReferencesByConcept(conceptEName)
+
+    conceptReferences.toList map { conceptRef =>
+      val parts = conceptRef.referenceElems map { partElem =>
+        ReferencePart(
+          partNamespace = partElem.resolvedName.namespaceUriOption.getOrElse(""),
+          partLocalName = partElem.resolvedName.localPart,
+          partValue = partElem.text.trim)
+      }
+      Reference(conceptRef.resourceRole, parts)
+    }
+  }
+
+  def findConceptAbbreviatedReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[AbbreviatedReference] = {
+    findConceptReferences(entrypointPath, conceptNamespace, conceptLocalName).map(_.abbreviate)
+  }
 }
