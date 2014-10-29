@@ -90,9 +90,13 @@ object Application extends Controller {
     (JsPath \ "labels").lazyWrite(Writes.seq[Label](labelWrites))
   )(unlift(PresentationConcept.unapply))
   
-  
   def showTaxonomyDocument(uri: String, docUri: String) = Action {
     val json = Taxonomies.showTaxonomyDocument(uri, docUri)
+    Ok(json)
+  }
+
+  def findConceptLabels(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
+    val json = Json.toJson(Taxonomies.findConceptLabels(entrypointPath, conceptNamespace, conceptLocalName))
     Ok(json)
   }
 }

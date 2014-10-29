@@ -21,3 +21,5 @@ GET /taxoDoc                        controllers.Application.showTaxonomyDocument
 GET /presentationElrs               controllers.Application.listPresentationElrs(uri)
 
 GET /presentationTree               controllers.Application.computePresentationTree(uri, elr)
+
+GET /concept/labels                 controllers.Application.findConceptLabels(entrypointUri, conceptNamespace, conceptLocalName)

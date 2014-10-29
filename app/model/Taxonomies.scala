@@ -84,6 +84,18 @@ object Taxonomies {
     val doc = rat.taxonomy.taxonomyDocsByUri(docUri).doc.document
     Utils.docPrinter.print(doc)
   }
-  
-  
+
+  def findConceptLabels(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[Label] = {
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
+    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString) {
+      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    }
+
+    val conceptEName = EName(conceptNamespace, conceptLocalName)
+    val conceptLabels = rat.findConceptLabelsByConcept(conceptEName)
+
+    conceptLabels.toList map { conceptLabel =>
+      Label(role = conceptLabel.resourceRole, language = conceptLabel.language, text = conceptLabel.labelText)
+    }
+  }
 }
