@@ -38,7 +38,7 @@ object Taxonomies {
         Concept(e.namespaceUriOption.getOrElse(""), e.localPart, "tuple") 
       }
     
-    (items ++ tuples).toList filter { case Concept(_, lp, _) => lp.startsWith(query) }
+    (items ++ tuples).toList.sortBy(_.localPart.size) filter { case Concept(_, lp, _) => lp.contains(query) }
   }
   
   def listPresentationElrs(entrypointPath: String): List[String] = {
