@@ -51,6 +51,7 @@ var TaxoscopeApi = {
     var entrypoints = new Bloodhound({
       datumTokenizer: Bloodhound.tokenizers.obj.whitespace('uri'),
       queryTokenizer: Bloodhound.tokenizers.whitespace,
+      limit: 15,
       remote: '/entrypoints?uri=%QUERY'
     });   
        
@@ -77,6 +78,7 @@ var TaxoscopeApi = {
     var concepts = new Bloodhound({
       datumTokenizer: Bloodhound.tokenizers.obj.whitespace('localPart'),
       queryTokenizer: Bloodhound.tokenizers.whitespace,
+      limit: 15,
       remote: '/concepts?uri='+ uri + '&concept=%QUERY'
     });   
        

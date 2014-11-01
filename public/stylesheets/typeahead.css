@@ -36,6 +36,8 @@
   margin-top: 12px;
   padding: 8px 0;
   background-color: #fff;
+  max-height: 200px;
+  overflow-y: auto;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 8px;

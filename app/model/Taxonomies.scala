@@ -19,9 +19,8 @@ case class Concept(namespace: String, localPart: String, conceptType: String)
 
 object Taxonomies {
 
-  def listEntrypoints(query: String): List[Entrypoint] = {
-    val filteredEntrypoints = dtsCollection.allEntrypointUris filter { _.toString().contains(query) }
-    (filteredEntrypoints map { u => Entrypoint(u.toString()) }).toList
+  def listEntrypoints(query: String): List[Entrypoint] = {    
+    Utils.filterWithQuery(dtsCollection.allEntrypointUris.toList)(_.toString())(query) map { u => Entrypoint(u.toString()) }
   }
   
   def listConcepts(entrypointPath: String, query:String): List[Concept] = {
@@ -38,7 +37,9 @@ object Taxonomies {
         Concept(e.namespaceUriOption.getOrElse(""), e.localPart, "tuple") 
       }
     
-    (items ++ tuples).toList.sortBy(_.localPart.size) filter { case Concept(_, lp, _) => lp.contains(query) }
+    val conceptsList = (items ++ tuples).toList.sortBy(_.localPart.size)
+    
+    Utils.filterWithQuery(conceptsList)(c => c.localPart)(query)
   }
   
   def listPresentationElrs(entrypointPath: String): List[String] = {
