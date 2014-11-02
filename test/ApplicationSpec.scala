@@ -33,9 +33,9 @@ class ApplicationSpec extends Specification {
     }
 
     "render the concept labels for a concept that has at least one label" in new WithApplication{
-      val entrypointUri = dtsCollection.allEntrypointUris.head
+      val entrypointUri = TqaTaxonomyApi.dtsCollection.allEntrypointUris.head
       
-      val dts = dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+      val dts = TqaTaxonomyApi.dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
       val dtsConceptLabels = dts.findRelationships[ConceptLabelRelationship]
       
       val conceptEName = dtsConceptLabels.head.sourceConceptEName
@@ -53,7 +53,7 @@ class ApplicationSpec extends Specification {
     }
 
     "render an empty array of concept labels for a non-existing concept" in new WithApplication{
-      val entrypointUri = dtsCollection.allEntrypointUris.head
+      val entrypointUri = TqaTaxonomyApi.dtsCollection.allEntrypointUris.head
       
       val conceptEName = EName("http://blah", "blah")
       
@@ -82,9 +82,9 @@ class ApplicationSpec extends Specification {
     }
 
     "render the concept references for a concept that has at least one reference" in new WithApplication{
-      val entrypointUri = dtsCollection.allEntrypointUris.head
+      val entrypointUri = TqaTaxonomyApi.dtsCollection.allEntrypointUris.head
       
-      val dts = dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+      val dts = TqaTaxonomyApi.dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
       val dtsConceptReferences = dts.findRelationships[ConceptReferenceRelationship]
       
       val conceptEName = dtsConceptReferences.head.sourceConceptEName
@@ -103,7 +103,7 @@ class ApplicationSpec extends Specification {
     }
 
     "render an empty array of concept references for a non-existing concept" in new WithApplication{
-      val entrypointUri = dtsCollection.allEntrypointUris.head
+      val entrypointUri = TqaTaxonomyApi.dtsCollection.allEntrypointUris.head
       
       val conceptEName = EName("http://blah", "blah")
       

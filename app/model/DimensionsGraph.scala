@@ -7,7 +7,6 @@ import nl.ebpi.tqa.dimensionaware.DimensionalPathQueryApi
 import nl.ebpi.tqa.model.dimensions.Primary
 
 case class DimensionalGraphNode(namespace: String, localPart: String, children: IndexedSeq[DimensionalGraphNode])
-
 case class DimensionsGraph(elr: String, graph: DimensionalGraphNode)
 
 object DimensionsGraph {

@@ -16,7 +16,7 @@ object Application extends Controller {
   }
   
   def listEntrypoints(query: String) = Action {
-    val json = Json.toJson(Taxonomies.listEntrypoints(query))
+    val json = Json.toJson(Taxonomies.queryEntrypointUris(query))
     Ok(json)
   }
   
