@@ -1,0 +1,14 @@
+{
+  "name": "taxoscope",
+  "version": "0.0.1",
+  "homepage": "https://github.com/evansnicholas/taxoscope",
+  "description": "An XBRL viewer.",
+  "license": "Apache",
+  "dependencies": {
+    "bootstrap": "~3.3.0",
+    "d3": "~3.4.13",
+    "highlightjs": "~8.3.0",
+    "typeahead.js": "~0.10.5",
+    "underscore": "~1.7.0"
+  }
+}
