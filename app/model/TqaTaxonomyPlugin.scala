@@ -119,7 +119,7 @@ object TqaTaxonomyApi extends TaxonomyApi {
       dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
     }
 
-    val conceptEName = EName(conceptNamespace, conceptLocalName)
+    val conceptEName = EName(URLDecoder.decode(conceptNamespace, "UTF-8"), conceptLocalName)
     val conceptLabels = rat.findConceptLabelsByConcept(conceptEName)
 
     conceptLabels.toList map { conceptLabel =>
@@ -133,7 +133,7 @@ object TqaTaxonomyApi extends TaxonomyApi {
       dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
     }
 
-    val conceptEName = EName(conceptNamespace, conceptLocalName)
+    val conceptEName = EName(URLDecoder.decode(conceptNamespace, "UTF-8"), conceptLocalName)
     val conceptReferences = rat.findConceptReferencesByConcept(conceptEName)
 
     conceptReferences.toList map { conceptRef =>

@@ -115,9 +115,9 @@ var Viz = {
    var positionedConcepts = new Array();
    var totalConcepts = Viz.positionConcepts(elrJson.roots, 0, 0, positionedConcepts);
    var height = totalConcepts * 25;
- 
+
    var svg = d3.select( container ).append("svg")
-         .attr("width", "500")
+         .attr("width", "1000")
          .attr("height", height)
          .append("g")
          .attr("transform", "translate(10,20)");
@@ -135,9 +135,12 @@ var Viz = {
     node.append("text")
 	    .attr("dx", function(d) { return 7; })
 	    .attr("dy", function(d) { return 3; })
-	    .attr("text-anchor", "start")
+	   // .attr("text-anchor", "start")
 	    .text(function(d) { return d.concept.ename; })
-            .on('click', function(d){ console.log(d); });
+            .each(function(d) { 
+              var labelHtml = Viz.formatLabelPopoverHtml(d.concept.labels);
+              $(this).popover({title: "Labels", html: true, container: "#presentation-display", content: labelHtml, placement: "right", trigger: "click" }); 
+            });
    
   },
 
@@ -152,9 +155,21 @@ var Viz = {
      return totalSeenConcepts;
    }
  
-   var additionalConcepts = _.reduce(concepts, positionConcept, totalSeenConcepts);   
+   var placedConceptsCount = _.reduce(concepts, positionConcept, totalSeenConcepts);   
 
-   return additionalConcepts; 
+   return placedConceptsCount; 
+  },
+
+  formatLabelPopoverHtml: function( labels ) {
+    var formattedLabels = _.map(labels, function(label, key, list) {
+      return "<dl><dt>Language</dt><dd>"+ label.language + "</dd><dt>Role</dt><dd>" + label.role + "</dd><dt>Text</dt><dd>" + label.text + "</dd></dl>";
+    });
+    
+    var labelHtml = _.reduce(formattedLabels, function(memo, value, index, list) {
+      return memo + "<hr/>" + value;
+    });
+   
+    return labelHtml;
   }
 
 };

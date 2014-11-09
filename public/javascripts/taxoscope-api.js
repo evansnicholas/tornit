@@ -4,9 +4,20 @@ var TaxoscopeApi = {
     alert(text);
   },
 
+  setActiveListItem: function( listSelector, listItemSelector) {
+    $(listSelector + " > li").removeClass("active");
+    $(listItemSelector).addClass("active");
+  },
+
   getSelectedEntrypoint: function() {
-    var selectedEntrypoint = $("#selected-entrypoint").text();
+    var selectedEntrypoint = $("#selected-entrypoint").text().trim();
     return selectedEntrypoint;
+  },
+
+  getSelectedConcept: function() {
+    var namespace = $("#selected-concept-namespace").text().trim();
+    var localPart = $("#selected-concept-localPart").text().trim();
+    return { namespace: namespace, localPart: localPart };
   },
 
   doForSelectedEntrypoint: function( action ) {
@@ -16,6 +27,16 @@ var TaxoscopeApi = {
     else {
       action(selectedEntrypoint);
     }
+  },
+
+  doForSelectedConcept: function( action ) {
+    var selectedConcept = TaxoscopeApi.getSelectedConcept();
+    if (selectedConcept.localPart.length > 0)
+      TaxoscopeApi.doForSelectedEntrypoint(function( uri ) { 
+        action(uri, selectedConcept);
+      });
+    else 
+      alert("No concept selected!");
   },
 
   getDtsGraph: function(entrypointUri) {
@@ -96,43 +117,42 @@ var TaxoscopeApi = {
       })
       .on("typeahead:selected", function( event, sug, data ) {
          $('.typeahead').typeahead('val', '');
-         TaxoscopeApi.getDimensionGraphs( sug.namespace, sug.localPart );
+         $("#concept-header").html("<h1><span id=\"selected-concept-localPart\">" + sug.localPart + " </span><small><span id=\"selected-concept-namespace\">" + sug.namespace + "</span></small></h1>");
+         $("#concept-info").html("");
       });
   },
 
-  getDimensionGraphs: function( namespace, localPart ) {
-    TaxoscopeApi.doForSelectedEntrypoint( function( entrypointUri ) {
-      $.ajax({
-        url: "dimensionsGraph",
-        type: "GET",
-        dataType : "json",
-        data: {
-          uri: encodeURI(entrypointUri),
-          namespace: encodeURI(namespace),
-          localPart: localPart         
-        },
+  getDimensionGraphs: function( uri, concept ) {
+    $.ajax({
+      url: "dimensionsGraph",
+      type: "GET",
+      dataType : "json",
+      data: {
+        uri: encodeURI(uri),
+        namespace: encodeURI(concept.namespace),
+        localPart: concept.localPart         
+      },
 
-        success: function( json ) {
-          var resultsDiv = $( "#concept-info" );
-          resultsDiv.html( "" ); 
-          _.each( json, function( element, index, list ) { 
-             var divId = "dim-graph-result-"+ index
-             resultsDiv.append("<div id='"+ divId + "' />");
-             resultsDiv.append("<h4>ELR: "+element.elr+"</h4>");
-             Viz.displayDimensionsGraph( element.graph, "#"+divId );
-          });
-        },
+      success: function( json ) {
+        var resultsDiv = $( "#concept-info" );
+        resultsDiv.html( "" ); 
+        _.each( json, function( element, index, list ) { 
+           var divId = "dim-graph-result-"+ index
+           resultsDiv.append("<div id='"+ divId + "' />");
+           resultsDiv.append("<h4>ELR: "+element.elr+"</h4>");
+           Viz.displayDimensionsGraph( element.graph, "#"+divId );
+        });
+      },
 
-        error: function( xhr, status, errorThrown ) {
-          alert( "Sorry, there was a problem!" );
-          console.log( "Error: " + errorThrown );
-          console.log( "Status: " + status );
-          console.dir( xhr );
-        },
-        // code to run regardless of success or failure
-        complete: function( xhr, status ) {
-        }
-      });
+      error: function( xhr, status, errorThrown ) {
+        alert( "Sorry, there was a problem!" );
+        console.log( "Error: " + errorThrown );
+        console.log( "Status: " + status );
+        console.dir( xhr );
+      },
+      // code to run regardless of success or failure
+      complete: function( xhr, status ) {
+      }
     });
   },
 
@@ -202,7 +222,6 @@ var TaxoscopeApi = {
   },
 
   getPresentationTree: function( entrypointUri, elr ) {
-    
     $.ajax({
       url: "presentationTree",
       type: "GET",
@@ -211,11 +230,61 @@ var TaxoscopeApi = {
         uri: encodeURI(entrypointUri),
         elr: elr
       },
-
+    
       success: function( json ) {
         $("#selected-elr").text(elr);
         $("#presentation-display").html("");
-        Viz.displayPresentationTree( json, "#presentation-display" ); 
+        Viz.displayPresentationTree( json, "#presentation-display" );
+      },
+
+      error: function( xhr, status, errorThrown ) {
+        alert( "Sorry, there was a problem!" );
+        console.log( "Error: " + errorThrown );
+        console.log( "Status: " + status );
+        console.dir( xhr );
+      },
+
+      // code to run regardless of success or failure
+      complete: function( xhr, status ) {
+      }
+    });
+  },
+
+  getConceptResources: function( entrypointUri, concept ) {
+    
+    $.ajax({
+      url: "concept/references",
+      type: "GET",
+      dataType : "json",
+      data: {
+        entrypointUri: encodeURI(entrypointUri),
+        conceptNamespace: encodeURI(concept.namespace),
+        conceptLocalName: concept.localPart
+      },
+
+      success: function( jsonReferences ) {
+       var formattedReferences =  
+         _.map(jsonReferences, function(reference, index, list) {
+           var parts = _.map(reference.parts, function(part, index, list) {       
+             return "<dt>" + part.localName + "</dt><dd>" + part.value + "</dd>";
+           });
+           var formattedParts = "<dl class=\"dl-horizontal\">" + parts.join("") + "</dl>";
+           return { role: reference.role, formattedParts: formattedParts };
+         });
+       
+       var referencePanels = 
+         _.map(formattedReferences, function(reference, index, list) { 
+           return "<div class=\"panel panel-default\">" + 
+                          "<div class=\"panel-heading\">" + 
+                            "<h3 class=\"panel-title\">"+ reference.role + "</h3>"+ 
+                          "</div>" + 
+                          "<div class=\"panel-body\">" + 
+                            reference.formattedParts + 
+                          "</div>" + 
+                        "</div>"
+         });
+       
+       $("#concept-info").html(referencePanels.join(""));
       },
 
       error: function( xhr, status, errorThrown ) {
@@ -248,7 +317,22 @@ var TaxoscopeApi = {
 
   loadConceptViewerPage: function() {
     $("#content").load('/assets/html/concept-viewer.html', function() {
-      TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.initializeConceptTypeahead( uri ); });
+      TaxoscopeApi.doForSelectedEntrypoint(function( uri ) { TaxoscopeApi.initializeConceptTypeahead( uri ); });
+      $("#resources-view").click(function() {
+        TaxoscopeApi.setActiveListItem("#concept-view-selection", "#"+$(this).attr("id"));
+        TaxoscopeApi.doForSelectedConcept(function(uri, concept) { 
+          TaxoscopeApi.getConceptResources(uri, concept);
+        });
+      });
+      $("#dimensions-view").click(function() { 
+        TaxoscopeApi.setActiveListItem("#concept-view-selection", "#"+$(this).attr("id"));
+        TaxoscopeApi.doForSelectedConcept(function(uri, concept) {
+          TaxoscopeApi.getDimensionGraphs( uri, concept );
+        });
+      });
+      $("#schema-view").click(function() { 
+        alert("This functionality is not yet implemented");
+      });
     });
   }
 
