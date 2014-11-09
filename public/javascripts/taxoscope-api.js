@@ -10,19 +10,18 @@ var TaxoscopeApi = {
   },
 
   getSelectedEntrypoint: function() {
-    var selectedEntrypoint = $("#selected-entrypoint").text().trim();
+    var selectedEntrypoint = $("body").data("entrypointUri");
     return selectedEntrypoint;
   },
 
   getSelectedConcept: function() {
-    var namespace = $("#selected-concept-namespace").text().trim();
-    var localPart = $("#selected-concept-localPart").text().trim();
-    return { namespace: namespace, localPart: localPart };
+    var concept = $("body").data("concept");
+    return concept;
   },
 
   doForSelectedEntrypoint: function( action ) {
     var selectedEntrypoint = TaxoscopeApi.getSelectedEntrypoint();
-    if (selectedEntrypoint.length === 0) 
+    if (selectedEntrypoint === null) 
       alert("No entrypoint selected!");
     else {
       action(selectedEntrypoint);
@@ -31,7 +30,7 @@ var TaxoscopeApi = {
 
   doForSelectedConcept: function( action ) {
     var selectedConcept = TaxoscopeApi.getSelectedConcept();
-    if (selectedConcept.localPart.length > 0)
+    if (selectedConcept != null)
       TaxoscopeApi.doForSelectedEntrypoint(function( uri ) { 
         action(uri, selectedConcept);
       });
@@ -89,7 +88,10 @@ var TaxoscopeApi = {
         source: entrypoints.ttAdapter() 
       })
       .on("typeahead:selected", function( event, sug, data ) {
-        $('#selected-entrypoint').html(sug.uri);
+        //This is the only place the selected entrypoint can and should be updated.
+        var entrypointUri = sug.uri;
+        $("body").data("entrypointUri", entrypointUri);
+        $("#selected-entrypoint").text(entrypointUri);
         $('.typeahead').typeahead('val', '');
         $('#content').html("");
       });
@@ -116,8 +118,12 @@ var TaxoscopeApi = {
         source: concepts.ttAdapter() 
       })
       .on("typeahead:selected", function( event, sug, data ) {
+         //This is the only place the selected concept can and should be updated.
          $('.typeahead').typeahead('val', '');
-         $("#concept-header").html("<h1><span id=\"selected-concept-localPart\">" + sug.localPart + " </span><small><span id=\"selected-concept-namespace\">" + sug.namespace + "</span></small></h1>");
+         var namespace = sug.namespace;
+         var localPart = sug.localPart;
+         $("body").data("concept", { namespace: namespace, localPart: localPart });
+         $("#concept-header").html("<h1><span id=\"selected-concept-localPart\">" + localPart + " </span><small><span id=\"selected-concept-namespace\">" + namespace + "</span></small></h1>");
          $("#concept-info").html("");
       });
   },
@@ -317,6 +323,7 @@ var TaxoscopeApi = {
 
   loadConceptViewerPage: function() {
     $("#content").load('/assets/html/concept-viewer.html', function() {
+      $("body").data("concept", null);
       TaxoscopeApi.doForSelectedEntrypoint(function( uri ) { TaxoscopeApi.initializeConceptTypeahead( uri ); });
       $("#resources-view").click(function() {
         TaxoscopeApi.setActiveListItem("#concept-view-selection", "#"+$(this).attr("id"));
