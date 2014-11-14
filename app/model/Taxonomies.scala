@@ -13,6 +13,10 @@ object Taxonomies extends TaxonomyApi {
    .api
   }
   
+  def loadEntrypoint(entrypointPath: String) = {
+    taxoApi.loadEntrypoint(entrypointPath)
+  }
+  
   def entrypointUris: Set[URI] = {
     taxoApi.entrypointUris
   }

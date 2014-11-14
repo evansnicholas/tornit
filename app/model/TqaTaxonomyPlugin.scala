@@ -14,6 +14,7 @@ import nl.ebpi.tqa.names.CachingENameProvider
 import nl.ebpi.tqa.names.CachingQNameProvider
 import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
 import nl.ebpi.tqa.model.relationship.ParentChildRelationship
+import nl.ebpi.tqa.dimensionaware.DimensionalPathQueryApi
 
 import eu.cdevreeze.yaidom.EName
 
@@ -46,21 +47,28 @@ object TqaTaxonomyApi extends TaxonomyApi {
     dtsCollection.allEntrypointUris
   }
   
+  def loadEntrypoint(entrypointPath: String) = {
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
+    Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
+    }
+  }
+  
   def queryEntrypointUris(query: String) = {
     Utils.filterWithQuery(dtsCollection.allEntrypointUris.toList)(_.toString())(query) map { u => Entrypoint(u.toString()) }
   }
   
   def listConcepts(entrypointPath: String, query:String): List[Concept] = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
-      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
     val items = 
-      rat.taxonomy.findAllItemDeclarationsByEName.keySet map { e => 
+      fullTaxo.relationshipAwareTaxonomy.taxonomy.findAllItemDeclarationsByEName.keySet map { e => 
         Concept(e.namespaceUriOption.getOrElse(""), e.localPart, "item") 
       }
     val tuples = 
-      rat.taxonomy.findAllTupleDeclarationsByEName.keySet map { e => 
+      fullTaxo.relationshipAwareTaxonomy.taxonomy.findAllTupleDeclarationsByEName.keySet map { e => 
         Concept(e.namespaceUriOption.getOrElse(""), e.localPart, "tuple") 
       }
     
@@ -71,56 +79,56 @@ object TqaTaxonomyApi extends TaxonomyApi {
   
   def listPresentationElrs(entrypointPath: String): List[String] = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
-      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
-    rat.findRelationships[ParentChildRelationship].map(_.extendedLinkRole).distinct.toList
+    fullTaxo.relationshipAwareTaxonomy.findRelationships[ParentChildRelationship].map(_.extendedLinkRole).distinct.toList
   }
   
   def computeDtsGraph(entrypointPath: String): DtsGraph = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
-      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
-    DtsGraph.computeGraph(rat.taxonomy, entrypointUri)
+    DtsGraph.computeGraph(fullTaxo.relationshipAwareTaxonomy.taxonomy, entrypointUri)
   }
   
   def computeDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String): List[DimensionsGraph] = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
-      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
     val decodedNs = URLDecoder.decode(namespace, "UTF-8")
     val conceptEName = EName(decodedNs, localPart)
-    DimensionsGraph.computeGraph(rat, entrypointUri, conceptEName).toList
+    DimensionsGraph.computeGraph(fullTaxo, entrypointUri, conceptEName).toList
   }
   
   def computePresentationTree(entrypointPath: String, elr: String): PresentationELR = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
-      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
-    PresentationTree.createPresentationTree(rat, elr)
+    PresentationTree.createPresentationTree(fullTaxo.relationshipAwareTaxonomy, elr)
   }
   
   def showTaxonomyDocument(entrypointPath: String, docUriString: String): String = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
     val docUri = new URI(URLDecoder.decode(docUriString, "UTF-8"))
-    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString){
-      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
-    val doc = rat.taxonomy.taxonomyDocsByUri(docUri).doc.document
+    val doc = fullTaxo.relationshipAwareTaxonomy.taxonomy.taxonomyDocsByUri(docUri).doc.document
     Utils.docPrinter.print(doc)
   }
 
   def findConceptLabels(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[Label] = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString) {
-      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
 
     val conceptEName = EName(URLDecoder.decode(conceptNamespace, "UTF-8"), conceptLocalName)
-    val conceptLabels = rat.findConceptLabelsByConcept(conceptEName)
+    val conceptLabels = fullTaxo.relationshipAwareTaxonomy.findConceptLabelsByConcept(conceptEName)
 
     conceptLabels.toList map { conceptLabel =>
       Label(role = conceptLabel.resourceRole, language = conceptLabel.language, text = conceptLabel.labelText)
@@ -129,12 +137,12 @@ object TqaTaxonomyApi extends TaxonomyApi {
 
   def findConceptReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[Reference] = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val rat = Cache.getOrElse[RelationshipAwareTaxonomy](entrypointUri.toString) {
-      dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
 
     val conceptEName = EName(URLDecoder.decode(conceptNamespace, "UTF-8"), conceptLocalName)
-    val conceptReferences = rat.findConceptReferencesByConcept(conceptEName)
+    val conceptReferences = fullTaxo.relationshipAwareTaxonomy.findConceptReferencesByConcept(conceptEName)
 
     conceptReferences.toList map { conceptRef =>
       val parts = conceptRef.referenceElems map { partElem =>

@@ -15,6 +15,11 @@ object Application extends Controller {
     Ok(views.html.main("Taxoscope"))
   }
   
+  def loadEntrypoint(entrypointPath: String) = Action {
+    Taxonomies.loadEntrypoint(entrypointPath)
+    Ok("")
+  }
+  
   def listEntrypoints(query: String) = Action {
     val json = Json.toJson(Taxonomies.queryEntrypointUris(query))
     Ok(json)

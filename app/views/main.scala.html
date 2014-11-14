@@ -21,6 +21,10 @@
     
     <!-- Styles for typeahead -->
     <link href="@routes.Assets.at("stylesheets/typeahead.css")" rel="stylesheet">
+
+    <!-- Styles for animations -->
+    <link href="@routes.Assets.at("stylesheets/animations.css")" rel="stylesheet">
+ 
     <!-- Styles for displaying the XML files-->
     <link href="@routes.Assets.at("bower_components/highlightjs/styles/github.css")" rel="stylesheet">
 
@@ -57,6 +61,7 @@
                   <li><a href="#" id="selected-entrypoint">No entrypoint selected.</a></li>
                 </ul>
             </li>
+            <li><span id="loader-icon" class="glyphicon glyphicon-refresh navbar-brand" aria-hidden="true"></span></li>
           </ul>
         </div>
       </div>

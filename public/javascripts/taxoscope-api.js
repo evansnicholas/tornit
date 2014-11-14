@@ -90,11 +90,40 @@ var TaxoscopeApi = {
       .on("typeahead:selected", function( event, sug, data ) {
         //This is the only place the selected entrypoint can and should be updated.
         var entrypointUri = sug.uri;
-        $("body").data("entrypointUri", entrypointUri);
-        $("#selected-entrypoint").text(entrypointUri);
+        $('body').data('entrypointUri', entrypointUri);
+        $('#selected-entrypoint').text(entrypointUri);
+        $('#loader-icon').addClass('loading');
+        TaxoscopeApi.doForSelectedEntrypoint( TaxoscopeApi.getEntrypoint );
         $('.typeahead').typeahead('val', '');
         $('#content').html("");
       });
+  },
+
+  getEntrypoint: function(entrypointUri) {
+    
+    $.ajax({
+      url: "entrypoint",
+      type: "GET",
+      dataType : "text",
+      data: {
+        entrypointUri: encodeURI(entrypointUri)
+      },
+
+      success: function( json ) {
+        
+      },
+
+      error: function( xhr, status, errorThrown ) {
+        alert( "Sorry, there was a problem!" );
+        console.log( "Error: " + errorThrown );
+        console.log( "Status: " + status );
+        console.dir( xhr );
+      },
+      // code to run regardless of success or failure
+      complete: function( xhr, status ) {
+        $('#loader-icon').removeClass('loading');
+      }
+    });
   },
 
   initializeConceptTypeahead:  function( uri ) {

@@ -6,8 +6,10 @@ case class Entrypoint(uri: String)
 case class Concept(namespace: String, localPart: String, conceptType: String)
 
 trait TaxonomyApi {
-
+  
   def entrypointUris: Set[URI]
+  
+  def loadEntrypoint(entrypointPath: String)
   
   def queryEntrypointUris(query: String): List[Entrypoint]
   

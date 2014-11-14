@@ -10,10 +10,8 @@ case class DimensionalGraphNode(namespace: String, localPart: String, children: 
 case class DimensionsGraph(elr: String, graph: DimensionalGraphNode)
 
 object DimensionsGraph {
-  def computeGraph(rat: RelationshipAwareTaxonomy, entrypointUri: URI, conceptEName: EName): Iterable[DimensionsGraph] = {
-    val dpqa = DimensionalPathQueryApi(rat)
-    val paths = dpqa.findDimensionalPaths filter { _.select[Primary].conceptDeclaration.targetEName == conceptEName  }
-    val dimTree = DimensionalPathQueryApi.dimensionalTreeByElrByPrimary(paths)
+  def computeGraph(dimApi: DimensionalPathQueryApi, entrypointUri: URI, conceptEName: EName): Iterable[DimensionsGraph] = {
+    val dimTree = dimApi.dimensionalTreeByElrByPrimary
     val graphs = dimTree(conceptEName) map { case(elr, tree) => 
         val hypercubeNodes = tree map { case((connection, hypercube), tree) =>
           val dimensionNodes = tree map { case(dimension, members) => 
