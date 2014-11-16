@@ -1,24 +1,24 @@
 .loading {
     visibility: visible !important;
-    -animation: spin 1s infinite linear;
-    -moz-animation: spinm 1s infinite linear;
-    -webkit-animation: spinw 1s infinite linear;  
-    -o-animation: spin 1s infinite linear;
+    -animation: fade 1s infinite linear;
+    -moz-animation: fadem 1s infinite linear;
+    -webkit-animation: fadew 1s infinite linear;  
+    -o-animation: fade 1s infinite linear;
 }
 
-@keyframes spin {
-    from { transform: scale(1) rotate(0deg);}
-    to { transform: scale(1) rotate(180deg);}
+@keyframes fade {
+    from { color: white;}
+    to { transform: black;}
 }
 
-@-webkit-keyframes spinw {
-from { -webkit-transform: rotate(0deg);}
-to { -webkit-transform: rotate(180deg);}
+@-webkit-keyframes fadew {
+    from { color: white; }
+    to { transform: black; }
 }
  
-@-moz-keyframes spinm {
-from { -moz-transform: rotate(0deg);}
-to { -moz-transform: rotate(180deg);}
+@-moz-keyframes fadem {
+    from { color: white; }
+    to { transform: black; }
 }
 
 #loader-icon {
