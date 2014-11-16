@@ -8,17 +8,17 @@
 
 @keyframes fade {
     from { color: white;}
-    to { transform: black;}
+    to { color: black;}
 }
 
 @-webkit-keyframes fadew {
     from { color: white; }
-    to { transform: black; }
+    to { color: black; }
 }
  
 @-moz-keyframes fadem {
     from { color: white; }
-    to { transform: black; }
+    to { color: black; }
 }
 
 #loader-icon {
