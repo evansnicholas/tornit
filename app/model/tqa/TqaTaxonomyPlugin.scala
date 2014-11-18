@@ -1,24 +1,29 @@
 package model
+package tqa
 
 import play.api._
 import play.api.Play.current
 import play.api.cache.Cache
-
 import java.net.URI
 import java.net.URLDecoder
 import java.net.URI
-
 import nl.ebpi.tqa.uris.DefaultUriConverter
 import nl.ebpi.tqa.taxonomies.DtsCollections
 import nl.ebpi.tqa.names.CachingENameProvider
 import nl.ebpi.tqa.names.CachingQNameProvider
-import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
 import nl.ebpi.tqa.model.relationship.ParentChildRelationship
 import nl.ebpi.tqa.dimensionaware.DimensionalPathQueryApi
-
 import eu.cdevreeze.yaidom.EName
-
 import utils.Utils
+import model.Concept
+import model.DimensionsGraph
+import model.DtsGraph
+import model.Label
+import model.PresentationELR
+import model.PresentationTree
+import model.Reference
+import model.TaxonomyApi
+import model.TaxonomyPlugin
 
 class TqaTaxonomyPlugin(app: Application) extends TaxonomyPlugin(app){
 
@@ -153,5 +158,21 @@ object TqaTaxonomyApi extends TaxonomyApi {
       }
       Reference(conceptRef.resourceRole, parts)
     }
+  }
+  
+  def findConceptElementDeclaration(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptElementDeclaration = {
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+      DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
+    }
+    
+    val ename = EName(conceptNamespace, conceptLocalName)
+    val xsdSchema = fullTaxo.relationshipAwareTaxonomy.taxonomy
+    val elementDeclaration = xsdSchema.getGlobalElementDeclarationByEName(ename)
+    val substitutionGroupHierarchy = XsdSchemaUtils.findSubstitutionGroupHierarchy(xsdSchema)(elementDeclaration)
+    val typeHierarchy = ???
+  
+    ???
+    
   }
 }

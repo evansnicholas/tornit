@@ -48,4 +48,8 @@ object Taxonomies extends TaxonomyApi {
   
   def findConceptReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[Reference] = 
     taxoApi.findConceptReferences(entrypointPath, conceptNamespace, conceptLocalName)
+    
+  def findConceptElementDeclaration(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptElementDeclaration = {
+    taxoApi.findConceptElementDeclaration(entrypointPath, conceptNamespace, conceptLocalName)
+  }
 }

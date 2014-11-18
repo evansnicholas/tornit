@@ -29,4 +29,6 @@ trait TaxonomyApi {
   
   def findConceptReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[Reference]
   
+  def findConceptElementDeclaration(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptElementDeclaration
+  
 }

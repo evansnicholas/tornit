@@ -7,6 +7,7 @@ import model._
 import nl.ebpi.tqa.model.relationship.ConceptLabelRelationship
 import eu.cdevreeze.yaidom.EName
 import nl.ebpi.tqa.model.relationship.ConceptReferenceRelationship
+import model.tqa.TqaTaxonomyApi
 
 /**
  * Add your spec here.
