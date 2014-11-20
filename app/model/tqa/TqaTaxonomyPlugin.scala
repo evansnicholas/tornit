@@ -170,9 +170,9 @@ object TqaTaxonomyApi extends TaxonomyApi {
     val xsdSchema = fullTaxo.relationshipAwareTaxonomy.taxonomy
     val elementDeclaration = xsdSchema.getGlobalElementDeclarationByEName(ename)
     val substitutionGroupHierarchy = XsdSchemaUtils.findSubstitutionGroupHierarchy(xsdSchema)(elementDeclaration)
-    val typeHierarchy = ???
-  
-    ???
+    val typeHierarchy = XsdSchemaUtils.findTypeAncestry(xsdSchema)(elementDeclaration)
+    val elemDecString = Utils.docPrinter.print(elementDeclaration.elem)
     
+    ConceptElementDeclaration(ename, elemDecString, substitutionGroupHierarchy, typeHierarchy)
   }
 }

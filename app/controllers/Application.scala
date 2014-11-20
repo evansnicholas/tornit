@@ -95,6 +95,15 @@ object Application extends Controller {
     (JsPath \ "ename").write[String] and 
     (JsPath \ "labels").lazyWrite(Writes.seq[Label](labelWrites))
   )(unlift(PresentationConcept.unapply))
+  
+  implicit val enameWrites = new Writes[EName] {
+    def writes(ename: EName): JsObject = {
+      val namespace = ename.namespaceUriOption.getOrElse("")
+      Json.obj(
+        "namespace" -> namespace,
+        "localName" -> ename.localPart)
+    }
+  }
 
   implicit lazy val referencePartWrites = new Writes[ReferencePart] {
     def writes(part: ReferencePart): JsObject = {
@@ -112,6 +121,13 @@ object Application extends Controller {
         "parts" -> JsArray(reference.parts.map(p => Json.toJson(p))))
     }
   }
+  
+  implicit val conceptElementDeclarationWrites: Writes[ConceptElementDeclaration] = (
+    (JsPath \ "ename").write[EName] and 
+    (JsPath \ "elementDeclaration").write[String] and
+    (JsPath \ "substitutionGroupHierarchy").write(Writes.seq[EName](enameWrites)) and
+    (JsPath \ "typeHierarchy").write(Writes.seq[EName](enameWrites))
+  )(unlift(ConceptElementDeclaration.unapply))
 
   def showTaxonomyDocument(uri: String, docUri: String) = Action {
     val json = Taxonomies.showTaxonomyDocument(uri, docUri)
@@ -130,6 +146,15 @@ object Application extends Controller {
   def findConceptReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
     Try {
       Json.toJson(Taxonomies.findConceptReferences(entrypointPath, conceptNamespace, conceptLocalName))
+    } match {
+      case Success(json) => Ok(json)
+      case Failure(t) => BadRequest(Json.obj("error" -> t.toString))
+    }
+  }
+  
+  def findConceptElementDeclaration(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
+    Try {
+      Json.toJson(Taxonomies.findConceptElementDeclaration(entrypointPath, conceptNamespace, conceptLocalName))
     } match {
       case Success(json) => Ok(json)
       case Failure(t) => BadRequest(Json.obj("error" -> t.toString))
