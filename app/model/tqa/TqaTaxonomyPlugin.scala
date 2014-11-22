@@ -166,7 +166,8 @@ object TqaTaxonomyApi extends TaxonomyApi {
       DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
     
-    val ename = EName(conceptNamespace, conceptLocalName)
+    val decodedConceptNamespace = URLDecoder.decode(conceptNamespace, "UTF-8")
+    val ename = EName(decodedConceptNamespace, conceptLocalName)
     val xsdSchema = fullTaxo.relationshipAwareTaxonomy.taxonomy
     val elementDeclaration = xsdSchema.getGlobalElementDeclarationByEName(ename)
     val substitutionGroupHierarchy = XsdSchemaUtils.findSubstitutionGroupHierarchy(xsdSchema)(elementDeclaration)

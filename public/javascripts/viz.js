@@ -1,4 +1,3 @@
-
 var Viz = {
   
   displayDtsGraph: function( json, graphContainer ) {
@@ -16,6 +15,8 @@ var Viz = {
 
     var nodes = tree.nodes(json),
 	links = tree.links(nodes);
+
+  console.log(links);
 	
     var maxDepth = d3.max(nodes, function(node){ return node.depth });
     var nodesPerDepth = _.countBy(nodes, function(node){ return node.depth });
@@ -170,6 +171,58 @@ var Viz = {
     });
    
     return labelHtml;
+  },
+
+  displayENameHierarchy: function( hierarchy, container ) {
+        
+    var height = hierarchy.length * 30;
+    var positionedENames = Viz.positionHierarchicalENames(hierarchy);
+    console.log(positionedENames);
+    var line = d3.svg.line()
+      .x(function(d) { return d.x; })
+      .y(function(d) { return d.y; })
+      .interpolate("linear");
+
+    var svg = d3.select( container ).append("svg")
+         .attr("width", "150")
+         .attr("height", height)
+         .append("g")
+         .attr("transform", "translate(20,10)");
+
+   var node = svg.selectAll("g.node")
+	    .data(positionedENames)
+	    .enter().append("g")
+	    .attr("class", "node")
+            .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+	   
+	
+    node.append("circle")
+	    .attr("r", 4.5);
+	
+    node.append("text")
+	    .attr("dx", function(d) { return 7; })
+	    .attr("dy", function(d) { return 3; })
+	   // .attr("text-anchor", "start")
+	    .text(function(d) { return d.localName; })
+            .each(function(d) {
+              $(this).popover({container: "#concept-info", content: d.namespace, placement: "right", trigger: "click" }); 
+            });
+            
+    var link = svg.append("path")
+	    .attr("class", "link")
+	    .attr("d", line(positionedENames))
+            .attr("stroke-width", 2);
+  },
+  
+  positionHierarchicalENames: function( enames ) {
+    console.log(enames);
+    var positionedENames = 
+      _.map(enames, function(value, index, list) {
+        console.log(index);
+        var y = index*30;
+        return { x: 0, y: y, namespace: value.namespace, localName: value.localName };
+      });
+    return positionedENames;
   }
 
 };

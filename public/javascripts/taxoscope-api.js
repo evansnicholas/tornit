@@ -206,7 +206,7 @@ var TaxoscopeApi = {
         var resultsDiv = $( "#doc-display pre code" );
         resultsDiv.text( json );
         resultsDiv.each(function(i, block){
-         hljs.highlightBlock(this);
+         hljs.highlightBlock(block);
         });
       },
 
@@ -334,14 +334,53 @@ var TaxoscopeApi = {
     });
   },
 
+  getConceptSchemaInfo: function( entrypointUri, concept ) {
+    $.ajax({
+      url: "concept",
+      type: "GET",
+      dataType : "json",
+      data: {
+        entrypointUri: encodeURI(entrypointUri),
+        conceptNamespace: encodeURI(concept.namespace),
+        conceptLocalName: concept.localPart         
+      },
+    
+      success: function( json ) {
+        $("#concept-info").load('/assets/html/concept-schema-detail.html', function() {
+  var elementDeclaration = json.elementDeclaration;
+  $('#element-declaration')
+    .text(elementDeclaration) 
+    .each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
+  Viz.displayENameHierarchy( json.substitutionGroupHierarchy, '#sub-hierarchy-graph' );
+  Viz.displayENameHierarchy( json.typeHierarchy, '#type-hierarchy-graph' );
+});
+      },
+
+      error: function( xhr, status, errorThrown ) {
+        alert( "Sorry, there was a problem!" );
+        console.log( "Error: " + errorThrown );
+        console.log( "Status: " + status );
+        console.dir( xhr );
+      },
+
+      // code to run regardless of success or failure
+      complete: function( xhr, status ) {
+      }
+    });
+  },
+
   showTaxonomyDocument: function( docUri ) {
-    $("#content").html('<h1 class="page-header">Doc Viewer</h1><div id="doc-display"><pre><code></code></pre></div>');
-    TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getTaxoDoc(uri, docUri); });
+    $("#content").load('/assets/html/taxonomy-document-viewer.html', function() {
+  TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getTaxoDoc(uri, docUri); });
+});
   },
 
   loadDtsGraphPage: function() {
-    $("#content").html('<h1 class="page-header">DTS Graph</h1><div id="dts-graph-result"></div>');
+    $("#content").load('/assets/html/dts-graph-viewer.html', function() {
     TaxoscopeApi.doForSelectedEntrypoint(function( uri ){ TaxoscopeApi.getDtsGraph(uri); });
+});
   },
 
   loadPresentationViewerPage: function() {
@@ -367,7 +406,10 @@ var TaxoscopeApi = {
         });
       });
       $("#schema-view").click(function() { 
-        alert("This functionality is not yet implemented");
+        TaxoscopeApi.setActiveListItem("#concept-view-selection", "#"+$(this).attr("id"));
+        TaxoscopeApi.doForSelectedConcept(function(uri, concept) {
+          TaxoscopeApi.getConceptSchemaInfo( uri, concept );
+        });
       });
     });
   }
