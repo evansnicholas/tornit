@@ -5,7 +5,7 @@ import play.api.test._
 import play.api.test.Helpers._
 import model._
 import nl.ebpi.tqa.model.relationship.ConceptLabelRelationship
-import eu.cdevreeze.yaidom.EName
+import eu.cdevreeze.yaidom.core.EName
 import nl.ebpi.tqa.model.relationship.ConceptReferenceRelationship
 import model.tqa.TqaTaxonomyApi
 

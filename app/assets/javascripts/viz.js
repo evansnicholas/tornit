@@ -18,8 +18,8 @@ var Viz = {
 
   console.log(links);
 	
-    var maxDepth = d3.max(nodes, function(node){ return node.depth });
-    var nodesPerDepth = _.countBy(nodes, function(node){ return node.depth });
+    var maxDepth = d3.max(nodes, function(node){ return node.depth; });
+    var nodesPerDepth = _.countBy(nodes, function(node){ return node.depth; });
     var maxNodes = _.max(nodesPerDepth);
     var height = maxNodes*30;
     var width = (maxDepth+1)*250;
@@ -37,26 +37,26 @@ var Viz = {
          .attr("transform", "translate("+labelLength+",0)");
 
     var link = svg.selectAll("path.link")
-	    .data(links)
-	    .enter().append("path")
-	    .attr("class", "link")
-	    .attr("d", diagonal);
+         .data(links)
+         .enter().append("path")
+         .attr("class", "link")
+         .attr("d", diagonal);
 	
     var node = svg.selectAll("g.node")
-	    .data(nodes)
-	    .enter().append("g")
-	    .attr("class", "node")
-	    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+         .data(nodes)
+         .enter().append("g")
+         .attr("class", "node")
+         .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 	
     node.append("circle")
-	    .attr("r", 4.5);
+        .attr("r", 4.5);
 	
     node.append("text")
-	    .attr("dx", function(d) { return d.children ? -8 : 8; })
-	    .attr("dy", function(d) { return (d.depth % 2 === 0) ? -5 : 5; })
-	    .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
-	    .text(function(d) { return extractName(d.uri); })
-            .on('click', function(d){ console.log(d.uri); TaxoscopeApi.showTaxonomyDocument( d.uri ); });
+        .attr("dx", function(d) { return d.children ? -8 : 8; })
+        .attr("dy", function(d) { return (d.depth % 2 === 0) ? -5 : 5; })
+        .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
+        .text(function(d) { return extractName(d.uri); })
+        .on('click', function(d){ console.log(d.uri); TaxoscopeApi.showTaxonomyDocument( d.uri ); });
   
   },
 
@@ -69,8 +69,8 @@ var Viz = {
     var nodes = tree.nodes(json),
 	links = tree.links(nodes);
 	
-    var maxDepth = d3.max(nodes, function(node){ return node.depth });
-    var nodesPerDepth = _.countBy(nodes, function(node){ return node.depth });
+    var maxDepth = d3.max(nodes, function(node){ return node.depth; });
+    var nodesPerDepth = _.countBy(nodes, function(node){ return node.depth; });
     var maxNodes = _.max(nodesPerDepth);
     var height = maxNodes*30;
     var width = (maxDepth+1)*250;
@@ -88,32 +88,32 @@ var Viz = {
          .attr("transform", "translate("+labelLength+",0)");
 
     var link = svg.selectAll("path.link")
-	    .data(links)
-	    .enter().append("path")
-	    .attr("class", "link")
-	    .attr("d", diagonal);
+         .data(links)
+         .enter().append("path")
+         .attr("class", "link")
+         .attr("d", diagonal);
 	
     var node = svg.selectAll("g.node")
-	    .data(nodes)
-	    .enter().append("g")
-	    .attr("class", "node")
-	    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+         .data(nodes)
+         .enter().append("g")
+         .attr("class", "node")
+         .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 	
     node.append("circle")
-	    .attr("r", 4.5);
+         .attr("r", 4.5);
 	
     node.append("text")
-	    .attr("dx", function(d) { return d.children ? -8 : 8; })
-	    .attr("dy", function(d) { return (d.depth % 2 === 0) ? -5 : 5; })
-	    .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
-	    .text(function(d) { return d.localPart; })
-            .on('click', function(d){ console.log(d); });
+         .attr("dx", function(d) { return d.children ? -8 : 8; })
+         .attr("dy", function(d) { return (d.depth % 2 === 0) ? -5 : 5; })
+         .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
+         .text(function(d) { return d.localPart; })
+         .on('click', function(d){ console.log(d); });
   
   },
 
   displayPresentationTree: function( elrJson, container ){
  
-   var positionedConcepts = new Array();
+   var positionedConcepts = [];
    var totalConcepts = Viz.positionConcepts(elrJson.roots, 0, 0, positionedConcepts);
    var height = totalConcepts * 25;
 
@@ -124,21 +124,19 @@ var Viz = {
          .attr("transform", "translate(10,20)");
 
    var node = svg.selectAll("g.node")
-	    .data(positionedConcepts)
-	    .enter().append("g")
-	    .attr("class", "node")
-            .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-	   
+         .data(positionedConcepts)
+         .enter().append("g")
+         .attr("class", "node")
+         .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 	
     node.append("circle")
-	    .attr("r", 4.5);
+         .attr("r", 4.5);
 	
     node.append("text")
-	    .attr("dx", function(d) { return 7; })
-	    .attr("dy", function(d) { return 3; })
-	   // .attr("text-anchor", "start")
-	    .text(function(d) { return d.concept.ename; })
-            .each(function(d) { 
+         .attr("dx", function(d) { return 7; })
+         .attr("dy", function(d) { return 3; })
+         .text(function(d) { return d.concept.ename; })
+         .each(function(d) { 
               var labelHtml = Viz.formatLabelPopoverHtml(d.concept.labels);
               $(this).popover({title: "Labels", html: true, container: "#presentation-display", content: labelHtml, placement: "right", trigger: "click" }); 
             });
@@ -149,8 +147,8 @@ var Viz = {
    function positionConcept( memo, element, index, list){
      var xPos = depth*15;
      var yPos = memo*20;
-     element["x"] = xPos;
-     element["y"] = yPos;
+     element.x = xPos;
+     element.y = yPos;
      accumulatedConcepts.push(element);
      var totalSeenConcepts = Viz.positionConcepts(element.children, depth + 1, memo + 1, accumulatedConcepts);
      return totalSeenConcepts;
@@ -190,28 +188,26 @@ var Viz = {
          .attr("transform", "translate(20,10)");
 
    var node = svg.selectAll("g.node")
-	    .data(positionedENames)
-	    .enter().append("g")
-	    .attr("class", "node")
-            .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-	   
+         .data(positionedENames)
+         .enter().append("g")
+         .attr("class", "node")
+         .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; }); 
 	
     node.append("circle")
-	    .attr("r", 4.5);
+         .attr("r", 4.5);
 	
     node.append("text")
-	    .attr("dx", function(d) { return 7; })
-	    .attr("dy", function(d) { return 3; })
-	   // .attr("text-anchor", "start")
-	    .text(function(d) { return d.localName; })
-            .each(function(d) {
+         .attr("dx", function(d) { return 7; })
+         .attr("dy", function(d) { return 3; })
+         .text(function(d) { return d.localName; })
+         .each(function(d) {
               $(this).popover({container: "#concept-info", content: d.namespace, placement: "right", trigger: "click" }); 
             });
             
     var link = svg.append("path")
-	    .attr("class", "link")
-	    .attr("d", line(positionedENames))
-            .attr("stroke-width", 2);
+          .attr("class", "link")
+          .attr("d", line(positionedENames))
+          .attr("stroke-width", 2);
   },
   
   positionHierarchicalENames: function( enames ) {

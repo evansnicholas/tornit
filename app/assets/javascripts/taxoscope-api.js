@@ -30,7 +30,7 @@ var TaxoscopeApi = {
 
   doForSelectedConcept: function( action ) {
     var selectedConcept = TaxoscopeApi.getSelectedConcept();
-    if (selectedConcept != null)
+    if (selectedConcept !== null)
       TaxoscopeApi.doForSelectedEntrypoint(function( uri ) { 
         action(uri, selectedConcept);
       });
@@ -172,7 +172,7 @@ var TaxoscopeApi = {
         var resultsDiv = $( "#concept-info" );
         resultsDiv.html( "" ); 
         _.each( json, function( element, index, list ) { 
-           var divId = "dim-graph-result-"+ index
+           var divId = "dim-graph-result-"+ index;
            resultsDiv.append("<div id='"+ divId + "' />");
            resultsDiv.append("<h4>ELR: "+element.elr+"</h4>");
            Viz.displayDimensionsGraph( element.graph, "#"+divId );
@@ -236,11 +236,11 @@ var TaxoscopeApi = {
         var elrBtns = $("#presentation-elrs");
         _.each(elrs, function( element, index, list ) {
           var btn = "<li><a href=\"#\" class=\"elr-selector\">" + element + "</a></li>";
-          elrBtns.append(btn)
+          elrBtns.append(btn);
           });
          $(".elr-selector").click(function(){
             var elr = $( this ).text();
-            TaxoscopeApi.doForSelectedEntrypoint(function( uri ) { TaxoscopeApi.getPresentationTree( uri, elr ) });
+            TaxoscopeApi.doForSelectedEntrypoint(function( uri ) { TaxoscopeApi.getPresentationTree( uri, elr ); });
         });
       },
 
@@ -316,7 +316,7 @@ var TaxoscopeApi = {
                           "<div class=\"panel-body\">" + 
                             reference.formattedParts + 
                           "</div>" + 
-                        "</div>"
+                        "</div>";
          });
        
        $("#concept-info").html(referencePanels.join(""));

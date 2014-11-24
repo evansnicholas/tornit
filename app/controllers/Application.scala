@@ -7,7 +7,7 @@ import scala.util._
 import play.api.libs.json._
 import model._
 import play.api.libs.functional.syntax._
-import eu.cdevreeze.yaidom.EName
+import eu.cdevreeze.yaidom.core.EName
 
 object Application extends Controller {
 

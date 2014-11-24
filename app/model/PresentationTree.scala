@@ -2,7 +2,7 @@ package model
 
 import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
 import nl.ebpi.tqa.model.relationship.ParentChildRelationship
-import eu.cdevreeze.yaidom.EName
+import eu.cdevreeze.yaidom.core.EName
 
 case class PresentationELR(elr: String, roots: IndexedSeq[PresentationNode])
 case class PresentationNode(concept: PresentationConcept, children: IndexedSeq[PresentationNode])

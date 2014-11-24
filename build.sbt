@@ -15,4 +15,4 @@ libraryDependencies ++= Seq(
   ws 
 )
 
-libraryDependencies += "nl.ebpi.tqa" % "tqa" % "0.5.3"
+libraryDependencies += "nl.ebpi.tqa" % "tqa" % "0.5.5"

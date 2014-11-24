@@ -1,6 +1,6 @@
 package model.tqa
 
-import eu.cdevreeze.yaidom.EName
+import eu.cdevreeze.yaidom.core.EName
 import nl.ebpi.tqa.model.xsd.{ XsdSchema, GlobalElementDeclaration }
 import nl.ebpi.tqa.XsAnyTypeEName 
 

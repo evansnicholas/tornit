@@ -2,7 +2,7 @@ package model
 
 import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
 import java.net.URI
-import eu.cdevreeze.yaidom.EName
+import eu.cdevreeze.yaidom.core.EName
 import nl.ebpi.tqa.dimensionaware.DimensionalPathQueryApi
 import nl.ebpi.tqa.model.dimensions.Primary
 
