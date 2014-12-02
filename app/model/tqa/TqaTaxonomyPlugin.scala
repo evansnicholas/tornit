@@ -14,6 +14,7 @@ import nl.ebpi.tqa.names.CachingQNameProvider
 import nl.ebpi.tqa.model.relationship.ParentChildRelationship
 import nl.ebpi.tqa.dimensionaware.DimensionalPathQueryApi
 import eu.cdevreeze.yaidom.core.EName
+import eu.cdevreeze.yaidom.indexed
 import utils.Utils
 import model.Concept
 import model.DimensionsGraph
@@ -24,6 +25,7 @@ import model.PresentationTree
 import model.Reference
 import model.TaxonomyApi
 import model.TaxonomyPlugin
+import eu.cdevreeze.yaidom.utils.NamespaceUtils
 
 class TqaTaxonomyPlugin(app: Application) extends TaxonomyPlugin(app){
 
@@ -159,21 +161,27 @@ object TqaTaxonomyApi extends TaxonomyApi {
       Reference(conceptRef.resourceRole, parts)
     }
   }
-  
+
   def findConceptElementDeclaration(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptElementDeclaration = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
+    val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString) {
       DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
-    
+
     val decodedConceptNamespace = URLDecoder.decode(conceptNamespace, "UTF-8")
     val ename = EName(decodedConceptNamespace, conceptLocalName)
     val xsdSchema = fullTaxo.relationshipAwareTaxonomy.taxonomy
     val elementDeclaration = xsdSchema.getGlobalElementDeclarationByEName(ename)
     val substitutionGroupHierarchy = XsdSchemaUtils.findSubstitutionGroupHierarchy(xsdSchema)(elementDeclaration)
     val typeHierarchy = XsdSchemaUtils.findTypeAncestry(xsdSchema)(elementDeclaration)
-    val elemDecString = Utils.docPrinter.print(elementDeclaration.elem)
-    
+
+    val elementDeclIndexedElem =
+      indexed.Elem(elementDeclaration.docawareElem.rootElem, elementDeclaration.docawareElem.path)
+    val strippedElementDecl =
+      NamespaceUtils.stripUnusedNamespaces(elementDeclIndexedElem, XsdSchemaUtils.ENameExtractor)
+
+    val elemDecString = Utils.docPrinter.print(strippedElementDecl)
+
     ConceptElementDeclaration(ename, elemDecString, substitutionGroupHierarchy, typeHierarchy)
   }
 }
