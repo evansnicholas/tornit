@@ -17,7 +17,6 @@ import eu.cdevreeze.yaidom.core.EName
 import eu.cdevreeze.yaidom.indexed
 import utils.Utils
 import model.Concept
-import model.DimensionsGraph
 import model.DtsGraph
 import model.Label
 import model.PresentationELR
@@ -100,14 +99,14 @@ object TqaTaxonomyApi extends TaxonomyApi {
     DtsGraph.computeGraph(fullTaxo.relationshipAwareTaxonomy.taxonomy, entrypointUri)
   }
   
-  def computeDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String): List[DimensionsGraph] = {
+  def findDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String): List[DimensionsGraph] = {
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
     val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
       DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
     val decodedNs = URLDecoder.decode(namespace, "UTF-8")
     val conceptEName = EName(decodedNs, localPart)
-    DimensionsGraph.computeGraph(fullTaxo, entrypointUri, conceptEName).toList
+    DimensionsGraphBuilder.findDimensionsGraphs(fullTaxo, entrypointUri, conceptEName)
   }
   
   def computePresentationTree(entrypointPath: String, elr: String): PresentationELR = {

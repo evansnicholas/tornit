@@ -106,7 +106,7 @@ var Viz = {
          .attr("dx", function(d) { return d.children ? -8 : 8; })
          .attr("dy", function(d) { return (d.depth % 2 === 0) ? -5 : 5; })
          .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
-         .text(function(d) { return d.localPart; })
+         .text(function(d) { return d.ename.localName; })
          .on('click', function(d){ console.log(d); });
   
   },

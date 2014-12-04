@@ -19,7 +19,7 @@ trait TaxonomyApi {
   
   def computeDtsGraph(entrypointPath: String): DtsGraph
   
-  def computeDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String): List[DimensionsGraph]
+  def findDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String): List[DimensionsGraph]
   
   def computePresentationTree(entrypointPath: String, elr: String): PresentationELR
   

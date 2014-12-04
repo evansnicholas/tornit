@@ -34,8 +34,8 @@ object Taxonomies extends TaxonomyApi {
   def computeDtsGraph(entrypointPath: String): DtsGraph = 
     taxoApi.computeDtsGraph(entrypointPath)
   
-  def computeDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String): List[DimensionsGraph] = 
-    taxoApi.computeDimensionalGraphs(entrypointPath, namespace, localPart)
+  def findDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String): List[DimensionsGraph] = 
+    taxoApi.findDimensionalGraphs(entrypointPath, namespace, localPart)
   
   def computePresentationTree(entrypointPath: String, elr: String): PresentationELR = 
     taxoApi.computePresentationTree(entrypointPath, elr)

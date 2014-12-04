@@ -33,6 +33,15 @@ object Application extends Controller {
     Ok(json)
   } 
   
+  implicit val enameWrites = new Writes[EName] {
+    def writes(ename: EName): JsObject = {
+      val namespace = ename.namespaceUriOption.getOrElse("")
+      Json.obj(
+        "namespace" -> namespace,
+        "localName" -> ename.localPart)
+    }
+  }
+  
   implicit val conceptWrites: Writes[Concept] = (
     (JsPath \ "namespace").write[String] and
     (JsPath \ "localPart").write[String] and 
@@ -55,20 +64,19 @@ object Application extends Controller {
   )(unlift(DtsGraph.unapply))
   
   def computeDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String) = Action {
-    val json = Json.toJson(Taxonomies.computeDimensionalGraphs(entrypointPath, namespace, localPart))
+    val json = Json.toJson(Taxonomies.findDimensionalGraphs(entrypointPath, namespace, localPart))
     Ok(json)
   }
   
   implicit val dimGraphWrites: Writes[DimensionsGraph] = (
     (JsPath \ "elr").write[String] and
-    (JsPath \ "graph").write[DimensionalGraphNode]
+    (JsPath \ "graph").write[DimensionsGraphNode]
   )(unlift(DimensionsGraph.unapply))
   
-  implicit lazy val dimGraphNodeWrites: Writes[DimensionalGraphNode] = (
-    (JsPath \ "namespace").write[String] and
-    (JsPath \ "localPart").write[String] and
-    (JsPath \ "children").lazyWrite(Writes.seq[DimensionalGraphNode](dimGraphNodeWrites))
-  )(unlift(DimensionalGraphNode.unapply))
+  implicit lazy val dimGraphNodeWrites: Writes[DimensionsGraphNode] = (
+    (JsPath \ "ename").write[EName] and
+    (JsPath \ "children").lazyWrite(Writes.seq[DimensionsGraphNode](dimGraphNodeWrites))
+  )(unlift(DimensionsGraphNode.unapply))
   
   def computePresentationTree(entrypointPath: String, elr: String) = Action {
     val json = Json.toJson(Taxonomies.computePresentationTree(entrypointPath, elr))
@@ -95,15 +103,6 @@ object Application extends Controller {
     (JsPath \ "ename").write[String] and 
     (JsPath \ "labels").lazyWrite(Writes.seq[Label](labelWrites))
   )(unlift(PresentationConcept.unapply))
-  
-  implicit val enameWrites = new Writes[EName] {
-    def writes(ename: EName): JsObject = {
-      val namespace = ename.namespaceUriOption.getOrElse("")
-      Json.obj(
-        "namespace" -> namespace,
-        "localName" -> ename.localPart)
-    }
-  }
 
   implicit lazy val referencePartWrites = new Writes[ReferencePart] {
     def writes(part: ReferencePart): JsObject = {
