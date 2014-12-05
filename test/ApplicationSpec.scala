@@ -1,13 +1,16 @@
 import org.specs2.mutable._
 import org.specs2.runner._
+import org.specs2.matcher.JsonMatchers
 import org.junit.runner._
 import play.api.test._
 import play.api.test.Helpers._
+import play.api.libs.json._
 import model._
 import nl.ebpi.tqa.model.relationship.ConceptLabelRelationship
 import eu.cdevreeze.yaidom.core.EName
 import nl.ebpi.tqa.model.relationship.ConceptReferenceRelationship
 import model.tqa.TqaTaxonomyApi
+import java.net.URI
 
 /**
  * Add your spec here.
@@ -15,7 +18,7 @@ import model.tqa.TqaTaxonomyApi
  * For more information, consult the wiki.
  */
 @RunWith(classOf[JUnitRunner])
-class ApplicationSpec extends Specification {
+class ApplicationSpec extends Specification with JsonMatchers {
 
   "Application" should {
 
@@ -130,6 +133,35 @@ class ApplicationSpec extends Specification {
 
       status(conceptRefsResult) must not(equalTo(OK))
       contentType(conceptRefsResult) must beSome.which(_ == "application/json")
+    }
+    
+    "render a dimensional graph for an item connected only to a hypercube" in new WithApplication{
+      val entrypointUri = new URI("http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-kleine-rechtspersoon-gecomprimeerd-2013.xsd")
+      
+      val conceptEName = EName("http://www.nltaxonomie.nl/8.0/basis/sbr/items/nl-common-data", "FirstName")
+      
+      val requestUri =
+        s"/dimensionsGraph?uri=${entrypointUri}&namespace=${conceptEName.namespaceUriOption.getOrElse("")}&localPart=${conceptEName.localPart}"
+
+      val conceptDimensionTree = route(FakeRequest(GET, requestUri)).get
+
+      status(conceptDimensionTree) must equalTo(OK)
+      contentType(conceptDimensionTree) must beSome.which(_ == "application/json")
+      val json = contentAsJson(conceptDimensionTree).as[JsArray]
+      
+      json.value must have size(1)
+      
+      
+      //\("children").as[JsArray](0) \("children").value must have size(0)
+      
+      val jsonString = contentAsString(conceptDimensionTree).trim 
+      
+      jsonString must /#(0) /("elr" -> "urn:kvk:linkrole:adimensional-table")
+      jsonString must /#(0) /("graph") /("ename") /("localName" -> "FirstName")
+      jsonString must /#(0) /("graph") /("children") /#(0) /("children") /#(0) /("ename") /("localName" -> "ValidationTable")
+      
+
+      
     }
   }
 }
