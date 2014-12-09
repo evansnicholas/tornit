@@ -9,7 +9,7 @@ object Utils {
   
   /**
    * Given a list of strings filters the list based on the query parameter.  The query paramater is treated both as an 
-   * ordinary query string and as regex. 
+   * ordinary query string. 
    */
   def filterWithQuery[A](list: List[A])(f: A => String)(query: String): List[A] = {
     val lowerCaseQuery = query.toLowerCase()
