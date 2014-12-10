@@ -4,6 +4,7 @@ package tqa
 import play.api._
 import play.api.Play.current
 import play.api.cache.Cache
+import play.api.libs.json.JsString
 import java.net.URI
 import java.net.URLDecoder
 import java.net.URI
@@ -25,6 +26,7 @@ import model.Reference
 import model.TaxonomyApi
 import model.TaxonomyPlugin
 import eu.cdevreeze.yaidom.utils.NamespaceUtils
+import org.apache.commons.lang3.StringEscapeUtils
 
 class TqaTaxonomyPlugin(app: Application) extends TaxonomyPlugin(app){
 
@@ -180,7 +182,7 @@ object TqaTaxonomyApi extends TaxonomyApi {
       NamespaceUtils.stripUnusedNamespaces(elementDeclIndexedElem, XsdSchemaUtils.ENameExtractor)
 
     val elemDecString = Utils.docPrinter.print(strippedElementDecl)
-
+       
     ConceptElementDeclaration(ename, elemDecString, substitutionGroupHierarchy, typeHierarchy)
   }
 }

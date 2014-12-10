@@ -11,20 +11,21 @@ import eu.cdevreeze.yaidom.core.EName
 import play.api.libs.functional.syntax._
 import model._
 
-
 @RunWith(classOf[JUnitRunner])
 class ConceptSpec extends Specification {
 
+  import ConceptSpec._
+  
   "The concept api" should {
     
-    "return a list of all concepts in the taxonomy" in new WithApplication {
+    "return a list of all concepts in the taxonomy that match a query string" in new WithApplication {
       val conceptQuery = "equ"
       val requestUri =
         s"/concepts?uri=http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-middelgrote-rechtspersoon-publicatiestukken-model-b-j-direct-2013.xsd&concept=$conceptQuery"
 
-      val entrypointsResult = route(FakeRequest(GET, requestUri)).get
+      val conceptList = route(FakeRequest(GET, requestUri)).get
       
-      val json = contentAsJson(entrypointsResult).as[JsArray]
+      val json = contentAsJson(conceptList).as[JsArray]
       
       val conceptENames = json.value map { value =>
         val namespace = (value \ "namespace").as[String]
@@ -47,11 +48,17 @@ class ConceptSpec extends Specification {
     "return the information related to a concept in the taxonomy" in new WithApplication {
       val conceptParams = s"conceptNamespace=$Bw2DataNamespace&conceptLocalName=Equity"
       val requestUri =
-        s"/concept?uri=http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-middelgrote-rechtspersoon-publicatiestukken-model-b-j-direct-2013.xsd&concept=$conceptParams"
+        s"/concept?entrypointUri=http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-middelgrote-rechtspersoon-publicatiestukken-model-b-j-direct-2013.xsd&$conceptParams"
 
-      val entrypointsResult = route(FakeRequest(GET, requestUri)).get
+      val conceptDec = route(FakeRequest(GET, requestUri)).get
       
-      val json = contentAsJson(entrypointsResult)
+      val json = contentAsJson(conceptDec)
+            
+      val ced = json.as[ConceptElementDeclaration]
+      ced.ename must beEqualTo(EName(Bw2DataNamespace, "Equity"))
+      ced.elementDeclaration must contain("""substitutionGroup="xbrli:item"""")
+      ced.substitutionGroupHierarchy must have size(1)
+      ced.typeHierarchy must have size(6)
       
     }
   } 

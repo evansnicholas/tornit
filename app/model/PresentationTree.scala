@@ -4,9 +4,9 @@ import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
 import nl.ebpi.tqa.model.relationship.ParentChildRelationship
 import eu.cdevreeze.yaidom.core.EName
 
-case class PresentationELR(elr: String, roots: IndexedSeq[PresentationNode])
-case class PresentationNode(concept: PresentationConcept, children: IndexedSeq[PresentationNode])
-case class PresentationConcept(ename: String, labels: IndexedSeq[Label])
+case class PresentationELR(elr: String, roots: Seq[PresentationNode])
+case class PresentationNode(concept: PresentationConcept, children: Seq[PresentationNode])
+case class PresentationConcept(ename: String, labels: Seq[Label])
 case class Label(role: String, language: String, text: String)
 
 object PresentationTree {

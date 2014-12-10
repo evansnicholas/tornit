@@ -22,6 +22,5 @@ libraryDependencies ++= Seq(
     ExclusionRule(organization = "org.scala-lang"),
     ExclusionRule(organization = "org.scalaz")
   ),
-  "org.scalaz" %% "scalaz-core" % "7.0.6"
-)
+  "org.scalaz" %% "scalaz-core" % "7.0.6")
 
