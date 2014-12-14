@@ -49,9 +49,40 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
     var taxoscopeControllers = angular.module('taxoscopeControllers', ['ui.bootstrap']);
 
     taxoscopeControllers.
+        controller('MainCtrl', ['$scope', '$routeParams', '$location', function($scope, $routeParams, $location) {
+          var menuItems = [
+            { 
+              label: "DTS graph",
+              path: "/dtsGraph",
+            },
+            {
+              label: "Presentation",
+              path: "/presentation",
+            },
+            {
+              label: "Concepts",
+              path: "/concept",
+            }
+          ];
+
+          function isActive(item) {
+            return $location.path() === item.path;
+          }
+  
+          function routeMenuItem(item) {
+            if ($location.path() === "/") {
+               //do nothing, stay here 
+            } else {
+              $location.path(item.path).search({uri: $routeParams.uri});
+            }
+          }
+
+          $scope.menuItems = menuItems;
+          $scope.isActive = isActive;
+          $scope.routeMenuItem = routeMenuItem;
+        }]).
         controller('NavCtrl', ['$scope', '$http', '$location', function($scope, $http, $location) {
           $scope.selectEntrypoint = function(item, model, label) {
-            console.log(item);
             $location.path('/dtsGraph').search({ uri: item });
           };
           $scope.getEntrypoints = function(val) {
@@ -60,9 +91,9 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
                   uri: val
                 }
               }).then(function(response) {
-              return response.data.map(function(item) {
-                return item.uri;
-              });
+                return response.data.slice(0, 15).map(function(item) {
+                  return item.uri;
+                });
             });
           };
         }]).

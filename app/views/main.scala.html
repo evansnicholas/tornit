@@ -51,29 +51,23 @@
         <div class="navbar-collapse collapse" id="main-navbar" ng-controller="NavCtrl">
           <form class="navbar-form navbar-left">
             <div id="entrypoint-select">
-              <input type="text" ng-model="asyncSelected" placeholder="Select entrypoint..." typeahead="uri for uri in getEntrypoints($viewValue)" typeahead-on-select="selectEntrypoint($item, $model, $label)" typeahead-min-length="3" class="form-control">
+              <input type="text" ng-model="selectedEntrypoint" placeholder="Select entrypoint..." typeahead="uri for uri in getEntrypoints($viewValue)" typeahead-on-select="selectEntrypoint($item, $model, $label)" typeahead-min-length="3" class="form-control">
             </div>
           </form>
           <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Selected entrypoint <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#" id="selected-entrypoint">No entrypoint selected.</a></li>
-              </ul>
-            </li>
             <li><span id="loader-icon" class="glyphicon glyphicon-refresh navbar-brand" aria-hidden="true"></span></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" ng-controller="MainCtrl">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul id="viewer-selection" class="nav nav-sidebar">
-            <li id="dts-graph-view-selection"><a href="#/dtsGraph">DTS Graph</a></li>
-            <li id="presentation-view-selection"><a href="#/presentation">Presentation Viewer</a></li>
-            <li id="concept-view-selection"><a href="#/concept">Concept Viewer</a></li>
+            <li ng-repeat="menuItem in menuItems" ng-class="{active: isActive(menuItem)}">
+             <a href="" ng-click="routeMenuItem(menuItem)"><span ng-bind="menuItem.label"></span></a>
+            </li>
           </ul>
           <ul class="nav nav-sidebar">
           </ul>
