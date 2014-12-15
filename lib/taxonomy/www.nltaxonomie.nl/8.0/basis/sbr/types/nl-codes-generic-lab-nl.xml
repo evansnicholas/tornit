@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Wed May 15 16:00:00 2013
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_BTLNNP_loc" xlink:to="nl-codes_Legal_BTLNNP_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_BTLR_loc" xlink:to="nl-codes_Legal_BTLR_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_BV_loc" xlink:to="nl-codes_Legal_BV_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_CV_loc" xlink:to="nl-codes_Legal_CV_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_CVR_loc" xlink:to="nl-codes_Legal_CVR_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_Coop_loc" xlink:to="nl-codes_Legal_Coop_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_EES_loc" xlink:to="nl-codes_Legal_EES_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_Eenmanszaak_loc" xlink:to="nl-codes_Legal_Eenmanszaak_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_EenmanszaakMeer_loc" xlink:to="nl-codes_Legal_EenmanszaakMeer_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_FBTLV_loc" xlink:to="nl-codes_Legal_FBTLV_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_IO_loc" xlink:to="nl-codes_Legal_IO_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_KapV_loc" xlink:to="nl-codes_Legal_KapV_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_Kerk_loc" xlink:to="nl-codes_Legal_Kerk_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_Maatschap_loc" xlink:to="nl-codes_Legal_Maatschap_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_NFBTLV_loc" xlink:to="nl-codes_Legal_NFBTLV_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_NV_loc" xlink:to="nl-codes_Legal_NV_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_OV_loc" xlink:to="nl-codes_Legal_OV_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_OVR_loc" xlink:to="nl-codes_Legal_OVR_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_OWM_loc" xlink:to="nl-codes_Legal_OWM_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_OvBTLR_loc" xlink:to="nl-codes_Legal_OvBTLR_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_Overige_loc" xlink:to="nl-codes_Legal_Overige_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_Publiek_loc" xlink:to="nl-codes_Legal_Publiek_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_Rederij_loc" xlink:to="nl-codes_Legal_Rederij_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_SCE_loc" xlink:to="nl-codes_Legal_SCE_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_SE_loc" xlink:to="nl-codes_Legal_SE_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_Stichting_loc" xlink:to="nl-codes_Legal_Stichting_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_Vereniging_loc" xlink:to="nl-codes_Legal_Vereniging_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_VvE_loc" xlink:to="nl-codes_Legal_VvE_label_nl"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Legal_VoF_loc" xlink:to="nl-codes_Legal_VoF_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Sex_F_loc" xlink:to="nl-codes_Sex_F_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Sex_M_loc" xlink:to="nl-codes_Sex_M_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_Sex_U_loc" xlink:to="nl-codes_Sex_U_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_BeforeAfter_A_loc" xlink:to="nl-codes_BeforeAfter_A_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_BeforeAfter_B_loc" xlink:to="nl-codes_BeforeAfter_B_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_FinancialStatement_C_loc" xlink:to="nl-codes_FinancialStatement_C_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_FinancialStatement_I_loc" xlink:to="nl-codes_FinancialStatement_I_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_FinancialStatement_CI_loc" xlink:to="nl-codes_FinancialStatement_CI_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_LifeRate_Afschrijvingspercentage_loc" xlink:to="nl-codes_LifeRate_Afschrijvingspercentage_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_LifeRate_Gebruiksduur_loc" xlink:to="nl-codes_LifeRate_Gebruiksduur_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_CostFairValue_Kostprijs_loc" xlink:to="nl-codes_CostFairValue_Kostprijs_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_CostFairValue_ReeleWaarde_loc" xlink:to="nl-codes_CostFairValue_ReeleWaarde_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_PersonRole_Berichtgever_loc" xlink:to="nl-codes_PersonRole_Berichtgever_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_PersonRole_Contactpersoon_loc" xlink:to="nl-codes_PersonRole_Contactpersoon_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_PersonRole_Informatieplichtige_loc" xlink:to="nl-codes_PersonRole_Informatieplichtige_label_nl"/>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_BTLNNP_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Buitenlandse NNP als functionaris</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_BTLR_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Buitenlandse rechtsvorm</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_BV_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Besloten vennootschap</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_CV_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Commanditaire vennootschap</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_CVR_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Commanditaire vennootschap met rechtspersoonlijkheid</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_Coop_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Coöperatie</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_EES_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Europees Economisch Samenwerkingsverband</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_Eenmanszaak_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Eenmanszaak</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_EenmanszaakMeer_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Eenmanszaak met meerdere eigenaren</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_FBTLV_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Formeel buitenlandse vennootschap</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_IO_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Rechtspersoon in oprichting</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_KapV_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Kapitaal vennootschap binnen EER</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_Kerk_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Kerkgenootschap</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_Maatschap_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Maatschap</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_NFBTLV_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Niet formeel buitenlandse vennootschap</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_NV_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Naamloze vennootschap</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_OV_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Openbare vennootschap</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_OVR_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Openbare vennootschap met rechtspersoonlijkheid</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_OWM_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Onderlinge waarborg maatschappij</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_OvBTLR_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Overige buitenlandse rechtsvorm</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_Overige_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Overige rechtsvorm</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_Publiek_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Publiekrechterlijke rechtspersoon</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_Rederij_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Rederij</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_SCE_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Europese cooperatieve vennootschap (SCE)</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_SE_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Europese naamloze vennootschap (SE)</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_Stichting_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Stichting</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_Vereniging_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Vereniging</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_VvE_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Vereniging van eigenaars</label:label>
+	<label:label xlink:type="resource" xlink:label="nl-codes_Legal_VoF_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Vennootschap onder firma</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_Sex_F_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Vrouw</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_Sex_M_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Man</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_Sex_U_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Onbekend</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_BeforeAfter_A_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Na resultaatbestemming</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_BeforeAfter_B_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Voor resultaatbestemming</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_FinancialStatement_C_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Geconsolideerd</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_FinancialStatement_I_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Enkelvoudig</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_FinancialStatement_CI_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Geconsolideerd en enkelvoudig</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_LifeRate_Afschrijvingspercentage_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Afschrijvingspercentage</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_LifeRate_Gebruiksduur_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Gebruiksduur</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_CostFairValue_Kostprijs_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Kostprijs</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_CostFairValue_ReeleWaarde_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Reële waarde</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_PersonRole_Berichtgever_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Berichtgever</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_PersonRole_Contactpersoon_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Contactpersoon</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_PersonRole_Informatieplichtige_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Informatieplichtige</label:label>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_BTLNNP" xlink:label="nl-codes_Legal_BTLNNP_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_BTLR" xlink:label="nl-codes_Legal_BTLR_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_BV" xlink:label="nl-codes_Legal_BV_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_CV" xlink:label="nl-codes_Legal_CV_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_CVR" xlink:label="nl-codes_Legal_CVR_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_Coop" xlink:label="nl-codes_Legal_Coop_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_EES" xlink:label="nl-codes_Legal_EES_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_Eenmanszaak" xlink:label="nl-codes_Legal_Eenmanszaak_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_EenmanszaakMeer" xlink:label="nl-codes_Legal_EenmanszaakMeer_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_FBTLV" xlink:label="nl-codes_Legal_FBTLV_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_IO" xlink:label="nl-codes_Legal_IO_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_KapV" xlink:label="nl-codes_Legal_KapV_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_Kerk" xlink:label="nl-codes_Legal_Kerk_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_Maatschap" xlink:label="nl-codes_Legal_Maatschap_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_NFBTLV" xlink:label="nl-codes_Legal_NFBTLV_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_NV" xlink:label="nl-codes_Legal_NV_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_OV" xlink:label="nl-codes_Legal_OV_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_OVR" xlink:label="nl-codes_Legal_OVR_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_OWM" xlink:label="nl-codes_Legal_OWM_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_OvBTLR" xlink:label="nl-codes_Legal_OvBTLR_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_Overige" xlink:label="nl-codes_Legal_Overige_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_Publiek" xlink:label="nl-codes_Legal_Publiek_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_Rederij" xlink:label="nl-codes_Legal_Rederij_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_SCE" xlink:label="nl-codes_Legal_SCE_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_SE" xlink:label="nl-codes_Legal_SE_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_Stichting" xlink:label="nl-codes_Legal_Stichting_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_Vereniging" xlink:label="nl-codes_Legal_Vereniging_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_VvE" xlink:label="nl-codes_Legal_VvE_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Legal_VoF" xlink:label="nl-codes_Legal_VoF_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Sex_F" xlink:label="nl-codes_Sex_F_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Sex_M" xlink:label="nl-codes_Sex_M_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_Sex_U" xlink:label="nl-codes_Sex_U_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_BeforeAfter_A" xlink:label="nl-codes_BeforeAfter_A_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_BeforeAfter_B" xlink:label="nl-codes_BeforeAfter_B_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_FinancialStatement_C" xlink:label="nl-codes_FinancialStatement_C_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_FinancialStatement_I" xlink:label="nl-codes_FinancialStatement_I_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_FinancialStatement_CI" xlink:label="nl-codes_FinancialStatement_CI_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_LifeRate_Afschrijvingspercentage" xlink:label="nl-codes_LifeRate_Afschrijvingspercentage_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_LifeRate_Gebruiksduur" xlink:label="nl-codes_LifeRate_Gebruiksduur_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_CostFairValue_Kostprijs" xlink:label="nl-codes_CostFairValue_Kostprijs_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_CostFairValue_ReeleWaarde" xlink:label="nl-codes_CostFairValue_ReeleWaarde_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_PersonRole_Berichtgever" xlink:label="nl-codes_PersonRole_Berichtgever_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_PersonRole_Contactpersoon" xlink:label="nl-codes_PersonRole_Contactpersoon_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_PersonRole_Informatieplichtige" xlink:label="nl-codes_PersonRole_Informatieplichtige_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_legalItemType" xlink:label="nl-codes_legalItemType_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_genderItemType" xlink:label="nl-codes_genderItemType_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_profitAppropriationItemType" xlink:label="nl-codes_profitAppropriationItemType_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_financialStatementItemType" xlink:label="nl-codes_financialStatementItemType_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_lifeRateItemType" xlink:label="nl-codes_lifeRateItemType_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_costFairValueItemType" xlink:label="nl-codes_costFairValueItemType_loc"/>
+	<link:loc xlink:type="locator" xlink:href="nl-codes.xsd#nl-codes_personRoleItemType" xlink:label="nl-codes_personRoleItemType_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_legalItemType_loc" xlink:to="nl-codes_legalItemType_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_genderItemType_loc" xlink:to="nl-codes_genderItemType_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_profitAppropriationItemType_loc" xlink:to="nl-codes_profitAppropriationItemType_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_financialStatementItemType_loc" xlink:to="nl-codes_financialStatementItemType_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_lifeRateItemType_loc" xlink:to="nl-codes_lifeRateItemType_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_costFairValueItemType_loc" xlink:to="nl-codes_costFairValueItemType_label_nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="nl-codes_personRoleItemType_loc" xlink:to="nl-codes_personRoleItemType_label_nl"/>
+    <label:label xlink:type="resource" xlink:label="nl-codes_legalItemType_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Juridische entiteit [domein]</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_genderItemType_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Geslacht [domein]</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_profitAppropriationItemType_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Resultaat bestemming [domein]</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_financialStatementItemType_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Geconsolideerd of vennootschappelijk [domein]</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_lifeRateItemType_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Afschrijvingsmethodiek [domein]</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_costFairValueItemType_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Cost fair value [domein]</label:label>
+    <label:label xlink:type="resource" xlink:label="nl-codes_personRoleItemType_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Rol van de persoon [domein]</label:label>
+  </gen:link>
+</link:linkbase>

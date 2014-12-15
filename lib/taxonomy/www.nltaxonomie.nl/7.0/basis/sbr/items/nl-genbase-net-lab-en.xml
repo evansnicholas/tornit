@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Tue May 15 15:52:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.xbrl.org/2009/role/netLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_CashFlowFinancingActivities" xlink:label="nl-gen_CashFlowsFromUsedInFinancingActivities_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_CashFlowFromOperations" xlink:label="nl-gen_CashFlowsFromUsedInOperations_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_CashFlowInvestingActivities" xlink:label="nl-gen_CashFlowsFromUsedInInvestingActivities_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_CashFlowOperatingActivities" xlink:label="nl-gen_CashFlowsFromUsedInOperatingActivities_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_GrossMargin" xlink:label="nl-gen_GrossMargin_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_GrossOperatingResult" xlink:label="nl-gen_GrossOperatingResult_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_IncreaseDecreaseCashAndCashEquivalents" xlink:label="nl-gen_IncreaseDecreaseInCashAndCashEquivalents_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_NetCashFlows" xlink:label="nl-gen_NetCashFlows_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_NetOperatingResult" xlink:label="nl-gen_NetOperatingResult_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_NetResultAfterTax" xlink:label="nl-gen_NetResultAfterTax_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_OperatingResult" xlink:label="nl-gen_OperatingResult_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_OutcomeAssetsCurrentLessLiabilitiesCurrent" xlink:label="nl-gen_OutcomeOfCurrentAssetsLessCurrentLiabilities_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_OutcomeAssetsLessLiabilitiesCurrent" xlink:label="nl-gen_OutcomeOfAssetsLessCurrentLiabilities_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_ResultAfterTax" xlink:label="nl-gen_ResultAfterTax_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_ResultAfterTaxOrdinaryActivities" xlink:label="nl-gen_ResultFromOrdinaryActivitiesAfterTax_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_ResultAttributableNoncontrollingInterest" xlink:label="nl-gen_ResultAttributableToNoncontrollingInterest_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_ResultBeforeTaxOrdinaryActivities" xlink:label="nl-gen_ResultFromOrdinaryActivitiesBeforeTax_loc"/>
+    <link:label xlink:type="resource" xlink:label="nl-gen_CashFlowsFromUsedInFinancingActivities_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_CashFlowsFromUsedInFinancingActivities_net_en">Cash flows from (used in) financing activities, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_CashFlowsFromUsedInOperations_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_CashFlowsFromUsedInOperations_net_en">Cash flows from (used in) operations, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_CashFlowsFromUsedInInvestingActivities_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_CashFlowsFromUsedInInvestingActivities_net_en">Cash flows from (used in) investing activities, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_CashFlowsFromUsedInOperatingActivities_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_CashFlowsFromUsedInOperatingActivities_net_en">Cash flows from (used in) operating activities, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_GrossMargin_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_GrossMargin_net_en">Gross margin, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_GrossOperatingResult_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_GrossOperatingResult_net_en">Gross operating result, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_IncreaseDecreaseInCashAndCashEquivalents_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_IncreaseDecreaseInCashAndCashEquivalents_net_en">Increase (decrease) in cash and cash equivalents, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_NetCashFlows_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_NetCashFlows_net_en">Net cash flows, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_NetOperatingResult_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_NetOperatingResult_net_en">Net operating result, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_NetResultAfterTax_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_NetResultAfterTax_net_en">Net result after tax, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_OperatingResult_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_OperatingResult_net_en">Operating result, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_OutcomeOfCurrentAssetsLessCurrentLiabilities_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_OutcomeOfCurrentAssetsLessCurrentLiabilities_net_en">Outcome of current assets less current liabilities, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_OutcomeOfAssetsLessCurrentLiabilities_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_OutcomeOfAssetsLessCurrentLiabilities_net_en">Outcome of assets less current liabilities, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_ResultAfterTax_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_ResultAfterTax_net_en">Result after tax, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_ResultFromOrdinaryActivitiesAfterTax_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_ResultFromOrdinaryActivitiesAfterTax_net_en">Result from ordinary activities after tax, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_ResultAttributableToNoncontrollingInterest_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_ResultAttributableToNoncontrollingInterest_net_en">Result attributable to non-controlling interest, net </link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_ResultFromOrdinaryActivitiesBeforeTax_net_en" xlink:role="http://www.xbrl.org/2009/role/netLabel" xml:lang="en" id="nl-gen_ResultFromOrdinaryActivitiesBeforeTax_net_en">Result from ordinary activities before tax, net </link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_CashFlowsFromUsedInFinancingActivities_loc" xlink:to="nl-gen_CashFlowsFromUsedInFinancingActivities_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_CashFlowsFromUsedInOperations_loc" xlink:to="nl-gen_CashFlowsFromUsedInOperations_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_CashFlowsFromUsedInInvestingActivities_loc" xlink:to="nl-gen_CashFlowsFromUsedInInvestingActivities_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_CashFlowsFromUsedInOperatingActivities_loc" xlink:to="nl-gen_CashFlowsFromUsedInOperatingActivities_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_GrossMargin_loc" xlink:to="nl-gen_GrossMargin_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_GrossOperatingResult_loc" xlink:to="nl-gen_GrossOperatingResult_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_IncreaseDecreaseInCashAndCashEquivalents_loc" xlink:to="nl-gen_IncreaseDecreaseInCashAndCashEquivalents_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_NetCashFlows_loc" xlink:to="nl-gen_NetCashFlows_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_NetOperatingResult_loc" xlink:to="nl-gen_NetOperatingResult_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_NetResultAfterTax_loc" xlink:to="nl-gen_NetResultAfterTax_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_OperatingResult_loc" xlink:to="nl-gen_OperatingResult_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_OutcomeOfCurrentAssetsLessCurrentLiabilities_loc" xlink:to="nl-gen_OutcomeOfCurrentAssetsLessCurrentLiabilities_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_OutcomeOfAssetsLessCurrentLiabilities_loc" xlink:to="nl-gen_OutcomeOfAssetsLessCurrentLiabilities_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_ResultAfterTax_loc" xlink:to="nl-gen_ResultAfterTax_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_ResultFromOrdinaryActivitiesAfterTax_loc" xlink:to="nl-gen_ResultFromOrdinaryActivitiesAfterTax_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_ResultAttributableToNoncontrollingInterest_loc" xlink:to="nl-gen_ResultAttributableToNoncontrollingInterest_net_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_ResultFromOrdinaryActivitiesBeforeTax_loc" xlink:to="nl-gen_ResultFromOrdinaryActivitiesBeforeTax_net_en"/>
+  </link:labelLink>
+</link:linkbase>

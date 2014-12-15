@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:label xlink:type="resource" xlink:label="cbs-st_StatusDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-st_StatusDomain_label_nl">Status [Domein]</link:label>
+		<link:label xlink:type="resource" xlink:label="cbs-st_DraftMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-st_DraftMember_label_nl">Voorlopig [Lid]</link:label>
+		<link:label xlink:type="resource" xlink:label="cbs-st_FinalMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-st_FinalMember_label_nl">Definitief [Lid]</link:label>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-st_StatusDomain_loc" xlink:to="cbs-st_StatusDomain_label_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-st_DraftMember_loc" xlink:to="cbs-st_DraftMember_label_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-st_FinalMember_loc" xlink:to="cbs-st_FinalMember_label_nl"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_StatusDomain" xlink:label="cbs-st_StatusDomain_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_DraftMember" xlink:label="cbs-st_DraftMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_FinalMember" xlink:label="cbs-st_FinalMember_loc"/>
+	</link:labelLink>
+</link:linkbase>

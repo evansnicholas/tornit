@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:roleRef roleURI="urn:kvk:linkrole:financial-statements-type-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_FinancialStatementsTypeTable" xlink:type="simple"/>
+  <link:roleRef roleURI="urn:kvk:linkrole:financial-statements-type-consolidated-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_FinancialStatementsTypeConsolidatedTable" xlink:type="simple"/>
+  <link:definitionLink xlink:role="urn:kvk:linkrole:financial-statements-type-table" xlink:type="extended">
+    <link:loc xlink:href="http://www.nltaxonomie.nl/2013/xbrl/sbr-dimensional-concepts.xsd#sbr-dim_ValidationLineItems" xlink:label="sbr-dim_ValidationLineItems_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_FinancialAssets" xlink:label="bw2-i_FinancialAssets_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ResultForTheYear" xlink:label="bw2-i_ResultForTheYear_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AverageNumberEmployees" xlink:label="bw2-i_AverageNumberEmployees_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AverageNumberEmployeesAbroad" xlink:label="bw2-i_AverageNumberEmployeesAbroad_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AverageNumberEmployeesDisclosure" xlink:label="bw2-i_AverageNumberEmployeesDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AverageNumberEmployeesNetherlands" xlink:label="bw2-i_AverageNumberEmployeesNetherlands_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ContingentLiabilitiesDisclosure" xlink:label="bw2-i_ContingentLiabilitiesDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_EntityAccumulatedLosses" xlink:label="rj-i_EntityAccumulatedLosses_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityDateLastFinancialStatements" xlink:label="bw2-i_EntityDateLastFinancialStatements_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityEquityLastFinancialStatements" xlink:label="bw2-i_EntityEquityLastFinancialStatements_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityInterestInShareCapital" xlink:label="bw2-i_EntityInterestInShareCapital_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityInterestInVotingRights" xlink:label="bw2-i_EntityInterestInVotingRights_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityLiabilityDisclosure" xlink:label="bw2-i_EntityLiabilityDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityLocation" xlink:label="bw2-i_EntityLocation_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityName" xlink:label="bw2-i_EntityName_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityReasonDeviationNetAssetValue" xlink:label="bw2-i_EntityReasonDeviationNetAssetValue_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityReasonNonConsolidation" xlink:label="bw2-i_EntityReasonNonConsolidation_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityResultsLastFinancialStatements" xlink:label="bw2-i_EntityResultsLastFinancialStatements_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LoansAdvancesGuaranteesOnBehalfOfDirectorsDisclosure" xlink:label="bw2-i_LoansAdvancesGuaranteesOnBehalfOfDirectorsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ParticipatingInterestsDisclosure" xlink:label="bw2-i_ParticipatingInterestsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_RemunerationManagingSupervisoryDirectorsDisclosure" xlink:label="bw2-i_RemunerationManagingSupervisoryDirectorsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_RemunerationManagingSupervisoryDirectorsCrisisLevyDisclosure" xlink:label="rj-i_RemunerationManagingSupervisoryDirectorsCrisisLevyDisclosure_loc" xlink:type="locator"/>    
+	<link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_RemunerationManagingSupervisoryDirectorsExemptionDescription" xlink:label="bw2-i_RemunerationManagingSupervisoryDirectorsExemptionDescription_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ResultForTheYearDisclosure" xlink:label="bw2-i_ResultForTheYearDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ShareCapitalIssued" xlink:label="bw2-i_ShareCapitalIssued_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ShareCapitalPaid" xlink:label="bw2-i_ShareCapitalPaid_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ShareCapitalPaidCalledUp" xlink:label="bw2-i_ShareCapitalPaidCalledUp_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SignatureManagingSupervisoryDirectorsDate" xlink:label="bw2-i_SignatureManagingSupervisoryDirectorsDate_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SignatureManagingSupervisoryDirectorsDisclosure" xlink:label="bw2-i_SignatureManagingSupervisoryDirectorsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SignatureManagingSupervisoryDirectorsLocation" xlink:label="bw2-i_SignatureManagingSupervisoryDirectorsLocation_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Assets" xlink:label="bw2-i_Assets_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AssetsCurrent" xlink:label="bw2-i_AssetsCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AssetsNoncurrent" xlink:label="bw2-i_AssetsNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_BalanceSheetBeforeAfterAppropriationResults" xlink:label="bw2-i_BalanceSheetBeforeAfterAppropriationResults_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_CashAndCashEquivalents" xlink:label="bw2-i_CashAndCashEquivalents_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_CashAndCashEquivalentsDisclosure" xlink:label="bw2-i_CashAndCashEquivalentsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Equity" xlink:label="bw2-i_Equity_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EquityAndLiabilities" xlink:label="bw2-i_EquityAndLiabilities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EquityDisclosure" xlink:label="bw2-i_EquityDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_FinancialAssetsDisclosure" xlink:label="bw2-i_FinancialAssetsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_IntangibleAssets" xlink:label="bw2-i_IntangibleAssets_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_IntangibleAssetsDisclosure" xlink:label="bw2-i_IntangibleAssetsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Inventories" xlink:label="bw2-i_Inventories_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_InventoriesDisclosure" xlink:label="bw2-i_InventoriesDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LiabilitiesCurrent" xlink:label="bw2-i_LiabilitiesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LiabilitiesCurrentDisclosure" xlink:label="bw2-i_LiabilitiesCurrentDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LiabilitiesNoncurrent" xlink:label="bw2-i_LiabilitiesNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LiabilitiesNoncurrentDisclosure" xlink:label="bw2-i_LiabilitiesNoncurrentDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipment" xlink:label="bw2-i_PropertyPlantEquipment_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PropertyPlantEquipmentDisclosure" xlink:label="rj-i_PropertyPlantEquipmentDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Provisions" xlink:label="bw2-i_Provisions_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ProvisionsDisclosure" xlink:label="bw2-i_ProvisionsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Receivables" xlink:label="bw2-i_Receivables_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReceivablesDisclosure" xlink:label="bw2-i_ReceivablesDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReservesOther" xlink:label="bw2-i_ReservesOther_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReservesOtherDisclosure" xlink:label="bw2-i_ReservesOtherDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_RetainedEarnings" xlink:label="bw2-i_RetainedEarnings_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_RetainedEarningsDisclosure" xlink:label="bw2-i_RetainedEarningsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_RevaluationReserve" xlink:label="bw2-i_RevaluationReserve_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_RevaluationReserveDisclosure" xlink:label="bw2-i_RevaluationReserveDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Securities" xlink:label="bw2-i_Securities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SecuritiesDisclosure" xlink:label="bw2-i_SecuritiesDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ShareCapital" xlink:label="bw2-i_ShareCapital_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ShareCapitalDisclosure" xlink:label="bw2-i_ShareCapitalDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SharePremium" xlink:label="bw2-i_SharePremium_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SharePremiumDisclosure" xlink:label="bw2-i_SharePremiumDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ConstructionContractsAssets" xlink:label="rj-i_ConstructionContractsAssets_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ConstructionContractsDisclosure" xlink:label="rj-i_ConstructionContractsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_IncomeTaxExpenseDisclosure" xlink:label="bw2-i_IncomeTaxExpenseDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ContingentLiabilitiesOnBehalfOfGroupCompaniesDisclosure" xlink:label="bw2-i_ContingentLiabilitiesOnBehalfOfGroupCompaniesDisclosure_loc" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_FinancialAssets_loc" order="661" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ResultForTheYear_loc" order="662" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_AverageNumberEmployees_loc" order="663" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_AverageNumberEmployeesAbroad_loc" order="664" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_AverageNumberEmployeesDisclosure_loc" order="665" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_AverageNumberEmployeesNetherlands_loc" order="666" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ContingentLiabilitiesDisclosure_loc" order="667" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_EntityAccumulatedLosses_loc" order="671" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityDateLastFinancialStatements_loc" order="672" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityEquityLastFinancialStatements_loc" order="673" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityInterestInShareCapital_loc" order="674" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityInterestInVotingRights_loc" order="675" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityLiabilityDisclosure_loc" order="676" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityLocation_loc" order="677" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityName_loc" order="678" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityReasonDeviationNetAssetValue_loc" order="679" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityReasonNonConsolidation_loc" order="680" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityResultsLastFinancialStatements_loc" order="681" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_LoansAdvancesGuaranteesOnBehalfOfDirectorsDisclosure_loc" order="682" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ParticipatingInterestsDisclosure_loc" order="683" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_RemunerationManagingSupervisoryDirectorsDisclosure_loc" order="684" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_RemunerationManagingSupervisoryDirectorsCrisisLevyDisclosure_loc" order="684.5" xlink:type="arc"/>	
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_RemunerationManagingSupervisoryDirectorsExemptionDescription_loc" order="685" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ResultForTheYearDisclosure_loc" order="686" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ShareCapitalIssued_loc" order="687" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ShareCapitalPaid_loc" order="688" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ShareCapitalPaidCalledUp_loc" order="689" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_SignatureManagingSupervisoryDirectorsDate_loc" order="690" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_SignatureManagingSupervisoryDirectorsDisclosure_loc" order="691" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_SignatureManagingSupervisoryDirectorsLocation_loc" order="692" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_Assets_loc" order="692" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_AssetsCurrent_loc" order="693" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_AssetsNoncurrent_loc" order="694" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_BalanceSheetBeforeAfterAppropriationResults_loc" order="695" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_CashAndCashEquivalents_loc" order="697" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_CashAndCashEquivalentsDisclosure_loc" order="698" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_Equity_loc" order="699" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EquityAndLiabilities_loc" order="700" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EquityDisclosure_loc" order="701" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_FinancialAssetsDisclosure_loc" order="702" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_IntangibleAssets_loc" order="703" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_IntangibleAssetsDisclosure_loc" order="704" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_Inventories_loc" order="705" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_InventoriesDisclosure_loc" order="706" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_LiabilitiesCurrent_loc" order="707" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_LiabilitiesCurrentDisclosure_loc" order="708" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_LiabilitiesNoncurrent_loc" order="709" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_LiabilitiesNoncurrentDisclosure_loc" order="710" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipment_loc" order="711" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PropertyPlantEquipmentDisclosure_loc" order="712" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_Provisions_loc" order="713" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ProvisionsDisclosure_loc" order="714" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_Receivables_loc" order="715" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ReceivablesDisclosure_loc" order="716" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ReservesOther_loc" order="717" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ReservesOtherDisclosure_loc" order="718" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_RetainedEarnings_loc" order="719" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_RetainedEarningsDisclosure_loc" order="720" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_RevaluationReserve_loc" order="721" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_RevaluationReserveDisclosure_loc" order="722" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_Securities_loc" order="723" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_SecuritiesDisclosure_loc" order="724" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ShareCapital_loc" order="725" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ShareCapitalDisclosure_loc" order="726" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_SharePremium_loc" order="727" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_SharePremiumDisclosure_loc" order="728" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ConstructionContractsAssets_loc" order="729" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ConstructionContractsDisclosure_loc" order="730" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_IncomeTaxExpenseDisclosure_loc" order="731" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ContingentLiabilitiesOnBehalfOfGroupCompaniesDisclosure_loc" order="732" xlink:type="arc"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:role="urn:kvk:linkrole:financial-statements-type-consolidated-table" xlink:type="extended">
+    <link:loc xlink:href="http://www.nltaxonomie.nl/2013/xbrl/sbr-dimensional-concepts.xsd#sbr-dim_ValidationLineItems" xlink:label="sbr-dim_ValidationLineItems_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_DifferencesEquityResultSeparateConsolidatedFinancialStatementsDisclosure" xlink:label="bw2-i_DifferencesEquityResultSeparateConsolidatedFinancialStatementsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EquityGroup" xlink:label="bw2-i_EquityGroup_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EquityGroupDisclosure" xlink:label="bw2-i_EquityGroupDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_NoncontrollingInterest" xlink:label="bw2-i_NoncontrollingInterest_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_NoncontrollingInterestDisclosure" xlink:label="bw2-i_NoncontrollingInterestDisclosure_loc" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_DifferencesEquityResultSeparateConsolidatedFinancialStatementsDisclosure_loc" order="487" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EquityGroup_loc" order="488" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EquityGroupDisclosure_loc" order="489" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_NoncontrollingInterest_loc" order="490" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_NoncontrollingInterestDisclosure_loc" order="491" xlink:type="arc"/>
+  </link:definitionLink>
+</link:linkbase>

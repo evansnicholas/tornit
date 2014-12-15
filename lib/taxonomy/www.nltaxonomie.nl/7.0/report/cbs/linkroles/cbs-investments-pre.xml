@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/cbs/linkroles/investments/fs-cbs-investments" xlink:href="cbs-linkroles.xsd#cbs-lr_Investments" xlink:type="simple"/>
+   <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/cbs/linkroles/investments/fs-cbs-investments" xlink:type="extended">
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInNewTangibleFixedAssetsNewBuildings" xlink:label="lbl_InvestmentsInNewTangibleFixedAssetsNewBuildings" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInNewTangibleFixedAssetsNewCivilEngineeringWorks" xlink:label="lbl_InvestmentsInNewTangibleFixedAssetsNewCivilEngineeringWorks" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInNewTangibleFixedAssetsNewComputers" xlink:label="lbl_InvestmentsInNewTangibleFixedAssetsNewComputers" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInNewTangibleFixedAssetsNewTransportEquipment" xlink:label="lbl_InvestmentsInNewTangibleFixedAssetsNewTransportEquipment" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInNewTangibleFixedAssetsOtherNew" xlink:label="lbl_InvestmentsInNewTangibleFixedAssetsOtherNew" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInNewTangibleFixedAssetsOtherNewMachinesInstallationsAndEquipment" xlink:label="lbl_InvestmentsInNewTangibleFixedAssetsOtherNewMachinesInstallationsAndEquipment" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInTangibleFixedAssetsBuildingsExisting" xlink:label="lbl_InvestmentsInTangibleFixedAssetsBuildingsExisting" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInTangibleFixedAssetsCivilEngineeringExisting" xlink:label="lbl_InvestmentsInTangibleFixedAssetsCivilEngineeringExisting" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInTangibleFixedAssetsNewTotal" xlink:label="lbl_InvestmentsInTangibleFixedAssetsNewTotal" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInTangibleFixedAssetsTotalNewAndExisting" xlink:label="cbs-bedr_InvestmentsInTangibleFixedAssetsTotalNewAndExisting" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInUsedSecondhandTangibleFixedAssetsComputers" xlink:label="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsComputers" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInUsedSecondhandTangibleFixedAssetsLandAndSites" xlink:label="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsLandAndSites" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInUsedSecondhandTangibleFixedAssetsOther" xlink:label="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsOther" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInUsedSecondhandTangibleFixedAssetsOtherMachinesInstallationsAndEquipment" xlink:label="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsOtherMachinesInstallationsAndEquipment" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:label="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_InvestmentsInUsedSecondhandTangibleFixedAssetsTransportEquipment" xlink:label="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTransportEquipment" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_PrepaymentsOnTangibleFixedAssetsUnderConstructionEnd" xlink:label="cbs-bedr_PrepaymentsOnTangibleFixedAssetsUnderConstructionEnd" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TangibleFixedAssetsUnderConstructionPrepaymentsStart" xlink:label="cbs-bedr_TangibleFixedAssetsUnderConstructionPrepaymentsStart" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesOfTangibleFixedAssetsTotal" xlink:label="cbs-bedr_SalesOfTangibleFixedAssetsTotal" xlink:type="locator"/>
+      <link:loc xlink:href="../../../report/cbs/abstracts/cbs-bedr-abstracts.xsd#cbs-bedr-a_InvestmentsAndSalesofTangibleFixedAsstes" xlink:label="lbl_InvestmentsAndSalesofTangibleFixedAsstes" xlink:type="locator"/>
+      <link:presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr_InvestmentsInTangibleFixedAssetsTotalNewAndExisting" xlink:to="lbl_InvestmentsInTangibleFixedAssetsNewTotal" xlink:type="arc"/>
+      <link:presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsAndSalesofTangibleFixedAsstes" xlink:to="cbs-bedr_TangibleFixedAssetsUnderConstructionPrepaymentsStart" xlink:type="arc"/>
+      <link:presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInTangibleFixedAssetsNewTotal" xlink:to="lbl_InvestmentsInNewTangibleFixedAssetsNewBuildings" xlink:type="arc"/>
+      <link:presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:to="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsLandAndSites" xlink:type="arc"/>
+      <link:presentationArc order="15.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsAndSalesofTangibleFixedAsstes" xlink:to="cbs-bedr_SalesOfTangibleFixedAssetsTotal" xlink:type="arc"/>
+      <link:presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr_InvestmentsInTangibleFixedAssetsTotalNewAndExisting" xlink:to="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:type="arc"/>
+      <link:presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsAndSalesofTangibleFixedAsstes" xlink:to="cbs-bedr_PrepaymentsOnTangibleFixedAssetsUnderConstructionEnd" xlink:type="arc"/>
+      <link:presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInTangibleFixedAssetsNewTotal" xlink:to="lbl_InvestmentsInNewTangibleFixedAssetsNewCivilEngineeringWorks" xlink:type="arc"/>
+      <link:presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:to="lbl_InvestmentsInTangibleFixedAssetsBuildingsExisting" xlink:type="arc"/>
+      <link:presentationArc order="3.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInTangibleFixedAssetsNewTotal" xlink:to="lbl_InvestmentsInNewTangibleFixedAssetsNewTransportEquipment" xlink:type="arc"/>
+      <link:presentationArc order="3.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:to="lbl_InvestmentsInTangibleFixedAssetsCivilEngineeringExisting" xlink:type="arc"/>
+      <link:presentationArc order="4.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsAndSalesofTangibleFixedAsstes" xlink:to="cbs-bedr_InvestmentsInTangibleFixedAssetsTotalNewAndExisting" xlink:type="arc"/>
+      <link:presentationArc order="4.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInTangibleFixedAssetsNewTotal" xlink:to="lbl_InvestmentsInNewTangibleFixedAssetsNewComputers" xlink:type="arc"/>
+      <link:presentationArc order="4.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:to="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTransportEquipment" xlink:type="arc"/>
+      <link:presentationArc order="5.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInTangibleFixedAssetsNewTotal" xlink:to="lbl_InvestmentsInNewTangibleFixedAssetsOtherNewMachinesInstallationsAndEquipment" xlink:type="arc"/>
+      <link:presentationArc order="5.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:to="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsComputers" xlink:type="arc"/>
+      <link:presentationArc order="6.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInTangibleFixedAssetsNewTotal" xlink:to="lbl_InvestmentsInNewTangibleFixedAssetsOtherNew" xlink:type="arc"/>
+      <link:presentationArc order="6.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:to="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsOtherMachinesInstallationsAndEquipment" xlink:type="arc"/>
+      <link:presentationArc order="7.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsTotal" xlink:to="lbl_InvestmentsInUsedSecondhandTangibleFixedAssetsOther" xlink:type="arc"/>
+   </link:presentationLink>
+</link:linkbase>

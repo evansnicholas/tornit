@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_uitstelregeling-aangifte" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_uitstelregeling-aangifte" xlink:type="simple"/>
+    <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_uitstelregeling-aangifte" xlink:type="extended">
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_TaxData" xlink:label="bd-bedr-tuple_TaxData_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_PostponementTaxReturnIncomeTaxAndCorporationTax" xlink:label="bd-abstr_PostponementTaxReturnIncomeTaxAndCorporationTax_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_TaxData_loc" xlink:to="bd-abstr_PostponementTaxReturnIncomeTaxAndCorporationTax_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-alg-tuples.xsd#bd-alg-tuple_TaxConsultantSpecification" xlink:label="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_PostponementTaxReturnIncomeTaxAndCorporationTax_loc" xlink:to="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TaxconsultantNumber" xlink:label="bd-alg_TaxconsultantNumber_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:to="bd-alg_TaxconsultantNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_ConsultantAdvisorCorrespondentName" xlink:label="bd-alg_ConsultantAdvisorCorrespondentName_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:to="bd-alg_ConsultantAdvisorCorrespondentName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_FeedbackSignalIndication" xlink:label="bd-alg_FeedbackSignalIndication_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:to="bd-alg_FeedbackSignalIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TelephoneNumber" xlink:label="bd-alg_TelephoneNumber_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:to="bd-alg_TelephoneNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_ConsultantIdentificationMessageNumber" xlink:label="bd-alg_ConsultantIdentificationMessageNumber_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:to="bd-alg_ConsultantIdentificationMessageNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_PostponementSpecification" xlink:label="bd-bedr-tuple_PostponementSpecification_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_PostponementTaxReturnIncomeTaxAndCorporationTax_loc" xlink:to="bd-bedr-tuple_PostponementSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_PostponementSchemeIndication" xlink:label="bd-alg_PostponementSchemeIndication_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_PostponementSpecification_loc" xlink:to="bd-alg_PostponementSchemeIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TaxName" xlink:label="bd-alg_TaxName_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_PostponementSpecification_loc" xlink:to="bd-alg_TaxName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TaxpayerName" xlink:label="bd-alg_TaxpayerName_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_PostponementSpecification_loc" xlink:to="bd-alg_TaxpayerName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TaxpayerIdentificationNumber" xlink:label="bd-alg_TaxpayerIdentificationNumber_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_PostponementSpecification_loc" xlink:to="bd-alg_TaxpayerIdentificationNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_FinancialYearStart" xlink:label="bd-alg_FinancialYearStart_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_PostponementSpecification_loc" xlink:to="bd-alg_FinancialYearStart_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_FinancialYearEnd" xlink:label="bd-alg_FinancialYearEnd_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_PostponementSpecification_loc" xlink:to="bd-alg_FinancialYearEnd_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc"/>
+    </link:presentationLink>
+</link:linkbase>

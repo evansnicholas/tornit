@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:venj:linkrole:income-statement" xlink:href="../../venj/linkroles/venj-linkroles-pre.xsd#venj-plr_IncomeStatement" xlink:type="simple"/>
+  <link:presentationLink xlink:role="urn:venj:linkrole:income-statement" xlink:type="extended">
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IncomeStatementTitle" xlink:label="kvk-abstr_IncomeStatementTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_GrossMargin" xlink:label="bw2-i_GrossMargin_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SellingExpenses" xlink:label="bw2-i_SellingExpenses_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_GeneralAdministrativeExpenses" xlink:label="bw2-i_GeneralAdministrativeExpenses_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SumOfExpenses" xlink:label="bw2-i_SumOfExpenses_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_NetOperatingResult" xlink:label="bw2-i_NetOperatingResult_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_IncomeReceivablesNoncurrentSecurities" xlink:label="bw2-i_IncomeReceivablesNoncurrentSecurities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_RevaluationReserveRelease" xlink:label="bw2-i_RevaluationReserveRelease_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_InterestIncomeRelatedIncome" xlink:label="bw2-i_InterestIncomeRelatedIncome_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ChangesValueReceivablesNoncurrentSecurities" xlink:label="bw2-i_ChangesValueReceivablesNoncurrentSecurities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_InterestExpensesRelatedExpenses" xlink:label="bw2-i_InterestExpensesRelatedExpenses_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ResultBeforeTaxOrdinaryActivities" xlink:label="bw2-i_ResultBeforeTaxOrdinaryActivities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_IncomeTaxExpenseOrdinaryActivities" xlink:label="bw2-i_IncomeTaxExpenseOrdinaryActivities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ShareInResultsParticipatingInterests" xlink:label="bw2-i_ShareInResultsParticipatingInterests_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ResultAfterTaxOrdinaryActivities" xlink:label="bw2-i_ResultAfterTaxOrdinaryActivities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ExtraordinaryIncome" xlink:label="bw2-i_ExtraordinaryIncome_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ExtraordinaryExpenses" xlink:label="bw2-i_ExtraordinaryExpenses_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_IncomeTaxExpenseExtraordinaryItems" xlink:label="bw2-i_IncomeTaxExpenseExtraordinaryItems_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ResultAfterTaxExtraordinaryItems" xlink:label="bw2-i_ResultAfterTaxExtraordinaryItems_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ResultAfterTax" xlink:label="bw2-i_ResultAfterTax_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ResultAttributableNoncontrollingInterest" xlink:label="bw2-i_ResultAttributableNoncontrollingInterest_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_NetResultAfterTax" xlink:label="bw2-i_NetResultAfterTax_loc" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_GrossMargin_loc" xlink:type="arc" order="6001"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_SellingExpenses_loc" xlink:type="arc" order="6002"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_GeneralAdministrativeExpenses_loc" xlink:type="arc" order="6003"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_SumOfExpenses_loc" xlink:type="arc" order="6004"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_NetOperatingResult_loc" xlink:type="arc" order="6005"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_IncomeReceivablesNoncurrentSecurities_loc" xlink:type="arc" order="6006"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_RevaluationReserveRelease_loc" xlink:type="arc" order="6007"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_InterestIncomeRelatedIncome_loc" xlink:type="arc" order="6008"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_ChangesValueReceivablesNoncurrentSecurities_loc" xlink:type="arc" order="6009"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_InterestExpensesRelatedExpenses_loc" xlink:type="arc" order="6010"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_ResultBeforeTaxOrdinaryActivities_loc" xlink:type="arc" order="6011"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_IncomeTaxExpenseOrdinaryActivities_loc" xlink:type="arc" order="6012"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_ShareInResultsParticipatingInterests_loc" xlink:type="arc" order="6013"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_ResultAfterTaxOrdinaryActivities_loc" xlink:type="arc" order="6014"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_ExtraordinaryIncome_loc" xlink:type="arc" order="6015"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_ExtraordinaryExpenses_loc" xlink:type="arc" order="6016"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_IncomeTaxExpenseExtraordinaryItems_loc" xlink:type="arc" order="6017"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_ResultAfterTaxExtraordinaryItems_loc" xlink:type="arc" order="6018"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_ResultAfterTax_loc" xlink:type="arc" order="6019"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_ResultAttributableNoncontrollingInterest_loc" xlink:type="arc" order="6020"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="bw2-i_NetResultAfterTax_loc" xlink:type="arc" order="6021"/>
+  </link:presentationLink>
+</link:linkbase>

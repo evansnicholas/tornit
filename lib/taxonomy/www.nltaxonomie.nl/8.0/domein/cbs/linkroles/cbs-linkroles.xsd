@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cbs-lr="http://www.nltaxonomie.nl/8.0/domein/cbs/linkroles/cbs-linkroles" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/8.0/domein/cbs/linkroles/cbs-linkroles">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:roleType id="cbs-lr_status-01" roleURI="urn:cbs:linkrole:status-01">
+        <link:definition>Status: nieuw</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_status-02" roleURI="urn:cbs:linkrole:status-02">
+        <link:definition>Status: gebruikt</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_status-03" roleURI="urn:cbs:linkrole:status-03">
+        <link:definition>Status: voorlopig-definitief</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_status-04" roleURI="urn:cbs:linkrole:status-04">
+        <link:definition>Status: nieuw-gebruikt</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_assets-01" roleURI="urn:cbs:linkrole:assets-01">
+        <link:definition>Activa: alle</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_assets-02" roleURI="urn:cbs:linkrole:assets-02">
+        <link:definition>Activa: alle excl. land</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_assets-03" roleURI="urn:cbs:linkrole:assets-03">
+        <link:definition>Activa: totaal</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_region-01" roleURI="urn:cbs:linkrole:region-01">
+        <link:definition>Regio: alle</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_branche-01" roleURI="urn:cbs:linkrole:branche-01">
+        <link:definition>Branche: alle</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_time-01" roleURI="urn:cbs:linkrole:time-01">
+        <link:definition>Tijd: alle</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_time-02" roleURI="urn:cbs:linkrole:time-02">
+        <link:definition>Tijd: einde periode</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:href="cbs-linkroles-generic-lab-nl.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+      <link:linkbaseRef xlink:href="cbs-linkroles-generic-lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

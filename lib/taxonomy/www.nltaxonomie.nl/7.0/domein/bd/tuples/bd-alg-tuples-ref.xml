@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd">
+    <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:reference xlink:label="bd-alg-tuple_bd_def_16_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5233">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>16</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg-tuple_bd_def_17_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5234">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>17</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg-tuple_bd_def_18_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5235">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>18</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg-tuple_bd_def_77_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5373">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>77</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg-tuple_bd_def_102_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5725">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>102</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg-tuple_bd_def_103_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5726">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>103</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg-tuple_bd_def_104_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5727">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>104</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg-tuple_bd_def_502573_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5959">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>502573</ref:Paragraph></link:reference>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_AddressAbroadTitle" xlink:label="bd-alg-tuple_AddressAbroadTitle_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_AddressAbroadTitle_loc" xlink:to="bd-alg-tuple_bd_def_17_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_AddressDutchTitle" xlink:label="bd-alg-tuple_AddressDutchTitle_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_AddressDutchTitle_loc" xlink:to="bd-alg-tuple_bd_def_18_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_ConsultantAdvisorCorrespondentTitle" xlink:label="bd-alg-tuple_ConsultantAdvisorCorrespondentTitle_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_ConsultantAdvisorCorrespondentTitle_loc" xlink:to="bd-alg-tuple_bd_def_16_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_ConsultantAdvisorTitle" xlink:label="bd-alg-tuple_ConsultantAdvisorTitle_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_ConsultantAdvisorTitle_loc" xlink:to="bd-alg-tuple_bd_def_77_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_CorrespondentConsultantAdvisor" xlink:label="bd-alg-tuple_CorrespondentConsultantAdvisor_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_CorrespondentConsultantAdvisor_loc" xlink:to="bd-alg-tuple_bd_def_102_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_CorrespondentDeclarant" xlink:label="bd-alg-tuple_CorrespondentDeclarant_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_CorrespondentDeclarant_loc" xlink:to="bd-alg-tuple_bd_def_103_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_CorrespondentServicebureau" xlink:label="bd-alg-tuple_CorrespondentServicebureau_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_CorrespondentServicebureau_loc" xlink:to="bd-alg-tuple_bd_def_104_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_TaxConsultantSpecification" xlink:label="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:to="bd-alg-tuple_bd_def_502573_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+    </link:referenceLink>
+</link:linkbase>

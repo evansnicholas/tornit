@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema targetNamespace="http://www.nltaxonomie.nl/8.0/basis/cbs/domains/assets" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cbs-as="http://www.nltaxonomie.nl/8.0/basis/cbs/domains/assets" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="cbs-assets-def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="cbs-assets-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="cbs-assets-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+	  </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/>
+  <xs:element name="AssetsDomain" id="cbs-as_AssetsDomain" type="xbrli:stringItemType" substitutionGroup="sbr:domainItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="LandAndSitesMember" id="cbs-as_LandAndSitesMember" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="BuildingsMember" id="cbs-as_BuildingsMember" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="CivilEngineeringWorksMember" id="cbs-as_CivilEngineeringWorksMember" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="TransportEquipmentMember" id="cbs-as_TransportEquipmentMember" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="ComputersMember" id="cbs-as_ComputersMember" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="OtherMachinesInstallationsAndEquipmentMember" id="cbs-as_OtherMachinesInstallationsAndEquipmentMember" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="OtherAssetsMember" id="cbs-as_OtherAssetsMember" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="TotalAssetsMember" id="cbs-as_TotalAssetsMember" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration"/>
+</xs:schema>

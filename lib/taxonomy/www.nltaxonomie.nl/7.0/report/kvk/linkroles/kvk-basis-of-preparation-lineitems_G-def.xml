@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+   <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_BasisOfPreparationTable" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:type="extended">
+		<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_BasisOfPreparationLineItems" xlink:label="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingPoliciesEffectOnFuturePeriods" xlink:label="kvk-i_ChangeAccountingPoliciesEffectOnFuturePeriods_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DiscontinuedOperationsSegment" xlink:label="kvk-i_DiscontinuedOperationsSegment_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentInformationPolicy" xlink:label="kvk-i_SegmentInformationPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_StatementComprehensiveIncomePolicy" xlink:label="kvk-i_StatementComprehensiveIncomePolicy_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingPoliciesEffectOnFuturePeriods_loc" order="4" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_DiscontinuedOperationsSegment_loc" order="5" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_SegmentInformationPolicy_loc" order="6" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_StatementComprehensiveIncomePolicy_loc" order="7" xlink:type="arc"/>
+		</link:definitionLink>
+</link:linkbase>

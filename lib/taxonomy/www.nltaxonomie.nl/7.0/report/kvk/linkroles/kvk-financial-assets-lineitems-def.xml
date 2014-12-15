@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+	<link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/financial-assets-movement-schedule-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_FinancialAssetsMovementScheduleTable" xlink:type="simple"/>
+  <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/financial-assets-movement-schedule-table" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_FinancialAssetsMovementLineItems" xlink:label="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsAccumulatedDepreciationImpairments" xlink:label="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsAccumulatedRevaluations" xlink:label="kvk-i_FinancialAssetsAccumulatedRevaluations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsAcquisitionsThroughBusinessCombinations" xlink:label="kvk-i_FinancialAssetsAcquisitionsThroughBusinessCombinations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsAdditions" xlink:label="kvk-i_FinancialAssetsAdditions_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsDepreciation" xlink:label="kvk-i_FinancialAssetsDepreciation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsDisposals" xlink:label="kvk-i_FinancialAssetsDisposals_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsDisposalsDepreciation" xlink:label="kvk-i_FinancialAssetsDisposalsDepreciation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsDisposalsThroughBusinessDivestitures" xlink:label="kvk-i_FinancialAssetsDisposalsThroughBusinessDivestitures_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsImpairments" xlink:label="kvk-i_FinancialAssetsImpairments_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsImpairmentsReversal" xlink:label="kvk-i_FinancialAssetsImpairmentsReversal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsMovement" xlink:label="kvk-i_FinancialAssetsMovement_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsRevaluations" xlink:label="kvk-i_FinancialAssetsRevaluations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_FinancialAssets" xlink:label="nl-gen_FinancialAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsCostPrice" xlink:label="kvk-i_FinancialAssetsCostPrice_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsDividendFromParticipatingInterests" xlink:label="kvk-i_FinancialAssetsDividendFromParticipatingInterests_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsExchangeDifferences" xlink:label="kvk-i_FinancialAssetsExchangeDifferences_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsMovementsOther" xlink:label="kvk-i_FinancialAssetsMovementsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsShareInDirectEquityMovements" xlink:label="kvk-i_FinancialAssetsShareInDirectEquityMovements_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsShareInResultParticipatingInterests" xlink:label="kvk-i_FinancialAssetsShareInResultParticipatingInterests_loc" xlink:type="locator"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsCostPrice_loc" order="1" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_loc" order="2" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsAccumulatedRevaluations_loc" order="3" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="nl-gen_FinancialAssets_loc" order="4" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsAdditions_loc" order="5" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsDisposals_loc" order="6" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsDisposalsDepreciation_loc" order="7" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsRevaluations_loc" order="8" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsDepreciation_loc" order="9" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsImpairments_loc" order="10" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsImpairmentsReversal_loc" order="11" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsAcquisitionsThroughBusinessCombinations_loc" order="12" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsDisposalsThroughBusinessDivestitures_loc" order="13" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsExchangeDifferences_loc" order="14" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsShareInResultParticipatingInterests_loc" order="15" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsDividendFromParticipatingInterests_loc" order="16" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsShareInDirectEquityMovements_loc" order="17" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsMovementsOther_loc" order="18" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-i_FinancialAssetsMovement_loc" order="19" xlink:type="arc"/>
+	</link:definitionLink>
+</link:linkbase>

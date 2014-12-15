@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_PropertyPlantEquipmentComponentDomain" xlink:label="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_LandAndBuildingsMember" xlink:label="bw2-dm-ppe_LandAndBuildingsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_MachineryMember" xlink:label="bw2-dm-ppe_MachineryMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_TangibleAssetsOtherMember" xlink:label="bw2-dm-ppe_TangibleAssetsOtherMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember" xlink:label="bw2-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_InvestmentPropertyMember" xlink:label="bw2-dm-ppe_InvestmentPropertyMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_AssetsNotUsedInOperationsMember" xlink:label="bw2-dm-ppe_AssetsNotUsedInOperationsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_PropertyPlantEquipmentMember" xlink:label="bw2-dm-ppe_PropertyPlantEquipmentMember_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:to="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-ppe_LandAndBuildingsMember_loc" xlink:to="bw2-dm-ppe_LandAndBuildingsMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-ppe_MachineryMember_loc" xlink:to="bw2-dm-ppe_MachineryMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-ppe_TangibleAssetsOtherMember_loc" xlink:to="bw2-dm-ppe_TangibleAssetsOtherMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_loc" xlink:to="bw2-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-ppe_InvestmentPropertyMember_loc" xlink:to="bw2-dm-ppe_InvestmentPropertyMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-ppe_AssetsNotUsedInOperationsMember_loc" xlink:to="bw2-dm-ppe_AssetsNotUsedInOperationsMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-ppe_PropertyPlantEquipmentMember_loc" xlink:to="bw2-dm-ppe_PropertyPlantEquipmentMember_label_en" xlink:type="arc"/>
+    <link:label id="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_label_en" xlink:label="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Property, plant and equipment [domain]</link:label>
+    <link:label id="bw2-dm-ppe_LandAndBuildingsMember_label_en" xlink:label="bw2-dm-ppe_LandAndBuildingsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Land and buildings [member]</link:label>
+    <link:label id="bw2-dm-ppe_MachineryMember_label_en" xlink:label="bw2-dm-ppe_MachineryMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Machinery [member]</link:label>
+    <link:label id="bw2-dm-ppe_TangibleAssetsOtherMember_label_en" xlink:label="bw2-dm-ppe_TangibleAssetsOtherMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other tangible assets [member]</link:label>
+    <link:label id="bw2-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_label_en" xlink:label="bw2-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Construction in progress and prepayments to property, plant and equipment [member]</link:label>
+    <link:label id="bw2-dm-ppe_InvestmentPropertyMember_label_en" xlink:label="bw2-dm-ppe_InvestmentPropertyMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Investment property [member]</link:label>
+    <link:label id="bw2-dm-ppe_AssetsNotUsedInOperationsMember_label_en" xlink:label="bw2-dm-ppe_AssetsNotUsedInOperationsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Assets not used in operations [member]</link:label>
+    <link:label id="bw2-dm-ppe_PropertyPlantEquipmentMember_label_en" xlink:label="bw2-dm-ppe_PropertyPlantEquipmentMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Property, plant and equipment [member]</link:label>
+  </link:labelLink>
+</link:linkbase>

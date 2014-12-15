@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) 2005 XBRL International. All Rights Reserved. http://www.XBRL.org/legal/ 
+     This document may be copied and furnished to others, and derivative works that 
+     comment on or otherwise explain it or assist in its implementation may be 
+     prepared, copied, published and distributed, in whole or in part, without 
+     restriction of any kind, provided that the above copyright notice and this
+     paragraph are included on all such copies and derivative works. XBRL is a
+     registered trademark of AICPA licensed exclusively to XBRL International. -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2005/xbrldi" targetNamespace="http://xbrl.org/2005/xbrldi" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<annotation>
+		<appinfo>
+			<documentation xml:lang="en">This schema is used by XBRL instances that use dimensions to define legal segment and scenario element contents.</documentation>
+		</appinfo>
+	</annotation>
+	<import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.xbrl.org/2003/xlink-2003-12-31.xsd"/>
+	<attributeGroup name="dimAttributes">
+		<attributeGroup ref="xlink:simpleType"/>
+		<attribute ref="xlink:href" use="required"/>
+		<attribute ref="xlink:arcrole" use="optional"/>
+		<attribute ref="xlink:role" use="optional"/>
+		<attribute ref="xlink:title" use="optional"/>
+		<attribute ref="xlink:show" use="optional"/>
+		<attribute ref="xlink:actuate" use="optional"/>
+		<anyAttribute namespace="##targetNamespace" processContents="lax"/>
+	</attributeGroup>
+	<element name="explicitMember">
+		<annotation>
+			<documentation xml:lang="en">A simple-type link containing the QName of an item that is a member of an explicit dimension.
+      </documentation>
+		</annotation>
+		<complexType>
+			<simpleContent>
+				<extension base="QName">
+					<attributeGroup ref="xbrldi:dimAttributes"/>
+				</extension>
+			</simpleContent>
+		</complexType>
+	</element>
+	<element name="typedMember">
+		<annotation>
+			<documentation xml:lang="en">A simple-type link consisting of one child of anyType.
+      </documentation>
+		</annotation>
+		<complexType>
+			<sequence>
+				<any namespace="##other"/>
+			</sequence>
+			<attributeGroup ref="xbrldi:dimAttributes"/>
+		</complexType>
+	</element>
+</schema>

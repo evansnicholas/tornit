@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_InformationRequiredForFiling_loc" xlink:to="kvk-plr_InformationRequiredForFiling_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_InformationRequiredForFiling_label-nl" xlink:label="kvk-plr_InformationRequiredForFiling_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Informatie ten behoeve van het deponeren van de rapportage bij het Handelsregister</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_InformationRequiredForFiling" xlink:label="kvk-plr_InformationRequiredForFiling_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_DocumentEntityInformation_loc" xlink:to="kvk-plr_DocumentEntityInformation_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_DocumentEntityInformation_label-nl" xlink:label="kvk-plr_DocumentEntityInformation_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Informatie over de rapportage en de rechtspersoon</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_DocumentEntityInformation" xlink:label="kvk-plr_DocumentEntityInformation_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_ManagementReport_loc" xlink:to="kvk-plr_ManagementReport_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_ManagementReport_label-nl" xlink:label="kvk-plr_ManagementReport_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Bestuursverslag</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_ManagementReport" xlink:label="kvk-plr_ManagementReport_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_BalanceSheetModelA_loc" xlink:to="kvk-plr_BalanceSheetModelA_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_BalanceSheetModelA_label-nl" xlink:label="kvk-plr_BalanceSheetModelA_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Balans (model A)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_BalanceSheetModelA" xlink:label="kvk-plr_BalanceSheetModelA_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_BalanceSheetModelB_loc" xlink:to="kvk-plr_BalanceSheetModelB_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_BalanceSheetModelB_label-nl" xlink:label="kvk-plr_BalanceSheetModelB_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Balans (model B)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_BalanceSheetModelB" xlink:label="kvk-plr_BalanceSheetModelB_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_BalanceSheetModelC_loc" xlink:to="kvk-plr_BalanceSheetModelC_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_BalanceSheetModelC_label-nl" xlink:label="kvk-plr_BalanceSheetModelC_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Balans (model C)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_BalanceSheetModelC" xlink:label="kvk-plr_BalanceSheetModelC_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_BalanceSheetModelD_loc" xlink:to="kvk-plr_BalanceSheetModelD_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_BalanceSheetModelD_label-nl" xlink:label="kvk-plr_BalanceSheetModelD_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Balans (model D)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_BalanceSheetModelD" xlink:label="kvk-plr_BalanceSheetModelD_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_IncomeStatementModelE_loc" xlink:to="kvk-plr_IncomeStatementModelE_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_IncomeStatementModelE_label-nl" xlink:label="kvk-plr_IncomeStatementModelE_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Winst- en verliesrekening (model E)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelE" xlink:label="kvk-plr_IncomeStatementModelE_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_IncomeStatementModelF_loc" xlink:to="kvk-plr_IncomeStatementModelF_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_IncomeStatementModelF_label-nl" xlink:label="kvk-plr_IncomeStatementModelF_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Winst- en verliesrekening (model F)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelF" xlink:label="kvk-plr_IncomeStatementModelF_loc"/>     
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_IncomeStatementModelG_loc" xlink:to="kvk-plr_IncomeStatementModelG_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_IncomeStatementModelG_label-nl" xlink:label="kvk-plr_IncomeStatementModelG_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Winst- en verliesrekening (model G)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelG" xlink:label="kvk-plr_IncomeStatementModelG_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_IncomeStatementModelH_loc" xlink:to="kvk-plr_IncomeStatementModelH_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_IncomeStatementModelH_label-nl" xlink:label="kvk-plr_IncomeStatementModelH_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Winst- en verliesrekening (model H)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelH" xlink:label="kvk-plr_IncomeStatementModelH_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_IncomeStatementModelI_loc" xlink:to="kvk-plr_IncomeStatementModelI_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_IncomeStatementModelI_label-nl" xlink:label="kvk-plr_IncomeStatementModelI_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Winst- en verliesrekening (model I)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelI" xlink:label="kvk-plr_IncomeStatementModelI_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_IncomeStatementModelJ_loc" xlink:to="kvk-plr_IncomeStatementModelJ_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_IncomeStatementModelJ_label-nl" xlink:label="kvk-plr_IncomeStatementModelJ_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Winst- en verliesrekening (model J)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelJ" xlink:label="kvk-plr_IncomeStatementModelJ_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_CashFlowStatementDirect_loc" xlink:to="kvk-plr_CashFlowStatementDirect_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_CashFlowStatementDirect_label-nl" xlink:label="kvk-plr_CashFlowStatementDirect_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Kasstroomoverzicht (directe methode)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_CashFlowStatementDirect" xlink:label="kvk-plr_CashFlowStatementDirect_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_CashFlowStatementIndirect_loc" xlink:to="kvk-plr_CashFlowStatementIndirect_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_CashFlowStatementIndirect_label-nl" xlink:label="kvk-plr_CashFlowStatementIndirect_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Kasstroomoverzicht (indirecte methode)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_CashFlowStatementIndirect" xlink:label="kvk-plr_CashFlowStatementIndirect_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_ComprehensiveIncomeStatement_loc" xlink:to="kvk-plr_ComprehensiveIncomeStatement_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_ComprehensiveIncomeStatement_label-nl" xlink:label="kvk-plr_ComprehensiveIncomeStatement_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Overzicht totaalresultaat</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_ComprehensiveIncomeStatement" xlink:label="kvk-plr_ComprehensiveIncomeStatement_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_Notes_loc" xlink:to="kvk-plr_Notes_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_Notes_label-nl" xlink:label="kvk-plr_Notes_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Toelichting</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_Notes" xlink:label="kvk-plr_Notes_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-plr_OtherInformation_loc" xlink:to="kvk-plr_OtherInformation_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-plr_OtherInformation_label-nl" xlink:label="kvk-plr_OtherInformation_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Overige gegevens</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_OtherInformation" xlink:label="kvk-plr_OtherInformation_loc"/>
+	</gen:link>
+</link:linkbase>

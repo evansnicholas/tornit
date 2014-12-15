@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/basis/kvk/linkroles/provisions-domain" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_ProvisionsDomain" xlink:type="simple"/>
+  	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/basis/kvk/linkroles/provisions-domain" xlink:type="extended">
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionsComponentDomain" xlink:label="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionRepairCostsMember" xlink:label="kvk-dm-prov_ProvisionRepairCostsMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionTaxLiabilitiesMember" xlink:label="kvk-dm-prov_ProvisionTaxLiabilitiesMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_EnvironmentalProvisionMember" xlink:label="kvk-dm-prov_EnvironmentalProvisionMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionLegalProceedingsMember" xlink:label="kvk-dm-prov_ProvisionLegalProceedingsMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionMajorMaintenanceMember" xlink:label="kvk-dm-prov_ProvisionMajorMaintenanceMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionDisposalObligationMember" xlink:label="kvk-dm-prov_ProvisionDisposalObligationMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionOnerousContractsMember" xlink:label="kvk-dm-prov_ProvisionOnerousContractsMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionPensionObligationsMember" xlink:label="kvk-dm-prov_ProvisionPensionObligationsMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_RestructuringProvisionMember" xlink:label="kvk-dm-prov_RestructuringProvisionMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionSubsidiariesMember" xlink:label="kvk-dm-prov_ProvisionSubsidiariesMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_WarrantyProvisionMember" xlink:label="kvk-dm-prov_WarrantyProvisionMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionJubileeBenefitsMember" xlink:label="kvk-dm-prov_ProvisionJubileeBenefitsMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionsOtherMember" xlink:label="kvk-dm-prov_ProvisionsOtherMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-provisions.xsd#kvk-dm-prov_ProvisionsMember" xlink:label="kvk-dm-prov_ProvisionsMember_loc" xlink:type="locator"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionRepairCostsMember_loc" order="1" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionTaxLiabilitiesMember_loc" order="2" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_EnvironmentalProvisionMember_loc" order="3" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionLegalProceedingsMember_loc" order="4" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionMajorMaintenanceMember_loc" order="5" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionDisposalObligationMember_loc" order="6" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionOnerousContractsMember_loc" order="7" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionPensionObligationsMember_loc" order="8" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_RestructuringProvisionMember_loc" order="9" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionSubsidiariesMember_loc" order="10" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_WarrantyProvisionMember_loc" order="11" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionJubileeBenefitsMember_loc" order="12" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionsOtherMember_loc" order="13" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-prov_ProvisionsComponentDomain_loc" xlink:to="kvk-dm-prov_ProvisionsMember_loc" order="14" xlink:type="arc"/>
+  </link:definitionLink>
+</link:linkbase>

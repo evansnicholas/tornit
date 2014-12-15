@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd">
+    <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:reference xlink:label="bd-asl-tuple_bd_wetIB2001_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2793">
+            <ref:Name>Wet IB2001</ref:Name>
+        </link:reference>
+        <link:reference xlink:label="bd-asl-tuple_bd_def_78_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5374">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>78</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-asl-tuple_bd_def_162_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_6188">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>162</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-asl-tuple_bd_def_160_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_6189">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>160</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-asl-tuple_bd_def_161_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_6190">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>161</ref:Paragraph></link:reference>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_IncomePresentEmploymentSpecification" xlink:label="bd-asl-tuple_IncomePresentEmploymentSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-asl-tuple_IncomePresentEmploymentSpecification_loc" xlink:to="bd-asl-tuple_bd_wetIB2001_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_IncomePreviousEmploymentSpecification" xlink:label="bd-asl-tuple_IncomePreviousEmploymentSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-asl-tuple_IncomePreviousEmploymentSpecification_loc" xlink:to="bd-asl-tuple_bd_wetIB2001_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_NameAddressSenderSpecification" xlink:label="bd-asl-tuple_NameAddressSenderSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-asl-tuple_NameAddressSenderSpecification_loc" xlink:to="bd-asl-tuple_bd_def_160_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_NameAddressTaxconsultantSpecification" xlink:label="bd-asl-tuple_NameAddressTaxconsultantSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-asl-tuple_NameAddressTaxconsultantSpecification_loc" xlink:to="bd-asl-tuple_bd_def_162_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_NameAddressTaxpayerSpecification" xlink:label="bd-asl-tuple_NameAddressTaxpayerSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-asl-tuple_NameAddressTaxpayerSpecification_loc" xlink:to="bd-asl-tuple_bd_def_161_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_TaxData" xlink:label="bd-asl-tuple_TaxData_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-asl-tuple_TaxData_loc" xlink:to="bd-asl-tuple_bd_def_78_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+    </link:referenceLink>
+</link:linkbase>

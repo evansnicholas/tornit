@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_status-01_loc" xlink:to="cbs-lr_status-01_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_status-02_loc" xlink:to="cbs-lr_status-02_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_status-03_loc" xlink:to="cbs-lr_status-03_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_status-04_loc" xlink:to="cbs-lr_status-04_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_assets-01_loc" xlink:to="cbs-lr_assets-01_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_assets-02_loc" xlink:to="cbs-lr_assets-02_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_assets-03_loc" xlink:to="cbs-lr_assets-03_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_region-01_loc" xlink:to="cbs-lr_region-01_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_branche-01_loc" xlink:to="cbs-lr_branche-01_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_time-01_loc" xlink:to="cbs-lr_time-01_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_time-02_loc" xlink:to="cbs-lr_time-02_label-en"/>
+    <label:label xlink:type="resource" id="cbs-lr_status-01_label-en" xlink:label="cbs-lr_status-01_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Status: new</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_status-02_label-en" xlink:label="cbs-lr_status-02_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Status: used</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_status-03_label-en" xlink:label="cbs-lr_status-03_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Status: draft-final</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_status-04_label-en" xlink:label="cbs-lr_status-04_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Status: new-used</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_assets-01_label-en" xlink:label="cbs-lr_assets-01_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Assets: all</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_assets-02_label-en" xlink:label="cbs-lr_assets-02_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Assets: all excl. land</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_assets-03_label-en" xlink:label="cbs-lr_assets-03_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Assets: total</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_region-01_label-en" xlink:label="cbs-lr_region-01_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Region: all</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_branche-01_label-en" xlink:label="cbs-lr_branche-01_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Branch: all</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_time-01_label-en" xlink:label="cbs-lr_time-01_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Time: all</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_time-02_label-en" xlink:label="cbs-lr_time-02_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Time: end of period</label:label>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_status-01" xlink:label="cbs-lr_status-01_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_status-02" xlink:label="cbs-lr_status-02_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_status-03" xlink:label="cbs-lr_status-03_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_status-04" xlink:label="cbs-lr_status-04_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_assets-01" xlink:label="cbs-lr_assets-01_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_assets-02" xlink:label="cbs-lr_assets-02_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_assets-03" xlink:label="cbs-lr_assets-03_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_region-01" xlink:label="cbs-lr_region-01_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_branche-01" xlink:label="cbs-lr_branche-01_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_time-01" xlink:label="cbs-lr_time-01_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_time-02" xlink:label="cbs-lr_time-02_loc"/>
+  </gen:link>
+</link:linkbase>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Wed May 15 16:00:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:label xlink:type="resource" xlink:label="nl-cd_CountryCodeISO_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_CountryCodeISO_terse_nl">Landcode</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_CountryName_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_CountryName_terse_nl">Landnaam</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_DescriptionLocationAbroad_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_DescriptionLocationAbroad_terse_nl">Locatieomschrijving</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_DescriptionLocationNL_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_DescriptionLocationNL_terse_nl">Locatieomschrijving</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_EmailAddressFull_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_EmailAddressFull_terse_nl">E-mailadres</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_FamilyName_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_FamilyName_terse_nl">Achternaam</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_FirstName_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_FirstName_terse_nl">Voornamen</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_POBoxNumber_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_POBoxNumber_terse_nl">Postbus</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_PlaceOfResidenceAbroad_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_PlaceOfResidenceAbroad_terse_nl">Vestigingsplaats</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_PlaceOfResidenceNL_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_PlaceOfResidenceNL_terse_nl">Vestigingsplaats</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_PostalCodeAbroad_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_PostalCodeAbroad_terse_nl">Postcode</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_PostalCodeNL_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_PostalCodeNL_terse_nl">Postcode</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_StreetNameAbroad_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_StreetNameAbroad_terse_nl">Straatnaam</link:label>
+		<link:label xlink:type="resource" xlink:label="nl-cd_StreetNameNL_terse_nl" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="nl" id="nl-cd_StreetNameNL_terse_nl">Straatnaam</link:label>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_CountryCodeISO_loc" xlink:to="nl-cd_CountryCodeISO_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_CountryName_loc" xlink:to="nl-cd_CountryName_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_DescriptionLocationAbroad_loc" xlink:to="nl-cd_DescriptionLocationAbroad_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_DescriptionLocationNL_loc" xlink:to="nl-cd_DescriptionLocationNL_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_EmailAddressFull_loc" xlink:to="nl-cd_EmailAddressFull_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_FamilyName_loc" xlink:to="nl-cd_FamilyName_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_FirstName_loc" xlink:to="nl-cd_FirstName_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_POBoxNumber_loc" xlink:to="nl-cd_POBoxNumber_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_PlaceOfResidenceAbroad_loc" xlink:to="nl-cd_PlaceOfResidenceAbroad_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_PlaceOfResidenceNL_loc" xlink:to="nl-cd_PlaceOfResidenceNL_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_PostalCodeAbroad_loc" xlink:to="nl-cd_PostalCodeAbroad_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_PostalCodeNL_loc" xlink:to="nl-cd_PostalCodeNL_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_StreetNameAbroad_loc" xlink:to="nl-cd_StreetNameAbroad_terse_nl"/>
+		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-cd_StreetNameNL_loc" xlink:to="nl-cd_StreetNameNL_terse_nl"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_CountryCodeISO" xlink:label="nl-cd_CountryCodeISO_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_CountryName" xlink:label="nl-cd_CountryName_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_DescriptionLocationAbroad" xlink:label="nl-cd_DescriptionLocationAbroad_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_DescriptionLocationNL" xlink:label="nl-cd_DescriptionLocationNL_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_EmailAddressFull" xlink:label="nl-cd_EmailAddressFull_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_FamilyName" xlink:label="nl-cd_FamilyName_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_FirstName" xlink:label="nl-cd_FirstName_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_POBoxNumber" xlink:label="nl-cd_POBoxNumber_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PlaceOfResidenceAbroad" xlink:label="nl-cd_PlaceOfResidenceAbroad_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PlaceOfResidenceNL" xlink:label="nl-cd_PlaceOfResidenceNL_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PostalCodeAbroad" xlink:label="nl-cd_PostalCodeAbroad_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PostalCodeNL" xlink:label="nl-cd_PostalCodeNL_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StreetNameAbroad" xlink:label="nl-cd_StreetNameAbroad_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StreetNameNL" xlink:label="nl-cd_StreetNameNL_loc"/>
+	</link:labelLink>
+</link:linkbase>

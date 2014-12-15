@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:venj:linkrole:notes" xlink:href="../../venj/linkroles/venj-linkroles-pre.xsd#venj-plr_Notes" xlink:type="simple"/>
+  <link:presentationLink xlink:role="urn:venj:linkrole:notes" xlink:type="extended">
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EquityWithheldPartResult" xlink:label="bw2-i_EquityWithheldPartResult_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_EquityClassesTitle" xlink:label="kvk-abstr_EquityClassesTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_EquityDisclosureTitle" xlink:label="kvk-abstr_EquityDisclosureTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_EquityPolicyTitle" xlink:label="kvk-abstr_EquityPolicyTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_LegalStatutoryReservesDisclosureTitle" xlink:label="kvk-abstr_LegalStatutoryReservesDisclosureTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_LegalStatutoryReservesMember" xlink:label="bw2-dm-eqty_LegalStatutoryReservesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LegalStatutoryReservesDisclosure" xlink:label="bw2-i_LegalStatutoryReservesDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LegalStatutoryReservesPolicy" xlink:label="bw2-i_LegalStatutoryReservesPolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosureTitle" xlink:label="kvk-abstr_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosureTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_IncomeTaxFiscalAdjustmentsPriorYearsDisclosure" xlink:label="rj-i_IncomeTaxFiscalAdjustmentsPriorYearsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_IncomeTaxFiscalFacilitiesDisclosure" xlink:label="rj-i_IncomeTaxFiscalFacilitiesDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure" xlink:label="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_GeneralPoliciesDifferenceFiscalCommercial" xlink:label="rj-i_GeneralPoliciesDifferenceFiscalCommercial_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_FiscalReservesOtherBreakdownTitle" xlink:label="kvk-abstr_FiscalReservesOtherBreakdownTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_FiscalReservesOtherDisclosureTitle" xlink:label="kvk-abstr_FiscalReservesOtherDisclosureTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ReinvestmentReserveDisclosureTitle" xlink:label="kvk-abstr_ReinvestmentReserveDisclosureTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IncomeTaxExpenseDisclosureTitle" xlink:label="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_FiscalReservesOtherMember" xlink:label="bw2-dm-eqty_FiscalReservesOtherMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_ReinvestmentReserveMember" xlink:label="bw2-dm-eqty_ReinvestmentReserveMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ContingencyReserve" xlink:label="rj-i_ContingencyReserve_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_CostEqualisationReserve" xlink:label="rj-i_CostEqualisationReserve_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ExportReserve" xlink:label="rj-i_ExportReserve_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_FiscalReservesOther" xlink:label="rj-i_FiscalReservesOther_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_FiscalReservesOtherDisclosure" xlink:label="rj-i_FiscalReservesOtherDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_FiscalReservesOtherPolicy" xlink:label="rj-i_FiscalReservesOtherPolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ReinvestmentReserveDisclosure" xlink:label="rj-i_ReinvestmentReserveDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ReinvestmentReservePolicy" xlink:label="rj-i_ReinvestmentReservePolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_RemainingFiscalReserves" xlink:label="rj-i_RemainingFiscalReserves_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ReUtilisationReserve" xlink:label="rj-i_ReUtilisationReserve_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_UpgradeReserve" xlink:label="rj-i_UpgradeReserve_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_GeneralPoliciesTitle" xlink:label="kvk-abstr_GeneralPoliciesTitle_loc" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityPolicyTitle_loc" xlink:to="bw2-i_LegalStatutoryReservesPolicy_loc" xlink:type="arc" order="218"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityClassesTitle_loc" xlink:to="bw2-dm-eqty_LegalStatutoryReservesMember_loc" xlink:type="arc" order="615"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityDisclosureTitle_loc" xlink:to="bw2-i_EquityWithheldPartResult_loc" xlink:type="arc" order="656"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LegalStatutoryReservesDisclosureTitle_loc" xlink:to="bw2-i_LegalStatutoryReservesDisclosure_loc" xlink:type="arc" order="713"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="rj-i_IncomeTaxFiscalAdjustmentsPriorYearsDisclosure_loc" xlink:type="arc" order="1083"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="rj-i_IncomeTaxFiscalFacilitiesDisclosure_loc" xlink:type="arc" order="1084"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="kvk-abstr_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosureTitle_loc" xlink:type="arc" order="1085"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosureTitle_loc" xlink:to="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc" xlink:type="arc" order="1086"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_GeneralPoliciesTitle_loc" xlink:to="rj-i_GeneralPoliciesDifferenceFiscalCommercial_loc" xlink:type="arc" order="96"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityPolicyTitle_loc" xlink:to="rj-i_ReinvestmentReservePolicy_loc" xlink:type="arc" order="221"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityPolicyTitle_loc" xlink:to="rj-i_FiscalReservesOtherPolicy_loc" xlink:type="arc" order="222"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityClassesTitle_loc" xlink:to="bw2-dm-eqty_ReinvestmentReserveMember_loc" xlink:type="arc" order="618"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityClassesTitle_loc" xlink:to="bw2-dm-eqty_FiscalReservesOtherMember_loc" xlink:type="arc" order="619"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityDisclosureTitle_loc" xlink:to="kvk-abstr_ReinvestmentReserveDisclosureTitle_loc" xlink:type="arc" order="728"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReinvestmentReserveDisclosureTitle_loc" xlink:to="rj-i_ReinvestmentReserveDisclosure_loc" xlink:type="arc" order="729"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityDisclosureTitle_loc" xlink:to="kvk-abstr_FiscalReservesOtherDisclosureTitle_loc" xlink:type="arc" order="730"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FiscalReservesOtherDisclosureTitle_loc" xlink:to="rj-i_FiscalReservesOtherDisclosure_loc" xlink:type="arc" order="731"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FiscalReservesOtherDisclosureTitle_loc" xlink:to="kvk-abstr_FiscalReservesOtherBreakdownTitle_loc" xlink:type="arc" order="732"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FiscalReservesOtherBreakdownTitle_loc" xlink:to="rj-i_UpgradeReserve_loc" xlink:type="arc" order="733"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FiscalReservesOtherBreakdownTitle_loc" xlink:to="rj-i_CostEqualisationReserve_loc" xlink:type="arc" order="734"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FiscalReservesOtherBreakdownTitle_loc" xlink:to="rj-i_ExportReserve_loc" xlink:type="arc" order="735"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FiscalReservesOtherBreakdownTitle_loc" xlink:to="rj-i_ContingencyReserve_loc" xlink:type="arc" order="736"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FiscalReservesOtherBreakdownTitle_loc" xlink:to="rj-i_ReUtilisationReserve_loc" xlink:type="arc" order="737"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FiscalReservesOtherBreakdownTitle_loc" xlink:to="rj-i_RemainingFiscalReserves_loc" xlink:type="arc" order="738"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FiscalReservesOtherBreakdownTitle_loc" xlink:to="rj-i_FiscalReservesOther_loc" xlink:type="arc" order="739"/>
+  </link:presentationLink>
+</link:linkbase>

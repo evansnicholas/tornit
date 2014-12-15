@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_OrganisationName" xlink:label="bw2-i_OrganisationName_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_OrganisationName_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="bw2-i_OrganisationName_documentation_en">Name of the organisation or legal entity that is being represented in this situation.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_OrganisationName_loc" xlink:to="bw2-i_OrganisationName_documentation_en"/>    
+	<link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_SignatureManagingSupervisoryDirectorsLocation" xlink:label="bw2-i_SignatureManagingSupervisoryDirectorsLocation_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_SignatureManagingSupervisoryDirectorsLocation_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="bw2-i_SignatureManagingSupervisoryDirectorsLocation_documentation_en">The location of signing the financial statements by the managing of supervisory directors.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_SignatureManagingSupervisoryDirectorsLocation_loc" xlink:to="bw2-i_SignatureManagingSupervisoryDirectorsLocation_documentation_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_SignatureManagingSupervisoryDirectorsDate" xlink:label="bw2-i_SignatureManagingSupervisoryDirectorsDate_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_SignatureManagingSupervisoryDirectorsDate_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="bw2-i_SignatureManagingSupervisoryDirectorsDate_documentation_en">The date of signing the financial statements by the managing of supervisory directors.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_SignatureManagingSupervisoryDirectorsDate_loc" xlink:to="bw2-i_SignatureManagingSupervisoryDirectorsDate_documentation_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_SignatureManagementReportLocation_loc" xlink:to="bw2-i_SignatureManagementReportLocation_documentation_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_SignatureManagementReportLocation" xlink:label="bw2-i_SignatureManagementReportLocation_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_SignatureManagementReportLocation_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="bw2-i_SignatureManagementReportLocation_documentation_en">The location of signing the management report by the author(s).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_SignatureManagementReportDate_loc" xlink:to="bw2-i_SignatureManagementReportDate_documentation_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_SignatureManagementReportDate" xlink:label="bw2-i_SignatureManagementReportDate_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_SignatureManagementReportDate_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="bw2-i_SignatureManagementReportDate_documentation_en">The date of signing the management report by the author(s).</link:label>
+  </link:labelLink>
+</link:linkbase>

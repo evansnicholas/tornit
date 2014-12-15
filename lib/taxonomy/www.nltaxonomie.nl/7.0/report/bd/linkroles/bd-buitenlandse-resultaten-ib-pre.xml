@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_buitenlandse-resultaten" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_buitenlandse-resultaten" xlink:type="simple"/>
+    <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_buitenlandse-resultaten" xlink:type="extended">
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification" xlink:label="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExemptionMethodCountry" xlink:label="bd-bedr_ExemptionMethodCountry_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:to="bd-bedr_ExemptionMethodCountry_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExchangeRateExemptionMethod" xlink:label="bd-bedr_ExchangeRateExemptionMethod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:to="bd-bedr_ExchangeRateExemptionMethod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExemptionMethodProfitComponent" xlink:label="bd-bedr_ExemptionMethodProfitComponent_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:to="bd-bedr_ExemptionMethodProfitComponent_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExemptionMethodProfitNationalCurrency" xlink:label="bd-bedr_ExemptionMethodProfitNationalCurrency_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:to="bd-bedr_ExemptionMethodProfitNationalCurrency_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExemptionMethodForwardedProfitOrLossToOvertake" xlink:label="bd-bedr_ExemptionMethodForwardedProfitOrLossToOvertake_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:to="bd-bedr_ExemptionMethodForwardedProfitOrLossToOvertake_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_ExemptedDueToForeignProfitsTitle" xlink:label="bd-abstr_ExemptedDueToForeignProfitsTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ExemptedDueToForeignProfitsTitle_loc" xlink:to="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_ResultsAbroadTitle" xlink:label="bd-abstr_ResultsAbroadTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ResultsAbroadTitle_loc" xlink:to="bd-abstr_ExemptedDueToForeignProfitsTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_TaxData" xlink:label="bd-bedr-tuple_TaxData_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_TaxData_loc" xlink:to="bd-abstr_ResultsAbroadTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ProfitEuroExemptionMethod" xlink:label="bd-bedr_ProfitEuroExemptionMethod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:to="bd-bedr_ProfitEuroExemptionMethod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+    </link:presentationLink>
+</link:linkbase>

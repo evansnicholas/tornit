@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/8.0/basis/kvk/items/kvk-data" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:kvk-i="http://www.nltaxonomie.nl/8.0/basis/kvk/items/kvk-data" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:kvk-codes="http://www.nltaxonomie.nl/8.0/basis/kvk/types/kvk-codes" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sbi="http://www.nltaxonomie.nl/sbi/sbi2008">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="kvk-data-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="kvk-data-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="kvk-data-documentation-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="kvk-data-documentation-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="kvk-data-ref.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.nltaxonomie.nl/sbi/sbi2008" schemaLocation="../../../basis/sbr/types/sbi-businesscodes-2013-04.xsd"/>
+  <xs:import namespace="http://www.nltaxonomie.nl/8.0/basis/kvk/types/kvk-codes" schemaLocation="../types/kvk-codes.xsd"/>
+  <xs:element name="IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure" id="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="SbiBusinessCode" id="kvk-i_SbiBusinessCode" type="sbi:sbiItemType" substitutionGroup="xbrli:item" abstract="false" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="ContactType" id="kvk-i_ContactType" type="kvk-codes:contactItemType" substitutionGroup="xbrli:item" abstract="false" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="LegalSizeCriteriaClassification" id="kvk-i_LegalSizeCriteriaClassification" type="kvk-codes:legalSizeCriteriaItemType" substitutionGroup="xbrli:item" abstract="false" nillable="false" xbrli:periodType="duration"/>
+  <xs:element name="DocumentInformation" id="kvk-i_DocumentInformation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="false" abstract="false"/>
+</xs:schema>

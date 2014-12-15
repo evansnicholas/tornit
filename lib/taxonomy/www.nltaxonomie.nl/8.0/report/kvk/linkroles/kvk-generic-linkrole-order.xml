@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gen="http://xbrl.org/2008/generic">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:href="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-arcroles.xsd#sbr_linkrole-order"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd#linkrole-info" roleURI="http://www.nltaxonomie.nl/2011/role/linkrole-info"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_InformationRequiredForFiling" xlink:label="kvk-plr_InformationRequiredForFiling_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" id="kvk-plr_InformationRequiredForFiling_rsc" xlink:label="kvk-plr_InformationRequiredForFiling_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">1</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_InformationRequiredForFiling_loc" xlink:to="kvk-plr_InformationRequiredForFiling_rsc"/>
+  </gen:link>
+</link:linkbase>

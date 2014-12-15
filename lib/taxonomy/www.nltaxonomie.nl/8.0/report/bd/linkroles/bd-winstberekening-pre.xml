@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_winstberekening" roleURI="urn:bd:linkrole:bd-lr-pre_winstberekening" xlink:type="simple"/>
+    <link:presentationLink xlink:role="urn:bd:linkrole:bd-lr-pre_winstberekening" xlink:type="extended">
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_FiscalReservesChangesTitle" xlink:label="bd-abstr_FiscalReservesChangesTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EqualizationReserveCostAddition" xlink:label="bd-bedr_EqualizationReserveCostAddition_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_FiscalReservesChangesTitle_loc" xlink:to="bd-bedr_EqualizationReserveCostAddition_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ReinvestmentReserveAddition" xlink:label="bd-bedr_ReinvestmentReserveAddition_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_FiscalReservesChangesTitle_loc" xlink:to="bd-bedr_ReinvestmentReserveAddition_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EqualizationReserveWithdrawalCost" xlink:label="bd-bedr_EqualizationReserveWithdrawalCost_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_FiscalReservesChangesTitle_loc" xlink:to="bd-bedr_EqualizationReserveWithdrawalCost_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ReservesBalanceChange" xlink:label="bd-bedr_ReservesBalanceChange_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_FiscalReservesChangesTitle_loc" xlink:to="bd-bedr_ReservesBalanceChange_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="11" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_CapitalComparisonTitle" xlink:label="bd-abstr_CapitalComparisonTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BalanceProfitComparisonMethod" xlink:label="bd-bedr_BalanceProfitComparisonMethod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonTitle_loc" xlink:to="bd-bedr_BalanceProfitComparisonMethod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="13" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_CostsWagesNonDeductibleOrLimitedExemptedSpecification" xlink:label="bd-bedr-tuple_CostsWagesNonDeductibleOrLimitedExemptedSpecification_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CostsAndWagesNonDeductibleOrLimitedExemptedDescription" xlink:label="bd-bedr_CostsAndWagesNonDeductibleOrLimitedExemptedDescription_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_CostsWagesNonDeductibleOrLimitedExemptedSpecification_loc" xlink:to="bd-bedr_CostsAndWagesNonDeductibleOrLimitedExemptedDescription_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_PenaltiesNonDeductibleSpecification" xlink:label="bd-bedr-tuple_PenaltiesNonDeductibleSpecification_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_PenaltiesNonDeductibleDescription" xlink:label="bd-bedr_PenaltiesNonDeductibleDescription_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_PenaltiesNonDeductibleSpecification_loc" xlink:to="bd-bedr_PenaltiesNonDeductibleDescription_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_ProfitCalculationTitle" xlink:label="bd-abstr_ProfitCalculationTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TaxableProfit" xlink:label="bd-bedr_TaxableProfit_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ProfitCalculationTitle_loc" xlink:to="bd-bedr_TaxableProfit_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="12" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ShippingProfitAdditionTotal" xlink:label="bd-bedr_ShippingProfitAdditionTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ProfitCalculationTitle_loc" xlink:to="bd-bedr_ShippingProfitAdditionTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ReservesAdditionTotal" xlink:label="bd-bedr_ReservesAdditionTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_FiscalReservesChangesTitle_loc" xlink:to="bd-bedr_ReservesAdditionTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="10" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CapitalContributionsTotal" xlink:label="bd-bedr_CapitalContributionsTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonTitle_loc" xlink:to="bd-bedr_CapitalContributionsTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CapitalComparisonDifferenceOfCapitalTotal" xlink:label="bd-bedr_CapitalComparisonDifferenceOfCapitalTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonTitle_loc" xlink:to="bd-bedr_CapitalComparisonDifferenceOfCapitalTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_ExemptedProfitTitle" xlink:label="bd-abstr_ExemptedProfitTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExemptedProfitComponentsTotal" xlink:label="bd-bedr_ExemptedProfitComponentsTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ExemptedProfitTitle_loc" xlink:to="bd-bedr_ExemptedProfitComponentsTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExemptionForIncomeFromForestryActivitiesAgriculturalActivities" xlink:label="bd-bedr_ExemptionForIncomeFromForestryActivitiesAgriculturalActivities_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ExemptedProfitTitle_loc" xlink:to="bd-bedr_ExemptionForIncomeFromForestryActivitiesAgriculturalActivities_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FinalAssetsAndCapitalWithdrawalsTotal" xlink:label="bd-bedr_FinalAssetsAndCapitalWithdrawalsTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonTitle_loc" xlink:to="bd-bedr_FinalAssetsAndCapitalWithdrawalsTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_InitialCapitalAndCapitalContributionsTotal" xlink:label="bd-bedr_InitialCapitalAndCapitalContributionsTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonTitle_loc" xlink:to="bd-bedr_InitialCapitalAndCapitalContributionsTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CostsAndWagesAndPenaltiesNonDeductibleOrSubjectToRestrictedDeductionTotal" xlink:label="bd-bedr_CostsAndWagesAndPenaltiesNonDeductibleOrSubjectToRestrictedDeductionTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ProfitCalculationTitle_loc" xlink:to="bd-bedr_CostsAndWagesAndPenaltiesNonDeductibleOrSubjectToRestrictedDeductionTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CostsAndWagesNonDeductibleOrLimitedExemptedAmount" xlink:label="bd-bedr_CostsAndWagesNonDeductibleOrLimitedExemptedAmount_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_CostsWagesNonDeductibleOrLimitedExemptedSpecification_loc" xlink:to="bd-bedr_CostsAndWagesNonDeductibleOrLimitedExemptedAmount_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_PenaltiesNonDeductibleTotal" xlink:label="bd-bedr_PenaltiesNonDeductibleTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_PenaltiesNonDeductibleSpecification_loc" xlink:to="bd-bedr_PenaltiesNonDeductibleTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExemptedProfitComponentsOther" xlink:label="bd-bedr_ExemptedProfitComponentsOther_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ExemptedProfitTitle_loc" xlink:to="bd-bedr_ExemptedProfitComponentsOther_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ProfitExemptionAmountDueToDebtRemission" xlink:label="bd-bedr_ProfitExemptionAmountDueToDebtRemission_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ExemptedProfitTitle_loc" xlink:to="bd-bedr_ProfitExemptionAmountDueToDebtRemission_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ReservesWithdrawalTotal" xlink:label="bd-bedr_ReservesWithdrawalTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_FiscalReservesChangesTitle_loc" xlink:to="bd-bedr_ReservesWithdrawalTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="9" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_ProfitDeductionExemptionsSpecificationTitle" xlink:label="bd-abstr_ProfitDeductionExemptionsSpecificationTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ProfitDeductionExemptionsSpecificationTitle_loc" xlink:to="bd-bedr-tuple_CostsWagesNonDeductibleOrLimitedExemptedSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-abstr_ProfitDeductionExemptionsSpecificationTitle_loc" xlink:to="bd-bedr-tuple_PenaltiesNonDeductibleSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BusinessCapitalTotalEndFinancialYearForComparisonMethod" xlink:label="bd-bedr_BusinessCapitalTotalEndFinancialYearForComparisonMethod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonTitle_loc" xlink:to="bd-bedr_BusinessCapitalTotalEndFinancialYearForComparisonMethod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-abstr_ProfitCalculationTitle_loc" xlink:to="bd-abstr_FiscalReservesChangesTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CapitalChangesAndWithdrawalsTotal" xlink:label="bd-bedr_CapitalChangesAndWithdrawalsTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonTitle_loc" xlink:to="bd-bedr_CapitalChangesAndWithdrawalsTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_CapitalComparisonExplanationTitle" xlink:label="bd-abstr_CapitalComparisonExplanationTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonExplanationTitle_loc" xlink:to="bd-abstr_ProfitDeductionExemptionsSpecificationTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-abstr_ProfitCalculationTitle_loc" xlink:to="bd-abstr_CapitalComparisonTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-abstr_ProfitCalculationTitle_loc" xlink:to="bd-abstr_ExemptedProfitTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExemptedProfitMobilityProject" xlink:label="bd-bedr_ExemptedProfitMobilityProject_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ExemptedProfitTitle_loc" xlink:to="bd-bedr_ExemptedProfitMobilityProject_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-abstr_ProfitCalculationTitle_loc" xlink:to="bd-abstr_CapitalComparisonExplanationTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="24" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CapitalComparisonExplanationDescription" xlink:label="bd-bedr_CapitalComparisonExplanationDescription_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonExplanationTitle_loc" xlink:to="bd-bedr_CapitalComparisonExplanationDescription_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BusinessCapitalTotalStartFinancialYearForComparisonMethod" xlink:label="bd-bedr_BusinessCapitalTotalStartFinancialYearForComparisonMethod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_CapitalComparisonTitle_loc" xlink:to="bd-bedr_BusinessCapitalTotalStartFinancialYearForComparisonMethod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ReinvestmentReserveWithdrawal" xlink:label="bd-bedr_ReinvestmentReserveWithdrawal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_FiscalReservesChangesTitle_loc" xlink:to="bd-bedr_ReinvestmentReserveWithdrawal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+    </link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:label id="kvk-dm-eqty_EquityComponentDomain_label_en" xlink:label="kvk-dm-eqty_EquityComponentDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Equity [domain]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_EquityComponentDomain" xlink:label="kvk-dm-eqty_EquityComponentDomain_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_EquityComponentDomain_loc" xlink:to="kvk-dm-eqty_EquityComponentDomain_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_RevaluationReserveComponentDomain_label_en" xlink:label="kvk-dm-eqty_RevaluationReserveComponentDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Revaluation reserve [domain]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_RevaluationReserveComponentDomain" xlink:label="kvk-dm-eqty_RevaluationReserveComponentDomain_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_RevaluationReserveComponentDomain_loc" xlink:to="kvk-dm-eqty_RevaluationReserveComponentDomain_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_ShareCapitalMember_label_en" xlink:label="kvk-dm-eqty_ShareCapitalMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Share capital [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_ShareCapitalMember" xlink:label="kvk-dm-eqty_ShareCapitalMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_ShareCapitalMember_loc" xlink:to="kvk-dm-eqty_ShareCapitalMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_SharePremiumMember_label_en" xlink:label="kvk-dm-eqty_SharePremiumMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Share premium [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_SharePremiumMember" xlink:label="kvk-dm-eqty_SharePremiumMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_SharePremiumMember_loc" xlink:to="kvk-dm-eqty_SharePremiumMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_RevaluationReserveMember_label_en" xlink:label="kvk-dm-eqty_RevaluationReserveMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Revaluation reserve [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_RevaluationReserveMember" xlink:label="kvk-dm-eqty_RevaluationReserveMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_RevaluationReserveMember_loc" xlink:to="kvk-dm-eqty_RevaluationReserveMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_LegalStatutoryReservesMember_label_en" xlink:label="kvk-dm-eqty_LegalStatutoryReservesMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Legal and statutory reserves [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_LegalStatutoryReservesMember" xlink:label="kvk-dm-eqty_LegalStatutoryReservesMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_LegalStatutoryReservesMember_loc" xlink:to="kvk-dm-eqty_LegalStatutoryReservesMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_LegalReservesMember_label_en" xlink:label="kvk-dm-eqty_LegalReservesMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Legal reserves [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_LegalReservesMember" xlink:label="kvk-dm-eqty_LegalReservesMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_LegalReservesMember_loc" xlink:to="kvk-dm-eqty_LegalReservesMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_StatutoryReservesMember_label_en" xlink:label="kvk-dm-eqty_StatutoryReservesMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Statutory reserves [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_StatutoryReservesMember" xlink:label="kvk-dm-eqty_StatutoryReservesMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_StatutoryReservesMember_loc" xlink:to="kvk-dm-eqty_StatutoryReservesMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_ReinvestmentReserveMember_label_en" xlink:label="kvk-dm-eqty_ReinvestmentReserveMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Reinvestment reserve [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_ReinvestmentReserveMember" xlink:label="kvk-dm-eqty_ReinvestmentReserveMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_ReinvestmentReserveMember_loc" xlink:to="kvk-dm-eqty_ReinvestmentReserveMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_FiscalReservesOtherMember_label_en" xlink:label="kvk-dm-eqty_FiscalReservesOtherMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other fiscal reserves [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_FiscalReservesOtherMember" xlink:label="kvk-dm-eqty_FiscalReservesOtherMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_FiscalReservesOtherMember_loc" xlink:to="kvk-dm-eqty_FiscalReservesOtherMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_ReservesOtherMember_label_en" xlink:label="kvk-dm-eqty_ReservesOtherMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other reserves [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_ReservesOtherMember" xlink:label="kvk-dm-eqty_ReservesOtherMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_ReservesOtherMember_loc" xlink:to="kvk-dm-eqty_ReservesOtherMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_RetainedEarningsMember_label_en" xlink:label="kvk-dm-eqty_RetainedEarningsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Retained earnings [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_RetainedEarningsMember" xlink:label="kvk-dm-eqty_RetainedEarningsMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_RetainedEarningsMember_loc" xlink:to="kvk-dm-eqty_RetainedEarningsMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_ResultForTheYearMember_label_en" xlink:label="kvk-dm-eqty_ResultForTheYearMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Result for the year [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_ResultForTheYearMember" xlink:label="kvk-dm-eqty_ResultForTheYearMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_ResultForTheYearMember_loc" xlink:to="kvk-dm-eqty_ResultForTheYearMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_EquityMember_label_en" xlink:label="kvk-dm-eqty_EquityMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Equity [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_EquityMember" xlink:label="kvk-dm-eqty_EquityMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_EquityMember_loc" xlink:to="kvk-dm-eqty_EquityMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_NoncontrollingInterestMember_label_en" xlink:label="kvk-dm-eqty_NoncontrollingInterestMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Non-controlling interest [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_NoncontrollingInterestMember" xlink:label="kvk-dm-eqty_NoncontrollingInterestMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_NoncontrollingInterestMember_loc" xlink:to="kvk-dm-eqty_NoncontrollingInterestMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_EquityGroupMember_label_en" xlink:label="kvk-dm-eqty_EquityGroupMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Group equity [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_EquityGroupMember" xlink:label="kvk-dm-eqty_EquityGroupMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_EquityGroupMember_loc" xlink:to="kvk-dm-eqty_EquityGroupMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_HedgedMember_label_en" xlink:label="kvk-dm-eqty_HedgedMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Hedged [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_HedgedMember" xlink:label="kvk-dm-eqty_HedgedMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_HedgedMember_loc" xlink:to="kvk-dm-eqty_HedgedMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_NoPriceQuotationInActiveMarketMember_label_en" xlink:label="kvk-dm-eqty_NoPriceQuotationInActiveMarketMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">No price quotation in active market [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_NoPriceQuotationInActiveMarketMember" xlink:label="kvk-dm-eqty_NoPriceQuotationInActiveMarketMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_NoPriceQuotationInActiveMarketMember_loc" xlink:to="kvk-dm-eqty_NoPriceQuotationInActiveMarketMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_RecognisedDirectlyThroughEquityMember_label_en" xlink:label="kvk-dm-eqty_RecognisedDirectlyThroughEquityMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Recognised directly through equity [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_RecognisedDirectlyThroughEquityMember" xlink:label="kvk-dm-eqty_RecognisedDirectlyThroughEquityMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_RecognisedDirectlyThroughEquityMember_loc" xlink:to="kvk-dm-eqty_RecognisedDirectlyThroughEquityMember_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-dm-eqty_ShareCapitalComponentDomain_label_en" xlink:label="kvk-dm-eqty_ShareCapitalComponentDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Share capital [domain]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_ShareCapitalComponentDomain" xlink:label="kvk-dm-eqty_ShareCapitalComponentDomain_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_ShareCapitalComponentDomain_loc" xlink:to="kvk-dm-eqty_ShareCapitalComponentDomain_label_en" xlink:type="arc"/>
+ 	  <link:label id="kvk-dm-eqty_OrdinarySharesMember_label_en" xlink:label="kvk-dm-eqty_OrdinarySharesMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Ordinary shares [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_OrdinarySharesMember" xlink:label="kvk-dm-eqty_OrdinarySharesMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_OrdinarySharesMember_loc" xlink:to="kvk-dm-eqty_OrdinarySharesMember_label_en" xlink:type="arc"/>  
+ 	  <link:label id="kvk-dm-eqty_PreferredSharesMember_label_en" xlink:label="kvk-dm-eqty_PreferredSharesMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Preferred shares [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_PreferredSharesMember" xlink:label="kvk-dm-eqty_PreferredSharesMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_PreferredSharesMember_loc" xlink:to="kvk-dm-eqty_PreferredSharesMember_label_en" xlink:type="arc"/>  
+ 	  <link:label id="kvk-dm-eqty_PrioritySharesMember_label_en" xlink:label="kvk-dm-eqty_PrioritySharesMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Priority shares [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_PrioritySharesMember" xlink:label="kvk-dm-eqty_PrioritySharesMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_PrioritySharesMember_loc" xlink:to="kvk-dm-eqty_PrioritySharesMember_label_en" xlink:type="arc"/>  
+ 	  <link:label id="kvk-dm-eqty_TreasurySharesMember_label_en" xlink:label="kvk-dm-eqty_TreasurySharesMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Treasury shares [member]</link:label>
+      <link:loc xlink:href="kvk-domains-equity.xsd#kvk-dm-eqty_TreasurySharesMember" xlink:label="kvk-dm-eqty_TreasurySharesMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-eqty_TreasurySharesMember_loc" xlink:to="kvk-dm-eqty_TreasurySharesMember_label_en" xlink:type="arc"/>  
+    </link:labelLink>
+</link:linkbase>

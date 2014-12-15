@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:href="../../../domein/venj/tuples/bw2-tuples.xsd#bw2-t_LoansAdvancesGuaranteesOnBehalfOfDirectorsSpecification" xlink:label="bw2-t_LoansAdvancesGuaranteesOnBehalfOfDirectorsSpecification_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../domein/venj/tuples/bw2-tuples.xsd#bw2-t_ConsolidatedInterestsSpecification" xlink:label="bw2-t_ConsolidatedInterestsSpecification_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../domein/venj/tuples/bw2-tuples.xsd#bw2-t_RelatedPartyTransactionsSpecification" xlink:label="bw2-t_RelatedPartyTransactionsSpecification_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../domein/venj/tuples/bw2-tuples.xsd#bw2-t_AverageNumberEmployeesSegmentSpecification" xlink:label="bw2-t_AverageNumberEmployeesSegmentSpecification_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../domein/venj/tuples/bw2-tuples.xsd#bw2-t_RemunerationManagingSupervisoryDirectorsSpecification" xlink:label="bw2-t_RemunerationManagingSupervisoryDirectorsSpecification_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_LoansAdvancesGuaranteesOnBehalfOfDirectorsSpecification_loc" xlink:to="bw2-t_LoansAdvancesGuaranteesOnBehalfOfDirectorsSpecification_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_ConsolidatedInterestsSpecification_loc" xlink:to="bw2-t_ConsolidatedInterestsSpecification_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_RelatedPartyTransactionsSpecification_loc" xlink:to="bw2-t_RelatedPartyTransactionsSpecification_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_AverageNumberEmployeesSegmentSpecification_loc" xlink:to="bw2-t_AverageNumberEmployeesSegmentSpecification_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_RemunerationManagingSupervisoryDirectorsSpecification_loc" xlink:to="bw2-t_RemunerationManagingSupervisoryDirectorsSpecification_label_en" xlink:type="arc"/>
+    <link:label id="bw2-t_LoansAdvancesGuaranteesOnBehalfOfDirectorsSpecification_label_en" xlink:label="bw2-t_LoansAdvancesGuaranteesOnBehalfOfDirectorsSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Loans, advances and guarantees on behalf of directors [specification]</link:label>
+    <link:label id="bw2-t_ConsolidatedInterestsSpecification_label_en" xlink:label="bw2-t_ConsolidatedInterestsSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Consolidated interests [specification]</link:label>
+    <link:label id="bw2-t_RelatedPartyTransactionsSpecification_label_en" xlink:label="bw2-t_RelatedPartyTransactionsSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Related party transactions [specification]</link:label>
+    <link:label id="bw2-t_AverageNumberEmployeesSegmentSpecification_label_en" xlink:label="bw2-t_AverageNumberEmployeesSegmentSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Average number of employees during the period, by segment [specification]</link:label>
+    <link:label id="bw2-t_RemunerationManagingSupervisoryDirectorsSpecification_label_en" xlink:label="bw2-t_RemunerationManagingSupervisoryDirectorsSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Remuneration of managing and supervisory directors [specification]</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_SignatureManagementReportSpecification_loc" xlink:to="bw2-t_SignatureManagementReportSpecification_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="bw2-tuples.xsd#bw2-t_SignatureManagementReportSpecification" xlink:label="bw2-t_SignatureManagementReportSpecification_loc" xlink:type="locator"/>
+    <link:label id="bw2-t_SignatureManagementReportSpecification_label_en" xlink:label="bw2-t_SignatureManagementReportSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Signatures on the management report [specification]</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_SignatureManagingSupervisoryDirectorsSpecification_loc" xlink:to="bw2-t_SignatureManagingSupervisoryDirectorsSpecification_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="bw2-tuples.xsd#bw2-t_SignatureManagingSupervisoryDirectorsSpecification" xlink:label="bw2-t_SignatureManagingSupervisoryDirectorsSpecification_loc" xlink:type="locator"/>
+    <link:label id="bw2-t_SignatureManagingSupervisoryDirectorsSpecification_label_en" xlink:label="bw2-t_SignatureManagingSupervisoryDirectorsSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Signature of managing and supervisory directors [specification]</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_LiabilitiesPledgedAsCollateralSpecification_loc" xlink:to="bw2-t_LiabilitiesPledgedAsCollateralSpecification_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="bw2-tuples.xsd#bw2-t_LiabilitiesPledgedAsCollateralSpecification" xlink:label="bw2-t_LiabilitiesPledgedAsCollateralSpecification_loc" xlink:type="locator"/>
+    <link:label id="bw2-t_LiabilitiesPledgedAsCollateralSpecification_label_en" xlink:label="bw2-t_LiabilitiesPledgedAsCollateralSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Pledges and collateral [specification]</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_NetRevenueSegmentGeographicSpecification_loc" xlink:to="bw2-t_NetRevenueSegmentGeographicSpecification_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="bw2-tuples.xsd#bw2-t_NetRevenueSegmentGeographicSpecification" xlink:label="bw2-t_NetRevenueSegmentGeographicSpecification_loc" xlink:type="locator"/>
+    <link:label id="bw2-t_NetRevenueSegmentGeographicSpecification_label_en" xlink:label="bw2-t_NetRevenueSegmentGeographicSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Net revenue, segmented by geography [specification]</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_ShareBasedPaymentsSpecification_loc" xlink:to="bw2-t_ShareBasedPaymentsSpecification_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="bw2-tuples.xsd#bw2-t_ShareBasedPaymentsSpecification" xlink:label="bw2-t_ShareBasedPaymentsSpecification_loc" xlink:type="locator"/>
+    <link:label id="bw2-t_ShareBasedPaymentsSpecification_label_en" xlink:label="bw2-t_ShareBasedPaymentsSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Share based payments [specification]</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_ExtraordinaryItemsSpecification_loc" xlink:to="bw2-t_ExtraordinaryItemsSpecification_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="bw2-tuples.xsd#bw2-t_ExtraordinaryItemsSpecification" xlink:label="bw2-t_ExtraordinaryItemsSpecification_loc" xlink:type="locator"/>
+    <link:label id="bw2-t_ExtraordinaryItemsSpecification_label_en" xlink:label="bw2-t_ExtraordinaryItemsSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Extraordinary income and expense [specification]</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_FinancialInstrumentsDetailsSpecification_loc" xlink:to="bw2-t_FinancialInstrumentsDetailsSpecification_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="bw2-tuples.xsd#bw2-t_FinancialInstrumentsDetailsSpecification" xlink:label="bw2-t_FinancialInstrumentsDetailsSpecification_loc" xlink:type="locator"/>
+    <link:label id="bw2-t_FinancialInstrumentsDetailsSpecification_label_en" xlink:label="bw2-t_FinancialInstrumentsDetailsSpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Financial instruments, details [specification]</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_LiabilitiesCurrentMaturitySpecification_loc" xlink:to="bw2-t_LiabilitiesCurrentMaturitySpecification_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="bw2-tuples.xsd#bw2-t_LiabilitiesCurrentMaturitySpecification" xlink:label="bw2-t_LiabilitiesCurrentMaturitySpecification_loc" xlink:type="locator"/>
+    <link:label id="bw2-t_LiabilitiesCurrentMaturitySpecification_label_en" xlink:label="bw2-t_LiabilitiesCurrentMaturitySpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Current liabilities, maturity [specification]</link:label>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_LiabilitiesNoncurrentMaturitySpecification_loc" xlink:to="bw2-t_LiabilitiesNoncurrentMaturitySpecification_label_en" xlink:type="arc"/>
+    <link:loc xlink:href="bw2-tuples.xsd#bw2-t_LiabilitiesNoncurrentMaturitySpecification" xlink:label="bw2-t_LiabilitiesNoncurrentMaturitySpecification_loc" xlink:type="locator"/>
+    <link:label id="bw2-t_LiabilitiesNoncurrentMaturitySpecification_label_en" xlink:label="bw2-t_LiabilitiesNoncurrentMaturitySpecification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Non-current liabilities, maturity [specification]</link:label>
+  </link:labelLink>
+</link:linkbase>

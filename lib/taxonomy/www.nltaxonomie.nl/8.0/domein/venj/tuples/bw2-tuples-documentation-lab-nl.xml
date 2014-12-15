@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="bw2-tuples.xsd#bw2-t_SignatureManagementReportSpecification" xlink:label="bw2-t_SignatureManagementReportSpecification_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-t_SignatureManagementReportSpecification_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="bw2-t_SignatureManagementReportSpecification_documentation_nl">Het bestuursverslag is ondertekend door het bestuur of door diegene(n) die daartoe statutair bevoegd is/zijn. Deze tuple is bedoeld voor het opnemen van de namen van deze personen.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-t_SignatureManagementReportSpecification_loc" xlink:to="bw2-t_SignatureManagementReportSpecification_documentation_nl"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-j" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelJ" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-j" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IncomeStatementTitle" xlink:label="kvk-abstr_IncomeStatementTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_GrossMargin" xlink:label="nl-gen_GrossMargin_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SellingExpenses" xlink:label="nl-gen_SellingExpenses_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_GeneralAdministrativeExpenses" xlink:label="nl-gen_GeneralAdministrativeExpenses_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SumOfExpenses" xlink:label="nl-gen_SumOfExpenses_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_NetOperatingResult" xlink:label="nl-gen_NetOperatingResult_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IncomeReceivablesNoncurrentSecurities" xlink:label="nl-gen_IncomeReceivablesNoncurrentSecurities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RevaluationReserveRelease" xlink:label="kvk-i_RevaluationReserveRelease_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_InterestIncomeRelatedIncome" xlink:label="nl-gen_InterestIncomeRelatedIncome_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ChangesValueReceivablesNoncurrentSecurities" xlink:label="nl-gen_ChangesValueReceivablesNoncurrentSecurities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_InterestExpensesRelatedExpenses" xlink:label="nl-gen_InterestExpensesRelatedExpenses_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultBeforeTaxOrdinaryActivities" xlink:label="nl-gen_ResultBeforeTaxOrdinaryActivities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IncomeTaxExpenseOrdinaryActivities" xlink:label="nl-gen_IncomeTaxExpenseOrdinaryActivities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ShareInResultsParticipatingInterests" xlink:label="nl-gen_ShareInResultsParticipatingInterests_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAfterTaxOrdinaryActivities" xlink:label="nl-gen_ResultAfterTaxOrdinaryActivities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ExtraordinaryIncome" xlink:label="nl-gen_ExtraordinaryIncome_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ExtraordinaryExpenses" xlink:label="nl-gen_ExtraordinaryExpenses_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IncomeTaxExpenseExtraordinaryItems" xlink:label="nl-gen_IncomeTaxExpenseExtraordinaryItems_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAfterTaxExtraordinaryItems" xlink:label="nl-gen_ResultAfterTaxExtraordinaryItems_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAfterTax" xlink:label="nl-gen_ResultAfterTax_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAttributableNoncontrollingInterest" xlink:label="nl-gen_ResultAttributableNoncontrollingInterest_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_NetResultAfterTax" xlink:label="nl-gen_NetResultAfterTax_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_GrossMargin_loc" xlink:type="arc" order="1"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_SellingExpenses_loc" xlink:type="arc" order="2"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_GeneralAdministrativeExpenses_loc" xlink:type="arc" order="3"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_SumOfExpenses_loc" xlink:type="arc" order="4"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_NetOperatingResult_loc" xlink:type="arc" order="5"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_IncomeReceivablesNoncurrentSecurities_loc" xlink:type="arc" order="6"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="kvk-i_RevaluationReserveRelease_loc" xlink:type="arc" order="8"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_InterestIncomeRelatedIncome_loc" xlink:type="arc" order="10"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_ChangesValueReceivablesNoncurrentSecurities_loc" xlink:type="arc" order="11"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_InterestExpensesRelatedExpenses_loc" xlink:type="arc" order="12"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_ResultBeforeTaxOrdinaryActivities_loc" xlink:type="arc" order="13"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_IncomeTaxExpenseOrdinaryActivities_loc" xlink:type="arc" order="14"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_ShareInResultsParticipatingInterests_loc" xlink:type="arc" order="15"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_ResultAfterTaxOrdinaryActivities_loc" xlink:type="arc" order="16"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_ExtraordinaryIncome_loc" xlink:type="arc" order="17"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_ExtraordinaryExpenses_loc" xlink:type="arc" order="18"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_IncomeTaxExpenseExtraordinaryItems_loc" xlink:type="arc" order="19"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_ResultAfterTaxExtraordinaryItems_loc" xlink:type="arc" order="20"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_ResultAfterTax_loc" xlink:type="arc" order="21"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_ResultAttributableNoncontrollingInterest_loc" xlink:type="arc" order="22"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="nl-gen_NetResultAfterTax_loc" xlink:type="arc" order="23"/>
+  </link:presentationLink>
+</link:linkbase>

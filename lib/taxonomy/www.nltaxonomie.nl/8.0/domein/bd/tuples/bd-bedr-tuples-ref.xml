@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetIB2001_3.19_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2585">
+            <ref:Name>Wet IB2001</ref:Name>
+            <ref:Article>3.19</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetIB2001_3.25_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2589">
+            <ref:Name>Wet IB2001</ref:Name>
+            <ref:Article>3.25</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetVpB1969_13_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2593">
+            <ref:Name>Wet VPB1969</ref:Name>
+            <ref:Article>13</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetIB2001_3.20_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2615">
+            <ref:Name>Wet IB2001</ref:Name>
+            <ref:Article>3.20</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetIB2001_3.42_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2621">
+            <ref:Name>Wet IB2001</ref:Name>
+            <ref:Article>3.42</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetIB2001_3.23_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2622">
+            <ref:Name>Wet IB2001</ref:Name>
+            <ref:Article>3.23</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetIB2001_3.8_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2623">
+            <ref:Name>Wet IB2001</ref:Name>
+            <ref:Article>3.8</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_BesluitVDB2001_11_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2801">
+            <ref:Name>Besluit VDB2001</ref:Name>
+            <ref:Article>11</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_BesluitFiscaleEenheid2003_16a_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2841">
+            <ref:Name>Besluit Fiscale Eenheid 2003</ref:Name>
+            <ref:Article>16a</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetVpB1969_12b_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2863">
+            <ref:Name>Wet VPB1969</ref:Name>
+            <ref:Article>12b</ref:Article>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_19_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5236">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>19</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_20_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5237">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>20</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_22_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5239">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>22</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_23_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5240">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>23</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_24_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5241">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>24</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_53_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5270">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>53</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetVpB1969_8_1_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5273">
+            <ref:Name>Wet VPB1969</ref:Name>
+            <ref:Article>8</ref:Article>
+            <ref:Paragraph>1</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_besluitVDB2001_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5276">
+            <ref:Name>Besluit VDB2001</ref:Name>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_wetVpB1969_10_1_f_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5330">
+            <ref:Name>Wet VPB1969</ref:Name>
+            <ref:Article>10</ref:Article>
+            <ref:Paragraph>1</ref:Paragraph>
+            <ref:Subparagraph>f</ref:Subparagraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_78_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5374">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>78</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_607257_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5820">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>607257</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_607236_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5852">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>607236</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_114_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_6101">
+            <ref:Paragraph>114</ref:Paragraph>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_115_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_6102">
+            <ref:Paragraph>115</ref:Paragraph>
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+        </link:reference>
+        <link:reference xlink:label="bd-bedr-tuple_bd_def_116_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_6103">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>116</ref:Paragraph>
+    </link:reference>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_AgriculturalActivitiesSpecification" xlink:label="bd-bedr-tuple_AgriculturalActivitiesSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_AgriculturalActivitiesSpecification_loc" xlink:to="bd-bedr-tuple_bd_def_607257_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_AgriculturalLandPrivateWithdrawalSpecification" xlink:label="bd-bedr-tuple_AgriculturalLandPrivateWithdrawalSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_AgriculturalLandPrivateWithdrawalSpecification_loc" xlink:to="bd-bedr-tuple_bd_def_19_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_BusinessAssetEnvironmentalEnergyInvestmentSpecification" xlink:label="bd-bedr-tuple_BusinessAssetEnvironmentalEnergyInvestmentSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_BusinessAssetEnvironmentalEnergyInvestmentSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.42_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_BusinessAssetsRandomDepreciationNetherlandsSpecification" xlink:label="bd-bedr-tuple_BusinessAssetsRandomDepreciationNetherlandsSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_BusinessAssetsRandomDepreciationNetherlandsSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.8_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_BusinessAssetsWithdrawalOrContributionSpecification" xlink:label="bd-bedr-tuple_BusinessAssetsWithdrawalOrContributionSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_BusinessAssetsWithdrawalOrContributionSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.8_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_CarPrivateUseSpecialSituationsSpecification" xlink:label="bd-bedr-tuple_CarPrivateUseSpecialSituationsSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_CarPrivateUseSpecialSituationsSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.20_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_CarPrivateUseSpecification" xlink:label="bd-bedr-tuple_CarPrivateUseSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_CarPrivateUseSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.20_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_CompensationExcludedFromTaxableProfitSpecification" xlink:label="bd-bedr-tuple_CompensationExcludedFromTaxableProfitSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_CompensationExcludedFromTaxableProfitSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.25_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_CostsWagesNonDeductibleOrLimitedExemptedSpecification" xlink:label="bd-bedr-tuple_CostsWagesNonDeductibleOrLimitedExemptedSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_CostsWagesNonDeductibleOrLimitedExemptedSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetVpB1969_8_1_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_DoubleTaxationAvoidanceSetoffMethodSpecification" xlink:label="bd-bedr-tuple_DoubleTaxationAvoidanceSetoffMethodSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_DoubleTaxationAvoidanceSetoffMethodSpecification_loc" xlink:to="bd-bedr-tuple_bd_besluitVDB2001_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification" xlink:label="bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification_loc" xlink:to="bd-bedr-tuple_bd_besluitVDB2001_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification" xlink:label="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_ForeignTaxExemptionMethodProfitSpecification_loc" xlink:to="bd-bedr-tuple_bd_BesluitVDB2001_11_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_FunctionalCurrencyOrderSpecification" xlink:label="bd-bedr-tuple_FunctionalCurrencyOrderSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_FunctionalCurrencyOrderSpecification_loc" xlink:to="bd-bedr-tuple_bd_def_607236_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_ImmovablePropertyWithdrawalSpecification" xlink:label="bd-bedr-tuple_ImmovablePropertyWithdrawalSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_ImmovablePropertyWithdrawalSpecification_loc" xlink:to="bd-bedr-tuple_bd_def_114_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_InnovationboxBusinessAssetsSpecification" xlink:label="bd-bedr-tuple_InnovationboxBusinessAssetsSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_InnovationboxBusinessAssetsSpecification_loc" xlink:to="bd-bedr-tuple_bd_BesluitFiscaleEenheid2003_16a_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_InnovationboxBusinessAssetsSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetVpB1969_12b_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_InterestsWithParticipatingInterestSpecification" xlink:label="bd-bedr-tuple_InterestsWithParticipatingInterestSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_InterestsWithParticipatingInterestSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetVpB1969_13_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_LandDisposalSpecification" xlink:label="bd-bedr-tuple_LandDisposalSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_LandDisposalSpecification_loc" xlink:to="bd-bedr-tuple_bd_def_20_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_LandDisposalSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.25_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_NationalAgriculturalStandardsDeviationSpecification" xlink:label="bd-bedr-tuple_NationalAgriculturalStandardsDeviationSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_NationalAgriculturalStandardsDeviationSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.25_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_ObjectExemptionForeignBusinessProfitsSpecification" xlink:label="bd-bedr-tuple_ObjectExemptionForeignBusinessProfitsSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_ObjectExemptionForeignBusinessProfitsSpecification_loc" xlink:to="bd-bedr-tuple_bd_def_115_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_PenaltiesNonDeductibleSpecification" xlink:label="bd-bedr-tuple_PenaltiesNonDeductibleSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_PenaltiesNonDeductibleSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetVpB1969_8_1_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_PrivateUseHouseAdditionSpecification" xlink:label="bd-bedr-tuple_PrivateUseHouseAdditionSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_PrivateUseHouseAdditionSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.19_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_PrivateWithdrawalInKindGoodsSpecification" xlink:label="bd-bedr-tuple_PrivateWithdrawalInKindGoodsSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_PrivateWithdrawalInKindGoodsSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.25_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_PrivateWithdrawalsOtherSpecification" xlink:label="bd-bedr-tuple_PrivateWithdrawalsOtherSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_PrivateWithdrawalsOtherSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.25_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_ProfitDistributionsSubjectToDividendTaxSpecification" xlink:label="bd-bedr-tuple_ProfitDistributionsSubjectToDividendTaxSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_ProfitDistributionsSubjectToDividendTaxSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetVpB1969_10_1_f_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_ProvisionsOtherSpecification" xlink:label="bd-bedr-tuple_ProvisionsOtherSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_ProvisionsOtherSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.25_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_ReinvestmentReserveSpecification" xlink:label="bd-bedr-tuple_ReinvestmentReserveSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_ReinvestmentReserveSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.25_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_ShareholderSpecification" xlink:label="bd-bedr-tuple_ShareholderSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_ShareholderSpecification_loc" xlink:to="bd-bedr-tuple_bd_def_53_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_ShippingProfitSpecification" xlink:label="bd-bedr-tuple_ShippingProfitSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_ShippingProfitSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.23_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_SubsidiariesJoiningTaxEntitySpecification" xlink:label="bd-bedr-tuple_SubsidiariesJoiningTaxEntitySpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_SubsidiariesJoiningTaxEntitySpecification_loc" xlink:to="bd-bedr-tuple_bd_def_22_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_SubsidiariesRemovalTaxEntitySpecification" xlink:label="bd-bedr-tuple_SubsidiariesRemovalTaxEntitySpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_SubsidiariesRemovalTaxEntitySpecification_loc" xlink:to="bd-bedr-tuple_bd_def_23_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_TaxEntityTerminationDissolutionSettlementSubsidiariesSpecification" xlink:label="bd-bedr-tuple_TaxEntityTerminationDissolutionSettlementSubsidiariesSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_TaxEntityTerminationDissolutionSettlementSubsidiariesSpecification_loc" xlink:to="bd-bedr-tuple_bd_def_24_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_TransitionalArrangementsExemptedDueToForeignProfitsSpecification" xlink:label="bd-bedr-tuple_TransitionalArrangementsExemptedDueToForeignProfitsSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_TransitionalArrangementsExemptedDueToForeignProfitsSpecification_loc" xlink:to="bd-bedr-tuple_bd_def_116_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-bedr-tuples.xsd#bd-bedr-tuple_WarrantyProvisionSpecification" xlink:label="bd-bedr-tuple_WarrantyProvisionSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-bedr-tuple_WarrantyProvisionSpecification_loc" xlink:to="bd-bedr-tuple_bd_wetIB2001_3.25_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+    </link:referenceLink>
+</link:linkbase>

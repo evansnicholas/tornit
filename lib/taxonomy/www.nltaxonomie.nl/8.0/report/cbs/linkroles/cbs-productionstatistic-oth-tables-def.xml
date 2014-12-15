@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:productionstatistic-oth:time" xlink:href="../../../report/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_productionstatistic-4"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:status-03" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_status-03"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:time-01" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_time-01"/>
+	<link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple"/>
+	<link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple"/>
+    <link:definitionLink xlink:role="urn:cbs:linkrole:productionstatistic-oth:time" xlink:type="extended">
+		<link:loc xlink:href="http://www.nltaxonomie.nl/2013/xbrl/sbr-dimensional-concepts.xsd#sbr-dim_ValidationTable" xlink:label="sbr-dim_ValidationTable_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../domein/cbs/axes/cbs-axes.xsd#cbs-dim_TimeDimension" xlink:label="cbs-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../domein/cbs/axes/cbs-axes.xsd#cbs-dim_Status3Dimension" xlink:label="cbs-dim_Status3Dimension_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="sbr-dim_ValidationTable_loc" xlink:to="cbs-dim_Status3Dimension_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" order="1" xlink:type="arc" xbrldt:targetRole="urn:cbs:linkrole:status-03"/>
+		<link:definitionArc xlink:from="sbr-dim_ValidationTable_loc" xlink:to="cbs-dim_TimeDimension_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" order="1" xlink:type="arc" xbrldt:targetRole="urn:cbs:linkrole:time-01"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_RawAndAuxiliaryMaterialsAndSingleUsePackaging" xlink:label="cbs-bedr-items_RawAndAuxiliaryMaterialsAndSingleUsePackaging_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StocksOfRetailGoods" xlink:label="cbs-bedr-items_StocksOfRetailGoods_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StocksOfWholesaleGoods" xlink:label="cbs-bedr-items_StocksOfWholesaleGoods_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StockOfFinishedGoodsAndWorkInProgressNettedAlreadyInvoiced" xlink:label="cbs-bedr-items_StockOfFinishedGoodsAndWorkInProgressNettedAlreadyInvoiced_loc"/>
+		<link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="cbs-bedr-items_StockOfFinishedGoodsAndWorkInProgressNettedAlreadyInvoiced_loc" xlink:to="sbr-dim_ValidationTable_loc" xbrldt:contextElement="scenario" xbrldt:closed="true" order="1.0"/>
+		<link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="cbs-bedr-items_StocksOfRetailGoods_loc" xlink:to="sbr-dim_ValidationTable_loc" xbrldt:contextElement="scenario" xbrldt:closed="true" order="1.0"/>
+		<link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="cbs-bedr-items_StocksOfWholesaleGoods_loc" xlink:to="sbr-dim_ValidationTable_loc" xbrldt:contextElement="scenario" xbrldt:closed="true" order="1.0"/>
+		<link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="cbs-bedr-items_RawAndAuxiliaryMaterialsAndSingleUsePackaging_loc" xlink:to="sbr-dim_ValidationTable_loc" xbrldt:contextElement="scenario" xbrldt:closed="true" order="1.0"/>
+    </link:definitionLink>
+</link:linkbase>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_AddressAbroadTitle" xlink:label="bd-alg-tuple_AddressAbroadTitle_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg-tuple_AddressAbroadTitle_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_4900">Adres buitenland</link:label>
+        <link:labelArc xlink:from="bd-alg-tuple_AddressAbroadTitle_loc" xlink:to="bd-alg-tuple_AddressAbroadTitle_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_ConsultantAdvisorTitle" xlink:label="bd-alg-tuple_ConsultantAdvisorTitle_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg-tuple_ConsultantAdvisorTitle_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_5141">Consulent-adviseur</link:label>
+        <link:labelArc xlink:from="bd-alg-tuple_ConsultantAdvisorTitle_loc" xlink:to="bd-alg-tuple_ConsultantAdvisorTitle_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_ConsultantAdvisorCorrespondentTitle" xlink:label="bd-alg-tuple_ConsultantAdvisorCorrespondentTitle_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg-tuple_ConsultantAdvisorCorrespondentTitle_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_5159">Contactpersoon consulent-adviseur</link:label>
+        <link:labelArc xlink:from="bd-alg-tuple_ConsultantAdvisorCorrespondentTitle_loc" xlink:to="bd-alg-tuple_ConsultantAdvisorCorrespondentTitle_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_AddressDutchTitle" xlink:label="bd-alg-tuple_AddressDutchTitle_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg-tuple_AddressDutchTitle_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_5581">Adres binnenland</link:label>
+        <link:labelArc xlink:from="bd-alg-tuple_AddressDutchTitle_loc" xlink:to="bd-alg-tuple_AddressDutchTitle_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_CorrespondentConsultantAdvisor" xlink:label="bd-alg-tuple_CorrespondentConsultantAdvisor_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg-tuple_CorrespondentConsultantAdvisor_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24007">Correspondent Consultant Adviseur</link:label>
+        <link:labelArc xlink:from="bd-alg-tuple_CorrespondentConsultantAdvisor_loc" xlink:to="bd-alg-tuple_CorrespondentConsultantAdvisor_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_CorrespondentServicebureau" xlink:label="bd-alg-tuple_CorrespondentServicebureau_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg-tuple_CorrespondentServicebureau_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24008">Correspondent Servicebureau</link:label>
+        <link:labelArc xlink:from="bd-alg-tuple_CorrespondentServicebureau_loc" xlink:to="bd-alg-tuple_CorrespondentServicebureau_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_CorrespondentDeclarant" xlink:label="bd-alg-tuple_CorrespondentDeclarant_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg-tuple_CorrespondentDeclarant_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24010">Contactgegevens aangever</link:label>
+        <link:labelArc xlink:from="bd-alg-tuple_CorrespondentDeclarant_loc" xlink:to="bd-alg-tuple_CorrespondentDeclarant_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_TaxConsultantSpecification" xlink:label="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg-tuple_TaxConsultantSpecification_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25527">Belastingconsulent gegevens</link:label>
+        <link:labelArc xlink:from="bd-alg-tuple_TaxConsultantSpecification_loc" xlink:to="bd-alg-tuple_TaxConsultantSpecification_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+    </link:labelLink>
+</link:linkbase>

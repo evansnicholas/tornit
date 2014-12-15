@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-provisions.xsd#bw2-dm-prov_ProvisionTaxLiabilitiesMember" xlink:label="bw2-dm-prov_ProvisionTaxLiabilitiesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-provisions.xsd#bw2-dm-prov_ProvisionPensionObligationsMember" xlink:label="bw2-dm-prov_ProvisionPensionObligationsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-provisions.xsd#bw2-dm-prov_ProvisionsMember" xlink:label="bw2-dm-prov_ProvisionsMember_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-prov_ProvisionTaxLiabilitiesMember_loc" xlink:to="bw2-dm-prov_ProvisionTaxLiabilitiesMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-prov_ProvisionPensionObligationsMember_loc" xlink:to="bw2-dm-prov_ProvisionPensionObligationsMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-prov_ProvisionsMember_loc" xlink:to="bw2-dm-prov_ProvisionsMember_label_en" xlink:type="arc"/>
+    <link:label id="bw2-dm-prov_ProvisionTaxLiabilitiesMember_label_en" xlink:label="bw2-dm-prov_ProvisionTaxLiabilitiesMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Provision tax liabilities [member]</link:label>
+    <link:label id="bw2-dm-prov_ProvisionPensionObligationsMember_label_en" xlink:label="bw2-dm-prov_ProvisionPensionObligationsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Provision for pension obligations [member]</link:label>
+    <link:label id="bw2-dm-prov_ProvisionsMember_label_en" xlink:label="bw2-dm-prov_ProvisionsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Provisions [member]</link:label>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+targetNamespace="http://xbrl.org/2007/generic"
+xmlns:gen="http://xbrl.org/2007/generic"
+elementFormDefault="qualified"
+xmlns:xl="http://www.xbrl.org/2003/XLink"
+xmlns:link="http://www.xbrl.org/2003/linkbase"
+xmlns="http://www.w3.org/2001/XMLSchema"
+>
+<import
+namespace="http://www.xbrl.org/2003/XLink"
+schemaLocation="http://www.xbrl.org/2003/xl-2003-12-31.xsd" />
+<import
+namespace="http://www.xbrl.org/2003/linkbase"
+schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+<element name="arc" id="arc" substitutionGroup="xl:arc">
+<complexType>
+<complexContent>
+<extension base="xl:arcType">
+<attribute name="id" type="ID" />
+</extension>
+</complexContent>
+</complexType>
+</element>
+<complexType name="linkType" >
+<complexContent>
+<restriction base="xl:extendedType" >
+<choice minOccurs="0" maxOccurs="unbounded" >\
+<element ref="xl:title" />
+<element ref="xl:documentation" />
+<element ref="link:loc" />
+<element ref="xl:arc" />
+<element ref="xl:resource" />
+</choice>
+<anyAttribute namespace="http://www.w3.org/XML/1998/namespace"
+processContents="lax" />
+</restriction>
+</complexContent>
+</complexType>
+<complexType name="linkTypeWithOpenAttrs" >
+<complexContent>
+<extension base="gen:linkType" >
+<anyAttribute namespace="##other" />
+</extension>
+</complexContent>
+</complexType>
+<element name="link" id="link" substitutionGroup="xl:extended"
+type="gen:linkTypeWithOpenAttrs">
+</element>
+</schema>

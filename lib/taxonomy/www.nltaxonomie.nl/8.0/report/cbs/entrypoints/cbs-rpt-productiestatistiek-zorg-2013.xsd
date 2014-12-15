@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema targetNamespace="http://www.nltaxonomie.nl/8.0/report/cbs/entrypoints/cbs-rpt-productiestatistiek-zorg-2013" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:rpt-cbs-psz="http://www.nltaxonomie.nl/8.0/report/cbs/entrypoints/cbs-rpt-productiestatistiek-zorg-2013" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" id="cbs-rpt-productiestatistiek-zorg-2013">
+	<xs:annotation>
+		<xs:appinfo>
+		<link:linkbaseRef xlink:type="simple" xlink:href="../../../report/cbs/linkroles/cbs-contact-information-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+		<link:linkbaseRef xlink:type="simple" xlink:href="../../../report/cbs/linkroles/cbs-productionstatistic-all-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+		<link:linkbaseRef xlink:type="simple" xlink:href="../../../report/cbs/linkroles/cbs-productionstatistic-hea-pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+		<link:linkbaseRef xlink:type="simple" xlink:href="../../../report/cbs/linkroles/cbs-generic-linkrole-order.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+	    <link:linkbaseRef xlink:type="simple" xlink:href="../../../report/cbs/linkroles/cbs-productionstatistic-all-tables-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"/>
+		</xs:appinfo>
+	</xs:annotation>
+</xs:schema>

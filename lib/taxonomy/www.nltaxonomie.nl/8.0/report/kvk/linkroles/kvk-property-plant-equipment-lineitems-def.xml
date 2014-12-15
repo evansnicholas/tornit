@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:roleRef roleURI="urn:kvk:linkrole:property-plant-equipment-movement-schedule-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_PropertyPlantEquipmentMovementScheduleTable" xlink:type="simple"/>
+  <link:definitionLink xlink:role="urn:kvk:linkrole:property-plant-equipment-movement-schedule-table" xlink:type="extended">
+    <link:loc xlink:href="http://www.nltaxonomie.nl/2013/xbrl/sbr-dimensional-concepts.xsd#sbr-dim_ValidationLineItems" xlink:label="sbr-dim_ValidationLineItems_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PropertyPlantEquipmentCostPrice" xlink:label="rj-i_PropertyPlantEquipmentCostPrice_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments" xlink:label="bw2-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentAccumulatedRevaluations" xlink:label="bw2-i_PropertyPlantEquipmentAccumulatedRevaluations_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipment" xlink:label="bw2-i_PropertyPlantEquipment_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentAdditions" xlink:label="bw2-i_PropertyPlantEquipmentAdditions_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentDisposals" xlink:label="bw2-i_PropertyPlantEquipmentDisposals_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentDisposalsDepreciation" xlink:label="bw2-i_PropertyPlantEquipmentDisposalsDepreciation_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentRevaluations" xlink:label="bw2-i_PropertyPlantEquipmentRevaluations_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentDepreciation" xlink:label="bw2-i_PropertyPlantEquipmentDepreciation_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentImpairments" xlink:label="bw2-i_PropertyPlantEquipmentImpairments_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentImpairmentsReversal" xlink:label="bw2-i_PropertyPlantEquipmentImpairmentsReversal_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PropertyPlantEquipmentAcquisitionsThroughBusinessCombinations" xlink:label="rj-i_PropertyPlantEquipmentAcquisitionsThroughBusinessCombinations_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PropertyPlantEquipmentDisposalsThroughBusinessDivestitures" xlink:label="rj-i_PropertyPlantEquipmentDisposalsThroughBusinessDivestitures_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PropertyPlantEquipmentExchangeDifferences" xlink:label="rj-i_PropertyPlantEquipmentExchangeDifferences_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentTransfers" xlink:label="bw2-i_PropertyPlantEquipmentTransfers_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentMovementsOther" xlink:label="bw2-i_PropertyPlantEquipmentMovementsOther_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipmentMovement" xlink:label="bw2-i_PropertyPlantEquipmentMovement_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PropertyPlantEquipmentEconomicLife" xlink:label="rj-i_PropertyPlantEquipmentEconomicLife_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PropertyPlantEquipmentDepreciationRate" xlink:label="rj-i_PropertyPlantEquipmentDepreciationRate_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PropertyPlantEquipmentDepreciationRateRangeStart" xlink:label="rj-i_PropertyPlantEquipmentDepreciationRateRangeStart_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PropertyPlantEquipmentDepreciationRateRangeEnd" xlink:label="rj-i_PropertyPlantEquipmentDepreciationRateRangeEnd_loc" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PropertyPlantEquipmentCostPrice_loc" order="1" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_loc" order="2" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentAccumulatedRevaluations_loc" order="3" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipment_loc" order="4" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentAdditions_loc" order="5" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentDisposals_loc" order="6" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentDisposalsDepreciation_loc" order="7" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentRevaluations_loc" order="8" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentDepreciation_loc" order="9" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentImpairments_loc" order="10" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentImpairmentsReversal_loc" order="11" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PropertyPlantEquipmentAcquisitionsThroughBusinessCombinations_loc" order="12" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PropertyPlantEquipmentDisposalsThroughBusinessDivestitures_loc" order="13" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PropertyPlantEquipmentExchangeDifferences_loc" order="14" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentTransfers_loc" order="15" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentMovementsOther_loc" order="16" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_PropertyPlantEquipmentMovement_loc" order="17" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PropertyPlantEquipmentEconomicLife_loc" order="18" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PropertyPlantEquipmentDepreciationRate_loc" order="19" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PropertyPlantEquipmentDepreciationRateRangeStart_loc" order="20" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PropertyPlantEquipmentDepreciationRateRangeEnd_loc" order="21" xlink:type="arc"/>
+  </link:definitionLink>
+</link:linkbase>

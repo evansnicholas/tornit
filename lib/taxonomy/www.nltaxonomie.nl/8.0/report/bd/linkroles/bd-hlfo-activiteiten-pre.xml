@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_hlfo-activiteiten" roleURI="urn:bd:linkrole:bd-lr-pre_hlfo-activiteiten" xlink:type="simple"/>
+    <link:presentationLink xlink:role="urn:bd:linkrole:bd-lr-pre_hlfo-activiteiten" xlink:type="extended">
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle" xlink:label="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FinancialServicesWithinGroupNoRealPresenceExists" xlink:label="bd-bedr_FinancialServicesWithinGroupNoRealPresenceExists_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_FinancialServicesWithinGroupNoRealPresenceExists_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="14" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FinancialServicesWithinGroupNoRealRisksExists" xlink:label="bd-bedr_FinancialServicesWithinGroupNoRealRisksExists_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_FinancialServicesWithinGroupNoRealRisksExists_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="15" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BalanceProfitModelB" xlink:label="bd-bedr_BalanceProfitModelB_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_BalanceProfitModelB_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="13" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BalanceProfitOnHoldingActivitiesComparisonMethod" xlink:label="bd-bedr_BalanceProfitOnHoldingActivitiesComparisonMethod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_BalanceProfitOnHoldingActivitiesComparisonMethod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="9" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BalanceProfitOnLicencingActivitiesComparisonMethod" xlink:label="bd-bedr_BalanceProfitOnLicencingActivitiesComparisonMethod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_BalanceProfitOnLicencingActivitiesComparisonMethod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="10" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BalanceProfitOnFinancingActivitiesComparisonMethod" xlink:label="bd-bedr_BalanceProfitOnFinancingActivitiesComparisonMethod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_BalanceProfitOnFinancingActivitiesComparisonMethod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="11" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BalanceProfitOnOtherActivitiesComparisonMethod" xlink:label="bd-bedr_BalanceProfitOnOtherActivitiesComparisonMethod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_BalanceProfitOnOtherActivitiesComparisonMethod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="12" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_HoldingActivitiesCosts" xlink:label="bd-bedr_HoldingActivitiesCosts_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_HoldingActivitiesCosts_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FinancingActivitiesCosts" xlink:label="bd-bedr_FinancingActivitiesCosts_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_FinancingActivitiesCosts_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LicencingActivitiesCosts" xlink:label="bd-bedr_LicencingActivitiesCosts_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_LicencingActivitiesCosts_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ActivitiesOtherCosts" xlink:label="bd-bedr_ActivitiesOtherCosts_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_ActivitiesOtherCosts_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FinancingActivitiesRevenues" xlink:label="bd-bedr_FinancingActivitiesRevenues_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_FinancingActivitiesRevenues_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_HoldingActivitiesRevenues" xlink:label="bd-bedr_HoldingActivitiesRevenues_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_HoldingActivitiesRevenues_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LicencingActivitiesRevenues" xlink:label="bd-bedr_LicencingActivitiesRevenues_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_LicencingActivitiesRevenues_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_OtherActivitiesRevenues" xlink:label="bd-bedr_OtherActivitiesRevenues_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_HoldingAndLicencingAndFinancingAndOtherActivitiesTitle_loc" xlink:to="bd-bedr_OtherActivitiesRevenues_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+    </link:presentationLink>
+</link:linkbase>

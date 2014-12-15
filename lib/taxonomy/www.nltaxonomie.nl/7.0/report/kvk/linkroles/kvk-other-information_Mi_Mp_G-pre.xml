@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/other-information" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_OtherInformation" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/other-information" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_InformationOtherTitle" xlink:label="kvk-abstr_InformationOtherTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ProvisionsArticlesAssociationContributionShortageCooperativeTitle" xlink:label="kvk-abstr_ProvisionsArticlesAssociationContributionShortageCooperativeTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProvisionsArticlesAssociationContributionShortageCooperative" xlink:label="kvk-i_ProvisionsArticlesAssociationContributionShortageCooperative_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_InformationOtherTitle_loc" xlink:to="kvk-abstr_ProvisionsArticlesAssociationContributionShortageCooperativeTitle_loc" xlink:type="arc" order="10"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ProvisionsArticlesAssociationContributionShortageCooperativeTitle_loc" xlink:to="kvk-i_ProvisionsArticlesAssociationContributionShortageCooperative_loc" xlink:type="arc" order="11"/>
+  </link:presentationLink>
+</link:linkbase>

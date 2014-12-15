@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Wed May 15 16:00:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_AED" xlink:label="iso-4217_AED_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_AFN" xlink:label="iso-4217_AFN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_ALL" xlink:label="iso-4217_ALL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_AMD" xlink:label="iso-4217_AMD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_AOA" xlink:label="iso-4217_AOA_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_ARS" xlink:label="iso-4217_ARS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_AUD" xlink:label="iso-4217_AUD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_AWG" xlink:label="iso-4217_AWG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_AZN" xlink:label="iso-4217_AZN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BAM" xlink:label="iso-4217_BAM_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BBD" xlink:label="iso-4217_BBD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BDT" xlink:label="iso-4217_BDT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BGN" xlink:label="iso-4217_BGN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BHD" xlink:label="iso-4217_BHD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BIF" xlink:label="iso-4217_BIF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BMD" xlink:label="iso-4217_BMD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BND" xlink:label="iso-4217_BND_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BOB" xlink:label="iso-4217_BOB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BOV" xlink:label="iso-4217_BOV_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BRL" xlink:label="iso-4217_BRL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BSD" xlink:label="iso-4217_BSD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BTN" xlink:label="iso-4217_BTN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BWP" xlink:label="iso-4217_BWP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BYR" xlink:label="iso-4217_BYR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_BZD" xlink:label="iso-4217_BZD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CAD" xlink:label="iso-4217_CAD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CDF" xlink:label="iso-4217_CDF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CHE" xlink:label="iso-4217_CHE_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CHF" xlink:label="iso-4217_CHF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CHW" xlink:label="iso-4217_CHW_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CLF" xlink:label="iso-4217_CLF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CLP" xlink:label="iso-4217_CLP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CNY" xlink:label="iso-4217_CNY_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_COP" xlink:label="iso-4217_COP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_COU" xlink:label="iso-4217_COU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CRC" xlink:label="iso-4217_CRC_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CUC" xlink:label="iso-4217_CUC_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CUP" xlink:label="iso-4217_CUP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CVE" xlink:label="iso-4217_CVE_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_CZK" xlink:label="iso-4217_CZK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_DJF" xlink:label="iso-4217_DJF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_DKK" xlink:label="iso-4217_DKK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_DOP" xlink:label="iso-4217_DOP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_DZD" xlink:label="iso-4217_DZD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_EGP" xlink:label="iso-4217_EGP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_ERN" xlink:label="iso-4217_ERN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_ETB" xlink:label="iso-4217_ETB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_EUR" xlink:label="iso-4217_EUR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_FJD" xlink:label="iso-4217_FJD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_FKP" xlink:label="iso-4217_FKP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_GBP" xlink:label="iso-4217_GBP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_GEL" xlink:label="iso-4217_GEL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_GHS" xlink:label="iso-4217_GHS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_GIP" xlink:label="iso-4217_GIP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_GMD" xlink:label="iso-4217_GMD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_GNF" xlink:label="iso-4217_GNF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_GTQ" xlink:label="iso-4217_GTQ_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_GYD" xlink:label="iso-4217_GYD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_HKD" xlink:label="iso-4217_HKD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_HNL" xlink:label="iso-4217_HNL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_HRK" xlink:label="iso-4217_HRK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_HTG" xlink:label="iso-4217_HTG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_HUF" xlink:label="iso-4217_HUF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_IDR" xlink:label="iso-4217_IDR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_ILS" xlink:label="iso-4217_ILS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_INR" xlink:label="iso-4217_INR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_IQD" xlink:label="iso-4217_IQD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_IRR" xlink:label="iso-4217_IRR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_ISK" xlink:label="iso-4217_ISK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_JMD" xlink:label="iso-4217_JMD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_JOD" xlink:label="iso-4217_JOD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_JPY" xlink:label="iso-4217_JPY_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_KES" xlink:label="iso-4217_KES_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_KGS" xlink:label="iso-4217_KGS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_KHR" xlink:label="iso-4217_KHR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_KMF" xlink:label="iso-4217_KMF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_KPW" xlink:label="iso-4217_KPW_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_KRW" xlink:label="iso-4217_KRW_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_KWD" xlink:label="iso-4217_KWD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_KYD" xlink:label="iso-4217_KYD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_KZT" xlink:label="iso-4217_KZT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_LAK" xlink:label="iso-4217_LAK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_LBP" xlink:label="iso-4217_LBP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_LKR" xlink:label="iso-4217_LKR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_LRD" xlink:label="iso-4217_LRD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_LSL" xlink:label="iso-4217_LSL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_LTL" xlink:label="iso-4217_LTL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_LVL" xlink:label="iso-4217_LVL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_LYD" xlink:label="iso-4217_LYD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MAD" xlink:label="iso-4217_MAD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MDL" xlink:label="iso-4217_MDL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MGA" xlink:label="iso-4217_MGA_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MKD" xlink:label="iso-4217_MKD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MMK" xlink:label="iso-4217_MMK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MNT" xlink:label="iso-4217_MNT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MOP" xlink:label="iso-4217_MOP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MRO" xlink:label="iso-4217_MRO_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MUR" xlink:label="iso-4217_MUR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MVR" xlink:label="iso-4217_MVR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MWK" xlink:label="iso-4217_MWK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MXN" xlink:label="iso-4217_MXN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MXV" xlink:label="iso-4217_MXV_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MYR" xlink:label="iso-4217_MYR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_MZN" xlink:label="iso-4217_MZN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_NAD" xlink:label="iso-4217_NAD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_NGN" xlink:label="iso-4217_NGN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_NIO" xlink:label="iso-4217_NIO_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_NOK" xlink:label="iso-4217_NOK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_NPR" xlink:label="iso-4217_NPR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_NZD" xlink:label="iso-4217_NZD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_OMR" xlink:label="iso-4217_OMR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_PAB" xlink:label="iso-4217_PAB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_PEN" xlink:label="iso-4217_PEN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_PGK" xlink:label="iso-4217_PGK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_PHP" xlink:label="iso-4217_PHP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_PKR" xlink:label="iso-4217_PKR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_PLN" xlink:label="iso-4217_PLN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_PYG" xlink:label="iso-4217_PYG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_QAR" xlink:label="iso-4217_QAR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_RON" xlink:label="iso-4217_RON_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_RSD" xlink:label="iso-4217_RSD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_RUB" xlink:label="iso-4217_RUB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_RWF" xlink:label="iso-4217_RWF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SAR" xlink:label="iso-4217_SAR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SBD" xlink:label="iso-4217_SBD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SCR" xlink:label="iso-4217_SCR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SDG" xlink:label="iso-4217_SDG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SEK" xlink:label="iso-4217_SEK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SGD" xlink:label="iso-4217_SGD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SHP" xlink:label="iso-4217_SHP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SLL" xlink:label="iso-4217_SLL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SOS" xlink:label="iso-4217_SOS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SRD" xlink:label="iso-4217_SRD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_STD" xlink:label="iso-4217_STD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SVC" xlink:label="iso-4217_SVC_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SYP" xlink:label="iso-4217_SYP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_SZL" xlink:label="iso-4217_SZL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_THB" xlink:label="iso-4217_THB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_TJS" xlink:label="iso-4217_TJS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_TMT" xlink:label="iso-4217_TMT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_TND" xlink:label="iso-4217_TND_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_TOP" xlink:label="iso-4217_TOP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_TRY" xlink:label="iso-4217_TRY_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_TTD" xlink:label="iso-4217_TTD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_TWD" xlink:label="iso-4217_TWD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_TZS" xlink:label="iso-4217_TZS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_UAH" xlink:label="iso-4217_UAH_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_UGX" xlink:label="iso-4217_UGX_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_USD" xlink:label="iso-4217_USD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_USN" xlink:label="iso-4217_USN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_USS" xlink:label="iso-4217_USS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_UYI" xlink:label="iso-4217_UYI_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_UYU" xlink:label="iso-4217_UYU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_UZS" xlink:label="iso-4217_UZS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_VEF" xlink:label="iso-4217_VEF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_VND" xlink:label="iso-4217_VND_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_VUV" xlink:label="iso-4217_VUV_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_WST" xlink:label="iso-4217_WST_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XAF" xlink:label="iso-4217_XAF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XAG" xlink:label="iso-4217_XAG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XAU" xlink:label="iso-4217_XAU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XBA" xlink:label="iso-4217_XBA_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XBB" xlink:label="iso-4217_XBB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XBC" xlink:label="iso-4217_XBC_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XBD" xlink:label="iso-4217_XBD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XCD" xlink:label="iso-4217_XCD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XDR" xlink:label="iso-4217_XDR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XFU" xlink:label="iso-4217_XFU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XOF" xlink:label="iso-4217_XOF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XPD" xlink:label="iso-4217_XPD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XPF" xlink:label="iso-4217_XPF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XPT" xlink:label="iso-4217_XPT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XSU" xlink:label="iso-4217_XSU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XTS" xlink:label="iso-4217_XTS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XUA" xlink:label="iso-4217_XUA_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_XXX" xlink:label="iso-4217_XXX_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_YER" xlink:label="iso-4217_YER_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_ZAR" xlink:label="iso-4217_ZAR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_ZMK" xlink:label="iso-4217_ZMK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_ZWL" xlink:label="iso-4217_ZWL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2013-04.xsd#iso-4217_IsoCurrencyCodesDomain" xlink:label="iso-4217_IsoCurrencyCodesDomain_loc" />
+	<link:label xlink:type="resource" xlink:label="iso-4217_AED_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_AED_label_nl" >VAE Dirham [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_AFN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_AFN_label_nl" >Afghani [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_ALL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_ALL_label_nl" >Albanese Lek [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_AMD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_AMD_label_nl" >Armeense Dram [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_AOA_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_AOA_label_nl" >Angoleense Kwanza [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_ARS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_ARS_label_nl" >Argentijnse Peso [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_AUD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_AUD_label_nl" >Australische Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_AWG_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_AWG_label_nl" >Arubaanse Gulden [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_AZN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_AZN_label_nl" >Azerbeidjaanse Manat [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BAM_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BAM_label_nl" >Converteerbare Mark [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BBD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BBD_label_nl" >Barbados Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BDT_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BDT_label_nl" >Bengalese Taka [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BGN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BGN_label_nl" >Bulgaarse Lev [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BHD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BHD_label_nl" >Bahreinse Dinar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BIF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BIF_label_nl" >Burundese Frank [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BMD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BMD_label_nl" >Bermuda Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BND_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BND_label_nl" >Brunei Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BOB_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BOB_label_nl" >Boliviano [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BOV_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BOV_label_nl" >Boliviaanse Mvdol [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BRL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BRL_label_nl" >Braziliaanse Real [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BSD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BSD_label_nl" >Bahama Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BTN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BTN_label_nl" >Bhutaanse Ngultrum [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BWP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BWP_label_nl" >Botswaanse Pula [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BYR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BYR_label_nl" >Belarusse Roebel [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_BZD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_BZD_label_nl" >Belize Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CAD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CAD_label_nl" >Canadese Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CDF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CDF_label_nl" >Kongolese Frank [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CHE_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CHE_label_nl" >WIR Euro [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CHF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CHF_label_nl" >Zwitserse Frank [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CHW_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CHW_label_nl" >WIR Franc [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CLF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CLF_label_nl" >Unidad de Fomento [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CLP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CLP_label_nl" >Chileense Peso [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CNY_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CNY_label_nl" >Yuan Renminbi [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_COP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_COP_label_nl" >Columbiaanse Peso [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_COU_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_COU_label_nl" >Unidad de Valor Real [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CRC_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CRC_label_nl" >Costa Rica Colon [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CUC_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CUC_label_nl" >Converteerbare Peso [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CUP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CUP_label_nl" >Cubaanse Peso [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CVE_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CVE_label_nl" >Kaap-Verdiaanse Escudo [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_CZK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_CZK_label_nl" >Tjechiese Korun [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_DJF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_DJF_label_nl" >Djibouti Frank [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_DKK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_DKK_label_nl" >Deense Kroon [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_DOP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_DOP_label_nl" >Dominicaanse Peso [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_DZD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_DZD_label_nl" >Algerijnse Dinar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_EGP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_EGP_label_nl" >Egyptische Pond [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_ERN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_ERN_label_nl" >Eritrese Nakfa [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_ETB_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_ETB_label_nl" >Ethiopische Birr [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_EUR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_EUR_label_nl" >Euro [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_FJD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_FJD_label_nl" >Fiji Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_FKP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_FKP_label_nl" >Falkland Eiland Pond [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_GBP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_GBP_label_nl" >Pond Sterling [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_GEL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_GEL_label_nl" >Georgische Lari [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_GHS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_GHS_label_nl" >Ghanese Cedi [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_GIP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_GIP_label_nl" >Gibraltar Pond [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_GMD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_GMD_label_nl" >Gambiaanse Dalasi [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_GNF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_GNF_label_nl" >Guinea Frank [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_GTQ_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_GTQ_label_nl" >Guatemalaanse Quetzal [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_GYD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_GYD_label_nl" >Guyana Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_HKD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_HKD_label_nl" >Hong Kong Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_HNL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_HNL_label_nl" >Hondurese Lempira [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_HRK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_HRK_label_nl" >Kroatische Kuna [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_HTG_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_HTG_label_nl" >Haïtiaanse Gourde [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_HUF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_HUF_label_nl" >Hongaarse Forint [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_IDR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_IDR_label_nl" >Indonesische Rupiah [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_ILS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_ILS_label_nl" >Israelische Nieuwe Sheqel [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_INR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_INR_label_nl" >Indiasche Rupee [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_IQD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_IQD_label_nl" >Iraakse Dinar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_IRR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_IRR_label_nl" >Iraanse Rial [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_ISK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_ISK_label_nl" >IJslandse Kroon [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_JMD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_JMD_label_nl" >Jamaica Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_JOD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_JOD_label_nl" >Jordaanse Dinar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_JPY_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_JPY_label_nl" >Japanse Yen [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_KES_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_KES_label_nl" >Keniaanse Shilling [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_KGS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_KGS_label_nl" >Kirgizische Som [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_KHR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_KHR_label_nl" >Cambodjaanse Riel [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_KMF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_KMF_label_nl" >Comoren Frank [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_KPW_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_KPW_label_nl" >Noord Koreaanse Won [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_KRW_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_KRW_label_nl" >Zuid-Koreaanse Won [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_KWD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_KWD_label_nl" >Kuweitse Dinar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_KYD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_KYD_label_nl" >Kaaiman-eilanden Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_KZT_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_KZT_label_nl" >Kazachse Tenge [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_LAK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_LAK_label_nl" >Laotiaanse Kip [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_LBP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_LBP_label_nl" >Libanese Pond [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_LKR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_LKR_label_nl" >Sri Lankaanse Rupee [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_LRD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_LRD_label_nl" >Liberia Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_LSL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_LSL_label_nl" >Lesothaanse Loti [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_LTL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_LTL_label_nl" >Lithuanian Litas [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_LVL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_LVL_label_nl" >Letse Lats [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_LYD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_LYD_label_nl" >Libische Dinar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MAD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MAD_label_nl" >Marokaanse Dirham [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MDL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MDL_label_nl" >Moldaavse Leu [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MGA_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MGA_label_nl" >Madagascer Ariary [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MKD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MKD_label_nl" >Macedonische Denar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MMK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MMK_label_nl" >Myanmarese Kyat [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MNT_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MNT_label_nl" >Mongolische Tugrik [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MOP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MOP_label_nl" >Macause Pataca [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MRO_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MRO_label_nl" >Mauritaanse Ouguiya [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MUR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MUR_label_nl" >Mauritius Rupee [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MVR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MVR_label_nl" >Maldivische Rufiyaa [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MWK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MWK_label_nl" >Malawische Kwacha [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MXN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MXN_label_nl" >Mexicaanse Peso [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MXV_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MXV_label_nl" >Mexicaanse Unidad de Inversion (UDI) [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MYR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MYR_label_nl" >Maleisische Ringgit [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_MZN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_MZN_label_nl" >Metical [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_NAD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_NAD_label_nl" >Namibië Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_NGN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_NGN_label_nl" >Nigeriaanse Naira [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_NIO_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_NIO_label_nl" >Cordoba Oro [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_NOK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_NOK_label_nl" >Noorse Kroon [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_NPR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_NPR_label_nl" >Nepalese Rupee [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_NZD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_NZD_label_nl" >Nieuw Zeeland Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_OMR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_OMR_label_nl" >Omaanse Rial [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_PAB_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_PAB_label_nl" >Panamese Balboa [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_PEN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_PEN_label_nl" >Nieuwe Peruviaanse Sol [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_PGK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_PGK_label_nl" >Papoease Kina [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_PHP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_PHP_label_nl" >Philippijnse Peso [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_PKR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_PKR_label_nl" >Pakistaanse Rupee [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_PLN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_PLN_label_nl" >Poolse Zloty [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_PYG_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_PYG_label_nl" >Paraguayaanse Guaraní [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_QAR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_QAR_label_nl" >Quatariaanse Rial [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_RON_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_RON_label_nl" >Roemeense Leu [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_RSD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_RSD_label_nl" >Servië Dinar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_RUB_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_RUB_label_nl" >Russische Roebel [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_RWF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_RWF_label_nl" >Rwandese Frank [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SAR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SAR_label_nl" >Saudische Riyal [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SBD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SBD_label_nl" >Solomon Eilanden Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SCR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SCR_label_nl" >Seychelles Rupee [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SDG_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SDG_label_nl" >Sudanese Pond [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SEK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SEK_label_nl" >Zweedse Kroon [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SGD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SGD_label_nl" >Singapore Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SHP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SHP_label_nl" >Saint Helena Pond [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SLL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SLL_label_nl" >Sierra Leoonse Leone [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SOS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SOS_label_nl" >Somali Shilling [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SRD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SRD_label_nl" >Surinaamse Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_STD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_STD_label_nl" >Santomese Dobra [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SVC_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SVC_label_nl" >El Salvadoraanse Colon [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SYP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SYP_label_nl" >Syrische Pond [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_SZL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_SZL_label_nl" >Swazische Lilangeni [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_THB_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_THB_label_nl" >Thaise Baht [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_TJS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_TJS_label_nl" >Tadzjiekse Somoni [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_TMT_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_TMT_label_nl" >Nieuwe Turkmeense Manat [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_TND_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_TND_label_nl" >Tunisische Dinar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_TOP_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_TOP_label_nl" >Tongaanse Pa'anga [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_TRY_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_TRY_label_nl" >Turkse Lira [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_TTD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_TTD_label_nl" >Trinidad en Tobago Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_TWD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_TWD_label_nl" >Nieuwe Taiwan Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_TZS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_TZS_label_nl" >Tanzanië Shilling [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_UAH_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_UAH_label_nl" >Oekraïense grivna [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_UGX_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_UGX_label_nl" >Uganda Shilling [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_USD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_USD_label_nl" >US Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_USN_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_USN_label_nl" >Amerikaanse dollar (volgende dag) (aandelen) [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_USS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_USS_label_nl" >Amerikaanse dollar (Zelfde dag) (aandelen) [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_UYI_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_UYI_label_nl" >Uruguaanse Peso in Unidades Indexadas (URUIURUI) [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_UYU_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_UYU_label_nl" >Uruguaanse Peso [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_UZS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_UZS_label_nl" >Uzbekistan Sum [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_VEF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_VEF_label_nl" >Venezolaanse Bolivar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_VND_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_VND_label_nl" >Vietnamese Dong [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_VUV_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_VUV_label_nl" >Vanuatuaanse Vatu [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_WST_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_WST_label_nl" >Samoaanse Tala [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XAF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XAF_label_nl" >CFA Frank BEAC [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XAG_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XAG_label_nl" >Zilver [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XAU_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XAU_label_nl" >Goud [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XBA_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XBA_label_nl" >Aandelenmarkt eenheid European Composite Unit (EURCO) [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XBB_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XBB_label_nl" >Aandelenmarkt eenheid European Monetary Unit (E.M.U.-6) [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XBC_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XBC_label_nl" >Aandelenmarkt eenheid European Unit of Account 9 (E.U.A.-9) [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XBD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XBD_label_nl" >Aandelenmarkt eenheid European Unit of Account 17 (E.U.A.-17) [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XCD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XCD_label_nl" >Oost Caribbische Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XDR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XDR_label_nl" >SDR (Speciale trekkingsrechten) [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XFU_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XFU_label_nl" >UIC-Franc [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XOF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XOF_label_nl" >CFA Frank BCEAO [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XPD_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XPD_label_nl" >Palladium [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XPF_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XPF_label_nl" >CFP Frank [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XPT_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XPT_label_nl" >Platinum [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XSU_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XSU_label_nl" >Suiker [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XTS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XTS_label_nl" >Gereserveerde code voor test doeleinden [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XUA_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XUA_label_nl" >ADB eenheid van verrekening [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_XXX_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_XXX_label_nl" >Geen munt [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_YER_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_YER_label_nl" >Yemen Rial [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_ZAR_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_ZAR_label_nl" >Zuid-Afrikaanse Rand [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_ZMK_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_ZMK_label_nl" >Zambië Kwacha [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_ZWL_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_ZWL_label_nl" >Zimbabwe Dollar [member]</link:label>
+	<link:label xlink:type="resource" xlink:label="iso-4217_IsoCurrencyCodesDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="iso-4217_IsoCurrencyCodesDomain_label_nl" >ISO Valuatecodes [member]</link:label>
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_AED_loc" xlink:to="iso-4217_AED_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_AFN_loc" xlink:to="iso-4217_AFN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_ALL_loc" xlink:to="iso-4217_ALL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_AMD_loc" xlink:to="iso-4217_AMD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_AOA_loc" xlink:to="iso-4217_AOA_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_ARS_loc" xlink:to="iso-4217_ARS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_AUD_loc" xlink:to="iso-4217_AUD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_AWG_loc" xlink:to="iso-4217_AWG_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_AZN_loc" xlink:to="iso-4217_AZN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BAM_loc" xlink:to="iso-4217_BAM_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BBD_loc" xlink:to="iso-4217_BBD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BDT_loc" xlink:to="iso-4217_BDT_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BGN_loc" xlink:to="iso-4217_BGN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BHD_loc" xlink:to="iso-4217_BHD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BIF_loc" xlink:to="iso-4217_BIF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BMD_loc" xlink:to="iso-4217_BMD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BND_loc" xlink:to="iso-4217_BND_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BOB_loc" xlink:to="iso-4217_BOB_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BOV_loc" xlink:to="iso-4217_BOV_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BRL_loc" xlink:to="iso-4217_BRL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BSD_loc" xlink:to="iso-4217_BSD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BTN_loc" xlink:to="iso-4217_BTN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BWP_loc" xlink:to="iso-4217_BWP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BYR_loc" xlink:to="iso-4217_BYR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_BZD_loc" xlink:to="iso-4217_BZD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CAD_loc" xlink:to="iso-4217_CAD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CDF_loc" xlink:to="iso-4217_CDF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CHE_loc" xlink:to="iso-4217_CHE_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CHF_loc" xlink:to="iso-4217_CHF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CHW_loc" xlink:to="iso-4217_CHW_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CLF_loc" xlink:to="iso-4217_CLF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CLP_loc" xlink:to="iso-4217_CLP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CNY_loc" xlink:to="iso-4217_CNY_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_COP_loc" xlink:to="iso-4217_COP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_COU_loc" xlink:to="iso-4217_COU_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CRC_loc" xlink:to="iso-4217_CRC_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CUC_loc" xlink:to="iso-4217_CUC_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CUP_loc" xlink:to="iso-4217_CUP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CVE_loc" xlink:to="iso-4217_CVE_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_CZK_loc" xlink:to="iso-4217_CZK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_DJF_loc" xlink:to="iso-4217_DJF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_DKK_loc" xlink:to="iso-4217_DKK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_DOP_loc" xlink:to="iso-4217_DOP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_DZD_loc" xlink:to="iso-4217_DZD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_EGP_loc" xlink:to="iso-4217_EGP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_ERN_loc" xlink:to="iso-4217_ERN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_ETB_loc" xlink:to="iso-4217_ETB_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_EUR_loc" xlink:to="iso-4217_EUR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_FJD_loc" xlink:to="iso-4217_FJD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_FKP_loc" xlink:to="iso-4217_FKP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_GBP_loc" xlink:to="iso-4217_GBP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_GEL_loc" xlink:to="iso-4217_GEL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_GHS_loc" xlink:to="iso-4217_GHS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_GIP_loc" xlink:to="iso-4217_GIP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_GMD_loc" xlink:to="iso-4217_GMD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_GNF_loc" xlink:to="iso-4217_GNF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_GTQ_loc" xlink:to="iso-4217_GTQ_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_GYD_loc" xlink:to="iso-4217_GYD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_HKD_loc" xlink:to="iso-4217_HKD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_HNL_loc" xlink:to="iso-4217_HNL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_HRK_loc" xlink:to="iso-4217_HRK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_HTG_loc" xlink:to="iso-4217_HTG_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_HUF_loc" xlink:to="iso-4217_HUF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_IDR_loc" xlink:to="iso-4217_IDR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_ILS_loc" xlink:to="iso-4217_ILS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_INR_loc" xlink:to="iso-4217_INR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_IQD_loc" xlink:to="iso-4217_IQD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_IRR_loc" xlink:to="iso-4217_IRR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_ISK_loc" xlink:to="iso-4217_ISK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_JMD_loc" xlink:to="iso-4217_JMD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_JOD_loc" xlink:to="iso-4217_JOD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_JPY_loc" xlink:to="iso-4217_JPY_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_KES_loc" xlink:to="iso-4217_KES_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_KGS_loc" xlink:to="iso-4217_KGS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_KHR_loc" xlink:to="iso-4217_KHR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_KMF_loc" xlink:to="iso-4217_KMF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_KPW_loc" xlink:to="iso-4217_KPW_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_KRW_loc" xlink:to="iso-4217_KRW_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_KWD_loc" xlink:to="iso-4217_KWD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_KYD_loc" xlink:to="iso-4217_KYD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_KZT_loc" xlink:to="iso-4217_KZT_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_LAK_loc" xlink:to="iso-4217_LAK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_LBP_loc" xlink:to="iso-4217_LBP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_LKR_loc" xlink:to="iso-4217_LKR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_LRD_loc" xlink:to="iso-4217_LRD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_LSL_loc" xlink:to="iso-4217_LSL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_LTL_loc" xlink:to="iso-4217_LTL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_LVL_loc" xlink:to="iso-4217_LVL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_LYD_loc" xlink:to="iso-4217_LYD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MAD_loc" xlink:to="iso-4217_MAD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MDL_loc" xlink:to="iso-4217_MDL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MGA_loc" xlink:to="iso-4217_MGA_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MKD_loc" xlink:to="iso-4217_MKD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MMK_loc" xlink:to="iso-4217_MMK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MNT_loc" xlink:to="iso-4217_MNT_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MOP_loc" xlink:to="iso-4217_MOP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MRO_loc" xlink:to="iso-4217_MRO_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MUR_loc" xlink:to="iso-4217_MUR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MVR_loc" xlink:to="iso-4217_MVR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MWK_loc" xlink:to="iso-4217_MWK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MXN_loc" xlink:to="iso-4217_MXN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MXV_loc" xlink:to="iso-4217_MXV_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MYR_loc" xlink:to="iso-4217_MYR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_MZN_loc" xlink:to="iso-4217_MZN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_NAD_loc" xlink:to="iso-4217_NAD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_NGN_loc" xlink:to="iso-4217_NGN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_NIO_loc" xlink:to="iso-4217_NIO_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_NOK_loc" xlink:to="iso-4217_NOK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_NPR_loc" xlink:to="iso-4217_NPR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_NZD_loc" xlink:to="iso-4217_NZD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_OMR_loc" xlink:to="iso-4217_OMR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_PAB_loc" xlink:to="iso-4217_PAB_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_PEN_loc" xlink:to="iso-4217_PEN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_PGK_loc" xlink:to="iso-4217_PGK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_PHP_loc" xlink:to="iso-4217_PHP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_PKR_loc" xlink:to="iso-4217_PKR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_PLN_loc" xlink:to="iso-4217_PLN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_PYG_loc" xlink:to="iso-4217_PYG_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_QAR_loc" xlink:to="iso-4217_QAR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_RON_loc" xlink:to="iso-4217_RON_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_RSD_loc" xlink:to="iso-4217_RSD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_RUB_loc" xlink:to="iso-4217_RUB_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_RWF_loc" xlink:to="iso-4217_RWF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SAR_loc" xlink:to="iso-4217_SAR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SBD_loc" xlink:to="iso-4217_SBD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SCR_loc" xlink:to="iso-4217_SCR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SDG_loc" xlink:to="iso-4217_SDG_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SEK_loc" xlink:to="iso-4217_SEK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SGD_loc" xlink:to="iso-4217_SGD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SHP_loc" xlink:to="iso-4217_SHP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SLL_loc" xlink:to="iso-4217_SLL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SOS_loc" xlink:to="iso-4217_SOS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SRD_loc" xlink:to="iso-4217_SRD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_STD_loc" xlink:to="iso-4217_STD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SVC_loc" xlink:to="iso-4217_SVC_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SYP_loc" xlink:to="iso-4217_SYP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_SZL_loc" xlink:to="iso-4217_SZL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_THB_loc" xlink:to="iso-4217_THB_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_TJS_loc" xlink:to="iso-4217_TJS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_TMT_loc" xlink:to="iso-4217_TMT_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_TND_loc" xlink:to="iso-4217_TND_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_TOP_loc" xlink:to="iso-4217_TOP_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_TRY_loc" xlink:to="iso-4217_TRY_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_TTD_loc" xlink:to="iso-4217_TTD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_TWD_loc" xlink:to="iso-4217_TWD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_TZS_loc" xlink:to="iso-4217_TZS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_UAH_loc" xlink:to="iso-4217_UAH_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_UGX_loc" xlink:to="iso-4217_UGX_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_USD_loc" xlink:to="iso-4217_USD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_USN_loc" xlink:to="iso-4217_USN_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_USS_loc" xlink:to="iso-4217_USS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_UYI_loc" xlink:to="iso-4217_UYI_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_UYU_loc" xlink:to="iso-4217_UYU_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_UZS_loc" xlink:to="iso-4217_UZS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_VEF_loc" xlink:to="iso-4217_VEF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_VND_loc" xlink:to="iso-4217_VND_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_VUV_loc" xlink:to="iso-4217_VUV_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_WST_loc" xlink:to="iso-4217_WST_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XAF_loc" xlink:to="iso-4217_XAF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XAG_loc" xlink:to="iso-4217_XAG_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XAU_loc" xlink:to="iso-4217_XAU_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XBA_loc" xlink:to="iso-4217_XBA_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XBB_loc" xlink:to="iso-4217_XBB_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XBC_loc" xlink:to="iso-4217_XBC_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XBD_loc" xlink:to="iso-4217_XBD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XCD_loc" xlink:to="iso-4217_XCD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XDR_loc" xlink:to="iso-4217_XDR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XFU_loc" xlink:to="iso-4217_XFU_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XOF_loc" xlink:to="iso-4217_XOF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XPD_loc" xlink:to="iso-4217_XPD_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XPF_loc" xlink:to="iso-4217_XPF_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XPT_loc" xlink:to="iso-4217_XPT_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XSU_loc" xlink:to="iso-4217_XSU_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XTS_loc" xlink:to="iso-4217_XTS_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XUA_loc" xlink:to="iso-4217_XUA_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_XXX_loc" xlink:to="iso-4217_XXX_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_YER_loc" xlink:to="iso-4217_YER_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_ZAR_loc" xlink:to="iso-4217_ZAR_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_ZMK_loc" xlink:to="iso-4217_ZMK_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_ZWL_loc" xlink:to="iso-4217_ZWL_label_nl" />
+	<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_IsoCurrencyCodesDomain_label_nl" />
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-is_investeringsstatistiek-2012_loc" xlink:to="rpt-cbs-is_investeringsstatistiek-2012_label-nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-ksb_kt-statistiek-bouw-2013_loc" xlink:to="rpt-cbs-ksb_kt-statistiek-bouw-2013_label-nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-ksh_kt-statistiek-handel-2013_loc" xlink:to="rpt-cbs-ksh_kt-statistiek-handel-2013_label-nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-ksi_kt-statistiek-ind-2013_loc" xlink:to="rpt-cbs-ksi_kt-statistiek-ind-2013_label-nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-kso_kt-statistiek-overig-2013_loc" xlink:to="rpt-cbs-kso_kt-statistiek-overig-2013_label-nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-psb_prod-statistiek-bouw-2012_loc" xlink:to="rpt-cbs-psb_prod-statistiek-bouw-2012_label-nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-psh_prod-statistiek-handel-2012_loc" xlink:to="rpt-cbs-psh_prod-statistiek-handel-2012_label-nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-psi_prod-statistiek-ind-2012_loc" xlink:to="rpt-cbs-psi_prod-statistiek-ind-2012_label-nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-pso_prod-statistiek-overig-2012_loc" xlink:to="rpt-cbs-pso_prod-statistiek-overig-2012_label-nl"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rpt-cbs-psz_prod-statistiek-zorg-2012_loc" xlink:to="rpt-cbs-psz_prod-statistiek-zorg-2012_label-nl"/>
+    <label:label xlink:type="resource" id="rpt-cbs-is_investeringsstatistiek-2012_label-nl" xlink:label="rpt-cbs-is_investeringsstatistiek-2012_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Statistiek van de Investeringen 2012</label:label>
+    <label:label xlink:type="resource" id="rpt-cbs-ksb_kt-statistiek-bouw-2013_label-nl" xlink:label="rpt-cbs-ksb_kt-statistiek-bouw-2013_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Kortetermijn statistiek voor de bouw 2013</label:label>
+    <label:label xlink:type="resource" id="rpt-cbs-ksh_kt-statistiek-handel-2013_label-nl" xlink:label="rpt-cbs-ksh_kt-statistiek-handel-2013_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Kortetermijn statistiek voor de handel 2013</label:label>
+    <label:label xlink:type="resource" id="rpt-cbs-ksi_kt-statistiek-ind-2013_label-nl" xlink:label="rpt-cbs-ksi_kt-statistiek-ind-2013_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Kortetermijn statistiek voor de industrie 2013</label:label>
+    <label:label xlink:type="resource" id="rpt-cbs-kso_kt-statistiek-overig-2013_label-nl" xlink:label="rpt-cbs-kso_kt-statistiek-overig-2013_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Kortetermijn statistiek overige 2013</label:label>
+    <label:label xlink:type="resource" id="rpt-cbs-psb_prod-statistiek-bouw-2012_label-nl" xlink:label="rpt-cbs-psb_prod-statistiek-bouw-2012_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Productiestatistiek bouw 2012</label:label>
+    <label:label xlink:type="resource" id="rpt-cbs-psh_prod-statistiek-handel-2012_label-nl" xlink:label="rpt-cbs-psh_prod-statistiek-handel-2012_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Productiestatistiek handel 2012</label:label>
+    <label:label xlink:type="resource" id="rpt-cbs-psi_prod-statistiek-ind-2012_label-nl" xlink:label="rpt-cbs-psi_prod-statistiek-ind-2012_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Productiestatistiek industrie 2012</label:label>
+    <label:label xlink:type="resource" id="rpt-cbs-pso_prod-statistiek-overig-2012_label-nl" xlink:label="rpt-cbs-pso_prod-statistiek-overig-2012_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Productiestatistiek overige 2012</label:label>
+    <label:label xlink:type="resource" id="rpt-cbs-psz_prod-statistiek-zorg-2012_label-nl" xlink:label="rpt-cbs-psz_prod-statistiek-zorg-2012_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Productiestatistiek zorg 2012</label:label>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-investeringsstatistiek-2012.xsd#rpt-cbs-is_investeringsstatistiek-2012" xlink:label="rpt-cbs-is_investeringsstatistiek-2012_loc"/>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-korte-termijn-statistiek-bouw-2013.xsd#rpt-cbs-ksb_kt-statistiek-bouw-2013" xlink:label="rpt-cbs-ksb_kt-statistiek-bouw-2013_loc"/>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-korte-termijn-statistiek-handel-2013.xsd#rpt-cbs-ksh_kt-statistiek-handel-2013" xlink:label="rpt-cbs-ksh_kt-statistiek-handel-2013_loc"/>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-korte-termijn-statistiek-industrie-2013.xsd#rpt-cbs-ksi_kt-statistiek-ind-2013" xlink:label="rpt-cbs-ksi_kt-statistiek-ind-2013_loc"/>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-korte-termijn-statistiek-overige-2013.xsd#rpt-cbs-kso_kt-statistiek-overig-2013" xlink:label="rpt-cbs-kso_kt-statistiek-overig-2013_loc"/>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-productiestatistiek-bouw-2012.xsd#rpt-cbs-psb_prod-statistiek-bouw-2012" xlink:label="rpt-cbs-psb_prod-statistiek-bouw-2012_loc"/>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-productiestatistiek-handel-2012.xsd#rpt-cbs-psh_prod-statistiek-handel-2012" xlink:label="rpt-cbs-psh_prod-statistiek-handel-2012_loc"/>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-productiestatistiek-industrie-2012.xsd#rpt-cbs-psi_prod-statistiek-ind-2012" xlink:label="rpt-cbs-psi_prod-statistiek-ind-2012_loc"/>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-productiestatistiek-overig-2012.xsd#rpt-cbs-pso_prod-statistiek-overig-2012" xlink:label="rpt-cbs-pso_prod-statistiek-overig-2012_loc"/>
+    <link:loc xlink:type="locator" xlink:href="rpt-cbs-productiestatistiek-zorg-2012.xsd#rpt-cbs-psz_prod-statistiek-zorg-2012" xlink:label="rpt-cbs-psz_prod-statistiek-zorg-2012_loc"/>
+  </gen:link>
+</link:linkbase>

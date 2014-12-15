@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd">
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple"/>
+    <gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_487" xlink:label="bd_ten_487_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_487_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_487">Oostenrijk</label:label>
+        <gen:arc xlink:from="bd_ten_487_loc" xlink:to="bd_ten_487_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_488" xlink:label="bd_ten_488_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_488_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_488">België</label:label>
+        <gen:arc xlink:from="bd_ten_488_loc" xlink:to="bd_ten_488_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_489" xlink:label="bd_ten_489_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_489_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_489">Cyprus</label:label>
+        <gen:arc xlink:from="bd_ten_489_loc" xlink:to="bd_ten_489_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_490" xlink:label="bd_ten_490_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_490_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_490">Tsjechië</label:label>
+        <gen:arc xlink:from="bd_ten_490_loc" xlink:to="bd_ten_490_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_491" xlink:label="bd_ten_491_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_491_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_491">Duitsland</label:label>
+        <gen:arc xlink:from="bd_ten_491_loc" xlink:to="bd_ten_491_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_492" xlink:label="bd_ten_492_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_492_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_492">Denemarken</label:label>
+        <gen:arc xlink:from="bd_ten_492_loc" xlink:to="bd_ten_492_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_493" xlink:label="bd_ten_493_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_493_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_493">Estland</label:label>
+        <gen:arc xlink:from="bd_ten_493_loc" xlink:to="bd_ten_493_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_494" xlink:label="bd_ten_494_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_494_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_494">Griekenland</label:label>
+        <gen:arc xlink:from="bd_ten_494_loc" xlink:to="bd_ten_494_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_495" xlink:label="bd_ten_495_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_495_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_495">Spanje</label:label>
+        <gen:arc xlink:from="bd_ten_495_loc" xlink:to="bd_ten_495_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_496" xlink:label="bd_ten_496_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_496_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_496">Finland</label:label>
+        <gen:arc xlink:from="bd_ten_496_loc" xlink:to="bd_ten_496_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_497" xlink:label="bd_ten_497_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_497_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_497">Frankrijk</label:label>
+        <gen:arc xlink:from="bd_ten_497_loc" xlink:to="bd_ten_497_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_498" xlink:label="bd_ten_498_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_498_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_498">Groot-Brittannië</label:label>
+        <gen:arc xlink:from="bd_ten_498_loc" xlink:to="bd_ten_498_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_499" xlink:label="bd_ten_499_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_499_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_499">Hongarije</label:label>
+        <gen:arc xlink:from="bd_ten_499_loc" xlink:to="bd_ten_499_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_500" xlink:label="bd_ten_500_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_500_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_500">Ierland</label:label>
+        <gen:arc xlink:from="bd_ten_500_loc" xlink:to="bd_ten_500_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_501" xlink:label="bd_ten_501_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_501_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_501">Italië</label:label>
+        <gen:arc xlink:from="bd_ten_501_loc" xlink:to="bd_ten_501_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_502" xlink:label="bd_ten_502_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_502_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_502">Litouwen</label:label>
+        <gen:arc xlink:from="bd_ten_502_loc" xlink:to="bd_ten_502_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_503" xlink:label="bd_ten_503_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_503_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_503">Luxemburg</label:label>
+        <gen:arc xlink:from="bd_ten_503_loc" xlink:to="bd_ten_503_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_504" xlink:label="bd_ten_504_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_504_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_504">Letland</label:label>
+        <gen:arc xlink:from="bd_ten_504_loc" xlink:to="bd_ten_504_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_505" xlink:label="bd_ten_505_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_505_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_505">Malta</label:label>
+        <gen:arc xlink:from="bd_ten_505_loc" xlink:to="bd_ten_505_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_506" xlink:label="bd_ten_506_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_506_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_506">Polen</label:label>
+        <gen:arc xlink:from="bd_ten_506_loc" xlink:to="bd_ten_506_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_507" xlink:label="bd_ten_507_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_507_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_507">Portugal</label:label>
+        <gen:arc xlink:from="bd_ten_507_loc" xlink:to="bd_ten_507_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_508" xlink:label="bd_ten_508_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_508_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_508">Zweden</label:label>
+        <gen:arc xlink:from="bd_ten_508_loc" xlink:to="bd_ten_508_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_509" xlink:label="bd_ten_509_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_509_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_509">Slovenië</label:label>
+        <gen:arc xlink:from="bd_ten_509_loc" xlink:to="bd_ten_509_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_510" xlink:label="bd_ten_510_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_510_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_510">Slowakije</label:label>
+        <gen:arc xlink:from="bd_ten_510_loc" xlink:to="bd_ten_510_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_1223" xlink:label="bd_ten_1223_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_1223_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_1223">Bulgarije</label:label>
+        <gen:arc xlink:from="bd_ten_1223_loc" xlink:to="bd_ten_1223_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_1224" xlink:label="bd_ten_1224_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_1224_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_1224">Roemenië</label:label>
+        <gen:arc xlink:from="bd_ten_1224_loc" xlink:to="bd_ten_1224_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2050" xlink:label="bd_ten_2050_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2050_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2050">Andorra</label:label>
+        <gen:arc xlink:from="bd_ten_2050_loc" xlink:to="bd_ten_2050_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2052" xlink:label="bd_ten_2052_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2052_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2052">Britse Maagdeneilanden</label:label>
+        <gen:arc xlink:from="bd_ten_2052_loc" xlink:to="bd_ten_2052_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2053" xlink:label="bd_ten_2053_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2053_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2053">Guernsey</label:label>
+        <gen:arc xlink:from="bd_ten_2053_loc" xlink:to="bd_ten_2053_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2054" xlink:label="bd_ten_2054_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2054_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2054">Isle of Man</label:label>
+        <gen:arc xlink:from="bd_ten_2054_loc" xlink:to="bd_ten_2054_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2055" xlink:label="bd_ten_2055_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2055_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2055">Jersey</label:label>
+        <gen:arc xlink:from="bd_ten_2055_loc" xlink:to="bd_ten_2055_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2056" xlink:label="bd_ten_2056_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2056_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2056">Liechtenstein</label:label>
+        <gen:arc xlink:from="bd_ten_2056_loc" xlink:to="bd_ten_2056_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2057" xlink:label="bd_ten_2057_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2057_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2057">Luxemburg</label:label>
+        <gen:arc xlink:from="bd_ten_2057_loc" xlink:to="bd_ten_2057_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2058" xlink:label="bd_ten_2058_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2058_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2058">Monaco</label:label>
+        <gen:arc xlink:from="bd_ten_2058_loc" xlink:to="bd_ten_2058_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2060" xlink:label="bd_ten_2060_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2060_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2060">Oostenrijk</label:label>
+        <gen:arc xlink:from="bd_ten_2060_loc" xlink:to="bd_ten_2060_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2061" xlink:label="bd_ten_2061_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2061_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2061">San Marino</label:label>
+        <gen:arc xlink:from="bd_ten_2061_loc" xlink:to="bd_ten_2061_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2062" xlink:label="bd_ten_2062_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2062_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2062">Turks- en Caicoseilanden</label:label>
+        <gen:arc xlink:from="bd_ten_2062_loc" xlink:to="bd_ten_2062_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2063" xlink:label="bd_ten_2063_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2063_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2063">Zwitserland</label:label>
+        <gen:arc xlink:from="bd_ten_2063_loc" xlink:to="bd_ten_2063_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2066" xlink:label="bd_ten_2066_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2066_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2066">IBPV Part - Binnenl.</label:label>
+        <gen:arc xlink:from="bd_ten_2066_loc" xlink:to="bd_ten_2066_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2067" xlink:label="bd_ten_2067_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2067_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2067">IBPV Winst-Binnenl.</label:label>
+        <gen:arc xlink:from="bd_ten_2067_loc" xlink:to="bd_ten_2067_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2069" xlink:label="bd_ten_2069_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2069_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2069">VPB binnenl</label:label>
+        <gen:arc xlink:from="bd_ten_2069_loc" xlink:to="bd_ten_2069_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2071" xlink:label="bd_ten_2071_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2071_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2071">IBPV Buitenl</label:label>
+        <gen:arc xlink:from="bd_ten_2071_loc" xlink:to="bd_ten_2071_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2097" xlink:label="bd_ten_2097_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2097_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2097">Nederland</label:label>
+        <gen:arc xlink:from="bd_ten_2097_loc" xlink:to="bd_ten_2097_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2098" xlink:label="bd_ten_2098_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2098_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2098">Leegstand bij verkoop</label:label>
+        <gen:arc xlink:from="bd_ten_2098_loc" xlink:to="bd_ten_2098_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2099" xlink:label="bd_ten_2099_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2099_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2099">Leegstand bij aankoop of aanbouw</label:label>
+        <gen:arc xlink:from="bd_ten_2099_loc" xlink:to="bd_ten_2099_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2100" xlink:label="bd_ten_2100_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2100_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2100">Echtscheiding</label:label>
+        <gen:arc xlink:from="bd_ten_2100_loc" xlink:to="bd_ten_2100_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2101" xlink:label="bd_ten_2101_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2101_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2101">Opname in AWBZ-instelling</label:label>
+        <gen:arc xlink:from="bd_ten_2101_loc" xlink:to="bd_ten_2101_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_2102" xlink:label="bd_ten_2102_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_2102_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_2102">Uitzending</label:label>
+        <gen:arc xlink:from="bd_ten_2102_loc" xlink:to="bd_ten_2102_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_3289" xlink:label="bd_ten_3289_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_3289_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_3289">CD-rom</label:label>
+        <gen:arc xlink:from="bd_ten_3289_loc" xlink:to="bd_ten_3289_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_3290" xlink:label="bd_ten_3290_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_3290_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_3290">Lijst op papier</label:label>
+        <gen:arc xlink:from="bd_ten_3290_loc" xlink:to="bd_ten_3290_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_3291" xlink:label="bd_ten_3291_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_3291_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_3291">VPB</label:label>
+        <gen:arc xlink:from="bd_ten_3291_loc" xlink:to="bd_ten_3291_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_3292" xlink:label="bd_ten_3292_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_3292_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_3292">IBPV</label:label>
+        <gen:arc xlink:from="bd_ten_3292_loc" xlink:to="bd_ten_3292_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4839" xlink:label="bd_ten_4839_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4839_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4839">Curacao</label:label>
+        <gen:arc xlink:from="bd_ten_4839_loc" xlink:to="bd_ten_4839_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4840" xlink:label="bd_ten_4840_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4840_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4840">Sint Maarten</label:label>
+        <gen:arc xlink:from="bd_ten_4840_loc" xlink:to="bd_ten_4840_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4841" xlink:label="bd_ten_4841_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4841_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4841">definitieve aanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4841_loc" xlink:to="bd_ten_4841_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4842" xlink:label="bd_ten_4842_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4842_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4842">definitieve aanslag ambsthalve</label:label>
+        <gen:arc xlink:from="bd_ten_4842_loc" xlink:to="bd_ten_4842_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4843" xlink:label="bd_ten_4843_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4843_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4843">navordering</label:label>
+        <gen:arc xlink:from="bd_ten_4843_loc" xlink:to="bd_ten_4843_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4844" xlink:label="bd_ten_4844_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4844_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4844">voorlopige aanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4844_loc" xlink:to="bd_ten_4844_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4845" xlink:label="bd_ten_4845_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4845_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4845">voorlopige aanslag ambtshalve</label:label>
+        <gen:arc xlink:from="bd_ten_4845_loc" xlink:to="bd_ten_4845_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4846" xlink:label="bd_ten_4846_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4846_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4846">automatische voorlopige aanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4846_loc" xlink:to="bd_ten_4846_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4847" xlink:label="bd_ten_4847_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4847_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4847">Vermindering definitieve aanslag ivm definitieve terugwenteling verlies, waarbij gehele vermindering aan deze aanslag is toegerekend.</label:label>
+        <gen:arc xlink:from="bd_ten_4847_loc" xlink:to="bd_ten_4847_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4848" xlink:label="bd_ten_4848_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4848_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4848">Vermindering navordering, ivm definitieve terugwenteling verlies.</label:label>
+        <gen:arc xlink:from="bd_ten_4848_loc" xlink:to="bd_ten_4848_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4849" xlink:label="bd_ten_4849_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4849_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4849">Vermindering definitieve aanslag ivm definitieve terugwenteling verlies, waarbij de vermindering aan meerdere aanslagen is toegerekend.</label:label>
+        <gen:arc xlink:from="bd_ten_4849_loc" xlink:to="bd_ten_4849_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4850" xlink:label="bd_ten_4850_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4850_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4850">Vermindering navordering ivm definitieve terugwenteling verlies, waarbij de vermindering aan meerdere aanslagen is toegerekend.</label:label>
+        <gen:arc xlink:from="bd_ten_4850_loc" xlink:to="bd_ten_4850_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4851" xlink:label="bd_ten_4851_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4851_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4851">Vermindering definitieve aanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4851_loc" xlink:to="bd_ten_4851_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4852" xlink:label="bd_ten_4852_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4852_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4852">Vermindering navorderingsaanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4852_loc" xlink:to="bd_ten_4852_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4853" xlink:label="bd_ten_4853_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4853_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4853">Vermindering voorlopige aanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4853_loc" xlink:to="bd_ten_4853_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4854" xlink:label="bd_ten_4854_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4854_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4854">Voorlopige teruggave ivm verlies</label:label>
+        <gen:arc xlink:from="bd_ten_4854_loc" xlink:to="bd_ten_4854_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4855" xlink:label="bd_ten_4855_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4855_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4855">Invorderen voorlopige teruggave</label:label>
+        <gen:arc xlink:from="bd_ten_4855_loc" xlink:to="bd_ten_4855_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4856" xlink:label="bd_ten_4856_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4856_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4856">definitieve aanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4856_loc" xlink:to="bd_ten_4856_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4857" xlink:label="bd_ten_4857_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4857_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4857">vermindering voorlopige aanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4857_loc" xlink:to="bd_ten_4857_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4858" xlink:label="bd_ten_4858_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4858_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4858">vermindering definitieve aanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4858_loc" xlink:to="bd_ten_4858_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4859" xlink:label="bd_ten_4859_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4859_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4859">vermindering navorderingsaanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4859_loc" xlink:to="bd_ten_4859_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4860" xlink:label="bd_ten_4860_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4860_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4860">vermindering definitieve aanslag na middeling</label:label>
+        <gen:arc xlink:from="bd_ten_4860_loc" xlink:to="bd_ten_4860_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4861" xlink:label="bd_ten_4861_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4861_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4861">vermindering definitieve aanslag na carry back (niet ZVW)</label:label>
+        <gen:arc xlink:from="bd_ten_4861_loc" xlink:to="bd_ten_4861_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4862" xlink:label="bd_ten_4862_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4862_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4862">navorderingsaanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4862_loc" xlink:to="bd_ten_4862_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4863" xlink:label="bd_ten_4863_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4863_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4863">vermindering navorderingsaanslag na middeling</label:label>
+        <gen:arc xlink:from="bd_ten_4863_loc" xlink:to="bd_ten_4863_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4864" xlink:label="bd_ten_4864_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4864_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4864">voorlopige aanslag</label:label>
+        <gen:arc xlink:from="bd_ten_4864_loc" xlink:to="bd_ten_4864_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-codes.xsd#bd_ten_4865" xlink:label="bd_ten_4865_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd_ten_4865_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_ten_4865">Kroatië</label:label>
+        <gen:arc xlink:from="bd_ten_4865_loc" xlink:to="bd_ten_4865_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+    </gen:link>
+</link:linkbase>

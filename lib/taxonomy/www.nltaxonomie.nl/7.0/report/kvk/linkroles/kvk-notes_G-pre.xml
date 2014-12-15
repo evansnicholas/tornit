@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/notes" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_Notes" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/notes" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_AccountingPoliciesGeneralTitle" xlink:label="kvk-abstr_AccountingPoliciesGeneralTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_AccountingPoliciesStatementComprehensiveIncomeTitle" xlink:label="kvk-abstr_AccountingPoliciesStatementComprehensiveIncomeTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_AccountingPoliciesTitle" xlink:label="kvk-abstr_AccountingPoliciesTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_CommitmentsContingenciesNotIncludedInBalanceSheetTitle" xlink:label="kvk-abstr_CommitmentsContingenciesNotIncludedInBalanceSheetTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ContingentArrangementsDisclosureTitle" xlink:label="kvk-abstr_ContingentArrangementsDisclosureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_DisclosureIncomeStatementTitle" xlink:label="kvk-abstr_DisclosureIncomeStatementTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_DisclosureOtherTitle" xlink:label="kvk-abstr_DisclosureOtherTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_DisclosureStatementComprehensiveIncomeTitle" xlink:label="kvk-abstr_DisclosureStatementComprehensiveIncomeTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IncomeTaxExpenseDisclosureTitle" xlink:label="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_NetRevenueSegmentDisclosureTitle" xlink:label="kvk-abstr_NetRevenueSegmentDisclosureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_NetRevenueTitle" xlink:label="kvk-abstr_NetRevenueTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_NotesTitle" xlink:label="kvk-abstr_NotesTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ResultsDisclosureTitle" xlink:label="kvk-abstr_ResultsDisclosureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_SegmentInformationPolicyTitle" xlink:label="kvk-abstr_SegmentInformationPolicyTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_SegmentReportingDisclosureTitle" xlink:label="kvk-abstr_SegmentReportingDisclosureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../domein/kvk/tuples/kvk-tuples.xsd#kvk-t_ChangeAccountingPoliciesSpecification" xlink:label="kvk-t_ChangeAccountingPoliciesSpecification_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../domein/kvk/tuples/kvk-tuples.xsd#kvk-t_DiscontinuedOperationsSpecification" xlink:label="kvk-t_DiscontinuedOperationsSpecification_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../domein/kvk/tuples/kvk-tuples.xsd#kvk-t_NetRevenueSegmentCategorySpecification" xlink:label="kvk-t_NetRevenueSegmentCategorySpecification_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../domein/kvk/tuples/kvk-tuples.xsd#kvk-t_NetRevenueSegmentGeographicSpecification" xlink:label="kvk-t_NetRevenueSegmentGeographicSpecification_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../domein/kvk/tuples/kvk-tuples.xsd#kvk-t_SegmentReportingSegmentSpecification" xlink:label="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IncomeTaxExpenseExtraordinaryItems" xlink:label="nl-gen_IncomeTaxExpenseExtraordinaryItems_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IncomeTaxExpenseOrdinaryActivities" xlink:label="nl-gen_IncomeTaxExpenseOrdinaryActivities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_NetResultAfterTaxDisclosure" xlink:label="nl-gen_NetResultAfterTaxDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAfterTaxDisclosure" xlink:label="nl-gen_ResultAfterTaxDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAfterTaxExtraordinaryItemsDisclosure" xlink:label="nl-gen_ResultAfterTaxExtraordinaryItemsDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAfterTaxOrdinaryActivitiesDisclosure" xlink:label="nl-gen_ResultAfterTaxOrdinaryActivitiesDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultBeforeTaxOrdinaryActivitiesDisclosure" xlink:label="nl-gen_ResultBeforeTaxOrdinaryActivitiesDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingPoliciesEffectOnFuturePeriods" xlink:label="kvk-i_ChangeAccountingPoliciesEffectOnFuturePeriods_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeValuesFinancialAssetsDisclosure" xlink:label="kvk-i_ChangeValuesFinancialAssetsDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ComprehensiveIncomeAdjustmentsRecycleItemsDisclosure" xlink:label="kvk-i_ComprehensiveIncomeAdjustmentsRecycleItemsDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ComprehensiveIncomeOtherDisclosure" xlink:label="kvk-i_ComprehensiveIncomeOtherDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ComprehensiveIncomeRealisedRevaluationChargedToEquityDisclosure" xlink:label="kvk-i_ComprehensiveIncomeRealisedRevaluationChargedToEquityDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ComprehensiveIncomeStatementDisclosure" xlink:label="kvk-i_ComprehensiveIncomeStatementDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ContingentArrangementsDisclosure" xlink:label="kvk-i_ContingentArrangementsDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DiscontinuedOperationsSegment" xlink:label="kvk-i_DiscontinuedOperationsSegment_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ExchangeDifferencesForeignParticipatingInterestsDisclosure" xlink:label="kvk-i_ExchangeDifferencesForeignParticipatingInterestsDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxExpenseApplicableRate" xlink:label="kvk-i_IncomeTaxExpenseApplicableRate_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxExpenseEffectiveRate" xlink:label="kvk-i_IncomeTaxExpenseEffectiveRate_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxExpenseRateDisclosure" xlink:label="kvk-i_IncomeTaxExpenseRateDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxImpactDividendProposalDescription" xlink:label="kvk-i_IncomeTaxImpactDividendProposalDescription_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxImpactProfitRetentionFiscalRatesDescription" xlink:label="kvk-i_IncomeTaxImpactProfitRetentionFiscalRatesDescription_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NetRevenueSegmentCategoryAmount" xlink:label="kvk-i_NetRevenueSegmentCategoryAmount_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NetRevenueSegmentCategoryDescription" xlink:label="kvk-i_NetRevenueSegmentCategoryDescription_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NetRevenueSegmentCategoryDisclosure" xlink:label="kvk-i_NetRevenueSegmentCategoryDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NetRevenueSegmentDisclosure" xlink:label="kvk-i_NetRevenueSegmentDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NetRevenueSegmentGeographicAmount" xlink:label="kvk-i_NetRevenueSegmentGeographicAmount_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NetRevenueSegmentGeographicDescription" xlink:label="kvk-i_NetRevenueSegmentGeographicDescription_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NetRevenueSegmentGeographicDisclosure" xlink:label="kvk-i_NetRevenueSegmentGeographicDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RevaluationPropertyPlantEquipmentDisclosure" xlink:label="kvk-i_RevaluationPropertyPlantEquipmentDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentInformationPolicy" xlink:label="kvk-i_SegmentInformationPolicy_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingAcquisitionsIntangibleAssets" xlink:label="kvk-i_SegmentReportingAcquisitionsIntangibleAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingAcquisitionsTangibleAssets" xlink:label="kvk-i_SegmentReportingAcquisitionsTangibleAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingAmortisationIntangibleAssets" xlink:label="kvk-i_SegmentReportingAmortisationIntangibleAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingAssets" xlink:label="kvk-i_SegmentReportingAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingDepreciationTangibleAssets" xlink:label="kvk-i_SegmentReportingDepreciationTangibleAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingDisclosure" xlink:label="kvk-i_SegmentReportingDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingExtraordinaryExpenses" xlink:label="kvk-i_SegmentReportingExtraordinaryExpenses_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingExtraordinaryIncome" xlink:label="kvk-i_SegmentReportingExtraordinaryIncome_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingImpairmentIntangibleAssets" xlink:label="kvk-i_SegmentReportingImpairmentIntangibleAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingImpairmentTangibleAssets" xlink:label="kvk-i_SegmentReportingImpairmentTangibleAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingLiabilities" xlink:label="kvk-i_SegmentReportingLiabilities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingNetRevenue" xlink:label="kvk-i_SegmentReportingNetRevenue_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingNetRevenueAttributableIntercompanySegmentsOther" xlink:label="kvk-i_SegmentReportingNetRevenueAttributableIntercompanySegmentsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingNetRevenueAttributableThirdParties" xlink:label="kvk-i_SegmentReportingNetRevenueAttributableThirdParties_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingReconciliationSegmentedAggregatedInformation" xlink:label="kvk-i_SegmentReportingReconciliationSegmentedAggregatedInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingResultForTheYear" xlink:label="kvk-i_SegmentReportingResultForTheYear_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SegmentReportingSegmentDescription" xlink:label="kvk-i_SegmentReportingSegmentDescription_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_StatementComprehensiveIncomePolicy" xlink:label="kvk-i_StatementComprehensiveIncomePolicy_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_DiscontinuedOperationsSpecification_loc" xlink:to="kvk-i_DiscontinuedOperationsSegment_loc" xlink:type="arc" order="64"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_ChangeAccountingPoliciesSpecification_loc" xlink:to="kvk-i_ChangeAccountingPoliciesEffectOnFuturePeriods_loc" xlink:type="arc" order="95"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AccountingPoliciesGeneralTitle_loc" xlink:to="kvk-abstr_SegmentInformationPolicyTitle_loc" xlink:type="arc" order="135"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_SegmentInformationPolicyTitle_loc" xlink:to="kvk-i_SegmentInformationPolicy_loc" xlink:type="arc" order="136"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AccountingPoliciesTitle_loc" xlink:to="kvk-abstr_AccountingPoliciesStatementComprehensiveIncomeTitle_loc" xlink:type="arc" order="346"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AccountingPoliciesStatementComprehensiveIncomeTitle_loc" xlink:to="kvk-i_StatementComprehensiveIncomePolicy_loc" xlink:type="arc" order="347"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_CommitmentsContingenciesNotIncludedInBalanceSheetTitle_loc" xlink:to="kvk-abstr_ContingentArrangementsDisclosureTitle_loc" xlink:type="arc" order="915"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ContingentArrangementsDisclosureTitle_loc" xlink:to="kvk-i_ContingentArrangementsDisclosure_loc" xlink:type="arc" order="916"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_NetRevenueTitle_loc" xlink:to="kvk-abstr_NetRevenueSegmentDisclosureTitle_loc" xlink:type="arc" order="962"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_NetRevenueSegmentDisclosureTitle_loc" xlink:to="kvk-i_NetRevenueSegmentDisclosure_loc" xlink:type="arc" order="963"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_NetRevenueSegmentDisclosureTitle_loc" xlink:to="kvk-i_NetRevenueSegmentGeographicDisclosure_loc" xlink:type="arc" order="964"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_NetRevenueSegmentDisclosureTitle_loc" xlink:to="kvk-t_NetRevenueSegmentGeographicSpecification_loc" xlink:type="arc" order="965"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_NetRevenueSegmentGeographicSpecification_loc" xlink:to="kvk-i_NetRevenueSegmentGeographicDescription_loc" xlink:type="arc" order="966"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_NetRevenueSegmentGeographicSpecification_loc" xlink:to="kvk-i_NetRevenueSegmentGeographicAmount_loc" xlink:type="arc" order="967"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_NetRevenueSegmentDisclosureTitle_loc" xlink:to="kvk-i_NetRevenueSegmentCategoryDisclosure_loc" xlink:type="arc" order="968"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_NetRevenueSegmentDisclosureTitle_loc" xlink:to="kvk-t_NetRevenueSegmentCategorySpecification_loc" xlink:type="arc" order="969"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_NetRevenueSegmentCategorySpecification_loc" xlink:to="kvk-i_NetRevenueSegmentCategoryDescription_loc" xlink:type="arc" order="970"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_NetRevenueSegmentCategorySpecification_loc" xlink:to="kvk-i_NetRevenueSegmentCategoryAmount_loc" xlink:type="arc" order="971"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="nl-gen_IncomeTaxExpenseOrdinaryActivities_loc" xlink:type="arc" order="1072"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="nl-gen_IncomeTaxExpenseExtraordinaryItems_loc" xlink:type="arc" order="1073"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="kvk-i_IncomeTaxExpenseEffectiveRate_loc" xlink:type="arc" order="1074"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="kvk-i_IncomeTaxExpenseApplicableRate_loc" xlink:type="arc" order="1075"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="kvk-i_IncomeTaxExpenseRateDisclosure_loc" xlink:type="arc" order="1076"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="kvk-i_IncomeTaxImpactDividendProposalDescription_loc" xlink:type="arc" order="1082"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="kvk-i_IncomeTaxImpactProfitRetentionFiscalRatesDescription_loc" xlink:type="arc" order="1083"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DisclosureIncomeStatementTitle_loc" xlink:to="kvk-abstr_ResultsDisclosureTitle_loc" xlink:type="arc" order="1089"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ResultsDisclosureTitle_loc" xlink:to="nl-gen_ResultBeforeTaxOrdinaryActivitiesDisclosure_loc" xlink:type="arc" order="1090"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ResultsDisclosureTitle_loc" xlink:to="nl-gen_ResultAfterTaxOrdinaryActivitiesDisclosure_loc" xlink:type="arc" order="1091"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ResultsDisclosureTitle_loc" xlink:to="nl-gen_ResultAfterTaxExtraordinaryItemsDisclosure_loc" xlink:type="arc" order="1092"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ResultsDisclosureTitle_loc" xlink:to="nl-gen_ResultAfterTaxDisclosure_loc" xlink:type="arc" order="1093"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ResultsDisclosureTitle_loc" xlink:to="nl-gen_NetResultAfterTaxDisclosure_loc" xlink:type="arc" order="1094"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_NotesTitle_loc" xlink:to="kvk-abstr_DisclosureStatementComprehensiveIncomeTitle_loc" xlink:type="arc" order="1113"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DisclosureStatementComprehensiveIncomeTitle_loc" xlink:to="kvk-i_ComprehensiveIncomeStatementDisclosure_loc" xlink:type="arc" order="1114"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DisclosureStatementComprehensiveIncomeTitle_loc" xlink:to="kvk-i_RevaluationPropertyPlantEquipmentDisclosure_loc" xlink:type="arc" order="1115"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DisclosureStatementComprehensiveIncomeTitle_loc" xlink:to="kvk-i_ChangeValuesFinancialAssetsDisclosure_loc" xlink:type="arc" order="1116"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DisclosureStatementComprehensiveIncomeTitle_loc" xlink:to="kvk-i_ExchangeDifferencesForeignParticipatingInterestsDisclosure_loc" xlink:type="arc" order="1117"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DisclosureStatementComprehensiveIncomeTitle_loc" xlink:to="kvk-i_ComprehensiveIncomeRealisedRevaluationChargedToEquityDisclosure_loc" xlink:type="arc" order="1118"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DisclosureStatementComprehensiveIncomeTitle_loc" xlink:to="kvk-i_ComprehensiveIncomeAdjustmentsRecycleItemsDisclosure_loc" xlink:type="arc" order="1119"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DisclosureStatementComprehensiveIncomeTitle_loc" xlink:to="kvk-i_ComprehensiveIncomeOtherDisclosure_loc" xlink:type="arc" order="1120"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DisclosureOtherTitle_loc" xlink:to="kvk-abstr_SegmentReportingDisclosureTitle_loc" xlink:type="arc" order="1197"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_SegmentReportingDisclosureTitle_loc" xlink:to="kvk-i_SegmentReportingDisclosure_loc" xlink:type="arc" order="1198"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_SegmentReportingDisclosureTitle_loc" xlink:to="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:type="arc" order="1199"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingSegmentDescription_loc" xlink:type="arc" order="1200"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingAssets_loc" xlink:type="arc" order="1201"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingLiabilities_loc" xlink:type="arc" order="1202"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingAcquisitionsIntangibleAssets_loc" xlink:type="arc" order="1203"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingAcquisitionsTangibleAssets_loc" xlink:type="arc" order="1204"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingNetRevenueAttributableThirdParties_loc" xlink:type="arc" order="1205"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingNetRevenueAttributableIntercompanySegmentsOther_loc" xlink:type="arc" order="1206"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingNetRevenue_loc" xlink:type="arc" order="1207"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingAmortisationIntangibleAssets_loc" xlink:type="arc" order="1208"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingDepreciationTangibleAssets_loc" xlink:type="arc" order="1209"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingImpairmentIntangibleAssets_loc" xlink:type="arc" order="1210"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingImpairmentTangibleAssets_loc" xlink:type="arc" order="1211"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingExtraordinaryIncome_loc" xlink:type="arc" order="1212"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingExtraordinaryExpenses_loc" xlink:type="arc" order="1213"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SegmentReportingSegmentSpecification_loc" xlink:to="kvk-i_SegmentReportingResultForTheYear_loc" xlink:type="arc" order="1214"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_SegmentReportingDisclosureTitle_loc" xlink:to="kvk-i_SegmentReportingReconciliationSegmentedAggregatedInformation_loc" xlink:type="arc" order="1215"/>
+	</link:presentationLink>
+</link:linkbase>

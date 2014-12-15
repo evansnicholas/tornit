@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+   <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_BasisOfPreparationTable" xlink:type="simple"/>
+   <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:type="extended">
+		<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_BasisOfPreparationLineItems" xlink:label="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CapitalisedProductionCostsPolicy" xlink:label="nl-gen_CapitalisedProductionCostsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RelatedPartyTransactionsDisclosure" xlink:label="kvk-i_RelatedPartyTransactionsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RelatedPartyTransactionsNameRelatedParty" xlink:label="kvk-i_RelatedPartyTransactionsNameRelatedParty_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RelatedPartyTransactionsNatureAndExtentDescription" xlink:label="kvk-i_RelatedPartyTransactionsNatureAndExtentDescription_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RelatedPartyTransactionsOtherInformation" xlink:label="kvk-i_RelatedPartyTransactionsOtherInformation_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RelatedPartyTransactionsRelationshipWithRelatedParty" xlink:label="kvk-i_RelatedPartyTransactionsRelationshipWithRelatedParty_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RelatedPartyTransactionsType" xlink:label="kvk-i_RelatedPartyTransactionsType_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ChangesInventoriesWorkInProgressPolicy" xlink:label="nl-gen_ChangesInventoriesWorkInProgressPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CostOfSalesPolicy" xlink:label="nl-gen_CostOfSalesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CostsOutsourcedWorkOtherExternalExpensesPolicy" xlink:label="nl-gen_CostsOutsourcedWorkOtherExternalExpensesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CostsRawMaterialsConsumablesPolicy" xlink:label="nl-gen_CostsRawMaterialsConsumablesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_GrossOperatingResultPolicy" xlink:label="nl-gen_GrossOperatingResultPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_NetOperatingResultPolicy" xlink:label="nl-gen_NetOperatingResultPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_OperatingIncomePolicy" xlink:label="nl-gen_OperatingIncomePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangesConstructionContractsPolicy" xlink:label="kvk-i_ChangesConstructionContractsPolicy_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_CapitalisedProductionCostsPolicy_loc" order="8" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_RelatedPartyTransactionsDisclosure_loc" order="9" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_RelatedPartyTransactionsNameRelatedParty_loc" order="10" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_RelatedPartyTransactionsNatureAndExtentDescription_loc" order="11" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_RelatedPartyTransactionsOtherInformation_loc" order="12" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_RelatedPartyTransactionsRelationshipWithRelatedParty_loc" order="13" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_RelatedPartyTransactionsType_loc" order="14" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ChangesInventoriesWorkInProgressPolicy_loc" order="15" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_CostOfSalesPolicy_loc" order="16" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_CostsOutsourcedWorkOtherExternalExpensesPolicy_loc" order="17" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_CostsRawMaterialsConsumablesPolicy_loc" order="18" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_GrossOperatingResultPolicy_loc" order="19" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_NetOperatingResultPolicy_loc" order="20" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_OperatingIncomePolicy_loc" order="21" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangesConstructionContractsPolicy_loc" order="22" xlink:type="arc"/>
+	</link:definitionLink>
+</link:linkbase>

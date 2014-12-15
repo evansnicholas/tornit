@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="urn:cbs:linkrole:productionstatistic" xlink:type="simple" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic"/>
+	<link:presentationLink xlink:type="extended" xlink:role="urn:cbs:linkrole:productionstatistic">
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_BusinessRevenuesOther" xlink:label="cbs-bedr-items_BusinessRevenuesOther_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostOfSaleOfRetailGoods" xlink:label="cbs-bedr-items_CostOfSaleOfRetailGoods_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostOfSaleOfWholesaleGoods" xlink:label="cbs-bedr-items_CostOfSaleOfWholesaleGoods_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostOfSalesTradeGoods" xlink:label="cbs-bedr-items_CostOfSalesTradeGoods_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_Revenues" xlink:label="cbs-bedr-items_Revenues_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesCostCommissionCost" xlink:label="cbs-bedr-items_SalesCostCommissionCost_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesCosts" xlink:label="cbs-bedr-items_SalesCosts_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesCostsOther" xlink:label="cbs-bedr-items_SalesCostsOther_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesOther" xlink:label="cbs-bedr-items_SalesOther_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesServicesThirdParties" xlink:label="cbs-bedr-items_SalesServicesThirdParties_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesWholeSaleAndOrRetail" xlink:label="cbs-bedr-items_SalesWholeSaleAndOrRetail_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StocksOfRetailGoods" xlink:label="cbs-bedr-items_StocksOfRetailGoods_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StocksOfWholesaleGoods" xlink:label="cbs-bedr-items_StocksOfWholesaleGoods_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TurnoverExclVATRelatedToOtherServicesProvidedByTheCompany" xlink:label="cbs-bedr-items_TurnoverExclVATRelatedToOtherServicesProvidedByTheCompany_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TurnoverExclVATRelatedToRentingOfMovables" xlink:label="cbs-bedr-items_TurnoverExclVATRelatedToRentingOfMovables_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TurnoverExclVATRelatedToRetailActivitiesByTheCompany" xlink:label="cbs-bedr-items_TurnoverExclVATRelatedToRetailActivitiesByTheCompany_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TurnoverExclVATRelatedToTradeIntermediationActivitiesByTheCompany" xlink:label="cbs-bedr-items_TurnoverExclVATRelatedToTradeIntermediationActivitiesByTheCompany_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TurnoverExclVATRelatedToWholesaleActivitiesByTheCompany" xlink:label="cbs-bedr-items_TurnoverExclVATRelatedToWholesaleActivitiesByTheCompany_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../report/cbs/abstracts/cbs-bedr-abstracts.xsd#cbs-bedr-a_CBSProductionStatisticsTitle" xlink:label="cbs-bedr-a_CBSProductionStatisticsTitle_loc"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSProductionStatisticsTitle_loc" xlink:to="cbs-bedr-items_StocksOfRetailGoods_loc" order="13.0" />
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSProductionStatisticsTitle_loc" xlink:to="cbs-bedr-items_StocksOfWholesaleGoods_loc" order="11.0" />
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CostOfSalesTradeGoods_loc" xlink:to="cbs-bedr-items_CostOfSaleOfRetailGoods_loc" order="5.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CostOfSalesTradeGoods_loc" xlink:to="cbs-bedr-items_CostOfSaleOfWholesaleGoods_loc" order="4.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_Revenues_loc" xlink:to="cbs-bedr-items_SalesOther_loc" order="4.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_SalesCosts_loc" xlink:to="cbs-bedr-items_SalesCostCommissionCost_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_SalesCosts_loc" xlink:to="cbs-bedr-items_SalesCostsOther_loc" order="3.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_SalesServicesThirdParties_loc" xlink:to="cbs-bedr-items_TurnoverExclVATRelatedToOtherServicesProvidedByTheCompany_loc" order="3.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_SalesServicesThirdParties_loc" xlink:to="cbs-bedr-items_TurnoverExclVATRelatedToRentingOfMovables_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_SalesWholeSaleAndOrRetail_loc" xlink:to="cbs-bedr-items_TurnoverExclVATRelatedToRetailActivitiesByTheCompany_loc" order="3.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_SalesWholeSaleAndOrRetail_loc" xlink:to="cbs-bedr-items_TurnoverExclVATRelatedToTradeIntermediationActivitiesByTheCompany_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_SalesWholeSaleAndOrRetail_loc" xlink:to="cbs-bedr-items_TurnoverExclVATRelatedToWholesaleActivitiesByTheCompany_loc" order="1.0"/>
+	</link:presentationLink>
+</link:linkbase>

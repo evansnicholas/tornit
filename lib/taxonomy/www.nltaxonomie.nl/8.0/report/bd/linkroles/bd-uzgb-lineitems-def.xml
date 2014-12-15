@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple"/>
+    <link:roleRef xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-nodim" roleURI="urn:bd:linkrole:bd-lr-hd_cube-nodim" xlink:type="simple"/>
+    <link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-hd_cube-nodim" xlink:type="extended">
+        <link:loc xlink:href="../lineitems/bd-primary-domains.xsd#bd-dim-pi_PrimaryItem" xlink:label="bd-dim-pi_PrimaryItem_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_SoftwarePackageName" xlink:label="bd-alg_SoftwarePackageName_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_SoftwarePackageName_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1901" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_SoftwarePackageVersion" xlink:label="bd-alg_SoftwarePackageVersion_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_SoftwarePackageVersion_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1902" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_SoftwareVendorAccountNumber" xlink:label="bd-alg_SoftwareVendorAccountNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_SoftwareVendorAccountNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1903" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_AbrogationReasonEmployee" xlink:label="bd-bedr_AbrogationReasonEmployee_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_AbrogationReasonEmployee_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1904" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_AbrogationReasonEntrepreneur" xlink:label="bd-bedr_AbrogationReasonEntrepreneur_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_AbrogationReasonEntrepreneur_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1905" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_AbrogationStatementDeliveryVanLicensePlate" xlink:label="bd-bedr_AbrogationStatementDeliveryVanLicensePlate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_AbrogationStatementDeliveryVanLicensePlate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1906" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_AbrogationStatementDeliveryVanRegistrationCountry" xlink:label="bd-bedr_AbrogationStatementDeliveryVanRegistrationCountry_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_AbrogationStatementDeliveryVanRegistrationCountry_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1907" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_AbrogationStatementEndDate" xlink:label="bd-bedr_AbrogationStatementEndDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_AbrogationStatementEndDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1908" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_DeliveryVanUser" xlink:label="bd-bedr_DeliveryVanUser_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_DeliveryVanUser_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1909" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EmployeeDateOfBirth" xlink:label="bd-bedr_EmployeeDateOfBirth_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_EmployeeDateOfBirth_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1910" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EmployeeIdentificationNumber" xlink:label="bd-bedr_EmployeeIdentificationNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_EmployeeIdentificationNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1911" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EmployeeInitials" xlink:label="bd-bedr_EmployeeInitials_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_EmployeeInitials_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1912" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EmployeePrefix" xlink:label="bd-bedr_EmployeePrefix_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_EmployeePrefix_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1913" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EmployeeSurname" xlink:label="bd-bedr_EmployeeSurname_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_EmployeeSurname_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1914" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EntrepreneurInitials" xlink:label="bd-bedr_EntrepreneurInitials_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_EntrepreneurInitials_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1915" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EntrepreneurPrefix" xlink:label="bd-bedr_EntrepreneurPrefix_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_EntrepreneurPrefix_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1916" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EntrepreneurSurname" xlink:label="bd-bedr_EntrepreneurSurname_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_EntrepreneurSurname_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1917" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EntrepreneurTelephoneNumber" xlink:label="bd-bedr_EntrepreneurTelephoneNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_EntrepreneurTelephoneNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1918" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SignatoryFunction" xlink:label="bd-bedr_SignatoryFunction_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_SignatoryFunction_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1919" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SignatoryInitials" xlink:label="bd-bedr_SignatoryInitials_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_SignatoryInitials_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1920" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SignatoryPrefix" xlink:label="bd-bedr_SignatoryPrefix_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_SignatoryPrefix_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1921" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SignatorySurname" xlink:label="bd-bedr_SignatorySurname_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_SignatorySurname_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1922" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SignatureDate" xlink:label="bd-bedr_SignatureDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_SignatureDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1923" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_StatementCommencingDate" xlink:label="bd-bedr_StatementCommencingDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_StatementCommencingDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1924" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_StatementDeliveryVanLicensePlate" xlink:label="bd-bedr_StatementDeliveryVanLicensePlate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_StatementDeliveryVanLicensePlate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1925" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_StatementDeliveryVanRegistrationCountry" xlink:label="bd-bedr_StatementDeliveryVanRegistrationCountry_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_StatementDeliveryVanRegistrationCountry_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1926" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_StatementType" xlink:label="bd-bedr_StatementType_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_StatementType_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1927" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_WithholdingAgentName" xlink:label="bd-bedr_WithholdingAgentName_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_WithholdingAgentName_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1928" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_WithholdingAgentTelephoneNumber" xlink:label="bd-bedr_WithholdingAgentTelephoneNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_WithholdingAgentTelephoneNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1929" xlink:type="arc"/>
+    </link:definitionLink>
+</link:linkbase>

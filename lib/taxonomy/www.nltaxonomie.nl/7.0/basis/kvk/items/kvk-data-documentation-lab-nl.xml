@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SbiBusinessCode" xlink:label="kvk-i_SbiBusinessCode_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SbiBusinessCode_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="kvk-i_SbiBusinessCode_documentation_nl">De SBI-code (Standaard Bedrijfsindeling 2008) is een code die de economische activiteit van een rechtspersoon aanduidt.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SbiBusinessCode_loc" xlink:to="kvk-i_SbiBusinessCode_documentation_nl"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_ContactType" xlink:label="kvk-i_ContactType_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_ContactType_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="kvk-i_ContactType_documentation_nl">Dit concept dient voor het classificeren van de contactpersoon van deze rapportage in de categorie "ondernemer" of "intermediair".</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_ContactType_loc" xlink:to="kvk-i_ContactType_documentation_nl"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_OrganisationName" xlink:label="kvk-i_OrganisationName_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_OrganisationName_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="kvk-i_OrganisationName_documentation_nl">Naam van de organisatie of rechtspersoon die in casu wordt vertegenwoordigd.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_OrganisationName_loc" xlink:to="kvk-i_OrganisationName_documentation_nl"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SignatureManagementReportLocation" xlink:label="kvk-i_SignatureManagementReportLocation_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SignatureManagementReportLocation_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="kvk-i_SignatureManagementReportLocation_documentation_nl">De locatie van de ondertekening van het bestuursverslag.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SignatureManagementReportLocation_loc" xlink:to="kvk-i_SignatureManagementReportLocation_documentation_nl"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SignatureManagementReportDate" xlink:label="kvk-i_SignatureManagementReportDate_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SignatureManagementReportDate_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="kvk-i_SignatureManagementReportDate_documentation_nl">De datum van de ondertekening van het bestuursverslag.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SignatureManagementReportDate_loc" xlink:to="kvk-i_SignatureManagementReportDate_documentation_nl"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SignatureManagingSupervisoryDirectorsLocation" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsLocation_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsLocation_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="kvk-i_SignatureManagingSupervisoryDirectorsLocation_documentation_nl">De locatie van de ondertekening van de jaarrekening door de bestuurders en/of commissarissen.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SignatureManagingSupervisoryDirectorsLocation_loc" xlink:to="kvk-i_SignatureManagingSupervisoryDirectorsLocation_documentation_nl"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SignatureManagingSupervisoryDirectorsDate" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsDate_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsDate_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="kvk-i_SignatureManagingSupervisoryDirectorsDate_documentation_nl">De datum van de ondertekening van de jaarrekening door de bestuurders en/of commissarissen.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SignatureManagingSupervisoryDirectorsDate_loc" xlink:to="kvk-i_SignatureManagingSupervisoryDirectorsDate_documentation_nl"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure" xlink:label="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_documentation_nl">Vrijwillige toelichting die in de jaarrekening kan dienen als een aansluiting met de aangifte vennootschapsbelasting.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc" xlink:to="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_documentation_nl"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_DocumentInformation" xlink:label="kvk-i_DocumentInformation_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_DocumentInformation_documentation_nl" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="nl" id="kvk-i_DocumentInformation_documentation_nl">Optioneel tekstveld voor nadere informatie omtrent het document.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_DocumentInformation_loc" xlink:to="kvk-i_DocumentInformation_documentation_nl"/>
+	</link:labelLink>
+</link:linkbase>

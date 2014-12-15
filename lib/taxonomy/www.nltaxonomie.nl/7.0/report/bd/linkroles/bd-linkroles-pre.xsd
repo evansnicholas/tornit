@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-linkroles-pre" xmlns:bd-lr-pre="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-linkroles-pre" xmlns:link="http://www.xbrl.org/2003/linkbase" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:annotation>
+        <xs:appinfo>
+            <link:roleType id="bd-lr-pre_buitenlandse-resultaten-vpb-specifiek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_buitenlandse-resultaten-vpb-specifiek">
+                <link:definition>Specificatie Buitenlandse Resultaten specifiek VpB, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_balans-resultatenrekening-ib-specifiek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_balans-resultatenrekening-ib-specifiek">
+                <link:definition>Balans en Resultatenrekening specifiek IB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_balans-resultatenrekening-vpb-specifiek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_balans-resultatenrekening-vpb-specifiek">
+                <link:definition>Balans en Resultatenrekening specifiek VpB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_investeringsaftrek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_investeringsaftrek">
+                <link:definition>Specificatie investeringsaftrek, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_opgaaf-intracommunautaire-prestaties" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_opgaaf-intracommunautaire-prestaties">
+                <link:definition>Aangifte Intra communautaire prestaties</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_aangifte-omzetbelasting" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_aangifte-omzetbelasting">
+                <link:definition>Aangifte Omzetbelasting</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_aangifte-inkomstenbelasting" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_aangifte-inkomstenbelasting">
+                <link:definition>Aangifte Inkomstenbelasting, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_voorblad" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_voorblad">
+                <link:definition>Algemene gegevens Identificatie, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_algemeen-deel" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_algemeen-deel">
+                <link:definition>Algemeen deel, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_specificaties-vpb-specifiek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_specificaties-vpb-specifiek">
+                <link:definition>Specificaties VpB, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_hlfo-activiteiten" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_hlfo-activiteiten">
+                <link:definition>Specificatie Houdster-Licentie-Financiering-Overige activiteiten</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_voorblad-vpb-specifiek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_voorblad-vpb-specifiek">
+                <link:definition>Algemene gegevens specifiek VpB, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_winstberekening-ib-specifiek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_winstberekening-ib-specifiek">
+                <link:definition>Fiscale Winstberekening specifiek IB, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_winstberekening-vpb-specifiek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_winstberekening-vpb-specifiek">
+                <link:definition>Fiscale Winstberekening specifiek VpB, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_winst-uit-zeescheepvaart" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_winst-uit-zeescheepvaart">
+                <link:definition>Specificatie Winst uit Zeescheepvaart</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_aandeelhouders" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_aandeelhouders">
+                <link:definition>Specificatie Aandeelhouders, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_balans-resultatenrekening" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_balans-resultatenrekening">
+                <link:definition>Balans en Resultatenrekening, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_buitenlandse-resultaten" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_buitenlandse-resultaten">
+                <link:definition>Specificatie Buitenlandse Resultaten, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_winstberekening" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_winstberekening">
+                <link:definition>Fiscale Winstberekening, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_voorblad-ib-specifiek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_voorblad-ib-specifiek">
+                <link:definition>Algemene gegevens Identificatie specifiek IB, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_deelnemingen" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_deelnemingen">
+                <link:definition>Specificatie Deelnemingen, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_fiscale-eenheid" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_fiscale-eenheid">
+                <link:definition>Specificatie Fiscale Eenheid, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_innovatiebox" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_innovatiebox">
+                <link:definition>Innovatiebox, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_toelichting-ib" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_toelichting-ib">
+                <link:definition>Toelichting op de aangifte IB (nietwinst), volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_agrarische-activiteiten" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_agrarische-activiteiten">
+                <link:definition>Specificatie agrarische activiteiten, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_uitstelregeling-aangifte" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_uitstelregeling-aangifte">
+                <link:definition>Verzoek om uitstel van de aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_aanwijsposten" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_aanwijsposten">
+                <link:definition>Aanwijsposten in verband met uitstelregeling</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_vpb-service-berichten-aanslag" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_vpb-service-berichten-aanslag">
+                <link:definition>Service berichten aanslag VPB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_ih-service-berichten-aanslag" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_ih-service-berichten-aanslag">
+                <link:definition>Service berichten aanslag IH</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_zvw-service-berichten-aanslag" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_zvw-service-berichten-aanslag">
+                <link:definition>Service berichten ZVW</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_objectvrijstelling" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_objectvrijstelling">
+                <link:definition>objectvrijstelling, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_buitenlandse-resultaten-ib-specifiek" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_buitenlandse-resultaten-ib-specifiek">
+                <link:definition>Specificatie Buitenlandse Resultaten specifiek ib, volledige aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+</xs:schema>

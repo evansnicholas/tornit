@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:kvk-dm-ita="http://www.nltaxonomie.nl/7.0/basis/kvk/domains/kvk-domains-intangible-assets" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/7.0/basis/kvk/domains/kvk-domains-intangible-assets">
+   <xs:annotation>
+      <xs:appinfo>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-domains-intangible-assets-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-domains-intangible-assets-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      </xs:appinfo>
+   </xs:annotation>
+	<xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+	<xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/> 
+	<xs:element id="kvk-dm-ita_IntangibleAssetsComponentDomain" name="IntangibleAssetsComponentDomain" abstract="true" nillable="false" substitutionGroup="sbr:domainItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_CostsIncorporationShareIssueMember" name="CostsIncorporationShareIssueMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_ResearchAndDevelopmentCostsMember" name="ResearchAndDevelopmentCostsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_PatentsTrademarksOtherRightsMember" name="PatentsTrademarksOtherRightsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_IntangibleAssetsOtherMember" name="IntangibleAssetsOtherMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_IntangibleAssetsMember" name="IntangibleAssetsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_CostsIncorporationShareIssueInternallyGeneratedMember" name="CostsIncorporationShareIssueInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_CostsIncorporationShareIssueNotInternallyGeneratedMember" name="CostsIncorporationShareIssueNotInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_ResearchAndDevelopmentCostsInternallyGeneratedMember" name="ResearchAndDevelopmentCostsInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_ResearchAndDevelopmentCostsNotInternallyGeneratedMember" name="ResearchAndDevelopmentCostsNotInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_PatentsTrademarksOtherRightsInternallyGeneratedMember" name="PatentsTrademarksOtherRightsInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_PatentsTrademarksOtherRightsNotInternallyGeneratedMember" name="PatentsTrademarksOtherRightsNotInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_GoodwillMember" name="GoodwillMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_PrepaymentsIntangibleAssetsMember" name="PrepaymentsIntangibleAssetsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  	<xs:element id="kvk-dm-ita_IntangibleAssetsOtherInternallyGeneratedMember" name="IntangibleAssetsOtherInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   	<xs:element id="kvk-dm-ita_IntangibleAssetsOtherNotInternallyGeneratedMember" name="IntangibleAssetsOtherNotInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   	<xs:element id="kvk-dm-ita_IntangibleAssetsInternallyGeneratedMember" name="IntangibleAssetsInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+   	<xs:element id="kvk-dm-ita_IntangibleAssetsNotInternallyGeneratedMember" name="IntangibleAssetsNotInternallyGeneratedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/> 
+</xs:schema>

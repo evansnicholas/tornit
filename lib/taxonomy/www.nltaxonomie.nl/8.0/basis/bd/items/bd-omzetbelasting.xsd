@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/8.0/basis/bd/items/bd-omzetbelasting" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bd-ob="http://www.nltaxonomie.nl/8.0/basis/bd/items/bd-omzetbelasting" xmlns:bd-types="http://www.nltaxonomie.nl/8.0/basis/bd/types/bd-types" xmlns:bd-codes="http://www.nltaxonomie.nl/8.0/basis/bd/types/bd-codes">
+    <xs:annotation>
+        <xs:appinfo>
+            <link:linkbaseRef xlink:href="./bd-omzetbelasting-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+            <link:linkbaseRef xlink:href="./bd-omzetbelasting-ref.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/8.0/basis/bd/types/bd-codes" schemaLocation="../types/bd-codes.xsd"/>
+    <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/8.0/basis/bd/types/bd-types" schemaLocation="../types/bd-types.xsd"/>
+    <xs:element id="bd-ob_ContactType" name="ContactType" type="bd-codes:contactItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_CorrectionsServicesAmount" name="CorrectionsServicesAmount" type="bd-types:monetaryNoDecimalsNoZero10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_CorrectionsSuppliesAmount" name="CorrectionsSuppliesAmount" type="bd-types:monetaryNoDecimalsNoZero10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_CountryCodeISO-EC" name="CountryCodeISO-EC" type="bd-codes:isoCountrycodeECMemberStatesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_EstimateFromPreviousReturns" name="EstimateFromPreviousReturns" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_EstimateOnThisReturn" name="EstimateOnThisReturn" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_InstallationDistanceSalesWithinTheEC" name="InstallationDistanceSalesWithinTheEC" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ServicesAmount" name="ServicesAmount" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_SmallEntrepreneurProvisionReduction" name="SmallEntrepreneurProvisionReduction" type="bd-types:monetaryNoDecimals4VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_SuppliesAmount" name="SuppliesAmount" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_SuppliesServicesNotTaxed" name="SuppliesServicesNotTaxed" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_SuppliesToCountriesOutsideTheEC" name="SuppliesToCountriesOutsideTheEC" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_SuppliesToCountriesWithinTheEC" name="SuppliesToCountriesWithinTheEC" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_TaxedTurnoverPrivateUse" name="TaxedTurnoverPrivateUse" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_TaxedTurnoverSuppliesServicesGeneralTariff" name="TaxedTurnoverSuppliesServicesGeneralTariff" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_TaxedTurnoverSuppliesServicesOtherRates" name="TaxedTurnoverSuppliesServicesOtherRates" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_TaxedTurnoverSuppliesServicesReducedTariff" name="TaxedTurnoverSuppliesServicesReducedTariff" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_TurnoverFromTaxedSuppliesFromCountriesOutsideTheEC" name="TurnoverFromTaxedSuppliesFromCountriesOutsideTheEC" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_TurnoverFromTaxedSuppliesFromCountriesWithinTheEC" name="TurnoverFromTaxedSuppliesFromCountriesWithinTheEC" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_TurnoverSuppliesServicesByWhichVATTaxationIsTransferred" name="TurnoverSuppliesServicesByWhichVATTaxationIsTransferred" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxAmountTotalNew" name="ValueAddedTaxAmountTotalNew" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxAmountTotalOld" name="ValueAddedTaxAmountTotalOld" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxOnInput" name="ValueAddedTaxOnInput" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxOnSuppliesFromCountriesOutsideTheEC" name="ValueAddedTaxOnSuppliesFromCountriesOutsideTheEC" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxOnSuppliesFromCountriesWithinTheEC" name="ValueAddedTaxOnSuppliesFromCountriesWithinTheEC" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxOwed" name="ValueAddedTaxOwed" type="bd-types:monetaryNoDecimals10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxOwedToBePaidBack" name="ValueAddedTaxOwedToBePaidBack" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxPrivateUse" name="ValueAddedTaxPrivateUse" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxSuppliesServicesByWhichVATTaxationIsTransferred" name="ValueAddedTaxSuppliesServicesByWhichVATTaxationIsTransferred" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxSuppliesServicesGeneralTariff" name="ValueAddedTaxSuppliesServicesGeneralTariff" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxSuppliesServicesOtherRates" name="ValueAddedTaxSuppliesServicesOtherRates" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_ValueAddedTaxSuppliesServicesReducedTariff" name="ValueAddedTaxSuppliesServicesReducedTariff" type="bd-types:monetaryNoDecimals9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_VATIdentificationNumberNational" name="VATIdentificationNumberNational" type="bd-types:vatIdentificationNumberItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-ob_VATIdentificationNumberNLFiscalEntityDivision" name="VATIdentificationNumberNLFiscalEntityDivision" type="bd-types:vatIdentificationNumberNLItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+</xs:schema>

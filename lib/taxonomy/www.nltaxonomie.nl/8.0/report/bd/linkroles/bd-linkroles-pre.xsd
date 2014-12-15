@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/8.0/report/bd/linkroles/bd-linkroles-pre" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:bd-lr-pre="http://www.nltaxonomie.nl/8.0/report/bd/linkroles/bd-linkroles-pre" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <xs:annotation>
+        <xs:appinfo>
+            <link:linkbaseRef xlink:href="./bd-linkroles-pre-generic-linkrole-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+            <link:roleType id="bd-lr-pre_buitenlandse-resultaten-vpb-specifiek" roleURI="urn:bd:linkrole:bd-lr-pre_buitenlandse-resultaten-vpb-specifiek">
+                <link:definition>Specificatie Buitenlandse Resultaten specifiek VpB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_balans-resultatenrekening-ib-specifiek" roleURI="urn:bd:linkrole:bd-lr-pre_balans-resultatenrekening-ib-specifiek">
+                <link:definition>Balans en Resultatenrekening specifiek IB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_balans-resultatenrekening-vpb-specifiek" roleURI="urn:bd:linkrole:bd-lr-pre_balans-resultatenrekening-vpb-specifiek">
+                <link:definition>Balans en Resultatenrekening specifiek VpB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_investeringsaftrek" roleURI="urn:bd:linkrole:bd-lr-pre_investeringsaftrek">
+                <link:definition>Specificatie investeringsaftrek</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_opgaaf-intracommunautaire-prestaties" roleURI="urn:bd:linkrole:bd-lr-pre_opgaaf-intracommunautaire-prestaties">
+                <link:definition>Opgaaf Intracommunautaire Prestaties</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_aangifte-omzetbelasting" roleURI="urn:bd:linkrole:bd-lr-pre_aangifte-omzetbelasting">
+                <link:definition>Aangifte Omzetbelasting</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_aangifte-inkomstenbelasting" roleURI="urn:bd:linkrole:bd-lr-pre_aangifte-inkomstenbelasting">
+                <link:definition>Aangifte Inkomstenbelasting</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_voorblad" roleURI="urn:bd:linkrole:bd-lr-pre_voorblad">
+                <link:definition>Algemene gegevens Identificatie</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_algemeen-deel" roleURI="urn:bd:linkrole:bd-lr-pre_algemeen-deel">
+                <link:definition>Algemeen deel</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_specificaties-vpb-specifiek" roleURI="urn:bd:linkrole:bd-lr-pre_specificaties-vpb-specifiek">
+                <link:definition>Specificaties VpB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_hlfo-activiteiten" roleURI="urn:bd:linkrole:bd-lr-pre_hlfo-activiteiten">
+                <link:definition>Specificatie Houdster-Licentie-Financiering-Overige activiteiten</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_voorblad-vpb-specifiek" roleURI="urn:bd:linkrole:bd-lr-pre_voorblad-vpb-specifiek">
+                <link:definition>Algemene gegevens specifiek VpB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_winstberekening-ib-specifiek" roleURI="urn:bd:linkrole:bd-lr-pre_winstberekening-ib-specifiek">
+                <link:definition>Fiscale Winstberekening specifiek IB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_winstberekening-vpb-specifiek" roleURI="urn:bd:linkrole:bd-lr-pre_winstberekening-vpb-specifiek">
+                <link:definition>Fiscale Winstberekening specifiek VpB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_winst-uit-zeescheepvaart" roleURI="urn:bd:linkrole:bd-lr-pre_winst-uit-zeescheepvaart">
+                <link:definition>Specificatie Winst uit Zeescheepvaart</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_aandeelhouders" roleURI="urn:bd:linkrole:bd-lr-pre_aandeelhouders">
+                <link:definition>Specificatie Aandeelhouders</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_balans-resultatenrekening" roleURI="urn:bd:linkrole:bd-lr-pre_balans-resultatenrekening">
+                <link:definition>Balans en Resultatenrekening</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_buitenlandse-resultaten" roleURI="urn:bd:linkrole:bd-lr-pre_buitenlandse-resultaten">
+                <link:definition>Specificatie Buitenlandse Resultaten</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_winstberekening" roleURI="urn:bd:linkrole:bd-lr-pre_winstberekening">
+                <link:definition>Fiscale Winstberekening</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_voorblad-ib-specifiek" roleURI="urn:bd:linkrole:bd-lr-pre_voorblad-ib-specifiek">
+                <link:definition>Algemene gegevens Identificatie specifiek IB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_deelnemingen" roleURI="urn:bd:linkrole:bd-lr-pre_deelnemingen">
+                <link:definition>Specificatie Deelnemingen</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_fiscale-eenheid" roleURI="urn:bd:linkrole:bd-lr-pre_fiscale-eenheid">
+                <link:definition>Specificatie Fiscale Eenheid</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_innovatiebox" roleURI="urn:bd:linkrole:bd-lr-pre_innovatiebox">
+                <link:definition>Innovatiebox</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_toelichting-ib" roleURI="urn:bd:linkrole:bd-lr-pre_toelichting-ib">
+                <link:definition>Toelichting op de aangifte IB (nietwinst)</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_agrarische-activiteiten" roleURI="urn:bd:linkrole:bd-lr-pre_agrarische-activiteiten">
+                <link:definition>Specificatie agrarische activiteiten</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_uitstelregeling-aangifte" roleURI="urn:bd:linkrole:bd-lr-pre_uitstelregeling-aangifte">
+                <link:definition>Verzoek om uitstel van de aangifte</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_aanwijsposten" roleURI="urn:bd:linkrole:bd-lr-pre_aanwijsposten">
+                <link:definition>Aanwijsposten in verband met uitstelregeling</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_vpb-service-berichten-aanslag" roleURI="urn:bd:linkrole:bd-lr-pre_vpb-service-berichten-aanslag">
+                <link:definition>Service berichten aanslag VPB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_ih-service-berichten-aanslag" roleURI="urn:bd:linkrole:bd-lr-pre_ih-service-berichten-aanslag">
+                <link:definition>Service berichten aanslag IH</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_zvw-service-berichten-aanslag" roleURI="urn:bd:linkrole:bd-lr-pre_zvw-service-berichten-aanslag">
+                <link:definition>Service berichten ZVW</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_objectvrijstelling" roleURI="urn:bd:linkrole:bd-lr-pre_objectvrijstelling">
+                <link:definition>Objectvrijstelling</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_buitenlandse-resultaten-ib-specifiek" roleURI="urn:bd:linkrole:bd-lr-pre_buitenlandse-resultaten-ib-specifiek">
+                <link:definition>Specificatie Buitenlandse Resultaten specifiek ib</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_ob-service-berichten-aanslag" roleURI="urn:bd:linkrole:bd-lr-pre_ob-service-berichten-aanslag">
+                <link:definition>Service berichten aanslag OB</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_toeslagen" roleURI="urn:bd:linkrole:bd-lr-pre_toeslagen">
+                <link:definition>Toeslagen</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_uitsluitend-zakelijk-gebruik-bestelauto" roleURI="urn:bd:linkrole:bd-lr-pre_uitsluitend-zakelijk-gebruik-bestelauto">
+                <link:definition>Uitsluitend zakelijk gebruik bestelauto</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+            <link:roleType id="bd-lr-pre_suppletie-omzetbelasting" roleURI="urn:bd:linkrole:bd-lr-pre_suppletie-omzetbelasting">
+                <link:definition>Suppletie omzetbelasting</link:definition>
+                <link:usedOn>link:presentationLink</link:usedOn>
+            </link:roleType>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+</xs:schema>

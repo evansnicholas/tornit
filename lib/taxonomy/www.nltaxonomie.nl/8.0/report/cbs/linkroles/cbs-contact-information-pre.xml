@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:cbs:linkrole:contactinformation" xlink:type="simple" xlink:href="cbs-linkroles.xsd#cbs-lr_contactinformation"/>
+  <link:presentationLink xlink:type="extended" xlink:role="urn:cbs:linkrole:contactinformation">
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CBSUserId" xlink:label="cbs-bedr-items_CBSUserId_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ContactPersonSurname" xlink:label="cbs-bedr-items_ContactPersonSurname_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_EntityLegalName" xlink:label="cbs-bedr-items_EntityLegalName_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_EntityWebSite" xlink:label="cbs-bedr-items_EntityWebSite_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_DescriptionLocationNL" xlink:label="nl-cd_DescriptionLocationNL_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_EmailAddressDescription" xlink:label="nl-cd_EmailAddressDescription_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_EmailAddressFull" xlink:label="nl-cd_EmailAddressFull_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_EndDateForFinancialPeriod" xlink:label="nl-cd_EndDateForFinancialPeriod_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberAddition" xlink:label="nl-cd_HouseNumberAddition_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberNL" xlink:label="nl-cd_HouseNumberNL_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PlaceOfResidenceNL" xlink:label="nl-cd_PlaceOfResidenceNL_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PostalCodeNL" xlink:label="nl-cd_PostalCodeNL_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StartDateForFinancialPeriod" xlink:label="nl-cd_StartDateForFinancialPeriod_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StreetNameNL" xlink:label="nl-cd_StreetNameNL_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_TelephoneNumber" xlink:label="nl-cd_TelephoneNumber_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../domein/cbs/tuples/cbs-bedr-tuples.xsd#cbs-bedr-tuples_ContactAddresses" xlink:label="cbs-bedr-tuples_ContactAddresses_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../domein/cbs/tuples/cbs-bedr-tuples.xsd#cbs-bedr-tuples_DutchAddress" xlink:label="cbs-bedr-tuples_DutchAddress_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../domein/cbs/tuples/cbs-bedr-tuples.xsd#cbs-bedr-tuples_EntityEmailaddress" xlink:label="cbs-bedr-tuples_EntityEmailaddress_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../abstracts/cbs-bedr-abstracts.xsd#cbs-bedr-a_CBSGlobalCommonConceptsTitle" xlink:label="cbs-bedr-a_CBSGlobalCommonConceptsTitle_loc"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_ContactAddresses_loc" xlink:to="cbs-bedr-items_ContactPersonSurname_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_ContactAddresses_loc" xlink:to="cbs-bedr-tuples_DutchAddress_loc" order="4.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_ContactAddresses_loc" xlink:to="nl-cd_TelephoneNumber_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_DutchAddress_loc" xlink:to="nl-cd_DescriptionLocationNL_loc" order="4.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_DutchAddress_loc" xlink:to="nl-cd_HouseNumberAddition_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_DutchAddress_loc" xlink:to="nl-cd_HouseNumberNL_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_DutchAddress_loc" xlink:to="nl-cd_PlaceOfResidenceNL_loc" order="6.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_DutchAddress_loc" xlink:to="nl-cd_PostalCodeNL_loc" order="5.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_DutchAddress_loc" xlink:to="nl-cd_StreetNameNL_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_EntityEmailaddress_loc" xlink:to="nl-cd_EmailAddressDescription_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-tuples_EntityEmailaddress_loc" xlink:to="nl-cd_EmailAddressFull_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSGlobalCommonConceptsTitle_loc" xlink:to="cbs-bedr-items_CBSUserId_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSGlobalCommonConceptsTitle_loc" xlink:to="cbs-bedr-tuples_ContactAddresses_loc" order="6.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSGlobalCommonConceptsTitle_loc" xlink:to="cbs-bedr-tuples_EntityEmailaddress_loc" order="7.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSGlobalCommonConceptsTitle_loc" xlink:to="cbs-bedr-items_EntityLegalName_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSGlobalCommonConceptsTitle_loc" xlink:to="cbs-bedr-items_EntityWebSite_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSGlobalCommonConceptsTitle_loc" xlink:to="nl-cd_EndDateForFinancialPeriod_loc" order="5.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSGlobalCommonConceptsTitle_loc" xlink:to="nl-cd_StartDateForFinancialPeriod_loc" order="4.0"/>
+  </link:presentationLink>
+</link:linkbase>

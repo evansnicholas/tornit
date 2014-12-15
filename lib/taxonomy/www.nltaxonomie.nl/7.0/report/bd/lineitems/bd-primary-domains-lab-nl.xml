@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-primary-domains.xsd#bd-dim-pi_PrimaryItem" xlink:label="bd-dim-pi_PrimaryItem_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-pi_PrimaryItem_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25893">Primair element kubus koppeling</link:label>
+        <link:labelArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-dim-pi_PrimaryItem_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+    </link:labelLink>
+</link:linkbase>

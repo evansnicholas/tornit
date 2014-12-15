@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">      
+	  <link:label id="kvk-dm-ppe_PropertyPlantEquipmentComponentDomain_label_nl" xlink:label="kvk-dm-ppe_PropertyPlantEquipmentComponentDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Materiële vaste activa [domein]</link:label>
+      <link:loc xlink:href="kvk-domains-property-plant-equipment.xsd#kvk-dm-ppe_PropertyPlantEquipmentComponentDomain" xlink:label="kvk-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:to="kvk-dm-ppe_PropertyPlantEquipmentComponentDomain_label_nl" xlink:type="arc"/>
+ 	  <link:label id="kvk-dm-ppe_LandAndBuildingsMember_label_nl" xlink:label="kvk-dm-ppe_LandAndBuildingsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Bedrijfsgebouwen en -terreinen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-property-plant-equipment.xsd#kvk-dm-ppe_LandAndBuildingsMember" xlink:label="kvk-dm-ppe_LandAndBuildingsMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-ppe_LandAndBuildingsMember_loc" xlink:to="kvk-dm-ppe_LandAndBuildingsMember_label_nl" xlink:type="arc"/>  
+	  <link:label id="kvk-dm-ppe_MachineryMember_label_nl" xlink:label="kvk-dm-ppe_MachineryMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Machines en installaties [member]</link:label>
+      <link:loc xlink:href="kvk-domains-property-plant-equipment.xsd#kvk-dm-ppe_MachineryMember" xlink:label="kvk-dm-ppe_MachineryMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-ppe_MachineryMember_loc" xlink:to="kvk-dm-ppe_MachineryMember_label_nl" xlink:type="arc"/>  
+ 	  <link:label id="kvk-dm-ppe_TangibleAssetsOtherMember_label_nl" xlink:label="kvk-dm-ppe_TangibleAssetsOtherMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Andere vaste bedrijfsmiddelen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-property-plant-equipment.xsd#kvk-dm-ppe_TangibleAssetsOtherMember" xlink:label="kvk-dm-ppe_TangibleAssetsOtherMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-ppe_TangibleAssetsOtherMember_loc" xlink:to="kvk-dm-ppe_TangibleAssetsOtherMember_label_nl" xlink:type="arc"/>  
+ 	  <link:label id="kvk-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_label_nl" xlink:label="kvk-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Vaste bedrijfsmiddelen in uitvoering en vooruitbetaald op materiële vaste activa [member]</link:label>
+      <link:loc xlink:href="kvk-domains-property-plant-equipment.xsd#kvk-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember" xlink:label="kvk-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_loc" xlink:to="kvk-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_label_nl" xlink:type="arc"/>  
+	  <link:label id="kvk-dm-ppe_InvestmentPropertyMember_label_nl" xlink:label="kvk-dm-ppe_InvestmentPropertyMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Vastgoedbeleggingen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-property-plant-equipment.xsd#kvk-dm-ppe_InvestmentPropertyMember" xlink:label="kvk-dm-ppe_InvestmentPropertyMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-ppe_InvestmentPropertyMember_loc" xlink:to="kvk-dm-ppe_InvestmentPropertyMember_label_nl" xlink:type="arc"/>  
+	  <link:label id="kvk-dm-ppe_AssetsNotUsedInOperationsMember_label_nl" xlink:label="kvk-dm-ppe_AssetsNotUsedInOperationsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Niet aan de bedrijfsuitoefening dienstbare materiële vaste activa [member]</link:label>
+      <link:loc xlink:href="kvk-domains-property-plant-equipment.xsd#kvk-dm-ppe_AssetsNotUsedInOperationsMember" xlink:label="kvk-dm-ppe_AssetsNotUsedInOperationsMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-ppe_AssetsNotUsedInOperationsMember_loc" xlink:to="kvk-dm-ppe_AssetsNotUsedInOperationsMember_label_nl" xlink:type="arc"/>  
+	  <link:label id="kvk-dm-ppe_PropertyPlantEquipmentMember_label_nl" xlink:label="kvk-dm-ppe_PropertyPlantEquipmentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Materiële vaste activa [member]</link:label>
+      <link:loc xlink:href="kvk-domains-property-plant-equipment.xsd#kvk-dm-ppe_PropertyPlantEquipmentMember" xlink:label="kvk-dm-ppe_PropertyPlantEquipmentMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-ppe_PropertyPlantEquipmentMember_loc" xlink:to="kvk-dm-ppe_PropertyPlantEquipmentMember_label_nl" xlink:type="arc"/>  	  
+	</link:labelLink>
+</link:linkbase>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:cbs:linkrole:productionstatistic" xlink:type="simple" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic"/>
+  <link:presentationLink xlink:type="extended" xlink:role="urn:cbs:linkrole:productionstatistic">
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AccommodationCosts" xlink:label="cbs-bedr-items_AccommodationCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AccommodationCostsBuildingTaxes" xlink:label="cbs-bedr-items_AccommodationCostsBuildingTaxes_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AccommodationCostsEnvironmentalCosts" xlink:label="cbs-bedr-items_AccommodationCostsEnvironmentalCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AccommodationCostsOtherCosts" xlink:label="cbs-bedr-items_AccommodationCostsOtherCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AccommodationCostsRentalAndLeaseCosts" xlink:label="cbs-bedr-items_AccommodationCostsRentalAndLeaseCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_BenefitPaymentsAndSubsidiesReceived" xlink:label="cbs-bedr-items_BenefitPaymentsAndSubsidiesReceived_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_BusinessRevenuesOther" xlink:label="cbs-bedr-items_BusinessRevenuesOther_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CarAndTransportCosts" xlink:label="cbs-bedr-items_CarAndTransportCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CommunicationCosts" xlink:label="cbs-bedr-items_CommunicationCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CompanyCostsOther" xlink:label="cbs-bedr-items_CompanyCostsOther_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CompanyIncomeOtherPassedOnLabourCosts" xlink:label="cbs-bedr-items_CompanyIncomeOtherPassedOnLabourCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostsForServicesByThirdPartiesICT" xlink:label="cbs-bedr-items_CostsForServicesByThirdPartiesICT_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_EnergyCostsCommercialIncludingNetServices" xlink:label="cbs-bedr-items_EnergyCostsCommercialIncludingNetServices_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ExpensesResearchAndDevelopment" xlink:label="cbs-bedr-items_ExpensesResearchAndDevelopment_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_GeneralCompanyCostsNotMentionedElsewhereLicenseAndPatentCosts" xlink:label="cbs-bedr-items_GeneralCompanyCostsNotMentionedElsewhereLicenseAndPatentCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_GeneralCompanyCostsNotMentionedElsewhereManagementFeesAndIntraGroupCosts" xlink:label="cbs-bedr-items_GeneralCompanyCostsNotMentionedElsewhereManagementFeesAndIntraGroupCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_GeneralCompanyCostsNotMentionedElsewhereProductTaxes" xlink:label="cbs-bedr-items_GeneralCompanyCostsNotMentionedElsewhereProductTaxes_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_MachineDeviceAndInventoryCosts" xlink:label="cbs-bedr-items_MachineDeviceAndInventoryCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_OperationalCostsAndOtherIntragroupServicesPassedOn" xlink:label="cbs-bedr-items_OperationalCostsAndOtherIntragroupServicesPassedOn_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_OtherGeneralCompanyCosts" xlink:label="cbs-bedr-items_OtherGeneralCompanyCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_OtherGeneralCompanyCostsNotMentionedElsewhere" xlink:label="cbs-bedr-items_OtherGeneralCompanyCostsNotMentionedElsewhere_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_PaymentsToOtherTemporaryWorkers" xlink:label="cbs-bedr-items_PaymentsToOtherTemporaryWorkers_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_PurchaseOfRawAndAuxiliaryMaterialsIncludingSingleUsePackaging" xlink:label="cbs-bedr-items_PurchaseOfRawAndAuxiliaryMaterialsIncludingSingleUsePackaging_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_RawAndAuxiliaryMaterialsAndSingleUsePackaging" xlink:label="cbs-bedr-items_RawAndAuxiliaryMaterialsAndSingleUsePackaging_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_Revenues" xlink:label="cbs-bedr-items_Revenues_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesCosts" xlink:label="cbs-bedr-items_SalesCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesOwnMadeProducts" xlink:label="cbs-bedr-items_SalesOwnMadeProducts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesServicesThirdParties" xlink:label="cbs-bedr-items_SalesServicesThirdParties_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SalesWholeSaleAndOrRetail" xlink:label="cbs-bedr-items_SalesWholeSaleAndOrRetail_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ServicesByThirdPartiesCosts" xlink:label="cbs-bedr-items_ServicesByThirdPartiesCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ServicesByThirdPartiesCostsOther" xlink:label="cbs-bedr-items_ServicesByThirdPartiesCostsOther_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StaffCostsAgencyWorkers" xlink:label="cbs-bedr-items_StaffCostsAgencyWorkers_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StaffCostsOther" xlink:label="cbs-bedr-items_StaffCostsOther_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StaffCostsOtherRemunerationOfCommissioners" xlink:label="cbs-bedr-items_StaffCostsOtherRemunerationOfCommissioners_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SubsidiesOther" xlink:label="cbs-bedr-items_SubsidiesOther_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TransportCostsHolderTaxCosts" xlink:label="cbs-bedr-items_TransportCostsHolderTaxCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TransportCostsOtherCosts" xlink:label="cbs-bedr-items_TransportCostsOtherCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_CapitalisedProductionCosts" xlink:label="nl-gen_CapitalisedProductionCosts_loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_CostsRawMaterialsConsumables" xlink:label="nl-gen_CostsRawMaterialsConsumables_loc"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AccommodationCosts_loc" xlink:to="cbs-bedr-items_AccommodationCostsBuildingTaxes_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AccommodationCosts_loc" xlink:to="cbs-bedr-items_AccommodationCostsEnvironmentalCosts_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AccommodationCosts_loc" xlink:to="cbs-bedr-items_AccommodationCostsOtherCosts_loc" order="4.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AccommodationCosts_loc" xlink:to="cbs-bedr-items_AccommodationCostsRentalAndLeaseCosts_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BenefitPaymentsAndSubsidiesReceived_loc" xlink:to="cbs-bedr-items_SubsidiesOther_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenuesOther_loc" xlink:to="cbs-bedr-items_CompanyIncomeOtherPassedOnLabourCosts_loc" order="5.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenuesOther_loc" xlink:to="cbs-bedr-items_OperationalCostsAndOtherIntragroupServicesPassedOn_loc" order="4.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenuesOther_loc" xlink:to="nl-gen_CapitalisedProductionCosts_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CarAndTransportCosts_loc" xlink:to="cbs-bedr-items_TransportCostsHolderTaxCosts_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CarAndTransportCosts_loc" xlink:to="cbs-bedr-items_TransportCostsOtherCosts_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCostsOther_loc" xlink:to="cbs-bedr-items_AccommodationCosts_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCostsOther_loc" xlink:to="cbs-bedr-items_CarAndTransportCosts_loc" order="4.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCostsOther_loc" xlink:to="cbs-bedr-items_CommunicationCosts_loc" order="6.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCostsOther_loc" xlink:to="cbs-bedr-items_EnergyCostsCommercialIncludingNetServices_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCostsOther_loc" xlink:to="cbs-bedr-items_MachineDeviceAndInventoryCosts_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCostsOther_loc" xlink:to="cbs-bedr-items_OtherGeneralCompanyCostsNotMentionedElsewhere_loc" order="8.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCostsOther_loc" xlink:to="cbs-bedr-items_SalesCosts_loc" order="5.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCostsOther_loc" xlink:to="cbs-bedr-items_ServicesByThirdPartiesCosts_loc" order="7.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_OtherGeneralCompanyCostsNotMentionedElsewhere_loc" xlink:to="cbs-bedr-items_GeneralCompanyCostsNotMentionedElsewhereLicenseAndPatentCosts_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_OtherGeneralCompanyCostsNotMentionedElsewhere_loc" xlink:to="cbs-bedr-items_GeneralCompanyCostsNotMentionedElsewhereManagementFeesAndIntraGroupCosts_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_OtherGeneralCompanyCostsNotMentionedElsewhere_loc" xlink:to="cbs-bedr-items_GeneralCompanyCostsNotMentionedElsewhereProductTaxes_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_OtherGeneralCompanyCosts_loc" xlink:to="cbs-bedr-items_CompanyCostsOther_loc" order="9.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_Revenues_loc" xlink:to="cbs-bedr-items_SalesOwnMadeProducts_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_Revenues_loc" xlink:to="cbs-bedr-items_SalesServicesThirdParties_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_Revenues_loc" xlink:to="cbs-bedr-items_SalesWholeSaleAndOrRetail_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_ServicesByThirdPartiesCosts_loc" xlink:to="cbs-bedr-items_CostsForServicesByThirdPartiesICT_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_ServicesByThirdPartiesCosts_loc" xlink:to="cbs-bedr-items_ExpensesResearchAndDevelopment_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_ServicesByThirdPartiesCosts_loc" xlink:to="cbs-bedr-items_ServicesByThirdPartiesCostsOther_loc" order="4.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_StaffCostsOther_loc" xlink:to="cbs-bedr-items_PaymentsToOtherTemporaryWorkers_loc" order="3.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_StaffCostsOther_loc" xlink:to="cbs-bedr-items_StaffCostsAgencyWorkers_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_StaffCostsOther_loc" xlink:to="cbs-bedr-items_StaffCostsOtherRemunerationOfCommissioners_loc" order="1.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="nl-gen_CostsRawMaterialsConsumables_loc" xlink:to="cbs-bedr-items_PurchaseOfRawAndAuxiliaryMaterialsIncludingSingleUsePackaging_loc" order="2.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="nl-gen_CostsRawMaterialsConsumables_loc" xlink:to="cbs-bedr-items_RawAndAuxiliaryMaterialsAndSingleUsePackaging_loc" order="1.0" />
+  </link:presentationLink>
+</link:linkbase>

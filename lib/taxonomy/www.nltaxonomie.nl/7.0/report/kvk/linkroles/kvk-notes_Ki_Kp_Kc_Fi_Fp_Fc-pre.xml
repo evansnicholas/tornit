@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/notes" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_Notes" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/notes" xlink:type="extended">
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityWithheldPartResult" xlink:label="kvk-i_EquityWithheldPartResult_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_EquityClassesTitle" xlink:label="kvk-abstr_EquityClassesTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_EquityDisclosureTitle" xlink:label="kvk-abstr_EquityDisclosureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_EquityPolicyTitle" xlink:label="kvk-abstr_EquityPolicyTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_LegalStatutoryReservesDisclosureTitle" xlink:label="kvk-abstr_LegalStatutoryReservesDisclosureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-equity.xsd#kvk-dm-eqty_LegalStatutoryReservesMember" xlink:label="kvk-dm-eqty_LegalStatutoryReservesMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LegalStatutoryReservesDisclosure" xlink:label="nl-gen_LegalStatutoryReservesDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LegalStatutoryReservesPolicy" xlink:label="nl-gen_LegalStatutoryReservesPolicy_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityPolicyTitle_loc" xlink:to="nl-gen_LegalStatutoryReservesPolicy_loc" xlink:type="arc" order="207"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityClassesTitle_loc" xlink:to="kvk-dm-eqty_LegalStatutoryReservesMember_loc" xlink:type="arc" order="605"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityDisclosureTitle_loc" xlink:to="kvk-i_EquityWithheldPartResult_loc" xlink:type="arc" order="646"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LegalStatutoryReservesDisclosureTitle_loc" xlink:to="nl-gen_LegalStatutoryReservesDisclosure_loc" xlink:type="arc" order="703"/>
+	</link:presentationLink>
+</link:linkbase>

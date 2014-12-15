@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+This file has been updated per Quickfix procedure at 2013-03-11: bd-asl:TaxInterestCompensate has been included
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_vpb-service-berichten-aanslag" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_vpb-service-berichten-aanslag" xlink:type="simple"/>
+    <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_vpb-service-berichten-aanslag" xlink:type="extended">
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-asl-tuples.xsd#bd-asl-tuple_TaxData" xlink:label="bd-asl-tuple_TaxData_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../abstracts/bd-asl-abstracts.xsd#bd-asl-abstr_ServiceMessageCorporationTaxTitle" xlink:label="bd-asl-abstr_ServiceMessageCorporationTaxTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-tuple_TaxData_loc" xlink:to="bd-asl-abstr_ServiceMessageCorporationTaxTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-asl-abstracts.xsd#bd-asl-abstr_CalculationCorporationTaxTitle" xlink:label="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_MisdemeanourPenalty" xlink:label="bd-asl_MisdemeanourPenalty_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_MisdemeanourPenalty_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="14" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_MessageDetailsTitle" xlink:label="bd-abstr_MessageDetailsTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_ServiceMessageCorporationTaxTitle_loc" xlink:to="bd-abstr_MessageDetailsTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAppropriation" xlink:label="bd-asl_TaxAppropriation_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_MessageDetailsTitle_loc" xlink:to="bd-asl_TaxAppropriation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_NoticeOfAssessmentNumber" xlink:label="bd-asl_NoticeOfAssessmentNumber_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_MessageDetailsTitle_loc" xlink:to="bd-asl_NoticeOfAssessmentNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_NoticeOfAssessmentDate" xlink:label="bd-asl_NoticeOfAssessmentDate_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_MessageDetailsTitle_loc" xlink:to="bd-asl_NoticeOfAssessmentDate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_ServiceMessageCorporationTaxTitle_loc" xlink:to="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmountToBeReceivedToBePaidBalance" xlink:label="bd-asl_TaxAssessmentAmountToBeReceivedToBePaidBalance_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxAssessmentAmountToBeReceivedToBePaidBalance_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="20" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_NewEstablishedBalanceToBePaidToBeReceived" xlink:label="bd-asl_NewEstablishedBalanceToBePaidToBeReceived_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_NewEstablishedBalanceToBePaidToBeReceived_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="15" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmountAfterUseDiscountBalance" xlink:label="bd-asl_TaxAssessmentAmountAfterUseDiscountBalance_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxAssessmentAmountAfterUseDiscountBalance_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="23" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxBackDuty" xlink:label="bd-asl_TaxBackDuty_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxBackDuty_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_DiscountCorrection" xlink:label="bd-asl_DiscountCorrection_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_DiscountCorrection_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="22" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-asl-abstracts.xsd#bd-asl-abstr_TaxationElementProfitTitle" xlink:label="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_ServiceMessageCorporationTaxTitle_loc" xlink:to="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TaxableProfit" xlink:label="bd-bedr_TaxableProfit_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:to="bd-bedr_TaxableProfit_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_ProvisionalTaxAssessmentSettled" xlink:label="bd-asl_ProvisionalTaxAssessmentSettled_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_ProvisionalTaxAssessmentSettled_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_ProvisionalRefundSettled" xlink:label="bd-asl_ProvisionalRefundSettled_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_ProvisionalRefundSettled_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="17" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmount" xlink:label="bd-asl_TaxAssessmentAmount_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxAssessmentAmount_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxOnGamesOfChanceDividendTotal" xlink:label="bd-asl_TaxOnGamesOfChanceDividendTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_ServiceMessageCorporationTaxTitle_loc" xlink:to="bd-asl_TaxOnGamesOfChanceDividendTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_ProvisionalRefundInConnectionWithLossSettled" xlink:label="bd-asl_ProvisionalRefundInConnectionWithLossSettled_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_ProvisionalRefundInConnectionWithLossSettled_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentsOtherToBeBroughtTo" xlink:label="bd-asl_TaxAssessmentsOtherToBeBroughtTo_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxAssessmentsOtherToBeBroughtTo_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="10" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentToBeBroughtTo" xlink:label="bd-asl_TaxAssessmentToBeBroughtTo_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxAssessmentToBeBroughtTo_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="11" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxRefundLossSetOffTotal" xlink:label="bd-asl_TaxRefundLossSetOffTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxRefundLossSetOffTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="9" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmountToBeSettledlToBeReceived" xlink:label="bd-asl_TaxAssessmentAmountToBeSettledlToBeReceived_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxAssessmentAmountToBeSettledlToBeReceived_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FiscalYear" xlink:label="bd-bedr_FiscalYear_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_MessageDetailsTitle_loc" xlink:to="bd-bedr_FiscalYear_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_NoticeOfAssessmentPeriod" xlink:label="bd-asl_NoticeOfAssessmentPeriod_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_MessageDetailsTitle_loc" xlink:to="bd-asl_NoticeOfAssessmentPeriod_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_MessageTypeProfileCorporationTaxAssessment" xlink:label="bd-asl_MessageTypeProfileCorporationTaxAssessment_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_MessageDetailsTitle_loc" xlink:to="bd-asl_MessageTypeProfileCorporationTaxAssessment_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_MessageTypeProfileCorporationTaxDecrease" xlink:label="bd-asl_MessageTypeProfileCorporationTaxDecrease_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_MessageDetailsTitle_loc" xlink:to="bd-asl_MessageTypeProfileCorporationTaxDecrease_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_DiscountPaymentAtOnce" xlink:label="bd-asl_DiscountPaymentAtOnce_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_DiscountPaymentAtOnce_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="21" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxBalanceAfterDeduction" xlink:label="bd-asl_TaxBalanceAfterDeduction_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxBalanceAfterDeduction_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxBalanceBeforeDeduction" xlink:label="bd-asl_TaxBalanceBeforeDeduction_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxBalanceBeforeDeduction_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAfterBackwardShiftingLossOtherYear" xlink:label="bd-asl_TaxAfterBackwardShiftingLossOtherYear_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxAfterBackwardShiftingLossOtherYear_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="13" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxBeforeBackwardShiftingLossOtherYear" xlink:label="bd-asl_TaxBeforeBackwardShiftingLossOtherYear_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxBeforeBackwardShiftingLossOtherYear_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="12" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmountToBePaidToBeReceivedPreviouslyEstablished" xlink:label="bd-asl_TaxAssessmentAmountToBePaidToBeReceivedPreviouslyEstablished_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxAssessmentAmountToBePaidToBeReceivedPreviouslyEstablished_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="16" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_PreviouslyProvisionalTaxNoticeToBeSettledInDeductionProvisionalTax" xlink:label="bd-asl_PreviouslyProvisionalTaxNoticeToBeSettledInDeductionProvisionalTax_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_PreviouslyProvisionalTaxNoticeToBeSettledInDeductionProvisionalTax_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-asl-abstracts.xsd#bd-asl-abstr_CorporationTaxSpecificationsTitle" xlink:label="bd-asl-abstr_CorporationTaxSpecificationsTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_ServiceMessageCorporationTaxTitle_loc" xlink:to="bd-asl-abstr_CorporationTaxSpecificationsTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-asl-abstracts.xsd#bd-asl-abstr_LossSettledCorporationTaxTitle" xlink:label="bd-asl-abstr_LossSettledCorporationTaxTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CorporationTaxSpecificationsTitle_loc" xlink:to="bd-asl-abstr_LossSettledCorporationTaxTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_FinancialYearBackwardShiftingLoss" xlink:label="bd-asl_FinancialYearBackwardShiftingLoss_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_LossSettledCorporationTaxTitle_loc" xlink:to="bd-asl_FinancialYearBackwardShiftingLoss_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_FiscalLossesAfterSettledThisFinancialYearBalance" xlink:label="bd-asl_FiscalLossesAfterSettledThisFinancialYearBalance_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_LossSettledCorporationTaxTitle_loc" xlink:to="bd-asl_FiscalLossesAfterSettledThisFinancialYearBalance_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_QualificationTaxableProfitClaimsAndDebtsBalanceEntitiesAffiliatedWithTaxpayer" xlink:label="bd-bedr_QualificationTaxableProfitClaimsAndDebtsBalanceEntitiesAffiliatedWithTaxpayer_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_LossSettledCorporationTaxTitle_loc" xlink:to="bd-bedr_QualificationTaxableProfitClaimsAndDebtsBalanceEntitiesAffiliatedWithTaxpayer_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_InnovationBoxBalanceThresholdEndFinancialYear" xlink:label="bd-bedr_InnovationBoxBalanceThresholdEndFinancialYear_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CorporationTaxSpecificationsTitle_loc" xlink:to="bd-bedr_InnovationBoxBalanceThresholdEndFinancialYear_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ParticipatingInterestSetoffToTransferToNextYear" xlink:label="bd-bedr_ParticipatingInterestSetoffToTransferToNextYear_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CorporationTaxSpecificationsTitle_loc" xlink:to="bd-bedr_ParticipatingInterestSetoffToTransferToNextYear_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ForeignBusinessProfitSettledToTransfer" xlink:label="bd-bedr_ForeignBusinessProfitSettledToTransfer_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CorporationTaxSpecificationsTitle_loc" xlink:to="bd-bedr_ForeignBusinessProfitSettledToTransfer_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_DeferredMisdemeanorPenaltyIndication" xlink:label="bd-asl_DeferredMisdemeanorPenaltyIndication_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CorporationTaxSpecificationsTitle_loc" xlink:to="bd-asl_DeferredMisdemeanorPenaltyIndication_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxInterest" xlink:label="bd-asl_TaxInterest_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxInterest_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="18" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TaxForeignBusinessProfitSettled" xlink:label="bd-bedr_TaxForeignBusinessProfitSettled_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:to="bd-bedr_TaxForeignBusinessProfitSettled_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-asl-abstracts.xsd#bd-asl-abstr_FunctionalCurrencyOrderTitle" xlink:label="bd-asl-abstr_FunctionalCurrencyOrderTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FunctionalCurrencySchemeCurrencyFactor" xlink:label="bd-bedr_FunctionalCurrencySchemeCurrencyFactor_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_FunctionalCurrencyOrderTitle_loc" xlink:to="bd-bedr_FunctionalCurrencySchemeCurrencyFactor_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ExchangeRateFinancialYearFunctionalCurrencySchemeAverage" xlink:label="bd-bedr_ExchangeRateFinancialYearFunctionalCurrencySchemeAverage_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_FunctionalCurrencyOrderTitle_loc" xlink:to="bd-bedr_ExchangeRateFinancialYearFunctionalCurrencySchemeAverage_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_FunctionalCurrencyOrEURApplied" xlink:label="bd-asl_FunctionalCurrencyOrEURApplied_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_FunctionalCurrencyOrderTitle_loc" xlink:to="bd-asl_FunctionalCurrencyOrEURApplied_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-asl-tuples.xsd#bd-asl-tuple_NameAddressSenderSpecification" xlink:label="bd-asl-tuple_NameAddressSenderSpecification_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_MessageDetailsTitle_loc" xlink:to="bd-asl-tuple_NameAddressSenderSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="8" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_NameAddressSender" xlink:label="bd-asl_NameAddressSender_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-tuple_NameAddressSenderSpecification_loc" xlink:to="bd-asl_NameAddressSender_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PostalCodeNL" xlink:label="nl-cd_PostalCodeNL_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-tuple_NameAddressSenderSpecification_loc" xlink:to="nl-cd_PostalCodeNL_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_NameAddressTaxpayer" xlink:label="bd-asl_NameAddressTaxpayer_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_MessageDetailsTitle_loc" xlink:to="bd-asl_NameAddressTaxpayer_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="9" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_SurchargeNotAdequateNoticeTaxReturn" xlink:label="bd-asl_SurchargeNotAdequateNoticeTaxReturn_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_ServiceMessageCorporationTaxTitle_loc" xlink:to="bd-asl_SurchargeNotAdequateNoticeTaxReturn_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TaxableAmountBaseForTaxCalculation" xlink:label="bd-bedr_TaxableAmountBaseForTaxCalculation_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:to="bd-bedr_TaxableAmountBaseForTaxCalculation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ParticipatingInterestSettled" xlink:label="bd-bedr_ParticipatingInterestSettled_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:to="bd-bedr_ParticipatingInterestSettled_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_DeductionSubjectToTaxElsewhereTotal" xlink:label="bd-bedr_DeductionSubjectToTaxElsewhereTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:to="bd-bedr_DeductionSubjectToTaxElsewhereTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TaxAmountElsewhereTaxedBalance" xlink:label="bd-bedr_TaxAmountElsewhereTaxedBalance_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:to="bd-bedr_TaxAmountElsewhereTaxedBalance_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LossesToBeSetOffThisYearTotal" xlink:label="bd-bedr_LossesToBeSetOffThisYearTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:to="bd-bedr_LossesToBeSetOffThisYearTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CorporationTaxTaxableTotalAmount" xlink:label="bd-bedr_CorporationTaxTaxableTotalAmount_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_TaxationElementProfitTitle_loc" xlink:to="bd-bedr_CorporationTaxTaxableTotalAmount_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CorporationTaxSpecificationsTitle_loc" xlink:to="bd-asl-abstr_FunctionalCurrencyOrderTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxInterestCompensate" xlink:label="bd-asl_TaxInterestCompensate_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-asl-abstr_CalculationCorporationTaxTitle_loc" xlink:to="bd-asl_TaxInterestCompensate_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="19" xlink:type="arc"/>
+    </link:presentationLink>
+</link:linkbase>

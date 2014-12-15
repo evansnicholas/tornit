@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd" xmlns:label="http://xbrl.org/2008/label" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gen="http://xbrl.org/2008/generic">
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple"/>
+    <gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_buitenlandse-resultaten-vpb-specifiek" xlink:label="bd-lr-pre_buitenlandse-resultaten-vpb-specifiek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_buitenlandse-resultaten-vpb-specifiek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_25">Specificatie Buitenlandse Resultaten specifiek VpB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_buitenlandse-resultaten-vpb-specifiek_loc" xlink:to="bd-links_buitenlandse-resultaten-vpb-specifiek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_balans-resultatenrekening-ib-specifiek" xlink:label="bd-lr-pre_balans-resultatenrekening-ib-specifiek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_balans-resultatenrekening-ib-specifiek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_26">Balans en Resultatenrekening specifiek IB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_balans-resultatenrekening-ib-specifiek_loc" xlink:to="bd-links_balans-resultatenrekening-ib-specifiek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_balans-resultatenrekening-vpb-specifiek" xlink:label="bd-lr-pre_balans-resultatenrekening-vpb-specifiek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_balans-resultatenrekening-vpb-specifiek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_27">Balans en Resultatenrekening specifiek VpB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_balans-resultatenrekening-vpb-specifiek_loc" xlink:to="bd-links_balans-resultatenrekening-vpb-specifiek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_investeringsaftrek" xlink:label="bd-lr-pre_investeringsaftrek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_investeringsaftrek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_29">Specificatie investeringsaftrek</label:label>
+        <gen:arc xlink:from="bd-lr-pre_investeringsaftrek_loc" xlink:to="bd-links_investeringsaftrek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_opgaaf-intracommunautaire-prestaties" xlink:label="bd-lr-pre_opgaaf-intracommunautaire-prestaties_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_opgaaf-intracommunautaire-prestaties_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_31">Opgaaf Intracommunautaire Prestaties</label:label>
+        <gen:arc xlink:from="bd-lr-pre_opgaaf-intracommunautaire-prestaties_loc" xlink:to="bd-links_opgaaf-intracommunautaire-prestaties_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_aangifte-omzetbelasting" xlink:label="bd-lr-pre_aangifte-omzetbelasting_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_aangifte-omzetbelasting_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_33">Aangifte Omzetbelasting</label:label>
+        <gen:arc xlink:from="bd-lr-pre_aangifte-omzetbelasting_loc" xlink:to="bd-links_aangifte-omzetbelasting_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_aangifte-inkomstenbelasting" xlink:label="bd-lr-pre_aangifte-inkomstenbelasting_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_aangifte-inkomstenbelasting_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_34">Aangifte Inkomstenbelasting</label:label>
+        <gen:arc xlink:from="bd-lr-pre_aangifte-inkomstenbelasting_loc" xlink:to="bd-links_aangifte-inkomstenbelasting_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_voorblad" xlink:label="bd-lr-pre_voorblad_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_voorblad_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_35">Algemene gegevens Identificatie</label:label>
+        <gen:arc xlink:from="bd-lr-pre_voorblad_loc" xlink:to="bd-links_voorblad_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_algemeen-deel" xlink:label="bd-lr-pre_algemeen-deel_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_algemeen-deel_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_36">Algemeen deel</label:label>
+        <gen:arc xlink:from="bd-lr-pre_algemeen-deel_loc" xlink:to="bd-links_algemeen-deel_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_specificaties-vpb-specifiek" xlink:label="bd-lr-pre_specificaties-vpb-specifiek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_specificaties-vpb-specifiek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_37">Specificaties VpB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_specificaties-vpb-specifiek_loc" xlink:to="bd-links_specificaties-vpb-specifiek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_hlfo-activiteiten" xlink:label="bd-lr-pre_hlfo-activiteiten_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_hlfo-activiteiten_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_39">Specificatie Houdster-Licentie-Financiering-Overige activiteiten</label:label>
+        <gen:arc xlink:from="bd-lr-pre_hlfo-activiteiten_loc" xlink:to="bd-links_hlfo-activiteiten_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_voorblad-vpb-specifiek" xlink:label="bd-lr-pre_voorblad-vpb-specifiek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_voorblad-vpb-specifiek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_43">Algemene gegevens specifiek VpB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_voorblad-vpb-specifiek_loc" xlink:to="bd-links_voorblad-vpb-specifiek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_winstberekening-ib-specifiek" xlink:label="bd-lr-pre_winstberekening-ib-specifiek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_winstberekening-ib-specifiek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_45">Fiscale Winstberekening specifiek IB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_winstberekening-ib-specifiek_loc" xlink:to="bd-links_winstberekening-ib-specifiek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_winstberekening-vpb-specifiek" xlink:label="bd-lr-pre_winstberekening-vpb-specifiek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_winstberekening-vpb-specifiek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_46">Fiscale Winstberekening specifiek VpB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_winstberekening-vpb-specifiek_loc" xlink:to="bd-links_winstberekening-vpb-specifiek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_winst-uit-zeescheepvaart" xlink:label="bd-lr-pre_winst-uit-zeescheepvaart_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_winst-uit-zeescheepvaart_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_47">Specificatie Winst uit Zeescheepvaart</label:label>
+        <gen:arc xlink:from="bd-lr-pre_winst-uit-zeescheepvaart_loc" xlink:to="bd-links_winst-uit-zeescheepvaart_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_aandeelhouders" xlink:label="bd-lr-pre_aandeelhouders_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_aandeelhouders_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_51">Specificatie Aandeelhouders</label:label>
+        <gen:arc xlink:from="bd-lr-pre_aandeelhouders_loc" xlink:to="bd-links_aandeelhouders_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_balans-resultatenrekening" xlink:label="bd-lr-pre_balans-resultatenrekening_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_balans-resultatenrekening_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_52">Balans en Resultatenrekening</label:label>
+        <gen:arc xlink:from="bd-lr-pre_balans-resultatenrekening_loc" xlink:to="bd-links_balans-resultatenrekening_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_buitenlandse-resultaten" xlink:label="bd-lr-pre_buitenlandse-resultaten_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_buitenlandse-resultaten_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_53">Specificatie Buitenlandse Resultaten</label:label>
+        <gen:arc xlink:from="bd-lr-pre_buitenlandse-resultaten_loc" xlink:to="bd-links_buitenlandse-resultaten_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_winstberekening" xlink:label="bd-lr-pre_winstberekening_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_winstberekening_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_54">Fiscale Winstberekening</label:label>
+        <gen:arc xlink:from="bd-lr-pre_winstberekening_loc" xlink:to="bd-links_winstberekening_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_voorblad-ib-specifiek" xlink:label="bd-lr-pre_voorblad-ib-specifiek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_voorblad-ib-specifiek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_55">Algemene gegevens Identificatie specifiek IB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_voorblad-ib-specifiek_loc" xlink:to="bd-links_voorblad-ib-specifiek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_deelnemingen" xlink:label="bd-lr-pre_deelnemingen_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_deelnemingen_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_56">Specificatie Deelnemingen</label:label>
+        <gen:arc xlink:from="bd-lr-pre_deelnemingen_loc" xlink:to="bd-links_deelnemingen_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_fiscale-eenheid" xlink:label="bd-lr-pre_fiscale-eenheid_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_fiscale-eenheid_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_57">Specificatie Fiscale Eenheid</label:label>
+        <gen:arc xlink:from="bd-lr-pre_fiscale-eenheid_loc" xlink:to="bd-links_fiscale-eenheid_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_innovatiebox" xlink:label="bd-lr-pre_innovatiebox_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_innovatiebox_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_59">Innovatiebox</label:label>
+        <gen:arc xlink:from="bd-lr-pre_innovatiebox_loc" xlink:to="bd-links_innovatiebox_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_toelichting-ib" xlink:label="bd-lr-pre_toelichting-ib_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_toelichting-ib_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_64">Toelichting op de aangifte IB (nietwinst)</label:label>
+        <gen:arc xlink:from="bd-lr-pre_toelichting-ib_loc" xlink:to="bd-links_toelichting-ib_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_agrarische-activiteiten" xlink:label="bd-lr-pre_agrarische-activiteiten_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_agrarische-activiteiten_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_139">Specificatie agrarische activiteiten</label:label>
+        <gen:arc xlink:from="bd-lr-pre_agrarische-activiteiten_loc" xlink:to="bd-links_agrarische-activiteiten_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_uitstelregeling-aangifte" xlink:label="bd-lr-pre_uitstelregeling-aangifte_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_uitstelregeling-aangifte_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_143">Verzoek om uitstel van de aangifte</label:label>
+        <gen:arc xlink:from="bd-lr-pre_uitstelregeling-aangifte_loc" xlink:to="bd-links_uitstelregeling-aangifte_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_aanwijsposten" xlink:label="bd-lr-pre_aanwijsposten_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_aanwijsposten_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_144">Aanwijsposten in verband met uitstelregeling</label:label>
+        <gen:arc xlink:from="bd-lr-pre_aanwijsposten_loc" xlink:to="bd-links_aanwijsposten_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_vpb-service-berichten-aanslag" xlink:label="bd-lr-pre_vpb-service-berichten-aanslag_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_vpb-service-berichten-aanslag_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_146">Service berichten aanslag VPB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_vpb-service-berichten-aanslag_loc" xlink:to="bd-links_vpb-service-berichten-aanslag_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_ih-service-berichten-aanslag" xlink:label="bd-lr-pre_ih-service-berichten-aanslag_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_ih-service-berichten-aanslag_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_148">Service berichten aanslag IH</label:label>
+        <gen:arc xlink:from="bd-lr-pre_ih-service-berichten-aanslag_loc" xlink:to="bd-links_ih-service-berichten-aanslag_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_zvw-service-berichten-aanslag" xlink:label="bd-lr-pre_zvw-service-berichten-aanslag_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_zvw-service-berichten-aanslag_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_149">Service berichten ZVW</label:label>
+        <gen:arc xlink:from="bd-lr-pre_zvw-service-berichten-aanslag_loc" xlink:to="bd-links_zvw-service-berichten-aanslag_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_objectvrijstelling" xlink:label="bd-lr-pre_objectvrijstelling_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_objectvrijstelling_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_150">Objectvrijstelling</label:label>
+        <gen:arc xlink:from="bd-lr-pre_objectvrijstelling_loc" xlink:to="bd-links_objectvrijstelling_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_buitenlandse-resultaten-ib-specifiek" xlink:label="bd-lr-pre_buitenlandse-resultaten-ib-specifiek_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_buitenlandse-resultaten-ib-specifiek_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_151">Specificatie Buitenlandse Resultaten specifiek ib</label:label>
+        <gen:arc xlink:from="bd-lr-pre_buitenlandse-resultaten-ib-specifiek_loc" xlink:to="bd-links_buitenlandse-resultaten-ib-specifiek_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_ob-service-berichten-aanslag" xlink:label="bd-lr-pre_ob-service-berichten-aanslag_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_ob-service-berichten-aanslag_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_152">Service berichten aanslag OB</label:label>
+        <gen:arc xlink:from="bd-lr-pre_ob-service-berichten-aanslag_loc" xlink:to="bd-links_ob-service-berichten-aanslag_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_toeslagen" xlink:label="bd-lr-pre_toeslagen_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_toeslagen_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_153">Toeslagen</label:label>
+        <gen:arc xlink:from="bd-lr-pre_toeslagen_loc" xlink:to="bd-links_toeslagen_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_uitsluitend-zakelijk-gebruik-bestelauto" xlink:label="bd-lr-pre_uitsluitend-zakelijk-gebruik-bestelauto_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_uitsluitend-zakelijk-gebruik-bestelauto_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_157">Uitsluitend zakelijk gebruik bestelauto</label:label>
+        <gen:arc xlink:from="bd-lr-pre_uitsluitend-zakelijk-gebruik-bestelauto_loc" xlink:to="bd-links_uitsluitend-zakelijk-gebruik-bestelauto_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_suppletie-omzetbelasting" xlink:label="bd-lr-pre_suppletie-omzetbelasting_loc" xlink:type="locator"/>
+        <label:label xlink:label="bd-links_suppletie-omzetbelasting_label-nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_158">Suppletie omzetbelasting</label:label>
+        <gen:arc xlink:from="bd-lr-pre_suppletie-omzetbelasting_loc" xlink:to="bd-links_suppletie-omzetbelasting_label-nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+    </gen:link>
+</link:linkbase>

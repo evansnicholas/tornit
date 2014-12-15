@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/management-report" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_ManagementReport" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/management-report" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ManagementReportTitle" xlink:label="kvk-abstr_ManagementReportTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ManagementReportLocationReference" xlink:label="kvk-i_ManagementReportLocationReference_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GeneralInformationManagementReport" xlink:label="kvk-i_GeneralInformationManagementReport_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialInformation" xlink:label="kvk-i_FinancialInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RisksAndUncertaintiesInformation" xlink:label="kvk-i_RisksAndUncertaintiesInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialInstrumentsInformation" xlink:label="kvk-i_FinancialInstrumentsInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ResearchAndDevelopmentInformation" xlink:label="kvk-i_ResearchAndDevelopmentInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_CorporateSocialResponsibilityInformation" xlink:label="kvk-i_CorporateSocialResponsibilityInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_CodeOfConductInformation" xlink:label="kvk-i_CodeOfConductInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RemunerationManagementInformation" xlink:label="kvk-i_RemunerationManagementInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_InformationOtherManagementReport" xlink:label="kvk-i_InformationOtherManagementReport_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FutureBusinessDevelopmentsInformation" xlink:label="kvk-i_FutureBusinessDevelopmentsInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_SignatureManagementReportTitle" xlink:label="kvk-abstr_SignatureManagementReportTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SignatureManagementReportLocation" xlink:label="kvk-i_SignatureManagementReportLocation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SignatureManagementReportDate" xlink:label="kvk-i_SignatureManagementReportDate_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../domein/kvk/tuples/kvk-tuples.xsd#kvk-t_SignatureManagementReportSpecification" xlink:label="kvk-t_SignatureManagementReportSpecification_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_FamilyName" xlink:label="nl-cd_FamilyName_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_FirstName" xlink:label="nl-cd_FirstName_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_OrganisationName" xlink:label="kvk-i_OrganisationName_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_ManagementReportLocationReference_loc" xlink:type="arc" order="1"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_GeneralInformationManagementReport_loc" xlink:type="arc" order="2" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_FinancialInformation_loc" xlink:type="arc" order="3"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_RisksAndUncertaintiesInformation_loc" xlink:type="arc" order="4"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_FinancialInstrumentsInformation_loc" xlink:type="arc" order="5"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_ResearchAndDevelopmentInformation_loc" xlink:type="arc" order="6"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_CorporateSocialResponsibilityInformation_loc" xlink:type="arc" order="7"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_CodeOfConductInformation_loc" xlink:type="arc" order="8"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_RemunerationManagementInformation_loc" xlink:type="arc" order="9"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_InformationOtherManagementReport_loc" xlink:type="arc" order="10" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-i_FutureBusinessDevelopmentsInformation_loc" xlink:type="arc" order="11"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ManagementReportTitle_loc" xlink:to="kvk-abstr_SignatureManagementReportTitle_loc" xlink:type="arc" order="12"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_SignatureManagementReportTitle_loc" xlink:to="kvk-i_SignatureManagementReportLocation_loc" xlink:type="arc" order="13"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_SignatureManagementReportTitle_loc" xlink:to="kvk-i_SignatureManagementReportDate_loc" xlink:type="arc" order="14"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_SignatureManagementReportTitle_loc" xlink:to="kvk-t_SignatureManagementReportSpecification_loc" xlink:type="arc" order="15"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SignatureManagementReportSpecification_loc" xlink:to="nl-cd_FirstName_loc" xlink:type="arc" order="16" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SignatureManagementReportSpecification_loc" xlink:to="nl-cd_FamilyName_loc" xlink:type="arc" order="17" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_SignatureManagementReportSpecification_loc" xlink:to="kvk-i_OrganisationName_loc" xlink:type="arc" order="18"/>
+	</link:presentationLink>
+</link:linkbase>

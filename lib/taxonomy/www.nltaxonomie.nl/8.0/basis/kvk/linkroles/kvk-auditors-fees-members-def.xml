@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:kvk:linkrole:auditors-fees-domain" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_AuditorsFeesDomain" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:definitionLink xlink:role="urn:kvk:linkrole:auditors-fees-domain" xlink:type="extended">
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-auditors-fees.xsd#rj-dm-auf_AuditorsFeesDomain" xlink:label="rj-dm-auf_AuditorsFeesDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-auditors-fees.xsd#rj-dm-auf_AuditorsFeesExternalAuditorAccountingFirmMember" xlink:label="rj-dm-auf_AuditorsFeesExternalAuditorAccountingFirmMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-auditors-fees.xsd#rj-dm-auf_AuditorsFeesNetworkOrganisationsMember" xlink:label="rj-dm-auf_AuditorsFeesNetworkOrganisationsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-auditors-fees.xsd#rj-dm-auf_AuditorsFeesTotalMember" xlink:label="rj-dm-auf_AuditorsFeesTotalMember_loc" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="rj-dm-auf_AuditorsFeesDomain_loc" xlink:to="rj-dm-auf_AuditorsFeesExternalAuditorAccountingFirmMember_loc" order="1" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="rj-dm-auf_AuditorsFeesDomain_loc" xlink:to="rj-dm-auf_AuditorsFeesNetworkOrganisationsMember_loc" order="2" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="rj-dm-auf_AuditorsFeesDomain_loc" xlink:to="rj-dm-auf_AuditorsFeesTotalMember_loc" order="3" xlink:type="arc"/>
+  </link:definitionLink>
+</link:linkbase>

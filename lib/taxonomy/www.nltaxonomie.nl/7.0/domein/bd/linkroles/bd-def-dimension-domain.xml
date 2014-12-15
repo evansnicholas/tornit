@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-TC-PS" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PS" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-TC-PS" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PS" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-TC-PC" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PC" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-TC-PP" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PP" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-TC-PD" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PD" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-TC-PDHS" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PDHS" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-TC-PDP" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PDP" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-TCP-PC" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PC" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-TCP-PD" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PD" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-TCP-PDHS" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PDHS" xlink:type="simple"/>
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PS" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PS" xlink:type="arc"/>
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PS" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-TC-PC" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PC" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PC" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PC" xlink:type="arc"/>
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PC" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-TC-PP" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PP" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PP" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PP" xlink:type="arc"/>
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PP" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-TC-PD" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PD" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PD" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PD" xlink:type="arc"/>
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PD" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-TC-PDHS" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PDHS" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PDHS" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PDHS" xlink:type="arc"/>
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PDHS" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-TC-PDP" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PDP" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PDP" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PDP" xlink:type="arc"/>
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PDP" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-TCP-PC" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TCP-PC" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TCP-PC" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PC" xlink:type="arc"/>
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PC" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-TCP-PD" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TCP-PD" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TCP-PD" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PD" xlink:type="arc"/>
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PD" xlink:type="arc"/>
+	</link:definitionLink>
+    <link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-TCP-PDHS" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TCP-PDHS" xlink:type="simple"/>
+    <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TCP-PDHS" xlink:type="extended">
+        <link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PDHS" xlink:type="arc"/>
+        <link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PDHS" xlink:type="arc"/>
+    </link:definitionLink>
+</link:linkbase>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+	<link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/financial-statements-type-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_FinancialStatementsTypeTable" xlink:type="simple"/>
+   <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/financial-statements-type-table" xlink:type="extended">
+		<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_FinancialStatementsTypeLineItems" xlink:label="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_FinancialAssets" xlink:label="nl-gen_FinancialAssets_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ResultForTheYear" xlink:label="kvk-i_ResultForTheYear_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_AverageNumberEmployees" xlink:label="kvk-i_AverageNumberEmployees_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_AverageNumberEmployeesAbroad" xlink:label="kvk-i_AverageNumberEmployeesAbroad_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_AverageNumberEmployeesDisclosure" xlink:label="kvk-i_AverageNumberEmployeesDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_AverageNumberEmployeesNetherlands" xlink:label="kvk-i_AverageNumberEmployeesNetherlands_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ContingentLiabilitiesDisclosure" xlink:label="kvk-i_ContingentLiabilitiesDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityAccumulatedLosses" xlink:label="kvk-i_EntityAccumulatedLosses_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityDateLastFinancialStatements" xlink:label="kvk-i_EntityDateLastFinancialStatements_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityEquityLastFinancialStatements" xlink:label="kvk-i_EntityEquityLastFinancialStatements_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityInterestInShareCapital" xlink:label="kvk-i_EntityInterestInShareCapital_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityInterestInVotingRights" xlink:label="kvk-i_EntityInterestInVotingRights_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityLiabilityDisclosure" xlink:label="kvk-i_EntityLiabilityDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityLocation" xlink:label="kvk-i_EntityLocation_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityName" xlink:label="kvk-i_EntityName_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityReasonDeviationNetAssetValue" xlink:label="kvk-i_EntityReasonDeviationNetAssetValue_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityReasonNonConsolidation" xlink:label="kvk-i_EntityReasonNonConsolidation_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityResultsLastFinancialStatements" xlink:label="kvk-i_EntityResultsLastFinancialStatements_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_LoansAdvancesGuaranteesOnBehalfOfDirectorsDisclosure" xlink:label="kvk-i_LoansAdvancesGuaranteesOnBehalfOfDirectorsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ParticipatingInterestsDisclosure" xlink:label="kvk-i_ParticipatingInterestsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RemunerationManagingSupervisoryDirectorsDisclosure" xlink:label="kvk-i_RemunerationManagingSupervisoryDirectorsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RemunerationManagingSupervisoryDirectorsExemptionDescription" xlink:label="kvk-i_RemunerationManagingSupervisoryDirectorsExemptionDescription_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ResultForTheYearDisclosure" xlink:label="kvk-i_ResultForTheYearDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ShareCapitalIssued" xlink:label="kvk-i_ShareCapitalIssued_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ShareCapitalPaid" xlink:label="kvk-i_ShareCapitalPaid_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ShareCapitalPaidCalledUp" xlink:label="kvk-i_ShareCapitalPaidCalledUp_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SignatureManagingSupervisoryDirectorsDate" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsDate_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SignatureManagingSupervisoryDirectorsDisclosure" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SignatureManagingSupervisoryDirectorsLocation" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsLocation_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Assets" xlink:label="nl-gen_Assets_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_AssetsCurrent" xlink:label="nl-gen_AssetsCurrent_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_AssetsNoncurrent" xlink:label="nl-gen_AssetsNoncurrent_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_BalanceSheetBeforeAfterAppropriationResults" xlink:label="nl-gen_BalanceSheetBeforeAfterAppropriationResults_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CashAndCashEquivalents" xlink:label="nl-gen_CashAndCashEquivalents_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CashAndCashEquivalentsDisclosure" xlink:label="nl-gen_CashAndCashEquivalentsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Equity" xlink:label="nl-gen_Equity_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_EquityAndLiabilities" xlink:label="nl-gen_EquityAndLiabilities_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_EquityDisclosure" xlink:label="nl-gen_EquityDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_FinancialAssetsDisclosure" xlink:label="nl-gen_FinancialAssetsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IntangibleAssets" xlink:label="nl-gen_IntangibleAssets_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IntangibleAssetsDisclosure" xlink:label="nl-gen_IntangibleAssetsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Inventories" xlink:label="nl-gen_Inventories_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_InventoriesDisclosure" xlink:label="nl-gen_InventoriesDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LiabilitiesCurrent" xlink:label="nl-gen_LiabilitiesCurrent_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LiabilitiesCurrentDisclosure" xlink:label="nl-gen_LiabilitiesCurrentDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LiabilitiesNoncurrent" xlink:label="nl-gen_LiabilitiesNoncurrent_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LiabilitiesNoncurrentDisclosure" xlink:label="nl-gen_LiabilitiesNoncurrentDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PropertyPlantEquipment" xlink:label="nl-gen_PropertyPlantEquipment_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PropertyPlantEquipmentDisclosure" xlink:label="nl-gen_PropertyPlantEquipmentDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Provisions" xlink:label="nl-gen_Provisions_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ProvisionsDisclosure" xlink:label="nl-gen_ProvisionsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Receivables" xlink:label="nl-gen_Receivables_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesDisclosure" xlink:label="nl-gen_ReceivablesDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReservesOther" xlink:label="nl-gen_ReservesOther_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReservesOtherDisclosure" xlink:label="nl-gen_ReservesOtherDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_RetainedEarnings" xlink:label="nl-gen_RetainedEarnings_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_RetainedEarningsDisclosure" xlink:label="nl-gen_RetainedEarningsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_RevaluationReserve" xlink:label="nl-gen_RevaluationReserve_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_RevaluationReserveDisclosure" xlink:label="nl-gen_RevaluationReserveDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Securities" xlink:label="nl-gen_Securities_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SecuritiesDisclosure" xlink:label="nl-gen_SecuritiesDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ShareCapital" xlink:label="nl-gen_ShareCapital_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ShareCapitalDisclosure" xlink:label="nl-gen_ShareCapitalDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SharePremium" xlink:label="nl-gen_SharePremium_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SharePremiumDisclosure" xlink:label="nl-gen_SharePremiumDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ConstructionContractsAssets" xlink:label="kvk-i_ConstructionContractsAssets_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ConstructionContractsDisclosure" xlink:label="kvk-i_ConstructionContractsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxExpenseDisclosure" xlink:label="kvk-i_IncomeTaxExpenseDisclosure_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_FinancialAssets_loc" order="661" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_ResultForTheYear_loc" order="662" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_AverageNumberEmployees_loc" order="663" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_AverageNumberEmployeesAbroad_loc" order="664" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_AverageNumberEmployeesDisclosure_loc" order="665" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_AverageNumberEmployeesNetherlands_loc" order="666" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_ContingentLiabilitiesDisclosure_loc" order="667" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityAccumulatedLosses_loc" order="671" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityDateLastFinancialStatements_loc" order="672" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityEquityLastFinancialStatements_loc" order="673" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityInterestInShareCapital_loc" order="674" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityInterestInVotingRights_loc" order="675" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityLiabilityDisclosure_loc" order="676" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityLocation_loc" order="677" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityName_loc" order="678" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityReasonDeviationNetAssetValue_loc" order="679" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityReasonNonConsolidation_loc" order="680" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_EntityResultsLastFinancialStatements_loc" order="681" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_LoansAdvancesGuaranteesOnBehalfOfDirectorsDisclosure_loc" order="682" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_ParticipatingInterestsDisclosure_loc" order="683" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_RemunerationManagingSupervisoryDirectorsDisclosure_loc" order="684" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_RemunerationManagingSupervisoryDirectorsExemptionDescription_loc" order="685" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_ResultForTheYearDisclosure_loc" order="686" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_ShareCapitalIssued_loc" order="687" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_ShareCapitalPaid_loc" order="688" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_ShareCapitalPaidCalledUp_loc" order="689" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_SignatureManagingSupervisoryDirectorsDate_loc" order="690" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_SignatureManagingSupervisoryDirectorsDisclosure_loc" order="691" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_SignatureManagingSupervisoryDirectorsLocation_loc" order="692" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_Assets_loc" order="692" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_AssetsCurrent_loc" order="693" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_AssetsNoncurrent_loc" order="694" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_BalanceSheetBeforeAfterAppropriationResults_loc" order="695" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_CashAndCashEquivalents_loc" order="697" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_CashAndCashEquivalentsDisclosure_loc" order="698" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_Equity_loc" order="699" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_EquityAndLiabilities_loc" order="700" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_EquityDisclosure_loc" order="701" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_FinancialAssetsDisclosure_loc" order="702" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_IntangibleAssets_loc" order="703" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_IntangibleAssetsDisclosure_loc" order="704" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_Inventories_loc" order="705" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_InventoriesDisclosure_loc" order="706" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_LiabilitiesCurrent_loc" order="707" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_LiabilitiesCurrentDisclosure_loc" order="708" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_LiabilitiesNoncurrent_loc" order="709" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_LiabilitiesNoncurrentDisclosure_loc" order="710" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_PropertyPlantEquipment_loc" order="711" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_PropertyPlantEquipmentDisclosure_loc" order="712" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_Provisions_loc" order="713" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_ProvisionsDisclosure_loc" order="714" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_Receivables_loc" order="715" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_ReceivablesDisclosure_loc" order="716" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_ReservesOther_loc" order="717" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_ReservesOtherDisclosure_loc" order="718" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_RetainedEarnings_loc" order="719" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_RetainedEarningsDisclosure_loc" order="720" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_RevaluationReserve_loc" order="721" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_RevaluationReserveDisclosure_loc" order="722" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_Securities_loc" order="723" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_SecuritiesDisclosure_loc" order="724" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_ShareCapital_loc" order="725" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_ShareCapitalDisclosure_loc" order="726" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_SharePremium_loc" order="727" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="nl-gen_SharePremiumDisclosure_loc" order="728" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_ConstructionContractsAssets_loc" order="729" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_ConstructionContractsDisclosure_loc" order="730" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-i_IncomeTaxExpenseDisclosure_loc" order="731" xlink:type="arc"/>
+		</link:definitionLink>
+</link:linkbase>

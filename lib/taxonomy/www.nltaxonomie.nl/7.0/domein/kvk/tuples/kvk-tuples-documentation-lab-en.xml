@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+	<link:loc xlink:type="locator" xlink:href="kvk-tuples.xsd#kvk-t_ContactForDocumentPresentation" xlink:label="kvk-t_ContactForDocumentPresentation_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-t_ContactForDocumentPresentation_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-t_ContactForDocumentPresentation_documentation_en">The intention of this tuple is to record the contact details of the contact for this document. This contact can be a person from the organisation itself or from its intermediary.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-t_ContactForDocumentPresentation_loc" xlink:to="kvk-t_ContactForDocumentPresentation_documentation_en"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-tuples.xsd#kvk-t_StatutoryAddressPresentation" xlink:label="kvk-t_StatutoryAddressPresentation_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-t_StatutoryAddressPresentation_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-t_StatutoryAddressPresentation_documentation_en">The intention of this tuple is to record the statutory address of the legal entity.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="kvk-t_StatutoryAddressPresentation_documentation_en"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-tuples.xsd#kvk-t_SignatureManagementReportSpecification" xlink:label="kvk-t_SignatureManagementReportSpecification_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-t_SignatureManagementReportSpecification_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-t_SignatureManagementReportSpecification_documentation_en">The management report is signed by management or others that have this statutory jurisdiction. The intention of this tuple is to record the names of these persons.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-t_SignatureManagementReportSpecification_loc" xlink:to="kvk-t_SignatureManagementReportSpecification_documentation_en"/>
+	</link:labelLink>
+</link:linkbase>

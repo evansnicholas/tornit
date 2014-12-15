@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+   <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_BasisOfPreparationTable" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:type="extended">
+		<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_BasisOfPreparationLineItems" xlink:label="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DiscontinuedOperationsNatureAndExtentDescription" xlink:label="kvk-i_DiscontinuedOperationsNatureAndExtentDescription_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_EquityGroupPolicy" xlink:label="nl-gen_EquityGroupPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_GeneralAdministrativeExpensesPolicy" xlink:label="nl-gen_GeneralAdministrativeExpensesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_NoncontrollingInterestPolicy" xlink:label="nl-gen_NoncontrollingInterestPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_OperatingExpensesPolicy" xlink:label="nl-gen_OperatingExpensesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SellingExpensesPolicy" xlink:label="nl-gen_SellingExpensesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SumOfExpensesPolicy" xlink:label="nl-gen_SumOfExpensesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DiscontinuedOperationsDescription" xlink:label="kvk-i_DiscontinuedOperationsDescription_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_MergersAcquisitionsDateAcquisition" xlink:label="kvk-i_MergersAcquisitionsDateAcquisition_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_MergersAcquisitionsDescriptionAcquiree" xlink:label="kvk-i_MergersAcquisitionsDescriptionAcquiree_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_MergersAcquisitionsMethodProcessing" xlink:label="kvk-i_MergersAcquisitionsMethodProcessing_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_MergersAcquisitionsNameAcquiree" xlink:label="kvk-i_MergersAcquisitionsNameAcquiree_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_MergersAcquisitionsPercentageVotingRightsAcquired" xlink:label="kvk-i_MergersAcquisitionsPercentageVotingRightsAcquired_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_DiscontinuedOperationsNatureAndExtentDescription_loc" order="112" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_EquityGroupPolicy_loc" order="119" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_GeneralAdministrativeExpensesPolicy_loc" order="120" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_NoncontrollingInterestPolicy_loc" order="121" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_OperatingExpensesPolicy_loc" order="122" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_SellingExpensesPolicy_loc" order="123" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_SumOfExpensesPolicy_loc" order="124" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_DiscontinuedOperationsDescription_loc" order="125" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_MergersAcquisitionsDateAcquisition_loc" order="126" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_MergersAcquisitionsDescriptionAcquiree_loc" order="127" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_MergersAcquisitionsMethodProcessing_loc" order="128" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_MergersAcquisitionsNameAcquiree_loc" order="129" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_MergersAcquisitionsPercentageVotingRightsAcquired_loc" order="130" xlink:type="arc"/>
+	</link:definitionLink>
+</link:linkbase>

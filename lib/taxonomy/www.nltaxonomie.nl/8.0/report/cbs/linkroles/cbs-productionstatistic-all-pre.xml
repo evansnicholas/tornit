@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef roleURI="urn:cbs:linkrole:productionstatistic" xlink:type="simple" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic"/>
+	<link:presentationLink xlink:type="extended" xlink:role="urn:cbs:linkrole:productionstatistic">
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_PersonnelCosts" xlink:label="cbs-bedr-items_PersonnelCosts_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_EmployeeBenefitsExpensesOther" xlink:label="rj-i_EmployeeBenefitsExpensesOther_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PensionCosts" xlink:label="kvk-i_PensionCosts_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfEmployees" xlink:label="cbs-bedr-items_AverageNumberOfEmployees_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfEmployeesInFTEs" xlink:label="cbs-bedr-items_AverageNumberOfEmployeesInFTEs_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfEmployeesNotOnPayroll" xlink:label="cbs-bedr-items_AverageNumberOfEmployeesNotOnPayroll_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfEmployeesOnOwnPayroll" xlink:label="cbs-bedr-items_AverageNumberOfEmployeesOnOwnPayroll_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfEmployeesOnOwnPayrollInFTEs" xlink:label="cbs-bedr-items_AverageNumberOfEmployeesOnOwnPayrollInFTEs_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfEmployeesOnPayrollWorkingInTheCompagny" xlink:label="cbs-bedr-items_AverageNumberOfEmployeesOnPayrollWorkingInTheCompagny_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfInsourcedEmployees" xlink:label="cbs-bedr-items_AverageNumberOfInsourcedEmployees_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfOutsourcedEmployeesOnOwnPayroll" xlink:label="cbs-bedr-items_AverageNumberOfOutsourcedEmployeesOnOwnPayroll_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfOwnersBusinessPartnersEtceteraAndFamilyMembersWorkingInTheCompany" xlink:label="cbs-bedr-items_AverageNumberOfOwnersBusinessPartnersEtceteraAndFamilyMembersWorkingInTheCompany_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_AverageNumberOfTempAgencyWorkers" xlink:label="cbs-bedr-items_AverageNumberOfTempAgencyWorkers_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_BenefitPaymentsAndSubsidiesReceived" xlink:label="cbs-bedr-items_BenefitPaymentsAndSubsidiesReceived_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_BookLossesOnAssets" xlink:label="cbs-bedr-items_BookLossesOnAssets_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_BookProfitsOnAssets" xlink:label="cbs-bedr-items_BookProfitsOnAssets_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_BusinessRevenues" xlink:label="cbs-bedr-items_BusinessRevenues_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_BusinessRevenuesOther" xlink:label="cbs-bedr-items_BusinessRevenuesOther_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ChangeDifferenceDueToImpairmentOrReversals" xlink:label="cbs-bedr-items_ChangeDifferenceDueToImpairmentOrReversals_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CompanyCosts" xlink:label="cbs-bedr-items_CompanyCosts_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CompanyResult" xlink:label="cbs-bedr-items_CompanyResult_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostOfSalesTradeGoods" xlink:label="cbs-bedr-items_CostOfSalesTradeGoods_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostPriceNotMentionedElsewhere" xlink:label="cbs-bedr-items_CostPriceNotMentionedElsewhere_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostPriceOther" xlink:label="cbs-bedr-items_CostPriceOther_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostsOfEducationCommercial" xlink:label="cbs-bedr-items_CostsOfEducationCommercial_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostsOfRawAndAuxiliaryMaterialsEtc" xlink:label="cbs-bedr-items_CostsOfRawAndAuxiliaryMaterialsEtc_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_Depreciation" xlink:label="cbs-bedr-items_Depreciation_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_EmployerPartSocialInsuranceCosts" xlink:label="cbs-bedr-items_EmployerPartSocialInsuranceCosts_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ExtraordinaryIncomeNet" xlink:label="cbs-bedr-items_ExtraordinaryIncomeNet_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_FinancialResults" xlink:label="cbs-bedr-items_FinancialResults_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_GovernmentSubsidiesExclWageCostSubsidies" xlink:label="cbs-bedr-items_GovernmentSubsidiesExclWageCostSubsidies_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_IndemnityPaymentsExcludingCompensationForIllnessDisability" xlink:label="cbs-bedr-items_IndemnityPaymentsExcludingCompensationForIllnessDisability_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_NetBookProfitsAndLossesOnAssets" xlink:label="cbs-bedr-items_NetBookProfitsAndLossesOnAssets_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_NetProfitBeforeTax" xlink:label="cbs-bedr-items_NetProfitBeforeTax_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_OtherCompanyIncomeNotMentionedElsewhere" xlink:label="cbs-bedr-items_OtherCompanyIncomeNotMentionedElsewhere_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_OtherGeneralCompanyCosts" xlink:label="cbs-bedr-items_OtherGeneralCompanyCosts_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ProvisionsBalanceTotal" xlink:label="cbs-bedr-items_ProvisionsBalanceTotal_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ProvisionsBecomingAvailable" xlink:label="cbs-bedr-items_ProvisionsBecomingAvailable_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ProvisionsContributions" xlink:label="cbs-bedr-items_ProvisionsContributions_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ProvisionsWithdrawn" xlink:label="cbs-bedr-items_ProvisionsWithdrawn_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_Revenues" xlink:label="cbs-bedr-items_Revenues_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SickPaymentsReceived" xlink:label="cbs-bedr-items_SickPaymentsReceived_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SocialSecurityCostsOther" xlink:label="cbs-bedr-items_SocialSecurityCostsOther_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StaffCostsOther" xlink:label="cbs-bedr-items_StaffCostsOther_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_SubsidiesOnWagesAndRestitutionsReceived" xlink:label="cbs-bedr-items_SubsidiesOnWagesAndRestitutionsReceived_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_WageAndSalaries" xlink:label="cbs-bedr-items_WageAndSalaries_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_CostsOutsourcedWorkOtherExternalExpenses" xlink:label="bw2-i_CostsOutsourcedWorkOtherExternalExpenses_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_CostsRawMaterialsConsumables" xlink:label="bw2-i_CostsRawMaterialsConsumables_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ExtraordinaryExpenses" xlink:label="cbs-bedr-items_ExtraordinaryExpenses_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ExtraordinaryIncome" xlink:label="cbs-bedr-items_ExtraordinaryIncome_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_FinancialExpense" xlink:label="cbs-bedr-items_FinancialExpenses_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_FinancialIncome" xlink:label="cbs-bedr-items_FinancialIncome_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../report/cbs/abstracts/cbs-bedr-abstracts.xsd#cbs-bedr-a_CBSProductionStatisticsTitle" xlink:label="cbs-bedr-a_CBSProductionStatisticsTitle_loc"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSProductionStatisticsTitle_loc" xlink:to="cbs-bedr-items_AverageNumberOfEmployeesInFTEs_loc" order="3.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSProductionStatisticsTitle_loc" xlink:to="cbs-bedr-items_AverageNumberOfEmployeesOnOwnPayrollInFTEs_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSProductionStatisticsTitle_loc" xlink:to="cbs-bedr-items_AverageNumberOfEmployees_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSProductionStatisticsTitle_loc" xlink:to="cbs-bedr-items_NetProfitBeforeTax_loc" order="4.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-a_CBSProductionStatisticsTitle_loc" xlink:to="cbs-bedr-items_ProvisionsWithdrawn_loc" order="6.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AverageNumberOfEmployeesNotOnPayroll_loc" xlink:to="cbs-bedr-items_AverageNumberOfInsourcedEmployees_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AverageNumberOfEmployeesNotOnPayroll_loc" xlink:to="cbs-bedr-items_AverageNumberOfOwnersBusinessPartnersEtceteraAndFamilyMembersWorkingInTheCompany_loc" order="3.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AverageNumberOfEmployeesNotOnPayroll_loc" xlink:to="cbs-bedr-items_AverageNumberOfTempAgencyWorkers_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AverageNumberOfEmployeesOnPayrollWorkingInTheCompagny_loc" xlink:to="cbs-bedr-items_AverageNumberOfEmployeesOnOwnPayroll_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AverageNumberOfEmployeesOnPayrollWorkingInTheCompagny_loc" xlink:to="cbs-bedr-items_AverageNumberOfOutsourcedEmployeesOnOwnPayroll_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AverageNumberOfEmployees_loc" xlink:to="cbs-bedr-items_AverageNumberOfEmployeesNotOnPayroll_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_AverageNumberOfEmployees_loc" xlink:to="cbs-bedr-items_AverageNumberOfEmployeesOnPayrollWorkingInTheCompagny_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BenefitPaymentsAndSubsidiesReceived_loc" xlink:to="cbs-bedr-items_SubsidiesOnWagesAndRestitutionsReceived_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenuesOther_loc" xlink:to="cbs-bedr-items_BenefitPaymentsAndSubsidiesReceived_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenuesOther_loc" xlink:to="cbs-bedr-items_IndemnityPaymentsExcludingCompensationForIllnessDisability_loc" order="7.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenuesOther_loc" xlink:to="cbs-bedr-items_OtherCompanyIncomeNotMentionedElsewhere_loc" order="8.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenuesOther_loc" xlink:to="cbs-bedr-items_SickPaymentsReceived_loc" order="6.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenues_loc" xlink:to="cbs-bedr-items_BusinessRevenuesOther_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenues_loc" xlink:to="cbs-bedr-items_Revenues_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCosts_loc" xlink:to="cbs-bedr-items_CostsOfRawAndAuxiliaryMaterialsEtc_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCosts_loc" xlink:to="cbs-bedr-items_Depreciation_loc" order="5.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCosts_loc" xlink:to="cbs-bedr-items_OtherGeneralCompanyCosts_loc" order="3.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyCosts_loc" xlink:to="cbs-bedr-items_PersonnelCosts_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyResult_loc" xlink:to="cbs-bedr-items_BusinessRevenues_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CompanyResult_loc" xlink:to="cbs-bedr-items_CompanyCosts_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CostPriceOther_loc" xlink:to="cbs-bedr-items_CostPriceNotMentionedElsewhere_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CostPriceOther_loc" xlink:to="bw2-i_CostsOutsourcedWorkOtherExternalExpenses_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CostsOfRawAndAuxiliaryMaterialsEtc_loc" xlink:to="cbs-bedr-items_CostOfSalesTradeGoods_loc" order="4.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CostsOfRawAndAuxiliaryMaterialsEtc_loc" xlink:to="cbs-bedr-items_CostPriceOther_loc" order="5.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_CostsOfRawAndAuxiliaryMaterialsEtc_loc" xlink:to="bw2-i_CostsRawMaterialsConsumables_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_ExtraordinaryIncomeNet_loc" xlink:to="cbs-bedr-items_ExtraordinaryExpenses_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_ExtraordinaryIncomeNet_loc" xlink:to="cbs-bedr-items_ExtraordinaryIncome_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_FinancialResults_loc" xlink:to="cbs-bedr-items_FinancialExpenses_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_FinancialResults_loc" xlink:to="cbs-bedr-items_FinancialIncome_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetBookProfitsAndLossesOnAssets_loc" xlink:to="cbs-bedr-items_BookLossesOnAssets_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetBookProfitsAndLossesOnAssets_loc" xlink:to="cbs-bedr-items_BookProfitsOnAssets_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetProfitBeforeTax_loc" xlink:to="cbs-bedr-items_ChangeDifferenceDueToImpairmentOrReversals_loc" order="1.2"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetProfitBeforeTax_loc" xlink:to="cbs-bedr-items_CompanyResult_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetProfitBeforeTax_loc" xlink:to="cbs-bedr-items_ExtraordinaryIncomeNet_loc" order="3.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetProfitBeforeTax_loc" xlink:to="cbs-bedr-items_FinancialResults_loc" order="4.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetProfitBeforeTax_loc" xlink:to="cbs-bedr-items_NetBookProfitsAndLossesOnAssets_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetProfitBeforeTax_loc" xlink:to="cbs-bedr-items_ProvisionsBalanceTotal_loc" order="5.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_PersonnelCosts_loc" xlink:to="cbs-bedr-items_EmployerPartSocialInsuranceCosts_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_PersonnelCosts_loc" xlink:to="cbs-bedr-items_SocialSecurityCostsOther_loc" order="4.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_PersonnelCosts_loc" xlink:to="cbs-bedr-items_StaffCostsOther_loc" order="5.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_PersonnelCosts_loc" xlink:to="cbs-bedr-items_WageAndSalaries_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_PersonnelCosts_loc" xlink:to="kvk-i_PensionCosts_loc" order="3.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_ProvisionsBalanceTotal_loc" xlink:to="cbs-bedr-items_ProvisionsBecomingAvailable_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_ProvisionsBalanceTotal_loc" xlink:to="cbs-bedr-items_ProvisionsContributions_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_StaffCostsOther_loc" xlink:to="cbs-bedr-items_CostsOfEducationCommercial_loc" order="4.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_StaffCostsOther_loc" xlink:to="rj-i_EmployeeBenefitsExpensesOther_loc" order="5.0"/>
+	</link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dom_TimeDomain_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24474">Tijd-domein</link:label>
+        <link:labelArc xlink:from="bd-dim-dom_TimeDomain_loc" xlink:to="bd-dim-dom_TimeDomain_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dom_PartyDomain_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24475">Partij-domein</link:label>
+        <link:labelArc xlink:from="bd-dim-dom_PartyDomain_loc" xlink:to="bd-dim-dom_PartyDomain_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-domains.xsd#bd-dim-dom_Current" xlink:label="bd-dim-dom_Current_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dom_Current_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24476">Huidig jaar</link:label>
+        <link:labelArc xlink:from="bd-dim-dom_Current_loc" xlink:to="bd-dim-dom_Current_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-domains.xsd#bd-dim-dom_Previous" xlink:label="bd-dim-dom_Previous_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dom_Previous_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24477">Voorgaand jaar</link:label>
+        <link:labelArc xlink:from="bd-dim-dom_Previous_loc" xlink:to="bd-dim-dom_Previous_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-domains.xsd#bd-dim-dom_Declarant" xlink:label="bd-dim-dom_Declarant_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dom_Declarant_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24478">Aangever</link:label>
+        <link:labelArc xlink:from="bd-dim-dom_Declarant_loc" xlink:to="bd-dim-dom_Declarant_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-domains.xsd#bd-dim-dom_Partner" xlink:label="bd-dim-dom_Partner_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dom_Partner_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24479">Partner</link:label>
+        <link:labelArc xlink:from="bd-dim-dom_Partner_loc" xlink:to="bd-dim-dom_Partner_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-domains.xsd#bd-dim-dom_Company" xlink:label="bd-dim-dom_Company_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dom_Company_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24480">Bedrijf</link:label>
+        <link:labelArc xlink:from="bd-dim-dom_Company_loc" xlink:to="bd-dim-dom_Company_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-domains.xsd#bd-dim-dom_HoldingCompany" xlink:label="bd-dim-dom_HoldingCompany_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dom_HoldingCompany_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24481">Holding</link:label>
+        <link:labelArc xlink:from="bd-dim-dom_HoldingCompany_loc" xlink:to="bd-dim-dom_HoldingCompany_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-domains.xsd#bd-dim-dom_SubsidiaryCompany" xlink:label="bd-dim-dom_SubsidiaryCompany_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dom_SubsidiaryCompany_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24482">Dochter</link:label>
+        <link:labelArc xlink:from="bd-dim-dom_SubsidiaryCompany_loc" xlink:to="bd-dim-dom_SubsidiaryCompany_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+    </link:labelLink>
+</link:linkbase>

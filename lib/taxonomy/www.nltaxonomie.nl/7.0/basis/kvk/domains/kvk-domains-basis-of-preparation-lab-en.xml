@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+	  <link:label id="kvk-dm-bop_BasisOfPreparationDomain_label_en" xlink:label="kvk-dm-bop_BasisOfPreparationDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Basis of preparation [domain]</link:label>
+      <link:loc xlink:href="kvk-domains-basis-of-preparation.xsd#kvk-dm-bop_BasisOfPreparationDomain" xlink:label="kvk-dm-bop_BasisOfPreparationDomain_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-bop_BasisOfPreparationDomain_loc" xlink:to="kvk-dm-bop_BasisOfPreparationDomain_label_en" xlink:type="arc"/>
+ 	  <link:label id="kvk-dm-bop_CommercialMember_label_en" xlink:label="kvk-dm-bop_CommercialMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Commercial [member]</link:label>
+      <link:loc xlink:href="kvk-domains-basis-of-preparation.xsd#kvk-dm-bop_CommercialMember" xlink:label="kvk-dm-bop_CommercialMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-bop_CommercialMember_loc" xlink:to="kvk-dm-bop_CommercialMember_label_en" xlink:type="arc"/>  
+ 	  <link:label id="kvk-dm-bop_FiscalMember_label_en" xlink:label="kvk-dm-bop_FiscalMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Fiscal [member]</link:label>
+      <link:loc xlink:href="kvk-domains-basis-of-preparation.xsd#kvk-dm-bop_FiscalMember" xlink:label="kvk-dm-bop_FiscalMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-bop_FiscalMember_loc" xlink:to="kvk-dm-bop_FiscalMember_label_en" xlink:type="arc"/>  	  
+	</link:labelLink>
+</link:linkbase>

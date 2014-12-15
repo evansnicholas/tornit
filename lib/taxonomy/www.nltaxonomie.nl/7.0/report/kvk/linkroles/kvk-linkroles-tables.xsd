@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:kvk-dlr="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/kvk-linkroles-def" xmlns:link="http://www.xbrl.org/2003/linkbase" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/kvk-linkroles-def">
+   <xs:annotation>
+      <xs:appinfo>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-linkroles-tables-generic-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="simple"/>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-linkroles-tables-generic-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="simple"/>
+		<link:roleType id="kvk-dlr_BasisOfPreparationTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table">
+			<link:definition>Grondslag [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>
+		<link:roleType id="kvk-dlr_FinancialStatementsTypeTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/financial-statements-type-table">
+			<link:definition>Type jaarrekening [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>		
+		<link:roleType id="kvk-dlr_FinancialStatementsTypeConsolidatedTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/financial-statements-type-consolidated-table">
+			<link:definition>Type jaarrekening, geconsolideerd [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>			
+		<link:roleType id="kvk-dlr_IntangibleAssetsMovementScheduleTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/intangible-assets-movement-schedule-table">
+			<link:definition>Immateriële vaste activa, verloopoverzicht [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>		
+		<link:roleType id="kvk-dlr_PropertyPlantEquipmentMovementScheduleTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/property-plant-equipment-movement-schedule-table">
+			<link:definition>Materiële vaste activa, verloopoverzicht [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>
+		<link:roleType id="kvk-dlr_FinancialAssetsMovementScheduleTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/financial-assets-movement-schedule-table">
+			<link:definition>Financiële vaste activa, verloopoverzicht [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>
+		<link:roleType id="kvk-dlr_EquityMovementScheduleTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/equity-movement-schedule-table">
+			<link:definition>Eigen vermogen, verloopoverzicht [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>
+		<link:roleType id="kvk-dlr_ShareCapitalMovementScheduleTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/share-capital-movement-schedule-table">
+			<link:definition>Aandelenkapitaal, verloopoverzicht [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>		
+		<link:roleType id="kvk-dlr_RevaluationReserveMovementScheduleTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/revaluation-reserve-movement-schedule-table">
+			<link:definition>Herwaarderingsreserve, verloopoverzicht [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>
+		<link:roleType id="kvk-dlr_ProvisionsMovementScheduleTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/provisions-movement-schedule-table">
+			<link:definition>Voorzieningen, verloopoverzicht [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>
+		<link:roleType id="kvk-dlr_NegativeGoodwillMovementScheduleTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/negative-goodwill-movement-schedule-table">
+			<link:definition>Negatieve goodwill, verloopoverzicht [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>
+		<link:roleType id="kvk-dlr_RightsGrantedNotYetExercisedMovementScheduleTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/rights-granted-not-yet-exercised-movement-schedule-table">
+			<link:definition>Toegekende rechten, nog niet uitgeoefend, verloopoverzicht [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>
+		<link:roleType id="kvk-dlr_AdimensionalTable" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/adimensional-table">
+			<link:definition>Adimensioneel [tabel]</link:definition>
+			<link:usedOn>link:definitionLink</link:usedOn>
+		</link:roleType>
+		</xs:appinfo>
+	</xs:annotation>
+</xs:schema>

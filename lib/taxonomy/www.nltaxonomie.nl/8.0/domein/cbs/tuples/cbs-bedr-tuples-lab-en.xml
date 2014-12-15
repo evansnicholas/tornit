@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"  xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:label id="cbs-bedr-tuples_ContactAddresses_label_en" xlink:label="cbs-bedr-tuples_ContactAddresses_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Contactperson addresses</link:label>
+      <link:label id="cbs-bedr-tuples_EntityEmailaddress_label_en" xlink:label="cbs-bedr-tuples_EntityEmailaddress_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Emailaddress of entity</link:label>
+      <link:label id="cbs-bedr-tuples_DutchAddress_label_en" xlink:label="cbs-bedr-tuples_DutchAddress_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Dutch address</link:label>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-tuples_DutchAddress_loc" xlink:to="cbs-bedr-tuples_DutchAddress_label_en" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-tuples_ContactAddresses_loc" xlink:to="cbs-bedr-tuples_ContactAddresses_label_en" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-tuples_EntityEmailaddress_loc" xlink:to="cbs-bedr-tuples_EntityEmailaddress_label_en" xlink:type="arc"/>
+      <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_ContactAddresses" xlink:label="cbs-bedr-tuples_ContactAddresses_loc" xlink:type="locator"/>
+      <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_DutchAddress" xlink:label="cbs-bedr-tuples_DutchAddress_loc" xlink:type="locator"/>
+      <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_EntityEmailaddress" xlink:label="cbs-bedr-tuples_EntityEmailaddress_loc" xlink:type="locator"/>
+   </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd">
+    <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:reference xlink:label="bd-ob-tuple_bd_gsp_ob_ref_Intracommunautaire_ABCleveringen_vereenvoudigde_regeling_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_4900">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>88</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-ob-tuple_bd_gsp_ob_ref_Correcties_intracommunautaire_ABCleveringen_vereenvoudigde_regeling_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_4901">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>89</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-ob-tuple_bd_gsp_ob_ref_Intracommunautaire_leveringen_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_4902">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>90</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-ob-tuple_bd_gsp_ob_ref_Correcties_intracommunautaire_leveringen_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_4903">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>91</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-ob-tuple_bd_gsp_ob_ref_Opgaaf_intracommunautaire_leveringen_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_4904">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>87</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-ob-tuple_bd_gsp_ob_ref_Aangifte_omzetbelasting_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_4905">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>86</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-ob-tuple_bd_def_78_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5374">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>78</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-ob-tuple_bd_def_84_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5379">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>84</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-ob-tuple_bd_def_83_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5380">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>83</ref:Paragraph></link:reference>
+        <link:loc xlink:href="./bd-ob-tuples.xsd#bd-ob-tuple_IntraCommunityABCSupplies" xlink:label="bd-ob-tuple_IntraCommunityABCSupplies_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-ob-tuple_IntraCommunityABCSupplies_loc" xlink:to="bd-ob-tuple_bd_gsp_ob_ref_Intracommunautaire_ABCleveringen_vereenvoudigde_regeling_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-ob-tuples.xsd#bd-ob-tuple_IntraCommunityABCSuppliesCorrection" xlink:label="bd-ob-tuple_IntraCommunityABCSuppliesCorrection_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-ob-tuple_IntraCommunityABCSuppliesCorrection_loc" xlink:to="bd-ob-tuple_bd_gsp_ob_ref_Correcties_intracommunautaire_ABCleveringen_vereenvoudigde_regeling_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-ob-tuples.xsd#bd-ob-tuple_IntraCommunityServices" xlink:label="bd-ob-tuple_IntraCommunityServices_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-ob-tuple_IntraCommunityServices_loc" xlink:to="bd-ob-tuple_bd_def_83_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-ob-tuples.xsd#bd-ob-tuple_IntraCommunityServicesCorrection" xlink:label="bd-ob-tuple_IntraCommunityServicesCorrection_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-ob-tuple_IntraCommunityServicesCorrection_loc" xlink:to="bd-ob-tuple_bd_def_84_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-ob-tuples.xsd#bd-ob-tuple_IntraCommunitySupplies" xlink:label="bd-ob-tuple_IntraCommunitySupplies_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-ob-tuple_IntraCommunitySupplies_loc" xlink:to="bd-ob-tuple_bd_gsp_ob_ref_Intracommunautaire_leveringen_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-ob-tuples.xsd#bd-ob-tuple_IntraCommunitySuppliesCorrection" xlink:label="bd-ob-tuple_IntraCommunitySuppliesCorrection_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-ob-tuple_IntraCommunitySuppliesCorrection_loc" xlink:to="bd-ob-tuple_bd_gsp_ob_ref_Correcties_intracommunautaire_leveringen_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-ob-tuples.xsd#bd-ob-tuple_IntraCommunitySuppliesServicesReport" xlink:label="bd-ob-tuple_IntraCommunitySuppliesServicesReport_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-ob-tuple_IntraCommunitySuppliesServicesReport_loc" xlink:to="bd-ob-tuple_bd_gsp_ob_ref_Opgaaf_intracommunautaire_leveringen_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-ob-tuples.xsd#bd-ob-tuple_TaxData" xlink:label="bd-ob-tuple_TaxData_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-ob-tuple_TaxData_loc" xlink:to="bd-ob-tuple_bd_def_78_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-ob-tuples.xsd#bd-ob-tuple_ValueAddedTaxDeclaration" xlink:label="bd-ob-tuple_ValueAddedTaxDeclaration_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-ob-tuple_ValueAddedTaxDeclaration_loc" xlink:to="bd-ob-tuple_bd_gsp_ob_ref_Aangifte_omzetbelasting_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+    </link:referenceLink>
+</link:linkbase>

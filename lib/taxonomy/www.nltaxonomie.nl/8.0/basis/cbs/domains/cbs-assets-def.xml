@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_AssetsDomain" xlink:label="cbs-as_AssetsDomain_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_LandAndSitesMember" xlink:label="cbs-as_LandAndSitesMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_BuildingsMember" xlink:label="cbs-as_BuildingsMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_CivilEngineeringWorksMember" xlink:label="cbs-as_CivilEngineeringWorksMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_TransportEquipmentMember" xlink:label="cbs-as_TransportEquipmentMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_ComputersMember" xlink:label="cbs-as_ComputersMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_OtherMachinesInstallationsAndEquipmentMember" xlink:label="cbs-as_OtherMachinesInstallationsAndEquipmentMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_OtherAssetsMember" xlink:label="cbs-as_OtherAssetsMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_TotalAssetsMember" xlink:label="cbs-as_TotalAssetsMember_loc"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-as_AssetsDomain_loc" xlink:to="cbs-as_LandAndSitesMember_loc" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-as_AssetsDomain_loc" xlink:to="cbs-as_BuildingsMember_loc" order="2.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-as_AssetsDomain_loc" xlink:to="cbs-as_CivilEngineeringWorksMember_loc" order="3.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-as_AssetsDomain_loc" xlink:to="cbs-as_TransportEquipmentMember_loc" order="4.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-as_AssetsDomain_loc" xlink:to="cbs-as_ComputersMember_loc" order="5.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-as_AssetsDomain_loc" xlink:to="cbs-as_OtherMachinesInstallationsAndEquipmentMember_loc" order="6.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-as_AssetsDomain_loc" xlink:to="cbs-as_OtherAssetsMember_loc" order="7.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-as_AssetsDomain_loc" xlink:to="cbs-as_TotalAssetsMember_loc" order="8.0"/>
+  </link:definitionLink>
+</link:linkbase>

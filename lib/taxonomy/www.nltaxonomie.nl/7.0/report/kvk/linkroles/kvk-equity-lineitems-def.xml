@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+	<link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/equity-movement-schedule-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_EquityMovementScheduleTable" xlink:type="simple"/>
+  <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/equity-movement-schedule-table" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_EquityMovementLineItems" xlink:label="kvk-pdom_EquityMovementLineItems_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Equity" xlink:label="nl-gen_Equity_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityShareIssue" xlink:label="kvk-i_EquityShareIssue_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityContributionsShareholders" xlink:label="kvk-i_EquityContributionsShareholders_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityLossReduction" xlink:label="kvk-i_EquityLossReduction_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityTreasurySharesSale" xlink:label="kvk-i_EquityTreasurySharesSale_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityTreasurySharesPurchase" xlink:label="kvk-i_EquityTreasurySharesPurchase_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquitySharesWithdrawal" xlink:label="kvk-i_EquitySharesWithdrawal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDividendDistribution" xlink:label="kvk-i_EquityDividendDistribution_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityTransfers" xlink:label="kvk-i_EquityTransfers_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityResultAllocation" xlink:label="kvk-i_EquityResultAllocation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityRevaluations" xlink:label="kvk-i_EquityRevaluations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDirectlyChangeAccountingPolicies" xlink:label="kvk-i_EquityDirectlyChangeAccountingPolicies_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDirectlyFundamentalErrors" xlink:label="kvk-i_EquityDirectlyFundamentalErrors_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDirectlyExchangeDifferences" xlink:label="kvk-i_EquityDirectlyExchangeDifferences_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDirectlyImpairment" xlink:label="kvk-i_EquityDirectlyImpairment_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDirectlyImpairmentReversal" xlink:label="kvk-i_EquityDirectlyImpairmentReversal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDirectlyGoodwill" xlink:label="kvk-i_EquityDirectlyGoodwill_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDirectlyAcquisitionsThroughBusinessCombinations" xlink:label="kvk-i_EquityDirectlyAcquisitionsThroughBusinessCombinations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDirectlyDisposalsThroughBusinessDivestitures" xlink:label="kvk-i_EquityDirectlyDisposalsThroughBusinessDivestitures_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityDirectlyFinancialInstruments" xlink:label="kvk-i_EquityDirectlyFinancialInstruments_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityShareBasedArrangementsGranted" xlink:label="kvk-i_EquityShareBasedArrangementsGranted_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityShareBasedArrangementsExercised" xlink:label="kvk-i_EquityShareBasedArrangementsExercised_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityOtherMovements" xlink:label="kvk-i_EquityOtherMovements_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EquityMovement" xlink:label="kvk-i_EquityMovement_loc" xlink:type="locator"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="nl-gen_Equity_loc" order="1" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityShareIssue_loc" order="2" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityContributionsShareholders_loc" order="3" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityLossReduction_loc" order="4" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityTreasurySharesSale_loc" order="5" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityTreasurySharesPurchase_loc" order="6" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquitySharesWithdrawal_loc" order="7" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDividendDistribution_loc" order="8" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityTransfers_loc" order="9" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityResultAllocation_loc" order="10" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityRevaluations_loc" order="11" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDirectlyChangeAccountingPolicies_loc" order="12" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDirectlyFundamentalErrors_loc" order="13" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDirectlyExchangeDifferences_loc" order="14" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDirectlyImpairment_loc" order="15" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDirectlyImpairmentReversal_loc" order="16" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDirectlyGoodwill_loc" order="17" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDirectlyAcquisitionsThroughBusinessCombinations_loc" order="18" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDirectlyDisposalsThroughBusinessDivestitures_loc" order="19" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityDirectlyFinancialInstruments_loc" order="20" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityShareBasedArrangementsGranted_loc" order="21" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityShareBasedArrangementsExercised_loc" order="22" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityOtherMovements_loc" order="24" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-i_EquityMovement_loc" order="25" xlink:type="arc"/>
+  </link:definitionLink>
+</link:linkbase>

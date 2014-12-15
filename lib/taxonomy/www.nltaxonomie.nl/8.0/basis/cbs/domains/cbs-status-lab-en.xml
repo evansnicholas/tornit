@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="cbs-status.xsd#cbs-st_StatusDomain" xlink:label="cbs-st_StatusDomain_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-status.xsd#cbs-st_DraftMember" xlink:label="cbs-st_DraftMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-status.xsd#cbs-st_FinalMember" xlink:label="cbs-st_FinalMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-status.xsd#cbs-st_NewMember" xlink:label="cbs-st_NewMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-status.xsd#cbs-st_UsedMember" xlink:label="cbs-st_UsedMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-status.xsd#cbs-st_NewAndUsedMember" xlink:label="cbs-st_NewAndUsedMember_loc"/>
+    <link:label xlink:type="resource" xlink:label="cbs-st_StatusDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-st_StatusDomain_label_en">Status [Domain]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-st_DraftMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-st_DraftMember_label_en">Draft [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-st_FinalMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-st_FinalMember_label_en">Final [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-st_NewMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-st_NewMember_label_en">New [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-st_UsedMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-st_UsedMember_label_en">Used [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-st_NewAndUsedMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-st_NewAndUsedMember_label_en">New and used [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-st_StatusDomain_loc" xlink:to="cbs-st_StatusDomain_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-st_DraftMember_loc" xlink:to="cbs-st_DraftMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-st_FinalMember_loc" xlink:to="cbs-st_FinalMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-st_NewMember_loc" xlink:to="cbs-st_NewMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-st_UsedMember_loc" xlink:to="cbs-st_UsedMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-st_NewAndUsedMember_loc" xlink:to="cbs-st_NewAndUsedMember_label_en"/>
+  </link:labelLink>
+</link:linkbase>

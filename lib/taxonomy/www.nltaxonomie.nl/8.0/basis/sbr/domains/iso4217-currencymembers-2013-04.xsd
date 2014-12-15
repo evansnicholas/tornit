@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Wed May 15 16:00:00 2013
+-->
+<xs:schema targetNamespace="http://www.nltaxonomie.nl/iso/iso4217/domain" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:iso-4217="http://www.nltaxonomie.nl/iso/iso4217/domain" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="iso4217-currencymembers-2013-04-def-domain-member.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="iso4217-currencymembers-2013-04-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="iso4217-currencymembers-2013-04-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/>
+	<xs:element name="IsoCurrencyCodesDomain" id="iso-4217_IsoCurrencyCodesDomain" type="xbrli:stringItemType" substitutionGroup="sbr:domainItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="AED" id="iso-4217_AED" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="AFN" id="iso-4217_AFN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="ALL" id="iso-4217_ALL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="AMD" id="iso-4217_AMD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="AOA" id="iso-4217_AOA" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="ARS" id="iso-4217_ARS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="AUD" id="iso-4217_AUD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="AWG" id="iso-4217_AWG" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="AZN" id="iso-4217_AZN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BAM" id="iso-4217_BAM" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BBD" id="iso-4217_BBD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BDT" id="iso-4217_BDT" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BGN" id="iso-4217_BGN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BHD" id="iso-4217_BHD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BIF" id="iso-4217_BIF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BMD" id="iso-4217_BMD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BND" id="iso-4217_BND" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BOB" id="iso-4217_BOB" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BOV" id="iso-4217_BOV" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BRL" id="iso-4217_BRL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BSD" id="iso-4217_BSD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BTN" id="iso-4217_BTN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BWP" id="iso-4217_BWP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BYR" id="iso-4217_BYR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="BZD" id="iso-4217_BZD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CAD" id="iso-4217_CAD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CDF" id="iso-4217_CDF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CHE" id="iso-4217_CHE" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CHF" id="iso-4217_CHF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CHW" id="iso-4217_CHW" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CLF" id="iso-4217_CLF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CLP" id="iso-4217_CLP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CNY" id="iso-4217_CNY" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="COP" id="iso-4217_COP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="COU" id="iso-4217_COU" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CRC" id="iso-4217_CRC" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CUC" id="iso-4217_CUC" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CUP" id="iso-4217_CUP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CVE" id="iso-4217_CVE" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="CZK" id="iso-4217_CZK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="DJF" id="iso-4217_DJF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="DKK" id="iso-4217_DKK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="DOP" id="iso-4217_DOP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="DZD" id="iso-4217_DZD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="EGP" id="iso-4217_EGP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="ERN" id="iso-4217_ERN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="ETB" id="iso-4217_ETB" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="EUR" id="iso-4217_EUR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="FJD" id="iso-4217_FJD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="FKP" id="iso-4217_FKP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="GBP" id="iso-4217_GBP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="GEL" id="iso-4217_GEL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="GHS" id="iso-4217_GHS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="GIP" id="iso-4217_GIP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="GMD" id="iso-4217_GMD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="GNF" id="iso-4217_GNF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="GTQ" id="iso-4217_GTQ" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="GYD" id="iso-4217_GYD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="HKD" id="iso-4217_HKD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="HNL" id="iso-4217_HNL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="HRK" id="iso-4217_HRK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="HTG" id="iso-4217_HTG" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="HUF" id="iso-4217_HUF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="IDR" id="iso-4217_IDR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="ILS" id="iso-4217_ILS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="INR" id="iso-4217_INR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="IQD" id="iso-4217_IQD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="IRR" id="iso-4217_IRR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="ISK" id="iso-4217_ISK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="JMD" id="iso-4217_JMD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="JOD" id="iso-4217_JOD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="JPY" id="iso-4217_JPY" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="KES" id="iso-4217_KES" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="KGS" id="iso-4217_KGS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="KHR" id="iso-4217_KHR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="KMF" id="iso-4217_KMF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="KPW" id="iso-4217_KPW" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="KRW" id="iso-4217_KRW" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="KWD" id="iso-4217_KWD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="KYD" id="iso-4217_KYD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="KZT" id="iso-4217_KZT" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="LAK" id="iso-4217_LAK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="LBP" id="iso-4217_LBP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="LKR" id="iso-4217_LKR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="LRD" id="iso-4217_LRD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="LSL" id="iso-4217_LSL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="LTL" id="iso-4217_LTL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="LVL" id="iso-4217_LVL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="LYD" id="iso-4217_LYD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MAD" id="iso-4217_MAD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MDL" id="iso-4217_MDL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MGA" id="iso-4217_MGA" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MKD" id="iso-4217_MKD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MMK" id="iso-4217_MMK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MNT" id="iso-4217_MNT" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MOP" id="iso-4217_MOP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MRO" id="iso-4217_MRO" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MUR" id="iso-4217_MUR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MVR" id="iso-4217_MVR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MWK" id="iso-4217_MWK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MXN" id="iso-4217_MXN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MXV" id="iso-4217_MXV" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MYR" id="iso-4217_MYR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="MZN" id="iso-4217_MZN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="NAD" id="iso-4217_NAD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="NGN" id="iso-4217_NGN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="NIO" id="iso-4217_NIO" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="NOK" id="iso-4217_NOK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="NPR" id="iso-4217_NPR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="NZD" id="iso-4217_NZD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="OMR" id="iso-4217_OMR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="PAB" id="iso-4217_PAB" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="PEN" id="iso-4217_PEN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="PGK" id="iso-4217_PGK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="PHP" id="iso-4217_PHP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="PKR" id="iso-4217_PKR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="PLN" id="iso-4217_PLN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="PYG" id="iso-4217_PYG" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="QAR" id="iso-4217_QAR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="RON" id="iso-4217_RON" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="RSD" id="iso-4217_RSD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="RUB" id="iso-4217_RUB" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="RWF" id="iso-4217_RWF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SAR" id="iso-4217_SAR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SBD" id="iso-4217_SBD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SCR" id="iso-4217_SCR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SDG" id="iso-4217_SDG" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SEK" id="iso-4217_SEK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SGD" id="iso-4217_SGD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SHP" id="iso-4217_SHP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SLL" id="iso-4217_SLL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SOS" id="iso-4217_SOS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SRD" id="iso-4217_SRD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="STD" id="iso-4217_STD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SVC" id="iso-4217_SVC" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SYP" id="iso-4217_SYP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="SZL" id="iso-4217_SZL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="THB" id="iso-4217_THB" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="TJS" id="iso-4217_TJS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="TMT" id="iso-4217_TMT" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="TND" id="iso-4217_TND" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="TOP" id="iso-4217_TOP" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="TRY" id="iso-4217_TRY" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="TTD" id="iso-4217_TTD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="TWD" id="iso-4217_TWD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="TZS" id="iso-4217_TZS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="UAH" id="iso-4217_UAH" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="UGX" id="iso-4217_UGX" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="USD" id="iso-4217_USD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="USN" id="iso-4217_USN" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="USS" id="iso-4217_USS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="UYI" id="iso-4217_UYI" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="UYU" id="iso-4217_UYU" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="UZS" id="iso-4217_UZS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="VEF" id="iso-4217_VEF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="VND" id="iso-4217_VND" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="VUV" id="iso-4217_VUV" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="WST" id="iso-4217_WST" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XAF" id="iso-4217_XAF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XAG" id="iso-4217_XAG" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XAU" id="iso-4217_XAU" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XBA" id="iso-4217_XBA" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XBB" id="iso-4217_XBB" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XBC" id="iso-4217_XBC" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XBD" id="iso-4217_XBD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XCD" id="iso-4217_XCD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XDR" id="iso-4217_XDR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XFU" id="iso-4217_XFU" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XOF" id="iso-4217_XOF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XPD" id="iso-4217_XPD" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XPF" id="iso-4217_XPF" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XPT" id="iso-4217_XPT" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XSU" id="iso-4217_XSU" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XTS" id="iso-4217_XTS" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XUA" id="iso-4217_XUA" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="XXX" id="iso-4217_XXX" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="YER" id="iso-4217_YER" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="ZAR" id="iso-4217_ZAR" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="ZMK" id="iso-4217_ZMK" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+	<xs:element name="ZWL" id="iso-4217_ZWL" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" abstract="true" nillable="false" xbrli:periodType="duration" />
+</xs:schema>

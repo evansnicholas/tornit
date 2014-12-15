@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_ContactType" xlink:label="kvk-i_ContactType_loc"/>
+    <link:label xlink:type="resource" xlink:label="kvk-i_ContactType_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="kvk-i_ContactType_label_en">Contact type</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_ContactType_loc" xlink:to="kvk-i_ContactType_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SbiBusinessCode" xlink:label="kvk-i_SbiBusinessCode_loc"/>
+    <link:label xlink:type="resource" xlink:label="kvk-i_SbiBusinessCode_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="kvk-i_SbiBusinessCode_label_en">SBI-code</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SbiBusinessCode_loc" xlink:to="kvk-i_SbiBusinessCode_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure" xlink:label="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc"/>
+    <link:label xlink:type="resource" xlink:label="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_label_en">Income tax expense, reconciliation to corporate tax return, disclosure</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc" xlink:to="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_label_en"/>
+    <link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_LegalSizeCriteriaClassification" xlink:label="kvk-i_LegalSizeCriteriaClassification_loc"/>
+    <link:label xlink:type="resource" xlink:label="kvk-i_LegalSizeCriteriaClassification_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="kvk-i_LegalSizeCriteriaClassification_label_en">Classification of the legal entity based on the legal size criteria</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_LegalSizeCriteriaClassification_loc" xlink:to="kvk-i_LegalSizeCriteriaClassification_label_en"/>
+    <link:label id="kvk-i_DocumentInformation_label_en" xlink:label="kvk-i_DocumentInformation_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Document information</link:label>
+    <link:loc xlink:href="kvk-data.xsd#kvk-i_DocumentInformation" xlink:label="kvk-i_DocumentInformation_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_DocumentInformation_loc" xlink:to="kvk-i_DocumentInformation_label_en" xlink:type="arc"/>
+  </link:labelLink>
+</link:linkbase>

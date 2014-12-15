@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-algemeen" xmlns:bd-alg="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-algemeen" xmlns:bd-codes="http://www.nltaxonomie.nl/7.0/basis/bd/types/bd-codes" xmlns:bd-types="http://www.nltaxonomie.nl/7.0/basis/bd/types/bd-types" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:annotation>
+        <xs:appinfo>
+            <link:linkbaseRef xlink:href="./bd-algemeen-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+            <link:linkbaseRef xlink:href="./bd-algemeen-ref.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/bd/types/bd-types" schemaLocation="../types/bd-types.xsd"/>
+    <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/bd/types/bd-codes" schemaLocation="../types/bd-codes.xsd"/>
+    <xs:element id="bd-alg_ConsultantAdvisorAddress" name="ConsultantAdvisorAddress" type="bd-types:anstring40VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_ConsultantAdvisorBeconNumber" name="ConsultantAdvisorBeconNumber" type="bd-types:nonNegativeInteger6FItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_ConsultantAdvisorCorrespondentName" name="ConsultantAdvisorCorrespondentName" type="bd-types:anstring40VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_ConsultantAdvisorName" name="ConsultantAdvisorName" type="bd-types:anstring40VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_ConsultantAdvisorPlaceOfResidence" name="ConsultantAdvisorPlaceOfResidence" type="bd-types:anstring40VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_ConsultantIdentificationMessageNumber" name="ConsultantIdentificationMessageNumber" type="bd-types:anstring34VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_DateCreation" name="DateCreation" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_DateOfBirth" name="DateOfBirth" type="bd-types:customDateItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_DateTimeCreation" name="DateTimeCreation" type="bd-types:dateTimeItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_FeedbackSignalIndication" name="FeedbackSignalIndication" type="bd-codes:MediaCodeItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_FinancialYearEnd" name="FinancialYearEnd" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_FinancialYearStart" name="FinancialYearStart" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_HouseNumberAbroad" name="HouseNumberAbroad" type="bd-types:anstring9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_HouseNumberAddition" name="HouseNumberAddition" type="bd-types:anstring4VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_HouseNumberNL" name="HouseNumberNL" type="bd-types:nonNegativeInteger5VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_IdentificationServicebureau" name="IdentificationServicebureau" type="bd-types:anstring17VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_Initials" name="Initials" type="bd-types:anstring10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_IntermediaryBeconNumber" name="IntermediaryBeconNumber" type="bd-types:nonNegativeInteger6FItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_MessageReferenceSupplierICP" name="MessageReferenceSupplierICP" type="bd-types:anstring11VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_MessageReferenceSupplierVAT" name="MessageReferenceSupplierVAT" type="bd-types:MessageReferenceSupplierVATItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_NameContactSupplier" name="NameContactSupplier" type="bd-types:anstring35VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_OperatingSystem" name="OperatingSystem" type="bd-types:astring1ItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_PlaceOfResidenceAbroad" name="PlaceOfResidenceAbroad" type="bd-types:anstring24VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_PlaceOfResidenceNL" name="PlaceOfResidenceNL" type="bd-types:anstring24VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_PostalCodeAbroad" name="PostalCodeAbroad" type="bd-types:anstring9VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_PostponementSchemeIndication" name="PostponementSchemeIndication" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_Prefix" name="Prefix" type="bd-types:anstring10VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_SerialNumberMessage" name="SerialNumberMessage" type="bd-types:nonNegativeInteger3FItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_SoftwareDeveloperName" name="SoftwareDeveloperName" type="bd-types:anstring40VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_SoftwareSupplierCode" name="SoftwareSupplierCode" type="bd-types:aCAPITALstring4FItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_SoftwareVersionCodeName" name="SoftwareVersionCodeName" type="bd-types:anstring40VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_StreetNameAbroad" name="StreetNameAbroad" type="bd-types:anstring24VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_StreetNameNL" name="StreetNameNL" type="bd-types:anstring24VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_SupplierCode" name="SupplierCode" type="bd-types:anstring4FItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_SurnameSignificantPart" name="SurnameSignificantPart" type="bd-types:anstring200VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_TaxconsultantNumber" name="TaxconsultantNumber" type="bd-types:nonNegativeInteger6FItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_TaxName" name="TaxName" type="bd-codes:TaxNameItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_TaxpayerIdentificationNumber" name="TaxpayerIdentificationNumber" type="bd-types:test11ItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_TaxpayerName" name="TaxpayerName" type="bd-types:anstring40VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_TaxReturnMessageType" name="TaxReturnMessageType" type="bd-codes:TaxReturnItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_TelephoneNumber" name="TelephoneNumber" type="bd-types:anstring14VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_TelephoneNumberContactSupplier" name="TelephoneNumberContactSupplier" type="bd-types:anstring25VItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_VersionApplication" name="VersionApplication" type="bd-types:anstring2FItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+    <xs:element id="bd-alg_VersionNumberApplication" name="VersionNumberApplication" type="bd-types:anstring2FItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="false" nillable="false"/>
+</xs:schema>

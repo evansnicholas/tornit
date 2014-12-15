@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2005/xbrldt http://www.xbrl.org/2005/xbrldt-2005.xsd">
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:status-01" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_status-01"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:status-02" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_status-02"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:status-03" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_status-03"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:status-04" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_status-04"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:assets-01" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_assets-01"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:assets-02" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_assets-02"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:assets-03" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_assets-03"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:region-01" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_region-01"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:branche-01" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_branche-01"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:time-01" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_time-01"/>
+	<link:roleRef xlink:type="simple" roleURI="urn:cbs:linkrole:time-02" xlink:href="../../../domein/cbs/linkroles/cbs-linkroles.xsd#cbs-lr_time-02"/>
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple"/>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:status-01" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_StatusDimension" xlink:label="cbs-dim_StatusDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_NewMember" xlink:label="cbs-st_NewMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_StatusDimension_loc" xlink:to="cbs-st_NewMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:status-02" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_Status2Dimension" xlink:label="cbs-dim_Status2Dimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_UsedMember" xlink:label="cbs-st_UsedMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_Status2Dimension_loc" xlink:to="cbs-st_UsedMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="2" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:status-03" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_Status3Dimension" xlink:label="cbs-dim_Status3Dimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_DraftMember" xlink:label="cbs-st_DraftMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_FinalMember" xlink:label="cbs-st_FinalMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_Status3Dimension_loc" xlink:to="cbs-st_DraftMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_Status3Dimension_loc" xlink:to="cbs-st_FinalMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="2" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:status-04" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_Status4Dimension" xlink:label="cbs-dim_Status4Dimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_NewAndUsedMember" xlink:label="cbs-st_NewAndUsedMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_Status4Dimension_loc" xlink:to="cbs-st_NewAndUsedMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:assets-01" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_AssetsDimension" xlink:label="cbs-dim_AssetsDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_BuildingsMember" xlink:label="cbs-as_BuildingsMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_LandAndSitesMember" xlink:label="cbs-as_LandAndSitesMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_CivilEngineeringWorksMember" xlink:label="cbs-as_CivilEngineeringWorksMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_TransportEquipmentMember" xlink:label="cbs-as_TransportEquipmentMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_ComputersMember" xlink:label="cbs-as_ComputersMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_OtherMachinesInstallationsAndEquipmentMember" xlink:label="cbs-as_OtherMachinesInstallationsAndEquipmentMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_OtherAssetsMember" xlink:label="cbs-as_OtherAssetsMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_TotalAssetsMember" xlink:label="cbs-as_TotalAssetsMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_AssetsDimension_loc" xlink:to="cbs-as_LandAndSitesMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_AssetsDimension_loc" xlink:to="cbs-as_BuildingsMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="2" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_AssetsDimension_loc" xlink:to="cbs-as_CivilEngineeringWorksMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="3" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_AssetsDimension_loc" xlink:to="cbs-as_TransportEquipmentMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="4" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_AssetsDimension_loc" xlink:to="cbs-as_ComputersMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="5" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_AssetsDimension_loc" xlink:to="cbs-as_OtherMachinesInstallationsAndEquipmentMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="6" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_AssetsDimension_loc" xlink:to="cbs-as_OtherAssetsMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="7" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_AssetsDimension_loc" xlink:to="cbs-as_TotalAssetsMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="8" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:assets-02" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_Assets2Dimension" xlink:label="cbs-dim_Assets2Dimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_BuildingsMember" xlink:label="cbs-as_BuildingsMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_CivilEngineeringWorksMember" xlink:label="cbs-as_CivilEngineeringWorksMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_TransportEquipmentMember" xlink:label="cbs-as_TransportEquipmentMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_ComputersMember" xlink:label="cbs-as_ComputersMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_OtherMachinesInstallationsAndEquipmentMember" xlink:label="cbs-as_OtherMachinesInstallationsAndEquipmentMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_OtherAssetsMember" xlink:label="cbs-as_OtherAssetsMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_TotalAssetsMember" xlink:label="cbs-as_TotalAssetsMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_Assets2Dimension_loc" xlink:to="cbs-as_BuildingsMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="2" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_Assets2Dimension_loc" xlink:to="cbs-as_CivilEngineeringWorksMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="3" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_Assets2Dimension_loc" xlink:to="cbs-as_TransportEquipmentMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="4" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_Assets2Dimension_loc" xlink:to="cbs-as_ComputersMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="5" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_Assets2Dimension_loc" xlink:to="cbs-as_OtherMachinesInstallationsAndEquipmentMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="6" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_Assets2Dimension_loc" xlink:to="cbs-as_OtherAssetsMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="7" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_Assets2Dimension_loc" xlink:to="cbs-as_TotalAssetsMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="8" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:assets-03" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_Assets3Dimension" xlink:label="cbs-dim_Assets3Dimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-assets.xsd#cbs-as_TotalAssetsMember" xlink:label="cbs-as_TotalAssetsMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_Assets3Dimension_loc" xlink:to="cbs-as_TotalAssetsMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="8" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:region-01" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_RegionDimension" xlink:label="cbs-dim_RegionDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-region.xsd#cbs-re_HomeMember" xlink:label="cbs-re_HomeMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-region.xsd#cbs-re_AbroadMember" xlink:label="cbs-re_AbroadMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-region.xsd#cbs-re_TotalRegionMember" xlink:label="cbs-re_TotalRegionMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_RegionDimension_loc" xlink:to="cbs-re_HomeMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_RegionDimension_loc" xlink:to="cbs-re_AbroadMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="2" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_RegionDimension_loc" xlink:to="cbs-re_TotalRegionMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="3" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:branche-01" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_BrancheDimension" xlink:label="cbs-dim_BrancheDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-branche.xsd#cbs-br_IndustryMember" xlink:label="cbs-br_IndustryMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-branche.xsd#cbs-br_OtherBrancheMember" xlink:label="cbs-br_OtherBrancheMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-branche.xsd#cbs-br_TotalBrancheMember" xlink:label="cbs-br_TotalBrancheMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_BrancheDimension_loc" xlink:to="cbs-br_IndustryMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="3" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_BrancheDimension_loc" xlink:to="cbs-br_OtherBrancheMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="4" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_BrancheDimension_loc" xlink:to="cbs-br_TotalBrancheMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="5" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:time-01" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_TimeDimension" xlink:label="cbs-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-time.xsd#cbs-ti_PeriodStartMember" xlink:label="cbs-ti_PeriodStartMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-time.xsd#cbs-ti_PeriodEndMember" xlink:label="cbs-ti_PeriodEndMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_TimeDimension_loc" xlink:to="cbs-ti_PeriodStartMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="true" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-dim_TimeDimension_loc" xlink:to="cbs-ti_PeriodEndMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="2" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:cbs:linkrole:time-02" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_TimeDimension" xlink:label="cbs-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-time.xsd#cbs-ti_PeriodEndMember" xlink:label="cbs-ti_PeriodEndMember_loc"/>
+		<link:definitionArc xlink:from="cbs-dim_TimeDimension_loc" xlink:to="cbs-ti_PeriodEndMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="2" xbrldt:usable="true" xlink:type="arc"/>
+	</link:definitionLink>
+</link:linkbase>

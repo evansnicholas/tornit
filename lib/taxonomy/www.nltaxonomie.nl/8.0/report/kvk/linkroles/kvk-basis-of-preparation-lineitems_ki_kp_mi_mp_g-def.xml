@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:roleRef roleURI="urn:kvk:linkrole:basis-of-preparation-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_BasisOfPreparationTable" xlink:type="simple"/>
+  <link:definitionLink xlink:role="urn:kvk:linkrole:basis-of-preparation-table" xlink:type="extended">
+    <link:loc xlink:href="http://www.nltaxonomie.nl/2013/xbrl/sbr-dimensional-concepts.xsd#sbr-dim_ValidationLineItems" xlink:label="sbr-dim_ValidationLineItems_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ChangeAccountingPoliciesDescriptionOfDifferencesBetweenOldAndNewAccountingPolicies" xlink:label="bw2-i_ChangeAccountingPoliciesDescriptionOfDifferencesBetweenOldAndNewAccountingPolicies_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ChangeAccountingPoliciesEffectOnEquityAndResults" xlink:label="bw2-i_ChangeAccountingPoliciesEffectOnEquityAndResults_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ChangeAccountingPoliciesReasonsForChangeInAccountingPolicies" xlink:label="bw2-i_ChangeAccountingPoliciesReasonsForChangeInAccountingPolicies_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ConsolidationChangesInConsolidatedInterests" xlink:label="bw2-i_ConsolidationChangesInConsolidatedInterests_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ConsolidationDisclosure" xlink:label="bw2-i_ConsolidationDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ConsolidationExemptionDescription" xlink:label="bw2-i_ConsolidationExemptionDescription_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ConsolidationPolicy" xlink:label="bw2-i_ConsolidationPolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityReasonConsolidation" xlink:label="bw2-i_EntityReasonConsolidation_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EntityReasonUseDifferentAccountingPoliciesThanConsolidated" xlink:label="bw2-i_EntityReasonUseDifferentAccountingPoliciesThanConsolidated_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_FinanceLeasesPolicy" xlink:label="rj-i_FinanceLeasesPolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_GoingConcernBasisForPreparationFinancialStatementsWhenNotGoingConcernBasis" xlink:label="bw2-i_GoingConcernBasisForPreparationFinancialStatementsWhenNotGoingConcernBasis_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_GoingConcernEffectNotGoingConcernBasisOnEquityAndResults" xlink:label="bw2-i_GoingConcernEffectNotGoingConcernBasisOnEquityAndResults_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_GoingConcernExplanationWhyEntiyNotRegardedGoingConcern" xlink:label="bw2-i_GoingConcernExplanationWhyEntiyNotRegardedGoingConcern_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_GoingConcernUncertaintiesEntitysAbilityToContinueAsGoingConcern" xlink:label="bw2-i_GoingConcernUncertaintiesEntitysAbilityToContinueAsGoingConcern_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_LeasesPolicy" xlink:label="rj-i_LeasesPolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_OperatingLeasesPolicy" xlink:label="rj-i_OperatingLeasesPolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ChangeAccountingEstimatesDescriptionOfDifferencesBetweenOldAndNewAccountingEstimates" xlink:label="rj-i_ChangeAccountingEstimatesDescriptionOfDifferencesBetweenOldAndNewAccountingEstimates_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ChangeAccountingEstimatesEffectOnCurrentPeriod" xlink:label="rj-i_ChangeAccountingEstimatesEffectOnCurrentPeriod_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ChangeAccountingEstimatesEffectOnFuturePeriods" xlink:label="rj-i_ChangeAccountingEstimatesEffectOnFuturePeriods_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ChangeAccountingEstimatesReasonsWhyImpracticableToDetermineAdjustments" xlink:label="rj-i_ChangeAccountingEstimatesReasonsWhyImpracticableToDetermineAdjustments_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ChangeAccountingPoliciesMethodProcessingEffectsChange" xlink:label="rj-i_ChangeAccountingPoliciesMethodProcessingEffectsChange_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ChangeAccountingPoliciesReasonsWhyImpracticableToDetermineAdjustments" xlink:label="rj-i_ChangeAccountingPoliciesReasonsWhyImpracticableToDetermineAdjustments_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_FinancialInstrumentsFairValuePolicy" xlink:label="bw2-i_FinancialInstrumentsFairValuePolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_FinancialInstrumentsPolicy" xlink:label="bw2-i_FinancialInstrumentsPolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ForeignCurrencyTranslationChangePresentationCurrency" xlink:label="rj-i_ForeignCurrencyTranslationChangePresentationCurrency_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ForeignCurrencyTranslationDifferencePresentationFunctionalCurrency" xlink:label="rj-i_ForeignCurrencyTranslationDifferencePresentationFunctionalCurrency_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_GeneralPoliciesFairValueDisclosureWhenHistoricalCostBasis" xlink:label="rj-i_GeneralPoliciesFairValueDisclosureWhenHistoricalCostBasis_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_GroupStructureFiscalUnityDescription" xlink:label="rj-i_GroupStructureFiscalUnityDescription_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PensionArrangementsPolicy" xlink:label="rj-i_PensionArrangementsPolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PriorPeriodErrorsExplanationReasonsNotCorrectedAndNatureIfCorrected" xlink:label="rj-i_PriorPeriodErrorsExplanationReasonsNotCorrectedAndNatureIfCorrected_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PriorPeriodErrorsMethodOfCorrection" xlink:label="rj-i_PriorPeriodErrorsMethodOfCorrection_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PriorPeriodErrorsNatureAndExtentDescription" xlink:label="rj-i_PriorPeriodErrorsNatureAndExtentDescription_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PriorPeriodErrorsDisclosure" xlink:label="rj-i_PriorPeriodErrorsDisclosure_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ShareBasedPaymentsPolicy" xlink:label="bw2-i_ShareBasedPaymentsPolicy_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ChangeAccountingPoliciesEffectOnIndividualLineItems" xlink:label="rj-i_ChangeAccountingPoliciesEffectOnIndividualLineItems_loc" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ConsolidationChangesInConsolidatedInterests_loc" order="113" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ConsolidationDisclosure_loc" order="114" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ConsolidationExemptionDescription_loc" order="115" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ConsolidationPolicy_loc" order="116" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityReasonConsolidation_loc" order="117" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_EntityReasonUseDifferentAccountingPoliciesThanConsolidated_loc" order="118" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ChangeAccountingPoliciesDescriptionOfDifferencesBetweenOldAndNewAccountingPolicies_loc" order="160" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ChangeAccountingPoliciesEffectOnEquityAndResults_loc" order="161" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ChangeAccountingPoliciesReasonsForChangeInAccountingPolicies_loc" order="162" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_FinanceLeasesPolicy_loc" order="163" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_GoingConcernBasisForPreparationFinancialStatementsWhenNotGoingConcernBasis_loc" order="164" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_GoingConcernEffectNotGoingConcernBasisOnEquityAndResults_loc" order="165" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_GoingConcernExplanationWhyEntiyNotRegardedGoingConcern_loc" order="166" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_GoingConcernUncertaintiesEntitysAbilityToContinueAsGoingConcern_loc" order="167" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_LeasesPolicy_loc" order="168" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_OperatingLeasesPolicy_loc" order="169" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ChangeAccountingEstimatesDescriptionOfDifferencesBetweenOldAndNewAccountingEstimates_loc" order="172" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ChangeAccountingEstimatesEffectOnCurrentPeriod_loc" order="173" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ChangeAccountingEstimatesEffectOnFuturePeriods_loc" order="174" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ChangeAccountingEstimatesReasonsWhyImpracticableToDetermineAdjustments_loc" order="175" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ChangeAccountingPoliciesEffectOnIndividualLineItems_loc" order="176" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ChangeAccountingPoliciesMethodProcessingEffectsChange_loc" order="177" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ChangeAccountingPoliciesReasonsWhyImpracticableToDetermineAdjustments_loc" order="178" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_FinancialInstrumentsFairValuePolicy_loc" order="179" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_FinancialInstrumentsPolicy_loc" order="180" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ForeignCurrencyTranslationChangePresentationCurrency_loc" order="182" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_ForeignCurrencyTranslationDifferencePresentationFunctionalCurrency_loc" order="183" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_GeneralPoliciesFairValueDisclosureWhenHistoricalCostBasis_loc" order="184" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_GroupStructureFiscalUnityDescription_loc" order="185" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PensionArrangementsPolicy_loc" order="186" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PriorPeriodErrorsExplanationReasonsNotCorrectedAndNatureIfCorrected_loc" order="187" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PriorPeriodErrorsMethodOfCorrection_loc" order="188" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PriorPeriodErrorsNatureAndExtentDescription_loc" order="189" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="rj-i_PriorPeriodErrorsDisclosure_loc" order="190" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="sbr-dim_ValidationLineItems_loc" xlink:to="bw2-i_ShareBasedPaymentsPolicy_loc" order="191" xlink:type="arc"/>
+  </link:definitionLink>
+</link:linkbase>

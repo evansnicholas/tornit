@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple"/>
+	<link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple"/>
+    <link:definitionLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+		<link:loc xlink:href="cbs-tables.xsd#cbs-cube_Table" xlink:label="cbs-cube_Table_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../domein/cbs/axes/cbs-axes.xsd#cbs-dim_StatusDimension" xlink:label="cbs-dim_StatusDimension_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="cbs-cube_Table_loc" xlink:to="cbs-dim_StatusDimension_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" order="1" xlink:type="arc"/>
+    </link:definitionLink>
+</link:linkbase>

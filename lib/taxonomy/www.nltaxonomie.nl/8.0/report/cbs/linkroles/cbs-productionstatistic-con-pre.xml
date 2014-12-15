@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:cbs:linkrole:productionstatistic" xlink:type="simple" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic"/>
+  <link:presentationLink xlink:type="extended" xlink:role="urn:cbs:linkrole:productionstatistic">
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_BusinessRevenuesOther" xlink:label="cbs-bedr-items_BusinessRevenuesOther_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostsIncurredAbroad" xlink:label="cbs-bedr-items_CostsIncurredAbroad_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_CostsOfTemporaryConstructionConsortiaNonSpecifiable" xlink:label="cbs-bedr-items_CostsOfTemporaryConstructionConsortiaNonSpecifiable_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_EnergyCostsCommercialIncludingNetServices" xlink:label="cbs-bedr-items_EnergyCostsCommercialIncludingNetServices_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_GasOilDieselOilForConstructionMachineryFuelsForMachinesAndEquipment" xlink:label="cbs-bedr-items_GasOilDieselOilForConstructionMachineryFuelsForMachinesAndEquipment_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_NetConstructionActivitiesAbroad" xlink:label="cbs-bedr-items_NetConstructionActivitiesAbroad_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_OtherGeneralCompanyCostsNotMentionedElsewhere" xlink:label="cbs-bedr-items_OtherGeneralCompanyCostsNotMentionedElsewhere_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_RevenueFromConstructionActivitiesAbroad" xlink:label="cbs-bedr-items_RevenueFromConstructionActivitiesAbroad_loc"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_BusinessRevenuesOther_loc" xlink:to="cbs-bedr-items_NetConstructionActivitiesAbroad_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_EnergyCostsCommercialIncludingNetServices_loc" xlink:to="cbs-bedr-items_GasOilDieselOilForConstructionMachineryFuelsForMachinesAndEquipment_loc" order="4.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetConstructionActivitiesAbroad_loc" xlink:to="cbs-bedr-items_CostsIncurredAbroad_loc" order="2.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_NetConstructionActivitiesAbroad_loc" xlink:to="cbs-bedr-items_RevenueFromConstructionActivitiesAbroad_loc" order="1.0"/>
+		<link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr-items_OtherGeneralCompanyCostsNotMentionedElsewhere_loc" xlink:to="cbs-bedr-items_CostsOfTemporaryConstructionConsortiaNonSpecifiable_loc" order="10.0"/>
+	</link:presentationLink>
+</link:linkbase>

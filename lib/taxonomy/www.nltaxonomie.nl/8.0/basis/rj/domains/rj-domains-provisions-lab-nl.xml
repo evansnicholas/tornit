@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_ProvisionsComponentDomain" xlink:label="rj-dm-prov_ProvisionsComponentDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_ProvisionRepairCostsMember" xlink:label="rj-dm-prov_ProvisionRepairCostsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_EnvironmentalProvisionMember" xlink:label="rj-dm-prov_EnvironmentalProvisionMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_ProvisionLegalProceedingsMember" xlink:label="rj-dm-prov_ProvisionLegalProceedingsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_ProvisionMajorMaintenanceMember" xlink:label="rj-dm-prov_ProvisionMajorMaintenanceMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_ProvisionDisposalObligationMember" xlink:label="rj-dm-prov_ProvisionDisposalObligationMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_ProvisionOnerousContractsMember" xlink:label="rj-dm-prov_ProvisionOnerousContractsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_RestructuringProvisionMember" xlink:label="rj-dm-prov_RestructuringProvisionMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_ProvisionSubsidiariesMember" xlink:label="rj-dm-prov_ProvisionSubsidiariesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_WarrantyProvisionMember" xlink:label="rj-dm-prov_WarrantyProvisionMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_ProvisionJubileeBenefitsMember" xlink:label="rj-dm-prov_ProvisionJubileeBenefitsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-provisions.xsd#rj-dm-prov_ProvisionsOtherMember" xlink:label="rj-dm-prov_ProvisionsOtherMember_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_ProvisionsComponentDomain_loc" xlink:to="rj-dm-prov_ProvisionsComponentDomain_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_ProvisionRepairCostsMember_loc" xlink:to="rj-dm-prov_ProvisionRepairCostsMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_EnvironmentalProvisionMember_loc" xlink:to="rj-dm-prov_EnvironmentalProvisionMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_ProvisionLegalProceedingsMember_loc" xlink:to="rj-dm-prov_ProvisionLegalProceedingsMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_ProvisionMajorMaintenanceMember_loc" xlink:to="rj-dm-prov_ProvisionMajorMaintenanceMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_ProvisionDisposalObligationMember_loc" xlink:to="rj-dm-prov_ProvisionDisposalObligationMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_ProvisionOnerousContractsMember_loc" xlink:to="rj-dm-prov_ProvisionOnerousContractsMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_RestructuringProvisionMember_loc" xlink:to="rj-dm-prov_RestructuringProvisionMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_ProvisionSubsidiariesMember_loc" xlink:to="rj-dm-prov_ProvisionSubsidiariesMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_WarrantyProvisionMember_loc" xlink:to="rj-dm-prov_WarrantyProvisionMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_ProvisionJubileeBenefitsMember_loc" xlink:to="rj-dm-prov_ProvisionJubileeBenefitsMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-prov_ProvisionsOtherMember_loc" xlink:to="rj-dm-prov_ProvisionsOtherMember_label_nl" xlink:type="arc"/>
+    <link:label id="rj-dm-prov_ProvisionsComponentDomain_label_nl" xlink:label="rj-dm-prov_ProvisionsComponentDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorzieningen [domein]</link:label>
+    <link:label id="rj-dm-prov_ProvisionRepairCostsMember_label_nl" xlink:label="rj-dm-prov_ProvisionRepairCostsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorziening voor herstelkosten [member]</link:label>
+    <link:label id="rj-dm-prov_EnvironmentalProvisionMember_label_nl" xlink:label="rj-dm-prov_EnvironmentalProvisionMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorziening voor opruiming van aanwezige milieuvervuiling [member]</link:label>
+    <link:label id="rj-dm-prov_ProvisionLegalProceedingsMember_label_nl" xlink:label="rj-dm-prov_ProvisionLegalProceedingsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorziening uit hoofde van claims, geschillen en rechtsgedingen [member]</link:label>
+    <link:label id="rj-dm-prov_ProvisionMajorMaintenanceMember_label_nl" xlink:label="rj-dm-prov_ProvisionMajorMaintenanceMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorziening voor groot onderhoud [member]</link:label>
+    <link:label id="rj-dm-prov_ProvisionDisposalObligationMember_label_nl" xlink:label="rj-dm-prov_ProvisionDisposalObligationMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorziening voor verwijderingsverplichtingen [member]</link:label>
+    <link:label id="rj-dm-prov_ProvisionOnerousContractsMember_label_nl" xlink:label="rj-dm-prov_ProvisionOnerousContractsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorziening voor verlieslatende contracten [member]</link:label>
+    <link:label id="rj-dm-prov_RestructuringProvisionMember_label_nl" xlink:label="rj-dm-prov_RestructuringProvisionMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorziening in verband met reorganisaties [member]</link:label>
+    <link:label id="rj-dm-prov_ProvisionSubsidiariesMember_label_nl" xlink:label="rj-dm-prov_ProvisionSubsidiariesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorziening in verband met deelnemingen [member]</link:label>
+    <link:label id="rj-dm-prov_WarrantyProvisionMember_label_nl" xlink:label="rj-dm-prov_WarrantyProvisionMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Garantievoorziening [member]</link:label>
+    <link:label id="rj-dm-prov_ProvisionJubileeBenefitsMember_label_nl" xlink:label="rj-dm-prov_ProvisionJubileeBenefitsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Jubileumvoorziening [member]</link:label>
+    <link:label id="rj-dm-prov_ProvisionsOtherMember_label_nl" xlink:label="rj-dm-prov_ProvisionsOtherMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Overige voorzieningen [member]</link:label>
+  </link:labelLink>
+</link:linkbase>

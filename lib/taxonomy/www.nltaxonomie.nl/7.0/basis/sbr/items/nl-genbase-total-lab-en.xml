@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Tue May 15 15:52:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_CashAndCashEquivalentsCashFlow" xlink:label="nl-gen_CashAndCashEquivalentsCashFlow_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_LiabilitiesCurrent" xlink:label="nl-gen_CurrentLiabilitiesUpToOneYear_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_OperatingExpenses" xlink:label="nl-gen_OperatingExpenses_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_OperatingIncome" xlink:label="nl-gen_OperatingIncome_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_CashAndCashEquivalents" xlink:label="nl-gen_CashAndCashEquivalents_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_Equity" xlink:label="nl-gen_Equity_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_EquityGroup" xlink:label="nl-gen_GroupEquity_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_FinancialAssets" xlink:label="nl-gen_FinancialAssets_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_IntangibleAssets" xlink:label="nl-gen_IntangibleAssets_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_PropertyPlantEquipment" xlink:label="nl-gen_PropertyPlantAndEquipment_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_Provisions" xlink:label="nl-gen_Provisions_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_AdjustmentsReconcileOperatingResult" xlink:label="nl-gen_AdjustmentsToReconcileOperatingResult_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_Assets" xlink:label="nl-gen_Assets_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_AssetsCurrent" xlink:label="nl-gen_CurrentAssets_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_AssetsNoncurrent" xlink:label="nl-gen_NoncurrentAssets_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_ChangesWorkingCapital" xlink:label="nl-gen_ChangesInWorkingCapital_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_EquityAndLiabilities" xlink:label="nl-gen_EquityAndLiabilities_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_FinancialExpense" xlink:label="nl-gen_FinancialExpense_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_FinancialIncome" xlink:label="nl-gen_FinancialIncome_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_Inventories" xlink:label="nl-gen_Inventories_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_LegalStatutoryReserves" xlink:label="nl-gen_LegalAndStatutoryReserves_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_LiabilitiesNoncurrent" xlink:label="nl-gen_NoncurrentLiabilitiesExceedingOneYear_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_NetRevenue" xlink:label="nl-gen_NetRevenue_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_Receivables" xlink:label="nl-gen_Receivables_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_Securities" xlink:label="nl-gen_Securities_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_ShareCapital" xlink:label="nl-gen_ShareCapital_loc"/>
+    <link:loc xlink:type="locator" xlink:href="nl-genbase.xsd#nl-gen_SumOfExpenses" xlink:label="nl-gen_SumOfExpenses_loc"/>
+    <link:label xlink:type="resource" xlink:label="nl-gen_CashAndCashEquivalentsCashFlow_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_CashAndCashEquivalentsCashFlow_total_en">Cash and cash equivalents (cash flow), total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_CurrentLiabilitiesUpToOneYear_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_CurrentLiabilitiesUpToOneYear_total_en">Current liabilities (up to one year), total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_OperatingExpenses_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_OperatingExpenses_total_en">Operating expenses, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_OperatingIncome_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_OperatingIncome_total_en">Operating income, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_CashAndCashEquivalents_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_CashAndCashEquivalents_total_en">Cash and cash equivalents, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_Equity_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_Equity_total_en">Equity, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_GroupEquity_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_GroupEquity_total_en">Group equity, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_FinancialAssets_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_FinancialAssets_total_en">Financial assets, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_IntangibleAssets_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_IntangibleAssets_total_en">Intangible assets, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_PropertyPlantAndEquipment_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_PropertyPlantAndEquipment_total_en">Property, plant and equipment, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_Provisions_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_Provisions_total_en">Provisions, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_AdjustmentsToReconcileOperatingResult_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_AdjustmentsToReconcileOperatingResult_total_en">Adjustments to reconcile operating result, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_Assets_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_Assets_total_en">Assets, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_CurrentAssets_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_CurrentAssets_total_en">Current assets, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_NoncurrentAssets_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_NoncurrentAssets_total_en">Non-current assets, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_ChangesInWorkingCapital_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_ChangesInWorkingCapital_total_en">Changes in working capital, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_EquityAndLiabilities_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_EquityAndLiabilities_total_en">Equity and liabilities, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_FinancialExpense_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_FinancialExpense_total_en">Financial expense, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_FinancialIncome_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_FinancialIncome_total_en">Financial income, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_Inventories_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_Inventories_total_en">Inventories, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_LegalAndStatutoryReserves_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_LegalAndStatutoryReserves_total_en">Legal and statutory reserves, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_NoncurrentLiabilitiesExceedingOneYear_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_NoncurrentLiabilitiesExceedingOneYear_total_en">Non-current liabilities (exceeding one year), total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_NetRevenue_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_NetRevenue_total_en">Net revenue, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_Receivables_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_Receivables_total_en">Receivables, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_Securities_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_Securities_total_en">Securities, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_ShareCapital_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_ShareCapital_total_en">Share capital, total</link:label>
+    <link:label xlink:type="resource" xlink:label="nl-gen_SumOfExpenses_total_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="nl-gen_SumOfExpenses_total_en">Sum of expenses, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_CashAndCashEquivalentsCashFlow_loc" xlink:to="nl-gen_CashAndCashEquivalentsCashFlow_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_CurrentLiabilitiesUpToOneYear_loc" xlink:to="nl-gen_CurrentLiabilitiesUpToOneYear_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_OperatingExpenses_loc" xlink:to="nl-gen_OperatingExpenses_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_OperatingIncome_loc" xlink:to="nl-gen_OperatingIncome_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_CashAndCashEquivalents_loc" xlink:to="nl-gen_CashAndCashEquivalents_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_Equity_loc" xlink:to="nl-gen_Equity_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_GroupEquity_loc" xlink:to="nl-gen_GroupEquity_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_FinancialAssets_loc" xlink:to="nl-gen_FinancialAssets_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_IntangibleAssets_loc" xlink:to="nl-gen_IntangibleAssets_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_PropertyPlantAndEquipment_loc" xlink:to="nl-gen_PropertyPlantAndEquipment_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_Provisions_loc" xlink:to="nl-gen_Provisions_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_AdjustmentsToReconcileOperatingResult_loc" xlink:to="nl-gen_AdjustmentsToReconcileOperatingResult_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_Assets_loc" xlink:to="nl-gen_Assets_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_CurrentAssets_loc" xlink:to="nl-gen_CurrentAssets_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_NoncurrentAssets_loc" xlink:to="nl-gen_NoncurrentAssets_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_ChangesInWorkingCapital_loc" xlink:to="nl-gen_ChangesInWorkingCapital_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_EquityAndLiabilities_loc" xlink:to="nl-gen_EquityAndLiabilities_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_FinancialExpense_loc" xlink:to="nl-gen_FinancialExpense_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_FinancialIncome_loc" xlink:to="nl-gen_FinancialIncome_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_Inventories_loc" xlink:to="nl-gen_Inventories_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_LegalAndStatutoryReserves_loc" xlink:to="nl-gen_LegalAndStatutoryReserves_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_NoncurrentLiabilitiesExceedingOneYear_loc" xlink:to="nl-gen_NoncurrentLiabilitiesExceedingOneYear_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_NetRevenue_loc" xlink:to="nl-gen_NetRevenue_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_Receivables_loc" xlink:to="nl-gen_Receivables_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_Securities_loc" xlink:to="nl-gen_Securities_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_ShareCapital_loc" xlink:to="nl-gen_ShareCapital_total_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="nl-gen_SumOfExpenses_loc" xlink:to="nl-gen_SumOfExpenses_total_en"/>
+  </link:labelLink>
+</link:linkbase>

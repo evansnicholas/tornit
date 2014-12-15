@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/8.0/domein/bd/tuples/bd-ob-tuples" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:bd-ob-tuple="http://www.nltaxonomie.nl/8.0/domein/bd/tuples/bd-ob-tuples" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bd-ob="http://www.nltaxonomie.nl/8.0/basis/bd/items/bd-omzetbelasting">
+    <xs:annotation>
+        <xs:appinfo>
+            <link:linkbaseRef xlink:href="./bd-ob-tuples-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+            <link:linkbaseRef xlink:href="./bd-ob-tuples-ref.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/8.0/basis/bd/items/bd-omzetbelasting" schemaLocation="../../../basis/bd/items/bd-omzetbelasting.xsd"/>
+    <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:element id="bd-ob-tuple_IntraCommunityABCSupplies" name="IntraCommunityABCSupplies" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-ob:CountryCodeISO-EC" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:SuppliesAmount" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:VATIdentificationNumberNational" minOccurs="1" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-ob-tuple_IntraCommunityABCSuppliesCorrection" name="IntraCommunityABCSuppliesCorrection" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-ob:CorrectionsSuppliesAmount" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:CountryCodeISO-EC" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:VATIdentificationNumberNational" minOccurs="1" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-ob-tuple_IntraCommunityServices" name="IntraCommunityServices" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-ob:CountryCodeISO-EC" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:ServicesAmount" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:VATIdentificationNumberNational" minOccurs="1" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-ob-tuple_IntraCommunityServicesCorrection" name="IntraCommunityServicesCorrection" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-ob:CorrectionsServicesAmount" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:CountryCodeISO-EC" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:VATIdentificationNumberNational" minOccurs="1" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-ob-tuple_IntraCommunitySupplies" name="IntraCommunitySupplies" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-ob:CountryCodeISO-EC" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:SuppliesAmount" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:VATIdentificationNumberNational" minOccurs="1" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-ob-tuple_IntraCommunitySuppliesCorrection" name="IntraCommunitySuppliesCorrection" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-ob:CorrectionsSuppliesAmount" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:CountryCodeISO-EC" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-ob:VATIdentificationNumberNational" minOccurs="1" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

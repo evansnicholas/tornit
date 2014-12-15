@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_BasisOfPreparationAxis_loc" xlink:to="kvk-dlra_BasisOfPreparationAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_BasisOfPreparationAxis_label-en" xlink:label="kvk-dlra_BasisOfPreparationAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Basis of preparation [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_BasisOfPreparationAxis" xlink:label="kvk-dlra_BasisOfPreparationAxis_loc"/>	
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_BasisOfPreparationCommercialAxis_loc" xlink:to="kvk-dlra_BasisOfPreparationCommercialAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_BasisOfPreparationCommercialAxis_label-en" xlink:label="kvk-dlra_BasisOfPreparationCommercialAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Basis of preparation, commercial [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_BasisOfPreparationCommercialAxis" xlink:label="kvk-dlra_BasisOfPreparationCommercialAxis_loc"/>	
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_BasisOfPreparationFiscalAxis_loc" xlink:to="kvk-dlra_BasisOfPreparationFiscalAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_BasisOfPreparationFiscalAxis_label-en" xlink:label="kvk-dlra_BasisOfPreparationFiscalAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Basis of preparation, fiscal [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_BasisOfPreparationFiscalAxis" xlink:label="kvk-dlra_BasisOfPreparationFiscalAxis_loc"/>	
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_FinancialStatementsTypeAxis_loc" xlink:to="kvk-dlra_FinancialStatementsTypeAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_FinancialStatementsTypeAxis_label-en" xlink:label="kvk-dlra_FinancialStatementsTypeAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Financial statement type [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_FinancialStatementsTypeAxis" xlink:label="kvk-dlra_FinancialStatementsTypeAxis_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_FinancialStatementsTypeConsolidatedAxis_loc" xlink:to="kvk-dlra_FinancialStatementsTypeConsolidatedAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_FinancialStatementsTypeConsolidatedAxis_label-en" xlink:label="kvk-dlra_FinancialStatementsTypeConsolidatedAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Financial statement type, consolidated [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_FinancialStatementsTypeConsolidatedAxis" xlink:label="kvk-dlra_FinancialStatementsTypeConsolidatedAxis_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_FinancialStatementsTypeSeparateAxis_loc" xlink:to="kvk-dlra_FinancialStatementsTypeSeparateAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_FinancialStatementsTypeSeparateAxis_label-en" xlink:label="kvk-dlra_FinancialStatementsTypeSeparateAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Financial statement type, separate [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_FinancialStatementsTypeSeparateAxis" xlink:label="kvk-dlra_FinancialStatementsTypeSeparateAxis_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_IntangibleAssetsComponentsAxis_loc" xlink:to="kvk-dlra_IntangibleAssetsComponentsAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_IntangibleAssetsComponentsAxis_label-en" xlink:label="kvk-dlra_IntangibleAssetsComponentsAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Intangible assets, components [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_IntangibleAssetsComponentsAxis" xlink:label="kvk-dlra_IntangibleAssetsComponentsAxis_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_PropertyPlantEquipmentComponentsAxis_loc" xlink:to="kvk-dlra_PropertyPlantEquipmentComponentsAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_PropertyPlantEquipmentComponentsAxis_label-en" xlink:label="kvk-dlra_PropertyPlantEquipmentComponentsAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Property, plant and equipment, components [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_PropertyPlantEquipmentComponentsAxis" xlink:label="kvk-dlra_PropertyPlantEquipmentComponentsAxis_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_FinancialAssetsComponentsAxis_loc" xlink:to="kvk-dlra_FinancialAssetsComponentsAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_FinancialAssetsComponentsAxis_label-en" xlink:label="kvk-dlra_FinancialAssetsComponentsAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Financial assets, components [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_FinancialAssetsComponentsAxis" xlink:label="kvk-dlra_FinancialAssetsComponentsAxis_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_EquityComponentsAxis_loc" xlink:to="kvk-dlra_EquityComponentsAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_EquityComponentsAxis_label-en" xlink:label="kvk-dlra_EquityComponentsAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Equity, components [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_EquityComponentsAxis" xlink:label="kvk-dlra_EquityComponentsAxis_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_ShareCapitalComponentsAxis_loc" xlink:to="kvk-dlra_ShareCapitalComponentsAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_ShareCapitalComponentsAxis_label-en" xlink:label="kvk-dlra_ShareCapitalComponentsAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Share capital, components [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_ShareCapitalComponentsAxis" xlink:label="kvk-dlra_ShareCapitalComponentsAxis_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_RevaluationReserveComponentsAxis_loc" xlink:to="kvk-dlra_RevaluationReserveComponentsAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_RevaluationReserveComponentsAxis_label-en" xlink:label="kvk-dlra_RevaluationReserveComponentsAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Herwaarderingsreserve, components [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_RevaluationReserveComponentsAxis" xlink:label="kvk-dlra_RevaluationReserveComponentsAxis_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_ProvisionsComponentsAxis_loc" xlink:to="kvk-dlra_ProvisionsComponentsAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_ProvisionsComponentsAxis_label-en" xlink:label="kvk-dlra_ProvisionsComponentsAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Provisions, components [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_ProvisionsComponentsAxis" xlink:label="kvk-dlra_ProvisionsComponentsAxis_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_NegativeGoodwillComponentsAxis_loc" xlink:to="kvk-dlra_NegativeGoodwillComponentsAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_NegativeGoodwillComponentsAxis_label-en" xlink:label="kvk-dlra_NegativeGoodwillComponentsAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Negative goodwill, components [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_NegativeGoodwillComponentsAxis" xlink:label="kvk-dlra_NegativeGoodwillComponentsAxis_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlra_RightsGrantedNotYetExercisedComponentsAxis_loc" xlink:to="kvk-dlra_RightsGrantedNotYetExercisedComponentsAxis_label-en"/>
+    <label:label xlink:type="resource" id="kvk-dlra_RightsGrantedNotYetExercisedComponentsAxis_label-en" xlink:label="kvk-dlra_RightsGrantedNotYetExercisedComponentsAxis_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Rights granted, not yet exercised, components [axis]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-axes.xsd#kvk-dlra_RightsGrantedNotYetExercisedComponentsAxis" xlink:label="kvk-dlra_RightsGrantedNotYetExercisedComponentsAxis_loc"/>
+  </gen:link>
+</link:linkbase>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_BrancheDomain" xlink:label="cbs-br_BrancheDomain_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_ConstructionMember" xlink:label="cbs-br_ConstructionMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_TradeMember" xlink:label="cbs-br_TradeMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_IndustryMember" xlink:label="cbs-br_IndustryMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_HealthMember" xlink:label="cbs-br_HealthMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_OtherBrancheMember" xlink:label="cbs-br_OtherBrancheMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_TotalBrancheMember" xlink:label="cbs-br_TotalBrancheMember_loc"/>
+    <link:label xlink:type="resource" xlink:label="cbs-br_BrancheDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-br_BrancheDomain_label_en">Branche [Domain]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-br_ConstructionMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-br_ConstructionMember_label_en">Construction [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-br_TradeMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-br_TradeMember_label_en">Trade [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-br_IndustryMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-br_IndustryMember_label_en">Industry [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-br_HealthMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-br_HealthMember_label_en">Health [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-br_OtherBrancheMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-br_OtherBrancheMember_label_en">Other [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-br_TotalBrancheMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-br_TotalBrancheMember_label_en">Total [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-br_BrancheDomain_loc" xlink:to="cbs-br_BrancheDomain_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-br_ConstructionMember_loc" xlink:to="cbs-br_ConstructionMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-br_TradeMember_loc" xlink:to="cbs-br_TradeMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-br_IndustryMember_loc" xlink:to="cbs-br_IndustryMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-br_HealthMember_loc" xlink:to="cbs-br_HealthMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-br_OtherBrancheMember_loc" xlink:to="cbs-br_OtherBrancheMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-br_TotalBrancheMember_loc" xlink:to="cbs-br_TotalBrancheMember_label_en"/>
+  </link:labelLink>
+</link:linkbase>

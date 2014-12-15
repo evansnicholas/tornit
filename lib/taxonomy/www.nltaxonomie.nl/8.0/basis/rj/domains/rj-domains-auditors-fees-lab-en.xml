@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-auditors-fees.xsd#rj-dm-auf_AuditorsFeesDomain" xlink:label="rj-dm-auf_AuditorsFeesDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-auditors-fees.xsd#rj-dm-auf_AuditorsFeesExternalAuditorAccountingFirmMember" xlink:label="rj-dm-auf_AuditorsFeesExternalAuditorAccountingFirmMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-auditors-fees.xsd#rj-dm-auf_AuditorsFeesNetworkOrganisationsMember" xlink:label="rj-dm-auf_AuditorsFeesNetworkOrganisationsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/domains/rj-domains-auditors-fees.xsd#rj-dm-auf_AuditorsFeesTotalMember" xlink:label="rj-dm-auf_AuditorsFeesTotalMember_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-auf_AuditorsFeesDomain_loc" xlink:to="rj-dm-auf_AuditorsFeesDomain_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-auf_AuditorsFeesExternalAuditorAccountingFirmMember_loc" xlink:to="rj-dm-auf_AuditorsFeesExternalAuditorAccountingFirmMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-auf_AuditorsFeesNetworkOrganisationsMember_loc" xlink:to="rj-dm-auf_AuditorsFeesNetworkOrganisationsMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="rj-dm-auf_AuditorsFeesTotalMember_loc" xlink:to="rj-dm-auf_AuditorsFeesTotalMember_label_en" xlink:type="arc"/>
+    <link:label id="rj-dm-auf_AuditorsFeesDomain_label_en" xlink:label="rj-dm-auf_AuditorsFeesDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Auditors fees [domain]</link:label>
+    <link:label id="rj-dm-auf_AuditorsFeesExternalAuditorAccountingFirmMember_label_en" xlink:label="rj-dm-auf_AuditorsFeesExternalAuditorAccountingFirmMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Fees of the external auditor and the accounting firm [member]</link:label>
+    <link:label id="rj-dm-auf_AuditorsFeesNetworkOrganisationsMember_label_en" xlink:label="rj-dm-auf_AuditorsFeesNetworkOrganisationsMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Fees of networkorganisations [member]</link:label>
+    <link:label id="rj-dm-auf_AuditorsFeesTotalMember_label_en" xlink:label="rj-dm-auf_AuditorsFeesTotalMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Total fees [member]</link:label>
+  </link:labelLink>
+</link:linkbase>

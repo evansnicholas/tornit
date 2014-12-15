@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/8.0/basis/rj/domains/rj-domains-provisions" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:rj-dm-prov="http://www.nltaxonomie.nl/8.0/basis/rj/domains/rj-domains-provisions" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="../../../basis/rj/domains/rj-domains-provisions-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="../../../basis/rj/domains/rj-domains-provisions-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/>
+  <xs:element id="rj-dm-prov_ProvisionsComponentDomain" name="ProvisionsComponentDomain" abstract="true" nillable="false" substitutionGroup="sbr:domainItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_ProvisionRepairCostsMember" name="ProvisionRepairCostsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_EnvironmentalProvisionMember" name="EnvironmentalProvisionMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_ProvisionLegalProceedingsMember" name="ProvisionLegalProceedingsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_ProvisionMajorMaintenanceMember" name="ProvisionMajorMaintenanceMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_ProvisionDisposalObligationMember" name="ProvisionDisposalObligationMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_ProvisionOnerousContractsMember" name="ProvisionOnerousContractsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_RestructuringProvisionMember" name="RestructuringProvisionMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_ProvisionSubsidiariesMember" name="ProvisionSubsidiariesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_WarrantyProvisionMember" name="WarrantyProvisionMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_ProvisionJubileeBenefitsMember" name="ProvisionJubileeBenefitsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="rj-dm-prov_ProvisionsOtherMember" name="ProvisionsOtherMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+</xs:schema>

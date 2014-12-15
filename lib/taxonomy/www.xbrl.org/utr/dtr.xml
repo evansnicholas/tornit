@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dtr version="1.0" xmlns="http://www.xbrl.org/2009/dtr"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.xbrl.org/2009/dtr dtr.xsd">
+    <types>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/non-numeric</typeNamespace>
+            <typeName>domainItemType</typeName>
+            <status>ACK</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd#domainItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The domain member item type indicates that an element is a
+                domain member.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/non-numeric</typeNamespace>
+            <typeName>escapedItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd#escapedItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">escapedItemType specializes string. There is no constraint on
+                whether the resulting unescaped content is well-formed or not; this base type is
+                exists so that processors know what to do with the content. It is a suitable base
+                type for a data type whose unescaped content must be valid HTML 4.0 (which is not
+                XML).</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/non-numeric</typeNamespace>
+            <typeName>xmlNodesItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd#xmlNodesItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">xmlNodesItemType specializes escapedItemType. The unescaped
+                content MUST be a sequence of XML text and well-formed XML nodes. This content
+                constraint cannot be captured by a finite length regular expression.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/non-numeric</typeNamespace>
+            <typeName>xmlItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd#xmlItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">xmlItemType specializes xmlNodesItemType. The unescaped
+                content MUST be well formed XML. This is a suitable base type for the SEC EDGAR
+                “text block” item type which must conform to an EDGAR-specific XML Schema or
+                DTD.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type> 
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/non-numeric</typeNamespace>
+            <typeName>textBlockItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd#textBlockItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">textBlockItemType specializes xmlNodesItemType. The unescaped content MUST have mixed content 
+        containing a simple string, or a fragment of XHTML or a mixture of both.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>percentItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#percentItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The percent item type is used to indicate that the value of
+                the element is intended to be presented as a percentage. This does not contravene
+                Specification section 4.8.2, which requires that percentages not be multiplied by
+                100.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>perShareItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#perShareItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The per share item type indicates a monetary amount divided by
+                a number of shares. The per share item type has a Decimal base.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>areaItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#areaItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The area item type is used to indicate that an element
+                represents an area.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>volumeItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#volumeItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The Volume item type is used to indicate that an element
+                represents a volume and can be used to express the volume of any substance, whether
+                solid, liquid, or gas.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>massItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#massItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The mass item type represents the mass of an object which can
+                be measured.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>weightItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#weightItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The weight item type represents the weight of an object which
+                can be measured.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>energyItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#energyItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The energy item type represents a unit of energy.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>powerItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#powerItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">Measures a rate of energy use or energy production and is
+                equivalent to the use or production of energy during a period of time. I.e. a watt
+                is the equal to one joule of energy per second.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>lengthItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#lengthItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The length item type is a measure of distance.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+            <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+            <typeName>memoryItemType</typeName>
+            <status>REC</status>
+            <versionDate>2009-12-16</versionDate>
+            <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#memoryItemType</authoritativeHref>
+            <requirement xml:lang="en">Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies.</requirement>
+            <definition xml:lang="en">The memory item type is a measure of memory typically used in
+                the IT industry.</definition>
+            <versionOfXBRL>2.1</versionOfXBRL>
+            <minimumEditionDate>2003-12-31</minimumEditionDate>
+        </type>
+        <type>
+                <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+                <typeName>noDecimalsMonetaryItemType</typeName>
+                <status>CR</status>
+                <versionDate>2012-06-30</versionDate>
+                <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2012-06-30.xsd#noDecimalsMonetaryItemType</authoritativeHref>
+                <requirement xml:lang="en">SBR-NL request for regulatory agencies which prohibit monetary cents to be reported.</requirement>
+                <definition xml:lang="en">The NoDecimalsMonetaryItemType is a restriction on the xbrli:monetaryItemType in that it does not allow cents on the monetary value.</definition>
+                <versionOfXBRL>2.1</versionOfXBRL>
+                <minimumEditionDate>2003-12-31</minimumEditionDate>
+            </type>
+            <type>
+                <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+                <typeName>nonNegativeMonetaryItemType</typeName>
+                <status>CR</status>
+                <versionDate>2012-06-30</versionDate>
+                <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2012-06-30.xsd#nonNegativeMonetaryItemType</authoritativeHref>
+                <requirement xml:lang="en">SBR-NL request for regulatory agencies which prohibit negative monetary values to be reported.</requirement>
+                <definition xml:lang="en">The nonNegativeMonetaryItemType is a restriction on the xbrli:monetaryItemType in that it does not allow negative values on the monetary value.</definition>
+                <versionOfXBRL>2.1</versionOfXBRL>
+                <minimumEditionDate>2003-12-31</minimumEditionDate>
+            </type>
+            <type>
+                <typeNamespace>http://www.xbrl.org/dtr/type/numeric</typeNamespace>
+                <typeName>nonNegativeNoDecimalsMonetaryItemType</typeName>
+                <status>CR</status>
+                <versionDate>2012-06-30</versionDate>
+                <authoritativeHref>http://www.xbrl.org/dtr/type/numeric-2012-06-30.xsd#nonNegativeNoDecimalsMonetaryItemType</authoritativeHref>
+                <requirement xml:lang="en">SBR-NL request for regulatory agencies which prohibit cents AND negative values to be reported.</requirement>
+                <definition xml:lang="en">The nonNegativeNoDecimalsMonetaryItemType is a restriction on the xbrli:monetaryItemType in that it does not allow cents or negative values on the monetary value.</definition>
+                <versionOfXBRL>2.1</versionOfXBRL>
+                <minimumEditionDate>2003-12-31</minimumEditionDate>
+            </type>
+            <type>
+              <typeNamespace>http://www.xbrl.org/2013/enumeration</typeNamespace>
+              <typeName>enumerationItemType</typeName>
+              <status>PROPOSED</status>
+              <versionDate>2013-06-30</versionDate>
+              <authoritativeHref>http://www.xbrl.org/dtr/type/enumeration-2013-06-30.xsd#enumerationItemType</authoritativeHref>
+              <requirement xml:lang="en">
+                CDP, GRC, US-GAAP and FSD taxonomies have all found a need for fact content to be one of an defined but extensible set of
+                QNames, each of which may be presented with different labels depending on language and other factors.
+              </requirement>
+              <definition xml:lang="en">
+                enumerationItemType specializes QNameItemType. The content of a fact of this type MUST be a QName denoting an xbrl concept
+                in the xbrli:item substitution group, and MUST be either (a) the target of an effective definition relationship having arc role 
+                http://www.xbrl.org/2013/item-enumerations OR (b) reachable via domain-member relationships in the DRS of that relationship.
+              </definition>
+              <versionOfXBRL>2.1</versionOfXBRL>
+              <minimumEditionDate>2003-12-31</minimumEditionDate>
+            </type>
+    </types>
+</dtr>

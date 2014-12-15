@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:kvk-plr="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/kvk-linkroles-pre" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/kvk-linkroles-pre">
+   <xs:annotation>
+      <xs:appinfo>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-linkroles-pre-generic-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="simple"/>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-linkroles-pre-generic-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="simple"/>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-generic-linkrole-order.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="simple"/>
+ 		<link:roleType id="kvk-plr_InformationRequiredForFiling" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/information-required-for-filing">
+            <link:definition>Informatie ten behoeve van het deponeren van de rapportage bij het Handelsregister</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_DocumentEntityInformation" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/document-entity-information">
+            <link:definition>Informatie over de rapportage en de rechtspersoon</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>		
+		<link:roleType id="kvk-plr_ManagementReport" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/management-report">
+            <link:definition>Bestuursverslag</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>	
+		<link:roleType id="kvk-plr_BalanceSheetModelA" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/balance-sheet-model-a">
+            <link:definition>Balans (model A)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>			
+		<link:roleType id="kvk-plr_BalanceSheetModelB" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/balance-sheet-model-b">
+            <link:definition>Balans (model B)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>		
+		<link:roleType id="kvk-plr_BalanceSheetModelC" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/balance-sheet-model-c">
+            <link:definition>Balans (model C)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>		
+		<link:roleType id="kvk-plr_BalanceSheetModelD" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/balance-sheet-model-d">
+            <link:definition>Balans (model D)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_IncomeStatementModelE" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-e">
+            <link:definition>Winst- en verliesrekening (model E)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_IncomeStatementModelF" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-f">
+            <link:definition>Winst- en verliesrekening (model F)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_IncomeStatementModelG" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-g">
+            <link:definition>Winst- en verliesrekening (model G)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_IncomeStatementModelH" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-h">
+            <link:definition>Winst- en verliesrekening (model H)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_IncomeStatementModelI" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-i">
+            <link:definition>Winst- en verliesrekening (model I)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_IncomeStatementModelJ" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-j">
+            <link:definition>Winst- en verliesrekening (model J)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_CashFlowStatementDirect" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/cash-flow-statement-direct">
+            <link:definition>Kasstroomoverzicht (directe methode)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_CashFlowStatementIndirect" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/cash-flow-statement-indirect">
+            <link:definition>Kasstroomoverzicht (indirecte methode)</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_ComprehensiveIncomeStatement" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/comprehensive-income-statement">
+            <link:definition>Overzicht totaalresultaat</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+		<link:roleType id="kvk-plr_Notes" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/notes">
+            <link:definition>Toelichting</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>		
+		<link:roleType id="kvk-plr_OtherInformation" roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/other-information">
+            <link:definition>Overige gegevens</link:definition>
+            <link:usedOn>link:presentationLink</link:usedOn>
+        </link:roleType>
+    </xs:appinfo>
+   </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xs:schema>

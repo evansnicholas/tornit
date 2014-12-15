@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/7.0/domein/bd/tuples/bd-alg-tuples" xmlns:bd-alg="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-algemeen" xmlns:bd-alg-tuple="http://www.nltaxonomie.nl/7.0/domein/bd/tuples/bd-alg-tuples" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nl-cd="http://www.nltaxonomie.nl/7.0/basis/sbr/items/nl-common-data" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:annotation>
+        <xs:appinfo>
+            <link:linkbaseRef xlink:href="./bd-alg-tuples-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+            <link:linkbaseRef xlink:href="./bd-alg-tuples-ref.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/sbr/items/nl-common-data" schemaLocation="../../../basis/sbr/items/nl-common-data.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-algemeen" schemaLocation="../../../basis/bd/items/bd-algemeen.xsd"/>
+    <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:element id="bd-alg-tuple_AddressAbroadTitle" name="AddressAbroadTitle" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="nl-cd:CountryCodeISO" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:HouseNumberAbroad" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:PlaceOfResidenceAbroad" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:PostalCodeAbroad" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:StreetNameAbroad" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-alg-tuple_AddressDutchTitle" name="AddressDutchTitle" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-alg:HouseNumberAddition" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:HouseNumberNL" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:PlaceOfResidenceNL" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="nl-cd:PostalCodeNL" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:StreetNameNL" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-alg-tuple_ConsultantAdvisorCorrespondentTitle" name="ConsultantAdvisorCorrespondentTitle" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-alg:Initials" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:Prefix" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:SurnameSignificantPart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:TelephoneNumber" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-alg-tuple_ConsultantAdvisorTitle" name="ConsultantAdvisorTitle" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-alg:ConsultantAdvisorBeconNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg-tuple:ConsultantAdvisorCorrespondentTitle" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-alg-tuple_CorrespondentConsultantAdvisor" name="CorrespondentConsultantAdvisor" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-alg:NameContactSupplier" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:TaxconsultantNumber" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:TelephoneNumberContactSupplier" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-alg-tuple_CorrespondentDeclarant" name="CorrespondentDeclarant" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-alg:NameContactSupplier" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:TelephoneNumberContactSupplier" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-alg-tuple_CorrespondentServicebureau" name="CorrespondentServicebureau" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-alg:IdentificationServicebureau" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:NameContactSupplier" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:TelephoneNumberContactSupplier" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-alg-tuple_TaxConsultantSpecification" name="TaxConsultantSpecification" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-alg:ConsultantAdvisorAddress" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:ConsultantAdvisorCorrespondentName" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:ConsultantAdvisorName" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:ConsultantAdvisorPlaceOfResidence" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:ConsultantIdentificationMessageNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:FeedbackSignalIndication" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="nl-cd:PostalCodeNL" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:TaxconsultantNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:TelephoneNumber" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorBeconNumber" xlink:label="bd-alg_ConsultantAdvisorBeconNumber_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_ConsultantAdvisorBeconNumber_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_5051">Beconnummer (consulent)</link:label>
+        <link:labelArc xlink:from="bd-alg_ConsultantAdvisorBeconNumber_loc" xlink:to="bd-alg_ConsultantAdvisorBeconNumber_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_IntermediaryBeconNumber" xlink:label="bd-alg_IntermediaryBeconNumber_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_IntermediaryBeconNumber_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_5052">Beconnummer (intermediair)</link:label>
+        <link:labelArc xlink:from="bd-alg_IntermediaryBeconNumber_loc" xlink:to="bd-alg_IntermediaryBeconNumber_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_HouseNumberAbroad" xlink:label="bd-alg_HouseNumberAbroad_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_HouseNumberAbroad_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_5668">Huisnummer buitenlands adres</link:label>
+        <link:labelArc xlink:from="bd-alg_HouseNumberAbroad_loc" xlink:to="bd-alg_HouseNumberAbroad_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_HouseNumberAddition" xlink:label="bd-alg_HouseNumberAddition_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_HouseNumberAddition_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25523">Huisnummertoevoeging</link:label>
+        <link:labelArc xlink:from="bd-alg_HouseNumberAddition_loc" xlink:to="bd-alg_HouseNumberAddition_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_HouseNumberNL" xlink:label="bd-alg_HouseNumberNL_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_HouseNumberNL_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_5670">Huisnummer</link:label>
+        <link:labelArc xlink:from="bd-alg_HouseNumberNL_loc" xlink:to="bd-alg_HouseNumberNL_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_Initials" xlink:label="bd-alg_Initials_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_Initials_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_5709">Voorletters</link:label>
+        <link:labelArc xlink:from="bd-alg_Initials_loc" xlink:to="bd-alg_Initials_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_PlaceOfResidenceAbroad" xlink:label="bd-alg_PlaceOfResidenceAbroad_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_PlaceOfResidenceAbroad_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6013">Woonplaats buitenlands adres</link:label>
+        <link:labelArc xlink:from="bd-alg_PlaceOfResidenceAbroad_loc" xlink:to="bd-alg_PlaceOfResidenceAbroad_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_PlaceOfResidenceNL" xlink:label="bd-alg_PlaceOfResidenceNL_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_PlaceOfResidenceNL_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6014">Woonplaats</link:label>
+        <link:labelArc xlink:from="bd-alg_PlaceOfResidenceNL_loc" xlink:to="bd-alg_PlaceOfResidenceNL_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_PostalCodeAbroad" xlink:label="bd-alg_PostalCodeAbroad_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_PostalCodeAbroad_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6023">Postcode buitenlands adres</link:label>
+        <link:labelArc xlink:from="bd-alg_PostalCodeAbroad_loc" xlink:to="bd-alg_PostalCodeAbroad_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_Prefix" xlink:label="bd-alg_Prefix_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_Prefix_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6024">Voorvoegsel</link:label>
+        <link:labelArc xlink:from="bd-alg_Prefix_loc" xlink:to="bd-alg_Prefix_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SurnameSignificantPart" xlink:label="bd-alg_SurnameSignificantPart_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_SurnameSignificantPart_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6211">Significant deel van de achternaam</link:label>
+        <link:labelArc xlink:from="bd-alg_SurnameSignificantPart_loc" xlink:to="bd-alg_SurnameSignificantPart_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_StreetNameAbroad" xlink:label="bd-alg_StreetNameAbroad_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_StreetNameAbroad_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6241">Straatnaam buitenlands adres</link:label>
+        <link:labelArc xlink:from="bd-alg_StreetNameAbroad_loc" xlink:to="bd-alg_StreetNameAbroad_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_StreetNameNL" xlink:label="bd-alg_StreetNameNL_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_StreetNameNL_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6242">Straatnaam</link:label>
+        <link:labelArc xlink:from="bd-alg_StreetNameNL_loc" xlink:to="bd-alg_StreetNameNL_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SupplierCode" xlink:label="bd-alg_SupplierCode_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_SupplierCode_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6255">Leverancierscode</link:label>
+        <link:labelArc xlink:from="bd-alg_SupplierCode_loc" xlink:to="bd-alg_SupplierCode_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TelephoneNumber" xlink:label="bd-alg_TelephoneNumber_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_TelephoneNumber_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6313">Telefoonnummer</link:label>
+        <link:labelArc xlink:from="bd-alg_TelephoneNumber_loc" xlink:to="bd-alg_TelephoneNumber_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_VersionNumberApplication" xlink:label="bd-alg_VersionNumberApplication_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_VersionNumberApplication_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_6490">Versienummer applicatie</link:label>
+        <link:labelArc xlink:from="bd-alg_VersionNumberApplication_loc" xlink:to="bd-alg_VersionNumberApplication_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SoftwareSupplierCode" xlink:label="bd-alg_SoftwareSupplierCode_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_SoftwareSupplierCode_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12296">Code softwareleverancier</link:label>
+        <link:labelArc xlink:from="bd-alg_SoftwareSupplierCode_loc" xlink:to="bd-alg_SoftwareSupplierCode_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_DateTimeCreation" xlink:label="bd-alg_DateTimeCreation_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_DateTimeCreation_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12298">Datum en tijdstip aanmaak</link:label>
+        <link:labelArc xlink:from="bd-alg_DateTimeCreation_loc" xlink:to="bd-alg_DateTimeCreation_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_NameContactSupplier" xlink:label="bd-alg_NameContactSupplier_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_NameContactSupplier_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12310">Naam contactpersoon</link:label>
+        <link:labelArc xlink:from="bd-alg_NameContactSupplier_loc" xlink:to="bd-alg_NameContactSupplier_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxconsultantNumber" xlink:label="bd-alg_TaxconsultantNumber_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_TaxconsultantNumber_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12321">Beconnummer</link:label>
+        <link:labelArc xlink:from="bd-alg_TaxconsultantNumber_loc" xlink:to="bd-alg_TaxconsultantNumber_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TelephoneNumberContactSupplier" xlink:label="bd-alg_TelephoneNumberContactSupplier_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_TelephoneNumberContactSupplier_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12328">Telefoonnummer contactpersoon</link:label>
+        <link:labelArc xlink:from="bd-alg_TelephoneNumberContactSupplier_loc" xlink:to="bd-alg_TelephoneNumberContactSupplier_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_OperatingSystem" xlink:label="bd-alg_OperatingSystem_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_OperatingSystem_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12648">Besturingssysteem</link:label>
+        <link:labelArc xlink:from="bd-alg_OperatingSystem_loc" xlink:to="bd-alg_OperatingSystem_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxReturnMessageType" xlink:label="bd-alg_TaxReturnMessageType_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_TaxReturnMessageType_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_23173">Aangiftesoort</link:label>
+        <link:labelArc xlink:from="bd-alg_TaxReturnMessageType_loc" xlink:to="bd-alg_TaxReturnMessageType_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_VersionApplication" xlink:label="bd-alg_VersionApplication_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_VersionApplication_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_23609">Versie applicatie</link:label>
+        <link:labelArc xlink:from="bd-alg_VersionApplication_loc" xlink:to="bd-alg_VersionApplication_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_IdentificationServicebureau" xlink:label="bd-alg_IdentificationServicebureau_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_IdentificationServicebureau_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24009">Identificatie Servicebureau</link:label>
+        <link:labelArc xlink:from="bd-alg_IdentificationServicebureau_loc" xlink:to="bd-alg_IdentificationServicebureau_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_MessageReferenceSupplierICP" xlink:label="bd-alg_MessageReferenceSupplierICP_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_MessageReferenceSupplierICP_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24013">Berichtkenmerk aanleveraar (opgaaf ICP)</link:label>
+        <link:labelArc xlink:from="bd-alg_MessageReferenceSupplierICP_loc" xlink:to="bd-alg_MessageReferenceSupplierICP_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_MessageReferenceSupplierVAT" xlink:label="bd-alg_MessageReferenceSupplierVAT_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_MessageReferenceSupplierVAT_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24014">Berichtkenmerk aanleveraar (aangifte OB)</link:label>
+        <link:labelArc xlink:from="bd-alg_MessageReferenceSupplierVAT_loc" xlink:to="bd-alg_MessageReferenceSupplierVAT_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorName" xlink:label="bd-alg_ConsultantAdvisorName_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_ConsultantAdvisorName_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25528">Naam belastingconsulent</link:label>
+        <link:labelArc xlink:from="bd-alg_ConsultantAdvisorName_loc" xlink:to="bd-alg_ConsultantAdvisorName_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorCorrespondentName" xlink:label="bd-alg_ConsultantAdvisorCorrespondentName_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_ConsultantAdvisorCorrespondentName_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25529">Naam contactpersoon afzender consulent</link:label>
+        <link:labelArc xlink:from="bd-alg_ConsultantAdvisorCorrespondentName_loc" xlink:to="bd-alg_ConsultantAdvisorCorrespondentName_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_FeedbackSignalIndication" xlink:label="bd-alg_FeedbackSignalIndication_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_FeedbackSignalIndication_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25530">Indicatie terugmelding</link:label>
+        <link:labelArc xlink:from="bd-alg_FeedbackSignalIndication_loc" xlink:to="bd-alg_FeedbackSignalIndication_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxpayerName" xlink:label="bd-alg_TaxpayerName_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_TaxpayerName_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25531">Naam belastingplichtige</link:label>
+        <link:labelArc xlink:from="bd-alg_TaxpayerName_loc" xlink:to="bd-alg_TaxpayerName_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantIdentificationMessageNumber" xlink:label="bd-alg_ConsultantIdentificationMessageNumber_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_ConsultantIdentificationMessageNumber_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25532">Bericht kenmerk belastingconsulent</link:label>
+        <link:labelArc xlink:from="bd-alg_ConsultantIdentificationMessageNumber_loc" xlink:to="bd-alg_ConsultantIdentificationMessageNumber_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_DateCreation" xlink:label="bd-alg_DateCreation_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_DateCreation_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25535">Datum aanmaak</link:label>
+        <link:labelArc xlink:from="bd-alg_DateCreation_loc" xlink:to="bd-alg_DateCreation_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SerialNumberMessage" xlink:label="bd-alg_SerialNumberMessage_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_SerialNumberMessage_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25536">Volgnummer</link:label>
+        <link:labelArc xlink:from="bd-alg_SerialNumberMessage_loc" xlink:to="bd-alg_SerialNumberMessage_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SoftwareDeveloperName" xlink:label="bd-alg_SoftwareDeveloperName_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_SoftwareDeveloperName_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25537">Naam softwareontwikkelaar</link:label>
+        <link:labelArc xlink:from="bd-alg_SoftwareDeveloperName_loc" xlink:to="bd-alg_SoftwareDeveloperName_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SoftwareVersionCodeName" xlink:label="bd-alg_SoftwareVersionCodeName_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_SoftwareVersionCodeName_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25538">Naam en versienummer softwarepakket</link:label>
+        <link:labelArc xlink:from="bd-alg_SoftwareVersionCodeName_loc" xlink:to="bd-alg_SoftwareVersionCodeName_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_PostponementSchemeIndication" xlink:label="bd-alg_PostponementSchemeIndication_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_PostponementSchemeIndication_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25539">Indicatie Becon uitstelregeling</link:label>
+        <link:labelArc xlink:from="bd-alg_PostponementSchemeIndication_loc" xlink:to="bd-alg_PostponementSchemeIndication_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxName" xlink:label="bd-alg_TaxName_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_TaxName_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25540">Belastingmiddel</link:label>
+        <link:labelArc xlink:from="bd-alg_TaxName_loc" xlink:to="bd-alg_TaxName_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorAddress" xlink:label="bd-alg_ConsultantAdvisorAddress_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_ConsultantAdvisorAddress_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25541">Adres consulent</link:label>
+        <link:labelArc xlink:from="bd-alg_ConsultantAdvisorAddress_loc" xlink:to="bd-alg_ConsultantAdvisorAddress_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_FinancialYearStart" xlink:label="bd-alg_FinancialYearStart_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_FinancialYearStart_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25542">Boekjaar begin</link:label>
+        <link:labelArc xlink:from="bd-alg_FinancialYearStart_loc" xlink:to="bd-alg_FinancialYearStart_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_FinancialYearEnd" xlink:label="bd-alg_FinancialYearEnd_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_FinancialYearEnd_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25543">Boekjaar eind</link:label>
+        <link:labelArc xlink:from="bd-alg_FinancialYearEnd_loc" xlink:to="bd-alg_FinancialYearEnd_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxpayerIdentificationNumber" xlink:label="bd-alg_TaxpayerIdentificationNumber_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_TaxpayerIdentificationNumber_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25544">Identificatienummer belastingplichtige</link:label>
+        <link:labelArc xlink:from="bd-alg_TaxpayerIdentificationNumber_loc" xlink:to="bd-alg_TaxpayerIdentificationNumber_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorPlaceOfResidence" xlink:label="bd-alg_ConsultantAdvisorPlaceOfResidence_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_ConsultantAdvisorPlaceOfResidence_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25545">Woonplaats afzender consulent</link:label>
+        <link:labelArc xlink:from="bd-alg_ConsultantAdvisorPlaceOfResidence_loc" xlink:to="bd-alg_ConsultantAdvisorPlaceOfResidence_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_DateOfBirth" xlink:label="bd-alg_DateOfBirth_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-alg_DateOfBirth_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_26374">Datum, geboorte</link:label>
+        <link:labelArc xlink:from="bd-alg_DateOfBirth_loc" xlink:to="bd-alg_DateOfBirth_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+    </link:labelLink>
+</link:linkbase>

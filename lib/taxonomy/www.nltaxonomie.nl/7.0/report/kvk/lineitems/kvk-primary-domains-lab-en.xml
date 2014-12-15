@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+	  <link:label id="kvk-pdom_BasisOfPreparationLineItems_label_en" xlink:label="kvk-pdom_BasisOfPreparationLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Basis of preparation [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_BasisOfPreparationLineItems" xlink:label="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-pdom_BasisOfPreparationLineItems_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-pdom_FinancialStatementsTypeLineItems_label_en" xlink:label="kvk-pdom_FinancialStatementsTypeLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Financial statements type [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_FinancialStatementsTypeLineItems" xlink:label="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_FinancialStatementsTypeLineItems_loc" xlink:to="kvk-pdom_FinancialStatementsTypeLineItems_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-pdom_IntangibleAssetsMovementLineItems_label_en" xlink:label="kvk-pdom_IntangibleAssetsMovementLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Intangible assets, movement [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_IntangibleAssetsMovementLineItems" xlink:label="kvk-pdom_IntangibleAssetsMovementLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_IntangibleAssetsMovementLineItems_loc" xlink:to="kvk-pdom_IntangibleAssetsMovementLineItems_label_en" xlink:type="arc"/>
+	  <link:label id="kvk-pdom_PropertyPlantEquipmentMovementLineItems_label_en" xlink:label="kvk-pdom_PropertyPlantEquipmentMovementLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Property, plant and equipment, movement [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_PropertyPlantEquipmentMovementLineItems" xlink:label="kvk-pdom_PropertyPlantEquipmentMovementLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_PropertyPlantEquipmentMovementLineItems_loc" xlink:to="kvk-pdom_PropertyPlantEquipmentMovementLineItems_label_en" xlink:type="arc"/>
+  	  <link:label id="kvk-pdom_FinancialAssetsMovementLineItems_label_en" xlink:label="kvk-pdom_FinancialAssetsMovementLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Financial assets, movement [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_FinancialAssetsMovementLineItems" xlink:label="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_FinancialAssetsMovementLineItems_loc" xlink:to="kvk-pdom_FinancialAssetsMovementLineItems_label_en" xlink:type="arc"/>
+      <link:label id="kvk-pdom_EquityMovementLineItems_label_en" xlink:label="kvk-pdom_EquityMovementLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Equity, movement [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_EquityMovementLineItems" xlink:label="kvk-pdom_EquityMovementLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_EquityMovementLineItems_loc" xlink:to="kvk-pdom_EquityMovementLineItems_label_en" xlink:type="arc"/>
+      <link:label id="kvk-pdom_ShareCapitalMovementLineItems_label_en" xlink:label="kvk-pdom_ShareCapitalMovementLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Share capital, movement [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_ShareCapitalMovementLineItems" xlink:label="kvk-pdom_ShareCapitalMovementLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_ShareCapitalMovementLineItems_loc" xlink:to="kvk-pdom_ShareCapitalMovementLineItems_label_en" xlink:type="arc"/>
+      <link:label id="kvk-pdom_RevaluationReserveMovementLineItems_label_en" xlink:label="kvk-pdom_RevaluationReserveMovementLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Revaluation reserve, movement [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_RevaluationReserveMovementLineItems" xlink:label="kvk-pdom_RevaluationReserveMovementLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_RevaluationReserveMovementLineItems_loc" xlink:to="kvk-pdom_RevaluationReserveMovementLineItems_label_en" xlink:type="arc"/>
+      <link:label id="kvk-pdom_ProvisionsMovementLineItems_label_en" xlink:label="kvk-pdom_ProvisionsMovementLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Provisions, movement [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_ProvisionsMovementLineItems" xlink:label="kvk-pdom_ProvisionsMovementLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_ProvisionsMovementLineItems_loc" xlink:to="kvk-pdom_ProvisionsMovementLineItems_label_en" xlink:type="arc"/>
+      <link:label id="kvk-pdom_NegativeGoodwillMovementLineItems_label_en" xlink:label="kvk-pdom_NegativeGoodwillMovementLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Negative goodwill, movement [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_NegativeGoodwillMovementLineItems" xlink:label="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-pdom_NegativeGoodwillMovementLineItems_label_en" xlink:type="arc"/>
+      <link:label id="kvk-pdom_RightsGrantedNotYetExercisedMovementLineItems_label_en" xlink:label="kvk-pdom_RightsGrantedNotYetExercisedMovementLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Rights granted, not yet exercised, movement [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_RightsGrantedNotYetExercisedMovementLineItems" xlink:label="kvk-pdom_RightsGrantedNotYetExercisedMovementLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_RightsGrantedNotYetExercisedMovementLineItems_loc" xlink:to="kvk-pdom_RightsGrantedNotYetExercisedMovementLineItems_label_en" xlink:type="arc"/>
+      <link:label id="kvk-pdom_AdimensionalLineItems_label_en" xlink:label="kvk-pdom_AdimensionalLineItems_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Adimensional [line items]</link:label>
+      <link:loc xlink:href="kvk-primary-domains.xsd#kvk-pdom_AdimensionalLineItems" xlink:label="kvk-pdom_AdimensionalLineItems_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-pdom_AdimensionalLineItems_label_en" xlink:type="arc"/>
+	  </link:labelLink>
+</link:linkbase>

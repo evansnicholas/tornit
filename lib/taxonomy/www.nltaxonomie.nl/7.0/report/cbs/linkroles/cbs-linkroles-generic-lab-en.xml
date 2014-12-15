@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Contact-Information_loc" xlink:to="cbs-lr_Contact-Information_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Investments_loc" xlink:to="cbs-lr_Investments_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Production-Statistic-Industry_loc" xlink:to="cbs-lr_Production-Statistic-Industry_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Production-Statistic-Health_loc" xlink:to="cbs-lr_Production-Statistic-Health_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Production-Statistic-Construction_loc" xlink:to="cbs-lr_Production-Statistic-Construction_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Production-Statistic-Other_loc" xlink:to="cbs-lr_Production-Statistic-Other_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Production-Statistic-Commerce_loc" xlink:to="cbs-lr_Production-Statistic-Commerce_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Shortterm-Statistics-Industry_loc" xlink:to="cbs-lr_Shortterm-Statistics-Industry_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Shortterm-Statistics-Construction_loc" xlink:to="cbs-lr_Shortterm-Statistics-Construction_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Shortterm-Statistics-Commerce_loc" xlink:to="cbs-lr_Shortterm-Statistics-Commerce_label-en"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="cbs-lr_Shortterm-Statistics-Other_loc" xlink:to="cbs-lr_Shortterm-Statistics-Other_label-en"/>
+    <label:label xlink:type="resource" id="cbs-lr_Contact-Information_label-en" xlink:label="cbs-lr_Contact-Information_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Contactinformation</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Investments_label-en" xlink:label="cbs-lr_Investments_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Investments statistics</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Production-Statistic-Industry_label-en" xlink:label="cbs-lr_Production-Statistic-Industry_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Production statistics industry</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Production-Statistic-Health_label-en" xlink:label="cbs-lr_Production-Statistic-Health_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Production statistics health</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Production-Statistic-Construction_label-en" xlink:label="cbs-lr_Production-Statistic-Construction_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Production statistics construction</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Production-Statistic-Other_label-en" xlink:label="cbs-lr_Production-Statistic-Other_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Production statistics other</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Production-Statistic-Commerce_label-en" xlink:label="cbs-lr_Production-Statistic-Commerce_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Production statistics commerce</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Shortterm-Statistics-Industry_label-en" xlink:label="cbs-lr_Shortterm-Statistics-Industry_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Shortterm statistics industry</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Shortterm-Statistics-Construction_label-en" xlink:label="cbs-lr_Shortterm-Statistics-Construction_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Shortterm statistics construction</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Shortterm-Statistics-Commerce_label-en" xlink:label="cbs-lr_Shortterm-Statistics-Commerce_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Shortterm statistics commerce</label:label>
+    <label:label xlink:type="resource" id="cbs-lr_Shortterm-Statistics-Other_label-en" xlink:label="cbs-lr_Shortterm-Statistics-Other_label-en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Shortterm statistics other</label:label>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Contact-information" xlink:label="cbs-lr_Contact-Information_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Investments" xlink:label="cbs-lr_Investments_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-industry" xlink:label="cbs-lr_Production-Statistic-Industry_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-health" xlink:label="cbs-lr_Production-Statistic-Health_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-construction" xlink:label="cbs-lr_Production-Statistic-Construction_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-other" xlink:label="cbs-lr_Production-Statistic-Other_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-commerce" xlink:label="cbs-lr_Production-Statistic-Commerce_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Shortterm-Statistics-Industry" xlink:label="cbs-lr_Shortterm-Statistics-Industry_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Shortterm-Statistics-Construction" xlink:label="cbs-lr_Shortterm-Statistics-Construction_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Shortterm-Statistics-Commerce" xlink:label="cbs-lr_Shortterm-Statistics-Commerce_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Shortterm-Statistics-Other" xlink:label="cbs-lr_Shortterm-Statistics-Other_loc"/>
+  </gen:link>
+</link:linkbase>

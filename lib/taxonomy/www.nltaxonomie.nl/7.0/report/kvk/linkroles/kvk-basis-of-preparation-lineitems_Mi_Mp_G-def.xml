@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+   <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_BasisOfPreparationTable" xlink:type="simple"/>
+   <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:type="extended">
+		<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_BasisOfPreparationLineItems" xlink:label="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EarningsPerSharePolicy" xlink:label="kvk-i_EarningsPerSharePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_InvestmentsOtherRelatedPartiesPolicy" xlink:label="kvk-i_InvestmentsOtherRelatedPartiesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PayablesOtherRelatedPartiesCurrentPolicy" xlink:label="kvk-i_PayablesOtherRelatedPartiesCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PayablesOtherRelatedPartiesNoncurrentPolicy" xlink:label="kvk-i_PayablesOtherRelatedPartiesNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ReceivablesOtherRelatedPartiesCurrentPolicy" xlink:label="kvk-i_ReceivablesOtherRelatedPartiesCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ReceivablesOtherRelatedPartiesNoncurrentPolicy" xlink:label="kvk-i_ReceivablesOtherRelatedPartiesNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_AccrualsCurrentPolicy" xlink:label="nl-gen_AccrualsCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_AccrualsNoncurrentPolicy" xlink:label="nl-gen_AccrualsNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_AccruedIncomePolicy" xlink:label="nl-gen_AccruedIncomePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_AdvancesReceivedCurrentPolicy" xlink:label="nl-gen_AdvancesReceivedCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_AdvancesReceivedNoncurrentPolicy" xlink:label="nl-gen_AdvancesReceivedNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_AssetsNotUsedInOperationsPolicy" xlink:label="nl-gen_AssetsNotUsedInOperationsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_BillsExchangeChequesPayableCurrentPolicy" xlink:label="nl-gen_BillsExchangeChequesPayableCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_BillsExchangeChequesPayableNoncurrentPolicy" xlink:label="nl-gen_BillsExchangeChequesPayableNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CalledUpShareCapitalPolicy" xlink:label="nl-gen_CalledUpShareCapitalPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CashFlowStatementPolicy" xlink:label="nl-gen_CashFlowStatementPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ConstructionInProgressPrepaymentsPropertyPlantEquipmentPolicy" xlink:label="nl-gen_ConstructionInProgressPrepaymentsPropertyPlantEquipmentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ConvertibleBorrowingsCurrentPolicy" xlink:label="nl-gen_ConvertibleBorrowingsCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ConvertibleBorrowingsNoncurrentPolicy" xlink:label="nl-gen_ConvertibleBorrowingsNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CostsIncorporationShareIssuePolicy" xlink:label="nl-gen_CostsIncorporationShareIssuePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_DebenturesOtherPrivateLoansCurrentPolicy" xlink:label="nl-gen_DebenturesOtherPrivateLoansCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_DebenturesOtherPrivateLoansNoncurrentPolicy" xlink:label="nl-gen_DebenturesOtherPrivateLoansNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_GoodwillPolicy" xlink:label="nl-gen_GoodwillPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_InventoryFinishedTradeGoodsPolicy" xlink:label="nl-gen_InventoryFinishedTradeGoodsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_InventoryRawMaterialsConsumablesPolicy" xlink:label="nl-gen_InventoryRawMaterialsConsumablesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_InvestmentsGroupCompaniesPolicy" xlink:label="nl-gen_InvestmentsGroupCompaniesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_InvestmentsOtherPolicy" xlink:label="nl-gen_InvestmentsOtherPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LandAndBuildingsPolicy" xlink:label="nl-gen_LandAndBuildingsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LegalReservesPolicy" xlink:label="nl-gen_LegalReservesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_MachineryPolicy" xlink:label="nl-gen_MachineryPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PatentsTrademarksOtherRightsPolicy" xlink:label="nl-gen_PatentsTrademarksOtherRightsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesCreditInstitutionsCurrentPolicy" xlink:label="nl-gen_PayablesCreditInstitutionsCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesCreditInstitutionsNoncurrentPolicy" xlink:label="nl-gen_PayablesCreditInstitutionsNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesGroupCompaniesCurrentPolicy" xlink:label="nl-gen_PayablesGroupCompaniesCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesGroupCompaniesNoncurrentPolicy" xlink:label="nl-gen_PayablesGroupCompaniesNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesOtherCurrentPolicy" xlink:label="nl-gen_PayablesOtherCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesOtherNoncurrentPolicy" xlink:label="nl-gen_PayablesOtherNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesShareholdersParticipatingInterestsCurrentPolicy" xlink:label="nl-gen_PayablesShareholdersParticipatingInterestsCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesShareholdersParticipatingInterestsNoncurrentPolicy" xlink:label="nl-gen_PayablesShareholdersParticipatingInterestsNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PensionPayablesCurrentPolicy" xlink:label="nl-gen_PensionPayablesCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PensionPayablesNoncurrentPolicy" xlink:label="nl-gen_PensionPayablesNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PrepaymentsIntangibleAssetsPolicy" xlink:label="nl-gen_PrepaymentsIntangibleAssetsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PrepaymentsInventoriesPolicy" xlink:label="nl-gen_PrepaymentsInventoriesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesGroupCompaniesCurrentPolicy" xlink:label="nl-gen_ReceivablesGroupCompaniesCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesGroupCompaniesNoncurrentPolicy" xlink:label="nl-gen_ReceivablesGroupCompaniesNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesOtherCurrentPolicy" xlink:label="nl-gen_ReceivablesOtherCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesOtherNoncurrentPolicy" xlink:label="nl-gen_ReceivablesOtherNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesShareholdersParticipatingInterestsCurrentPolicy" xlink:label="nl-gen_ReceivablesShareholdersParticipatingInterestsCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesShareholdersParticipatingInterestsNoncurrentPolicy" xlink:label="nl-gen_ReceivablesShareholdersParticipatingInterestsNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResearchAndDevelopmentCostsPolicy" xlink:label="nl-gen_ResearchAndDevelopmentCostsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SecuritiesOtherNoncurrentPolicy" xlink:label="nl-gen_SecuritiesOtherNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_StatutoryReservesPolicy" xlink:label="nl-gen_StatutoryReservesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_TangibleAssetsOtherPolicy" xlink:label="nl-gen_TangibleAssetsOtherPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_TaxesSocialSecurityContributionsPayableCurrentPolicy" xlink:label="nl-gen_TaxesSocialSecurityContributionsPayableCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_TaxesSocialSecurityContributionsPayableNoncurrentPolicy" xlink:label="nl-gen_TaxesSocialSecurityContributionsPayableNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_TradePayablesCurrentPolicy" xlink:label="nl-gen_TradePayablesCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_TradePayablesNoncurrentPolicy" xlink:label="nl-gen_TradePayablesNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_TradeReceivablesPolicy" xlink:label="nl-gen_TradeReceivablesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_WorkInProgressPolicy" xlink:label="nl-gen_WorkInProgressPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DeferredTaxAssetsCurrentPolicy" xlink:label="kvk-i_DeferredTaxAssetsCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DeferredTaxAssetsNoncurrentPolicy" xlink:label="kvk-i_DeferredTaxAssetsNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DiscontinuedOperationsEventType" xlink:label="kvk-i_DiscontinuedOperationsEventType_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinanceLeaseLiabilitiesCurrentPolicy" xlink:label="kvk-i_FinanceLeaseLiabilitiesCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinanceLeaseLiabilitiesNoncurrentPolicy" xlink:label="kvk-i_FinanceLeaseLiabilitiesNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsOtherPolicy" xlink:label="kvk-i_FinancialAssetsOtherPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialInstrumentsHedgeAccountingPolicy" xlink:label="kvk-i_FinancialInstrumentsHedgeAccountingPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialInstrumentsTypePolicy" xlink:label="kvk-i_FinancialInstrumentsTypePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ForeignCurrencyTranslationChangeFunctionalCurrency" xlink:label="kvk-i_ForeignCurrencyTranslationChangeFunctionalCurrency_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ForeignCurrencyTranslationDifferencePresentationLocalCurrency" xlink:label="kvk-i_ForeignCurrencyTranslationDifferencePresentationLocalCurrency_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ForeignCurrencyTranslationFunctionalCurrencyHyperinflation" xlink:label="kvk-i_ForeignCurrencyTranslationFunctionalCurrencyHyperinflation_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GeneralPoliciesHistoricalCostDisclosureWhenFairValueBasis" xlink:label="kvk-i_GeneralPoliciesHistoricalCostDisclosureWhenFairValueBasis_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GeneralPoliciesLayoutOtherPresentationAspects" xlink:label="kvk-i_GeneralPoliciesLayoutOtherPresentationAspects_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IntangibleAssetsOtherPolicy" xlink:label="kvk-i_IntangibleAssetsOtherPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_InvestmentPropertyPolicy" xlink:label="kvk-i_InvestmentPropertyPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_MergersAcquisitionsDiscontinuedOperationsFollowingMergerAcquisition" xlink:label="kvk-i_MergersAcquisitionsDiscontinuedOperationsFollowingMergerAcquisition_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_MergersAcquisitionsEstimateFairValueIdentifiableAssetsLiabilities" xlink:label="kvk-i_MergersAcquisitionsEstimateFairValueIdentifiableAssetsLiabilities_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_MergersAcquisitionsPoolingOfInterestsMethodAdditionalInformation" xlink:label="kvk-i_MergersAcquisitionsPoolingOfInterestsMethodAdditionalInformation_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_MergersAcquisitionsPurchasePriceDescription" xlink:label="kvk-i_MergersAcquisitionsPurchasePriceDescription_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillPolicy" xlink:label="kvk-i_NegativeGoodwillPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PensionReceivablesPolicy" xlink:label="kvk-i_PensionReceivablesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProvisionPensionObligationsActuarialAssumptions" xlink:label="kvk-i_ProvisionPensionObligationsActuarialAssumptions_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProvisionPensionObligationsDescription" xlink:label="kvk-i_ProvisionPensionObligationsDescription_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProvisionPensionObligationsValuationMethods" xlink:label="kvk-i_ProvisionPensionObligationsValuationMethods_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SubordinatedLoansCurrentPolicy" xlink:label="kvk-i_SubordinatedLoansCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SubordinatedLoansNoncurrentPolicy" xlink:label="kvk-i_SubordinatedLoansNoncurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_TaxReceivablesPolicy" xlink:label="kvk-i_TaxReceivablesPolicy_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_InvestmentsOtherRelatedPartiesPolicy_loc" order="23" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_PayablesOtherRelatedPartiesCurrentPolicy_loc" order="24" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_PayablesOtherRelatedPartiesNoncurrentPolicy_loc" order="25" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ReceivablesOtherRelatedPartiesCurrentPolicy_loc" order="26" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ReceivablesOtherRelatedPartiesNoncurrentPolicy_loc" order="27" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_AccrualsCurrentPolicy_loc" order="28" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_AccrualsNoncurrentPolicy_loc" order="29" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_AccruedIncomePolicy_loc" order="30" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_AdvancesReceivedCurrentPolicy_loc" order="31" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_AdvancesReceivedNoncurrentPolicy_loc" order="32" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_AssetsNotUsedInOperationsPolicy_loc" order="33" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_BillsExchangeChequesPayableCurrentPolicy_loc" order="34" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_BillsExchangeChequesPayableNoncurrentPolicy_loc" order="35" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_CalledUpShareCapitalPolicy_loc" order="36" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_CashFlowStatementPolicy_loc" order="37" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ConstructionInProgressPrepaymentsPropertyPlantEquipmentPolicy_loc" order="38" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ConvertibleBorrowingsCurrentPolicy_loc" order="39" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ConvertibleBorrowingsNoncurrentPolicy_loc" order="40" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_CostsIncorporationShareIssuePolicy_loc" order="41" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_DebenturesOtherPrivateLoansCurrentPolicy_loc" order="42" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_DebenturesOtherPrivateLoansNoncurrentPolicy_loc" order="43" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_GoodwillPolicy_loc" order="44" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_InventoryFinishedTradeGoodsPolicy_loc" order="45" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_InventoryRawMaterialsConsumablesPolicy_loc" order="46" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_InvestmentsGroupCompaniesPolicy_loc" order="47" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_InvestmentsOtherPolicy_loc" order="48" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_LandAndBuildingsPolicy_loc" order="49" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_LegalReservesPolicy_loc" order="50" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_MachineryPolicy_loc" order="51" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PatentsTrademarksOtherRightsPolicy_loc" order="52" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PayablesCreditInstitutionsCurrentPolicy_loc" order="53" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PayablesCreditInstitutionsNoncurrentPolicy_loc" order="55" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PayablesGroupCompaniesCurrentPolicy_loc" order="55" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PayablesGroupCompaniesNoncurrentPolicy_loc" order="56" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PayablesOtherCurrentPolicy_loc" order="57" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PayablesOtherNoncurrentPolicy_loc" order="58" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PayablesShareholdersParticipatingInterestsCurrentPolicy_loc" order="59" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PayablesShareholdersParticipatingInterestsNoncurrentPolicy_loc" order="60" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PensionPayablesCurrentPolicy_loc" order="61" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PensionPayablesNoncurrentPolicy_loc" order="62" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PrepaymentsIntangibleAssetsPolicy_loc" order="63" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_PrepaymentsInventoriesPolicy_loc" order="64" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ReceivablesGroupCompaniesCurrentPolicy_loc" order="65" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ReceivablesGroupCompaniesNoncurrentPolicy_loc" order="66" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ReceivablesOtherCurrentPolicy_loc" order="67" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ReceivablesOtherNoncurrentPolicy_loc" order="68" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ReceivablesShareholdersParticipatingInterestsCurrentPolicy_loc" order="69" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ReceivablesShareholdersParticipatingInterestsNoncurrentPolicy_loc" order="70" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ResearchAndDevelopmentCostsPolicy_loc" order="71" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_SecuritiesOtherNoncurrentPolicy_loc" order="72" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_StatutoryReservesPolicy_loc" order="73" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_TangibleAssetsOtherPolicy_loc" order="74" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_TaxesSocialSecurityContributionsPayableCurrentPolicy_loc" order="75" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_TaxesSocialSecurityContributionsPayableNoncurrentPolicy_loc" order="76" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_TradePayablesCurrentPolicy_loc" order="77" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_TradePayablesNoncurrentPolicy_loc" order="78" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_TradeReceivablesPolicy_loc" order="79" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_WorkInProgressPolicy_loc" order="80" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_DeferredTaxAssetsCurrentPolicy_loc" order="81" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_DeferredTaxAssetsNoncurrentPolicy_loc" order="82" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_DiscontinuedOperationsEventType_loc" order="83" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_FinanceLeaseLiabilitiesCurrentPolicy_loc" order="86" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_FinanceLeaseLiabilitiesNoncurrentPolicy_loc" order="87" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_FinancialAssetsOtherPolicy_loc" order="88" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_FinancialInstrumentsHedgeAccountingPolicy_loc" order="89" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_FinancialInstrumentsTypePolicy_loc" order="90" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ForeignCurrencyTranslationChangeFunctionalCurrency_loc" order="91" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ForeignCurrencyTranslationDifferencePresentationLocalCurrency_loc" order="92" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ForeignCurrencyTranslationFunctionalCurrencyHyperinflation_loc" order="93" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_GeneralPoliciesHistoricalCostDisclosureWhenFairValueBasis_loc" order="94" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_GeneralPoliciesLayoutOtherPresentationAspects_loc" order="95" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_IntangibleAssetsOtherPolicy_loc" order="96" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_InvestmentPropertyPolicy_loc" order="97" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_MergersAcquisitionsDiscontinuedOperationsFollowingMergerAcquisition_loc" order="98" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_MergersAcquisitionsEstimateFairValueIdentifiableAssetsLiabilities_loc" order="99" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_MergersAcquisitionsPoolingOfInterestsMethodAdditionalInformation_loc" order="100" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_MergersAcquisitionsPurchasePriceDescription_loc" order="101" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_NegativeGoodwillPolicy_loc" order="102" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_PensionReceivablesPolicy_loc" order="103" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ProvisionPensionObligationsActuarialAssumptions_loc" order="104" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ProvisionPensionObligationsDescription_loc" order="105" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ProvisionPensionObligationsValuationMethods_loc" order="106" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_SubordinatedLoansCurrentPolicy_loc" order="107" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_SubordinatedLoansNoncurrentPolicy_loc" order="108" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_TaxReceivablesPolicy_loc" order="109" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_EarningsPerSharePolicy_loc" order="110" xlink:type="arc"/>
+	</link:definitionLink>
+</link:linkbase>

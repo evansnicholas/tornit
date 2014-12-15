@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"  xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+	<link:label id="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_periodEndLabel_nl" xlink:label="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Cumulatieve afschrijvingen en waardeverminderingen, einde van de periode</link:label>
+	<link:label id="kvk-i_IntangibleAssetsAccumulatedRevaluations_periodEndLabel_nl" xlink:label="kvk-i_IntangibleAssetsAccumulatedRevaluations_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Cumulatieve herwaarderingen, einde van de periode</link:label>
+	<link:label id="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_periodEndLabel_nl" xlink:label="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Cumulatieve afschrijvingen en waardeverminderingen, einde van de periode</link:label>
+	<link:label id="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_periodEndLabel_nl" xlink:label="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Cumulatieve herwaarderingen, einde van de periode</link:label>
+	<link:label id="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_periodEndLabel_nl" xlink:label="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Cumulatieve afschrijvingen en waardeverminderingen, einde van de periode</link:label>
+	<link:label id="kvk-i_FinancialAssetsAccumulatedRevaluations_periodEndLabel_nl" xlink:label="kvk-i_FinancialAssetsAccumulatedRevaluations_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Cumulatieve herwaarderingen, einde van de periode</link:label>
+	<link:label id="kvk-i_ShareCapitalNumberShares_periodEndLabel_nl" xlink:label="kvk-i_ShareCapitalNumberShares_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Aantal aandelen, einde van de periode</link:label>
+	<link:label id="kvk-i_RightsGranted_periodEndLabel_nl" xlink:label="kvk-i_RightsGranted_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Verleende rechten, einde van de periode</link:label>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments" xlink:label="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_IntangibleAssetsAccumulatedRevaluations" xlink:label="kvk-i_IntangibleAssetsAccumulatedRevaluations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments" xlink:label="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_PropertyPlantEquipmentAccumulatedRevaluations" xlink:label="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_FinancialAssetsAccumulatedDepreciationImpairments" xlink:label="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_FinancialAssetsAccumulatedRevaluations" xlink:label="kvk-i_FinancialAssetsAccumulatedRevaluations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_ShareCapitalNumberShares" xlink:label="kvk-i_ShareCapitalNumberShares_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_RightsGranted" xlink:label="kvk-i_RightsGranted_loc" xlink:type="locator"/>  
+ 	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_loc" xlink:to="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_IntangibleAssetsAccumulatedRevaluations_loc" xlink:to="kvk-i_IntangibleAssetsAccumulatedRevaluations_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_loc" xlink:to="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_loc" xlink:to="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_loc" xlink:to="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_FinancialAssetsAccumulatedRevaluations_loc" xlink:to="kvk-i_FinancialAssetsAccumulatedRevaluations_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_ShareCapitalNumberShares_loc" xlink:to="kvk-i_ShareCapitalNumberShares_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_RightsGranted_loc" xlink:to="kvk-i_RightsGranted_periodEndLabel_nl" xlink:type="arc"/>
+	<link:label id="kvk-i_IntangibleAssetsCostPrice_periodEndLabel_nl" xlink:label="kvk-i_IntangibleAssetsCostPrice_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Verkrijgings- of vervaardigingsprijs, einde van de periode</link:label>
+	<link:label id="kvk-i_PropertyPlantEquipmentCostPrice_periodEndLabel_nl" xlink:label="kvk-i_PropertyPlantEquipmentCostPrice_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Verkrijgings- of vervaardigingsprijs, einde van de periode</link:label>
+	<link:label id="kvk-i_FinancialAssetsCostPrice_periodEndLabel_nl" xlink:label="kvk-i_FinancialAssetsCostPrice_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Verkrijgings- of vervaardigingsprijs, einde van de periode</link:label>
+	<link:label id="kvk-i_NegativeGoodwillGross_periodEndLabel_nl" xlink:label="kvk-i_NegativeGoodwillGross_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Bruto waarde, einde van de periode</link:label>
+	<link:label id="kvk-i_NegativeGoodwillAccumulatedAmortisation_periodEndLabel_nl" xlink:label="kvk-i_NegativeGoodwillAccumulatedAmortisation_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Cumulatief ten gunste van winst- en verliesrekening gebracht, einde van de periode</link:label>
+	<link:label id="kvk-i_NegativeGoodwill_periodEndLabel_nl" xlink:label="kvk-i_NegativeGoodwill_periodEndLabel_nl" xlink:role="http://www.xbrl.org/2003/role/periodEndLabel" xlink:type="resource" xml:lang="nl">Negatieve goodwill, einde van de periode</link:label>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_IntangibleAssetsCostPrice" xlink:label="kvk-i_IntangibleAssetsCostPrice_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_PropertyPlantEquipmentCostPrice" xlink:label="kvk-i_PropertyPlantEquipmentCostPrice_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_FinancialAssetsCostPrice" xlink:label="kvk-i_FinancialAssetsCostPrice_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_NegativeGoodwillGross" xlink:label="kvk-i_NegativeGoodwillGross_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_NegativeGoodwillAccumulatedAmortisation" xlink:label="kvk-i_NegativeGoodwillAccumulatedAmortisation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_NegativeGoodwill" xlink:label="kvk-i_NegativeGoodwill_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_IntangibleAssetsCostPrice_loc" xlink:to="kvk-i_IntangibleAssetsCostPrice_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_PropertyPlantEquipmentCostPrice_loc" xlink:to="kvk-i_PropertyPlantEquipmentCostPrice_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_FinancialAssetsCostPrice_loc" xlink:to="kvk-i_FinancialAssetsCostPrice_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_NegativeGoodwillGross_loc" xlink:to="kvk-i_NegativeGoodwillGross_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_NegativeGoodwillAccumulatedAmortisation_loc" xlink:to="kvk-i_NegativeGoodwillAccumulatedAmortisation_periodEndLabel_nl" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_NegativeGoodwill_loc" xlink:to="kvk-i_NegativeGoodwill_periodEndLabel_nl" xlink:type="arc"/>
+	</link:labelLink>
+</link:linkbase>

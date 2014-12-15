@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+ xmlns="http://www.w3.org/2001/XMLSchema" 
+ xmlns:svr="http://xbrl.org/2008/simple-validation-rules" 
+ xmlns:xbrli="http://www.xbrl.org/2003/instance" 
+ xmlns:xl="http://www.xbrl.org/2003/XLink" 
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ elementFormDefault="qualified" 
+ targetNamespace="http://xbrl.org/2008/simple-validation-rules">
+ <import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.xbrl.org/2003/xlink-2003-12-31.xsd"/>   	
+ <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+ <import namespace="http://www.xbrl.org/2003/XLink" schemaLocation="http://www.xbrl.org/2003/xl-2003-12-31.xsd"/> 
+	
+ <element id="xml-rule" name="rule" substitutionGroup="xl:resource">
+  <annotation>
+   <documentation>Definition of the rule resource element. The simple type value of a rule instance is the rule expresion.</documentation> 
+  </annotation>
+  <complexType mixed="true">
+   <complexContent mixed="true">
+    <extension base="xl:resourceType">
+     <attribute name="contextGroupingRole" type="xl:nonEmptyURI" use="required"/> 
+     <attribute name="contextNodes" type="string" use="required"/>
+     <attribute name="message" type="string" use="required"/>
+     <attribute name="name" type="QName" use="required"/>
+     <attribute name="definition" type="string" use="required"/>
+    </extension>
+   </complexContent>
+  </complexType>
+ </element>
+
+ <element id="xml-validationresult" name="validationresult"> 
+  <annotation>
+   <documentation>Definition of the validationresult element.</documentation> 
+  </annotation>
+  <complexType>
+   <sequence>
+    <element maxOccurs="unbounded" minOccurs="1" ref="svr:networkresult"/> 
+   </sequence>
+  </complexType>
+ </element>
+
+ <element id="xml-networkresult" name="networkresult"> 
+  <annotation>
+   <documentation>Definition of the networkresult element.</documentation> 
+  </annotation>
+  <complexType>
+   <sequence>
+    <element maxOccurs="unbounded" minOccurs="0" ref="svr:ruleresult"/> 
+   </sequence>
+   <attribute ref="xlink:role" use="required"/> 
+  </complexType>
+ </element>
+
+ <element id="xml-ruleresult" name="ruleresult"> 
+  <annotation>
+   <documentation>Definition of the ruleresult element.</documentation> 
+  </annotation>
+  <complexType>
+   <sequence>
+    <element ref="xbrli:item"/> 
+   </sequence>
+   <attribute name="message" type="string" use="required"/>
+  </complexType>
+ </element>
+
+</schema>

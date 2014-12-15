@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dim_TimeDimension_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24473">Dimensie tijd</link:label>
+        <link:labelArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dim_TimeDimension_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dim_PartyDimension_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24483">Dimensie partij</link:label>
+        <link:labelArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dim_PartyDimension_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-axes.xsd#bd-dim-dim_CompanySerialNumberDimension" xlink:label="bd-dim-dim_CompanySerialNumberDimension_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-dim-dim_CompanySerialNumberDimension_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24485">Dimensie bedrijf voor aangifte (volgnummer)</link:label>
+        <link:labelArc xlink:from="bd-dim-dim_CompanySerialNumberDimension_loc" xlink:to="bd-dim-dim_CompanySerialNumberDimension_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+    </link:labelLink>
+</link:linkbase>

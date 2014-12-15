@@ -1,0 +1,1605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/7.0/domein/bd/tuples/bd-burg-tuples" xmlns:bd-alg="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-algemeen" xmlns:bd-alg-tuple="http://www.nltaxonomie.nl/7.0/domein/bd/tuples/bd-alg-tuples" xmlns:bd-bedr="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-bedrijven" xmlns:bd-bedr-tuple="http://www.nltaxonomie.nl/7.0/domein/bd/tuples/bd-bedr-tuples" xmlns:bd-burg="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-burgers" xmlns:bd-burg-tuple="http://www.nltaxonomie.nl/7.0/domein/bd/tuples/bd-burg-tuples" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nl-cd="http://www.nltaxonomie.nl/7.0/basis/sbr/items/nl-common-data" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:annotation>
+        <xs:appinfo>
+            <link:linkbaseRef xlink:href="./bd-burg-tuples-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+            <link:linkbaseRef xlink:href="./bd-burg-tuples-ref.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-burgers" schemaLocation="../../../basis/bd/items/bd-burgers.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/sbr/items/nl-common-data" schemaLocation="../../../basis/sbr/items/nl-common-data.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-algemeen" schemaLocation="../../../basis/bd/items/bd-algemeen.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/domein/bd/tuples/bd-alg-tuples" schemaLocation="./bd-alg-tuples.xsd"/>
+    <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/bd/items/bd-bedrijven" schemaLocation="../../../basis/bd/items/bd-bedrijven.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/7.0/domein/bd/tuples/bd-bedr-tuples" schemaLocation="./bd-bedr-tuples.xsd"/>
+    <xs:element id="bd-burg-tuple_ActivitiesWorkCostsSpecification" name="ActivitiesWorkCostsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ActivitiesWorkCostsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ActivitiesWorkCostsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ActivitiesWorkResultsSpecification" name="ActivitiesWorkResultsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ActivitiesWorkResultsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ActivitiesWorkResultsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_AdvanceLeviedGamblingTaxAndDividendTaxSpecification" name="AdvanceLeviedGamblingTaxAndDividendTaxSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AdvanceLeviedGamblingTaxAndDividendTaxAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AdvanceLeviedGamblingTaxAndDividendTaxBankAccountNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AdvanceLeviedGamblingTaxAndDividendTaxDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_AlimonyDeductibleCostsSpecification" name="AlimonyDeductibleCostsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AlimonyAmountDeductibleCosts" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AlimonyDescriptionDeductibleCosts" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_AssetBankAccountSavingsCertificateEtcAbroadSpecification" name="AssetBankAccountSavingsCertificateEtcAbroadSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AssetBankAccountSavingsCertificateEtcCountry" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetBankAccountSavingsCertificateEtcDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetBankAccountSavingsCertificateEtcValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:BankAccountSavingsAccountnumberBox3Abroad" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_AssetBankAccountSavingsCertificateEtcNetherlandSpecification" name="AssetBankAccountSavingsCertificateEtcNetherlandSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AssetBankAccountSavingsAccountnumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetBankAccountSavingsCertificateEtcDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetBankAccountSavingsCertificateEtcPreFilledValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetBankAccountSavingsCertificateEtcValue" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_AssetsOtherInConnectionWithResultFromOtherActivitiesSpecification" name="AssetsOtherInConnectionWithResultFromOtherActivitiesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AssetsOtherInConnectionWithResultFromActivitiesDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetsOtherInConnectionWithResultFromActivitiesValueEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetsOtherInConnectionWithResultFromActivitiesValueStart" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_AssetsOtherSpecification" name="AssetsOtherSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AssetsOtherDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetsOtherValue" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ChildrenSpecification" name="ChildrenSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="nl-cd:DateOfBirth" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:Initials" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_CommutingExpensesTaxDeductionSpecification" name="CommutingExpensesTaxDeductionSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:CommutingExpensesDaysPerWeekCount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CommutingExpensesDistance" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CommutingExpensesLocationOfActivities" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CommutingExpensesTaxDeductionByPeriodAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CommutingExpensesTaxDeductionPeriodEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CommutingExpensesTaxDeductionPeriodStart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CountDaysCommutedMoreThanNinetyKilometresSingleTrip" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_DebtBox3Specification" name="DebtBox3Specification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:DebtBox3" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:DebtBox3Description" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:DebtBox3IdentificationNumber" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_DebtsInConnectionWithResultFromActivitiesSpecification" name="DebtsInConnectionWithResultFromActivitiesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:DebtsInConnectionWithResultFromActivitiesAmountEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:DebtsInConnectionWithResultFromActivitiesAmountStart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:DebtsInConnectionWithResultFromActivitiesDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ExemptedWagesInternationalOrganisationsPresentWorkSpecification" name="ExemptedWagesInternationalOrganisationsPresentWorkSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AmountOfExemptIncome" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:NameOrganisation" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ExemptedWagesInternationalOrganisationsPreviousWorkSpecification" name="ExemptedWagesInternationalOrganisationsPreviousWorkSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AmountOfExemptIncome" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:NameOrganisation" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ExtraordinaryExpenditureHealthCareRefundSpecification" name="ExtraordinaryExpenditureHealthCareRefundSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditureHealthCareRefundAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditureHealthCareRefundDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_FictitiousActivitiesCostsSpecification" name="FictitiousActivitiesCostsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:FictitiousActivitiesCostsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:FictitiousActivitiesCostsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_FictitiousActivitiesResultsSpecification" name="FictitiousActivitiesResultsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:FictitiousActivitiesResultAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:FictitiousActivitiesResultDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_FormerPartnerTitle" name="FormerPartnerTitle" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:choice minOccurs="0" maxOccurs="1">
+                            <xs:element ref="bd-alg-tuple:AddressDutchTitle" minOccurs="1" maxOccurs="1"/>
+                            <xs:element ref="bd-alg-tuple:AddressAbroadTitle" minOccurs="1" maxOccurs="1"/>
+                        </xs:choice>
+                        <xs:element ref="nl-cd:DateOfBirth" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:Initials" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:Prefix" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-alg:SurnameSignificantPart" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_GiftAidSBBISpecification" name="GiftAidSBBISpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:GiftAidSBBIDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsAidSBBI" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_GiftsCulturalCentrePeriodicSpecification" name="GiftsCulturalCentrePeriodicSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:GiftsCulturalCentrePeriodic" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsCulturalCentrePeriodicDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_GiftsOtherCulturalCentreSpecification" name="GiftsOtherCulturalCentreSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:GiftsOtherCulturalCentre" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsOtherCulturalCentreDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_GiftsOtherPeriodicSpecification" name="GiftsOtherPeriodicSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:GiftsOtherPeriodic" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsOtherPeriodicDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_GiftsOtherRemainingSpecification" name="GiftsOtherRemainingSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:GiftsOtherRemaining" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsOtherRemainingDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_GroundLeaseBuildingPeriodicPaymentsSpecification" name="GroundLeaseBuildingPeriodicPaymentsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:GroundLeaseBuildingPeriodicPaymentsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GroundLeaseBuildingPeriodicPaymentsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ImmovablePropertyInConnectionWithResultFromActivitiesSpecification" name="ImmovablePropertyInConnectionWithResultFromActivitiesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ImmovablePropertyInConncetionWithResultFromActivitiesDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ImmovablePropertyInConnectionWithResultFromActivitiesValueEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ImmovablePropertyInConnectionWithResultFromActivitiesValueStart" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ImmovablePropertyOtherSpecification" name="ImmovablePropertyOtherSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ImmovablePropertyLawObjectNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ImmovablePropertyOtherAddress" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ImmovablePropertyOtherValue" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_IncomeOtherSpecification" name="IncomeOtherSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:IncomeOtherAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeOtherDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_IncomePresentWorkAbroadWithoutDutchWageTaxSpecification" name="IncomePresentWorkAbroadWithoutDutchWageTaxSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:IncomePresentWorkAbroadWithoutDutchWageTaxAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:NameAndAddressForeignEmployer" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_IncomePreviousWorkAbroadWithoutDutchWageTaxSpecification" name="IncomePreviousWorkAbroadWithoutDutchWageTaxSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:IncomePreviousWorkAbroadWithoutDutchWageTaxAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:NameAndAddressForeignBenefitsAgency" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ListedBuildingCostsSpecification" name="ListedBuildingCostsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ListedBuildingDeductibleExpenses" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingEntitlementPercentage" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingExpensesThreshold" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingImmovablePropertyLawValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingJanuaryFirstCommercialValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingMaintenanceCostsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingMaintenanceCostsAmountCommitmentBefore2012" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingOwnHouseExists" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingSubsidy" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ListedBuildingReimbursedExpensesSpecification" name="ListedBuildingReimbursedExpensesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ListedBuildingReimbursedExpensesAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingReimbursedExpensesDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_LoansNotOwnHousePreFilledSpecification" name="LoansNotOwnHousePreFilledSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:LoansNotOwnHouseBankAccountBalance" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:LoansNotOwnHouseBankAccountBalanceTaxPayer" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:LoansNotOwnHouseBankAccountNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:LoansNotOwnHouseBankAccountTaxPayerShare" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:LoansNotOwnHouseBankProductDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_MaintenanceObligationOtherSpecification" name="MaintenanceObligationOtherSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:MaintenanceObligationOtherAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceObligationOtherDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_MaintenanceObligationsRefundSpecification" name="MaintenanceObligationsRefundSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:MaintenanceObligationsRefundAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceObligationsRefundDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_MaintenanceOneChildSpecification" name="MaintenanceOneChildSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:MaintenanceChildAmount1stQuarter" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceChildAmount2ndQuarter" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceChildAmount3rdQuarter" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceChildAmount4thQuarter" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceChildDateOfBirth" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceChildInitials" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceChildReasonNoChildBenefitStudentGrant" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceChildYearTotal" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_MaintenanceRelativesPensionPremiumSpecification" name="MaintenanceRelativesPensionPremiumSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:MaintenanceRelativesPensionPremiumAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceRelativesPensionPremiumDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_MaintenanceRelativesPeriodicPaymentsSpecification" name="MaintenanceRelativesPeriodicPaymentsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:MaintenanceRelativesPeriodicPaymentsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceRelativesPeriodicPaymentsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_MaintenanceRelativesReceivedSpecification" name="MaintenanceRelativesReceivedSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:MaintenanceRelativesReceivedAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceRelativesReceivedDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_MaintenanceRelativesRedemptionSumSpecification" name="MaintenanceRelativesRedemptionSumSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:MaintenanceRelativesRedemptionSumAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceRelativesRedemptionSumDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_OverallIncomePartnerTitle" name="OverallIncomePartnerTitle" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AnnuitiesRedemptions" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExemptIncome" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExemptPreviousIncome" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeAlimony" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeFictitiousActivities" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomePartnerOtherAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomePartnerPreviousEmploymentAbroad" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomePresentEmploymentAbroad" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeProvisionPremiums" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeRelatedExpensesNegative" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeTaxOwed" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OtherIncomeAndTips" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseDeductibleNonOrMinorAcquisitionDebtPartyFilingTaxReturnPartAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseIncomeSharePartyFilingTaxReturn" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PeriodicIncomeExcludingAlimony" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PersonDependentDeductionNegative" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ProfitInConnectionWithThreshold" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ResultOtherActivities" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SavingsAndInvestmentsBenefitsInConnectionWithThresholds" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SubstantialInterestBenefits" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxpayerPartnerIncomeOverallAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ThresholdIncome" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TravelDeduction" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WagesPresentWorkPartner" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WagesPreviousWorkTotal" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_OverallIncomeTaxpayerTitle" name="OverallIncomeTaxpayerTitle" substitutionGroup="sbr:presentationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ExemptedIncomeInternationalOrganisationsTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeAfterPersonAttachedDeductionTaxpayerBox1" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeAfterPersonAttachedDeductionTaxpayerBox2" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeAfterPersonAttachedDeductionTaxpayerBox3" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeBeforePersonAttachedDeductionTaxpayerBox1" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeBeforePersonAttachedDeductionTaxpayerBox2" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeBeforePersonAttachedDeductionTaxpayerBox3" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:NotSettledPersonAttachedDeductionTaxpayerTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PersonAttachedDeductionTaxpayerAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SettledAmountPersonAttachedDeductionTaxpayerBox1" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SettledAmountPersonAttachedDeductionTaxpayerBox2" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SettledAmountPersonAttachedDeductionTaxpayerBox3" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SettledPersonAttachedDeductionTaxpayerTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxpayerIncomeOverallAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ThresholdIncome" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_OwnHouseDebtBankAccountPrefilledSpecification" name="OwnHouseDebtBankAccountPrefilledSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:OwnHouseDebtBankAccountBalancePrefilled" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseDebtBankAccountBalanceTaxpayerPrefilled" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseDebtBankAccountBalanceTaxpayerSharePrefilled" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseDebtBankAccountNumberPrefilled" minOccurs="1" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseDebtBankProductDescriptionPrefilled" minOccurs="1" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_OwnHouseDebtSpecification" name="OwnHouseDebtSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:OwnHouseDebtAccountNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseDebtDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseDebtReportedPeriod" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_OwnHouseInterestAndLoanCostsSpecification" name="OwnHouseInterestAndLoanCostsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:OwnHouseAccountNumberLoan" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseInterestAndLoanCostsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseInterestAndLoanCostsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_OwnHousePeriodicContributionsSpecification" name="OwnHousePeriodicContributionsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:OwnHousePeriodicContributionsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePeriodicContributionsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_OwnHousePrincipalResidenceIncomeSpecification" name="OwnHousePrincipalResidenceIncomeSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ImmovablePropertyLawObjectNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidenceAddress" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidenceCityTown" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidenceCountryCode" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidenceImmovablePropertyLawAppurtenanceObjectNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidenceImmovablePropertyLawValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidencePercentageEntitlement" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidencePeriodEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidencePeriodStart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidencePostalCode" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidenceUsageSpecialSituationIndication" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_OwnHouseTemporaryLetSpecification" name="OwnHouseTemporaryLetSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:OwnHouseTemporaryLetAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseTemporaryLetDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_PeriodicPaymentsDeductibleCostsSpecification" name="PeriodicPaymentsDeductibleCostsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:PeriodicPaymentDeductibleCostsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PeriodicPaymentDeductibleCostsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_PeriodicPaymentsOtherSpecification" name="PeriodicPaymentsOtherSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:PeriodicPaymentsOtherAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PeriodicPaymentsOtherDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_PremiumsAnnuitiesDisabledChildrenSpecification" name="PremiumsAnnuitiesDisabledChildrenSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:PremiumsAnnuitiesDisabledChildrenAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumsAnnuitiesDisabledChildrenDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_PremiumsAnnuitiesSpecification" name="PremiumsAnnuitiesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:PremiumsAnnuitiesInsurerName" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumsAnnuitiesPaidAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumsAnnuitiesPolicyNumber" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_PremiumsPrivateInsurancePoliciesSpecification" name="PremiumsPrivateInsurancePoliciesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:PremiumsPrivateInsurancePoliciesAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumsPrivateInsurancePoliciesNameInsurerFinancialAgency" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumsPrivateInsurancePolicyNumberAccountNumber" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_PremiumsSettlementOldAgeReserveDiscontinuationProfitSpecification" name="PremiumsSettlementOldAgeReserveDiscontinuationProfitSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:PremiumsSettlementOldAgeReserveDiscontinuationProfitAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumsSettlementOldAgeReserveDiscontinuationProfitDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_PresentWorkSpecification" name="PresentWorkSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:NameEmployerOrBenefitsAgency" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WagesPresentWork" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WithheldWageTaxPresentWork" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_PreservedIncomeSpecification" name="PreservedIncomeSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:PreservedIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PreservedIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_PreviousWorkSpecification" name="PreviousWorkSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:IncomePreviousWorkAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:NameBenefitsAgency" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WithheldWageTaxPreviousWork" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_RedemptionAnnuitiesCoveredByWagetaxSpecification" name="RedemptionAnnuitiesCoveredByWagetaxSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:AnnuityRedemptionAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PayingAgencyName" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WageTaxWithheldAmount" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_RedemptionsAnnuitiesNotCoveredByWageTaxSpecification" name="RedemptionsAnnuitiesNotCoveredByWageTaxSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:RedemptionsAnnuitiesNotCoveredByWageTaxAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:RedemptionsAnnuitiesNotCoveredByWageTaxDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_RefundGiftsSpecification" name="RefundGiftsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:RefundGifts" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:RefundGiftsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_RefundPremiumsAndOtherNegativeIncomeProvisionExpensesSpecification" name="RefundPremiumsAndOtherNegativeIncomeProvisionExpensesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:RefundPremiumsAndOtherNegativeIncomeProvisionExpensesAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:RefundPremiumsAndOtherNegativeIncomeProvisionExpensesDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_ResidenceForeignCountryTitle" name="ResidenceForeignCountryTitle" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="nl-cd:CountryCodeISO" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CountryResidenceEndDate" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CountryResidenceStartDate" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_SecondHouseSpecification" name="SecondHouseSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ImmovablePropertyLawObjectNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SecondHouseAddress" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SecondHouseValue" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_SharesSubstantialInterestSpecification" name="SharesSubstantialInterestSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:SharesSubstantialInterestAndSuchDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SharesSubstantialInterestCount" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_SocialAssistanceBenefitMaintenancePassedOnSpecification" name="SocialAssistanceBenefitMaintenancePassedOnSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:SocialAssistanceBenefitMaintenancePassedOnAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialAssistanceBenefitMaintenancePassedOnDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_StockSpecification" name="StockSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:StockAccountNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:StockDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:StockValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:StockValueUndividedValuePreFilled" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_StudyTrainingRefundExpenditureSpecification" name="StudyTrainingRefundExpenditureSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:StudyTrainingRefundExpenditureAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:StudyTrainingRefundExpenditureDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_SubstantialInterestRegularBenefitsDeductibleCostsSpecification" name="SubstantialInterestRegularBenefitsDeductibleCostsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:SubstantialInterestRegularBenefitsDeductibleCostsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SubstantialInterestRegularBenefitsDeductibleCostsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_SubstantialInterestRegularBenefitsSpecification" name="SubstantialInterestRegularBenefitsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:SubstantialInterestRegularBenefitsAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SubstantialInterestRegularBenefitsDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_SubstantialInterestTransferPriceSpecification" name="SubstantialInterestTransferPriceSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:SubstantialInterestTransferPriceDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SubstantialInterestTransferPriceValue" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_SurvivingDependantsActVoluntaryContributionSpecification" name="SurvivingDependantsActVoluntaryContributionSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:SurvivingDependantsActVoluntaryContributionAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SurvivingDependantsActVoluntaryContributionDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox1IncomeDividendAndInterestAndRoyaltiesSpecification" name="TaxationElsewhereBox1IncomeDividendAndInterestAndRoyaltiesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereCountryCode" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElseWhereIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereTaxAmount" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox1IncomeForeignOptingTaxpayerSpecification" name="TaxationElsewhereBox1IncomeForeignOptingTaxpayerSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElseWhereIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox1IncomeOther" name="TaxationElsewhereBox1IncomeOther" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereCountryCode" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElseWhereIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox1IncomeSportsmenAndArtistsSpecification" name="TaxationElsewhereBox1IncomeSportsmenAndArtistsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereCountryCode" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElseWhereIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereTaxAmount" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox1IncomeWageAndPensionSpecification" name="TaxationElsewhereBox1IncomeWageAndPensionSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereCountryCode" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElseWhereIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereTaxAmount" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox1NonOptingTaxpayerSpecification" name="TaxationElsewhereBox1NonOptingTaxpayerSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereBox1NonOptingTaxpayerAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereBox1NonOptingTaxpayerDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox2IncomeForeignOptingTaxpayerSpecification" name="TaxationElsewhereBox2IncomeForeignOptingTaxpayerSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElseWhereIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox2NonOptingTaxpayerSpecification" name="TaxationElsewhereBox2NonOptingTaxpayerSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereBox2NonOptingTaxpayerAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereBox2NonOptingTaxpayerDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox2Specification" name="TaxationElsewhereBox2Specification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereCountryCode" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElseWhereIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereTaxAmount" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox3ReductionAssetExcludedImmovableOptingTaxpayerSpecification" name="TaxationElsewhereBox3ReductionAssetExcludedImmovableOptingTaxpayerSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereBox3ReductionAssetDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereBox3ReductionAssetValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereCountryCode" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox3ReductionAssetImmovableOptingTaxpayerSpecification" name="TaxationElsewhereBox3ReductionAssetImmovableOptingTaxpayerSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ImmovablePropertyAssetsBox3TaxationElsewhereDeductionOptingTaxpayer" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ImmovablePropertyDebtBox3TaxationElsewhereDeductionOptingTaxpayer" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereBox3ReductionAssetDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereBox3ReductionAssetValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereCountryCode" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox3ReductionAssetImmovableSpecification" name="TaxationElsewhereBox3ReductionAssetImmovableSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:ImmovablePropertyAssetsBox3TaxationElsewhereDeduction" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ImmovablePropertyDebtBox3TaxationElsewhereDeduction" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereBox3ReductionAssetDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereBox3ReductionAssetValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereCountryCode" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereBox3SetoffSpecification" name="TaxationElsewhereBox3SetoffSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereCountryCode" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElseWhereIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereTaxAmount" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereReducedRateNonOptingTaxpayerSpecification" name="TaxationElsewhereReducedRateNonOptingTaxpayerSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereReducedRateNonOptingTaxpayerCountry" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereReducedRateNonOptingTaxpayerIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereReducedRateNonOptingTaxpayerIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereReducedRateNonOptingTaxpayerPercentage" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxationElsewhereReducedRateOptingTaxpayerSpecification" name="TaxationElsewhereReducedRateOptingTaxpayerSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TaxationElsewhereReducedRateOptingTaxpayerCountry" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereReducedRateOptingTaxpayerIncomeAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereReducedRateOptingTaxpayerIncomeDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationElsewhereReducedRateOptingTaxpayerPercentage" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TaxData" name="TaxData" substitutionGroup="xbrli:tuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg-tuple:ActivitiesWorkCostsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ActivitiesWorkCostsTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ActivitiesWorkResultsGrossTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:ActivitiesWorkResultsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:AdaptationsOtherRegardingHealthExpenditure" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:AdvanceLeviedGamblingTaxAndDividendTaxSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:AdvanceLeviedGamblingTaxAndDividendTaxTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:AlimonyDeductibleCostsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:AlimonyDeductibleCostsTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ApplicationDivorceDate" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:AssetBankAccountSavingsCertificateEtcAbroadSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:AssetBankAccountSavingsCertificateEtcNetherlandSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:AssetBankAccountSavingsCertificatesEtcAbroadBalance" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetBankAccountSavingsCertificatesEtcNetherlandsBalance" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetsAndLiabilitiesPrivateTaxFreeAllowanceTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetsMinusDebtsBox3RelatedToTrustCapital" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AssetsOtherInConnectionWithResultFromActivitiesTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:AssetsOtherInConnectionWithResultFromOtherActivitiesSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:AssetsOtherSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:AssetsOtherTotalValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:AverageCapitalYieldTaxBaseTaxPayerShare" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:BelgianIndividualIncomeTaxAdvanceLevyAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CapitalSumInsuranceOtherIncomeUsedExemption" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CeasingActivitiesPartlyTransferring" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:ChildrenSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ChildYoungestBirthDate" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ClothingBedLinenSupplementaryExpenses" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CohabitationPeriodTaxYearEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CohabitationPeriodTaxYearStart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CollectiveIncomeReceivedFromOtherCountryMoreThanNinetyPercent" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CommutingExpensesAccordingToTableTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:CommutingExpensesTaxDeductionSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:CompensationWeekendExpensesDisabledPersons" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:CompulsoryHealthInsuranceContributionAdjustmentAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseCompensationRefund" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomeAbroadPresentEmployment" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomeAbroadPreviousEmployment" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomeDutchPresentEmployment" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomeDutchPreviousEmployment" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomeFictitiousActivities" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionbaseIncomeFromMaintenanceRelatives" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomeOther" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomeOtherActivities" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomeOwnHouse" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomePeriodicPayments" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseIncomeRelatedPremiumsContributions" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseOwnHouseNoneMinorDebtDeduction" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBasePersonDependentDeduction" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseProfit" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseTravelDeduction" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ContributionBaseWageTax" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-bedr:CountryCodeOtherCountryPartnerTaxPurposes" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:DebtBox3Specification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:DebtsInConnectionWithResultFromActivitiesSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:DebtsInConnectionWithResultsFromActivitiesTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:DeceasedDate" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:DeductionBenefitInOtherCountryForPersonAttachedDeductionExists" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:DietExpenses" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ElderlyPersonsAllowanceTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:EmployedPersonsTaxCreditTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:EmployerChange" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:ExemptedWagesInternationalOrganisationsPresentWorkSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:ExemptedWagesInternationalOrganisationsPreviousWorkSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ExemptionDirectInvestmentsInVentureCapitalLoansTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExpenditureSupplementaryHomeHelpGrossTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExpenditureSupplementaryHomeHelpNetTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExpenditureSupplementaryHomeHelpThreshold" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:ExtraordinaryExpenditureHealthCareRefundSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditureHealthCareRefundTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditureHealthDeductibleAmountPartyFilingTaxReturnPart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditureHealthDeductibleTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditurePrivateHealthThresholdAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditurePrivateHealthTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditurePrivateSpecificBeforeIncreaseAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditurePrivateSpecificIncreaseAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ExtraordinaryExpenditurePrivateSpecificIncreaseBaseAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:FictitiousActivitiesCostsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:FictitiousActivitiesCostsTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:FictitiousActivitiesExemptionAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:FictitiousActivitiesResultGrossTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:FictitiousActivitiesResultsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ForeignerPartTaxYearSocialInsuranceContributionsPayableExists" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ForeignerPartTaxYearTaxpayerExists" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ForeignWagesCalculationHealthInsuranceLaw" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:FormerPartnerTitle" minOccurs="0" maxOccurs="4"/>
+                        <xs:element ref="bd-burg:GeneralCompensatorySchemeApplicable" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GeneralTaxCreditPaymentRight" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:GiftAidSBBISpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:GiftsAidSBBITotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsBalanceDeductibleTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsBalanceDeductibleTotalPartyFilingTaxReturn" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsCulturalCentrePeriodicDeductionIncrease" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:GiftsCulturalCentrePeriodicSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:GiftsCulturalCentrePeriodicTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsOtherCulturalCentreDeductionIncrease" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:GiftsOtherCulturalCentreSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:GiftsOtherCulturalCentreTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsOtherMaximumDeductibleAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:GiftsOtherPeriodicSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:GiftsOtherPeriodicTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:GiftsOtherRemainingSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:GiftsOtherRemainingTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsOtherThreshold" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GiftsOtherTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:GroundLeaseBuildingPeriodicPaymentsEndingValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:GroundLeaseBuildingPeriodicPaymentsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:HealthAuxiliaryMeansExpenditure" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:HealthInsuranceLawReductionContribution" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:HealthTreatmentExpenditure" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:HouseAdaptationsRegardingHealthExpenditure" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:ImmovablePropertyInConnectionWithResultFromActivitiesSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ImmovablePropertyInConnectionWithResultsFromActivitiesTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:ImmovablePropertyOtherSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ImmovablePropertyOtherTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeDependentCombinationTaxCreditExists" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeEmploymentWithoutWageTax" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeFromWorkAndOwnHouseRelatedToTrustCapital" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:IncomeInAndOutsideOfTheNetherlandsTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:IncomeOtherSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:IncomeOtherTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:IncomePresentWorkAbroadWithoutDutchWageTaxSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:IncomePreviousWorkAbroadWithoutDutchWageTaxSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:LiabilitiesBox3ThresholdAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:LiabilitiesBox3TotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:LifecycleLeaveReduction" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:ListedBuildingCostsSpecification" minOccurs="0" maxOccurs="3"/>
+                        <xs:element ref="bd-burg:ListedBuildingDeductionPartyFilingTaxReturnPart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingDeductionTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ListedBuildingMaintenanceCostsAmountTransitionalArrangementsTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:ListedBuildingReimbursedExpensesSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ListedBuildingReimbursedExpensesTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:LivingTogetherSpousesExists" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:LoansNotOwnHousePreFilledSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:MaintenanceChildrenDeductibleAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceChildrenDeductibleAmountPartyFilingTaxReturnPart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:MaintenanceObligationOtherSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:MaintenanceObligationsOtherTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceObligationsPeriodicPaymentsPartyFilingTaxReturnPart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceObligationsPeriodicPaymentsTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:MaintenanceObligationsRefundSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:MaintenanceObligationsRefundTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:MaintenanceOneChildSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:MaintenanceRelativesPensionPremiumPaidTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:MaintenanceRelativesPensionPremiumSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:MaintenanceRelativesPeriodicPaymentsPaidTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:MaintenanceRelativesPeriodicPaymentsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:MaintenanceRelativesReceivedSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:MaintenanceRelativesReceivedTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaintenanceRelativesRedemptionSumPaidTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:MaintenanceRelativesRedemptionSumSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:MarriedEntireTaxYear" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MarriedForeignerPeriodPartOfYearEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MarriedForeignerPeriodPartOfYearStart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MarriedPartOfTaxYear" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MarriedPartOfTaxYearEntireYearIdenticalAddress" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MaternityLeaveHoursCount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MedicinalProductsExpenses" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MilitaryPeriodEndDate" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:MilitaryPeriodStartDate" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-bedr:NationalityCode" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:NegativeExpendituresIncomeProvisionsContributionBaseIncome" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:NonExemptedPartCapitalSumInsurancePoliciesTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OptingDomesticTaxation" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OtherPeriodicPaymentsTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:OverallIncomePartnerTitle" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:OverallIncomeTaxpayerTitle" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseAcquisitionDebtTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:OwnHouseDebtBankAccountPrefilledSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:OwnHouseDebtSoldOwnHouse" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:OwnHouseDebtSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:OwnHouseDeductibleNonOrMinorAcquisitionDebtPartyFilingTaxReturnPartAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseDeductibleNonOrMinorAcquisitionDebtTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseExemptionAmountCapitalInsuranceSavingsAccountParticipatingInterestAccount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseIncomeSharePartyFilingTaxReturn" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseInterestAndLoanCostsEndingValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:OwnHouseInterestAndLoanCostsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:OwnHousePeriodicContributionsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:OwnHousePeriodicContributionsTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:OwnHousePrincipalResidenceIncomeSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:OwnHousePrincipalResidenceRentalValueTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHousePurchasePriceIncludingCosts" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseRenovationMaintenanceCosts" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseSellingPriceWithoutCosts" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseTaxableBenefitCapitalInsuranceSavingsAccountParticipatingInterestAccount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:OwnHouseTemporaryLetIncomeTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:OwnHouseTemporaryLetSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-bedr:PartnerForeignerOptingDomesticTaxation" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-bedr-tuple:PartnerPartyFilingTaxReturnTitle" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PensionGrowth" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:PeriodicPaymentsDeductibleCostsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:PeriodicPaymentsDeductibleCostsTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:PeriodicPaymentsOtherSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:PeriodicPaymentsRightsValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PersonDependentDeductionNegativeTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PersonDependentDeductionRemainderPreviousYears" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PersonDependentDeductionRemainderTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumBase" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:PremiumsAnnuitiesDisabledChildrenSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:PremiumsAnnuitiesForDisabledChildrenTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumsAnnuitiesPaidTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:PremiumsAnnuitiesSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:PremiumsAnnuitiesUponUseOfAnnualMarginTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumsAnnuitiesUponUseOfReserveMarginTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PremiumsConsideredNextYearAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:PremiumsPrivateInsurancePoliciesSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:PremiumsPrivateInsurancePoliciesTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:PremiumsSettlementOldAgeReserveDiscontinuationProfitSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:PremiumsSettlementOldAgeReserveDiscontinuationProfitTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:PresentWorkSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:PreservedIncomeFromSubstantialInterestTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:PreservedIncomeSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:PreservedIncomeTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:PreviousWorkSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ProfitFisherman" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ReceivedMaintenanceRelativesThisYearAndTwoThousandAndFive" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:RedemptionAnnuitiesCoveredByWagetaxSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:RedemptionsAnnuitiesNotCoveredByWageTaxSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:RedemptionsAnnuitiesNotCoveredByWageTaxTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ReductionContributionBaseTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:RefundGiftsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:RefundGiftsTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:RefundPremiumsAndOtherNegativeIncomeProvisionExpensesSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:RefundPremiumsAndOtherNegativeIncomeProvisionExpensesTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:RegressionWagesMaternityLeaveReduction" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:RequestApplicationNinetyPercentSchemeExists" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:RequestEntireYearPartnerTaxPurposes" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ReservationSpaceBuilded" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:ResidenceForeignCountryTitle" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:ResidingBesunaar" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:RevisionInterestCalculatedAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:SecondHouseSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:SecondHouseTotalValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:SharesSubstantialInterestSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:SingleParentsTaxCreditRight" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:SocialAssistanceBenefitMaintenancePassedOnSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:SocialAssistanceBenefitMaintenancePassedOnTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceAowAnwDeviatingPeriodEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceAowAnwDeviatingPeriodStart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceAowAnwWholeYearNotInsured" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceAwbzZvwDeviatingPeriodEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceAwbzZvwDeviatingPeriodStart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceAwbzZvwWholeYearNotInsured" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceObligationAbroadBaseAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceObligationAbroadDeviatingPeriodEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceObligationAbroadDeviatingPeriodStart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SocialInsuranceObligationAndTaxationObligationDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SociallyResponsibleInvestmentsExemption" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SpecialCompensatorySchemeApplicable" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SpecialIncreaseTaxCreditNonResidents" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:StockSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:StockTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:StudyTrainingRefundExpenditureSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:StudyTrainingRefundExpenditureTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SubstantialInterestAcquisitionPrice" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SubstantialInterestBenefitRelatedToTrustCapital" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SubstantialInterestBenefitsSharePartyFilingTaxReturn" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SubstantialInterestCommercialValueRelatedToTrustCapital" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:SubstantialInterestRegularBenefitsDeductibleCostsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:SubstantialInterestRegularBenefitsDeductibleCostsTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SubstantialInterestRegularBenefitsGrossTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:SubstantialInterestRegularBenefitsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:SubstantialInterestTransferPriceSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:SubstantialInterestTransferPriceTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:SupplementaryElderlyPersonsTaxCreditRight" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:SurvivingDependantsActVoluntaryContributionSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:SurvivingDependantsActVoluntaryContributionTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox1IncomeDividendAndInterestAndRoyaltiesSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox1IncomeForeignOptingTaxpayerSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox1IncomeOther" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox1IncomeSportsmenAndArtistsSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox1IncomeWageAndPensionSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox1NonOptingTaxpayerSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox2IncomeForeignOptingTaxpayerSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox2NonOptingTaxpayerSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox2Specification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox3ReductionAssetExcludedImmovableOptingTaxpayerSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox3ReductionAssetImmovableOptingTaxpayerSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox3ReductionAssetImmovableSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereBox3SetoffSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereReducedRateNonOptingTaxpayerSpecification" minOccurs="0" maxOccurs="2"/>
+                        <xs:element ref="bd-burg-tuple:TaxationElsewhereReducedRateOptingTaxpayerSpecification" minOccurs="0" maxOccurs="2"/>
+                        <xs:element ref="bd-burg:TaxationObligationDeviatingPeriodEnd" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TaxationObligationDeviatingPeriodStart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrainingExpensesCompensationTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrainingExpensesDeductibleAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrainingExpensesDeductionPartyFilingTaxReturnPart" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:TrainingExpensesSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:TrainingExpensesTaxReturnDeductionTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrainingExpensesThreshold" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrainingExpensesTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TransportRegardingHealthExpenditure" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:TravelAllowanceReceivedSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:TravelAllowanceReceivedTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TravelingExpensesRegardingVisitingSickRelatives" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrustCapitalDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrustCapitalEquityValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrustCapitalInvolvementExists" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrustCapitalMarketableAssetsValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:TrustCapitalTitle" minOccurs="0" maxOccurs="5"/>
+                        <xs:element ref="bd-burg-tuple:TrustCapitalTransactionSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:TrustCapitalUnMarketableAssetsValue" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnmarriedConstraintEntireYearIdenticalAddress" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnmarriedConstraintPartOfYearIdenticalAddress" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnmarriedConstraintSatisfactionPartnerTaxPurposes" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnusedYearSpaceReportedPeriodYearMinusFive" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnusedYearSpaceReportedPeriodYearMinusFour" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnusedYearSpaceReportedPeriodYearMinusOne" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnusedYearSpaceReportedPeriodYearMinusSeven" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnusedYearSpaceReportedPeriodYearMinusSix" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnusedYearSpaceReportedPeriodYearMinusThree" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:UnusedYearSpaceReportedPeriodYearMinusTwo" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:ValueCashAndReceivablesTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:VentureCapitalLoansInvestmentsLossPartyFilingTaxReturn" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:VentureCapitalLoansInvestmentsLossSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:VentureCapitalLoansInvestmentsLossTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WagesHealthInsuranceLaw" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WagesHealthInsuranceLawMaximumContribution" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WagesPartProfit" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WageTaxArtistsAndSportsProfessionals" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:WaiverVentureCapitalLoansRefundSpecification" minOccurs="0" maxOccurs="99"/>
+                        <xs:element ref="bd-burg:WaiverVentureCapitalLoansRefundTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WeekendExpensesDisabledPersonsDeductibleTotalAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WeekendExpensesDisabledPersonsPartyFilingTaxReturnAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:WeekendExpensesDisabledPersonsSpecification" minOccurs="0" maxOccurs="5"/>
+                        <xs:element ref="bd-burg:WeekendExpensesDisabledPersonsTotal" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg-tuple:WithholdingTaxSavingsInterestSpecification" minOccurs="0" maxOccurs="5"/>
+                        <xs:element ref="bd-burg:YearSpace" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:YoungDisabledPersonsTaxCreditRightExists" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TrainingExpensesSpecification" name="TrainingExpensesSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TrainingExpensesAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrainingExpensesDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TravelAllowanceReceivedSpecification" name="TravelAllowanceReceivedSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TravelAllowanceReceivedAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TravelAllowanceReceivedDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TrustCapitalTitle" name="TrustCapitalTitle" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TrustCapitalCountry" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrustCapitalLegalForm" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrustCapitalLeviedTaxForeignCountryAtLeastTenPercentExists" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrustCapitalName" minOccurs="1" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_TrustCapitalTransactionSpecification" name="TrustCapitalTransactionSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:TrustCapitalTransactionDescription" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:TrustCapitalTransactionValue" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_VentureCapitalLoansInvestmentsLossSpecification" name="VentureCapitalLoansInvestmentsLossSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:CityTownEntrepreneurParticipatingInterestFunds" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:EntrepreneurParticipatingInterestFundsStreetHouseNumber" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:NameEntrepreneurParticipatingInterestFunds" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:PostalCodeEntrepreneurParticipatingInterestFunds" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:VentureCapitalLoansInvestmentsLossAmount" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_WaiverVentureCapitalLoansRefundSpecification" name="WaiverVentureCapitalLoansRefundSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:WaiverVentureCapitalLoansRefundAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WaiverVentureCapitalLoansRefundDescription" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_WeekendExpensesDisabledPersonsSpecification" name="WeekendExpensesDisabledPersonsSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:WeekendExpensesAmount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WeekendExpensesDaysCount" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WeekendExpensesDisabledPersonDateOfBirth" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WeekendExpensesDisabledPersonInitials" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WeekendExpensesKilometresTravelled" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element id="bd-burg-tuple_WithholdingTaxSavingsInterestSpecification" name="WithholdingTaxSavingsInterestSpecification" substitutionGroup="sbr:specificationTuple" abstract="false" nillable="false">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="sbr:placeholder">
+                    <xs:sequence minOccurs="1" maxOccurs="1">
+                        <xs:element ref="bd-burg:CountryCodeISOWithholdingTaxSavingsInterest" minOccurs="0" maxOccurs="1"/>
+                        <xs:element ref="bd-burg:WithholdingTaxOnSavingsInterestAmount" minOccurs="0" maxOccurs="1"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/basis/kvk/linkroles/equity-domain" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_EquityDomain" xlink:type="simple"/>
+  	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/basis/kvk/linkroles/equity-domain" xlink:type="extended">
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-equity.xsd#kvk-dm-eqty_EquityComponentDomain" xlink:label="kvk-dm-eqty_EquityComponentDomain_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-equity.xsd#kvk-dm-eqty_ReinvestmentReserveMember" xlink:label="kvk-dm-eqty_ReinvestmentReserveMember_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/domains/kvk-domains-equity.xsd#kvk-dm-eqty_FiscalReservesOtherMember" xlink:label="kvk-dm-eqty_FiscalReservesOtherMember_loc" xlink:type="locator"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-eqty_EquityComponentDomain_loc" xlink:to="kvk-dm-eqty_ReinvestmentReserveMember_loc" order="7" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-dm-eqty_EquityComponentDomain_loc" xlink:to="kvk-dm-eqty_FiscalReservesOtherMember_loc" order="9" xlink:type="arc"/>
+  </link:definitionLink>
+</link:linkbase>

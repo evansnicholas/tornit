@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Contact_Ondernemer_loc" xlink:to="kvk-codes_Contact_Ondernemer_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Contact_Ondernemer_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Entrepreneur</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Contact_Ondernemer" xlink:label="kvk-codes_Contact_Ondernemer_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Contact_Intermediair_loc" xlink:to="kvk-codes_Contact_Intermediair_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Contact_Intermediair_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Intermediary</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Contact_Intermediair" xlink:label="kvk-codes_Contact_Intermediair_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Event_Initieel_loc" xlink:to="kvk-codes_Event_Initieel_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Event_Initieel_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Initial event</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Event_Initieel" xlink:label="kvk-codes_Event_Initieel_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Event_Update_loc" xlink:to="kvk-codes_Event_Update_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Event_Update_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Update event</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Event_Update" xlink:label="kvk-codes_Event_Update_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Construction_Contracts_Debet_loc" xlink:to="kvk-codes_Construction_Contracts_Debet_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Construction_Contracts_Debet_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Debit (asset)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Construction_Contracts_Debet" xlink:label="kvk-codes_Construction_Contracts_Debet_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Construction_Contracts_Credit_loc" xlink:to="kvk-codes_Construction_Contracts_Credit_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Construction_Contracts_Credit_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Credit (liability)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Construction_Contracts_Credit" xlink:label="kvk-codes_Construction_Contracts_Credit_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Construction_Contracts_GesaldeerdDebet_loc" xlink:to="kvk-codes_Construction_Contracts_GesaldeerdDebet_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Construction_Contracts_GesaldeerdDebet_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Debit (netted)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Construction_Contracts_GesaldeerdDebet" xlink:label="kvk-codes_Construction_Contracts_GesaldeerdDebet_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Construction_Contracts_GesaldeerdCredit_loc" xlink:to="kvk-codes_Construction_Contracts_GesaldeerdCredit_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Construction_Contracts_GesaldeerdCredit_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Credit (netted)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Construction_Contracts_GesaldeerdCredit" xlink:label="kvk-codes_Construction_Contracts_GesaldeerdCredit_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Achtergestelde_leningen_loc" xlink:to="kvk-codes_Liabilities_Achtergestelde_leningen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Achtergestelde_leningen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Subordinated loans</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Achtergestelde_leningen" xlink:label="kvk-codes_Liabilities_Achtergestelde_leningen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Andere_obligaties_onderhandse_leningen_loc" xlink:to="kvk-codes_Liabilities_Andere_obligaties_onderhandse_leningen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Andere_obligaties_onderhandse_leningen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Debentures and other private loans</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Andere_obligaties_onderhandse_leningen" xlink:label="kvk-codes_Liabilities_Andere_obligaties_onderhandse_leningen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Converteerbare_leningen_loc" xlink:to="kvk-codes_Liabilities_Converteerbare_leningen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Converteerbare_leningen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Convertible borrowings</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Converteerbare_leningen" xlink:label="kvk-codes_Liabilities_Converteerbare_leningen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Financiele_lease_verplichtingen_loc" xlink:to="kvk-codes_Liabilities_Financiele_lease_verplichtingen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Financiele_lease_verplichtingen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Financial lease liabilities</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Financiele_lease_verplichtingen" xlink:label="kvk-codes_Liabilities_Financiele_lease_verplichtingen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Schulden_aan_kredietinstellingen_loc" xlink:to="kvk-codes_Liabilities_Schulden_aan_kredietinstellingen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Schulden_aan_kredietinstellingen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Payables to credit institutions</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Schulden_aan_kredietinstellingen" xlink:label="kvk-codes_Liabilities_Schulden_aan_kredietinstellingen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Vooruit_ontvangen_bestellingen_loc" xlink:to="kvk-codes_Liabilities_Vooruit_ontvangen_bestellingen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Vooruit_ontvangen_bestellingen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Advances received</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Vooruit_ontvangen_bestellingen" xlink:label="kvk-codes_Liabilities_Vooruit_ontvangen_bestellingen_loc"/>	
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Schulden_aan_leveranciers_handelskredieten_loc" xlink:to="kvk-codes_Liabilities_Schulden_aan_leveranciers_handelskredieten_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Schulden_aan_leveranciers_handelskredieten_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Trade payables</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Schulden_aan_leveranciers_handelskredieten" xlink:label="kvk-codes_Liabilities_Schulden_aan_leveranciers_handelskredieten_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Te_betalen_wissels_cheques_loc" xlink:to="kvk-codes_Liabilities_Te_betalen_wissels_cheques_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Te_betalen_wissels_cheques_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Bills of exchange and cheques payable</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Te_betalen_wissels_cheques" xlink:label="kvk-codes_Liabilities_Te_betalen_wissels_cheques_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Schulden_aan_groepsmaatschappijen_loc" xlink:to="kvk-codes_Liabilities_Schulden_aan_groepsmaatschappijen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Schulden_aan_groepsmaatschappijen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Payables to group companies</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Schulden_aan_groepsmaatschappijen" xlink:label="kvk-codes_Liabilities_Schulden_aan_groepsmaatschappijen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Schulden_aan_participanten_maatschappijen_waarin_deelgenomen_loc" xlink:to="kvk-codes_Liabilities_Schulden_aan_participanten_maatschappijen_waarin_deelgenomen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Schulden_aan_participanten_maatschappijen_waarin_deelgenomen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Payables to shareholders and participating interests</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Schulden_aan_participanten_maatschappijen_waarin_deelgenomen" xlink:label="kvk-codes_Liabilities_Schulden_aan_participanten_maatschappijen_waarin_deelgenomen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Schulden_aan_overige_verbonden_maatschappijen_loc" xlink:to="kvk-codes_Liabilities_Schulden_aan_overige_verbonden_maatschappijen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Schulden_aan_overige_verbonden_maatschappijen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Payables to other related parties</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Schulden_aan_overige_verbonden_maatschappijen" xlink:label="kvk-codes_Liabilities_Schulden_aan_overige_verbonden_maatschappijen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Belastingen_premies_sociale_verzekeringen_loc" xlink:to="kvk-codes_Liabilities_Belastingen_premies_sociale_verzekeringen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Belastingen_premies_sociale_verzekeringen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Taxes and social security contributions payable</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Belastingen_premies_sociale_verzekeringen" xlink:label="kvk-codes_Liabilities_Belastingen_premies_sociale_verzekeringen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Schulden_pensioenen_loc" xlink:to="kvk-codes_Liabilities_Schulden_pensioenen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Schulden_pensioenen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Pension payables</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Schulden_pensioenen" xlink:label="kvk-codes_Liabilities_Schulden_pensioenen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Overige_schulden_loc" xlink:to="kvk-codes_Liabilities_Overige_schulden_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Overige_schulden_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Other payables</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Overige_schulden" xlink:label="kvk-codes_Liabilities_Overige_schulden_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Overlopende_passiva_loc" xlink:to="kvk-codes_Liabilities_Overlopende_passiva_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Overlopende_passiva_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Accruals</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Overlopende_passiva" xlink:label="kvk-codes_Liabilities_Overlopende_passiva_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Schulden_personeelsbeloningen_loc" xlink:to="kvk-codes_Liabilities_Schulden_personeelsbeloningen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Schulden_personeelsbeloningen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Employee benefits payables</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Schulden_personeelsbeloningen" xlink:label="kvk-codes_Liabilities_Schulden_personeelsbeloningen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Onderhanden_projecten_derden_loc" xlink:to="kvk-codes_Liabilities_Onderhanden_projecten_derden_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Onderhanden_projecten_derden_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Construction contracts</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Onderhanden_projecten_derden" xlink:label="kvk-codes_Liabilities_Onderhanden_projecten_derden_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Totaal_loc" xlink:to="kvk-codes_Liabilities_Totaal_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Totaal_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Total</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Totaal" xlink:label="kvk-codes_Liabilities_Totaal_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Liabilities_Negatieve_goodwill_loc" xlink:to="kvk-codes_Liabilities_Negatieve_goodwill_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Liabilities_Negatieve_goodwill_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Negative goodwill</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Liabilities_Negatieve_goodwill" xlink:label="kvk-codes_Liabilities_Negatieve_goodwill_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_FinancialInstrument_Financiele_instrumenten_onderdeel_handelsportefeuille_loc" xlink:to="kvk-codes_FinancialInstrument_Financiele_instrumenten_onderdeel_handelsportefeuille_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_FinancialInstrument_Financiele_instrumenten_onderdeel_handelsportefeuille_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Financial instruments that are part of a trade portfolio</label:label>
+ 	<link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_FinancialInstrument_Financiele_instrumenten_onderdeel_handelsportefeuille" xlink:label="kvk-codes_FinancialInstrument_Financiele_instrumenten_onderdeel_handelsportefeuille_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_FinancialInstrument_Derivaten_loc" xlink:to="kvk-codes_FinancialInstrument_Derivaten_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_FinancialInstrument_Derivaten_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Derivatives</label:label>
+	<link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_FinancialInstrument_Derivaten" xlink:label="kvk-codes_FinancialInstrument_Derivaten_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_FinancialInstrument_Gekochte_leningen_obligaties_loc" xlink:to="kvk-codes_FinancialInstrument_Gekochte_leningen_obligaties_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_FinancialInstrument_Gekochte_leningen_obligaties_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Purchased loans and bonds</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_FinancialInstrument_Gekochte_leningen_obligaties" xlink:label="kvk-codes_FinancialInstrument_Gekochte_leningen_obligaties_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_FinancialInstrument_Verstrekte_leningen_overige_vorderingen_loc" xlink:to="kvk-codes_FinancialInstrument_Verstrekte_leningen_overige_vorderingen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_FinancialInstrument_Verstrekte_leningen_overige_vorderingen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Loans and other receivables</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_FinancialInstrument_Verstrekte_leningen_overige_vorderingen" xlink:label="kvk-codes_FinancialInstrument_Verstrekte_leningen_overige_vorderingen_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_FinancialInstrument_Investering_eigen_vermogen_instrumenten_loc" xlink:to="kvk-codes_FinancialInstrument_Investering_eigen_vermogen_instrumenten_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_FinancialInstrument_Investering_eigen_vermogen_instrumenten_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Investment in equity instruments</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_FinancialInstrument_Investering_eigen_vermogen_instrumenten" xlink:label="kvk-codes_FinancialInstrument_Investering_eigen_vermogen_instrumenten_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_FinancialInstrument_Overige_financiele_verplichtingen_loc" xlink:to="kvk-codes_FinancialInstrument_Overige_financiele_verplichtingen_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_FinancialInstrument_Overige_financiele_verplichtingen_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Other financial liabilities</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_FinancialInstrument_Overige_financiele_verplichtingen" xlink:label="kvk-codes_FinancialInstrument_Overige_financiele_verplichtingen_loc"/>	
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Groottecriteria_Klein_loc" xlink:to="kvk-codes_Groottecriteria_Klein_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Groottecriteria_Klein_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Small</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Groottecriteria_Klein" xlink:label="kvk-codes_Groottecriteria_Klein_loc"/>	
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Groottecriteria_Middelgroot_loc" xlink:to="kvk-codes_Groottecriteria_Middelgroot_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Groottecriteria_Middelgroot_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Medium</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Groottecriteria_Middelgroot" xlink:label="kvk-codes_Groottecriteria_Middelgroot_loc"/>	
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Groottecriteria_Groot_loc" xlink:to="kvk-codes_Groottecriteria_Groot_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Groottecriteria_Groot_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Large</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Groottecriteria_Groot" xlink:label="kvk-codes_Groottecriteria_Groot_loc"/>	
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Transaction_Normale_Marktvoorwaarden_loc" xlink:to="kvk-codes_Transaction_Normale_Marktvoorwaarden_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Transaction_Normale_Marktvoorwaarden_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">At arm's length</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Transaction_Normale_Marktvoorwaarden" xlink:label="kvk-codes_Transaction_Normale_Marktvoorwaarden_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Transaction_Niet_Normale_Marktvoorwaarden_loc" xlink:to="kvk-codes_Transaction_Niet_Normale_Marktvoorwaarden_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Transaction_Niet_Normale_Marktvoorwaarden_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Not at arm's length</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Transaction_Niet_Normale_Marktvoorwaarden" xlink:label="kvk-codes_Transaction_Niet_Normale_Marktvoorwaarden_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Director_BestuurderHuidig_loc" xlink:to="kvk-codes_Director_BestuurderHuidig_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Director_BestuurderHuidig_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Managing director (current)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Director_BestuurderHuidig" xlink:label="kvk-codes_Director_BestuurderHuidig_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Director_BestuurderVoormalig_loc" xlink:to="kvk-codes_Director_BestuurderVoormalig_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Director_BestuurderVoormalig_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Managing director (former)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Director_BestuurderVoormalig" xlink:label="kvk-codes_Director_BestuurderVoormalig_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Director_CommissarisHuidig_loc" xlink:to="kvk-codes_Director_CommissarisHuidig_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Director_CommissarisHuidig_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Supervisory director (current)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Director_CommissarisHuidig" xlink:label="kvk-codes_Director_CommissarisHuidig_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Director_CommissarisVoormalig_loc" xlink:to="kvk-codes_Director_CommissarisVoormalig_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Director_CommissarisVoormalig_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Supervisory director (former)</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Director_CommissarisVoormalig" xlink:label="kvk-codes_Director_CommissarisVoormalig_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_LoanAdvanceGuarantee_Lening_loc" xlink:to="kvk-codes_LoanAdvanceGuarantee_Lening_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_LoanAdvanceGuarantee_Lening_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Loans</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_LoanAdvanceGuarantee_Lening" xlink:label="kvk-codes_LoanAdvanceGuarantee_Lening_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_LoanAdvanceGuarantee_Voorschot_loc" xlink:to="kvk-codes_LoanAdvanceGuarantee_Voorschot_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_LoanAdvanceGuarantee_Voorschot_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Advances</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_LoanAdvanceGuarantee_Voorschot" xlink:label="kvk-codes_LoanAdvanceGuarantee_Voorschot_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_LoanAdvanceGuarantee_Garantie_loc" xlink:to="kvk-codes_LoanAdvanceGuarantee_Garantie_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_LoanAdvanceGuarantee_Garantie_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Guarantee</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_LoanAdvanceGuarantee_Garantie" xlink:label="kvk-codes_LoanAdvanceGuarantee_Garantie_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Remuneration_Periodiek_loc" xlink:to="kvk-codes_Remuneration_Periodiek_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Remuneration_Periodiek_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Periodically payable</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Remuneration_Periodiek" xlink:label="kvk-codes_Remuneration_Periodiek_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Remuneration_Lange_Termijn_loc" xlink:to="kvk-codes_Remuneration_Lange_Termijn_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Remuneration_Lange_Termijn_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Long term payable</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Remuneration_Lange_Termijn" xlink:label="kvk-codes_Remuneration_Lange_Termijn_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Remuneration_Ontslagvergoeding_loc" xlink:to="kvk-codes_Remuneration_Ontslagvergoeding_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Remuneration_Ontslagvergoeding_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Severance</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Remuneration_Ontslagvergoeding" xlink:label="kvk-codes_Remuneration_Ontslagvergoeding_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Remuneration_Winstdeling_loc" xlink:to="kvk-codes_Remuneration_Winstdeling_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Remuneration_Winstdeling_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Profit sharing</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Remuneration_Winstdeling" xlink:label="kvk-codes_Remuneration_Winstdeling_loc"/>
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-codes_Remuneration_Totaal_loc" xlink:to="kvk-codes_Remuneration_Totaal_label_en"/>
+	<label:label xlink:type="resource" xlink:label="kvk-codes_Remuneration_Totaal_label_en" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="en">Total compensation</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-codes.xsd#kvk-codes_Remuneration_Totaal" xlink:label="kvk-codes_Remuneration_Totaal_loc"/>
+  </gen:link>
+</link:linkbase>

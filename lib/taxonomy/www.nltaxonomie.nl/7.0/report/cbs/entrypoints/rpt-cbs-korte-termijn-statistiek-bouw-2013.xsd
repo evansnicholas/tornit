@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema id="rpt-cbs-ksb_kt-statistiek-bouw-2013" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:rpt-cbs-ksb="http://www.nltaxonomie.nl/7.0/report/cbs/entrypoints/rpt-cbs-korte-termijn-statistiek-bouw-2013" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/7.0/report/cbs/entrypoints/rpt-cbs-korte-termijn-statistiek-bouw-2013">
+  <xs:annotation>
+    <xs:appinfo>
+		<link:linkbaseRef xlink:href="../../../report/cbs/linkroles/cbs-contact-information-pre.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/cbs/linkroles/cbs-short-term-stat-construction-pre.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/cbs/linkroles/statistics-generic-linkrole-order.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+	</xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/cbs/context/cbs-context" schemaLocation="../../../basis/cbs/context/cbs-context.xsd"/>
+</xs:schema>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple"/>
+    <link:roleRef xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-nodim" roleURI="urn:bd:linkrole:bd-lr-hd_cube-nodim" xlink:type="simple"/>
+    <link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-hd_cube-nodim" xlink:type="extended">
+        <link:loc xlink:href="../lineitems/bd-primary-domains.xsd#bd-dim-pi_PrimaryItem" xlink:label="bd-dim-pi_PrimaryItem_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../tables/bd-tables.xsd#bd-dim-cube_Hypercube" xlink:label="bd-dim-cube_Hypercube_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-dim-cube_Hypercube_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" order="1" xbrldt:contextElement="scenario" xbrldt:closed="true" xlink:type="arc"/>
+    </link:definitionLink>
+</link:linkbase>

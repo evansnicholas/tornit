@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/cbs/linkroles/short-term-stat-industry/fs-cbs-short-term-stat-industry" xlink:href="cbs-linkroles.xsd#cbs-lr_Shortterm-Statistics-Industry" xlink:type="simple"/>
+   <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/cbs/linkroles/short-term-stat-industry/fs-cbs-short-term-stat-industry" xlink:type="extended">
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TurnoverNetIndustrialHome" xlink:label="cbs-bedr_TurnoverNetIndustrialHome" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TurnoverNetOtherHome" xlink:label="cbs-bedr_TurnoverNetOtherHome" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TurnoverNetIndustrialAbroad" xlink:label="cbs-bedr_TurnoverNetIndustrialAbroad" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_TurnoverNetOtherAbroad" xlink:label="cbs-bedr_TurnoverNetOtherAbroad" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ValueOfOrdersReceivedInThisPeriod" xlink:label="cbs-bedr_ValueOfOrdersReceivedInThisPeriod" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ValueOfOrdersReceivedInThisPeriodDomestic" xlink:label="cbs-bedr_ValueOfOrdersReceivedInThisPeriodDomestic" xlink:type="locator"/>
+      <link:presentationArc order="1.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr_ValueOfOrdersReceivedInThisPeriod" xlink:to="cbs-bedr_ValueOfOrdersReceivedInThisPeriodDomestic" xlink:type="arc"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_ValueOfOrdersReceivedInThisPeriodFromAbroad" xlink:label="cbs-bedr_ValueOfOrdersReceivedInThisPeriodFromAbroad" xlink:type="locator"/>
+      <link:presentationArc order="2.0" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="cbs-bedr_ValueOfOrdersReceivedInThisPeriod" xlink:to="cbs-bedr_ValueOfOrdersReceivedInThisPeriodFromAbroad" xlink:type="arc"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StockProductsClosing" xlink:label="lbl_StockProductsClosing" xlink:type="locator"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_NetTurnover" xlink:label="lbl_NetTurnover" xlink:type="locator"/>
+      <link:presentationArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_NetTurnover" xlink:to="cbs-bedr_TurnoverNetIndustrialHome" xlink:type="arc"/>
+      <link:presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_NetTurnover" xlink:to="cbs-bedr_TurnoverNetOtherHome" xlink:type="arc"/>
+      <link:presentationArc order="4.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_NetTurnover" xlink:to="cbs-bedr_TurnoverNetOtherAbroad" xlink:type="arc"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_NetTurnover" xlink:label="lbl_NetTurnover1" xlink:type="locator"/>
+      <link:presentationArc order="1.5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_NetTurnover1" xlink:to="cbs-bedr_TurnoverNetIndustrialAbroad" xlink:type="arc"/>
+      <link:loc xlink:href="../../../basis/cbs/items/cbs-bedr-items.xsd#cbs-bedr-items_StockWorkInProgressClosing" xlink:label="lbl_StockWorkInProgressClosing" xlink:type="locator"/>
+      <link:loc xlink:href="../../../report/cbs/abstracts/cbs-bedr-abstracts.xsd#cbs-bedr-a_CBSShorttermStatistic" xlink:label="lbl_CBSShorttermStatistic" xlink:type="locator"/>
+      <link:presentationArc order="2.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_CBSShorttermStatistic" xlink:to="cbs-bedr_ValueOfOrdersReceivedInThisPeriod" xlink:type="arc"/>
+      <link:presentationArc order="3.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_CBSShorttermStatistic" xlink:to="lbl_StockProductsClosing" xlink:type="arc"/>
+      <link:presentationArc order="0.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_CBSShorttermStatistic" xlink:to="lbl_NetTurnover" xlink:type="arc"/>
+      <link:presentationArc order="4.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="lbl_CBSShorttermStatistic" xlink:to="lbl_StockWorkInProgressClosing" xlink:type="arc"/>
+   </link:presentationLink>
+</link:linkbase>

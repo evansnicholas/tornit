@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-linkroles-domains" xmlns:bd-lr-dm="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-linkroles-domains" xmlns:link="http://www.xbrl.org/2003/linkbase" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<xs:annotation>
+		<xs:appinfo>
+			<link:roleType id="bd-lr-dm_domain-TC-PS" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PS">
+				<link:definition>domain-member linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: SubsidiaryCompany</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="bd-lr-dm_domain-TC-PC" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PC">
+				<link:definition>domain-member linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Company</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="bd-lr-dm_domain-TC-PP" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PP">
+				<link:definition>domain-member linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Partner</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="bd-lr-dm_domain-TC-PD" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PD">
+				<link:definition>domain-member linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Declarant</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="bd-lr-dm_domain-TC-PDHS" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PDHS">
+				<link:definition>domain-member linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Declarant HoldingCompany SubsidiaryCompany</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="bd-lr-dm_domain-TC-PDP" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TC-PDP">
+				<link:definition>domain-member linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Declarant Partner</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="bd-lr-dm_domain-TCP-PC" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PC">
+				<link:definition>domain-member linkrole. Dimensie TimeDimension met domeinlid/leden: Current Previous . Dimensie PartyDimension met domeinlid/leden: Company</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="bd-lr-dm_domain-TCP-PD" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PD">
+				<link:definition>domain-member linkrole. Dimensie TimeDimension met domeinlid/leden: Current Previous . Dimensie PartyDimension met domeinlid/leden: Declarant</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType id="bd-lr-dm_domain-TCP-PDHS" roleURI="http://www.nltaxonomie.nl/7.0/basis/bd/linkroles/bd-lr-dm_domain-TCP-PDHS">
+				<link:definition>domain-member linkrole. Dimensie TimeDimension met domeinlid/leden: Current Previous . Dimensie PartyDimension met domeinlid/leden: Declarant HoldingCompany SubsidiaryCompany</link:definition>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+            <link:linkbaseRef xlink:href="./bd-linkroles-domains-generic-linkrole-lab-nl.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+        </xs:appinfo>
+	</xs:annotation>
+	<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+	<xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+</xs:schema>

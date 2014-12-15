@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:label id="kvk-dm-fa_FinancialAssetsComponentDomain_label_nl" xlink:label="kvk-dm-fa_FinancialAssetsComponentDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Financiële vaste activa [domein]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_FinancialAssetsComponentDomain" xlink:label="kvk-dm-fa_FinancialAssetsComponentDomain_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_FinancialAssetsComponentDomain_loc" xlink:to="kvk-dm-fa_FinancialAssetsComponentDomain_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dm-fa_InvestmentsGroupCompaniesMember_label_nl" xlink:label="kvk-dm-fa_InvestmentsGroupCompaniesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Deelnemingen in groepsmaatschappijen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_InvestmentsGroupCompaniesMember" xlink:label="kvk-dm-fa_InvestmentsGroupCompaniesMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_InvestmentsGroupCompaniesMember_loc" xlink:to="kvk-dm-fa_InvestmentsGroupCompaniesMember_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_label_nl" xlink:label="kvk-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Vorderingen op groepsmaatschappijen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_ReceivablesGroupCompaniesNoncurrentMember" xlink:label="kvk-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_loc" xlink:to="kvk-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dm-fa_InvestmentsOtherMember_label_nl" xlink:label="kvk-dm-fa_InvestmentsOtherMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Andere deelnemingen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_InvestmentsOtherMember" xlink:label="kvk-dm-fa_InvestmentsOtherMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_InvestmentsOtherMember_loc" xlink:to="kvk-dm-fa_InvestmentsOtherMember_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dm-fa_InvestmentsOtherRelatedPartiesMember_label_nl" xlink:label="kvk-dm-fa_InvestmentsOtherRelatedPartiesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Deelnemingen in overige verbonden maatschappijen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_InvestmentsOtherRelatedPartiesMember" xlink:label="kvk-dm-fa_InvestmentsOtherRelatedPartiesMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_InvestmentsOtherRelatedPartiesMember_loc" xlink:to="kvk-dm-fa_InvestmentsOtherRelatedPartiesMember_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_label_nl" xlink:label="kvk-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Vorderingen op overige verbonden maatschappijen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember" xlink:label="kvk-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_loc" xlink:to="kvk-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_label_nl" xlink:label="kvk-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Vorderingen op participanten en op maatschappijen waarin wordt deelgenomen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember" xlink:label="kvk-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_loc" xlink:to="kvk-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dm-fa_SecuritiesOtherNoncurrentMember_label_nl" xlink:label="kvk-dm-fa_SecuritiesOtherNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Overige effecten [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_SecuritiesOtherNoncurrentMember" xlink:label="kvk-dm-fa_SecuritiesOtherNoncurrentMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_SecuritiesOtherNoncurrentMember_loc" xlink:to="kvk-dm-fa_SecuritiesOtherNoncurrentMember_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dm-fa_ReceivablesOtherNoncurrentMember_label_nl" xlink:label="kvk-dm-fa_ReceivablesOtherNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Overige vorderingen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_ReceivablesOtherNoncurrentMember" xlink:label="kvk-dm-fa_ReceivablesOtherNoncurrentMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_ReceivablesOtherNoncurrentMember_loc" xlink:to="kvk-dm-fa_ReceivablesOtherNoncurrentMember_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dm-fa_DeferredTaxAssetsNoncurrentMember_label_nl" xlink:label="kvk-dm-fa_DeferredTaxAssetsNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Latente belastingvorderingen [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_DeferredTaxAssetsNoncurrentMember" xlink:label="kvk-dm-fa_DeferredTaxAssetsNoncurrentMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_DeferredTaxAssetsNoncurrentMember_loc" xlink:to="kvk-dm-fa_DeferredTaxAssetsNoncurrentMember_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dm-fa_FinancialAssetsOtherMember_label_nl" xlink:label="kvk-dm-fa_FinancialAssetsOtherMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Overige financiële vaste activa [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_FinancialAssetsOtherMember" xlink:label="kvk-dm-fa_FinancialAssetsOtherMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_FinancialAssetsOtherMember_loc" xlink:to="kvk-dm-fa_FinancialAssetsOtherMember_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dm-fa_FinancialAssetsMember_label_nl" xlink:label="kvk-dm-fa_FinancialAssetsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Financiële vaste activa [member]</link:label>
+      <link:loc xlink:href="kvk-domains-financial-assets.xsd#kvk-dm-fa_FinancialAssetsMember" xlink:label="kvk-dm-fa_FinancialAssetsMember_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dm-fa_FinancialAssetsMember_loc" xlink:to="kvk-dm-fa_FinancialAssetsMember_label_nl" xlink:type="arc"/>
+	</link:labelLink>
+</link:linkbase>

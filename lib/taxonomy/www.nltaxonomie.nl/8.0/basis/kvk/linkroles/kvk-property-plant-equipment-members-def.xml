@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:kvk:linkrole:property-plant-equipment-domain" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_PropertyPlantEquipmentDomain" xlink:type="simple"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+  <link:definitionLink xlink:role="urn:kvk:linkrole:property-plant-equipment-domain" xlink:type="extended">
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_PropertyPlantEquipmentComponentDomain" xlink:label="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_LandAndBuildingsMember" xlink:label="bw2-dm-ppe_LandAndBuildingsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_MachineryMember" xlink:label="bw2-dm-ppe_MachineryMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_TangibleAssetsOtherMember" xlink:label="bw2-dm-ppe_TangibleAssetsOtherMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember" xlink:label="bw2-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_InvestmentPropertyMember" xlink:label="bw2-dm-ppe_InvestmentPropertyMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_AssetsNotUsedInOperationsMember" xlink:label="bw2-dm-ppe_AssetsNotUsedInOperationsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-property-plant-equipment.xsd#bw2-dm-ppe_PropertyPlantEquipmentMember" xlink:label="bw2-dm-ppe_PropertyPlantEquipmentMember_loc" xlink:type="locator"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:to="bw2-dm-ppe_LandAndBuildingsMember_loc" order="1" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:to="bw2-dm-ppe_MachineryMember_loc" order="2" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:to="bw2-dm-ppe_TangibleAssetsOtherMember_loc" order="3" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:to="bw2-dm-ppe_ConstructionInProgressPrepaymentsPropertyPlantEquipmentMember_loc" order="4" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:to="bw2-dm-ppe_InvestmentPropertyMember_loc" order="5" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:to="bw2-dm-ppe_AssetsNotUsedInOperationsMember_loc" order="6" xlink:type="arc"/>
+    <link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="bw2-dm-ppe_PropertyPlantEquipmentComponentDomain_loc" xlink:to="bw2-dm-ppe_PropertyPlantEquipmentMember_loc" order="7" xlink:type="arc"/>
+  </link:definitionLink>
+</link:linkbase>

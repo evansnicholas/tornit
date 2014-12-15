@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:href="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-arcroles.xsd#sbr_linkrole-order"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd#linkrole-info" roleURI="http://www.nltaxonomie.nl/2011/role/linkrole-info"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+  	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_InformationRequiredForFiling" xlink:label="kvk-plr_InformationRequiredForFiling_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_InformationRequiredForFiling_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">1</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_InformationRequiredForFiling_loc" xlink:to="kvk-plr_InformationRequiredForFiling_rsc"/>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_DocumentEntityInformation" xlink:label="kvk-plr_DocumentEntityInformation_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_DocumentEntityInformation_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">2</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_DocumentEntityInformation_loc" xlink:to="kvk-plr_DocumentEntityInformation_rsc"/>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_ManagementReport" xlink:label="kvk-plr_ManagementReport_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_ManagementReport_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">3</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_ManagementReport_loc" xlink:to="kvk-plr_ManagementReport_rsc"/>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_BalanceSheetModelA" xlink:label="kvk-plr_BalanceSheetModelA_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_BalanceSheetModelA_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">4</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_BalanceSheetModelA_loc" xlink:to="kvk-plr_BalanceSheetModelA_rsc"/>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_BalanceSheetModelB" xlink:label="kvk-plr_BalanceSheetModelB_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_BalanceSheetModelB_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">5</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_BalanceSheetModelB_loc" xlink:to="kvk-plr_BalanceSheetModelB_rsc"/>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_BalanceSheetModelC" xlink:label="kvk-plr_BalanceSheetModelC_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_BalanceSheetModelC_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">6</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_BalanceSheetModelC_loc" xlink:to="kvk-plr_BalanceSheetModelC_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_BalanceSheetModelD" xlink:label="kvk-plr_BalanceSheetModelD_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_BalanceSheetModelD_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">7</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_BalanceSheetModelD_loc" xlink:to="kvk-plr_BalanceSheetModelD_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelE" xlink:label="kvk-plr_IncomeStatementModelE_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_IncomeStatementModelE_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">8</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_IncomeStatementModelE_loc" xlink:to="kvk-plr_IncomeStatementModelE_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelF" xlink:label="kvk-plr_IncomeStatementModelF_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_IncomeStatementModelF_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">9</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_IncomeStatementModelF_loc" xlink:to="kvk-plr_IncomeStatementModelF_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelG" xlink:label="kvk-plr_IncomeStatementModelG_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_IncomeStatementModelG_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">10</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_IncomeStatementModelG_loc" xlink:to="kvk-plr_IncomeStatementModelG_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelH" xlink:label="kvk-plr_IncomeStatementModelH_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_IncomeStatementModelH_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">11</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_IncomeStatementModelH_loc" xlink:to="kvk-plr_IncomeStatementModelH_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelI" xlink:label="kvk-plr_IncomeStatementModelI_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_IncomeStatementModelI_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">12</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_IncomeStatementModelI_loc" xlink:to="kvk-plr_IncomeStatementModelI_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelJ" xlink:label="kvk-plr_IncomeStatementModelJ_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_IncomeStatementModelJ_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">13</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_IncomeStatementModelJ_loc" xlink:to="kvk-plr_IncomeStatementModelJ_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_CashFlowStatementDirect" xlink:label="kvk-plr_CashFlowStatementDirect_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_CashFlowStatementDirect_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">14</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_CashFlowStatementDirect_loc" xlink:to="kvk-plr_CashFlowStatementDirect_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_CashFlowStatementIndirect" xlink:label="kvk-plr_CashFlowStatementIndirect_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_CashFlowStatementIndirect_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">15</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_CashFlowStatementIndirect_loc" xlink:to="kvk-plr_CashFlowStatementIndirect_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_ComprehensiveIncomeStatement" xlink:label="kvk-plr_ComprehensiveIncomeStatement_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_ComprehensiveIncomeStatement_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">16</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_ComprehensiveIncomeStatement_loc" xlink:to="kvk-plr_ComprehensiveIncomeStatement_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_Notes" xlink:label="kvk-plr_Notes_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_Notes_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">17</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_Notes_loc" xlink:to="kvk-plr_Notes_rsc"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_OtherInformation" xlink:label="kvk-plr_OtherInformation_loc"/>
+    <sbr:linkroleOrder xlink:type="resource" xlink:label="kvk-plr_OtherInformation_rsc" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info">18</sbr:linkroleOrder>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="kvk-plr_OtherInformation_loc" xlink:to="kvk-plr_OtherInformation_rsc"/>
+  </gen:link>
+</link:linkbase>

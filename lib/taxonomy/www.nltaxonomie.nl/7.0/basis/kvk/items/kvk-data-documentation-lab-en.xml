@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_ContactType" xlink:label="kvk-i_ContactType_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_ContactType_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-i_ContactType_documentation_en">The purpose of this concept is to categorise the contact for this report into either "Intermediary" or "Entrepreneur".</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_ContactType_loc" xlink:to="kvk-i_ContactType_documentation_en"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SbiBusinessCode" xlink:label="kvk-i_SbiBusinessCode_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SbiBusinessCode_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-i_SbiBusinessCode_documentation_en">The SBI-code (Standaard Bedrijfsindeling 2008) is a code that indicates the economic activities of the entity.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SbiBusinessCode_loc" xlink:to="kvk-i_SbiBusinessCode_documentation_en"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_OrganisationName" xlink:label="kvk-i_OrganisationName_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_OrganisationName_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-i_OrganisationName_documentation_en">Name of the organisation or legal entity that is being represented in this situation.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_OrganisationName_loc" xlink:to="kvk-i_OrganisationName_documentation_en"/>
+  	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SignatureManagementReportLocation" xlink:label="kvk-i_SignatureManagementReportLocation_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SignatureManagementReportLocation_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-i_SignatureManagementReportLocation_documentation_en">The location of signing the management report by the author(s).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SignatureManagementReportLocation_loc" xlink:to="kvk-i_SignatureManagementReportLocation_documentation_en"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SignatureManagementReportDate" xlink:label="kvk-i_SignatureManagementReportDate_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SignatureManagementReportDate_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-i_SignatureManagementReportDate_documentation_en">The date of signing the management report by the author(s).</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SignatureManagementReportDate_loc" xlink:to="kvk-i_SignatureManagementReportDate_documentation_en"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SignatureManagingSupervisoryDirectorsLocation" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsLocation_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsLocation_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-i_SignatureManagingSupervisoryDirectorsLocation_documentation_en">The location of signing the financial statements by the managing of supervisory directors.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SignatureManagingSupervisoryDirectorsLocation_loc" xlink:to="kvk-i_SignatureManagingSupervisoryDirectorsLocation_documentation_en"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_SignatureManagingSupervisoryDirectorsDate" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsDate_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_SignatureManagingSupervisoryDirectorsDate_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-i_SignatureManagingSupervisoryDirectorsDate_documentation_en">The date of signing the financial statements by the managing of supervisory directors.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_SignatureManagingSupervisoryDirectorsDate_loc" xlink:to="kvk-i_SignatureManagingSupervisoryDirectorsDate_documentation_en"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure" xlink:label="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_documentation_en">Voluntary disclosure that can serve as a reconciliation between the financial statements and the income tax declarations.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc" xlink:to="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_documentation_en"/>
+	<link:loc xlink:type="locator" xlink:href="kvk-data.xsd#kvk-i_DocumentInformation" xlink:label="kvk-i_DocumentInformation_loc"/>
+	<link:label xlink:type="resource" xlink:label="kvk-i_DocumentInformation_documentation_en" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en" id="kvk-i_DocumentInformation_documentation_en">Optional text to enclose more detailed information regarding this document.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_DocumentInformation_loc" xlink:to="kvk-i_DocumentInformation_documentation_en"/>
+	</link:labelLink>
+</link:linkbase>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lrr2html.xsl"?>
+<!-- (c) 2005 XBRL International. All Rights Reserved. http://www.XBRL.org/legal/ 
+     This document may be copied and furnished to others, and derivative works that 
+     comment on or otherwise explain it or assist in its implementation may be 
+     prepared, copied, published and distributed, in whole or in part, without 
+     restriction of any kind, provided that the above copyright notice and this
+     paragraph are included on all such copies and derivative works.  XBRL is a
+     registered trademark of AICPA licensed exclusively to XBRL International.  -->
+<lrr xmlns="http://www.xbrl.org/2005/lrr" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2005/lrr lrr.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <roles>
+  </roles>
+  <arcroles>
+  </arcroles>
+</lrr>

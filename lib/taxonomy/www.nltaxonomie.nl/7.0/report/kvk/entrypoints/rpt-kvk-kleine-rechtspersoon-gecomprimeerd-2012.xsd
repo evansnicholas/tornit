@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema id="kvk_rpt-kvk-kc" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rpt-kvk-kc="http://www.nltaxonomie.nl/7.0/report/kvk/entrypoints/rpt-kvk-kleine-rechtspersoon-gecomprimeerd-2012" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/7.0/report/kvk/entrypoints/rpt-kvk-kleine-rechtspersoon-gecomprimeerd-2012">
+  <xs:annotation>
+      <xs:appinfo>
+ 	    <link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-information-required-for-filing-pre.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-document-entity-information-pre.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-balance-sheet-model-d-pre.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-notes-pre.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-notes_Ki_Kp_Kc_Fi_Fp_Fc-pre.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-basis-of-preparation-tables-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../domein/kvk/linkroles/kvk-basis-of-preparation-commercial-axes-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-basis-of-preparation-lineitems-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-basis-of-preparation-lineitems_Ki_Kp_Kc_Fi_Fp_Fc-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../basis/kvk/linkroles/kvk-basis-of-preparation-commercial-members-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-financial-statements-type-tables-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../domein/kvk/linkroles/kvk-financial-statements-type-axes-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-financial-statements-type-lineitems-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-financial-statements-type-lineitems_Ki_Kp_Kc_Fi_Fp_Fc-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../basis/kvk/linkroles/kvk-financial-statements-type-members-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-equity-tables-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../domein/kvk/linkroles/kvk-equity-axes-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-equity-lineitems-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../basis/kvk/linkroles/kvk-equity-members-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-adimensional-tables-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:href="../../../report/kvk/linkroles/kvk-adimensional-lineitems-def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+		</xs:appinfo>
+   </xs:annotation>
+</xs:schema>

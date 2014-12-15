@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_FinancialAssetsComponentDomain" xlink:label="bw2-dm-fa_FinancialAssetsComponentDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_InvestmentsGroupCompaniesMember" xlink:label="bw2-dm-fa_InvestmentsGroupCompaniesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_ReceivablesGroupCompaniesNoncurrentMember" xlink:label="bw2-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_InvestmentsOtherMember" xlink:label="bw2-dm-fa_InvestmentsOtherMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_InvestmentsOtherRelatedPartiesMember" xlink:label="bw2-dm-fa_InvestmentsOtherRelatedPartiesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember" xlink:label="bw2-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember" xlink:label="bw2-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_SecuritiesOtherNoncurrentMember" xlink:label="bw2-dm-fa_SecuritiesOtherNoncurrentMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_ReceivablesOtherNoncurrentMember" xlink:label="bw2-dm-fa_ReceivablesOtherNoncurrentMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_DeferredTaxAssetsNoncurrentMember" xlink:label="bw2-dm-fa_DeferredTaxAssetsNoncurrentMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_FinancialAssetsOtherMember" xlink:label="bw2-dm-fa_FinancialAssetsOtherMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-assets.xsd#bw2-dm-fa_FinancialAssetsMember" xlink:label="bw2-dm-fa_FinancialAssetsMember_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_FinancialAssetsComponentDomain_loc" xlink:to="bw2-dm-fa_FinancialAssetsComponentDomain_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_InvestmentsGroupCompaniesMember_loc" xlink:to="bw2-dm-fa_InvestmentsGroupCompaniesMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_loc" xlink:to="bw2-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_InvestmentsOtherMember_loc" xlink:to="bw2-dm-fa_InvestmentsOtherMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_InvestmentsOtherRelatedPartiesMember_loc" xlink:to="bw2-dm-fa_InvestmentsOtherRelatedPartiesMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_loc" xlink:to="bw2-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_loc" xlink:to="bw2-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_SecuritiesOtherNoncurrentMember_loc" xlink:to="bw2-dm-fa_SecuritiesOtherNoncurrentMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_ReceivablesOtherNoncurrentMember_loc" xlink:to="bw2-dm-fa_ReceivablesOtherNoncurrentMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_DeferredTaxAssetsNoncurrentMember_loc" xlink:to="bw2-dm-fa_DeferredTaxAssetsNoncurrentMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_FinancialAssetsOtherMember_loc" xlink:to="bw2-dm-fa_FinancialAssetsOtherMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fa_FinancialAssetsMember_loc" xlink:to="bw2-dm-fa_FinancialAssetsMember_label_nl" xlink:type="arc"/>
+    <link:label id="bw2-dm-fa_FinancialAssetsComponentDomain_label_nl" xlink:label="bw2-dm-fa_FinancialAssetsComponentDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Financiële vaste activa [domein]</link:label>
+    <link:label id="bw2-dm-fa_InvestmentsGroupCompaniesMember_label_nl" xlink:label="bw2-dm-fa_InvestmentsGroupCompaniesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Deelnemingen in groepsmaatschappijen [member]</link:label>
+    <link:label id="bw2-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_label_nl" xlink:label="bw2-dm-fa_ReceivablesGroupCompaniesNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Vorderingen op groepsmaatschappijen [member]</link:label>
+    <link:label id="bw2-dm-fa_InvestmentsOtherMember_label_nl" xlink:label="bw2-dm-fa_InvestmentsOtherMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Andere deelnemingen [member]</link:label>
+    <link:label id="bw2-dm-fa_InvestmentsOtherRelatedPartiesMember_label_nl" xlink:label="bw2-dm-fa_InvestmentsOtherRelatedPartiesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Deelnemingen in overige verbonden maatschappijen [member]</link:label>
+    <link:label id="bw2-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_label_nl" xlink:label="bw2-dm-fa_ReceivablesOtherRelatedPartiesNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Vorderingen op overige verbonden maatschappijen [member]</link:label>
+    <link:label id="bw2-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_label_nl" xlink:label="bw2-dm-fa_ReceivablesShareholdersParticipatingInterestsNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Vorderingen op participanten en op maatschappijen waarin wordt deelgenomen [member]</link:label>
+    <link:label id="bw2-dm-fa_SecuritiesOtherNoncurrentMember_label_nl" xlink:label="bw2-dm-fa_SecuritiesOtherNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Overige effecten [member]</link:label>
+    <link:label id="bw2-dm-fa_ReceivablesOtherNoncurrentMember_label_nl" xlink:label="bw2-dm-fa_ReceivablesOtherNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Overige vorderingen [member]</link:label>
+    <link:label id="bw2-dm-fa_DeferredTaxAssetsNoncurrentMember_label_nl" xlink:label="bw2-dm-fa_DeferredTaxAssetsNoncurrentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Latente belastingvorderingen [member]</link:label>
+    <link:label id="bw2-dm-fa_FinancialAssetsOtherMember_label_nl" xlink:label="bw2-dm-fa_FinancialAssetsOtherMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Overige financiële vaste activa [member]</link:label>
+    <link:label id="bw2-dm-fa_FinancialAssetsMember_label_nl" xlink:label="bw2-dm-fa_FinancialAssetsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Financiële vaste activa [member]</link:label>
+  </link:labelLink>
+</link:linkbase>

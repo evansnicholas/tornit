@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_IntangibleAssetsAccumulatedAmortisationImpairments" xlink:label="bw2-i_IntangibleAssetsAccumulatedAmortisationImpairments_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_IntangibleAssetsAccumulatedAmortisationImpairments_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_IntangibleAssetsAccumulatedAmortisationImpairments_periodStartLabel_en">Accumulated amortisation and impairments, beginning balance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_IntangibleAssetsAccumulatedAmortisationImpairments_loc" xlink:to="bw2-i_IntangibleAssetsAccumulatedAmortisationImpairments_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_IntangibleAssetsAccumulatedRevaluations" xlink:label="bw2-i_IntangibleAssetsAccumulatedRevaluations_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_IntangibleAssetsAccumulatedRevaluations_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_IntangibleAssetsAccumulatedRevaluations_periodStartLabel_en">Accumulated revaluations, beginning balance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_IntangibleAssetsAccumulatedRevaluations_loc" xlink:to="bw2-i_IntangibleAssetsAccumulatedRevaluations_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments" xlink:label="bw2-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_periodStartLabel_en">Accumulated amortisation and impairments, beginning balance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_loc" xlink:to="bw2-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_PropertyPlantEquipmentAccumulatedRevaluations" xlink:label="bw2-i_PropertyPlantEquipmentAccumulatedRevaluations_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_PropertyPlantEquipmentAccumulatedRevaluations_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_PropertyPlantEquipmentAccumulatedRevaluations_periodStartLabel_en">Accumulated revaluations, beginning balance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_PropertyPlantEquipmentAccumulatedRevaluations_loc" xlink:to="bw2-i_PropertyPlantEquipmentAccumulatedRevaluations_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_FinancialAssetsAccumulatedDepreciationImpairments" xlink:label="bw2-i_FinancialAssetsAccumulatedDepreciationImpairments_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_FinancialAssetsAccumulatedDepreciationImpairments_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_FinancialAssetsAccumulatedDepreciationImpairments_periodStartLabel_en">Accumulated amortisation and impairments, beginning balance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_FinancialAssetsAccumulatedDepreciationImpairments_loc" xlink:to="bw2-i_FinancialAssetsAccumulatedDepreciationImpairments_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_FinancialAssetsAccumulatedRevaluations" xlink:label="bw2-i_FinancialAssetsAccumulatedRevaluations_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_FinancialAssetsAccumulatedRevaluations_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_FinancialAssetsAccumulatedRevaluations_periodStartLabel_en">Accumulated revaluations, beginning balance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_FinancialAssetsAccumulatedRevaluations_loc" xlink:to="bw2-i_FinancialAssetsAccumulatedRevaluations_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_ShareCapitalNumberShares" xlink:label="bw2-i_ShareCapitalNumberShares_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_ShareCapitalNumberShares_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_ShareCapitalNumberShares_periodStartLabel_en">Share capital, number of shares</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_ShareCapitalNumberShares_loc" xlink:to="bw2-i_ShareCapitalNumberShares_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_CashAndCashEquivalents" xlink:label="bw2-i_CashAndCashEquivalents_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_CashAndCashEquivalents_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_CashAndCashEquivalents_periodStartLabel_en">Cash and cash equivalents, start of the period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_CashAndCashEquivalents_loc" xlink:to="bw2-i_CashAndCashEquivalents_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_Equity" xlink:label="bw2-i_Equity_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_Equity_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_Equity_periodStartLabel_en">Equity, start of the period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_Equity_loc" xlink:to="bw2-i_Equity_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_EquityGroup" xlink:label="bw2-i_EquityGroup_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_EquityGroup_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_EquityGroup_periodStartLabel_en">Group equity, start of the period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_EquityGroup_loc" xlink:to="bw2-i_EquityGroup_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_FinancialAssets" xlink:label="bw2-i_FinancialAssets_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_FinancialAssets_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_FinancialAssets_periodStartLabel_en">Financial assets, start of the period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_FinancialAssets_loc" xlink:to="bw2-i_FinancialAssets_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_IntangibleAssets" xlink:label="bw2-i_IntangibleAssets_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_IntangibleAssets_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_IntangibleAssets_periodStartLabel_en">Intangible assets, start of the period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_IntangibleAssets_loc" xlink:to="bw2-i_IntangibleAssets_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_PropertyPlantEquipment" xlink:label="bw2-i_PropertyPlantEquipment_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_PropertyPlantEquipment_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_PropertyPlantEquipment_periodStartLabel_en">Property, plant and equipment, start of the period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_PropertyPlantEquipment_loc" xlink:to="bw2-i_PropertyPlantEquipment_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_Provisions" xlink:label="bw2-i_Provisions_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_Provisions_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_Provisions_periodStartLabel_en">Provisions, start of the period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_Provisions_loc" xlink:to="bw2-i_Provisions_periodStartLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_RevaluationReserve" xlink:label="bw2-i_RevaluationReserve_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_RevaluationReserve_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xml:lang="en" id="bw2-i_RevaluationReserve_periodStartLabel_en">Revaluation reserve, start of the period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_RevaluationReserve_loc" xlink:to="bw2-i_RevaluationReserve_periodStartLabel_en"/>
+  </link:labelLink>
+</link:linkbase>

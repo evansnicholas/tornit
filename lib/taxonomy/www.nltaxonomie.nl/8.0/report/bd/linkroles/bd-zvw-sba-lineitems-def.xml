@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple"/>
+    <link:roleRef xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-nodim" roleURI="urn:bd:linkrole:bd-lr-hd_cube-nodim" xlink:type="simple"/>
+    <link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-hd_cube-nodim" xlink:type="extended">
+        <link:loc xlink:href="../lineitems/bd-primary-domains.xsd#bd-dim-pi_PrimaryItem" xlink:label="bd-dim-pi_PrimaryItem_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TaxConsultantPostalCode" xlink:label="bd-alg_TaxConsultantPostalCode_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_TaxConsultantPostalCode_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1995" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_Alimony" xlink:label="bd-asl_Alimony_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_Alimony_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1996" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_AppealDeadlineDate" xlink:label="bd-asl_AppealDeadlineDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_AppealDeadlineDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1997" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_CompulsorylInsuranceHealthInsuranceLawPeriodEnd" xlink:label="bd-asl_CompulsorylInsuranceHealthInsuranceLawPeriodEnd_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_CompulsorylInsuranceHealthInsuranceLawPeriodEnd_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1998" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_CompulsorylInsuranceHealthInsuranceLawPeriodStart" xlink:label="bd-asl_CompulsorylInsuranceHealthInsuranceLawPeriodStart_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_CompulsorylInsuranceHealthInsuranceLawPeriodStart_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1999" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_DiscountCorrection" xlink:label="bd-asl_DiscountCorrection_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_DiscountCorrection_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2000" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_DiscountPaymentAtOnce" xlink:label="bd-asl_DiscountPaymentAtOnce_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_DiscountPaymentAtOnce_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2001" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_DisposalType" xlink:label="bd-asl_DisposalType_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_DisposalType_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2002" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_EstablishedAmountPreviously" xlink:label="bd-asl_EstablishedAmountPreviously_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_EstablishedAmountPreviously_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2003" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_EstablishedBackDutyPreviously" xlink:label="bd-asl_EstablishedBackDutyPreviously_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_EstablishedBackDutyPreviously_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2004" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_HealthInsuranceLawWages" xlink:label="bd-asl_HealthInsuranceLawWages_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_HealthInsuranceLawWages_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2005" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_HealthInsuranceTaxAssessmentContribution" xlink:label="bd-asl_HealthInsuranceTaxAssessmentContribution_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_HealthInsuranceTaxAssessmentContribution_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2006" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_HealthInsuranceTaxAssessmentContributionIncome" xlink:label="bd-asl_HealthInsuranceTaxAssessmentContributionIncome_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_HealthInsuranceTaxAssessmentContributionIncome_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2007" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_HealthInsuranceTaxAssessmentContributionIncomeApplied" xlink:label="bd-asl_HealthInsuranceTaxAssessmentContributionIncomeApplied_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_HealthInsuranceTaxAssessmentContributionIncomeApplied_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2008" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_HealthInsuranceTaxAssessmentContributionIncomeMaximumApplied" xlink:label="bd-asl_HealthInsuranceTaxAssessmentContributionIncomeMaximumApplied_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_HealthInsuranceTaxAssessmentContributionIncomeMaximumApplied_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2009" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_IncomeOtherActivities" xlink:label="bd-asl_IncomeOtherActivities_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_IncomeOtherActivities_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2010" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_IncomeWorkAbroad" xlink:label="bd-asl_IncomeWorkAbroad_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_IncomeWorkAbroad_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2011" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_MessageTypeProfileIncomeTaxHealthInsuranceLaw" xlink:label="bd-asl_MessageTypeProfileIncomeTaxHealthInsuranceLaw_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_MessageTypeProfileIncomeTaxHealthInsuranceLaw_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2012" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_MisdemeanourPenalty" xlink:label="bd-asl_MisdemeanourPenalty_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_MisdemeanourPenalty_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2013" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_NewEstablishedBalanceToBePaidToBeReceived" xlink:label="bd-asl_NewEstablishedBalanceToBePaidToBeReceived_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_NewEstablishedBalanceToBePaidToBeReceived_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2014" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_NoticeOfAssessmentDate" xlink:label="bd-asl_NoticeOfAssessmentDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_NoticeOfAssessmentDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2015" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_NoticeOfAssessmentNumber" xlink:label="bd-asl_NoticeOfAssessmentNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_NoticeOfAssessmentNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2016" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_ObjectionDeadlineDate" xlink:label="bd-asl_ObjectionDeadlineDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_ObjectionDeadlineDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2017" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_ObjectionSatisfied" xlink:label="bd-asl_ObjectionSatisfied_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_ObjectionSatisfied_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2018" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_PeriodicCashBenefits" xlink:label="bd-asl_PeriodicCashBenefits_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_PeriodicCashBenefits_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2019" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_ProvisionalTaxAssessmentAmountNew" xlink:label="bd-asl_ProvisionalTaxAssessmentAmountNew_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_ProvisionalTaxAssessmentAmountNew_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2020" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_SettlementType" xlink:label="bd-asl_SettlementType_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_SettlementType_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2021" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAppropriation" xlink:label="bd-asl_TaxAppropriation_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAppropriation_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2022" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmountAfterUseDiscountBalance" xlink:label="bd-asl_TaxAssessmentAmountAfterUseDiscountBalance_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentAmountAfterUseDiscountBalance_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2023" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmountPreviously" xlink:label="bd-asl_TaxAssessmentAmountPreviously_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentAmountPreviously_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2024" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmountToBeReceivedToBePaidBalance" xlink:label="bd-asl_TaxAssessmentAmountToBeReceivedToBePaidBalance_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentAmountToBeReceivedToBePaidBalance_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2025" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmountWithInterest" xlink:label="bd-asl_TaxAssessmentAmountWithInterest_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentAmountWithInterest_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2026" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentAmountWithInterestPreviously" xlink:label="bd-asl_TaxAssessmentAmountWithInterestPreviously_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentAmountWithInterestPreviously_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2027" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentOfficialFinal" xlink:label="bd-asl_TaxAssessmentOfficialFinal_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentOfficialFinal_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2028" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentProvisionalCancellation" xlink:label="bd-asl_TaxAssessmentProvisionalCancellation_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentProvisionalCancellation_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2029" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentProvisionalCheck" xlink:label="bd-asl_TaxAssessmentProvisionalCheck_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentProvisionalCheck_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2030" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentProvisionalFirst" xlink:label="bd-asl_TaxAssessmentProvisionalFirst_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentProvisionalFirst_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2031" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentProvisionalManual" xlink:label="bd-asl_TaxAssessmentProvisionalManual_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentProvisionalManual_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2032" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxAssessmentProvisionalRequest" xlink:label="bd-asl_TaxAssessmentProvisionalRequest_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxAssessmentProvisionalRequest_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2033" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxConsultantNameAddress" xlink:label="bd-asl_TaxConsultantNameAddress_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxConsultantNameAddress_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2034" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxInterestCalculated" xlink:label="bd-asl_TaxInterestCalculated_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxInterestCalculated_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2035" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxInterestCharged" xlink:label="bd-asl_TaxInterestCharged_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxInterestCharged_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2036" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxInterestChargedReduction" xlink:label="bd-asl_TaxInterestChargedReduction_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxInterestChargedReduction_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2037" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxInterestCompensate" xlink:label="bd-asl_TaxInterestCompensate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxInterestCompensate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2038" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxInterestPreviouslyTaxAssessment" xlink:label="bd-asl_TaxInterestPreviouslyTaxAssessment_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxInterestPreviouslyTaxAssessment_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2039" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxpayerNameAddress" xlink:label="bd-asl_TaxpayerNameAddress_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxpayerNameAddress_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2040" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxpayerNameAddressPostalCode" xlink:label="bd-asl_TaxpayerNameAddressPostalCode_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxpayerNameAddressPostalCode_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2041" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-aanslag.xsd#bd-asl_TaxReturnCorrection" xlink:label="bd-asl_TaxReturnCorrection_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-asl_TaxReturnCorrection_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2042" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FiscalYear" xlink:label="bd-bedr_FiscalYear_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_FiscalYear_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2043" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TaxableProfit" xlink:label="bd-bedr_TaxableProfit_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-bedr_TaxableProfit_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2044" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_ProfitFisherman" xlink:label="bd-burg_ProfitFisherman_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_ProfitFisherman_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2045" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_ReceivedMaintenanceRelativesThisYearAndTwoThousandAndFive" xlink:label="bd-burg_ReceivedMaintenanceRelativesThisYearAndTwoThousandAndFive_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_ReceivedMaintenanceRelativesThisYearAndTwoThousandAndFive_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2046" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_WagesPartProfit" xlink:label="bd-burg_WagesPartProfit_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_WagesPartProfit_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2047" xlink:type="arc"/>
+    </link:definitionLink>
+</link:linkbase>

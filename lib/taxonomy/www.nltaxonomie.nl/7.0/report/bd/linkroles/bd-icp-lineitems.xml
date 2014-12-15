@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TC-PD" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-hd_cube-TC-PD" xlink:type="simple"/>
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple"/>
+    <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-hd_cube-TC-PD" xlink:type="extended">
+        <link:loc xlink:href="../lineitems/bd-primary-domains.xsd#bd-dim-pi_PrimaryItem" xlink:label="bd-dim-pi_PrimaryItem_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_DateTimeCreation" xlink:label="bd-alg_DateTimeCreation_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_DateTimeCreation_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1095" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_MessageReferenceSupplierICP" xlink:label="bd-alg_MessageReferenceSupplierICP_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_MessageReferenceSupplierICP_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1096" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_NameContactSupplier" xlink:label="bd-alg_NameContactSupplier_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_NameContactSupplier_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1097" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_PlaceOfResidenceNL" xlink:label="bd-alg_PlaceOfResidenceNL_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_PlaceOfResidenceNL_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1098" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_SoftwareSupplierCode" xlink:label="bd-alg_SoftwareSupplierCode_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_SoftwareSupplierCode_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1099" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TaxconsultantNumber" xlink:label="bd-alg_TaxconsultantNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_TaxconsultantNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1100" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TelephoneNumberContactSupplier" xlink:label="bd-alg_TelephoneNumberContactSupplier_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_TelephoneNumberContactSupplier_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1101" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_VersionApplication" xlink:label="bd-alg_VersionApplication_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_VersionApplication_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1102" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-omzetbelasting.xsd#bd-ob_CorrectionsServicesAmount" xlink:label="bd-ob_CorrectionsServicesAmount_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-ob_CorrectionsServicesAmount_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1103" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-omzetbelasting.xsd#bd-ob_CorrectionsSuppliesAmount" xlink:label="bd-ob_CorrectionsSuppliesAmount_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-ob_CorrectionsSuppliesAmount_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1104" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-omzetbelasting.xsd#bd-ob_CountryCodeISO-EC" xlink:label="bd-ob_CountryCodeISO-EC_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-ob_CountryCodeISO-EC_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1105" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-omzetbelasting.xsd#bd-ob_ServicesAmount" xlink:label="bd-ob_ServicesAmount_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-ob_ServicesAmount_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1106" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-omzetbelasting.xsd#bd-ob_SuppliesAmount" xlink:label="bd-ob_SuppliesAmount_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-ob_SuppliesAmount_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1107" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-omzetbelasting.xsd#bd-ob_VATIdentificationNumberNational" xlink:label="bd-ob_VATIdentificationNumberNational_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-ob_VATIdentificationNumberNational_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1108" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-omzetbelasting.xsd#bd-ob_VATIdentificationNumberNLFiscalEntityDivision" xlink:label="bd-ob_VATIdentificationNumberNLFiscalEntityDivision_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-ob_VATIdentificationNumberNLFiscalEntityDivision_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1109" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberAddition" xlink:label="nl-cd_HouseNumberAddition_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="nl-cd_HouseNumberAddition_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1110" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberNL" xlink:label="nl-cd_HouseNumberNL_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="nl-cd_HouseNumberNL_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1111" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PostalCodeNL" xlink:label="nl-cd_PostalCodeNL_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="nl-cd_PostalCodeNL_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1112" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StreetNameNL" xlink:label="nl-cd_StreetNameNL_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="nl-cd_StreetNameNL_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1113" xlink:type="arc"/>
+    </link:definitionLink>
+</link:linkbase>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple"/>
+	<link:definitionLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_StatusDomain" xlink:label="cbs-st_StatusDomain_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_DraftMember" xlink:label="cbs-st_DraftMember_loc"/>
+		<link:loc xlink:type="locator" xlink:href="../../../basis/cbs/domains/cbs-status.xsd#cbs-st_FinalMember" xlink:label="cbs-st_FinalMember_loc"/>
+		<link:definitionArc xlink:from="cbs-st_StatusDomain_loc" xlink:to="cbs-st_DraftMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1" xlink:type="arc"/>
+		<link:definitionArc xlink:from="cbs-st_StatusDomain_loc" xlink:to="cbs-st_FinalMember_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="2" xlink:type="arc"/>
+	</link:definitionLink>
+</link:linkbase>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd">
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label" xlink:type="simple"/>
+    <gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TC-PS" xlink:label="cube-TC-PS_loc" xlink:type="locator"/>
+        <label:label xlink:label="cube-TC-PS_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_cube-TC-PS_loc">Hypercube linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: SubsidiaryCompany</label:label>
+        <gen:arc xlink:from="cube-TC-PS_loc" xlink:to="cube-TC-PS_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TC-PC" xlink:label="cube-TC-PC_loc" xlink:type="locator"/>
+        <label:label xlink:label="cube-TC-PC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_cube-TC-PC_loc">Hypercube linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Company</label:label>
+        <gen:arc xlink:from="cube-TC-PC_loc" xlink:to="cube-TC-PC_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TC-PP" xlink:label="cube-TC-PP_loc" xlink:type="locator"/>
+        <label:label xlink:label="cube-TC-PP_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_cube-TC-PP_loc">Hypercube linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Partner</label:label>
+        <gen:arc xlink:from="cube-TC-PP_loc" xlink:to="cube-TC-PP_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TC-PD" xlink:label="cube-TC-PD_loc" xlink:type="locator"/>
+        <label:label xlink:label="cube-TC-PD_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_cube-TC-PD_loc">Hypercube linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Declarant</label:label>
+        <gen:arc xlink:from="cube-TC-PD_loc" xlink:to="cube-TC-PD_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TC-PDHS" xlink:label="cube-TC-PDHS_loc" xlink:type="locator"/>
+        <label:label xlink:label="cube-TC-PDHS_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_cube-TC-PDHS_loc">Hypercube linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Declarant HoldingCompany SubsidiaryCompany</label:label>
+        <gen:arc xlink:from="cube-TC-PDHS_loc" xlink:to="cube-TC-PDHS_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TC-PDP" xlink:label="cube-TC-PDP_loc" xlink:type="locator"/>
+        <label:label xlink:label="cube-TC-PDP_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_cube-TC-PDP_loc">Hypercube linkrole. Dimensie TimeDimension met domeinlid/leden: Current . Dimensie PartyDimension met domeinlid/leden: Declarant Partner</label:label>
+        <gen:arc xlink:from="cube-TC-PDP_loc" xlink:to="cube-TC-PDP_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TCP-PC" xlink:label="cube-TCP-PC_loc" xlink:type="locator"/>
+        <label:label xlink:label="cube-TCP-PC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_cube-TCP-PC_loc">Hypercube linkrole. Dimensie TimeDimension met domeinlid/leden: Current Previous . Dimensie PartyDimension met domeinlid/leden: Company</label:label>
+        <gen:arc xlink:from="cube-TCP-PC_loc" xlink:to="cube-TCP-PC_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TCP-PD" xlink:label="cube-TCP-PD_loc" xlink:type="locator"/>
+        <label:label xlink:label="cube-TCP-PD_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_cube-TCP-PD_loc">Hypercube linkrole. Dimensie TimeDimension met domeinlid/leden: Current Previous . Dimensie PartyDimension met domeinlid/leden: Declarant</label:label>
+        <gen:arc xlink:from="cube-TCP-PD_loc" xlink:to="cube-TCP-PD_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TCP-PDHS" xlink:label="cube-TCP-PDHS_loc" xlink:type="locator"/>
+        <label:label xlink:label="cube-TCP-PDHS_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" id="bd_nrt_cube-TCP-PDHS_loc">Hypercube linkrole. Dimensie TimeDimension met domeinlid/leden: Current Previous . Dimensie PartyDimension met domeinlid/leden: Declarant HoldingCompany SubsidiaryCompany</label:label>
+        <gen:arc xlink:from="cube-TCP-PDHS_loc" xlink:to="cube-TCP-PDHS_label_nl" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:type="arc"/>
+    </gen:link>
+</link:linkbase>

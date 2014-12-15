@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dtr:dtr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://xbrl.org/specification/2007" xmlns:dtr="http://www.xbrl.org/2009/dtr"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml" version="1.0"
+    xsi:schemaLocation="http://www.xbrl.org/2009/dtr http://www.xbrl.org/dtr/dtr.xsd">
+    <dtr:types>
+
+        <dtr:type>
+            <dtr:typeName> domainItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd#domainItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The domain member item type indicates that an element is
+                a domain member. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+        <dtr:type>
+            <dtr:typeName> escapedItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd#escapedItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> escapedItemType specializes string. There is no
+                constraint on whether the resulting unescaped content is well-formed or not; this
+                base type is exists so that processors know what to do with the content. It is a
+                suitable base type for a data type whose unescaped content must be valid HTML 4.0
+                (which is not XML). </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+        <dtr:type>
+            <dtr:typeName> xmlNodesItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd#xmlNodesItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> xmlNodesItemType specializes escapedItemType. The
+                unescaped content MUST be a sequence of XML text and well-formed XML nodes. This
+                content constraint cannot be captured by a finite length regular expression. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+        <dtr:type>
+            <dtr:typeName> xmlItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd#xmlItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> xmlItemType specializes xmlNodesItemType. The unescaped
+                content MUST be well formed XML. This is a suitable base type for the SEC EDGAR
+                “text block” item type which must conform to an EDGAR-specific XML Schema or DTD. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+        <dtr:type>
+            <dtr:typeName> percentItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#percentItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The percent item type is used to indicate that the value
+                of the element is intended to be presented as a percentage. This does not contravene
+                Specification section 4.8.2, which requires that percentages not be multiplied by
+                100. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+        <dtr:type>
+            <dtr:typeName> perShareItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#perShareItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The per share item type indicates a monetary amount
+                divided by a number of shares. The per share item type has a Decimal base. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+        <dtr:type>
+            <dtr:typeName> areaItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#areaItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The area item type is used to indicate that an element
+                represents an area. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+        <dtr:type>
+            <dtr:typeName> volumeItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#volumeItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The Volume item type is used to indicate that an element
+                represents a volume and can be used to express the volume of any substance, whether
+                solid, liquid, or gas. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+
+        <dtr:type>
+            <dtr:typeName> massItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#massItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The mass item type represents the mass of an object which
+                can be measured. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+        <dtr:type>
+            <dtr:typeName> weightItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#weightItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The weight item type represents the weight of an object
+                which can be measured. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+        <dtr:type>
+            <dtr:typeName> energyItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#energyItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The energy item type represents a unit of energy. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+        <dtr:type>
+            <dtr:typeName> powerItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#powerItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> Measures a rate of energy use or energy production and is
+                equivalent to the use or production of energy during a period of time. I.e. a watt
+                is the equal to one joule of energy per second. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+        <dtr:type>
+            <dtr:typeName> lengthItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#lengthItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The length item type is a measure of distance. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+        <dtr:type>
+            <dtr:typeName> memoryItemType </dtr:typeName>
+            <dtr:status> CR </dtr:status>
+            <dtr:versionDate> 2009-12-16 </dtr:versionDate>
+            <dtr:authoritativeHref> http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd#memoryItemType </dtr:authoritativeHref>
+            <dtr:requirement xml:lang="en"> Interoperable Taxonomy Architecture (ITA) initiative
+                requirement for alignment of the EDINET, IFRS and US GAAP taxonomies. </dtr:requirement>
+            <dtr:definition xml:lang="en"> The memory item type is a measure of memory typically
+                used in the IT industry. </dtr:definition>
+            <dtr:versionOfXBRL> 2.1 </dtr:versionOfXBRL>
+            <dtr:minimumEditionDate> 2003-12-31 </dtr:minimumEditionDate>
+            <dtr:impactsTaxonomyValidation> false </dtr:impactsTaxonomyValidation>
+            <dtr:impactsInstanceValidation> false </dtr:impactsInstanceValidation>
+        </dtr:type>
+
+    </dtr:types>
+</dtr:dtr>

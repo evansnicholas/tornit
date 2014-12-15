@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:kvk-i="http://www.nltaxonomie.nl/7.0/basis/kvk/items/kvk-data" xmlns:kvk-t="http://www.nltaxonomie.nl/7.0/domein/kvk/tuples/kvk-tuples" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nl-cd="http://www.nltaxonomie.nl/7.0/basis/sbr/items/nl-common-data" xmlns:xlink="http://www.w3.org/1999/xlink"  attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/7.0/domein/kvk/tuples/kvk-tuples">
+   <xs:annotation>
+     <xs:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-tuples-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-tuples-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-tuples-documentation-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-tuples-documentation-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-tuples-ref.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:type="simple"/>
+ 	  </xs:appinfo>
+   </xs:annotation>
+   <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+   <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+   <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/sbr/items/nl-common-data" schemaLocation="../../../basis/sbr/items/nl-common-data.xsd"/>
+   <xs:import namespace="http://www.nltaxonomie.nl/7.0/basis/kvk/items/kvk-data" schemaLocation="../../../basis/kvk/items/kvk-data.xsd"/>
+   <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/> 
+   <xs:element id="kvk-t_ContactForDocumentPresentation" name="ContactForDocumentPresentation" nillable="false" abstract="false" substitutionGroup="sbr:presentationTuple">
+      <xs:complexType>
+	    <xs:complexContent>
+		 <xs:extension base="sbr:placeholder">
+          <xs:sequence maxOccurs="1" minOccurs="1">
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ContactType"/>
+            <xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:FirstName"/> 
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:FamilyName"/>	
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:OrganisationName"/>
+            <xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:TelephoneNumber"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:EmailAddressFull"/>
+          </xs:sequence>
+		 </xs:extension>  
+        </xs:complexContent>		 
+      </xs:complexType>
+   </xs:element>  
+   <xs:element id="kvk-t_StatutoryAddressPresentation" name="StatutoryAddressPresentation" nillable="false" abstract="false" substitutionGroup="sbr:presentationTuple">
+      <xs:complexType>
+	    <xs:complexContent>
+		 <xs:extension base="sbr:placeholder">
+           <xs:sequence maxOccurs="1" minOccurs="1">
+             <xs:choice maxOccurs="1" minOccurs="1">
+				<xs:sequence maxOccurs="1" minOccurs="0">
+					<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:DescriptionLocationNL"/>
+					<xs:element maxOccurs="1" minOccurs="1" ref="nl-cd:StreetNameNL"/>
+					<xs:element maxOccurs="1" minOccurs="1" ref="nl-cd:HouseNumberNL"/>
+					<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:HouseNumberAddition"/>
+				</xs:sequence>
+				<xs:sequence maxOccurs="1" minOccurs="0">
+					<xs:element maxOccurs="1" minOccurs="1" ref="nl-cd:POBoxNumber"/>
+				</xs:sequence>
+			 </xs:choice>
+             <xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:PostalCodeNL"/>
+             <xs:element maxOccurs="1" minOccurs="1" ref="nl-cd:PlaceOfResidenceNL"/>
+             <xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:NameRegion"/>
+             <xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:CountryNameISO"/>
+           </xs:sequence>
+		  </xs:extension>  
+        </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+   <xs:element id="kvk-t_SignatureManagementReportSpecification" name="SignatureManagementReportSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	    <xs:complexContent>
+		 <xs:extension base="sbr:placeholder">
+           <xs:sequence maxOccurs="1" minOccurs="1">
+             <xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:FirstName"/>
+             <xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:FamilyName"/>
+			 <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:OrganisationName"/>
+           </xs:sequence>
+		  </xs:extension>  
+        </xs:complexContent>
+      </xs:complexType>
+	</xs:element>   
+    <xs:element id="kvk-t_LocationActualActivitiesAddressNLSpecification" name="LocationActualActivitiesAddressNLSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:DescriptionLocationNL"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:StreetNameNL"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:HouseNumberNL"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:HouseNumberAddition"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:POBoxNumber"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:PostalCodeNL"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:PlaceOfResidenceNL"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:NameRegion"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:CountryNameISO"/>
+		 </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+    </xs:element>  
+    <xs:element id="kvk-t_LocationActualActivitiesAddressAbroadSpecification" name="LocationActualActivitiesAddressAbroadSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:DescriptionLocationAbroad"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:StreetNameAbroad"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:HouseNumberAbroad"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:HouseNumberAddition"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:POBoxNumber"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:PostalCodeAbroad"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:PlaceOfResidenceAbroad"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:NameRegion"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:CountryNameISO"/>
+		 </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>    
+   <xs:element id="kvk-t_ConsolidatedInterestsSpecification" name="ConsolidatedInterestsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityName"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityLocation"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityInterestInShareCapital"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityInterestInVotingRights"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityReasonConsolidation"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityReasonUseDifferentAccountingPoliciesThanConsolidated"/>	
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+   <xs:element id="kvk-t_RelatedPartyTransactionsSpecification" name="RelatedPartyTransactionsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:RelatedPartyTransactionsType"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:RelatedPartyTransactionsNameRelatedParty"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:RelatedPartyTransactionsRelationshipWithRelatedParty"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:RelatedPartyTransactionsNatureAndExtentDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:RelatedPartyTransactionsOtherInformation"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>   
+  <xs:element id="kvk-t_DiscontinuedOperationsSpecification" name="DiscontinuedOperationsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:DiscontinuedOperationsEventType"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:DiscontinuedOperationsDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:DiscontinuedOperationsNatureAndExtentDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:DiscontinuedOperationsSegment"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>  
+   <xs:element id="kvk-t_MergersAcquisitionsSpecification" name="MergersAcquisitionsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:MergersAcquisitionsNameAcquiree"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:MergersAcquisitionsDescriptionAcquiree"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:MergersAcquisitionsMethodProcessing"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:MergersAcquisitionsDateAcquisition"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:MergersAcquisitionsDiscontinuedOperationsFollowingMergerAcquisition"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:MergersAcquisitionsPercentageVotingRightsAcquired"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:MergersAcquisitionsPurchasePriceDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:MergersAcquisitionsEstimateFairValueIdentifiableAssetsLiabilities"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:MergersAcquisitionsPoolingOfInterestsMethodAdditionalInformation"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>  
+    <xs:element id="kvk-t_ChangeAccountingPoliciesSpecification" name="ChangeAccountingPoliciesSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingPoliciesDescriptionOfDifferencesBetweenOldAndNewAccountingPolicies"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingPoliciesReasonsForChangeInAccountingPolicies"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingPoliciesMethodProcessingEffectsChange"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingPoliciesEffectOnEquityAndResults"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingPoliciesEffectOnIndividualLineItems"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingPoliciesEffectOnFuturePeriods"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingPoliciesReasonsWhyImpracticableToDetermineAdjustments"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>      
+   <xs:element id="kvk-t_ChangeAccountingEstimatesSpecification" name="ChangeAccountingEstimatesSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingEstimatesDescriptionOfDifferencesBetweenOldAndNewAccountingEstimates"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingEstimatesEffectOnCurrentPeriod"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingEstimatesEffectOnFuturePeriods"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ChangeAccountingEstimatesReasonsWhyImpracticableToDetermineAdjustments"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>  
+    <xs:element id="kvk-t_PriorPeriodErrorsSpecification" name="PriorPeriodErrorsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:PriorPeriodErrorsNatureAndExtentDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:PriorPeriodErrorsMethodOfCorrection"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:PriorPeriodErrorsExplanationReasonsNotCorrectedAndNatureIfCorrected"/>
+		 </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+    <xs:element id="kvk-t_FinancialInstrumentsPolicySpecification" name="FinancialInstrumentsPolicySpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:FinancialInstrumentsType"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:FinancialInstrumentsTypePolicy"/>
+		 </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>   
+   <xs:element id="kvk-t_IntangibleAssetsIndividualAssetOfImportanceSpecification" name="IntangibleAssetsIndividualAssetOfImportanceSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:IntangibleAssetsIndividualAssetOfImportanceDescription"/>
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:IntangibleAssetsIndividualAssetOfImportanceAmount"/>
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:IntangibleAssetsIndividualAssetOfImportanceRemainingLife"/>			
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+    <xs:element id="kvk-t_ParticipatingInterestsSpecification" name="ParticipatingInterestsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityName"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityLocation"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityInterestInShareCapital"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityInterestInVotingRights"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityReasonNonConsolidation"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityEquityLastFinancialStatements"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityResultsLastFinancialStatements"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityDateLastFinancialStatements"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityLiabilityDisclosure"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityAccumulatedLosses"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:EntityReasonDeviationNetAssetValue"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>  
+   <xs:element id="kvk-t_ConstructionContractsSpecification" name="ConstructionContractsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ConstructionContractsProjectDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ConstructionContractsAccumulatedProjectRevenues"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ConstructionContractsProgressBillings"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ConstructionContractsWithheldByClient"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ConstructionContractsCapitalisedExpensesServicesNotYetRendered"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ConstructionContracts"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ConstructionContractsClassification"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+     <xs:element id="kvk-t_LiabilitiesNoncurrentMaturitySpecification" name="LiabilitiesNoncurrentMaturitySpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesCategory"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesMaturityWithinOneYear"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesMaturityExceedingOneYearWithinFiveYears"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesMaturityExceedingFiveYears"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesMaturityDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesInterestRate"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesInterestRateDisclosure"/>
+		 </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>  
+     <xs:element id="kvk-t_LiabilitiesCurrentMaturitySpecification" name="LiabilitiesCurrentMaturitySpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesCategory"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesMaturityWithinOneYear"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesMaturityExceedingOneYearWithinFiveYears"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesMaturityExceedingFiveYears"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesMaturityDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesInterestRate"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesInterestRateDisclosure"/>
+		 </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>      
+    <xs:element id="kvk-t_LiabilitiesPledgedAsCollateralSpecification" name="LiabilitiesPledgedAsCollateralSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesCategory"/>
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesPledgedAsCollateralDescription"/>
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LiabilitiesPledgedAsCollateralAmount"/>			
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>	    
+   </xs:element>      
+   <xs:element id="kvk-t_FinancialInstrumentsDetailsSpecification" name="FinancialInstrumentsDetailsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:FinancialInstrumentsType"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:FinancialInstrumentsNatureAndExtentDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:FinancialInstrumentsContractualConditionsDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:FinancialInstrumentsBookValueDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:FinancialInstrumentsFairValueDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:FinancialInstrumentsDetailsOtherDescription"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>  
+   <xs:element id="kvk-t_ContingentLiabilitiesDetailsSpecification" name="ContingentLiabilitiesDetailsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ContingentLiabilitiesDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ContingentLiabilitiesFinancialImpact"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ContingentLiabilitiesMaturity"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+   <xs:element id="kvk-t_NetRevenueSegmentGeographicSpecification" name="NetRevenueSegmentGeographicSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:NetRevenueSegmentGeographicDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:NetRevenueSegmentGeographicAmount"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>      
+   <xs:element id="kvk-t_NetRevenueSegmentCategorySpecification" name="NetRevenueSegmentCategorySpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:NetRevenueSegmentCategoryDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:NetRevenueSegmentCategoryAmount"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>    
+  <xs:element id="kvk-t_ExtraordinaryItemsSpecification" name="ExtraordinaryItemsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ExtraordinaryItemsDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ExtraordinaryItemsNatureAndExtentDescription"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+    <xs:element id="kvk-t_ExceptionalItemsSpecification" name="ExceptionalItemsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ExceptionalItemsDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ExceptionalItemsFinancialImpact"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ExceptionalItemsLineItemsWhereIncluded"/>
+			</xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+   <xs:element id="kvk-t_LicensingAgreementsSpecification" name="LicensingAgreementsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LicensingAgreementsDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LicensingAgreementsConditions"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LicensingAgreementsNatureAndExtentDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LicensingAgreementsChangesAgreementsDuringPeriod"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+   <xs:element id="kvk-t_AverageNumberEmployeesSegmentSpecification" name="AverageNumberEmployeesSegmentSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:AverageNumberEmployeesSegmentDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:AverageNumberEmployeesSegment"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element> 
+   <xs:element id="kvk-t_ShareBasedPaymentsSpecification" name="ShareBasedPaymentsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ShareBasedPaymentsDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ShareBasedPaymentsConditions"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ShareBasedPaymentsAmount"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:ShareBasedPaymentsAmountIncludedWagesSalaries"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>  
+    <xs:element id="kvk-t_RemunerationManagingSupervisoryDirectorsSpecification" name="RemunerationManagingSupervisoryDirectorsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:RemunerationManagingSupervisoryDirectorsTypeRemuneration"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:RemunerationManagingDirectorsCurrentFormer"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:RemunerationSupervisoryDirectorsCurrentFormer"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:RemunerationManagingSupervisoryDirectors"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>  
+   <xs:element id="kvk-t_LoansAdvancesGuaranteesOnBehalfOfDirectorsSpecification" name="LoansAdvancesGuaranteesOnBehalfOfDirectorsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LoansAdvancesGuaranteesOnBehalfOfDirectorsTypeLoanAdvanceGuarantee"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LoansAdvancesGuaranteesOnBehalfOfDirectorsTypeDirector"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LoansAdvancesGuaranteesOnBehalfOfDirectorsOutstandingAmount"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LoansAdvancesGuaranteesOnBehalfOfDirectorsInterestRate"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LoansAdvancesGuaranteesOnBehalfOfDirectorsConditions"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:LoansAdvancesGuaranteesOnBehalfOfDirectorsRepayments"/>		
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>	
+    <xs:element id="kvk-t_SegmentReportingSegmentSpecification" name="SegmentReportingSegmentSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingSegmentDescription"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingAssets"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingLiabilities"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingAcquisitionsIntangibleAssets"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingAcquisitionsTangibleAssets"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingNetRevenueAttributableThirdParties"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingNetRevenueAttributableIntercompanySegmentsOther"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingNetRevenue"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingAmortisationIntangibleAssets"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingDepreciationTangibleAssets"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingImpairmentIntangibleAssets"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingImpairmentTangibleAssets"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingExtraordinaryIncome"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingExtraordinaryExpenses"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:SegmentReportingResultForTheYear"/>
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>      
+     <xs:element id="kvk-t_SignatureManagingSupervisoryDirectorsSpecification" name="SignatureManagingSupervisoryDirectorsSpecification" nillable="false" abstract="false" substitutionGroup="sbr:specificationTuple">
+      <xs:complexType>
+	   <xs:complexContent>
+		<xs:extension base="sbr:placeholder">
+         <xs:sequence maxOccurs="1" minOccurs="1">
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:DirectorType"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:FirstName"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="nl-cd:FamilyName"/>
+			<xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:OrganisationName"/>
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:DirectorSignedStatus"/>
+            <xs:element maxOccurs="1" minOccurs="0" ref="kvk-i:DirectorReasonNoSignature"/>			
+         </xs:sequence>
+		</xs:extension>  
+       </xs:complexContent>
+      </xs:complexType>
+   </xs:element>   
+</xs:schema>

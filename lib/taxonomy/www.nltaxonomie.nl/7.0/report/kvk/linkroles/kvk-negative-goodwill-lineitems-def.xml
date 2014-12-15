@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+	<link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/negative-goodwill-movement-schedule-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_NegativeGoodwillMovementScheduleTable" xlink:type="simple"/>
+  <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/negative-goodwill-movement-schedule-table" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_NegativeGoodwillMovementLineItems" xlink:label="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillGross" xlink:label="kvk-i_NegativeGoodwillGross_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillAccumulatedAmortisation" xlink:label="kvk-i_NegativeGoodwillAccumulatedAmortisation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwill" xlink:label="kvk-i_NegativeGoodwill_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillAdditions" xlink:label="kvk-i_NegativeGoodwillAdditions_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillAdjustmentsLaterIdentifiedAssetsLiabilities" xlink:label="kvk-i_NegativeGoodwillAdjustmentsLaterIdentifiedAssetsLiabilities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillDisposalsThroughBusinessDivestitures" xlink:label="kvk-i_NegativeGoodwillDisposalsThroughBusinessDivestitures_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillReleaseIncomeStatement" xlink:label="kvk-i_NegativeGoodwillReleaseIncomeStatement_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillReleaseIncomeStatementNotFutureRelated" xlink:label="kvk-i_NegativeGoodwillReleaseIncomeStatementNotFutureRelated_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillMovementsOther" xlink:label="kvk-i_NegativeGoodwillMovementsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillMovement" xlink:label="kvk-i_NegativeGoodwillMovement_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillEconomicLife" xlink:label="kvk-i_NegativeGoodwillEconomicLife_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillAmortisationRate" xlink:label="kvk-i_NegativeGoodwillAmortisationRate_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_NegativeGoodwillIncomeStatementLineItemWhereRecognised" xlink:label="kvk-i_NegativeGoodwillIncomeStatementLineItemWhereRecognised_loc" xlink:type="locator"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillGross_loc" order="1" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillAccumulatedAmortisation_loc" order="2" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwill_loc" order="3" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillAdditions_loc" order="4" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillAdjustmentsLaterIdentifiedAssetsLiabilities_loc" order="5" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillDisposalsThroughBusinessDivestitures_loc" order="6" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillReleaseIncomeStatement_loc" order="7" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillReleaseIncomeStatementNotFutureRelated_loc" order="8" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillMovementsOther_loc" order="9" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillMovement_loc" order="10" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillEconomicLife_loc" order="11" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillAmortisationRate_loc" order="12" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_NegativeGoodwillMovementLineItems_loc" xlink:to="kvk-i_NegativeGoodwillIncomeStatementLineItemWhereRecognised_loc" order="13" xlink:type="arc"/>
+  </link:definitionLink>
+</link:linkbase>

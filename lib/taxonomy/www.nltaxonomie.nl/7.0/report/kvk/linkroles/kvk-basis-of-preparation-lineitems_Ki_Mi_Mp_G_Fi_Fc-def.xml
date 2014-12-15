@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+   <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_BasisOfPreparationTable" xlink:type="simple"/>
+   <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:type="extended">
+		<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_BasisOfPreparationLineItems" xlink:label="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_OperatingResultPolicy" xlink:label="kvk-i_OperatingResultPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PensionCostsPolicy" xlink:label="kvk-i_PensionCostsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RevaluationReserveReleasePolicy" xlink:label="kvk-i_RevaluationReserveReleasePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ChangesInValueIntangibleTangibleAssetsPolicy" xlink:label="nl-gen_ChangesInValueIntangibleTangibleAssetsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ChangesValueReceivablesNoncurrentSecuritiesPolicy" xlink:label="nl-gen_ChangesValueReceivablesNoncurrentSecuritiesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_DepreciationTangibleAssetsAmortisationIntangibleAssetsPolicy" xlink:label="nl-gen_DepreciationTangibleAssetsAmortisationIntangibleAssetsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ExtraordinaryExpensesPolicy" xlink:label="nl-gen_ExtraordinaryExpensesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ExtraordinaryIncomePolicy" xlink:label="nl-gen_ExtraordinaryIncomePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ImpairmentCurrentAssetsPolicy" xlink:label="nl-gen_ImpairmentCurrentAssetsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IncomeReceivablesNoncurrentSecuritiesPolicy" xlink:label="nl-gen_IncomeReceivablesNoncurrentSecuritiesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IncomeTaxExpenseExtraordinaryItemsPolicy" xlink:label="nl-gen_IncomeTaxExpenseExtraordinaryItemsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_InterestExpensesRelatedExpensesPolicy" xlink:label="nl-gen_InterestExpensesRelatedExpensesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_InterestIncomeRelatedIncomePolicy" xlink:label="nl-gen_InterestIncomeRelatedIncomePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_NetResultAfterTaxPolicy" xlink:label="nl-gen_NetResultAfterTaxPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_NetRevenuePolicy" xlink:label="nl-gen_NetRevenuePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_OperatingExpensesOtherPolicy" xlink:label="nl-gen_OperatingExpensesOtherPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_OperatingIncomeOtherPolicy" xlink:label="nl-gen_OperatingIncomeOtherPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAfterTaxExtraordinaryItemsPolicy" xlink:label="nl-gen_ResultAfterTaxExtraordinaryItemsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAfterTaxOrdinaryActivitiesPolicy" xlink:label="nl-gen_ResultAfterTaxOrdinaryActivitiesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAfterTaxPolicy" xlink:label="nl-gen_ResultAfterTaxPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultAttributableNoncontrollingInterestPolicy" xlink:label="nl-gen_ResultAttributableNoncontrollingInterestPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultBeforeTaxOrdinaryActivitiesPolicy" xlink:label="nl-gen_ResultBeforeTaxOrdinaryActivitiesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ShareInResultsParticipatingInterestsPolicy" xlink:label="nl-gen_ShareInResultsParticipatingInterestsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SocialSecurityContributionsPolicy" xlink:label="nl-gen_SocialSecurityContributionsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_WagesSalariesPolicy" xlink:label="nl-gen_WagesSalariesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EmployeeBenefitsExpensesPolicy" xlink:label="kvk-i_EmployeeBenefitsExpensesPolicy_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_OperatingResultPolicy_loc" order="132" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_PensionCostsPolicy_loc" order="133" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_RevaluationReserveReleasePolicy_loc" order="134" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ChangesInValueIntangibleTangibleAssetsPolicy_loc" order="135" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ChangesValueReceivablesNoncurrentSecuritiesPolicy_loc" order="136" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_DepreciationTangibleAssetsAmortisationIntangibleAssetsPolicy_loc" order="137" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ExtraordinaryExpensesPolicy_loc" order="138" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ExtraordinaryIncomePolicy_loc" order="139" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ImpairmentCurrentAssetsPolicy_loc" order="140" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_IncomeReceivablesNoncurrentSecuritiesPolicy_loc" order="141" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_IncomeTaxExpenseExtraordinaryItemsPolicy_loc" order="142" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_InterestExpensesRelatedExpensesPolicy_loc" order="143" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_InterestIncomeRelatedIncomePolicy_loc" order="144" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_NetResultAfterTaxPolicy_loc" order="145" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_NetRevenuePolicy_loc" order="146" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_OperatingExpensesOtherPolicy_loc" order="147" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_OperatingIncomeOtherPolicy_loc" order="148" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ResultAfterTaxExtraordinaryItemsPolicy_loc" order="149" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ResultAfterTaxOrdinaryActivitiesPolicy_loc" order="150" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ResultAfterTaxPolicy_loc" order="151" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ResultAttributableNoncontrollingInterestPolicy_loc" order="152" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ResultBeforeTaxOrdinaryActivitiesPolicy_loc" order="153" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_ShareInResultsParticipatingInterestsPolicy_loc" order="154" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_SocialSecurityContributionsPolicy_loc" order="155" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_WagesSalariesPolicy_loc" order="156" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_EmployeeBenefitsExpensesPolicy_loc" order="157" xlink:type="arc"/>
+	</link:definitionLink>		
+</link:linkbase>

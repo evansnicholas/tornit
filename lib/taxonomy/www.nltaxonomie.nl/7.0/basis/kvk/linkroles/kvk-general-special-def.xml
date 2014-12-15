@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:definitionLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FinancialFixedAssetsOtherFiscal" xlink:label="bd-bedr_FinancialFixedAssetsOtherFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TaxReservesOtherFiscal" xlink:label="bd-bedr_TaxReservesOtherFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SubjectToTaxElsewhereTotalAmount" xlink:label="bd-bedr_SubjectToTaxElsewhereTotalAmount_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_IntangibleFixedAssetsOtherFiscal" xlink:label="bd-bedr_IntangibleFixedAssetsOtherFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BuildingsForInvestmentPurposesFiscal" xlink:label="bd-bedr_BuildingsForInvestmentPurposesFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_RetainedProfitsFiscal" xlink:label="bd-bedr_RetainedProfitsFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ReinvestmentReserveFiscal" xlink:label="bd-bedr_ReinvestmentReserveFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_DateCreation" xlink:label="bd-alg_DateCreation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_FinancialYearEnd" xlink:label="bd-alg_FinancialYearEnd_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_SurnameSignificantPart" xlink:label="bd-alg_SurnameSignificantPart_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_HouseNumberAbroad" xlink:label="bd-alg_HouseNumberAbroad_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_HouseNumberAddition" xlink:label="bd-alg_HouseNumberAddition_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_HouseNumberNL" xlink:label="bd-alg_HouseNumberNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_Initials" xlink:label="bd-alg_Initials_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_PlaceOfResidenceAbroad" xlink:label="bd-alg_PlaceOfResidenceAbroad_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_PlaceOfResidenceNL" xlink:label="bd-alg_PlaceOfResidenceNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_Prefix" xlink:label="bd-alg_Prefix_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_FinancialYearStart" xlink:label="bd-alg_FinancialYearStart_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_StreetNameAbroad" xlink:label="bd-alg_StreetNameAbroad_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_StreetNameNL" xlink:label="bd-alg_StreetNameNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TelephoneNumber" xlink:label="bd-alg_TelephoneNumber_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_AssetsTotalAmountFiscal" xlink:label="bd-bedr_AssetsTotalAmountFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BalanceSheetAssetsDescription" xlink:label="bd-bedr_BalanceSheetAssetsDescription_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CapitalizedProductionOwnBusinessFiscal" xlink:label="bd-bedr_CapitalizedProductionOwnBusinessFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LiquidAssetsTotalFiscal" xlink:label="bd-bedr_LiquidAssetsTotalFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_StockAndWorkInProgressChangeFiscal" xlink:label="bd-bedr_StockAndWorkInProgressChangeFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ConvertibleLoansFiscal" xlink:label="bd-bedr_ConvertibleLoansFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_OutsourcedWorkCostsAndOtherExternalCostsFiscal" xlink:label="bd-bedr_OutsourcedWorkCostsAndOtherExternalCostsFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_RawAncillaryMaterialsPurchasePriceSalesFiscal" xlink:label="bd-bedr_RawAncillaryMaterialsPurchasePriceSalesFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_EquityCapitalBusinessAssetsTotalFiscal" xlink:label="bd-bedr_EquityCapitalBusinessAssetsTotalFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FinancialFixedAssetsTotalFiscal" xlink:label="bd-bedr_FinancialFixedAssetsTotalFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_GoodwillFiscal" xlink:label="bd-bedr_GoodwillFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CurrentAssetsSpecialValuationDecreaseAmount" xlink:label="bd-bedr_CurrentAssetsSpecialValuationDecreaseAmount_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_IntangibleFixedAssetsTotalFiscal" xlink:label="bd-bedr_IntangibleFixedAssetsTotalFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_StockTotalFiscal" xlink:label="bd-bedr_StockTotalFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ShortTermDebtsTotal" xlink:label="bd-bedr_ShortTermDebtsTotal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LongTermDebtsTotal" xlink:label="bd-bedr_LongTermDebtsTotal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_MachineryFiscal" xlink:label="bd-bedr_MachineryFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TurnoverNetFiscal" xlink:label="bd-bedr_TurnoverNetFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BusinessExpenditureFiscalTotal" xlink:label="bd-bedr_BusinessExpenditureFiscalTotal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_BusinessRevenuesFiscalTotal" xlink:label="bd-bedr_BusinessRevenuesFiscalTotal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_PayablesCreditInstitutionFiscal" xlink:label="bd-bedr_PayablesCreditInstitutionFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ShortTermDebtsGroupCompanies" xlink:label="bd-bedr_ShortTermDebtsGroupCompanies_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LongTermDebtsGroupCompanies" xlink:label="bd-bedr_LongTermDebtsGroupCompanies_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ShortTermDebtsOther" xlink:label="bd-bedr_ShortTermDebtsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LongTermDebtsOther" xlink:label="bd-bedr_LongTermDebtsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ShortTermDebtsParticipatingInterestCompanies" xlink:label="bd-bedr_ShortTermDebtsParticipatingInterestCompanies_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LongTermDebtsParticipatingInterestCompanies" xlink:label="bd-bedr_LongTermDebtsParticipatingInterestCompanies_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_PensionCostsFiscal" xlink:label="bd-bedr_PensionCostsFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TangibleFixedAssetsFiscalTotal" xlink:label="bd-bedr_TangibleFixedAssetsFiscalTotal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ProvisionsTotalFiscal" xlink:label="bd-bedr_ProvisionsTotalFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ProvisionsOtherFiscal" xlink:label="bd-bedr_ProvisionsOtherFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ReceivablesTotalFiscal" xlink:label="bd-bedr_ReceivablesTotalFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ShortTermReceivablesGroupCompaniesFiscal" xlink:label="bd-bedr_ShortTermReceivablesGroupCompaniesFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LongTermReceivablesGroupCompaniesFiscal" xlink:label="bd-bedr_LongTermReceivablesGroupCompaniesFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ShortTermReceivablesParticipatingInterestCompaniesFiscal" xlink:label="bd-bedr_ShortTermReceivablesParticipatingInterestCompaniesFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LongTermReceivablesParticipatingInterestCompaniesFiscal" xlink:label="bd-bedr_LongTermReceivablesParticipatingInterestCompaniesFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_NormalBusinessActivitiesBusinessResultTotalFiscal" xlink:label="bd-bedr_NormalBusinessActivitiesBusinessResultTotalFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SecuritiesFiscal" xlink:label="bd-bedr_SecuritiesFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_PaidCalledUpCapitalFiscal" xlink:label="bd-bedr_PaidCalledUpCapitalFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SharePremiumFiscal" xlink:label="bd-bedr_SharePremiumFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SocialSecurityCostsFiscal" xlink:label="bd-bedr_SocialSecurityCostsFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FixedAssetsOtherFiscal" xlink:label="bd-bedr_FixedAssetsOtherFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TradePayablesFiscal" xlink:label="bd-bedr_TradePayablesFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TradeAccountsReceivableFiscal" xlink:label="bd-bedr_TradeAccountsReceivableFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_WagesSalariesFiscal" xlink:label="bd-bedr_WagesSalariesFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_WorkInProgressFiscal" xlink:label="bd-bedr_WorkInProgressFiscal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsOther" xlink:label="kvk-i_FinancialAssetsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FiscalReservesOther" xlink:label="kvk-i_FiscalReservesOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxExpenseDeductionSubjectToTaxElsewhereDisclosure" xlink:label="kvk-i_IncomeTaxExpenseDeductionSubjectToTaxElsewhereDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IntangibleAssetsOther" xlink:label="kvk-i_IntangibleAssetsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_InvestmentProperty" xlink:label="kvk-i_InvestmentProperty_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ReinvestmentReserve" xlink:label="kvk-i_ReinvestmentReserve_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_DocumentCreationDate" xlink:label="nl-cd_DocumentCreationDate_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_EndDateForFinancialPeriod" xlink:label="nl-cd_EndDateForFinancialPeriod_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_FamilyName" xlink:label="nl-cd_FamilyName_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberAbroad" xlink:label="nl-cd_HouseNumberAbroad_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberAddition" xlink:label="nl-cd_HouseNumberAddition_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberNL" xlink:label="nl-cd_HouseNumberNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_Initials" xlink:label="nl-cd_Initials_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PlaceOfResidenceAbroad" xlink:label="nl-cd_PlaceOfResidenceAbroad_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PlaceOfResidenceNL" xlink:label="nl-cd_PlaceOfResidenceNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_Prefix" xlink:label="nl-cd_Prefix_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StartDateForFinancialPeriod" xlink:label="nl-cd_StartDateForFinancialPeriod_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StreetNameAbroad" xlink:label="nl-cd_StreetNameAbroad_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StreetNameNL" xlink:label="nl-cd_StreetNameNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_TelephoneNumber" xlink:label="nl-cd_TelephoneNumber_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Assets" xlink:label="nl-gen_Assets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_AssetsDisclosure" xlink:label="nl-gen_AssetsDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CapitalisedProductionCosts" xlink:label="nl-gen_CapitalisedProductionCosts_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CashAndCashEquivalents" xlink:label="nl-gen_CashAndCashEquivalents_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ChangesInventoriesWorkInProgress" xlink:label="nl-gen_ChangesInventoriesWorkInProgress_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ConvertibleBorrowingsNoncurrent" xlink:label="nl-gen_ConvertibleBorrowingsNoncurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CostsOutsourcedWorkOtherExternalExpenses" xlink:label="nl-gen_CostsOutsourcedWorkOtherExternalExpenses_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_CostsRawMaterialsConsumables" xlink:label="nl-gen_CostsRawMaterialsConsumables_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Equity" xlink:label="nl-gen_Equity_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_FinancialAssets" xlink:label="nl-gen_FinancialAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Goodwill" xlink:label="nl-gen_Goodwill_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ImpairmentCurrentAssets" xlink:label="nl-gen_ImpairmentCurrentAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_IntangibleAssets" xlink:label="nl-gen_IntangibleAssets_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Inventories" xlink:label="nl-gen_Inventories_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LiabilitiesCurrent" xlink:label="nl-gen_LiabilitiesCurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_LiabilitiesNoncurrent" xlink:label="nl-gen_LiabilitiesNoncurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Machinery" xlink:label="nl-gen_Machinery_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_NetRevenue" xlink:label="nl-gen_NetRevenue_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_OperatingExpenses" xlink:label="nl-gen_OperatingExpenses_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_OperatingIncome" xlink:label="nl-gen_OperatingIncome_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesCreditInstitutionsNoncurrent" xlink:label="nl-gen_PayablesCreditInstitutionsNoncurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesGroupCompaniesCurrent" xlink:label="nl-gen_PayablesGroupCompaniesCurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesGroupCompaniesNoncurrent" xlink:label="nl-gen_PayablesGroupCompaniesNoncurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesOtherCurrent" xlink:label="nl-gen_PayablesOtherCurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesOtherNoncurrent" xlink:label="nl-gen_PayablesOtherNoncurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesShareholdersParticipatingInterestsCurrent" xlink:label="nl-gen_PayablesShareholdersParticipatingInterestsCurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PayablesShareholdersParticipatingInterestsNoncurrent" xlink:label="nl-gen_PayablesShareholdersParticipatingInterestsNoncurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PensionCosts" xlink:label="kvk-i_PensionCosts_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_PropertyPlantEquipment" xlink:label="nl-gen_PropertyPlantEquipment_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Provisions" xlink:label="nl-gen_Provisions_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ProvisionsOther" xlink:label="nl-gen_ProvisionsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Receivables" xlink:label="nl-gen_Receivables_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesGroupCompaniesCurrent" xlink:label="nl-gen_ReceivablesGroupCompaniesCurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesGroupCompaniesNoncurrent" xlink:label="nl-gen_ReceivablesGroupCompaniesNoncurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesShareholdersParticipatingInterestsCurrent" xlink:label="nl-gen_ReceivablesShareholdersParticipatingInterestsCurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ReceivablesShareholdersParticipatingInterestsNoncurrent" xlink:label="nl-gen_ReceivablesShareholdersParticipatingInterestsNoncurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ResultBeforeTaxOrdinaryActivities" xlink:label="nl-gen_ResultBeforeTaxOrdinaryActivities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_RetainedEarnings" xlink:label="nl-gen_RetainedEarnings_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_Securities" xlink:label="nl-gen_Securities_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_ShareCapital" xlink:label="nl-gen_ShareCapital_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SharePremium" xlink:label="nl-gen_SharePremium_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_SocialSecurityContributions" xlink:label="nl-gen_SocialSecurityContributions_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_TangibleAssetsOther" xlink:label="nl-gen_TangibleAssetsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_TradePayablesCurrent" xlink:label="nl-gen_TradePayablesCurrent_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_TradeReceivables" xlink:label="nl-gen_TradeReceivables_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_WagesSalaries" xlink:label="nl-gen_WagesSalaries_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_WorkInProgress" xlink:label="nl-gen_WorkInProgress_loc" xlink:type="locator"/>
+	<link:definitionArc xlink:type="arc" xlink:from="kvk-i_FinancialAssetsOther_loc" xlink:to="bd-bedr_FinancialFixedAssetsOtherFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="kvk-i_FiscalReservesOther_loc" xlink:to="bd-bedr_TaxReservesOtherFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="kvk-i_IncomeTaxExpenseDeductionSubjectToTaxElsewhereDisclosure_loc" xlink:to="bd-bedr_SubjectToTaxElsewhereTotalAmount_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="kvk-i_IntangibleAssetsOther_loc" xlink:to="bd-bedr_IntangibleFixedAssetsOtherFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="kvk-i_InvestmentProperty_loc" xlink:to="bd-bedr_BuildingsForInvestmentPurposesFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_RetainedEarnings_loc" xlink:to="bd-bedr_RetainedProfitsFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="kvk-i_ReinvestmentReserve_loc" xlink:to="bd-bedr_ReinvestmentReserveFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_DocumentCreationDate_loc" xlink:to="bd-alg_DateCreation_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_EndDateForFinancialPeriod_loc" xlink:to="bd-alg_FinancialYearEnd_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_FamilyName_loc" xlink:to="bd-alg_SurnameSignificantPart_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_HouseNumberAbroad_loc" xlink:to="bd-alg_HouseNumberAbroad_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_HouseNumberAddition_loc" xlink:to="bd-alg_HouseNumberAddition_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_HouseNumberNL_loc" xlink:to="bd-alg_HouseNumberNL_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_Initials_loc" xlink:to="bd-alg_Initials_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_PlaceOfResidenceAbroad_loc" xlink:to="bd-alg_PlaceOfResidenceAbroad_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_PlaceOfResidenceNL_loc" xlink:to="bd-alg_PlaceOfResidenceNL_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_Prefix_loc" xlink:to="bd-alg_Prefix_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_StartDateForFinancialPeriod_loc" xlink:to="bd-alg_FinancialYearStart_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_StreetNameAbroad_loc" xlink:to="bd-alg_StreetNameAbroad_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_StreetNameNL_loc" xlink:to="bd-alg_StreetNameNL_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-cd_TelephoneNumber_loc" xlink:to="bd-alg_TelephoneNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_Assets_loc" xlink:to="bd-bedr_AssetsTotalAmountFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_AssetsDisclosure_loc" xlink:to="bd-bedr_BalanceSheetAssetsDescription_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_CapitalisedProductionCosts_loc" xlink:to="bd-bedr_CapitalizedProductionOwnBusinessFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_CashAndCashEquivalents_loc" xlink:to="bd-bedr_LiquidAssetsTotalFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ChangesInventoriesWorkInProgress_loc" xlink:to="bd-bedr_StockAndWorkInProgressChangeFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ConvertibleBorrowingsNoncurrent_loc" xlink:to="bd-bedr_ConvertibleLoansFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_CostsOutsourcedWorkOtherExternalExpenses_loc" xlink:to="bd-bedr_OutsourcedWorkCostsAndOtherExternalCostsFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_CostsRawMaterialsConsumables_loc" xlink:to="bd-bedr_RawAncillaryMaterialsPurchasePriceSalesFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_Equity_loc" xlink:to="bd-bedr_EquityCapitalBusinessAssetsTotalFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_FinancialAssets_loc" xlink:to="bd-bedr_FinancialFixedAssetsTotalFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_Goodwill_loc" xlink:to="bd-bedr_GoodwillFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ImpairmentCurrentAssets_loc" xlink:to="bd-bedr_CurrentAssetsSpecialValuationDecreaseAmount_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_IntangibleAssets_loc" xlink:to="bd-bedr_IntangibleFixedAssetsTotalFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_Inventories_loc" xlink:to="bd-bedr_StockTotalFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_LiabilitiesCurrent_loc" xlink:to="bd-bedr_ShortTermDebtsTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_LiabilitiesNoncurrent_loc" xlink:to="bd-bedr_LongTermDebtsTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_Machinery_loc" xlink:to="bd-bedr_MachineryFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_NetRevenue_loc" xlink:to="bd-bedr_TurnoverNetFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_OperatingExpenses_loc" xlink:to="bd-bedr_BusinessExpenditureFiscalTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_OperatingIncome_loc" xlink:to="bd-bedr_BusinessRevenuesFiscalTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_PayablesCreditInstitutionsNoncurrent_loc" xlink:to="bd-bedr_PayablesCreditInstitutionFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_PayablesGroupCompaniesCurrent_loc" xlink:to="bd-bedr_ShortTermDebtsGroupCompanies_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_PayablesGroupCompaniesNoncurrent_loc" xlink:to="bd-bedr_LongTermDebtsGroupCompanies_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_PayablesOtherCurrent_loc" xlink:to="bd-bedr_ShortTermDebtsOther_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_PayablesOtherNoncurrent_loc" xlink:to="bd-bedr_LongTermDebtsOther_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_PayablesShareholdersParticipatingInterestsCurrent_loc" xlink:to="bd-bedr_ShortTermDebtsParticipatingInterestCompanies_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_PayablesShareholdersParticipatingInterestsNoncurrent_loc" xlink:to="bd-bedr_LongTermDebtsParticipatingInterestCompanies_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="kvk-i_PensionCosts_loc" xlink:to="bd-bedr_PensionCostsFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_PropertyPlantEquipment_loc" xlink:to="bd-bedr_TangibleFixedAssetsFiscalTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_Provisions_loc" xlink:to="bd-bedr_ProvisionsTotalFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ProvisionsOther_loc" xlink:to="bd-bedr_ProvisionsOtherFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_Receivables_loc" xlink:to="bd-bedr_ReceivablesTotalFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ReceivablesGroupCompaniesCurrent_loc" xlink:to="bd-bedr_ShortTermReceivablesGroupCompaniesFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ReceivablesGroupCompaniesNoncurrent_loc" xlink:to="bd-bedr_LongTermReceivablesGroupCompaniesFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ReceivablesShareholdersParticipatingInterestsCurrent_loc" xlink:to="bd-bedr_ShortTermReceivablesParticipatingInterestCompaniesFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ReceivablesShareholdersParticipatingInterestsNoncurrent_loc" xlink:to="bd-bedr_LongTermReceivablesParticipatingInterestCompaniesFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ResultBeforeTaxOrdinaryActivities_loc" xlink:to="bd-bedr_NormalBusinessActivitiesBusinessResultTotalFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_Securities_loc" xlink:to="bd-bedr_SecuritiesFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_ShareCapital_loc" xlink:to="bd-bedr_PaidCalledUpCapitalFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_SharePremium_loc" xlink:to="bd-bedr_SharePremiumFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_SocialSecurityContributions_loc" xlink:to="bd-bedr_SocialSecurityCostsFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_TangibleAssetsOther_loc" xlink:to="bd-bedr_FixedAssetsOtherFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_TradePayablesCurrent_loc" xlink:to="bd-bedr_TradePayablesFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_TradeReceivables_loc" xlink:to="bd-bedr_TradeAccountsReceivableFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_WagesSalaries_loc" xlink:to="bd-bedr_WagesSalariesFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+	<link:definitionArc xlink:type="arc" xlink:from="nl-gen_WorkInProgress_loc" xlink:to="bd-bedr_WorkInProgressFiscal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/general-special"/>
+  </link:definitionLink>
+</link:linkbase>

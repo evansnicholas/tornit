@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/7.0/report/bd/abstracts/bd-asl-abstracts" xmlns:bd-asl-abstr="http://www.nltaxonomie.nl/7.0/report/bd/abstracts/bd-asl-abstracts" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:annotation>
+        <xs:appinfo>
+            <link:linkbaseRef xlink:href="./bd-asl-abstracts-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/>
+    <xs:element id="bd-asl-abstr_CalculationCorporationTaxTitle" name="CalculationCorporationTaxTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_CalculationHealthInsuranceLawTitle" name="CalculationHealthInsuranceLawTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_CalculationHealthInsuranceTaxAssessmentTitle" name="CalculationHealthInsuranceTaxAssessmentTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_CalculationSectionIncomeTaxAndSocialInsuranceTitle" name="CalculationSectionIncomeTaxAndSocialInsuranceTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_CorporationTaxSpecificationsTitle" name="CorporationTaxSpecificationsTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_FunctionalCurrencyOrderTitle" name="FunctionalCurrencyOrderTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_HealthInsuranceContributionIncomeTitle" name="HealthInsuranceContributionIncomeTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_IncomeEmploymentOwnerOccupiedHouseTitle" name="IncomeEmploymentOwnerOccupiedHouseTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_IncomePresentEmploymentTitle" name="IncomePresentEmploymentTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_IncomePreviousEmploymentTitle" name="IncomePreviousEmploymentTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_IncomeTaxBox1Title" name="IncomeTaxBox1Title" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_IncomeTaxBox2Title" name="IncomeTaxBox2Title" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_IncomeTaxBox3Title" name="IncomeTaxBox3Title" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_LossSettledBox1Title" name="LossSettledBox1Title" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_LossSettledBox2Title" name="LossSettledBox2Title" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_LossSettledCorporationTaxTitle" name="LossSettledCorporationTaxTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_OwnerOccupiedHouseMainResidenceTitle" name="OwnerOccupiedHouseMainResidenceTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_PersonDependentRemainderDeductionSettlementTitle" name="PersonDependentRemainderDeductionSettlementTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_ServiceMessageCorporationTaxTitle" name="ServiceMessageCorporationTaxTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_ServiceMessageHealthInsuranceLawTitle" name="ServiceMessageHealthInsuranceLawTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_ServiceMessageSectionIncomeTaxAndSocialInsuranceTitle" name="ServiceMessageSectionIncomeTaxAndSocialInsuranceTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_SetoffDeductionAndWithholdingTaxTitle" name="SetoffDeductionAndWithholdingTaxTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_SocialInsuranceContributionSubstituteTaxConscientiousObjectionTitle" name="SocialInsuranceContributionSubstituteTaxConscientiousObjectionTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxAmountBracketRateTitle" name="TaxAmountBracketRateTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxAmountOtherRate1Box1Title" name="TaxAmountOtherRate1Box1Title" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxAssessmentAmountTitle" name="TaxAssessmentAmountTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxationElementProfitTitle" name="TaxationElementProfitTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxationElementsIncomeEmploymentOwnerOccupiedHouseExclusiveOfProfitTitle" name="TaxationElementsIncomeEmploymentOwnerOccupiedHouseExclusiveOfProfitTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxationElementsSavingAndInvestmentIncomeTitle" name="TaxationElementsSavingAndInvestmentIncomeTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxationElementsSubstantialInterestTitle" name="TaxationElementsSubstantialInterestTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxationElementsTaxCreditTitle" name="TaxationElementsTaxCreditTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxBox2FixedRateOtherRateTitle" name="TaxBox2FixedRateOtherRateTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxCreditLossSubstantialInterestTitle" name="TaxCreditLossSubstantialInterestTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-asl-abstr_TaxCreditsPaymentTitle" name="TaxCreditsPaymentTitle" type="xbrli:stringItemType" substitutionGroup="sbr:presentationItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+</xs:schema>

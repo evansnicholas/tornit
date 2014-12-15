@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd">
+    <link:arcroleRef xlink:href="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-arcroles.xsd#sbr_linkrole-order" arcroleURI="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd#linkrole-info" roleURI="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="simple"/>
+    <gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Contact-information" xlink:label="cbs-lr_Contact-Information_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Investments" xlink:label="cbs-lr_Investments_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-industry" xlink:label="cbs-lr_Production-Statistic-Industry_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-health" xlink:label="cbs-lr_Production-Statistic-Health_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-construction" xlink:label="cbs-lr_Production-Statistic-Construction_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-other" xlink:label="cbs-lr_Production-Statistic-Other_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_productionstatistic-commerce" xlink:label="cbs-lr_Production-Statistic-Commerce_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Shortterm-Statistics-Industry" xlink:label="cbs-lr_Shortterm-Statistics-Industry_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Shortterm-Statistics-Construction" xlink:label="cbs-lr_Shortterm-Statistics-Construction_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Shortterm-Statistics-Commerce" xlink:label="cbs-lr_Shortterm-Statistics-Commerce_loc"/>
+		<link:loc xlink:type="locator" xlink:href="cbs-linkroles.xsd#cbs-lr_Shortterm-Statistics-Other" xlink:label="cbs-lr_Shortterm-Statistics-Other_loc"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Contact-Information_loc" xlink:to="cbs-lr_Contact-Information_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Investments_loc" xlink:to="cbs-lr_Investments_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Production-Statistic-Industry_loc" xlink:to="cbs-lr_Production-Statistic-Industry_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Production-Statistic-Health_loc" xlink:to="cbs-lr_Production-Statistic-Health_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Production-Statistic-Construction_loc" xlink:to="cbs-lr_Production-Statistic-Construction_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Production-Statistic-Other_loc" xlink:to="cbs-lr_Production-Statistic-Other_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Production-Statistic-Commerce_loc" xlink:to="cbs-lr_Production-Statistic-Commerce_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Shortterm-Statistics-Industry_loc" xlink:to="cbs-lr_Shortterm-Statistics-Industry_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Shortterm-Statistics-Construction_loc" xlink:to="cbs-lr_Shortterm-Statistics-Construction_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Shortterm-Statistics-Commerce_loc" xlink:to="cbs-lr_Shortterm-Statistics-Commerce_res"/>
+		<gen:arc xlink:type="arc" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:from="cbs-lr_Shortterm-Statistics-Other_loc" xlink:to="cbs-lr_Shortterm-Statistics-Other_res"/>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Contact-Information_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Contact-Information_res">1</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Investments_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Investments_res">2</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Production-Statistic-Industry_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Production-Statistic-Industry_res">3</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Production-Statistic-Health_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Production-Statistic-Health_res">4</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Production-Statistic-Construction_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Production-Statistic-Construction_res">5</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Production-Statistic-Other_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Production-Statistic-Other_res">6</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Production-Statistic-Commerce_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Production-Statistic-Commerce_res">7</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Shortterm-Statistics-Industry_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Shortterm-Statistics-Industry_res">8</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Shortterm-Statistics-Construction_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Shortterm-Statistics-Construction_res">9</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Shortterm-Statistics-Commerce_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Shortterm-Statistics-Commerce_res">10</sbr:linkroleOrder>
+        <sbr:linkroleOrder xlink:label="cbs-lr_Shortterm-Statistics-Other_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="cbs-lr_Shortterm-Statistics-Other_res">11</sbr:linkroleOrder>
+    </gen:link>
+</link:linkbase>

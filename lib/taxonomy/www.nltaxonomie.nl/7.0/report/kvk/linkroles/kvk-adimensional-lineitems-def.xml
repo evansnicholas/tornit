@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  	<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+	<link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/adimensional-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_AdimensionalTable" xlink:type="simple"/>
+  <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/adimensional-table" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_AdimensionalLineItems" xlink:label="kvk-pdom_AdimensionalLineItems_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_AuditorsOpinionReference" xlink:label="kvk-i_AuditorsOpinionReference_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_AuditorsOpinionStatementAbsence" xlink:label="kvk-i_AuditorsOpinionStatementAbsence_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_BranchOffices" xlink:label="kvk-i_BranchOffices_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_CodeOfConductInformation" xlink:label="kvk-i_CodeOfConductInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ContactType" xlink:label="kvk-i_ContactType_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_CorporateSocialResponsibilityInformation" xlink:label="kvk-i_CorporateSocialResponsibilityInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DirectorReasonNoSignature" xlink:label="kvk-i_DirectorReasonNoSignature_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DirectorSignedStatus" xlink:label="kvk-i_DirectorSignedStatus_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DirectorType" xlink:label="kvk-i_DirectorType_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentAdoptionDate" xlink:label="kvk-i_DocumentAdoptionDate_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentAdoptionStatus" xlink:label="kvk-i_DocumentAdoptionStatus_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentInformation" xlink:label="kvk-i_DocumentInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentPresentationCurrency" xlink:label="kvk-i_DocumentPresentationCurrency_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentRelatesToIndividualEntityOrGroup" xlink:label="kvk-i_DocumentRelatesToIndividualEntityOrGroup_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityOtherMethodIdentification" xlink:label="kvk-i_EntityOtherMethodIdentification_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialInformation" xlink:label="kvk-i_FinancialInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialInstrumentsInformation" xlink:label="kvk-i_FinancialInstrumentsInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialPeriodDifferentThanAnnualImpactComparatives" xlink:label="kvk-i_FinancialPeriodDifferentThanAnnualImpactComparatives_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialPeriodDifferentThanAnnualReason" xlink:label="kvk-i_FinancialPeriodDifferentThanAnnualReason_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialPeriodDifferentThanAnnualStatus" xlink:label="kvk-i_FinancialPeriodDifferentThanAnnualStatus_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FutureBusinessDevelopmentsInformation" xlink:label="kvk-i_FutureBusinessDevelopmentsInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GeneralInformationManagementReport" xlink:label="kvk-i_GeneralInformationManagementReport_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_InformationOther" xlink:label="kvk-i_InformationOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_InformationOtherManagementReport" xlink:label="kvk-i_InformationOtherManagementReport_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_LegalSizeCriteriaClassification" xlink:label="kvk-i_LegalSizeCriteriaClassification_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ManagementReportLocationReference" xlink:label="kvk-i_ManagementReportLocationReference_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_OrganisationName" xlink:label="kvk-i_OrganisationName_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProfitCertificatesSimilarRights" xlink:label="kvk-i_ProfitCertificatesSimilarRights_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProvisionsArticlesAssociationContributionShortageCooperative" xlink:label="kvk-i_ProvisionsArticlesAssociationContributionShortageCooperative_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProvisionsArticlesAssociationProfitAppropriation" xlink:label="kvk-i_ProvisionsArticlesAssociationProfitAppropriation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProvisionsArticlesAssociationSpecialGoverningControlStructure" xlink:label="kvk-i_ProvisionsArticlesAssociationSpecialGoverningControlStructure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RemunerationManagementInformation" xlink:label="kvk-i_RemunerationManagementInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ResearchAndDevelopmentInformation" xlink:label="kvk-i_ResearchAndDevelopmentInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ResultsAppropriation" xlink:label="kvk-i_ResultsAppropriation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ResultsAppropriationProposal" xlink:label="kvk-i_ResultsAppropriationProposal_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_RisksAndUncertaintiesInformation" xlink:label="kvk-i_RisksAndUncertaintiesInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SbiBusinessCode" xlink:label="kvk-i_SbiBusinessCode_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SignatureManagementReportDate" xlink:label="kvk-i_SignatureManagementReportDate_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SignatureManagementReportLocation" xlink:label="kvk-i_SignatureManagementReportLocation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_SubsequentEvents" xlink:label="kvk-i_SubsequentEvents_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_CountryNameISO" xlink:label="nl-cd_CountryNameISO_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_DescriptionLocationNL" xlink:label="nl-cd_DescriptionLocationNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_DocumentCreationDate" xlink:label="nl-cd_DocumentCreationDate_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_EmailAddressFull" xlink:label="nl-cd_EmailAddressFull_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_EndDateForFinancialPeriod" xlink:label="nl-cd_EndDateForFinancialPeriod_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_FamilyName" xlink:label="nl-cd_FamilyName_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_FirstName" xlink:label="nl-cd_FirstName_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberAddition" xlink:label="nl-cd_HouseNumberAddition_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberNL" xlink:label="nl-cd_HouseNumberNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_LegalForm" xlink:label="nl-cd_LegalForm_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_Namebusiness" xlink:label="nl-cd_Namebusiness_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_NameRegion" xlink:label="nl-cd_NameRegion_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PlaceOfResidenceNL" xlink:label="nl-cd_PlaceOfResidenceNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_POBoxNumber" xlink:label="nl-cd_POBoxNumber_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PostalCodeNL" xlink:label="nl-cd_PostalCodeNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StartDateForFinancialPeriod" xlink:label="nl-cd_StartDateForFinancialPeriod_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StatutoryNameEntity" xlink:label="nl-cd_StatutoryNameEntity_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StreetNameNL" xlink:label="nl-cd_StreetNameNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_TelephoneNumber" xlink:label="nl-cd_TelephoneNumber_loc" xlink:type="locator"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_AuditorsOpinionReference_loc" order="1" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_AuditorsOpinionStatementAbsence_loc" order="2" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_BranchOffices_loc" order="3" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_CodeOfConductInformation_loc" order="4" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_ContactType_loc" order="5" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_CorporateSocialResponsibilityInformation_loc" order="6" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_DirectorReasonNoSignature_loc" order="7" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_DirectorSignedStatus_loc" order="8" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_DirectorType_loc" order="9" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_DocumentAdoptionDate_loc" order="10" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_DocumentAdoptionStatus_loc" order="11" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_DocumentInformation_loc" order="12" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_DocumentPresentationCurrency_loc" order="13" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_DocumentRelatesToIndividualEntityOrGroup_loc" order="14" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_EntityOtherMethodIdentification_loc" order="15" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_FinancialInformation_loc" order="16" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_FinancialInstrumentsInformation_loc" order="17" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_FinancialPeriodDifferentThanAnnualImpactComparatives_loc" order="18" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_FinancialPeriodDifferentThanAnnualReason_loc" order="19" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_FinancialPeriodDifferentThanAnnualStatus_loc" order="20" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_FutureBusinessDevelopmentsInformation_loc" order="21" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_GeneralInformationManagementReport_loc" order="22" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_InformationOther_loc" order="23" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_InformationOtherManagementReport_loc" order="24" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_LegalSizeCriteriaClassification_loc" order="25" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_ManagementReportLocationReference_loc" order="26" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_OrganisationName_loc" order="27" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_ProfitCertificatesSimilarRights_loc" order="28" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_ProvisionsArticlesAssociationContributionShortageCooperative_loc" order="29" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_ProvisionsArticlesAssociationProfitAppropriation_loc" order="30" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_ProvisionsArticlesAssociationSpecialGoverningControlStructure_loc" order="31" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_RemunerationManagementInformation_loc" order="32" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_ResearchAndDevelopmentInformation_loc" order="33" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_ResultsAppropriation_loc" order="34" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_ResultsAppropriationProposal_loc" order="35" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_RisksAndUncertaintiesInformation_loc" order="36" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_SbiBusinessCode_loc" order="37" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_SignatureManagementReportDate_loc" order="38" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_SignatureManagementReportLocation_loc" order="39" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="kvk-i_SubsequentEvents_loc" order="40" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_CountryNameISO_loc" order="41" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_DescriptionLocationNL_loc" order="42" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_DocumentCreationDate_loc" order="43" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_EmailAddressFull_loc" order="44" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_EndDateForFinancialPeriod_loc" order="45" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_FamilyName_loc" order="46" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_FirstName_loc" order="47" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_HouseNumberAddition_loc" order="48" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_HouseNumberNL_loc" order="49" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_LegalForm_loc" order="50" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_Namebusiness_loc" order="51" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_NameRegion_loc" order="52" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_PlaceOfResidenceNL_loc" order="53" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_POBoxNumber_loc" order="54" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_PostalCodeNL_loc" order="55" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_StartDateForFinancialPeriod_loc" order="56" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_StatutoryNameEntity_loc" order="57" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_StreetNameNL_loc" order="58" xlink:type="arc"/>
+	<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_AdimensionalLineItems_loc" xlink:to="nl-cd_TelephoneNumber_loc" order="59" xlink:type="arc"/>
+	</link:definitionLink>
+</link:linkbase>

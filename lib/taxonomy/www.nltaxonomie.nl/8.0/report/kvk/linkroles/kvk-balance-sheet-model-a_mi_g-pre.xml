@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:venj:linkrole:balance-sheet" xlink:href="../../venj/linkroles/venj-linkroles-pre.xsd#venj-plr_BalanceSheet" xlink:type="simple"/>
+  <link:presentationLink xlink:role="urn:venj:linkrole:balance-sheet" xlink:type="extended">
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IntangibleAssetsTitle" xlink:label="kvk-abstr_IntangibleAssetsTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_CostsIncorporationShareIssue" xlink:label="bw2-i_CostsIncorporationShareIssue_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ResearchAndDevelopmentCosts" xlink:label="bw2-i_ResearchAndDevelopmentCosts_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PatentsTrademarksOtherRights" xlink:label="bw2-i_PatentsTrademarksOtherRights_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PrepaymentsIntangibleAssets" xlink:label="bw2-i_PrepaymentsIntangibleAssets_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_FinancialAssetsTitle" xlink:label="kvk-abstr_FinancialAssetsTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SecuritiesOtherNoncurrent" xlink:label="bw2-i_SecuritiesOtherNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReceivablesOtherNoncurrent" xlink:label="bw2-i_ReceivablesOtherNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_DeferredTaxAssetsNoncurrent" xlink:label="rj-i_DeferredTaxAssetsNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_InventoriesTitle" xlink:label="kvk-abstr_InventoriesTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_InventoryRawMaterialsConsumables" xlink:label="bw2-i_InventoryRawMaterialsConsumables_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_WorkInProgress" xlink:label="bw2-i_WorkInProgress_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_InventoryFinishedTradeGoods" xlink:label="bw2-i_InventoryFinishedTradeGoods_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PrepaymentsInventories" xlink:label="bw2-i_PrepaymentsInventories_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ReceivablesTitle" xlink:label="kvk-abstr_ReceivablesTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_TradeReceivables" xlink:label="bw2-i_TradeReceivables_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_CalledUpShareCapital" xlink:label="bw2-i_CalledUpShareCapital_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PensionReceivables" xlink:label="rj-i_PensionReceivables_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_TaxReceivables" xlink:label="rj-i_TaxReceivables_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_LiabilitiesCurrentTitle" xlink:label="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AdvancesReceivedCurrent" xlink:label="bw2-i_AdvancesReceivedCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_TradePayablesCurrent" xlink:label="bw2-i_TradePayablesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_BillsExchangeChequesPayableCurrent" xlink:label="bw2-i_BillsExchangeChequesPayableCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_TaxesSocialSecurityContributionsPayableCurrent" xlink:label="bw2-i_TaxesSocialSecurityContributionsPayableCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PensionPayablesCurrent" xlink:label="bw2-i_PensionPayablesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_LiabilitiesNoncurrentTitle" xlink:label="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AdvancesReceivedNoncurrent" xlink:label="bw2-i_AdvancesReceivedNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_TradePayablesNoncurrent" xlink:label="bw2-i_TradePayablesNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_BillsExchangeChequesPayableNoncurrent" xlink:label="bw2-i_BillsExchangeChequesPayableNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_TaxesSocialSecurityContributionsPayableNoncurrent" xlink:label="bw2-i_TaxesSocialSecurityContributionsPayableNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PensionPayablesNoncurrent" xlink:label="bw2-i_PensionPayablesNoncurrent_loc" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IntangibleAssetsTitle_loc" xlink:to="bw2-i_CostsIncorporationShareIssue_loc" xlink:type="arc" order="1004"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IntangibleAssetsTitle_loc" xlink:to="bw2-i_ResearchAndDevelopmentCosts_loc" xlink:type="arc" order="1005"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IntangibleAssetsTitle_loc" xlink:to="bw2-i_PatentsTrademarksOtherRights_loc" xlink:type="arc" order="1006"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IntangibleAssetsTitle_loc" xlink:to="bw2-i_PrepaymentsIntangibleAssets_loc" xlink:type="arc" order="1008"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="bw2-i_SecuritiesOtherNoncurrent_loc" xlink:type="arc" order="1026" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="bw2-i_ReceivablesOtherNoncurrent_loc" xlink:type="arc" order="1027" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="rj-i_DeferredTaxAssetsNoncurrent_loc" xlink:type="arc" order="1028" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_InventoriesTitle_loc" xlink:to="bw2-i_InventoryRawMaterialsConsumables_loc" xlink:type="arc" order="1034"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_InventoriesTitle_loc" xlink:to="bw2-i_WorkInProgress_loc" xlink:type="arc" order="1035"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_InventoriesTitle_loc" xlink:to="bw2-i_InventoryFinishedTradeGoods_loc" xlink:type="arc" order="1036"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_InventoriesTitle_loc" xlink:to="bw2-i_PrepaymentsInventories_loc" xlink:type="arc" order="1037"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="bw2-i_TradeReceivables_loc" xlink:type="arc" order="1041"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="bw2-i_CalledUpShareCapital_loc" xlink:type="arc" order="1047"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="rj-i_PensionReceivables_loc" xlink:type="arc" order="1048"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="rj-i_TaxReceivables_loc" xlink:type="arc" order="1049"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_AdvancesReceivedCurrent_loc" xlink:type="arc" order="1061" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_TradePayablesCurrent_loc" xlink:type="arc" order="1062" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_BillsExchangeChequesPayableCurrent_loc" xlink:type="arc" order="1063" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_TaxesSocialSecurityContributionsPayableCurrent_loc" xlink:type="arc" order="1067" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_PensionPayablesCurrent_loc" xlink:type="arc" order="1068" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_AdvancesReceivedNoncurrent_loc" xlink:type="arc" order="1081" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_TradePayablesNoncurrent_loc" xlink:type="arc" order="1082" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_BillsExchangeChequesPayableNoncurrent_loc" xlink:type="arc" order="1083" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_TaxesSocialSecurityContributionsPayableNoncurrent_loc" xlink:type="arc" order="1087" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_PensionPayablesNoncurrent_loc" xlink:type="arc" order="1088" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+</link:linkbase>

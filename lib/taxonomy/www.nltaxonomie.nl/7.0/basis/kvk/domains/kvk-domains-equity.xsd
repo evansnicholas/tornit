@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:kvk-dm-eqty="http://www.nltaxonomie.nl/7.0/basis/kvk/domains/kvk-domains-equity" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/7.0/basis/kvk/domains/kvk-domains-equity">
+   <xs:annotation>
+      <xs:appinfo>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-domains-equity-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-domains-equity-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      </xs:appinfo>
+   </xs:annotation>
+	<xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+	<xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/> 
+	<xs:element id="kvk-dm-eqty_EquityComponentDomain" name="EquityComponentDomain" abstract="true" nillable="false" substitutionGroup="sbr:domainItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_RevaluationReserveComponentDomain" name="RevaluationReserveComponentDomain" abstract="true" nillable="false" substitutionGroup="sbr:domainItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_ShareCapitalComponentDomain" name="ShareCapitalComponentDomain" abstract="true" nillable="false" substitutionGroup="sbr:domainItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_ShareCapitalMember" name="ShareCapitalMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_SharePremiumMember" name="SharePremiumMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_RevaluationReserveMember" name="RevaluationReserveMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_LegalStatutoryReservesMember" name="LegalStatutoryReservesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_LegalReservesMember" name="LegalReservesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_StatutoryReservesMember" name="StatutoryReservesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_ReinvestmentReserveMember" name="ReinvestmentReserveMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_FiscalReservesOtherMember" name="FiscalReservesOtherMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_ReservesOtherMember" name="ReservesOtherMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_RetainedEarningsMember" name="RetainedEarningsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_ResultForTheYearMember" name="ResultForTheYearMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_EquityMember" name="EquityMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_NoncontrollingInterestMember" name="NoncontrollingInterestMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_EquityGroupMember" name="EquityGroupMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_HedgedMember" name="HedgedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_NoPriceQuotationInActiveMarketMember" name="NoPriceQuotationInActiveMarketMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_RecognisedDirectlyThroughEquityMember" name="RecognisedDirectlyThroughEquityMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_OrdinarySharesMember" name="OrdinarySharesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_PreferredSharesMember" name="PreferredSharesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_PrioritySharesMember" name="PrioritySharesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+	<xs:element id="kvk-dm-eqty_TreasurySharesMember" name="TreasurySharesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+</xs:schema>

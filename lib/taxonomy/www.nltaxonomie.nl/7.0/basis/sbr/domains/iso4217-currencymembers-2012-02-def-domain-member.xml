@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Tue May 15 15:52:00 2012
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2005/xbrldt http://www.xbrl.org/2005/xbrldt-2005.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_AED" xlink:label="iso-4217_AED_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_AFN" xlink:label="iso-4217_AFN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_ALL" xlink:label="iso-4217_ALL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_AMD" xlink:label="iso-4217_AMD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_AOA" xlink:label="iso-4217_AOA_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_ARS" xlink:label="iso-4217_ARS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_AUD" xlink:label="iso-4217_AUD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_AWG" xlink:label="iso-4217_AWG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_AZN" xlink:label="iso-4217_AZN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BAM" xlink:label="iso-4217_BAM_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BBD" xlink:label="iso-4217_BBD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BDT" xlink:label="iso-4217_BDT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BGN" xlink:label="iso-4217_BGN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BHD" xlink:label="iso-4217_BHD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BIF" xlink:label="iso-4217_BIF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BMD" xlink:label="iso-4217_BMD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BND" xlink:label="iso-4217_BND_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BOB" xlink:label="iso-4217_BOB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BOV" xlink:label="iso-4217_BOV_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BRL" xlink:label="iso-4217_BRL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BSD" xlink:label="iso-4217_BSD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BTN" xlink:label="iso-4217_BTN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BWP" xlink:label="iso-4217_BWP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BYR" xlink:label="iso-4217_BYR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_BZD" xlink:label="iso-4217_BZD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CAD" xlink:label="iso-4217_CAD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CDF" xlink:label="iso-4217_CDF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CHE" xlink:label="iso-4217_CHE_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CHF" xlink:label="iso-4217_CHF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CHW" xlink:label="iso-4217_CHW_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CLF" xlink:label="iso-4217_CLF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CLP" xlink:label="iso-4217_CLP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CNY" xlink:label="iso-4217_CNY_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_COP" xlink:label="iso-4217_COP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_COU" xlink:label="iso-4217_COU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CRC" xlink:label="iso-4217_CRC_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CUC" xlink:label="iso-4217_CUC_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CUP" xlink:label="iso-4217_CUP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CVE" xlink:label="iso-4217_CVE_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_CZK" xlink:label="iso-4217_CZK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_DJF" xlink:label="iso-4217_DJF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_DKK" xlink:label="iso-4217_DKK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_DOP" xlink:label="iso-4217_DOP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_DZD" xlink:label="iso-4217_DZD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_EGP" xlink:label="iso-4217_EGP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_ERN" xlink:label="iso-4217_ERN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_ETB" xlink:label="iso-4217_ETB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_EUR" xlink:label="iso-4217_EUR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_FJD" xlink:label="iso-4217_FJD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_FKP" xlink:label="iso-4217_FKP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_GBP" xlink:label="iso-4217_GBP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_GEL" xlink:label="iso-4217_GEL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_GHS" xlink:label="iso-4217_GHS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_GIP" xlink:label="iso-4217_GIP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_GMD" xlink:label="iso-4217_GMD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_GNF" xlink:label="iso-4217_GNF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_GTQ" xlink:label="iso-4217_GTQ_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_GYD" xlink:label="iso-4217_GYD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_HKD" xlink:label="iso-4217_HKD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_HNL" xlink:label="iso-4217_HNL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_HRK" xlink:label="iso-4217_HRK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_HTG" xlink:label="iso-4217_HTG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_HUF" xlink:label="iso-4217_HUF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_IDR" xlink:label="iso-4217_IDR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_ILS" xlink:label="iso-4217_ILS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_INR" xlink:label="iso-4217_INR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_IQD" xlink:label="iso-4217_IQD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_IRR" xlink:label="iso-4217_IRR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_ISK" xlink:label="iso-4217_ISK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_JMD" xlink:label="iso-4217_JMD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_JOD" xlink:label="iso-4217_JOD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_JPY" xlink:label="iso-4217_JPY_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_KES" xlink:label="iso-4217_KES_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_KGS" xlink:label="iso-4217_KGS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_KHR" xlink:label="iso-4217_KHR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_KMF" xlink:label="iso-4217_KMF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_KPW" xlink:label="iso-4217_KPW_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_KRW" xlink:label="iso-4217_KRW_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_KWD" xlink:label="iso-4217_KWD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_KYD" xlink:label="iso-4217_KYD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_KZT" xlink:label="iso-4217_KZT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_LAK" xlink:label="iso-4217_LAK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_LBP" xlink:label="iso-4217_LBP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_LKR" xlink:label="iso-4217_LKR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_LRD" xlink:label="iso-4217_LRD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_LSL" xlink:label="iso-4217_LSL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_LTL" xlink:label="iso-4217_LTL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_LVL" xlink:label="iso-4217_LVL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_LYD" xlink:label="iso-4217_LYD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MAD" xlink:label="iso-4217_MAD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MDL" xlink:label="iso-4217_MDL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MGA" xlink:label="iso-4217_MGA_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MKD" xlink:label="iso-4217_MKD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MMK" xlink:label="iso-4217_MMK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MNT" xlink:label="iso-4217_MNT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MOP" xlink:label="iso-4217_MOP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MRO" xlink:label="iso-4217_MRO_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MUR" xlink:label="iso-4217_MUR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MVR" xlink:label="iso-4217_MVR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MWK" xlink:label="iso-4217_MWK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MXN" xlink:label="iso-4217_MXN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MXV" xlink:label="iso-4217_MXV_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MYR" xlink:label="iso-4217_MYR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_MZN" xlink:label="iso-4217_MZN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_NAD" xlink:label="iso-4217_NAD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_NGN" xlink:label="iso-4217_NGN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_NIO" xlink:label="iso-4217_NIO_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_NOK" xlink:label="iso-4217_NOK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_NPR" xlink:label="iso-4217_NPR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_NZD" xlink:label="iso-4217_NZD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_OMR" xlink:label="iso-4217_OMR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_PAB" xlink:label="iso-4217_PAB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_PEN" xlink:label="iso-4217_PEN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_PGK" xlink:label="iso-4217_PGK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_PHP" xlink:label="iso-4217_PHP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_PKR" xlink:label="iso-4217_PKR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_PLN" xlink:label="iso-4217_PLN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_PYG" xlink:label="iso-4217_PYG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_QAR" xlink:label="iso-4217_QAR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_RON" xlink:label="iso-4217_RON_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_RSD" xlink:label="iso-4217_RSD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_RUB" xlink:label="iso-4217_RUB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_RWF" xlink:label="iso-4217_RWF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SAR" xlink:label="iso-4217_SAR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SBD" xlink:label="iso-4217_SBD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SCR" xlink:label="iso-4217_SCR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SDG" xlink:label="iso-4217_SDG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SEK" xlink:label="iso-4217_SEK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SGD" xlink:label="iso-4217_SGD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SHP" xlink:label="iso-4217_SHP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SLL" xlink:label="iso-4217_SLL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SOS" xlink:label="iso-4217_SOS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SRD" xlink:label="iso-4217_SRD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_STD" xlink:label="iso-4217_STD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SVC" xlink:label="iso-4217_SVC_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SYP" xlink:label="iso-4217_SYP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_SZL" xlink:label="iso-4217_SZL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_THB" xlink:label="iso-4217_THB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_TJS" xlink:label="iso-4217_TJS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_TMT" xlink:label="iso-4217_TMT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_TND" xlink:label="iso-4217_TND_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_TOP" xlink:label="iso-4217_TOP_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_TRY" xlink:label="iso-4217_TRY_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_TTD" xlink:label="iso-4217_TTD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_TWD" xlink:label="iso-4217_TWD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_TZS" xlink:label="iso-4217_TZS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_UAH" xlink:label="iso-4217_UAH_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_UGX" xlink:label="iso-4217_UGX_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_USD" xlink:label="iso-4217_USD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_USN" xlink:label="iso-4217_USN_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_USS" xlink:label="iso-4217_USS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_UYI" xlink:label="iso-4217_UYI_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_UYU" xlink:label="iso-4217_UYU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_UZS" xlink:label="iso-4217_UZS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_VEF" xlink:label="iso-4217_VEF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_VND" xlink:label="iso-4217_VND_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_VUV" xlink:label="iso-4217_VUV_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_WST" xlink:label="iso-4217_WST_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XAF" xlink:label="iso-4217_XAF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XAG" xlink:label="iso-4217_XAG_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XAU" xlink:label="iso-4217_XAU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XBA" xlink:label="iso-4217_XBA_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XBB" xlink:label="iso-4217_XBB_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XBC" xlink:label="iso-4217_XBC_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XBD" xlink:label="iso-4217_XBD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XCD" xlink:label="iso-4217_XCD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XDR" xlink:label="iso-4217_XDR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XFU" xlink:label="iso-4217_XFU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XOF" xlink:label="iso-4217_XOF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XPD" xlink:label="iso-4217_XPD_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XPF" xlink:label="iso-4217_XPF_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XPT" xlink:label="iso-4217_XPT_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XSU" xlink:label="iso-4217_XSU_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XTS" xlink:label="iso-4217_XTS_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XUA" xlink:label="iso-4217_XUA_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_XXX" xlink:label="iso-4217_XXX_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_YER" xlink:label="iso-4217_YER_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_ZAR" xlink:label="iso-4217_ZAR_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_ZMK" xlink:label="iso-4217_ZMK_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_ZWL" xlink:label="iso-4217_ZWL_loc" />
+	<link:loc xlink:type="locator" xlink:href="iso4217-currencymembers-2012-02.xsd#iso-4217_IsoCurrencyCodesDomain" xlink:label="iso-4217_IsoCurrencyCodesDomain_loc" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_AED_loc" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_AFN_loc" order="2.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_ALL_loc" order="3.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_AMD_loc" order="4.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_AOA_loc" order="6.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_ARS_loc" order="7.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_AUD_loc" order="8.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_AWG_loc" order="9.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_AZN_loc" order="11.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BAM_loc" order="12.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BBD_loc" order="13.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BDT_loc" order="14.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BGN_loc" order="15.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BHD_loc" order="16.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BIF_loc" order="17.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BMD_loc" order="18.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BND_loc" order="19.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BOB_loc" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BOV_loc" order="21.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BRL_loc" order="22.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BSD_loc" order="23.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BTN_loc" order="24.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BWP_loc" order="25.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BYR_loc" order="26.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_BZD_loc" order="27.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CAD_loc" order="28.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CDF_loc" order="29.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CHE_loc" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CHF_loc" order="31.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CHW_loc" order="32.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CLF_loc" order="33.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CLP_loc" order="34.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CNY_loc" order="35.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_COP_loc" order="36.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_COU_loc" order="37.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CRC_loc" order="38.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CUC_loc" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CUP_loc" order="41.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CVE_loc" order="42.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_CZK_loc" order="44.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_DJF_loc" order="45.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_DKK_loc" order="46.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_DOP_loc" order="47.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_DZD_loc" order="48.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_EGP_loc" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_ERN_loc" order="51.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_ETB_loc" order="52.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_EUR_loc" order="53.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_FJD_loc" order="54.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_FKP_loc" order="55.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_GBP_loc" order="56.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_GEL_loc" order="57.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_GHS_loc" order="59.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_GIP_loc" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_GMD_loc" order="61.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_GNF_loc" order="62.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_GTQ_loc" order="63.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_GYD_loc" order="64.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_HKD_loc" order="65.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_HNL_loc" order="66.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_HRK_loc" order="67.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_HTG_loc" order="68.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_HUF_loc" order="69.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_IDR_loc" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_ILS_loc" order="71.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_INR_loc" order="72.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_IQD_loc" order="73.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_IRR_loc" order="74.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_ISK_loc" order="75.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_JMD_loc" order="76.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_JOD_loc" order="77.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_JPY_loc" order="78.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_KES_loc" order="79.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_KGS_loc" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_KHR_loc" order="81.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_KMF_loc" order="82.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_KPW_loc" order="83.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_KRW_loc" order="84.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_KWD_loc" order="85.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_KYD_loc" order="86.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_KZT_loc" order="87.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_LAK_loc" order="88.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_LBP_loc" order="89.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_LKR_loc" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_LRD_loc" order="91.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_LSL_loc" order="92.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_LTL_loc" order="93.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_LVL_loc" order="94.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_LYD_loc" order="95.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MAD_loc" order="96.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MDL_loc" order="97.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MGA_loc" order="98.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MKD_loc" order="99.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MMK_loc" order="100.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MNT_loc" order="101.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MOP_loc" order="102.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MRO_loc" order="103.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MUR_loc" order="105.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MVR_loc" order="106.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MWK_loc" order="107.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MXN_loc" order="108.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MYR_loc" order="109.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MZN_loc" order="111.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_NAD_loc" order="112.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_NGN_loc" order="113.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_NIO_loc" order="114.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_NOK_loc" order="115.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_NPR_loc" order="116.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_NZD_loc" order="117.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_OMR_loc" order="118.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_PAB_loc" order="119.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_PEN_loc" order="120.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_PGK_loc" order="121.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_PHP_loc" order="122.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_PKR_loc" order="123.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_PLN_loc" order="124.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_PYG_loc" order="125.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_QAR_loc" order="126.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_RON_loc" order="128.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_RSD_loc" order="129.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_RUB_loc" order="130.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_RWF_loc" order="131.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SAR_loc" order="132.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SBD_loc" order="133.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SCR_loc" order="134.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SDG_loc" order="136.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SEK_loc" order="137.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SGD_loc" order="138.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SHP_loc" order="139.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SLL_loc" order="141.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SOS_loc" order="142.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SRD_loc" order="143.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_STD_loc" order="144.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SVC_loc" order="145.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SYP_loc" order="146.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_SZL_loc" order="147.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_THB_loc" order="148.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_TJS_loc" order="149.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_TMT_loc" order="151.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_TND_loc" order="152.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_TOP_loc" order="153.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_TRY_loc" order="155.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_TTD_loc" order="156.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_TWD_loc" order="157.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_TZS_loc" order="158.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_UAH_loc" order="159.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_UGX_loc" order="160.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_USD_loc" order="161.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_USN_loc" order="162.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_USS_loc" order="163.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_UYU_loc" order="164.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_UZS_loc" order="165.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_VEF_loc" order="167.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_VND_loc" order="168.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_VUV_loc" order="169.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_WST_loc" order="170.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XAF_loc" order="171.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XAG_loc" order="172.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XAU_loc" order="173.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XCD_loc" order="174.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XOF_loc" order="175.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XPD_loc" order="176.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XPF_loc" order="177.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XPT_loc" order="178.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XXX_loc" order="179.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_YER_loc" order="180.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_ZAR_loc" order="181.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_ZMK_loc" order="182.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_ZWL_loc" order="184.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_MXV_loc" order="185.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_UYI_loc" order="186.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XBA_loc" order="187.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XBB_loc" order="188.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XBC_loc" order="189.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XBD_loc" order="190.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XDR_loc" order="191.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XFU_loc" order="192.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XSU_loc" order="193.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XTS_loc" order="194.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="iso-4217_IsoCurrencyCodesDomain_loc" xlink:to="iso-4217_XUA_loc" order="195.0"/>
+  </link:definitionLink>
+</link:linkbase>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_CorrectionsSuppliesAmount" xlink:label="bd-ob_CorrectionsSuppliesAmount_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_CorrectionsSuppliesAmount_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12294">Bedrag correcties leveringen</link:label>
+        <link:labelArc xlink:from="bd-ob_CorrectionsSuppliesAmount_loc" xlink:to="bd-ob_CorrectionsSuppliesAmount_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_SuppliesAmount" xlink:label="bd-ob_SuppliesAmount_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_SuppliesAmount_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12295">Bedrag leveringen</link:label>
+        <link:labelArc xlink:from="bd-ob_SuppliesAmount_loc" xlink:to="bd-ob_SuppliesAmount_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_EstimateFromPreviousReturns" xlink:label="bd-ob_EstimateFromPreviousReturns_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_EstimateFromPreviousReturns_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12299">Schatting vorige aangifte(n)</link:label>
+        <link:labelArc xlink:from="bd-ob_EstimateFromPreviousReturns_loc" xlink:to="bd-ob_EstimateFromPreviousReturns_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_EstimateOnThisReturn" xlink:label="bd-ob_EstimateOnThisReturn_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_EstimateOnThisReturn_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12300">Schatting deze aangifte</link:label>
+        <link:labelArc xlink:from="bd-ob_EstimateOnThisReturn_loc" xlink:to="bd-ob_EstimateOnThisReturn_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxOnInput" xlink:label="bd-ob_ValueAddedTaxOnInput_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxOnInput_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12302">Voorbelasting</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxOnInput_loc" xlink:to="bd-ob_ValueAddedTaxOnInput_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_InstallationDistanceSalesWithinTheEC" xlink:label="bd-ob_InstallationDistanceSalesWithinTheEC_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_InstallationDistanceSalesWithinTheEC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12303">Installatie/afstandsverkopen binnen de EU</link:label>
+        <link:labelArc xlink:from="bd-ob_InstallationDistanceSalesWithinTheEC_loc" xlink:to="bd-ob_InstallationDistanceSalesWithinTheEC_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_SmallEntrepreneurProvisionReduction" xlink:label="bd-ob_SmallEntrepreneurProvisionReduction_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_SmallEntrepreneurProvisionReduction_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12314">Vermindering volgens de kleineondernemersregeling</link:label>
+        <link:labelArc xlink:from="bd-ob_SmallEntrepreneurProvisionReduction_loc" xlink:to="bd-ob_SmallEntrepreneurProvisionReduction_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_SuppliesServicesNotTaxed" xlink:label="bd-ob_SuppliesServicesNotTaxed_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_SuppliesServicesNotTaxed_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12318">Omzet leveringen/diensten belast met nultarief of niet bij u belast</link:label>
+        <link:labelArc xlink:from="bd-ob_SuppliesServicesNotTaxed_loc" xlink:to="bd-ob_SuppliesServicesNotTaxed_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_SuppliesToCountriesOutsideTheEC" xlink:label="bd-ob_SuppliesToCountriesOutsideTheEC_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_SuppliesToCountriesOutsideTheEC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12319">Leveringen naar landen buiten EU</link:label>
+        <link:labelArc xlink:from="bd-ob_SuppliesToCountriesOutsideTheEC_loc" xlink:to="bd-ob_SuppliesToCountriesOutsideTheEC_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_SuppliesToCountriesWithinTheEC" xlink:label="bd-ob_SuppliesToCountriesWithinTheEC_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_SuppliesToCountriesWithinTheEC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12320">Leveringen naar/diensten in landen binnen EU</link:label>
+        <link:labelArc xlink:from="bd-ob_SuppliesToCountriesWithinTheEC_loc" xlink:to="bd-ob_SuppliesToCountriesWithinTheEC_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_TaxedTurnoverSuppliesServicesOtherRates" xlink:label="bd-ob_TaxedTurnoverSuppliesServicesOtherRates_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_TaxedTurnoverSuppliesServicesOtherRates_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12323">Omzet leveringen/diensten belast met overige tarieven</link:label>
+        <link:labelArc xlink:from="bd-ob_TaxedTurnoverSuppliesServicesOtherRates_loc" xlink:to="bd-ob_TaxedTurnoverSuppliesServicesOtherRates_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_TaxedTurnoverPrivateUse" xlink:label="bd-ob_TaxedTurnoverPrivateUse_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_TaxedTurnoverPrivateUse_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12324">Omzet privegebruik</link:label>
+        <link:labelArc xlink:from="bd-ob_TaxedTurnoverPrivateUse_loc" xlink:to="bd-ob_TaxedTurnoverPrivateUse_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_TaxedTurnoverSuppliesServicesGeneralTariff" xlink:label="bd-ob_TaxedTurnoverSuppliesServicesGeneralTariff_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_TaxedTurnoverSuppliesServicesGeneralTariff_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12325">Omzet leveringen/diensten belast met algemeen tarief</link:label>
+        <link:labelArc xlink:from="bd-ob_TaxedTurnoverSuppliesServicesGeneralTariff_loc" xlink:to="bd-ob_TaxedTurnoverSuppliesServicesGeneralTariff_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_TaxedTurnoverSuppliesServicesReducedTariff" xlink:label="bd-ob_TaxedTurnoverSuppliesServicesReducedTariff_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_TaxedTurnoverSuppliesServicesReducedTariff_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12326">Omzet leveringen/diensten belast met verlaagd tarief</link:label>
+        <link:labelArc xlink:from="bd-ob_TaxedTurnoverSuppliesServicesReducedTariff_loc" xlink:to="bd-ob_TaxedTurnoverSuppliesServicesReducedTariff_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_TurnoverFromTaxedSuppliesFromCountriesOutsideTheEC" xlink:label="bd-ob_TurnoverFromTaxedSuppliesFromCountriesOutsideTheEC_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_TurnoverFromTaxedSuppliesFromCountriesOutsideTheEC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12329">Omzet belaste leveringen/diensten uit landen buiten de EU</link:label>
+        <link:labelArc xlink:from="bd-ob_TurnoverFromTaxedSuppliesFromCountriesOutsideTheEC_loc" xlink:to="bd-ob_TurnoverFromTaxedSuppliesFromCountriesOutsideTheEC_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_TurnoverFromTaxedSuppliesFromCountriesWithinTheEC" xlink:label="bd-ob_TurnoverFromTaxedSuppliesFromCountriesWithinTheEC_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_TurnoverFromTaxedSuppliesFromCountriesWithinTheEC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12330">Omzet belaste leveringen/diensten uit landen binnen EU</link:label>
+        <link:labelArc xlink:from="bd-ob_TurnoverFromTaxedSuppliesFromCountriesWithinTheEC_loc" xlink:to="bd-ob_TurnoverFromTaxedSuppliesFromCountriesWithinTheEC_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_TurnoverSuppliesServicesByWhichVATTaxationIsTransferred" xlink:label="bd-ob_TurnoverSuppliesServicesByWhichVATTaxationIsTransferred_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_TurnoverSuppliesServicesByWhichVATTaxationIsTransferred_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12331">Omzet leveringen/diensten waarbij heffing is verlegd</link:label>
+        <link:labelArc xlink:from="bd-ob_TurnoverSuppliesServicesByWhichVATTaxationIsTransferred_loc" xlink:to="bd-ob_TurnoverSuppliesServicesByWhichVATTaxationIsTransferred_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxOnSuppliesFromCountriesWithinTheEC" xlink:label="bd-ob_ValueAddedTaxOnSuppliesFromCountriesWithinTheEC_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxOnSuppliesFromCountriesWithinTheEC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12332">Omzetbelasting leveringen/diensten uit landen binnen EU</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxOnSuppliesFromCountriesWithinTheEC_loc" xlink:to="bd-ob_ValueAddedTaxOnSuppliesFromCountriesWithinTheEC_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxPrivateUse" xlink:label="bd-ob_ValueAddedTaxPrivateUse_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxPrivateUse_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12333">Omzetbelasting over privegebruik</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxPrivateUse_loc" xlink:to="bd-ob_ValueAddedTaxPrivateUse_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxOnSuppliesFromCountriesOutsideTheEC" xlink:label="bd-ob_ValueAddedTaxOnSuppliesFromCountriesOutsideTheEC_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxOnSuppliesFromCountriesOutsideTheEC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12334">Omzetbelasting leveringen/diensten uit landen buiten de EU</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxOnSuppliesFromCountriesOutsideTheEC_loc" xlink:to="bd-ob_ValueAddedTaxOnSuppliesFromCountriesOutsideTheEC_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxSuppliesServicesOtherRates" xlink:label="bd-ob_ValueAddedTaxSuppliesServicesOtherRates_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxSuppliesServicesOtherRates_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12335">Omzetbelasting leveringen/diensten overige tarieven</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxSuppliesServicesOtherRates_loc" xlink:to="bd-ob_ValueAddedTaxSuppliesServicesOtherRates_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxOwed" xlink:label="bd-ob_ValueAddedTaxOwed_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxOwed_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12336">Verschuldigde omzetbelasting</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxOwed_loc" xlink:to="bd-ob_ValueAddedTaxOwed_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxOwedToBePaidBack" xlink:label="bd-ob_ValueAddedTaxOwedToBePaidBack_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxOwedToBePaidBack_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12337">Totaal te betalen / terug te vragen</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxOwedToBePaidBack_loc" xlink:to="bd-ob_ValueAddedTaxOwedToBePaidBack_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxSuppliesServicesByWhichVATTaxationIsTransferred" xlink:label="bd-ob_ValueAddedTaxSuppliesServicesByWhichVATTaxationIsTransferred_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxSuppliesServicesByWhichVATTaxationIsTransferred_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12338">Omzetbelasting leveringen/diensten waarbij heffing is verlegd</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxSuppliesServicesByWhichVATTaxationIsTransferred_loc" xlink:to="bd-ob_ValueAddedTaxSuppliesServicesByWhichVATTaxationIsTransferred_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxSuppliesServicesGeneralTariff" xlink:label="bd-ob_ValueAddedTaxSuppliesServicesGeneralTariff_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxSuppliesServicesGeneralTariff_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12339">Omzetbelasting leveringen/diensten algemeen tarief</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxSuppliesServicesGeneralTariff_loc" xlink:to="bd-ob_ValueAddedTaxSuppliesServicesGeneralTariff_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxSuppliesServicesReducedTariff" xlink:label="bd-ob_ValueAddedTaxSuppliesServicesReducedTariff_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxSuppliesServicesReducedTariff_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12340">Omzetbelasting leveringen/diensten verlaagd tarief</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxSuppliesServicesReducedTariff_loc" xlink:to="bd-ob_ValueAddedTaxSuppliesServicesReducedTariff_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_CountryCodeISO-EC" xlink:label="bd-ob_CountryCodeISO-EC_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_CountryCodeISO-EC_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_12356">Landcode ISO EU</link:label>
+        <link:labelArc xlink:from="bd-ob_CountryCodeISO-EC_loc" xlink:to="bd-ob_CountryCodeISO-EC_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_CorrectionsServicesAmount" xlink:label="bd-ob_CorrectionsServicesAmount_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_CorrectionsServicesAmount_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_22273">Bedrag correcties diensten</link:label>
+        <link:labelArc xlink:from="bd-ob_CorrectionsServicesAmount_loc" xlink:to="bd-ob_CorrectionsServicesAmount_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ServicesAmount" xlink:label="bd-ob_ServicesAmount_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ServicesAmount_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_22274">Bedrag diensten</link:label>
+        <link:labelArc xlink:from="bd-ob_ServicesAmount_loc" xlink:to="bd-ob_ServicesAmount_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_VATIdentificationNumberNational" xlink:label="bd-ob_VATIdentificationNumberNational_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_VATIdentificationNumberNational_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24011">Nationaal BTW-identificatienummer</link:label>
+        <link:labelArc xlink:from="bd-ob_VATIdentificationNumberNational_loc" xlink:to="bd-ob_VATIdentificationNumberNational_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_VATIdentificationNumberNLFiscalEntityDivision" xlink:label="bd-ob_VATIdentificationNumberNLFiscalEntityDivision_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_VATIdentificationNumberNLFiscalEntityDivision_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_24012">BTW-identificatienummer onderdeel fiscale eenheid</link:label>
+        <link:labelArc xlink:from="bd-ob_VATIdentificationNumberNLFiscalEntityDivision_loc" xlink:to="bd-ob_VATIdentificationNumberNLFiscalEntityDivision_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxAmountTotalNew" xlink:label="bd-ob_ValueAddedTaxAmountTotalNew_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxAmountTotalNew_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_26912">Nieuw totaal bedrag</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxAmountTotalNew_loc" xlink:to="bd-ob_ValueAddedTaxAmountTotalNew_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ValueAddedTaxAmountTotalOld" xlink:label="bd-ob_ValueAddedTaxAmountTotalOld_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ValueAddedTaxAmountTotalOld_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_26913">Oud totaal bedrag</link:label>
+        <link:labelArc xlink:from="bd-ob_ValueAddedTaxAmountTotalOld_loc" xlink:to="bd-ob_ValueAddedTaxAmountTotalOld_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-omzetbelasting.xsd#bd-ob_ContactType" xlink:label="bd-ob_ContactType_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-ob_ContactType_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_26870">Soort contactpersoon</link:label>
+        <link:labelArc xlink:from="bd-ob_ContactType_loc" xlink:to="bd-ob_ContactType_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+    </link:labelLink>
+</link:linkbase>

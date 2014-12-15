@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/8.0/basis/venj/domains/bw2-domains-equity" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:bw2-dm-eqty="http://www.nltaxonomie.nl/8.0/basis/venj/domains/bw2-domains-equity" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="../../../basis/venj/domains/bw2-domains-equity-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="../../../basis/venj/domains/bw2-domains-equity-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/>
+  <xs:element id="bw2-dm-eqty_EquityComponentDomain" name="EquityComponentDomain" abstract="true" nillable="false" substitutionGroup="sbr:domainItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_RevaluationReserveComponentDomain" name="RevaluationReserveComponentDomain" abstract="true" nillable="false" substitutionGroup="sbr:domainItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_ShareCapitalComponentDomain" name="ShareCapitalComponentDomain" abstract="true" nillable="false" substitutionGroup="sbr:domainItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_ShareCapitalMember" name="ShareCapitalMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_SharePremiumMember" name="SharePremiumMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_RevaluationReserveMember" name="RevaluationReserveMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_LegalStatutoryReservesMember" name="LegalStatutoryReservesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_LegalReservesMember" name="LegalReservesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_StatutoryReservesMember" name="StatutoryReservesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_ReinvestmentReserveMember" name="ReinvestmentReserveMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_FiscalReservesOtherMember" name="FiscalReservesOtherMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_ReservesOtherMember" name="ReservesOtherMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_RetainedEarningsMember" name="RetainedEarningsMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_ResultForTheYearMember" name="ResultForTheYearMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_EquityMember" name="EquityMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_NoncontrollingInterestMember" name="NoncontrollingInterestMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_EquityGroupMember" name="EquityGroupMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_HedgedMember" name="HedgedMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_NoPriceQuotationInActiveMarketMember" name="NoPriceQuotationInActiveMarketMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_RecognisedDirectlyThroughEquityMember" name="RecognisedDirectlyThroughEquityMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_OrdinarySharesMember" name="OrdinarySharesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_PreferredSharesMember" name="PreferredSharesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_PrioritySharesMember" name="PrioritySharesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <xs:element id="bw2-dm-eqty_TreasurySharesMember" name="TreasurySharesMember" abstract="true" nillable="false" substitutionGroup="sbr:domainMemberItem" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+</xs:schema>

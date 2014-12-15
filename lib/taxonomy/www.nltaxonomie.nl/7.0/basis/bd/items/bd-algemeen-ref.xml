@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd">
+    <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:reference xlink:label="bd-alg_bd_def_117238_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2886">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>117238</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_117243_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2887">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>117243</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_117244_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2888">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>117244</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_117277_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2900">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>117277</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_117280_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_2903">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>117280</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_508145_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_4813">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>508145</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_508151_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_4866">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>508151</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_508144_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_4872">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>508144</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_200015_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5173">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>200015</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_4_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5219">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>4</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_5_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5220">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>5</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_6_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5221">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>6</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_7_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5222">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>7</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_10_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5223">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>10</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_9_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5224">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>9</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_11_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5225">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>11</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_8_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5226">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>8</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_12_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5227">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>12</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_94_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5517">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>94</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_97_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5520">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>97</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_98_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5521">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>98</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_99_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5522">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>99</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_105_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5728">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>105</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509205_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5957">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509205</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_513092_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5958">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>513092</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509207_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5960">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509207</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509209_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5961">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509209</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509208_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5962">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509208</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509210_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5963">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509210</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_513085_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5964">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>513085</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509197_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5966">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509197</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509198_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5967">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509198</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509204_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5968">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509204</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_513084_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5969">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>513084</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509202_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5970">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509202</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509201_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5971">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509201</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509199_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5972">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509199</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_509200_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5973">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>509200</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg_bd_def_163_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_6366">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>163</ref:Paragraph></link:reference>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorAddress" xlink:label="bd-alg_ConsultantAdvisorAddress_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_ConsultantAdvisorAddress_loc" xlink:to="bd-alg_bd_def_509202_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorBeconNumber" xlink:label="bd-alg_ConsultantAdvisorBeconNumber_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_ConsultantAdvisorBeconNumber_loc" xlink:to="bd-alg_bd_def_117280_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorCorrespondentName" xlink:label="bd-alg_ConsultantAdvisorCorrespondentName_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_ConsultantAdvisorCorrespondentName_loc" xlink:to="bd-alg_bd_def_509205_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorName" xlink:label="bd-alg_ConsultantAdvisorName_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_ConsultantAdvisorName_loc" xlink:to="bd-alg_bd_def_509201_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantAdvisorPlaceOfResidence" xlink:label="bd-alg_ConsultantAdvisorPlaceOfResidence_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_ConsultantAdvisorPlaceOfResidence_loc" xlink:to="bd-alg_bd_def_509204_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_ConsultantIdentificationMessageNumber" xlink:label="bd-alg_ConsultantIdentificationMessageNumber_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_ConsultantIdentificationMessageNumber_loc" xlink:to="bd-alg_bd_def_513092_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_DateCreation" xlink:label="bd-alg_DateCreation_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_DateCreation_loc" xlink:to="bd-alg_bd_def_509197_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_DateOfBirth" xlink:label="bd-alg_DateOfBirth_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_DateOfBirth_loc" xlink:to="bd-alg_bd_def_163_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_DateTimeCreation" xlink:label="bd-alg_DateTimeCreation_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_DateTimeCreation_loc" xlink:to="bd-alg_bd_def_508151_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_FeedbackSignalIndication" xlink:label="bd-alg_FeedbackSignalIndication_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_FeedbackSignalIndication_loc" xlink:to="bd-alg_bd_def_509207_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_FinancialYearEnd" xlink:label="bd-alg_FinancialYearEnd_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_FinancialYearEnd_loc" xlink:to="bd-alg_bd_def_509210_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_FinancialYearStart" xlink:label="bd-alg_FinancialYearStart_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_FinancialYearStart_loc" xlink:to="bd-alg_bd_def_509210_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_HouseNumberAbroad" xlink:label="bd-alg_HouseNumberAbroad_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_HouseNumberAbroad_loc" xlink:to="bd-alg_bd_def_4_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_HouseNumberAddition" xlink:label="bd-alg_HouseNumberAddition_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_HouseNumberAddition_loc" xlink:to="bd-alg_bd_def_5_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_HouseNumberNL" xlink:label="bd-alg_HouseNumberNL_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_HouseNumberNL_loc" xlink:to="bd-alg_bd_def_4_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_IdentificationServicebureau" xlink:label="bd-alg_IdentificationServicebureau_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_IdentificationServicebureau_loc" xlink:to="bd-alg_bd_def_105_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_Initials" xlink:label="bd-alg_Initials_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_Initials_loc" xlink:to="bd-alg_bd_def_9_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_IntermediaryBeconNumber" xlink:label="bd-alg_IntermediaryBeconNumber_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_IntermediaryBeconNumber_loc" xlink:to="bd-alg_bd_def_117277_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_MessageReferenceSupplierICP" xlink:label="bd-alg_MessageReferenceSupplierICP_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_MessageReferenceSupplierICP_loc" xlink:to="bd-alg_bd_def_99_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_MessageReferenceSupplierVAT" xlink:label="bd-alg_MessageReferenceSupplierVAT_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_MessageReferenceSupplierVAT_loc" xlink:to="bd-alg_bd_def_99_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_NameContactSupplier" xlink:label="bd-alg_NameContactSupplier_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_NameContactSupplier_loc" xlink:to="bd-alg_bd_def_508144_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_OperatingSystem" xlink:label="bd-alg_OperatingSystem_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_OperatingSystem_loc" xlink:to="bd-alg_bd_def_117238_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_PlaceOfResidenceAbroad" xlink:label="bd-alg_PlaceOfResidenceAbroad_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_PlaceOfResidenceAbroad_loc" xlink:to="bd-alg_bd_def_7_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_PlaceOfResidenceNL" xlink:label="bd-alg_PlaceOfResidenceNL_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_PlaceOfResidenceNL_loc" xlink:to="bd-alg_bd_def_7_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_PostalCodeAbroad" xlink:label="bd-alg_PostalCodeAbroad_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_PostalCodeAbroad_loc" xlink:to="bd-alg_bd_def_8_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_PostponementSchemeIndication" xlink:label="bd-alg_PostponementSchemeIndication_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_PostponementSchemeIndication_loc" xlink:to="bd-alg_bd_def_513084_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_Prefix" xlink:label="bd-alg_Prefix_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_Prefix_loc" xlink:to="bd-alg_bd_def_10_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SerialNumberMessage" xlink:label="bd-alg_SerialNumberMessage_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_SerialNumberMessage_loc" xlink:to="bd-alg_bd_def_509198_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SoftwareDeveloperName" xlink:label="bd-alg_SoftwareDeveloperName_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_SoftwareDeveloperName_loc" xlink:to="bd-alg_bd_def_509199_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SoftwareSupplierCode" xlink:label="bd-alg_SoftwareSupplierCode_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_SoftwareSupplierCode_loc" xlink:to="bd-alg_bd_def_94_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SoftwareVersionCodeName" xlink:label="bd-alg_SoftwareVersionCodeName_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_SoftwareVersionCodeName_loc" xlink:to="bd-alg_bd_def_509200_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_StreetNameAbroad" xlink:label="bd-alg_StreetNameAbroad_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_StreetNameAbroad_loc" xlink:to="bd-alg_bd_def_6_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_StreetNameNL" xlink:label="bd-alg_StreetNameNL_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_StreetNameNL_loc" xlink:to="bd-alg_bd_def_6_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SupplierCode" xlink:label="bd-alg_SupplierCode_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_SupplierCode_loc" xlink:to="bd-alg_bd_def_117243_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_SurnameSignificantPart" xlink:label="bd-alg_SurnameSignificantPart_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_SurnameSignificantPart_loc" xlink:to="bd-alg_bd_def_11_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxconsultantNumber" xlink:label="bd-alg_TaxconsultantNumber_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_TaxconsultantNumber_loc" xlink:to="bd-alg_bd_def_97_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxName" xlink:label="bd-alg_TaxName_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_TaxName_loc" xlink:to="bd-alg_bd_def_513085_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxpayerIdentificationNumber" xlink:label="bd-alg_TaxpayerIdentificationNumber_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_TaxpayerIdentificationNumber_loc" xlink:to="bd-alg_bd_def_509208_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxpayerName" xlink:label="bd-alg_TaxpayerName_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_TaxpayerName_loc" xlink:to="bd-alg_bd_def_509209_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TaxReturnMessageType" xlink:label="bd-alg_TaxReturnMessageType_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_TaxReturnMessageType_loc" xlink:to="bd-alg_bd_def_200015_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TelephoneNumber" xlink:label="bd-alg_TelephoneNumber_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_TelephoneNumber_loc" xlink:to="bd-alg_bd_def_12_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_TelephoneNumberContactSupplier" xlink:label="bd-alg_TelephoneNumberContactSupplier_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_TelephoneNumberContactSupplier_loc" xlink:to="bd-alg_bd_def_508145_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_VersionApplication" xlink:label="bd-alg_VersionApplication_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_VersionApplication_loc" xlink:to="bd-alg_bd_def_98_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-algemeen.xsd#bd-alg_VersionNumberApplication" xlink:label="bd-alg_VersionNumberApplication_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg_VersionNumberApplication_loc" xlink:to="bd-alg_bd_def_117244_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+    </link:referenceLink>
+</link:linkbase>

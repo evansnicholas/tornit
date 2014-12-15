@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Tue May 15 15:52:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:label xlink:type='resource' xlink:label='nl-cd_EmailAddressFull_terse_nl' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='nl' id='nl-cd_EmailAddressFull_terse_nl'>Email adres</link:label>
+		<link:label xlink:type='resource' xlink:label='nl-cd_FamilyName_terse_nl' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='nl' id='nl-cd_FamilyName_terse_nl'>Achternaam</link:label>
+		<link:label xlink:type='resource' xlink:label='nl-cd_FirstName_terse_nl' xlink:role='http://www.xbrl.org/2003/role/terseLabel' xml:lang='nl' id='nl-cd_FirstName_terse_nl'>Voornaam</link:label>
+		<link:labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='nl-cd_EmailAddressFull_loc' xlink:to='nl-cd_EmailAddressFull_terse_nl'/>
+		<link:labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='nl-cd_FamilyName_loc' xlink:to='nl-cd_FamilyName_terse_nl'/>
+		<link:labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='nl-cd_FirstName_loc' xlink:to='nl-cd_FirstName_terse_nl'/>
+		<link:loc xlink:type='locator' xlink:href='../../../basis/sbr/items/nl-common-data.xsd#nl-cd_EmailAddressFull' xlink:label='nl-cd_EmailAddressFull_loc'/>
+		<link:loc xlink:type='locator' xlink:href='../../../basis/sbr/items/nl-common-data.xsd#nl-cd_FamilyName' xlink:label='nl-cd_FamilyName_loc'/>
+		<link:loc xlink:type='locator' xlink:href='../../../basis/sbr/items/nl-common-data.xsd#nl-cd_FirstName' xlink:label='nl-cd_FirstName_loc'/>
+	</link:labelLink>
+</link:linkbase>

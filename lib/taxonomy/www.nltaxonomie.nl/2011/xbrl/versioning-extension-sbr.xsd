@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ver="http://xbrl.org/2010/versioning-base" xmlns:vercb="http://xbrl.org/2010/versioning-concept-basic" xmlns:versbr="http://www.nltaxonomie.nl/2011/xbrl/versioning-events-extended" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.nltaxonomie.nl/2011/xbrl/versioning-events-extended" elementFormDefault="qualified" attributeFormDefault="unqualified"
+  xsi:schemaLocation="http://xbrl.org/2010/versioning-base http://xbrl.org/2010/versioning-base
+                      http://xbrl.org/2010/concept-basic http://xbrl.org/2010/versioning-concept-basic">
+	<xs:import namespace="http://xbrl.org/2010/versioning-base" schemaLocation="versioning-base.xsd"/>
+	<xs:import namespace="http://xbrl.org/2010/versioning-concept-basic" schemaLocation="versioning-concept-basic.xsd"/>
+
+	<!-- Add/Delete concept childeren complexType -->
+	<xs:element id="xml-child-concept" name="childConcept" type="ver:name.type"/>
+	<xs:complexType id="xml-add.tuple.child.event.type" name="add.tuple.child.event.type">
+		<xs:complexContent>
+			<xs:restriction base="ver:event.type">
+				<xs:sequence>
+					<xs:element ref="vercb:toConcept"/>
+					<xs:element ref="versbr:childConcept"/>
+				</xs:sequence>
+			</xs:restriction>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType id="xml-delete.tuple.child.event.type" name="delete.tuple.child.event.type">
+		<xs:complexContent>
+			<xs:restriction base="ver:event.type">
+				<xs:sequence>
+					<xs:element ref="vercb:fromConcept"/>
+					<xs:element ref="versbr:childConcept"/>
+				</xs:sequence>
+			</xs:restriction>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- Custom events -->
+	<xs:element id="xml-tuple.child.add.event" name="tupleChildAdd" type="versbr:add.tuple.child.event.type" substitutionGroup="ver:event"/>
+	<xs:element id="xml-tuple.child.delete.event" name="tupleChildDelete" type="versbr:delete.tuple.child.event.type" substitutionGroup="ver:event"/>
+</xs:schema>

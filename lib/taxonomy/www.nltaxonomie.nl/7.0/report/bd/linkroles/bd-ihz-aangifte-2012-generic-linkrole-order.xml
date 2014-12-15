@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd">
+    <link:arcroleRef xlink:href="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-arcroles.xsd#sbr_linkrole-order" arcroleURI="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link" xlink:type="simple"/>
+    <link:roleRef xlink:href="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd#linkrole-info" roleURI="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="simple"/>
+    <gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_voorblad" xlink:label="voorblad_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_voorblad_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_35">02</sbr:linkroleOrder>
+        <gen:arc xlink:from="voorblad_loc" xlink:to="bd-links_voorblad_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_voorblad-ib-specifiek" xlink:label="voorblad-ib-specifiek_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_voorblad-ib-specifiek_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_55">03</sbr:linkroleOrder>
+        <gen:arc xlink:from="voorblad-ib-specifiek_loc" xlink:to="bd-links_voorblad-ib-specifiek_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_algemeen-deel" xlink:label="algemeen-deel_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_algemeen-deel_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_36">04</sbr:linkroleOrder>
+        <gen:arc xlink:from="algemeen-deel_loc" xlink:to="bd-links_algemeen-deel_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_balans-resultatenrekening" xlink:label="balans-resultatenrekening_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_balans-resultatenrekening_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_52">05</sbr:linkroleOrder>
+        <gen:arc xlink:from="balans-resultatenrekening_loc" xlink:to="bd-links_balans-resultatenrekening_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_balans-resultatenrekening-ib-specifiek" xlink:label="balans-resultatenrekening-ib-specifiek_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_balans-resultatenrekening-ib-specifiek_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_26">06</sbr:linkroleOrder>
+        <gen:arc xlink:from="balans-resultatenrekening-ib-specifiek_loc" xlink:to="bd-links_balans-resultatenrekening-ib-specifiek_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_agrarische-activiteiten" xlink:label="agrarische-activiteiten_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_agrarische-activiteiten_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_139">07</sbr:linkroleOrder>
+        <gen:arc xlink:from="agrarische-activiteiten_loc" xlink:to="bd-links_agrarische-activiteiten_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_investeringsaftrek" xlink:label="investeringsaftrek_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_investeringsaftrek_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_29">08</sbr:linkroleOrder>
+        <gen:arc xlink:from="investeringsaftrek_loc" xlink:to="bd-links_investeringsaftrek_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_buitenlandse-resultaten" xlink:label="buitenlandse-resultaten_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_buitenlandse-resultaten_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_53">10</sbr:linkroleOrder>
+        <gen:arc xlink:from="buitenlandse-resultaten_loc" xlink:to="bd-links_buitenlandse-resultaten_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_buitenlandse-resultaten-ib-specifiek" xlink:label="buitenlandse-resultaten-ib-specifiek_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_buitenlandse-resultaten-ib-specifiek_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_151">11</sbr:linkroleOrder>
+        <gen:arc xlink:from="buitenlandse-resultaten-ib-specifiek_loc" xlink:to="bd-links_buitenlandse-resultaten-ib-specifiek_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_winst-uit-zeescheepvaart" xlink:label="winst-uit-zeescheepvaart_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_winst-uit-zeescheepvaart_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_47">12</sbr:linkroleOrder>
+        <gen:arc xlink:from="winst-uit-zeescheepvaart_loc" xlink:to="bd-links_winst-uit-zeescheepvaart_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_winstberekening" xlink:label="winstberekening_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_winstberekening_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_54">13</sbr:linkroleOrder>
+        <gen:arc xlink:from="winstberekening_loc" xlink:to="bd-links_winstberekening_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_winstberekening-ib-specifiek" xlink:label="winstberekening-ib-specifiek_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_winstberekening-ib-specifiek_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_45">14</sbr:linkroleOrder>
+        <gen:arc xlink:from="winstberekening-ib-specifiek_loc" xlink:to="bd-links_winstberekening-ib-specifiek_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_toelichting-ib" xlink:label="toelichting-ib_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_toelichting-ib_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_64">15</sbr:linkroleOrder>
+        <gen:arc xlink:from="toelichting-ib_loc" xlink:to="bd-links_toelichting-ib_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_aangifte-inkomstenbelasting" xlink:label="aangifte-inkomstenbelasting_loc" xlink:type="locator"/>
+        <sbr:linkroleOrder xlink:label="bd-links_aangifte-inkomstenbelasting_res" xlink:role="http://www.nltaxonomie.nl/2011/role/linkrole-info" xlink:type="resource" id="bd_nrt_34">16</sbr:linkroleOrder>
+        <gen:arc xlink:from="aangifte-inkomstenbelasting_loc" xlink:to="bd-links_aangifte-inkomstenbelasting_res" xlink:arcrole="http://www.nltaxonomie.nl/2011/arcrole/linkrole-order" xlink:type="arc"/>
+    </gen:link>
+</link:linkbase>

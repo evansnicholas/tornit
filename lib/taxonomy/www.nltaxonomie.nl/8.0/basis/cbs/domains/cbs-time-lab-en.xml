@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="cbs-time.xsd#cbs-ti_TimeDomain" xlink:label="cbs-ti_TimeDomain_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-time.xsd#cbs-ti_PeriodStartMember" xlink:label="cbs-ti_PeriodStartMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-time.xsd#cbs-ti_PeriodEndMember" xlink:label="cbs-ti_PeriodEndMember_loc"/>
+    <link:label xlink:type="resource" xlink:label="cbs-ti_TimeDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-ti_TimeDomain_label_en">Time [Domain]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-ti_PeriodStartMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-ti_PeriodStartMember_label_en">Period start [Member]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-ti_PeriodEndMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="cbs-ti_PeriodEndMember_label_en">Period end [Member]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-ti_TimeDomain_loc" xlink:to="cbs-ti_TimeDomain_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-ti_PeriodStartMember_loc" xlink:to="cbs-ti_PeriodStartMember_label_en"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-ti_PeriodEndMember_loc" xlink:to="cbs-ti_PeriodEndMember_label_en"/>
+  </link:labelLink>
+</link:linkbase>

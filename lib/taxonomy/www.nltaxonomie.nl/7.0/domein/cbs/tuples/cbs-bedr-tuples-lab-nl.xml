@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"  xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:label id="cbs-bedr-tuples_ContactAddresses_label_nl" xlink:label="cbs-bedr-tuples_ContactAddresses_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Adresgegevens contactpersonen</link:label>
+      <link:label id="cbs-bedr-tuples_DutchAddress_label_nl" xlink:label="cbs-bedr-tuples_DutchAddress_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Adres binnenland</link:label>
+      <link:label id="cbs-bedr-tuples_EmailAddress_label_nl" xlink:label="cbs-bedr-tuples_EmailAddress_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Email adres</link:label>
+      <link:label id="cbs-bedr-tuples_EntityEmailaddress_label_nl" xlink:label="cbs-bedr-tuples_EntityEmailaddress_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Emailadres bedrijf</link:label>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-tuples_DutchAddress_loc" xlink:to="cbs-bedr-tuples_DutchAddress_label_nl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-tuples_EmailAddress_loc" xlink:to="cbs-bedr-tuples_EmailAddress_label_nl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-tuples_ContactAddresses_loc" xlink:to="cbs-bedr-tuples_ContactAddresses_label_nl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-tuples_EntityEmailaddress_loc" xlink:to="cbs-bedr-tuples_EntityEmailaddress_label_nl" xlink:type="arc"/>
+      <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_ContactAddresses" xlink:label="cbs-bedr-tuples_ContactAddresses_loc" xlink:type="locator"/>
+      <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_DutchAddress" xlink:label="cbs-bedr-tuples_DutchAddress_loc" xlink:type="locator"/>
+      <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_EmailAddress" xlink:label="cbs-bedr-tuples_EmailAddress_loc" xlink:type="locator"/>
+      <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_EntityEmailaddress" xlink:label="cbs-bedr-tuples_EntityEmailaddress_loc" xlink:type="locator"/>
+   </link:labelLink>
+</link:linkbase>

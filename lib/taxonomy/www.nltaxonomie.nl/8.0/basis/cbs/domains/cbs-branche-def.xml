@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_BrancheDomain" xlink:label="cbs-br_BrancheDomain_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_ConstructionMember" xlink:label="cbs-br_ConstructionMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_TradeMember" xlink:label="cbs-br_TradeMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_IndustryMember" xlink:label="cbs-br_IndustryMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_HealthMember" xlink:label="cbs-br_HealthMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_OtherBrancheMember" xlink:label="cbs-br_OtherBrancheMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-branche.xsd#cbs-br_TotalBrancheMember" xlink:label="cbs-br_TotalBrancheMember_loc"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-br_BrancheDomain_loc" xlink:to="cbs-br_ConstructionMember_loc" order="1.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-br_BrancheDomain_loc" xlink:to="cbs-br_TradeMember_loc" order="2.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-br_BrancheDomain_loc" xlink:to="cbs-br_IndustryMember_loc" order="3.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-br_BrancheDomain_loc" xlink:to="cbs-br_HealthMember_loc" order="4.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-br_BrancheDomain_loc" xlink:to="cbs-br_OtherBrancheMember_loc" order="5.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="cbs-br_BrancheDomain_loc" xlink:to="cbs-br_TotalBrancheMember_loc" order="5.0"/>
+  </link:definitionLink>
+</link:linkbase>

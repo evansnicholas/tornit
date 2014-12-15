@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/other-information" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_OtherInformation" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/other-information" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_InformationOtherTitle" xlink:label="kvk-abstr_InformationOtherTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ProvisionsArticlesAssociationSpecialGoverningControlStructureTitle" xlink:label="kvk-abstr_ProvisionsArticlesAssociationSpecialGoverningControlStructureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProvisionsArticlesAssociationSpecialGoverningControlStructure" xlink:label="kvk-i_ProvisionsArticlesAssociationSpecialGoverningControlStructure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ProfitCertificatesSimilarRightsTitle" xlink:label="kvk-abstr_ProfitCertificatesSimilarRightsTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ProfitCertificatesSimilarRights" xlink:label="kvk-i_ProfitCertificatesSimilarRights_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_InformationOtherTitle_loc" xlink:to="kvk-abstr_ProvisionsArticlesAssociationSpecialGoverningControlStructureTitle_loc" xlink:type="arc" order="12"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ProvisionsArticlesAssociationSpecialGoverningControlStructureTitle_loc" xlink:to="kvk-i_ProvisionsArticlesAssociationSpecialGoverningControlStructure_loc" xlink:type="arc" order="13"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_InformationOtherTitle_loc" xlink:to="kvk-abstr_ProfitCertificatesSimilarRightsTitle_loc" xlink:type="arc" order="14"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ProfitCertificatesSimilarRightsTitle_loc" xlink:to="kvk-i_ProfitCertificatesSimilarRights_loc" xlink:type="arc" order="15"/>
+  </link:presentationLink>
+</link:linkbase>

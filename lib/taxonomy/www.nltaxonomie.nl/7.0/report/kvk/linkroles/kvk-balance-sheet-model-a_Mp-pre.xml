@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/balance-sheet-model-a" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_BalanceSheetModelA" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/balance-sheet-model-a" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IntangibleAssetsTitle" xlink:label="kvk-abstr_IntangibleAssetsTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IntangibleAssetsOther" xlink:label="kvk-i_IntangibleAssetsOther_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_FinancialAssetsTitle" xlink:label="kvk-abstr_FinancialAssetsTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialAssetsOther" xlink:label="kvk-i_FinancialAssetsOther_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IntangibleAssetsTitle_loc" xlink:to="kvk-i_IntangibleAssetsOther_loc" xlink:type="arc" order="9"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="kvk-i_FinancialAssetsOther_loc" xlink:type="arc" order="29"/>
+	</link:presentationLink>
+</link:linkbase>

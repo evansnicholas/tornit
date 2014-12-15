@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+        <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_ContactAddresses" xlink:label="cbs-bedr-tuples_ContactAddresses_loc" xlink:type="locator"/>
+        <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_DutchAddress" xlink:label="cbs-bedr-tuples_DutchAddress_loc" xlink:type="locator"/>
+        <link:loc xlink:href="cbs-bedr-tuples.xsd#cbs-bedr-tuples_EntityEmailaddress" xlink:label="cbs-bedr-tuples_EntityEmailaddress_loc" xlink:type="locator"/>
+		<link:reference xlink:type="resource" xlink:label="none_reference" xlink:role="http://www.xbrl.org/2003/role/reference" id="none_reference">
+		  <ref:Name>Geen referentie opgeleverd.</ref:Name>
+		</link:reference>
+		<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="cbs-bedr-tuples_ContactAddresses_loc" xlink:to="none_reference"/>
+		<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="cbs-bedr-tuples_DutchAddress_loc" xlink:to="none_reference"/>
+		<link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="cbs-bedr-tuples_EntityEmailaddress_loc" xlink:to="none_reference"/>
+	</link:referenceLink>
+</link:linkbase>

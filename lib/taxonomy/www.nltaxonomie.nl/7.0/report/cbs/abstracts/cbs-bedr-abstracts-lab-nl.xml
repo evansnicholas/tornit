@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"  xmlns:xlink="http://www.w3.org/1999/xlink" >
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:label xlink:label="cbs-bedr-a_CBSIncomeStatement_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl" id="cbs-bedr-a_CBSIncomeStatement_label_nl">Productiestatistiek</link:label>
+      <link:label xlink:label="cbs-bedr-a_CBSShorttermStatistic_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl" id="cbs-bedr-a_CBSShorttermStatistic_label_nl">Kortetermijn statistiek</link:label>
+      <link:label xlink:label="cbs-bedr-a_GlobalCommonDocumentTaxonomyCBS_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl" id="cbs-bedr-a_GlobalCommonDocumentTaxonomyCBS_label_nl">Verzamelelement voor contactinformatie</link:label>
+      <link:label xlink:label="cbs-bedr-a_InvestmentsAndSalesofTangibleFixedAsstes_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl" id="cbs-bedr-a_InvestmentsAndSalesofTangibleFixedAsstes_label_nl">Investeringen en desinvesteringen materiele vaste activa</link:label>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-a_CBSIncomeStatement_loc" xlink:to="cbs-bedr-a_CBSIncomeStatement_label_nl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-a_CBSShorttermStatistic_loc" xlink:to="cbs-bedr-a_CBSShorttermStatistic_label_nl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-a_InvestmentsAndSalesofTangibleFixedAsstes_loc" xlink:to="cbs-bedr-a_InvestmentsAndSalesofTangibleFixedAsstes_label_nl" xlink:type="arc"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-bedr-a_GlobalCommonDocumentTaxonomyCBS_loc" xlink:to="cbs-bedr-a_GlobalCommonDocumentTaxonomyCBS_label_nl" xlink:type="arc"/>
+      <link:loc xlink:href="cbs-bedr-abstracts.xsd#cbs-bedr-a_CBSIncomeStatement" xlink:label="cbs-bedr-a_CBSIncomeStatement_loc" xlink:type="locator"/>
+      <link:loc xlink:href="cbs-bedr-abstracts.xsd#cbs-bedr-a_CBSShorttermStatistic" xlink:label="cbs-bedr-a_CBSShorttermStatistic_loc" xlink:type="locator"/>
+      <link:loc xlink:href="cbs-bedr-abstracts.xsd#cbs-bedr-a_GlobalCommonDocumentTaxonomyCBS" xlink:label="cbs-bedr-a_GlobalCommonDocumentTaxonomyCBS_loc" xlink:type="locator"/>
+      <link:loc xlink:href="cbs-bedr-abstracts.xsd#cbs-bedr-a_InvestmentsAndSalesofTangibleFixedAsstes" xlink:label="cbs-bedr-a_InvestmentsAndSalesofTangibleFixedAsstes_loc" xlink:type="locator"/>
+   </link:labelLink>
+</link:linkbase>

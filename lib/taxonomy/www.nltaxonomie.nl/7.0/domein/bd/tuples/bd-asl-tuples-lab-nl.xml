@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_TaxData" xlink:label="bd-asl-tuple_TaxData_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-asl-tuple_TaxData_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25561">Belastingdienst gegevens, aanslag</link:label>
+        <link:labelArc xlink:from="bd-asl-tuple_TaxData_loc" xlink:to="bd-asl-tuple_TaxData_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_IncomePresentEmploymentSpecification" xlink:label="bd-asl-tuple_IncomePresentEmploymentSpecification_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-asl-tuple_IncomePresentEmploymentSpecification_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25670">Loon tegenwoordige arbeid, specificatie</link:label>
+        <link:labelArc xlink:from="bd-asl-tuple_IncomePresentEmploymentSpecification_loc" xlink:to="bd-asl-tuple_IncomePresentEmploymentSpecification_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_IncomePreviousEmploymentSpecification" xlink:label="bd-asl-tuple_IncomePreviousEmploymentSpecification_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-asl-tuple_IncomePreviousEmploymentSpecification_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25690">Loon vroegere arbeid, specificatie</link:label>
+        <link:labelArc xlink:from="bd-asl-tuple_IncomePreviousEmploymentSpecification_loc" xlink:to="bd-asl-tuple_IncomePreviousEmploymentSpecification_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_NameAddressSenderSpecification" xlink:label="bd-asl-tuple_NameAddressSenderSpecification_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-asl-tuple_NameAddressSenderSpecification_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25938">Naam en adresgegevens geadresseerde, specificatie</link:label>
+        <link:labelArc xlink:from="bd-asl-tuple_NameAddressSenderSpecification_loc" xlink:to="bd-asl-tuple_NameAddressSenderSpecification_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_NameAddressTaxpayerSpecification" xlink:label="bd-asl-tuple_NameAddressTaxpayerSpecification_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-asl-tuple_NameAddressTaxpayerSpecification_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25941">Naam en adresgegevens belastingplichtige, specificatie</link:label>
+        <link:labelArc xlink:from="bd-asl-tuple_NameAddressTaxpayerSpecification_loc" xlink:to="bd-asl-tuple_NameAddressTaxpayerSpecification_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-asl-tuples.xsd#bd-asl-tuple_NameAddressTaxconsultantSpecification" xlink:label="bd-asl-tuple_NameAddressTaxconsultantSpecification_loc" xlink:type="locator"/>
+        <link:label xlink:label="bd-asl-tuple_NameAddressTaxconsultantSpecification_label_nl" xml:lang="nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="bd_clr_25942">Naam en adresgegevens belastingconsulent, specificatie</link:label>
+        <link:labelArc xlink:from="bd-asl-tuple_NameAddressTaxconsultantSpecification_loc" xlink:to="bd-asl-tuple_NameAddressTaxconsultantSpecification_label_nl" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+    </link:labelLink>
+</link:linkbase>

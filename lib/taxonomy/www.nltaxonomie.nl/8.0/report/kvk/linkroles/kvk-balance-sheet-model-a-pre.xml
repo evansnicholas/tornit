@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="urn:venj:linkrole:balance-sheet" xlink:href="../../venj/linkroles/venj-linkroles-pre.xsd#venj-plr_BalanceSheet" xlink:type="simple"/>
+  <link:presentationLink xlink:role="urn:venj:linkrole:balance-sheet" xlink:type="extended">
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_BalanceSheetTitle" xlink:label="kvk-abstr_BalanceSheetTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_BalanceSheetBeforeAfterAppropriationResults" xlink:label="bw2-i_BalanceSheetBeforeAfterAppropriationResults_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_AssetsNoncurrentTitle" xlink:label="kvk-abstr_AssetsNoncurrentTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IntangibleAssetsTitle" xlink:label="kvk-abstr_IntangibleAssetsTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Goodwill" xlink:label="bw2-i_Goodwill_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_IntangibleAssets" xlink:label="bw2-i_IntangibleAssets_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_PropertyPlantEquipmentTitle" xlink:label="kvk-abstr_PropertyPlantEquipmentTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LandAndBuildings" xlink:label="bw2-i_LandAndBuildings_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Machinery" xlink:label="bw2-i_Machinery_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_TangibleAssetsOther" xlink:label="bw2-i_TangibleAssetsOther_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ConstructionInProgressPrepaymentsPropertyPlantEquipment" xlink:label="bw2-i_ConstructionInProgressPrepaymentsPropertyPlantEquipment_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_InvestmentProperty" xlink:label="rj-i_InvestmentProperty_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AssetsNotUsedInOperations" xlink:label="bw2-i_AssetsNotUsedInOperations_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PropertyPlantEquipment" xlink:label="bw2-i_PropertyPlantEquipment_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_FinancialAssetsTitle" xlink:label="kvk-abstr_FinancialAssetsTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_InvestmentsGroupCompanies" xlink:label="bw2-i_InvestmentsGroupCompanies_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_InvestmentsOtherRelatedParties" xlink:label="rj-i_InvestmentsOtherRelatedParties_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReceivablesGroupCompaniesNoncurrent" xlink:label="bw2-i_ReceivablesGroupCompaniesNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ReceivablesOtherRelatedPartiesNoncurrent" xlink:label="rj-i_ReceivablesOtherRelatedPartiesNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_InvestmentsOther" xlink:label="bw2-i_InvestmentsOther_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReceivablesShareholdersParticipatingInterestsNoncurrent" xlink:label="bw2-i_ReceivablesShareholdersParticipatingInterestsNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_FinancialAssets" xlink:label="bw2-i_FinancialAssets_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AssetsNoncurrent" xlink:label="bw2-i_AssetsNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_AssetsCurrentTitle" xlink:label="kvk-abstr_AssetsCurrentTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_InventoriesTitle" xlink:label="kvk-abstr_InventoriesTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Inventories" xlink:label="bw2-i_Inventories_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ConstructionContractsAssets" xlink:label="rj-i_ConstructionContractsAssets_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ReceivablesTitle" xlink:label="kvk-abstr_ReceivablesTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReceivablesGroupCompaniesCurrent" xlink:label="bw2-i_ReceivablesGroupCompaniesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ReceivablesOtherRelatedPartiesCurrent" xlink:label="rj-i_ReceivablesOtherRelatedPartiesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReceivablesShareholdersParticipatingInterestsCurrent" xlink:label="bw2-i_ReceivablesShareholdersParticipatingInterestsCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReceivablesOtherCurrent" xlink:label="bw2-i_ReceivablesOtherCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_DeferredTaxAssetsCurrent" xlink:label="rj-i_DeferredTaxAssetsCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AccruedIncome" xlink:label="bw2-i_AccruedIncome_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Receivables" xlink:label="bw2-i_Receivables_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Securities" xlink:label="bw2-i_Securities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_CashAndCashEquivalents" xlink:label="bw2-i_CashAndCashEquivalents_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AssetsCurrent" xlink:label="bw2-i_AssetsCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_LiabilitiesCurrentTitle" xlink:label="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SubordinatedLoansCurrent" xlink:label="bw2-i_SubordinatedLoansCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ConvertibleBorrowingsCurrent" xlink:label="bw2-i_ConvertibleBorrowingsCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_DebenturesOtherPrivateLoansCurrent" xlink:label="bw2-i_DebenturesOtherPrivateLoansCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_FinanceLeaseLiabilitiesCurrent" xlink:label="rj-i_FinanceLeaseLiabilitiesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PayablesCreditInstitutionsCurrent" xlink:label="bw2-i_PayablesCreditInstitutionsCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PayablesGroupCompaniesCurrent" xlink:label="bw2-i_PayablesGroupCompaniesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PayablesOtherRelatedPartiesCurrent" xlink:label="rj-i_PayablesOtherRelatedPartiesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PayablesShareholdersParticipatingInterestsCurrent" xlink:label="bw2-i_PayablesShareholdersParticipatingInterestsCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PayablesOtherCurrent" xlink:label="bw2-i_PayablesOtherCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AccrualsCurrent" xlink:label="bw2-i_AccrualsCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_ConstructionContractsLiabilities" xlink:label="rj-i_ConstructionContractsLiabilities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LiabilitiesCurrent" xlink:label="bw2-i_LiabilitiesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_OutcomeAssetsCurrentLessLiabilitiesCurrent" xlink:label="bw2-i_OutcomeAssetsCurrentLessLiabilitiesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_OutcomeAssetsLessLiabilitiesCurrent" xlink:label="bw2-i_OutcomeAssetsLessLiabilitiesCurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_LiabilitiesNoncurrentTitle" xlink:label="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SubordinatedLoansNoncurrent" xlink:label="bw2-i_SubordinatedLoansNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ConvertibleBorrowingsNoncurrent" xlink:label="bw2-i_ConvertibleBorrowingsNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_DebenturesOtherPrivateLoansNoncurrent" xlink:label="bw2-i_DebenturesOtherPrivateLoansNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_FinanceLeaseLiabilitiesNoncurrent" xlink:label="rj-i_FinanceLeaseLiabilitiesNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PayablesCreditInstitutionsNoncurrent" xlink:label="bw2-i_PayablesCreditInstitutionsNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PayablesGroupCompaniesNoncurrent" xlink:label="bw2-i_PayablesGroupCompaniesNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_PayablesOtherRelatedPartiesNoncurrent" xlink:label="rj-i_PayablesOtherRelatedPartiesNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PayablesShareholdersParticipatingInterestsNoncurrent" xlink:label="bw2-i_PayablesShareholdersParticipatingInterestsNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/rj/items/rj-data.xsd#rj-i_NegativeGoodwill" xlink:label="rj-i_NegativeGoodwill_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_PayablesOtherNoncurrent" xlink:label="bw2-i_PayablesOtherNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_AccrualsNoncurrent" xlink:label="bw2-i_AccrualsNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LiabilitiesNoncurrent" xlink:label="bw2-i_LiabilitiesNoncurrent_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_ProvisionsTitle" xlink:label="kvk-abstr_ProvisionsTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ProvisionPensionObligations" xlink:label="bw2-i_ProvisionPensionObligations_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ProvisionTaxLiabilities" xlink:label="bw2-i_ProvisionTaxLiabilities_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ProvisionsOther" xlink:label="bw2-i_ProvisionsOther_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Provisions" xlink:label="bw2-i_Provisions_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_EquityTitle" xlink:label="kvk-abstr_EquityTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ShareCapital" xlink:label="bw2-i_ShareCapital_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_SharePremium" xlink:label="bw2-i_SharePremium_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_RevaluationReserve" xlink:label="bw2-i_RevaluationReserve_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_LegalStatutoryReservesTitle" xlink:label="kvk-abstr_LegalStatutoryReservesTitle_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_LegalReserves" xlink:label="bw2-i_LegalReserves_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_StatutoryReserves" xlink:label="bw2-i_StatutoryReserves_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ReservesOther" xlink:label="bw2-i_ReservesOther_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_RetainedEarnings" xlink:label="bw2-i_RetainedEarnings_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_ResultForTheYear" xlink:label="bw2-i_ResultForTheYear_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_Equity" xlink:label="bw2-i_Equity_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_NoncontrollingInterest" xlink:label="bw2-i_NoncontrollingInterest_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/items/bw2-data.xsd#bw2-i_EquityGroup" xlink:label="bw2-i_EquityGroup_loc" xlink:type="locator"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_BalanceSheetTitle_loc" xlink:to="bw2-i_BalanceSheetBeforeAfterAppropriationResults_loc" xlink:type="arc" order="1001"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_BalanceSheetTitle_loc" xlink:to="kvk-abstr_AssetsNoncurrentTitle_loc" xlink:type="arc" order="1002"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsNoncurrentTitle_loc" xlink:to="kvk-abstr_IntangibleAssetsTitle_loc" xlink:type="arc" order="1003"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IntangibleAssetsTitle_loc" xlink:to="bw2-i_Goodwill_loc" xlink:type="arc" order="1007"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IntangibleAssetsTitle_loc" xlink:to="bw2-i_IntangibleAssets_loc" xlink:type="arc" order="1010"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsNoncurrentTitle_loc" xlink:to="kvk-abstr_PropertyPlantEquipmentTitle_loc" xlink:type="arc" order="1011"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_PropertyPlantEquipmentTitle_loc" xlink:to="bw2-i_LandAndBuildings_loc" xlink:type="arc" order="1012"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_PropertyPlantEquipmentTitle_loc" xlink:to="bw2-i_Machinery_loc" xlink:type="arc" order="1013"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_PropertyPlantEquipmentTitle_loc" xlink:to="bw2-i_TangibleAssetsOther_loc" xlink:type="arc" order="1014"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_PropertyPlantEquipmentTitle_loc" xlink:to="bw2-i_ConstructionInProgressPrepaymentsPropertyPlantEquipment_loc" xlink:type="arc" order="1015"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_PropertyPlantEquipmentTitle_loc" xlink:to="rj-i_InvestmentProperty_loc" xlink:type="arc" order="1016"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_PropertyPlantEquipmentTitle_loc" xlink:to="bw2-i_AssetsNotUsedInOperations_loc" xlink:type="arc" order="1017"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_PropertyPlantEquipmentTitle_loc" xlink:to="bw2-i_PropertyPlantEquipment_loc" xlink:type="arc" order="1018"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsNoncurrentTitle_loc" xlink:to="kvk-abstr_FinancialAssetsTitle_loc" xlink:type="arc" order="1019"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="bw2-i_InvestmentsGroupCompanies_loc" xlink:type="arc" order="1020"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="rj-i_InvestmentsOtherRelatedParties_loc" xlink:type="arc" order="1021"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="bw2-i_ReceivablesGroupCompaniesNoncurrent_loc" xlink:type="arc" order="1022" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="rj-i_ReceivablesOtherRelatedPartiesNoncurrent_loc" xlink:type="arc" order="1023" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="bw2-i_InvestmentsOther_loc" xlink:type="arc" order="1024"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="bw2-i_ReceivablesShareholdersParticipatingInterestsNoncurrent_loc" xlink:type="arc" order="1025" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_FinancialAssetsTitle_loc" xlink:to="bw2-i_FinancialAssets_loc" xlink:type="arc" order="1030"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsNoncurrentTitle_loc" xlink:to="bw2-i_AssetsNoncurrent_loc" xlink:type="arc" order="1031"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_BalanceSheetTitle_loc" xlink:to="kvk-abstr_AssetsCurrentTitle_loc" xlink:type="arc" order="1032"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsCurrentTitle_loc" xlink:to="kvk-abstr_InventoriesTitle_loc" xlink:type="arc" order="1033"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_InventoriesTitle_loc" xlink:to="bw2-i_Inventories_loc" xlink:type="arc" order="1038"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsCurrentTitle_loc" xlink:to="rj-i_ConstructionContractsAssets_loc" xlink:type="arc" order="1039" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsCurrentTitle_loc" xlink:to="kvk-abstr_ReceivablesTitle_loc" xlink:type="arc" order="1040"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="bw2-i_ReceivablesGroupCompaniesCurrent_loc" xlink:type="arc" order="1042" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="rj-i_ReceivablesOtherRelatedPartiesCurrent_loc" xlink:type="arc" order="1043" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="bw2-i_ReceivablesShareholdersParticipatingInterestsCurrent_loc" xlink:type="arc" order="1044" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="bw2-i_ReceivablesOtherCurrent_loc" xlink:type="arc" order="1045" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="rj-i_DeferredTaxAssetsCurrent_loc" xlink:type="arc" order="1046" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="bw2-i_AccruedIncome_loc" xlink:type="arc" order="1050"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ReceivablesTitle_loc" xlink:to="bw2-i_Receivables_loc" xlink:type="arc" order="1051"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsCurrentTitle_loc" xlink:to="bw2-i_Securities_loc" xlink:type="arc" order="1052"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsCurrentTitle_loc" xlink:to="bw2-i_CashAndCashEquivalents_loc" xlink:type="arc" order="1053"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_AssetsCurrentTitle_loc" xlink:to="bw2-i_AssetsCurrent_loc" xlink:type="arc" order="1054"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_BalanceSheetTitle_loc" xlink:to="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:type="arc" order="1055"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_SubordinatedLoansCurrent_loc" xlink:type="arc" order="1056" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_ConvertibleBorrowingsCurrent_loc" xlink:type="arc" order="1057" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_DebenturesOtherPrivateLoansCurrent_loc" xlink:type="arc" order="1058" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="rj-i_FinanceLeaseLiabilitiesCurrent_loc" xlink:type="arc" order="1059" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_PayablesCreditInstitutionsCurrent_loc" xlink:type="arc" order="1060" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_PayablesGroupCompaniesCurrent_loc" xlink:type="arc" order="1064" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="rj-i_PayablesOtherRelatedPartiesCurrent_loc" xlink:type="arc" order="1065" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_PayablesShareholdersParticipatingInterestsCurrent_loc" xlink:type="arc" order="1066" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_PayablesOtherCurrent_loc" xlink:type="arc" order="1069" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_AccrualsCurrent_loc" xlink:type="arc" order="1070" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="rj-i_ConstructionContractsLiabilities_loc" xlink:type="arc" order="1071" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesCurrentTitle_loc" xlink:to="bw2-i_LiabilitiesCurrent_loc" xlink:type="arc" order="1072" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_BalanceSheetTitle_loc" xlink:to="bw2-i_OutcomeAssetsCurrentLessLiabilitiesCurrent_loc" xlink:type="arc" order="1073"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_BalanceSheetTitle_loc" xlink:to="bw2-i_OutcomeAssetsLessLiabilitiesCurrent_loc" xlink:type="arc" order="1074"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_BalanceSheetTitle_loc" xlink:to="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:type="arc" order="1075"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_SubordinatedLoansNoncurrent_loc" xlink:type="arc" order="1076" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_ConvertibleBorrowingsNoncurrent_loc" xlink:type="arc" order="1077" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_DebenturesOtherPrivateLoansNoncurrent_loc" xlink:type="arc" order="1078" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="rj-i_FinanceLeaseLiabilitiesNoncurrent_loc" xlink:type="arc" order="1079" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_PayablesCreditInstitutionsNoncurrent_loc" xlink:type="arc" order="1080" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_PayablesGroupCompaniesNoncurrent_loc" xlink:type="arc" order="1084" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="rj-i_PayablesOtherRelatedPartiesNoncurrent_loc" xlink:type="arc" order="1085" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_PayablesShareholdersParticipatingInterestsNoncurrent_loc" xlink:type="arc" order="1086" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="rj-i_NegativeGoodwill_loc" xlink:type="arc" order="1089"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_PayablesOtherNoncurrent_loc" xlink:type="arc" order="1090" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_AccrualsNoncurrent_loc" xlink:type="arc" order="1091" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LiabilitiesNoncurrentTitle_loc" xlink:to="bw2-i_LiabilitiesNoncurrent_loc" xlink:type="arc" order="1092"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_BalanceSheetTitle_loc" xlink:to="kvk-abstr_ProvisionsTitle_loc" xlink:type="arc" order="1093"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ProvisionsTitle_loc" xlink:to="bw2-i_ProvisionPensionObligations_loc" xlink:type="arc" order="1094"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ProvisionsTitle_loc" xlink:to="bw2-i_ProvisionTaxLiabilities_loc" xlink:type="arc" order="1095"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ProvisionsTitle_loc" xlink:to="bw2-i_ProvisionsOther_loc" xlink:type="arc" order="1096"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_ProvisionsTitle_loc" xlink:to="bw2-i_Provisions_loc" xlink:type="arc" order="1097"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_BalanceSheetTitle_loc" xlink:to="kvk-abstr_EquityTitle_loc" xlink:type="arc" order="1098"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="bw2-i_ShareCapital_loc" xlink:type="arc" order="1099"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="bw2-i_SharePremium_loc" xlink:type="arc" order="1100"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="bw2-i_RevaluationReserve_loc" xlink:type="arc" order="1101"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="kvk-abstr_LegalStatutoryReservesTitle_loc" xlink:type="arc" order="1102"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LegalStatutoryReservesTitle_loc" xlink:to="bw2-i_LegalReserves_loc" xlink:type="arc" order="1103"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_LegalStatutoryReservesTitle_loc" xlink:to="bw2-i_StatutoryReserves_loc" xlink:type="arc" order="1104"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="bw2-i_ReservesOther_loc" xlink:type="arc" order="1105"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="bw2-i_RetainedEarnings_loc" xlink:type="arc" order="1106"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="bw2-i_ResultForTheYear_loc" xlink:type="arc" order="1107"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="bw2-i_Equity_loc" xlink:type="arc" order="1108"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="bw2-i_NoncontrollingInterest_loc" xlink:type="arc" order="1109"/>
+    <link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EquityTitle_loc" xlink:to="bw2-i_EquityGroup_loc" xlink:type="arc" order="1110"/>
+  </link:presentationLink>
+</link:linkbase>

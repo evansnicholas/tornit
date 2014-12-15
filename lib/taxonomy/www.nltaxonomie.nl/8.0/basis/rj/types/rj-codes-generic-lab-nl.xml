@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd" xmlns:label="http://xbrl.org/2008/label" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gen="http://xbrl.org/2008/generic">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rj-codes_Event_Initieel_loc" xlink:to="rj-codes_Event_Initieel_label_nl"/>
+    <label:label xlink:type="resource" id="rj-codes_Event_Initieel_label_nl" xlink:label="rj-codes_Event_Initieel_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Initiële gebeurtenis</label:label>
+    <link:loc xlink:type="locator" xlink:href="rj-codes.xsd#rj-codes_Event_Initieel" xlink:label="rj-codes_Event_Initieel_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rj-codes_Event_Update_loc" xlink:to="rj-codes_Event_Update_label_nl"/>
+    <label:label xlink:type="resource" id="rj-codes_Event_Update_label_nl" xlink:label="rj-codes_Event_Update_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Update van gebeurtenis</label:label>
+    <link:loc xlink:type="locator" xlink:href="rj-codes.xsd#rj-codes_Event_Update" xlink:label="rj-codes_Event_Update_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rj-codes_Construction_Contracts_Debet_loc" xlink:to="rj-codes_Construction_Contracts_Debet_label_nl"/>
+    <label:label xlink:type="resource" id="rj-codes_Construction_Contracts_Debet_label_nl" xlink:label="rj-codes_Construction_Contracts_Debet_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Debet (actief)</label:label>
+    <link:loc xlink:type="locator" xlink:href="rj-codes.xsd#rj-codes_Construction_Contracts_Debet" xlink:label="rj-codes_Construction_Contracts_Debet_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rj-codes_Construction_Contracts_Credit_loc" xlink:to="rj-codes_Construction_Contracts_Credit_label_nl"/>
+    <label:label xlink:type="resource" id="rj-codes_Construction_Contracts_Credit_label_nl" xlink:label="rj-codes_Construction_Contracts_Credit_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Credit (passief)</label:label>
+    <link:loc xlink:type="locator" xlink:href="rj-codes.xsd#rj-codes_Construction_Contracts_Credit" xlink:label="rj-codes_Construction_Contracts_Credit_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rj-codes_Construction_Contracts_GesaldeerdDebet_loc" xlink:to="rj-codes_Construction_Contracts_GesaldeerdDebet_label_nl"/>
+    <label:label xlink:type="resource" id="rj-codes_Construction_Contracts_GesaldeerdDebet_label_nl" xlink:label="rj-codes_Construction_Contracts_GesaldeerdDebet_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Debet (gesaldeerd)</label:label>
+    <link:loc xlink:type="locator" xlink:href="rj-codes.xsd#rj-codes_Construction_Contracts_GesaldeerdDebet" xlink:label="rj-codes_Construction_Contracts_GesaldeerdDebet_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="rj-codes_Construction_Contracts_GesaldeerdCredit_loc" xlink:to="rj-codes_Construction_Contracts_GesaldeerdCredit_label_nl"/>
+    <label:label xlink:type="resource" id="rj-codes_Construction_Contracts_GesaldeerdCredit_label_nl" xlink:label="rj-codes_Construction_Contracts_GesaldeerdCredit_label_nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Credit (gesaldeerd)</label:label>
+    <link:loc xlink:type="locator" xlink:href="rj-codes.xsd#rj-codes_Construction_Contracts_GesaldeerdCredit" xlink:label="rj-codes_Construction_Contracts_GesaldeerdCredit_loc"/>
+  </gen:link>
+</link:linkbase>

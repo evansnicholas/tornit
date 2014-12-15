@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) Intellectual Property State of the Netherlands Version 
+	7.0 Released by the Dutch SBR Programme Release date Thu Nov 30 10:14:00 2012 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase"
+	xmlns:kvk-dim="http://www.nltaxonomie.nl/7.0/domein/kvk/axes/kvk-axes" attributeFormDefault="unqualified"
+	elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/7.0/domein/kvk/axes/kvk-axes">
+	<xs:annotation>
+		<xs:appinfo>
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-axes-lab-en.xml"
+				xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+			<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-axes-lab-nl.xml"
+				xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+		</xs:appinfo>
+	</xs:annotation>
+	<xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+	<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+	<xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+	<xs:element id="kvk-dim_BasisOfPreparationAxis" name="BasisOfPreparationAxis" abstract="true" nillable="false"
+		substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_FinancialStatementsTypeAxis" name="FinancialStatementsTypeAxis" abstract="true"
+		nillable="false" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_IntangibleAssetsComponentsAxis" name="IntangibleAssetsComponentsAxis" abstract="true"
+		nillable="false" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_PropertyPlantEquipmentComponentsAxis" name="PropertyPlantEquipmentComponentsAxis"
+		abstract="true" nillable="false" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"
+		xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_FinancialAssetsComponentsAxis" name="FinancialAssetsComponentsAxis" abstract="true"
+		nillable="false" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_EquityComponentsAxis" name="EquityComponentsAxis" abstract="true" nillable="false"
+		substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_ShareCapitalComponentsAxis" name="ShareCapitalComponentsAxis" abstract="true"
+		nillable="false" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_RevaluationReserveComponentsAxis" name="RevaluationReserveComponentsAxis" abstract="true"
+		nillable="false" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_ProvisionsComponentsAxis" name="ProvisionsComponentsAxis" abstract="true" nillable="false"
+		substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_NegativeGoodwillComponentsAxis" name="NegativeGoodwillComponentsAxis" abstract="true"
+		nillable="false" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+	<xs:element id="kvk-dim_RightsGrantedNotYetExercisedComponentsAxis" name="RightsGrantedNotYetExercisedComponentsAxis"
+		abstract="true" nillable="false" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"
+		xbrli:periodType="duration" />
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/notes" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_Notes" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/notes" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IncomeTaxExpenseDisclosureTitle" xlink:label="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosureTitle" xlink:label="kvk-abstr_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosureTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxFiscalAdjustmentsPriorYearsDisclosure" xlink:label="kvk-i_IncomeTaxFiscalAdjustmentsPriorYearsDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxFiscalFacilitiesDisclosure" xlink:label="kvk-i_IncomeTaxFiscalFacilitiesDisclosure_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure" xlink:label="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="kvk-i_IncomeTaxFiscalAdjustmentsPriorYearsDisclosure_loc" xlink:type="arc" order="1085"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="kvk-i_IncomeTaxFiscalFacilitiesDisclosure_loc" xlink:type="arc" order="1086"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseDisclosureTitle_loc" xlink:to="kvk-abstr_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosureTitle_loc" xlink:type="arc" order="1087"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosureTitle_loc" xlink:to="kvk-i_IncomeTaxExpenseReconciliationToCorporateTaxReturnDisclosure_loc" xlink:type="arc" order="1088"/>
+	</link:presentationLink>
+</link:linkbase>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple"/>
+    <link:roleRef xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-nodim" roleURI="urn:bd:linkrole:bd-lr-hd_cube-nodim" xlink:type="simple"/>
+    <link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-hd_cube-nodim" xlink:type="extended">
+        <link:loc xlink:href="../lineitems/bd-primary-domains.xsd#bd-dim-pi_PrimaryItem" xlink:label="bd-dim-pi_PrimaryItem_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_HouseNumberAddition" xlink:label="bd-alg_HouseNumberAddition_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_HouseNumberAddition_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1859" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_HouseNumberNL" xlink:label="bd-alg_HouseNumberNL_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_HouseNumberNL_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1860" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_PlaceOfResidenceNL" xlink:label="bd-alg_PlaceOfResidenceNL_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_PlaceOfResidenceNL_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1861" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_PostalCodeNL" xlink:label="bd-alg_PostalCodeNL_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_PostalCodeNL_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1862" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_SoftwarePackageName" xlink:label="bd-alg_SoftwarePackageName_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_SoftwarePackageName_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1863" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_SoftwarePackageVersion" xlink:label="bd-alg_SoftwarePackageVersion_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_SoftwarePackageVersion_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1864" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_SoftwareVendorAccountNumber" xlink:label="bd-alg_SoftwareVendorAccountNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_SoftwareVendorAccountNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1865" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_StreetNameNL" xlink:label="bd-alg_StreetNameNL_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_StreetNameNL_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1866" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TaxConsultantNumber" xlink:label="bd-alg_TaxConsultantNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_TaxConsultantNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1867" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TaxReturnMessageType" xlink:label="bd-alg_TaxReturnMessageType_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-alg_TaxReturnMessageType_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1868" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_Caretakercosts" xlink:label="bd-burg_Caretakercosts_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_Caretakercosts_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1869" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_ChildIdentificationNumber" xlink:label="bd-burg_ChildIdentificationNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_ChildIdentificationNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1870" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_Cleaningcosts" xlink:label="bd-burg_Cleaningcosts_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_Cleaningcosts_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1871" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareCenterCommencingDate" xlink:label="bd-burg_DayCareCenterCommencingDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareCenterCommencingDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1872" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareCenterHouseNumber" xlink:label="bd-burg_DayCareCenterHouseNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareCenterHouseNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1873" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareCenterHouseNumberAddition" xlink:label="bd-burg_DayCareCenterHouseNumberAddition_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareCenterHouseNumberAddition_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1874" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareCenterIdentification" xlink:label="bd-burg_DayCareCenterIdentification_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareCenterIdentification_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1875" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareCenterIndication" xlink:label="bd-burg_DayCareCenterIndication_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareCenterIndication_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1876" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareCenterName" xlink:label="bd-burg_DayCareCenterName_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareCenterName_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1877" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareCenterPostalCode" xlink:label="bd-burg_DayCareCenterPostalCode_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareCenterPostalCode_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1878" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareGuestParentIndication" xlink:label="bd-burg_DayCareGuestParentIndication_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareGuestParentIndication_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1879" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareHourlyRate" xlink:label="bd-burg_DayCareHourlyRate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareHourlyRate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1880" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareIndication" xlink:label="bd-burg_DayCareIndication_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareIndication_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1881" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareMonthlyHours" xlink:label="bd-burg_DayCareMonthlyHours_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareMonthlyHours_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1882" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_DayCareOutOfSchoolIndication" xlink:label="bd-burg_DayCareOutOfSchoolIndication_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_DayCareOutOfSchoolIndication_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1883" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_Energycosts" xlink:label="bd-burg_Energycosts_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_Energycosts_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1884" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_EventType" xlink:label="bd-burg_EventType_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_EventType_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1885" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_ExpressionWillDate" xlink:label="bd-burg_ExpressionWillDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_ExpressionWillDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1886" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_HabitatRent" xlink:label="bd-burg_HabitatRent_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_HabitatRent_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1887" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_IncomeAmount" xlink:label="bd-burg_IncomeAmount_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_IncomeAmount_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1888" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_IncomeYear" xlink:label="bd-burg_IncomeYear_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_IncomeYear_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1889" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_InhabitantIdentificationNumber" xlink:label="bd-burg_InhabitantIdentificationNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_InhabitantIdentificationNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1890" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_InhabitantSignatureIndication" xlink:label="bd-burg_InhabitantSignatureIndication_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_InhabitantSignatureIndication_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1891" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_MessageIdentificationIntermediary" xlink:label="bd-burg_MessageIdentificationIntermediary_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_MessageIdentificationIntermediary_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1892" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_MessageTypeAllowance" xlink:label="bd-burg_MessageTypeAllowance_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_MessageTypeAllowance_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1893" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_MoveCommencingDate" xlink:label="bd-burg_MoveCommencingDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_MoveCommencingDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1894" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_PartnerIdentificationNumber" xlink:label="bd-burg_PartnerIdentificationNumber_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_PartnerIdentificationNumber_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1895" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_PartnerSignatureIndication" xlink:label="bd-burg_PartnerSignatureIndication_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_PartnerSignatureIndication_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1896" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_PlainRent" xlink:label="bd-burg_PlainRent_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_PlainRent_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1897" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_RentCommencingDate" xlink:label="bd-burg_RentCommencingDate_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_RentCommencingDate_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1898" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_ServiceRecreationRoomCosts" xlink:label="bd-burg_ServiceRecreationRoomCosts_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_ServiceRecreationRoomCosts_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1899" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-burgers.xsd#bd-burg_TaxPayerSignatureIndication" xlink:label="bd-burg_TaxPayerSignatureIndication_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-burg_TaxPayerSignatureIndication_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" order="1900" xlink:type="arc"/>
+    </link:definitionLink>
+</link:linkbase>

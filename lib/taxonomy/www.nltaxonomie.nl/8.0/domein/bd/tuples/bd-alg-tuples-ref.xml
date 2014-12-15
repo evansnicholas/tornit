@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:reference xlink:label="bd-alg-tuple_bd_def_112_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5974">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>112</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg-tuple_bd_def_502574_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_5975">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>gsp definities</ref:Chapter>
+            <ref:Paragraph>502574</ref:Paragraph>
+        </link:reference>
+        <link:reference xlink:label="bd-alg-tuple_bd_def_303_ref" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:type="resource" id="bd_ref_6701">
+            <ref:Name>belastingdienst taxonomie definities.pdf</ref:Name>
+            <ref:Chapter>mda definities</ref:Chapter>
+            <ref:Paragraph>303</ref:Paragraph>
+    </link:reference>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_AppointPostsSpecification" xlink:label="bd-alg-tuple_AppointPostsSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_AppointPostsSpecification_loc" xlink:to="bd-alg-tuple_bd_def_112_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_PostponementSpecification" xlink:label="bd-alg-tuple_PostponementSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_PostponementSpecification_loc" xlink:to="bd-alg-tuple_bd_def_502574_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+        <link:loc xlink:href="./bd-alg-tuples.xsd#bd-alg-tuple_ProfessionalAssociationForTaxServiceProvidersSpecification" xlink:label="bd-alg-tuple_ProfessionalAssociationForTaxServiceProvidersSpecification_loc" xlink:type="locator"/>
+        <link:referenceArc xlink:from="bd-alg-tuple_ProfessionalAssociationForTaxServiceProvidersSpecification_loc" xlink:to="bd-alg-tuple_bd_def_303_ref" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:type="arc"/>
+    </link:referenceLink>
+</link:linkbase>

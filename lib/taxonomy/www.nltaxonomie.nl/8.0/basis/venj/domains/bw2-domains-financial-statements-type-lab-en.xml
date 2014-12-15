@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-statements-type.xsd#bw2-dm-fst_FinancialStatementsTypeDomain" xlink:label="bw2-dm-fst_FinancialStatementsTypeDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-statements-type.xsd#bw2-dm-fst_ConsolidatedMember" xlink:label="bw2-dm-fst_ConsolidatedMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-financial-statements-type.xsd#bw2-dm-fst_SeparateMember" xlink:label="bw2-dm-fst_SeparateMember_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fst_FinancialStatementsTypeDomain_loc" xlink:to="bw2-dm-fst_FinancialStatementsTypeDomain_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fst_ConsolidatedMember_loc" xlink:to="bw2-dm-fst_ConsolidatedMember_label_en" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-fst_SeparateMember_loc" xlink:to="bw2-dm-fst_SeparateMember_label_en" xlink:type="arc"/>
+    <link:label id="bw2-dm-fst_FinancialStatementsTypeDomain_label_en" xlink:label="bw2-dm-fst_FinancialStatementsTypeDomain_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Financial statements type [domain]</link:label>
+    <link:label id="bw2-dm-fst_ConsolidatedMember_label_en" xlink:label="bw2-dm-fst_ConsolidatedMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Consolidated [member]</link:label>
+    <link:label id="bw2-dm-fst_SeparateMember_label_en" xlink:label="bw2-dm-fst_SeparateMember_label_en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Separate [member]</link:label>
+  </link:labelLink>
+</link:linkbase>

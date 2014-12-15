@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple"/>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-te" roleURI="urn:bd:linkrole:bd-lr-dd_dimension-te" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-te" roleURI="urn:bd:linkrole:bd-lr-dm_domain-te" xlink:type="simple"/>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-teb" roleURI="urn:bd:linkrole:bd-lr-dd_dimension-teb" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-teb" roleURI="urn:bd:linkrole:bd-lr-dm_domain-teb" xlink:type="simple"/>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-ps" roleURI="urn:bd:linkrole:bd-lr-dd_dimension-ps" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-ps" roleURI="urn:bd:linkrole:bd-lr-dm_domain-ps" xlink:type="simple"/>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-pc" roleURI="urn:bd:linkrole:bd-lr-dd_dimension-pc" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-pc" roleURI="urn:bd:linkrole:bd-lr-dm_domain-pc" xlink:type="simple"/>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-pp" roleURI="urn:bd:linkrole:bd-lr-dd_dimension-pp" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-pp" roleURI="urn:bd:linkrole:bd-lr-dm_domain-pp" xlink:type="simple"/>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-pd" roleURI="urn:bd:linkrole:bd-lr-dd_dimension-pd" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-pd" roleURI="urn:bd:linkrole:bd-lr-dm_domain-pd" xlink:type="simple"/>
+	<link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-pdhs" roleURI="urn:bd:linkrole:bd-lr-dd_dimension-pdhs" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-pdhs" roleURI="urn:bd:linkrole:bd-lr-dm_domain-pdhs" xlink:type="simple"/>
+    <link:roleRef xlink:href="./bd-linkroles-axes.xsd#bd-lr-dd_dimension-pdp" roleURI="urn:bd:linkrole:bd-lr-dd_dimension-pdp" xlink:type="simple"/>
+    <link:roleRef xlink:href="../../../basis/bd/linkroles/bd-linkroles-domains.xsd#bd-lr-dm_domain-pdp" roleURI="urn:bd:linkrole:bd-lr-dm_domain-pdp" xlink:type="simple"/>
+        <link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-dd_dimension-te" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="urn:bd:linkrole:bd-lr-dm_domain-te" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-dd_dimension-teb" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_TimeDomain" xlink:label="bd-dim-dom_TimeDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_TimeDimension_loc" xlink:to="bd-dim-dom_TimeDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="urn:bd:linkrole:bd-lr-dm_domain-teb" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-dd_dimension-ps" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="urn:bd:linkrole:bd-lr-dm_domain-ps" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-dd_dimension-pc" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="urn:bd:linkrole:bd-lr-dm_domain-pc" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-dd_dimension-pp" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="urn:bd:linkrole:bd-lr-dm_domain-pp" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-dd_dimension-pd" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="urn:bd:linkrole:bd-lr-dm_domain-pd" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-dd_dimension-pdhs" xlink:type="extended">
+		<link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="urn:bd:linkrole:bd-lr-dm_domain-pdhs" xlink:type="arc"/>
+	</link:definitionLink>
+	<link:definitionLink xlink:role="urn:bd:linkrole:bd-lr-dd_dimension-pdp" xlink:type="extended">
+        <link:loc xlink:href="../axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/domains/bd-domains.xsd#bd-dim-dom_PartyDomain" xlink:label="bd-dim-dom_PartyDomain_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-dim_PartyDimension_loc" xlink:to="bd-dim-dom_PartyDomain_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" order="1" xbrldt:usable="false" xbrldt:targetRole="urn:bd:linkrole:bd-lr-dm_domain-pdp" xlink:type="arc"/>
+    </link:definitionLink>
+</link:linkbase>

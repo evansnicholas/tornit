@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:kvk-dlra="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/kvk-linkroles" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/kvk-linkroles">
+    <xs:annotation>
+      <xs:appinfo>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-linkroles-axes-generic-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="simple"/>
+		<link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kvk-linkroles-axes-generic-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="simple"/>
+	  <link:roleType id="kvk-dlra_BasisOfPreparationAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/basis-of-preparation-axis">
+            <link:definition>Grondslag [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+	  <link:roleType id="kvk-dlra_BasisOfPreparationCommercialAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/basis-of-preparation-commercial-axis">
+            <link:definition>Grondslag, commercieel [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+	  <link:roleType id="kvk-dlra_BasisOfPreparationFiscalAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/basis-of-preparation-fiscal-axis">
+            <link:definition>Grondslag, fiscaal [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+	  <link:roleType id="kvk-dlra_FinancialStatementsTypeAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/financial-statements-type-axis">
+            <link:definition>Type jaarrekening [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>		
+	  <link:roleType id="kvk-dlra_FinancialStatementsTypeConsolidatedAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/financial-statements-type-consolidated-axis">
+            <link:definition>Type jaarrekening, geconsolideerd [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>		
+	  <link:roleType id="kvk-dlra_FinancialStatementsTypeSeparateAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/financial-statements-type-separate-axis">
+            <link:definition>Type jaarrekening, enkelvoudig [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>			
+	  <link:roleType id="kvk-dlra_IntangibleAssetsComponentsAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/intangible-assets-components-axis">
+            <link:definition>Immateriële vaste activa, componenten [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>			
+	  <link:roleType id="kvk-dlra_PropertyPlantEquipmentComponentsAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/property-plant-equipment-components-axis">
+            <link:definition>Materiële vaste activa, componenten [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>			
+	  <link:roleType id="kvk-dlra_FinancialAssetsComponentsAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/financial-assets-components-axis">
+            <link:definition>Financiële vaste activa, componenten [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>				
+	  <link:roleType id="kvk-dlra_EquityComponentsAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/equity-components-axis">
+            <link:definition>Eigen vermogen, componenten [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>			
+	  <link:roleType id="kvk-dlra_ShareCapitalComponentsAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/share-capital-components-axis">
+            <link:definition>Aandelenkapitaal, componenten [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>					
+	  <link:roleType id="kvk-dlra_RevaluationReserveComponentsAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/revaluation-reserve-components-axis">
+            <link:definition>Herwaarderingsreserve, componenten [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>					
+	  <link:roleType id="kvk-dlra_ProvisionsComponentsAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/provisions-components-axis">
+            <link:definition>Voorzieningen, componenten [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>			
+	  <link:roleType id="kvk-dlra_NegativeGoodwillComponentsAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/negative-goodwill-components-axis">
+            <link:definition>Negatieve goodwill, componenten [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>				
+	  <link:roleType id="kvk-dlra_RightsGrantedNotYetExercisedComponentsAxis" roleURI="http://www.nltaxonomie.nl/7.0/domein/kvk/linkroles/rights-granted-not-yet-exercised-components-axis">
+            <link:definition>Toegekende rechten, nog niet uitgeoefend, componenten [as]</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>				
+    </xs:appinfo>
+   </xs:annotation>
+</xs:schema>

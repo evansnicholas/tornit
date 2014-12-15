@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_AssetsDomain" xlink:label="cbs-as_AssetsDomain_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_LandAndSitesMember" xlink:label="cbs-as_LandAndSitesMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_BuildingsMember" xlink:label="cbs-as_BuildingsMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_CivilEngineeringWorksMember" xlink:label="cbs-as_CivilEngineeringWorksMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_TransportEquipmentMember" xlink:label="cbs-as_TransportEquipmentMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_ComputersMember" xlink:label="cbs-as_ComputersMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_OtherMachinesInstallationsAndEquipmentMember" xlink:label="cbs-as_OtherMachinesInstallationsAndEquipmentMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_OtherAssetsMember" xlink:label="cbs-as_OtherAssetsMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-assets.xsd#cbs-as_TotalAssetsMember" xlink:label="cbs-as_TotalAssetsMember_loc"/>
+    <link:label xlink:type="resource" xlink:label="cbs-as_AssetsDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-as_AssetsDomain_label_nl">Activa [Domein]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-as_LandAndSitesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-as_LandAndSitesMember_label_nl">Grond [Lid]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-as_BuildingsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-as_BuildingsMember_label_nl">Gebouwen [Lid]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-as_CivilEngineeringWorksMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-as_CivilEngineeringWorksMember_label_nl">Grond-, water- en wegenbouwkundige werken [Lid]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-as_TransportEquipmentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-as_TransportEquipmentMember_label_nl">Vervoermiddelen [Lid]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-as_ComputersMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-as_ComputersMember_label_nl">Computers [Lid]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-as_OtherMachinesInstallationsAndEquipmentMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-as_OtherMachinesInstallationsAndEquipmentMember_label_nl">Andere machines, installaties en apparaten [Lid]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-as_OtherAssetsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-as_OtherAssetsMember_label_nl">Overige vaste activa [Lid]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-as_TotalMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-as_TotalMember_label_nl">Totaal activa [Lid]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-as_AssetsDomain_loc" xlink:to="cbs-as_AssetsDomain_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-as_LandAndSitesMember_loc" xlink:to="cbs-as_LandAndSitesMember_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-as_BuildingsMember_loc" xlink:to="cbs-as_BuildingsMember_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-as_CivilEngineeringWorksMember_loc" xlink:to="cbs-as_CivilEngineeringWorksMember_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-as_TransportEquipmentMember_loc" xlink:to="cbs-as_TransportEquipmentMember_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-as_ComputersMember_loc" xlink:to="cbs-as_ComputersMember_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-as_OtherMachinesInstallationsAndEquipmentMember_loc" xlink:to="cbs-as_OtherMachinesInstallationsAndEquipmentMember_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-as_OtherAssetsMember_loc" xlink:to="cbs-as_OtherAssetsMember_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-as_TotalAssetsMember_loc" xlink:to="cbs-as_TotalMember_label_nl"/>
+  </link:labelLink>
+</link:linkbase>

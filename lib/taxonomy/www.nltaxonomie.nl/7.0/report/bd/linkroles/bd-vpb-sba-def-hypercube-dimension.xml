@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:roleRef xlink:href="./bd-linkroles-tables.xsd#bd-lr-hd_cube-TC-PD" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-hd_cube-TC-PD" xlink:type="simple"/>
+	<link:roleRef xlink:href="../../../domein/bd/linkroles/bd-linkroles-axes.xsd#bd-lr-dd_dimension-TC-PD" roleURI="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PD" xlink:type="simple"/>
+	<link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple"/>
+	<link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple"/>
+    <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-hd_cube-TC-PD" xlink:type="extended">
+		<link:loc xlink:href="../tables/bd-tables.xsd#bd-dim-cube_Hypercube" xlink:label="bd-dim-cube_Hypercube_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../domein/bd/axes/bd-axes.xsd#bd-dim-dim_TimeDimension" xlink:label="bd-dim-dim_TimeDimension_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-cube_Hypercube_loc" xlink:to="bd-dim-dim_TimeDimension_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" order="1" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PD" xlink:type="arc"/>
+		<link:loc xlink:href="../../../domein/bd/axes/bd-axes.xsd#bd-dim-dim_PartyDimension" xlink:label="bd-dim-dim_PartyDimension_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:from="bd-dim-cube_Hypercube_loc" xlink:to="bd-dim-dim_PartyDimension_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" order="2" xbrldt:targetRole="http://www.nltaxonomie.nl/7.0/domein/bd/linkroles/bd-lr-dd_dimension-TC-PD" xlink:type="arc"/>
+        <link:loc xlink:href="../lineitems/bd-primary-domains.xsd#bd-dim-pi_PrimaryItem" xlink:label="bd-dim-pi_PrimaryItem_loc" xlink:type="locator"/>
+        <link:definitionArc xlink:from="bd-dim-pi_PrimaryItem_loc" xlink:to="bd-dim-cube_Hypercube_loc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" order="1" xbrldt:contextElement="scenario" xbrldt:closed="true" xlink:type="arc"/>
+    </link:definitionLink>
+</link:linkbase>

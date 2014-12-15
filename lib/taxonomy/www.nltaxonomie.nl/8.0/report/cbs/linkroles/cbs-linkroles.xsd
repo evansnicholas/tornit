@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cbs-lr="http://www.nltaxonomie.nl/8.0/report/cbs/linkroles/cbs-linkroles" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nltaxonomie.nl/8.0/report/cbs/linkroles/cbs-linkroles">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:roleType id="cbs-lr_investments" roleURI="urn:cbs:linkrole:investments">
+        <link:definition>Statistiek van de Investeringen</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_investments1" roleURI="urn:cbs:linkrole:investments:new">
+        <link:definition>Statistiek van de Investeringen - nieuw</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_investments2" roleURI="urn:cbs:linkrole:investments:existing">
+        <link:definition>Statistiek van de Investeringen - bestaand</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_investments3" roleURI="urn:cbs:linkrole:investments:time">
+        <link:definition>Statistiek van de Investeringen - overzicht</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_investments4" roleURI="urn:cbs:linkrole:investments:newused">
+        <link:definition>Statistiek van de Investeringen - nieuw en bestaand</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_investments5" roleURI="urn:cbs:linkrole:investments:empty">
+        <link:definition>Statistiek van de Investeringen - NvT</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_productionstatistic" roleURI="urn:cbs:linkrole:productionstatistic">
+        <link:definition>Productiestatistiek</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_productionstatistic-1" roleURI="urn:cbs:linkrole:productionstatistic-com:time">
+        <link:definition>Productiestatistiek - Commercieel</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_productionstatistic-2" roleURI="urn:cbs:linkrole:productionstatistic-con:time">
+        <link:definition>Productiestatistiek - Constructie</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_productionstatistic-3" roleURI="urn:cbs:linkrole:productionstatistic-ind:time">
+        <link:definition>Productiestatistiek - Industrie</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_productionstatistic-4" roleURI="urn:cbs:linkrole:productionstatistic-oth:time">
+        <link:definition>Productiestatistiek - Overige</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_productionstatistic-5" roleURI="urn:cbs:linkrole:productionstatistic:empty">
+        <link:definition>Productiestatistiek - NvT</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_contactinformation" roleURI="urn:cbs:linkrole:contactinformation">
+        <link:definition>Contactinformatie</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_shorttermstatistic" roleURI="urn:cbs:linkrole:shorttermstatistic">
+        <link:definition>Kortetermijnstatistiek</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_shorttermstatistic1" roleURI="urn:cbs:linkrole:shorttermstatistic-com-con:region">
+        <link:definition>Kortetermijnstatistiek - Com-Con</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_shorttermstatistic2" roleURI="urn:cbs:linkrole:shorttermstatistic-con-ind:region">
+        <link:definition>Kortetermijnstatistiek - Con-Ind</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_shorttermstatistic3" roleURI="urn:cbs:linkrole:shorttermstatistic-ind:region">
+        <link:definition>Kortetermijnstatistiek - Ind</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_shorttermstatistic4" roleURI="urn:cbs:linkrole:shorttermstatistic:empty">
+        <link:definition>Kortetermijnstatistiek - NvT</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_shorttermstatistic5" roleURI="urn:cbs:linkrole:shorttermstatistic-ind:time">
+        <link:definition>Kortetermijnstatistiek - Ind</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="cbs-lr_shorttermstatistic6" roleURI="urn:cbs:linkrole:shorttermstatistic-con:region">
+        <link:definition>Kortetermijnstatistiek - Con</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:href="cbs-linkroles-generic-lab-nl.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+      <link:linkbaseRef xlink:href="cbs-linkroles-generic-lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

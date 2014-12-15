@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_buitenlandse-resultaten" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_buitenlandse-resultaten" xlink:type="simple"/>
+    <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_buitenlandse-resultaten" xlink:type="extended">
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_DeductionSubjectToTaxElsewhereTitle" xlink:label="bd-abstr_DeductionSubjectToTaxElsewhereTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SubjectToTaxElsewhereProportionalityMethodDescription" xlink:label="bd-bedr_SubjectToTaxElsewhereProportionalityMethodDescription_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DeductionSubjectToTaxElsewhereTitle_loc" xlink:to="bd-bedr_SubjectToTaxElsewhereProportionalityMethodDescription_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SubjectToTaxElsewhereSetoffMethodDescription" xlink:label="bd-bedr_SubjectToTaxElsewhereSetoffMethodDescription_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DeductionSubjectToTaxElsewhereTitle_loc" xlink:to="bd-bedr_SubjectToTaxElsewhereSetoffMethodDescription_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SubjectToTaxElsewhereSetoffMethodTotalAmount" xlink:label="bd-bedr_SubjectToTaxElsewhereSetoffMethodTotalAmount_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DeductionSubjectToTaxElsewhereTitle_loc" xlink:to="bd-bedr_SubjectToTaxElsewhereSetoffMethodTotalAmount_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_DeductionSubjectToTaxElsewhereProportionalityMethodTotal" xlink:label="bd-bedr_DeductionSubjectToTaxElsewhereProportionalityMethodTotal_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DeductionSubjectToTaxElsewhereTitle_loc" xlink:to="bd-bedr_DeductionSubjectToTaxElsewhereProportionalityMethodTotal_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_ResultsAbroadTitle" xlink:label="bd-abstr_ResultsAbroadTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ResultsAbroadTitle_loc" xlink:to="bd-abstr_DeductionSubjectToTaxElsewhereTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SubjectToTaxElsewhereTotalAmount" xlink:label="bd-bedr_SubjectToTaxElsewhereTotalAmount_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DeductionSubjectToTaxElsewhereTitle_loc" xlink:to="bd-bedr_SubjectToTaxElsewhereTotalAmount_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_TaxData" xlink:label="bd-bedr-tuple_TaxData_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_TaxData_loc" xlink:to="bd-abstr_ResultsAbroadTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_ExemptedDueToForeignProfitsTitle" xlink:label="bd-abstr_ExemptedDueToForeignProfitsTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_TransitionalArrangementsExemptedDueToForeignProfitsSpecification" xlink:label="bd-bedr-tuple_TransitionalArrangementsExemptedDueToForeignProfitsSpecification_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ExemptedDueToForeignProfitsTitle_loc" xlink:to="bd-bedr-tuple_TransitionalArrangementsExemptedDueToForeignProfitsSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CountryCodeTransitionalArrangementsExemption" xlink:label="bd-bedr_CountryCodeTransitionalArrangementsExemption_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_TransitionalArrangementsExemptedDueToForeignProfitsSpecification_loc" xlink:to="bd-bedr_CountryCodeTransitionalArrangementsExemption_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ProfitTransitionalArrangementsExemptionForwarded" xlink:label="bd-bedr_ProfitTransitionalArrangementsExemptionForwarded_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_TransitionalArrangementsExemptedDueToForeignProfitsSpecification_loc" xlink:to="bd-bedr_ProfitTransitionalArrangementsExemptionForwarded_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-abstr_ResultsAbroadTitle_loc" xlink:to="bd-abstr_ExemptedDueToForeignProfitsTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_DoubleTaxationAvoidanceSettlementTitle" xlink:label="bd-abstr_DoubleTaxationAvoidanceSettlementTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification" xlink:label="bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DoubleTaxationAvoidanceSettlementTitle_loc" xlink:to="bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_CountryCodeInnovationboxSetoff" xlink:label="bd-bedr_CountryCodeInnovationboxSetoff_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification_loc" xlink:to="bd-bedr_CountryCodeInnovationboxSetoff_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-abstr_ResultsAbroadTitle_loc" xlink:to="bd-abstr_DoubleTaxationAvoidanceSettlementTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_RoyaltiesGrossInnovationbox" xlink:label="bd-bedr_RoyaltiesGrossInnovationbox_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification_loc" xlink:to="bd-bedr_RoyaltiesGrossInnovationbox_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_RoyaltiesInnovationboxDeductibleCosts" xlink:label="bd-bedr_RoyaltiesInnovationboxDeductibleCosts_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification_loc" xlink:to="bd-bedr_RoyaltiesInnovationboxDeductibleCosts_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TaxSettledDoubleTaxationAvoidanceSetoffMethodInnovationbox" xlink:label="bd-bedr_TaxSettledDoubleTaxationAvoidanceSetoffMethodInnovationbox_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification_loc" xlink:to="bd-bedr_TaxSettledDoubleTaxationAvoidanceSetoffMethodInnovationbox_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ForwardShiftingPreviousYearsDoubleTaxationAvoidanceSetoffMethodInnovationbox" xlink:label="bd-bedr_ForwardShiftingPreviousYearsDoubleTaxationAvoidanceSetoffMethodInnovationbox_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_DoubleTaxationAvoidanceSettlementInnovationboxSpecification_loc" xlink:to="bd-bedr_ForwardShiftingPreviousYearsDoubleTaxationAvoidanceSetoffMethodInnovationbox_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_DoubleTaxationAvoidanceForeignProfitSetoffMethodTitle" xlink:label="bd-abstr_DoubleTaxationAvoidanceForeignProfitSetoffMethodTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_ResultsAbroadTitle_loc" xlink:to="bd-abstr_DoubleTaxationAvoidanceForeignProfitSetoffMethodTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_SetoffActualLeviedTaxRequest" xlink:label="bd-bedr_SetoffActualLeviedTaxRequest_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DoubleTaxationAvoidanceForeignProfitSetoffMethodTitle_loc" xlink:to="bd-bedr_SetoffActualLeviedTaxRequest_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ProfitLowTaxationInvestmentCompanyEuroFunctionalCurrency" xlink:label="bd-bedr_ProfitLowTaxationInvestmentCompanyEuroFunctionalCurrency_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DoubleTaxationAvoidanceForeignProfitSetoffMethodTitle_loc" xlink:to="bd-bedr_ProfitLowTaxationInvestmentCompanyEuroFunctionalCurrency_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ForwardShiftingForeignResultNegativeNotSettled" xlink:label="bd-bedr_ForwardShiftingForeignResultNegativeNotSettled_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DoubleTaxationAvoidanceForeignProfitSetoffMethodTitle_loc" xlink:to="bd-bedr_ForwardShiftingForeignResultNegativeNotSettled_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ActualLeviedForeignTax" xlink:label="bd-bedr_ActualLeviedForeignTax_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DoubleTaxationAvoidanceForeignProfitSetoffMethodTitle_loc" xlink:to="bd-bedr_ActualLeviedForeignTax_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_ForwardShiftingForeignTaxNotSettled" xlink:label="bd-bedr_ForwardShiftingForeignTaxNotSettled_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_DoubleTaxationAvoidanceForeignProfitSetoffMethodTitle_loc" xlink:to="bd-bedr_ForwardShiftingForeignTaxNotSettled_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+    </link:presentationLink>
+</link:linkbase>

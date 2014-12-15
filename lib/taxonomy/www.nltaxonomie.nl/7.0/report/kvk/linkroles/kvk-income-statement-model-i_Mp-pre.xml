@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-i" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_IncomeStatementModelI" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/income-statement-model-i" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_IncomeStatementTitle" xlink:label="kvk-abstr_IncomeStatementTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_EarningsPerShareTitle" xlink:label="kvk-abstr_EarningsPerShareTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EarningsPerShareBasic" xlink:label="kvk-i_EarningsPerShareBasic_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EarningsPerShareDiluted" xlink:label="kvk-i_EarningsPerShareDiluted_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_IncomeStatementTitle_loc" xlink:to="kvk-abstr_EarningsPerShareTitle_loc" xlink:type="arc" order="26"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EarningsPerShareTitle_loc" xlink:to="kvk-i_EarningsPerShareBasic_loc" xlink:type="arc" order="27"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EarningsPerShareTitle_loc" xlink:to="kvk-i_EarningsPerShareDiluted_loc" xlink:type="arc" order="28"/>
+  </link:presentationLink>
+</link:linkbase>

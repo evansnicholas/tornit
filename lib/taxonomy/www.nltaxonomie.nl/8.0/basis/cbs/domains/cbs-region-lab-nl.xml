@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="cbs-region.xsd#cbs-re_RegionDomain" xlink:label="cbs-re_RegionDomain_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-region.xsd#cbs-re_HomeMember" xlink:label="cbs-re_HomeMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-region.xsd#cbs-re_AbroadMember" xlink:label="cbs-re_AbroadMember_loc"/>
+    <link:loc xlink:type="locator" xlink:href="cbs-region.xsd#cbs-re_TotalRegionMember" xlink:label="cbs-re_TotalRegionMember_loc"/>
+    <link:label xlink:type="resource" xlink:label="cbs-re_RegionDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-re_RegionDomain_label_nl">Regio [Domein]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-re_HomeMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-re_HomeMember_label_nl">Binnenland [Lid]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-re_AbroadMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-re_AbroadMember_label_nl">Buitenland [Lid]</link:label>
+    <link:label xlink:type="resource" xlink:label="cbs-re_TotalRegionMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="nl" id="cbs-re_TotalRegionMember_label_nl">Totaal [Lid]</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-re_RegionDomain_loc" xlink:to="cbs-re_RegionDomain_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-re_HomeMember_loc" xlink:to="cbs-re_HomeMember_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-re_AbroadMember_loc" xlink:to="cbs-re_AbroadMember_label_nl"/>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="cbs-re_TotalRegionMember_loc" xlink:to="cbs-re_TotalRegionMember_label_nl"/>
+  </link:labelLink>
+</link:linkbase>

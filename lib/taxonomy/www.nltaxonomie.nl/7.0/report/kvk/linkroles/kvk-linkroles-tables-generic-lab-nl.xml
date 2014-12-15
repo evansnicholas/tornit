@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_BasisOfPreparationTable_loc" xlink:to="kvk-dlr_BasisOfPreparationTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_BasisOfPreparationTable_label-nl" xlink:label="kvk-dlr_BasisOfPreparationTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Grondslag [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_BasisOfPreparationTable" xlink:label="kvk-dlr_BasisOfPreparationTable_loc"/>	
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_FinancialStatementsTypeTable_loc" xlink:to="kvk-dlr_FinancialStatementsTypeTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_FinancialStatementsTypeTable_label-nl" xlink:label="kvk-dlr_FinancialStatementsTypeTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Type jaarrekening [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_FinancialStatementsTypeTable" xlink:label="kvk-dlr_FinancialStatementsTypeTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_FinancialStatementsTypeConsolidatedTable_loc" xlink:to="kvk-dlr_FinancialStatementsTypeConsolidatedTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_FinancialStatementsTypeConsolidatedTable_label-nl" xlink:label="kvk-dlr_FinancialStatementsTypeConsolidatedTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Type jaarrekening, geconsolideerd [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_FinancialStatementsTypeConsolidatedTable" xlink:label="kvk-dlr_FinancialStatementsTypeConsolidatedTable_loc"/>
+ 	<gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_IntangibleAssetsMovementScheduleTable_loc" xlink:to="kvk-dlr_IntangibleAssetsMovementScheduleTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_IntangibleAssetsMovementScheduleTable_label-nl" xlink:label="kvk-dlr_IntangibleAssetsMovementScheduleTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Immateriële vaste activa, verloopoverzicht [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_IntangibleAssetsMovementScheduleTable" xlink:label="kvk-dlr_IntangibleAssetsMovementScheduleTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_PropertyPlantEquipmentMovementScheduleTable_loc" xlink:to="kvk-dlr_PropertyPlantEquipmentMovementScheduleTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_PropertyPlantEquipmentMovementScheduleTable_label-nl" xlink:label="kvk-dlr_PropertyPlantEquipmentMovementScheduleTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Materiële vaste activa, verloopoverzicht [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_PropertyPlantEquipmentMovementScheduleTable" xlink:label="kvk-dlr_PropertyPlantEquipmentMovementScheduleTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_FinancialAssetsMovementScheduleTable_loc" xlink:to="kvk-dlr_FinancialAssetsMovementScheduleTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_FinancialAssetsMovementScheduleTable_label-nl" xlink:label="kvk-dlr_FinancialAssetsMovementScheduleTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Financiële vaste activa, verloopoverzicht [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_FinancialAssetsMovementScheduleTable" xlink:label="kvk-dlr_FinancialAssetsMovementScheduleTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_EquityMovementScheduleTable_loc" xlink:to="kvk-dlr_EquityMovementScheduleTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_EquityMovementScheduleTable_label-nl" xlink:label="kvk-dlr_EquityMovementScheduleTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Eigen vermogen, verloopoverzicht [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_EquityMovementScheduleTable" xlink:label="kvk-dlr_EquityMovementScheduleTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_ShareCapitalMovementScheduleTable_loc" xlink:to="kvk-dlr_ShareCapitalMovementScheduleTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_ShareCapitalMovementScheduleTable_label-nl" xlink:label="kvk-dlr_ShareCapitalMovementScheduleTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Aandelenkapitaal, verloopoverzicht [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_ShareCapitalMovementScheduleTable" xlink:label="kvk-dlr_ShareCapitalMovementScheduleTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_RevaluationReserveMovementScheduleTable_loc" xlink:to="kvk-dlr_RevaluationReserveMovementScheduleTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_RevaluationReserveMovementScheduleTable_label-nl" xlink:label="kvk-dlr_RevaluationReserveMovementScheduleTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Herwaarderingsreserve, verloopoverzicht [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_RevaluationReserveMovementScheduleTable" xlink:label="kvk-dlr_RevaluationReserveMovementScheduleTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_ProvisionsMovementScheduleTable_loc" xlink:to="kvk-dlr_ProvisionsMovementScheduleTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_ProvisionsMovementScheduleTable_label-nl" xlink:label="kvk-dlr_ProvisionsMovementScheduleTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Voorzieningen, verloopoverzicht [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_ProvisionsMovementScheduleTable" xlink:label="kvk-dlr_ProvisionsMovementScheduleTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_NegativeGoodwillMovementScheduleTable_loc" xlink:to="kvk-dlr_NegativeGoodwillMovementScheduleTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_NegativeGoodwillMovementScheduleTable_label-nl" xlink:label="kvk-dlr_NegativeGoodwillMovementScheduleTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Negatieve goodwill, verloopoverzicht [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_NegativeGoodwillMovementScheduleTable" xlink:label="kvk-dlr_NegativeGoodwillMovementScheduleTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_RightsGrantedNotYetExercisedMovementScheduleTable_loc" xlink:to="kvk-dlr_RightsGrantedNotYetExercisedMovementScheduleTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_RightsGrantedNotYetExercisedMovementScheduleTable_label-nl" xlink:label="kvk-dlr_RightsGrantedNotYetExercisedMovementScheduleTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Toegekende rechten, nog niet uitgeoefend, verloopoverzicht [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_RightsGrantedNotYetExercisedMovementScheduleTable" xlink:label="kvk-dlr_RightsGrantedNotYetExercisedMovementScheduleTable_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlr_AdimensionalTable_loc" xlink:to="kvk-dlr_AdimensionalTable_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlr_AdimensionalTable_label-nl" xlink:label="kvk-dlr_AdimensionalTable_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Adimensioneel [tabel]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-tables.xsd#kvk-dlr_AdimensionalTable" xlink:label="kvk-dlr_AdimensionalTable_loc"/>
+	</gen:link>
+</link:linkbase>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:label id="kvk-dim_BasisOfPreparationAxis_label_nl" xlink:label="kvk-dim_BasisOfPreparationAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Grondslag [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_BasisOfPreparationAxis" xlink:label="kvk-dim_BasisOfPreparationAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_BasisOfPreparationAxis_loc" xlink:to="kvk-dim_BasisOfPreparationAxis_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dim_FinancialStatementsTypeAxis_label_nl" xlink:label="kvk-dim_FinancialStatementsTypeAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Type jaarrekening [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_FinancialStatementsTypeAxis" xlink:label="kvk-dim_FinancialStatementsTypeAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_FinancialStatementsTypeAxis_loc" xlink:to="kvk-dim_FinancialStatementsTypeAxis_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dim_IntangibleAssetsComponentsAxis_label_nl" xlink:label="kvk-dim_IntangibleAssetsComponentsAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Immateriële vaste activa, componenten [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_IntangibleAssetsComponentsAxis" xlink:label="kvk-dim_IntangibleAssetsComponentsAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_IntangibleAssetsComponentsAxis_loc" xlink:to="kvk-dim_IntangibleAssetsComponentsAxis_label_nl" xlink:type="arc"/>
+	  <link:label id="kvk-dim_PropertyPlantEquipmentComponentsAxis_label_nl" xlink:label="kvk-dim_PropertyPlantEquipmentComponentsAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Materiële vaste activa, componenten [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_PropertyPlantEquipmentComponentsAxis" xlink:label="kvk-dim_PropertyPlantEquipmentComponentsAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_PropertyPlantEquipmentComponentsAxis_loc" xlink:to="kvk-dim_PropertyPlantEquipmentComponentsAxis_label_nl" xlink:type="arc"/>
+  	  <link:label id="kvk-dim_FinancialAssetsComponentsAxis_label_nl" xlink:label="kvk-dim_FinancialAssetsComponentsAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Financiële vaste activa, componenten [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_FinancialAssetsComponentsAxis" xlink:label="kvk-dim_FinancialAssetsComponentsAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_FinancialAssetsComponentsAxis_loc" xlink:to="kvk-dim_FinancialAssetsComponentsAxis_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dim_EquityComponentsAxis_label_nl" xlink:label="kvk-dim_EquityComponentsAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Eigen vermogen, componenten [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_EquityComponentsAxis" xlink:label="kvk-dim_EquityComponentsAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_EquityComponentsAxis_loc" xlink:to="kvk-dim_EquityComponentsAxis_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dim_ShareCapitalComponentsAxis_label_nl" xlink:label="kvk-dim_ShareCapitalComponentsAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Aandelenkapitaal, componenten [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_ShareCapitalComponentsAxis" xlink:label="kvk-dim_ShareCapitalComponentsAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_ShareCapitalComponentsAxis_loc" xlink:to="kvk-dim_ShareCapitalComponentsAxis_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dim_RevaluationReserveComponentsAxis_label_nl" xlink:label="kvk-dim_RevaluationReserveComponentsAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Herwaarderingsreserve, componenten [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_RevaluationReserveComponentsAxis" xlink:label="kvk-dim_RevaluationReserveComponentsAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_RevaluationReserveComponentsAxis_loc" xlink:to="kvk-dim_RevaluationReserveComponentsAxis_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dim_ProvisionsComponentsAxis_label_nl" xlink:label="kvk-dim_ProvisionsComponentsAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Voorzieningen, componenten [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_ProvisionsComponentsAxis" xlink:label="kvk-dim_ProvisionsComponentsAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_ProvisionsComponentsAxis_loc" xlink:to="kvk-dim_ProvisionsComponentsAxis_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dim_NegativeGoodwillComponentsAxis_label_nl" xlink:label="kvk-dim_NegativeGoodwillComponentsAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Negatieve goodwill, componenten [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_NegativeGoodwillComponentsAxis" xlink:label="kvk-dim_NegativeGoodwillComponentsAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_NegativeGoodwillComponentsAxis_loc" xlink:to="kvk-dim_NegativeGoodwillComponentsAxis_label_nl" xlink:type="arc"/>
+      <link:label id="kvk-dim_RightsGrantedNotYetExercisedComponentsAxis_label_nl" xlink:label="kvk-dim_RightsGrantedNotYetExercisedComponentsAxis_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Verleende rechten, nog niet uitgeoefend, componenten [as]</link:label>
+      <link:loc xlink:href="kvk-axes.xsd#kvk-dim_RightsGrantedNotYetExercisedComponentsAxis" xlink:label="kvk-dim_RightsGrantedNotYetExercisedComponentsAxis_loc" xlink:type="locator"/>
+      <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-dim_RightsGrantedNotYetExercisedComponentsAxis_loc" xlink:to="kvk-dim_RightsGrantedNotYetExercisedComponentsAxis_label_nl" xlink:type="arc"/>
+   </link:labelLink>
+</link:linkbase>

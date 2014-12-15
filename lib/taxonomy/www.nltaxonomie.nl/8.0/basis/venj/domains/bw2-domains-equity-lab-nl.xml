@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_EquityComponentDomain" xlink:label="bw2-dm-eqty_EquityComponentDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_RevaluationReserveComponentDomain" xlink:label="bw2-dm-eqty_RevaluationReserveComponentDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_ShareCapitalMember" xlink:label="bw2-dm-eqty_ShareCapitalMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_SharePremiumMember" xlink:label="bw2-dm-eqty_SharePremiumMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_RevaluationReserveMember" xlink:label="bw2-dm-eqty_RevaluationReserveMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_LegalStatutoryReservesMember" xlink:label="bw2-dm-eqty_LegalStatutoryReservesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_LegalReservesMember" xlink:label="bw2-dm-eqty_LegalReservesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_StatutoryReservesMember" xlink:label="bw2-dm-eqty_StatutoryReservesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_ReinvestmentReserveMember" xlink:label="bw2-dm-eqty_ReinvestmentReserveMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_FiscalReservesOtherMember" xlink:label="bw2-dm-eqty_FiscalReservesOtherMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_ReservesOtherMember" xlink:label="bw2-dm-eqty_ReservesOtherMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_RetainedEarningsMember" xlink:label="bw2-dm-eqty_RetainedEarningsMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_ResultForTheYearMember" xlink:label="bw2-dm-eqty_ResultForTheYearMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_EquityMember" xlink:label="bw2-dm-eqty_EquityMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_NoncontrollingInterestMember" xlink:label="bw2-dm-eqty_NoncontrollingInterestMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_EquityGroupMember" xlink:label="bw2-dm-eqty_EquityGroupMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_HedgedMember" xlink:label="bw2-dm-eqty_HedgedMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_NoPriceQuotationInActiveMarketMember" xlink:label="bw2-dm-eqty_NoPriceQuotationInActiveMarketMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_RecognisedDirectlyThroughEquityMember" xlink:label="bw2-dm-eqty_RecognisedDirectlyThroughEquityMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_ShareCapitalComponentDomain" xlink:label="bw2-dm-eqty_ShareCapitalComponentDomain_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_OrdinarySharesMember" xlink:label="bw2-dm-eqty_OrdinarySharesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_PreferredSharesMember" xlink:label="bw2-dm-eqty_PreferredSharesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_PrioritySharesMember" xlink:label="bw2-dm-eqty_PrioritySharesMember_loc" xlink:type="locator"/>
+    <link:loc xlink:href="../../../basis/venj/domains/bw2-domains-equity.xsd#bw2-dm-eqty_TreasurySharesMember" xlink:label="bw2-dm-eqty_TreasurySharesMember_loc" xlink:type="locator"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_EquityComponentDomain_loc" xlink:to="bw2-dm-eqty_EquityComponentDomain_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_RevaluationReserveComponentDomain_loc" xlink:to="bw2-dm-eqty_RevaluationReserveComponentDomain_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_ShareCapitalMember_loc" xlink:to="bw2-dm-eqty_ShareCapitalMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_SharePremiumMember_loc" xlink:to="bw2-dm-eqty_SharePremiumMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_RevaluationReserveMember_loc" xlink:to="bw2-dm-eqty_RevaluationReserveMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_LegalStatutoryReservesMember_loc" xlink:to="bw2-dm-eqty_LegalStatutoryReservesMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_LegalReservesMember_loc" xlink:to="bw2-dm-eqty_LegalReservesMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_StatutoryReservesMember_loc" xlink:to="bw2-dm-eqty_StatutoryReservesMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_ReinvestmentReserveMember_loc" xlink:to="bw2-dm-eqty_ReinvestmentReserveMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_FiscalReservesOtherMember_loc" xlink:to="bw2-dm-eqty_FiscalReservesOtherMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_ReservesOtherMember_loc" xlink:to="bw2-dm-eqty_ReservesOtherMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_RetainedEarningsMember_loc" xlink:to="bw2-dm-eqty_RetainedEarningsMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_ResultForTheYearMember_loc" xlink:to="bw2-dm-eqty_ResultForTheYearMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_EquityMember_loc" xlink:to="bw2-dm-eqty_EquityMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_NoncontrollingInterestMember_loc" xlink:to="bw2-dm-eqty_NoncontrollingInterestMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_EquityGroupMember_loc" xlink:to="bw2-dm-eqty_EquityGroupMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_HedgedMember_loc" xlink:to="bw2-dm-eqty_HedgedMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_NoPriceQuotationInActiveMarketMember_loc" xlink:to="bw2-dm-eqty_NoPriceQuotationInActiveMarketMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_RecognisedDirectlyThroughEquityMember_loc" xlink:to="bw2-dm-eqty_RecognisedDirectlyThroughEquityMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_ShareCapitalComponentDomain_loc" xlink:to="bw2-dm-eqty_ShareCapitalComponentDomain_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_OrdinarySharesMember_loc" xlink:to="bw2-dm-eqty_OrdinarySharesMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_PreferredSharesMember_loc" xlink:to="bw2-dm-eqty_PreferredSharesMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_PrioritySharesMember_loc" xlink:to="bw2-dm-eqty_PrioritySharesMember_label_nl" xlink:type="arc"/>
+    <link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-dm-eqty_TreasurySharesMember_loc" xlink:to="bw2-dm-eqty_TreasurySharesMember_label_nl" xlink:type="arc"/>
+    <link:label id="bw2-dm-eqty_EquityComponentDomain_label_nl" xlink:label="bw2-dm-eqty_EquityComponentDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Eigen vermogen [domein]</link:label>
+    <link:label id="bw2-dm-eqty_RevaluationReserveComponentDomain_label_nl" xlink:label="bw2-dm-eqty_RevaluationReserveComponentDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Herwaarderingsreserve [domein]</link:label>
+    <link:label id="bw2-dm-eqty_ShareCapitalMember_label_nl" xlink:label="bw2-dm-eqty_ShareCapitalMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Aandelenkapitaal [member]</link:label>
+    <link:label id="bw2-dm-eqty_SharePremiumMember_label_nl" xlink:label="bw2-dm-eqty_SharePremiumMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Agio [member]</link:label>
+    <link:label id="bw2-dm-eqty_RevaluationReserveMember_label_nl" xlink:label="bw2-dm-eqty_RevaluationReserveMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Herwaarderingsreserve [member]</link:label>
+    <link:label id="bw2-dm-eqty_LegalStatutoryReservesMember_label_nl" xlink:label="bw2-dm-eqty_LegalStatutoryReservesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Wettelijke en statutaire reserves [member]</link:label>
+    <link:label id="bw2-dm-eqty_LegalReservesMember_label_nl" xlink:label="bw2-dm-eqty_LegalReservesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Wettelijke reserves [member]</link:label>
+    <link:label id="bw2-dm-eqty_StatutoryReservesMember_label_nl" xlink:label="bw2-dm-eqty_StatutoryReservesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Statutaire reserves [member]</link:label>
+    <link:label id="bw2-dm-eqty_ReinvestmentReserveMember_label_nl" xlink:label="bw2-dm-eqty_ReinvestmentReserveMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Herinvesteringsreserve [member]</link:label>
+    <link:label id="bw2-dm-eqty_FiscalReservesOtherMember_label_nl" xlink:label="bw2-dm-eqty_FiscalReservesOtherMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Overige fiscale reserves [member]</link:label>
+    <link:label id="bw2-dm-eqty_ReservesOtherMember_label_nl" xlink:label="bw2-dm-eqty_ReservesOtherMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Overige reserves [member]</link:label>
+    <link:label id="bw2-dm-eqty_RetainedEarningsMember_label_nl" xlink:label="bw2-dm-eqty_RetainedEarningsMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Reserve onverdeelde winst [member]</link:label>
+    <link:label id="bw2-dm-eqty_ResultForTheYearMember_label_nl" xlink:label="bw2-dm-eqty_ResultForTheYearMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Resultaat boekjaar [member]</link:label>
+    <link:label id="bw2-dm-eqty_EquityMember_label_nl" xlink:label="bw2-dm-eqty_EquityMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Eigen vermogen [member]</link:label>
+    <link:label id="bw2-dm-eqty_NoncontrollingInterestMember_label_nl" xlink:label="bw2-dm-eqty_NoncontrollingInterestMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Aandeel van derden [member]</link:label>
+    <link:label id="bw2-dm-eqty_EquityGroupMember_label_nl" xlink:label="bw2-dm-eqty_EquityGroupMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Groepsvermogen [member]</link:label>
+    <link:label id="bw2-dm-eqty_HedgedMember_label_nl" xlink:label="bw2-dm-eqty_HedgedMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Afgedekt [member]</link:label>
+    <link:label id="bw2-dm-eqty_NoPriceQuotationInActiveMarketMember_label_nl" xlink:label="bw2-dm-eqty_NoPriceQuotationInActiveMarketMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Geen frequente marktnotering [member]</link:label>
+    <link:label id="bw2-dm-eqty_RecognisedDirectlyThroughEquityMember_label_nl" xlink:label="bw2-dm-eqty_RecognisedDirectlyThroughEquityMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Rechtstreeks in eigen vermogen [member]</link:label>
+    <link:label id="bw2-dm-eqty_ShareCapitalComponentDomain_label_nl" xlink:label="bw2-dm-eqty_ShareCapitalComponentDomain_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Aandelenkapitaal [domein]</link:label>
+    <link:label id="bw2-dm-eqty_OrdinarySharesMember_label_nl" xlink:label="bw2-dm-eqty_OrdinarySharesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Normale aandelen [member]</link:label>
+    <link:label id="bw2-dm-eqty_PreferredSharesMember_label_nl" xlink:label="bw2-dm-eqty_PreferredSharesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Preferente aandelen [member]</link:label>
+    <link:label id="bw2-dm-eqty_PrioritySharesMember_label_nl" xlink:label="bw2-dm-eqty_PrioritySharesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Prioriteitsaandelen [member]</link:label>
+    <link:label id="bw2-dm-eqty_TreasurySharesMember_label_nl" xlink:label="bw2-dm-eqty_TreasurySharesMember_label_nl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="nl">Eigen aandelen [member]</link:label>
+  </link:labelLink>
+</link:linkbase>

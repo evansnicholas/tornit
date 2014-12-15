@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic" xmlns:label="http://xbrl.org/2008/label" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd">
+  <link:arcroleRef xlink:type="simple" arcroleURI="http://xbrl.org/arcrole/2008/element-label" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role" roleURI="http://www.xbrl.org/2008/role/link"/>
+  <link:roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label" roleURI="http://www.xbrl.org/2008/role/label"/>
+  <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_BasisOfPreparationDomain_loc" xlink:to="kvk-dlrd_BasisOfPreparationDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_BasisOfPreparationDomain_label-nl" xlink:label="kvk-dlrd_BasisOfPreparationDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Grondslag [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_BasisOfPreparationDomain" xlink:label="kvk-dlrd_BasisOfPreparationDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_BasisOfPreparationCommercialDomain_loc" xlink:to="kvk-dlrd_BasisOfPreparationCommercialDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_BasisOfPreparationCommercialDomain_label-nl" xlink:label="kvk-dlrd_BasisOfPreparationCommercialDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Grondslag, commercieel [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_BasisOfPreparationCommercialDomain" xlink:label="kvk-dlrd_BasisOfPreparationCommercialDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_BasisOfPreparationFiscalDomain_loc" xlink:to="kvk-dlrd_BasisOfPreparationFiscalDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_BasisOfPreparationFiscalDomain_label-nl" xlink:label="kvk-dlrd_BasisOfPreparationFiscalDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Grondslag, fiscaal [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_BasisOfPreparationFiscalDomain" xlink:label="kvk-dlrd_BasisOfPreparationFiscalDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_FinancialStatementsTypeDomain_loc" xlink:to="kvk-dlrd_FinancialStatementsTypeDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_FinancialStatementsTypeDomain_label-nl" xlink:label="kvk-dlrd_FinancialStatementsTypeDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Type jaarrekening [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_FinancialStatementsTypeDomain" xlink:label="kvk-dlrd_FinancialStatementsTypeDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_FinancialStatementsTypeConsolidatedDomain_loc" xlink:to="kvk-dlrd_FinancialStatementsTypeConsolidatedDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_FinancialStatementsTypeConsolidatedDomain_label-nl" xlink:label="kvk-dlrd_FinancialStatementsTypeConsolidatedDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Type jaarrekening, geconsolideerd [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_FinancialStatementsTypeConsolidatedDomain" xlink:label="kvk-dlrd_FinancialStatementsTypeConsolidatedDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_FinancialStatementsTypeSeparateDomain_loc" xlink:to="kvk-dlrd_FinancialStatementsTypeSeparateDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_FinancialStatementsTypeSeparateDomain_label-nl" xlink:label="kvk-dlrd_FinancialStatementsTypeSeparateDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Type jaarrekening, enkelvoudig [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_FinancialStatementsTypeSeparateDomain" xlink:label="kvk-dlrd_FinancialStatementsTypeSeparateDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_IntangibleAssetsDomain_loc" xlink:to="kvk-dlrd_IntangibleAssetsDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_IntangibleAssetsDomain_label-nl" xlink:label="kvk-dlrd_IntangibleAssetsDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Immateriële vaste activa [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_IntangibleAssetsDomain" xlink:label="kvk-dlrd_IntangibleAssetsDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_PropertyPlantEquipmentDomain_loc" xlink:to="kvk-dlrd_PropertyPlantEquipmentDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_PropertyPlantEquipmentDomain_label-nl" xlink:label="kvk-dlrd_PropertyPlantEquipmentDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Materiële vaste activa [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_PropertyPlantEquipmentDomain" xlink:label="kvk-dlrd_PropertyPlantEquipmentDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_FinancialAssetsDomain_loc" xlink:to="kvk-dlrd_FinancialAssetsDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_FinancialAssetsDomain_label-nl" xlink:label="kvk-dlrd_FinancialAssetsDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Financiële vaste activa [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_FinancialAssetsDomain" xlink:label="kvk-dlrd_FinancialAssetsDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_EquityDomain_loc" xlink:to="kvk-dlrd_EquityDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_EquityDomain_label-nl" xlink:label="kvk-dlrd_EquityDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Eigen vermogen [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_EquityDomain" xlink:label="kvk-dlrd_EquityDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_ShareCapitalDomain_loc" xlink:to="kvk-dlrd_ShareCapitalDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_ShareCapitalDomain_label-nl" xlink:label="kvk-dlrd_ShareCapitalDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Aandelenkapitaal [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_ShareCapitalDomain" xlink:label="kvk-dlrd_ShareCapitalDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_RevaluationReserveDomain_loc" xlink:to="kvk-dlrd_RevaluationReserveDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_RevaluationReserveDomain_label-nl" xlink:label="kvk-dlrd_RevaluationReserveDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Herwaarderingsreserve [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_RevaluationReserveDomain" xlink:label="kvk-dlrd_RevaluationReserveDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_ProvisionsDomain_loc" xlink:to="kvk-dlrd_ProvisionsDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_ProvisionsDomain_label-nl" xlink:label="kvk-dlrd_ProvisionsDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Voorzieningen [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_ProvisionsDomain" xlink:label="kvk-dlrd_ProvisionsDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_NegativeGoodwillDomain_loc" xlink:to="kvk-dlrd_NegativeGoodwillDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_NegativeGoodwillDomain_label-nl" xlink:label="kvk-dlrd_NegativeGoodwillDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Negatieve goodwill [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_NegativeGoodwillDomain" xlink:label="kvk-dlrd_NegativeGoodwillDomain_loc"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="kvk-dlrd_RightsGrantedNotYetExercisedDomain_loc" xlink:to="kvk-dlrd_RightsGrantedNotYetExercisedDomain_label-nl"/>
+    <label:label xlink:type="resource" id="kvk-dlrd_RightsGrantedNotYetExercisedDomain_label-nl" xlink:label="kvk-dlrd_RightsGrantedNotYetExercisedDomain_label-nl" xlink:role="http://www.xbrl.org/2008/role/label" xml:lang="nl">Toegekende rechten, nog niet uitgeoefend [domein]</label:label>
+    <link:loc xlink:type="locator" xlink:href="kvk-linkroles-domains.xsd#kvk-dlrd_RightsGrantedNotYetExercisedDomain" xlink:label="kvk-dlrd_RightsGrantedNotYetExercisedDomain_loc"/>
+  </gen:link>
+</link:linkbase>

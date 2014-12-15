@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0 
+  Released by the Dutch SBR Programme 
+  Release date Wed May 15 16:00:00 2013
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/8.0/basis/sbr/linkroles/nl-genbase-linkroles" xmlns:nl-lr="http://www.nltaxonomie.nl/8.0/basis/sbr/linkroles/nl-genbase-linkroles" xmlns:gen="http://xbrl.org/2008/generic" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:annotation>
+        <xs:appinfo>
+        <link:roleType id="nl-lr_iso3166_label_nl" roleURI="urn:gen:linkrole:iso3166_label_nl">
+		  <link:definition>NL label NL linkrole</link:definition>
+          <link:usedOn>gen:link</link:usedOn>
+        </link:roleType>
+        <link:roleType id="nl-lr_iso3166_label_en" roleURI="urn:gen:linkrole:iso3166_label_en">
+		  <link:definition>NL label EN linkrole</link:definition>
+          <link:usedOn>gen:link</link:usedOn>
+        </link:roleType>
+        <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="nl-genbase-linkroles-generic-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="simple"/>
+        <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="nl-genbase-linkroles-generic-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xs:schema>

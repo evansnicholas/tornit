@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.nltaxonomie.nl/7.0/basis/bd/domains/bd-domains" xmlns:bd-dim-dom="http://www.nltaxonomie.nl/7.0/basis/bd/domains/bd-domains" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sbr="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:annotation>
+        <xs:appinfo>
+            <link:linkbaseRef xlink:href="./bd-domains-lab-nl.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:type="simple"/>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xs:import namespace="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension" schemaLocation="http://www.nltaxonomie.nl/2011/xbrl/xbrl-syntax-extension.xsd"/>
+    <xs:element id="bd-dim-dom_Company" name="Company" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-dim-dom_CompanySerialNumberDomain" name="CompanySerialNumberDomain" abstract="false" nillable="false">
+        <xs:simpleType>
+            <xs:restriction base="xs:positiveInteger">
+                <xs:minInclusive value="1"/>
+                <xs:maxInclusive value="999"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element id="bd-dim-dom_Current" name="Current" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-dim-dom_Declarant" name="Declarant" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-dim-dom_HoldingCompany" name="HoldingCompany" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-dim-dom_Partner" name="Partner" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-dim-dom_PartyDomain" name="PartyDomain" type="xbrli:stringItemType" substitutionGroup="sbr:domainItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-dim-dom_Previous" name="Previous" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-dim-dom_SubsidiaryCompany" name="SubsidiaryCompany" type="xbrli:stringItemType" substitutionGroup="sbr:domainMemberItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+    <xs:element id="bd-dim-dom_TimeDomain" name="TimeDomain" type="xbrli:stringItemType" substitutionGroup="sbr:domainItem" xbrli:periodType="duration" abstract="true" nillable="false"/>
+</xs:schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+        <link:loc xlink:href="cbs-axes.xsd#cbs-dim_StatusDimension" xlink:label="cbs-dim_StatusDimension_loc" xlink:type="locator"/>
+        <link:label xlink:label="cbs-dim_StatusDimension_label_en" xml:lang="en" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" id="cbs-dim_StatusDimension_label_en">Status [Axis]</link:label>
+        <link:labelArc xlink:from="cbs-dim_StatusDimension_loc" xlink:to="cbs-dim_StatusDimension_label_en" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:type="arc"/>
+    </link:labelLink>
+</link:linkbase>

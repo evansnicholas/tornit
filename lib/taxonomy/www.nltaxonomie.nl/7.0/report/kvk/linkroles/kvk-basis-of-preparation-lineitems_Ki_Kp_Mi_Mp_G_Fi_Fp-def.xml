@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" xlink:type="simple"/>
+   <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:href="../../../report/kvk/linkroles/kvk-linkroles-tables.xsd#kvk-dlr_BasisOfPreparationTable" xlink:type="simple"/>
+   <link:definitionLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/basis-of-preparation-table" xlink:type="extended">
+		<link:loc xlink:href="../../../report/kvk/lineitems/kvk-primary-domains.xsd#kvk-pdom_BasisOfPreparationLineItems" xlink:label="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingPoliciesDescriptionOfDifferencesBetweenOldAndNewAccountingPolicies" xlink:label="kvk-i_ChangeAccountingPoliciesDescriptionOfDifferencesBetweenOldAndNewAccountingPolicies_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingPoliciesEffectOnEquityAndResults" xlink:label="kvk-i_ChangeAccountingPoliciesEffectOnEquityAndResults_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingPoliciesReasonsForChangeInAccountingPolicies" xlink:label="kvk-i_ChangeAccountingPoliciesReasonsForChangeInAccountingPolicies_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ConsolidationChangesInConsolidatedInterests" xlink:label="kvk-i_ConsolidationChangesInConsolidatedInterests_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ConsolidationDisclosure" xlink:label="kvk-i_ConsolidationDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ConsolidationExemptionDescription" xlink:label="kvk-i_ConsolidationExemptionDescription_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ConsolidationPolicy" xlink:label="kvk-i_ConsolidationPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityReasonConsolidation" xlink:label="kvk-i_EntityReasonConsolidation_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityReasonUseDifferentAccountingPoliciesThanConsolidated" xlink:label="kvk-i_EntityReasonUseDifferentAccountingPoliciesThanConsolidated_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinanceLeasesPolicy" xlink:label="kvk-i_FinanceLeasesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GoingConcernBasisForPreparationFinancialStatementsWhenNotGoingConcernBasis" xlink:label="kvk-i_GoingConcernBasisForPreparationFinancialStatementsWhenNotGoingConcernBasis_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GoingConcernEffectNotGoingConcernBasisOnEquityAndResults" xlink:label="kvk-i_GoingConcernEffectNotGoingConcernBasisOnEquityAndResults_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GoingConcernExplanationWhyEntiyNotRegardedGoingConcern" xlink:label="kvk-i_GoingConcernExplanationWhyEntiyNotRegardedGoingConcern_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GoingConcernUncertaintiesEntitysAbilityToContinueAsGoingConcern" xlink:label="kvk-i_GoingConcernUncertaintiesEntitysAbilityToContinueAsGoingConcern_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_LeasesPolicy" xlink:label="kvk-i_LeasesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_OperatingLeasesPolicy" xlink:label="kvk-i_OperatingLeasesPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_OutcomeAssetsCurrentLessLiabilitiesCurrentPolicy" xlink:label="nl-gen_OutcomeAssetsCurrentLessLiabilitiesCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/sbr/items/nl-genbase.xsd#nl-gen_OutcomeAssetsLessLiabilitiesCurrentPolicy" xlink:label="nl-gen_OutcomeAssetsLessLiabilitiesCurrentPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingEstimatesDescriptionOfDifferencesBetweenOldAndNewAccountingEstimates" xlink:label="kvk-i_ChangeAccountingEstimatesDescriptionOfDifferencesBetweenOldAndNewAccountingEstimates_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingEstimatesEffectOnCurrentPeriod" xlink:label="kvk-i_ChangeAccountingEstimatesEffectOnCurrentPeriod_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingEstimatesEffectOnFuturePeriods" xlink:label="kvk-i_ChangeAccountingEstimatesEffectOnFuturePeriods_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingEstimatesReasonsWhyImpracticableToDetermineAdjustments" xlink:label="kvk-i_ChangeAccountingEstimatesReasonsWhyImpracticableToDetermineAdjustments_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingPoliciesEffectOnIndividualLineItems" xlink:label="kvk-i_ChangeAccountingPoliciesEffectOnIndividualLineItems_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingPoliciesMethodProcessingEffectsChange" xlink:label="kvk-i_ChangeAccountingPoliciesMethodProcessingEffectsChange_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ChangeAccountingPoliciesReasonsWhyImpracticableToDetermineAdjustments" xlink:label="kvk-i_ChangeAccountingPoliciesReasonsWhyImpracticableToDetermineAdjustments_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialInstrumentsFairValuePolicy" xlink:label="kvk-i_FinancialInstrumentsFairValuePolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialInstrumentsPolicy" xlink:label="kvk-i_FinancialInstrumentsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ForeignCurrencyTranslationChangePresentationCurrency" xlink:label="kvk-i_ForeignCurrencyTranslationChangePresentationCurrency_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ForeignCurrencyTranslationDifferencePresentationFunctionalCurrency" xlink:label="kvk-i_ForeignCurrencyTranslationDifferencePresentationFunctionalCurrency_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GeneralPoliciesFairValueDisclosureWhenHistoricalCostBasis" xlink:label="kvk-i_GeneralPoliciesFairValueDisclosureWhenHistoricalCostBasis_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_GroupStructureFiscalUnityDescription" xlink:label="kvk-i_GroupStructureFiscalUnityDescription_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PensionArrangementsPolicy" xlink:label="kvk-i_PensionArrangementsPolicy_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PriorPeriodErrorsExplanationReasonsNotCorrectedAndNatureIfCorrected" xlink:label="kvk-i_PriorPeriodErrorsExplanationReasonsNotCorrectedAndNatureIfCorrected_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PriorPeriodErrorsMethodOfCorrection" xlink:label="kvk-i_PriorPeriodErrorsMethodOfCorrection_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PriorPeriodErrorsNatureAndExtentDescription" xlink:label="kvk-i_PriorPeriodErrorsNatureAndExtentDescription_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_PriorPeriodErrorsDisclosure" xlink:label="kvk-i_PriorPeriodErrorsDisclosure_loc" xlink:type="locator"/>
+		<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_ShareBasedPaymentsPolicy" xlink:label="kvk-i_ShareBasedPaymentsPolicy_loc" xlink:type="locator"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ConsolidationChangesInConsolidatedInterests_loc" order="113" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ConsolidationDisclosure_loc" order="114" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ConsolidationExemptionDescription_loc" order="115" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ConsolidationPolicy_loc" order="116" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_EntityReasonConsolidation_loc" order="117" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_EntityReasonUseDifferentAccountingPoliciesThanConsolidated_loc" order="118" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingPoliciesDescriptionOfDifferencesBetweenOldAndNewAccountingPolicies_loc" order="160" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingPoliciesEffectOnEquityAndResults_loc" order="161" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingPoliciesReasonsForChangeInAccountingPolicies_loc" order="162" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_FinanceLeasesPolicy_loc" order="163" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_GoingConcernBasisForPreparationFinancialStatementsWhenNotGoingConcernBasis_loc" order="164" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_GoingConcernEffectNotGoingConcernBasisOnEquityAndResults_loc" order="165" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_GoingConcernExplanationWhyEntiyNotRegardedGoingConcern_loc" order="166" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_GoingConcernUncertaintiesEntitysAbilityToContinueAsGoingConcern_loc" order="167" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_LeasesPolicy_loc" order="168" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_OperatingLeasesPolicy_loc" order="169" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_OutcomeAssetsCurrentLessLiabilitiesCurrentPolicy_loc" order="170" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="nl-gen_OutcomeAssetsLessLiabilitiesCurrentPolicy_loc" order="171" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingEstimatesDescriptionOfDifferencesBetweenOldAndNewAccountingEstimates_loc" order="172" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingEstimatesEffectOnCurrentPeriod_loc" order="173" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingEstimatesEffectOnFuturePeriods_loc" order="174" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingEstimatesReasonsWhyImpracticableToDetermineAdjustments_loc" order="175" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingPoliciesEffectOnIndividualLineItems_loc" order="176" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingPoliciesMethodProcessingEffectsChange_loc" order="177" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ChangeAccountingPoliciesReasonsWhyImpracticableToDetermineAdjustments_loc" order="178" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_FinancialInstrumentsFairValuePolicy_loc" order="179" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_FinancialInstrumentsPolicy_loc" order="180" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ForeignCurrencyTranslationChangePresentationCurrency_loc" order="182" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ForeignCurrencyTranslationDifferencePresentationFunctionalCurrency_loc" order="183" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_GeneralPoliciesFairValueDisclosureWhenHistoricalCostBasis_loc" order="184" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_GroupStructureFiscalUnityDescription_loc" order="185" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_PensionArrangementsPolicy_loc" order="186" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_PriorPeriodErrorsExplanationReasonsNotCorrectedAndNatureIfCorrected_loc" order="187" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_PriorPeriodErrorsMethodOfCorrection_loc" order="188" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_PriorPeriodErrorsNatureAndExtentDescription_loc" order="189" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_PriorPeriodErrorsDisclosure_loc" order="190" xlink:type="arc"/>
+		<link:definitionArc xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="kvk-pdom_BasisOfPreparationLineItems_loc" xlink:to="kvk-i_ShareBasedPaymentsPolicy_loc" order="191" xlink:type="arc"/>
+	</link:definitionLink>		
+</link:linkbase>

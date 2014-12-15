@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:roleRef xlink:href="./bd-linkroles-pre.xsd#bd-lr-pre_voorblad" roleURI="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_voorblad" xlink:type="simple"/>
+    <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/bd/linkroles/bd-lr-pre_voorblad" xlink:type="extended">
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_TaxReturnCommonData" xlink:label="bd-abstr_TaxReturnCommonData_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FunctionalCurrencySchemeExists" xlink:label="bd-bedr_FunctionalCurrencySchemeExists_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_TaxReturnCommonData_loc" xlink:to="bd-bedr_FunctionalCurrencySchemeExists_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_SignatoryTitle" xlink:label="bd-bedr-tuple_SignatoryTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_FunctionSignatory" xlink:label="bd-bedr_FunctionSignatory_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_SignatoryTitle_loc" xlink:to="bd-bedr_FunctionSignatory_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="4" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-abstr_TaxReturnCommonData_loc" xlink:to="bd-bedr-tuple_SignatoryTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="7" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_TaxReturnConcernsTaxEntity" xlink:label="bd-bedr_TaxReturnConcernsTaxEntity_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_TaxReturnCommonData_loc" xlink:to="bd-bedr_TaxReturnConcernsTaxEntity_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="6" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_TelephoneNumber" xlink:label="bd-alg_TelephoneNumber_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_SignatoryTitle_loc" xlink:to="bd-alg_TelephoneNumber_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="5" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_SurnameSignificantPart" xlink:label="bd-alg_SurnameSignificantPart_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_SignatoryTitle_loc" xlink:to="bd-alg_SurnameSignificantPart_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="3" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_PartyFilingTaxReturnTitle" xlink:label="bd-bedr-tuple_PartyFilingTaxReturnTitle_loc" xlink:type="locator"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-bedrijven.xsd#bd-bedr_LegalPersonName" xlink:label="bd-bedr_LegalPersonName_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_PartyFilingTaxReturnTitle_loc" xlink:to="bd-bedr_LegalPersonName_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+        <link:presentationArc xlink:from="bd-abstr_TaxReturnCommonData_loc" xlink:to="bd-bedr-tuple_PartyFilingTaxReturnTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../abstracts/bd-abstracts.xsd#bd-abstr_PreSheetTitle" xlink:label="bd-abstr_PreSheetTitle_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-abstr_PreSheetTitle_loc" xlink:to="bd-abstr_TaxReturnCommonData_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../domein/bd/tuples/bd-bedr-tuples.xsd#bd-bedr-tuple_TaxData" xlink:label="bd-bedr-tuple_TaxData_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_TaxData_loc" xlink:to="bd-abstr_PreSheetTitle_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_Initials" xlink:label="bd-alg_Initials_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_SignatoryTitle_loc" xlink:to="bd-alg_Initials_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="1" xlink:type="arc"/>
+        <link:loc xlink:href="../../../basis/bd/items/bd-algemeen.xsd#bd-alg_Prefix" xlink:label="bd-alg_Prefix_loc" xlink:type="locator"/>
+        <link:presentationArc xlink:from="bd-bedr-tuple_SignatoryTitle_loc" xlink:to="bd-alg_Prefix_loc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" order="2" xlink:type="arc"/>
+    </link:presentationLink>
+</link:linkbase>

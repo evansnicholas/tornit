@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 8.0
+  Released by the Dutch SBR Programme 
+  Release date Mon Dec 2 09:02:00 2013
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_LiabilitiesCurrent" xlink:label="bw2-i_LiabilitiesCurrent_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_LiabilitiesCurrent_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_LiabilitiesCurrent_totalLabel_en">Current liabilities (up to one year), total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_LiabilitiesCurrent_loc" xlink:to="bw2-i_LiabilitiesCurrent_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_OperatingExpenses" xlink:label="bw2-i_OperatingExpenses_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_OperatingExpenses_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_OperatingExpenses_totalLabel_en">Operating expenses, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_OperatingExpenses_loc" xlink:to="bw2-i_OperatingExpenses_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_OperatingIncome" xlink:label="bw2-i_OperatingIncome_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_OperatingIncome_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_OperatingIncome_totalLabel_en">Operating income, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_OperatingIncome_loc" xlink:to="bw2-i_OperatingIncome_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_CashAndCashEquivalents" xlink:label="bw2-i_CashAndCashEquivalents_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_CashAndCashEquivalents_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_CashAndCashEquivalents_totalLabel_en">Cash and cash equivalents, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_CashAndCashEquivalents_loc" xlink:to="bw2-i_CashAndCashEquivalents_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_Equity" xlink:label="bw2-i_Equity_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_Equity_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_Equity_totalLabel_en">Equity, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_Equity_loc" xlink:to="bw2-i_Equity_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_EquityGroup" xlink:label="bw2-i_EquityGroup_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_EquityGroup_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_EquityGroup_totalLabel_en">Group equity, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_EquityGroup_loc" xlink:to="bw2-i_EquityGroup_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_FinancialAssets" xlink:label="bw2-i_FinancialAssets_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_FinancialAssets_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_FinancialAssets_totalLabel_en">Financial assets, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_FinancialAssets_loc" xlink:to="bw2-i_FinancialAssets_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_IntangibleAssets" xlink:label="bw2-i_IntangibleAssets_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_IntangibleAssets_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_IntangibleAssets_totalLabel_en">Intangible assets, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_IntangibleAssets_loc" xlink:to="bw2-i_IntangibleAssets_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_PropertyPlantEquipment" xlink:label="bw2-i_PropertyPlantEquipment_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_PropertyPlantEquipment_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_PropertyPlantEquipment_totalLabel_en">Property, plant and equipment, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_PropertyPlantEquipment_loc" xlink:to="bw2-i_PropertyPlantEquipment_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_Provisions" xlink:label="bw2-i_Provisions_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_Provisions_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_Provisions_totalLabel_en">Provisions, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_Provisions_loc" xlink:to="bw2-i_Provisions_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_Assets" xlink:label="bw2-i_Assets_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_Assets_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_Assets_totalLabel_en">Assets, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_Assets_loc" xlink:to="bw2-i_Assets_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_AssetsCurrent" xlink:label="bw2-i_AssetsCurrent_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_AssetsCurrent_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_AssetsCurrent_totalLabel_en">Current assets, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_AssetsCurrent_loc" xlink:to="bw2-i_AssetsCurrent_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_AssetsNoncurrent" xlink:label="bw2-i_AssetsNoncurrent_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_AssetsNoncurrent_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_AssetsNoncurrent_totalLabel_en">Non-current assets, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_AssetsNoncurrent_loc" xlink:to="bw2-i_AssetsNoncurrent_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_EquityAndLiabilities" xlink:label="bw2-i_EquityAndLiabilities_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_EquityAndLiabilities_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_EquityAndLiabilities_totalLabel_en">Equity and liabilities, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_EquityAndLiabilities_loc" xlink:to="bw2-i_EquityAndLiabilities_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_FinancialExpense" xlink:label="bw2-i_FinancialExpense_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_FinancialExpense_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_FinancialExpense_totalLabel_en">Financial expense, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_FinancialExpense_loc" xlink:to="bw2-i_FinancialExpense_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_FinancialIncome" xlink:label="bw2-i_FinancialIncome_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_FinancialIncome_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_FinancialIncome_totalLabel_en">Financial income, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_FinancialIncome_loc" xlink:to="bw2-i_FinancialIncome_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_Inventories" xlink:label="bw2-i_Inventories_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_Inventories_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_Inventories_totalLabel_en">Inventories, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_Inventories_loc" xlink:to="bw2-i_Inventories_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_LegalStatutoryReserves" xlink:label="bw2-i_LegalStatutoryReserves_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_LegalStatutoryReserves_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_LegalStatutoryReserves_totalLabel_en">Legal and statutory reserves, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_LegalStatutoryReserves_loc" xlink:to="bw2-i_LegalStatutoryReserves_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_LiabilitiesNoncurrent" xlink:label="bw2-i_LiabilitiesNoncurrent_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_LiabilitiesNoncurrent_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_LiabilitiesNoncurrent_totalLabel_en">Non-current liabilities (exceeding one year), total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_LiabilitiesNoncurrent_loc" xlink:to="bw2-i_LiabilitiesNoncurrent_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_NetRevenue" xlink:label="bw2-i_NetRevenue_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_NetRevenue_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_NetRevenue_totalLabel_en">Net revenue, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_NetRevenue_loc" xlink:to="bw2-i_NetRevenue_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_Receivables" xlink:label="bw2-i_Receivables_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_Receivables_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_Receivables_totalLabel_en">Receivables, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_Receivables_loc" xlink:to="bw2-i_Receivables_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_Securities" xlink:label="bw2-i_Securities_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_Securities_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_Securities_totalLabel_en">Securities, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_Securities_loc" xlink:to="bw2-i_Securities_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_ShareCapital" xlink:label="bw2-i_ShareCapital_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_ShareCapital_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_ShareCapital_totalLabel_en">Share capital, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_ShareCapital_loc" xlink:to="bw2-i_ShareCapital_totalLabel_en"/>
+    <link:loc xlink:type="locator" xlink:href="bw2-data.xsd#bw2-i_SumOfExpenses" xlink:label="bw2-i_SumOfExpenses_loc"/>
+    <link:label xlink:type="resource" xlink:label="bw2-i_SumOfExpenses_totalLabel_en" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en" id="bw2-i_SumOfExpenses_totalLabel_en">Sum of expenses, total</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="bw2-i_SumOfExpenses_loc" xlink:to="bw2-i_SumOfExpenses_totalLabel_en"/>
+  </link:labelLink>
+</link:linkbase>

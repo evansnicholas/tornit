@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"  xmlns:xlink="http://www.w3.org/1999/xlink">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+	<link:label id="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_periodStartLabel_en" xlink:label="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Accumulated amortisation and impairments, beginning balance</link:label>
+	<link:label id="kvk-i_IntangibleAssetsAccumulatedRevaluations_periodStartLabel_en" xlink:label="kvk-i_IntangibleAssetsAccumulatedRevaluations_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Accumulated revaluations, beginning balance</link:label>
+	<link:label id="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_periodStartLabel_en" xlink:label="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Accumulated amortisation and impairments, beginning balance</link:label>
+	<link:label id="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_periodStartLabel_en" xlink:label="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Accumulated revaluations, beginning balance</link:label>
+	<link:label id="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_periodStartLabel_en" xlink:label="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Accumulated amortisation and impairments, beginning balance</link:label>
+	<link:label id="kvk-i_FinancialAssetsAccumulatedRevaluations_periodStartLabel_en" xlink:label="kvk-i_FinancialAssetsAccumulatedRevaluations_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Accumulated revaluations, beginning balance</link:label>
+	<link:label id="kvk-i_ShareCapitalNumberShares_periodStartLabel_en" xlink:label="kvk-i_ShareCapitalNumberShares_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Share capital, number of shares</link:label>
+	<link:label id="kvk-i_RightsGranted_periodStartLabel_en" xlink:label="kvk-i_RightsGranted_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Rights granted, beginning balance</link:label>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments" xlink:label="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_IntangibleAssetsAccumulatedRevaluations" xlink:label="kvk-i_IntangibleAssetsAccumulatedRevaluations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments" xlink:label="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_PropertyPlantEquipmentAccumulatedRevaluations" xlink:label="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_FinancialAssetsAccumulatedDepreciationImpairments" xlink:label="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_FinancialAssetsAccumulatedRevaluations" xlink:label="kvk-i_FinancialAssetsAccumulatedRevaluations_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_ShareCapitalNumberShares" xlink:label="kvk-i_ShareCapitalNumberShares_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_RightsGranted" xlink:label="kvk-i_RightsGranted_loc" xlink:type="locator"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_loc" xlink:to="kvk-i_IntangibleAssetsAccumulatedAmortisationImpairments_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_IntangibleAssetsAccumulatedRevaluations_loc" xlink:to="kvk-i_IntangibleAssetsAccumulatedRevaluations_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_loc" xlink:to="kvk-i_PropertyPlantEquipmentAccumulatedDepreciationImpairments_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_loc" xlink:to="kvk-i_PropertyPlantEquipmentAccumulatedRevaluations_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_loc" xlink:to="kvk-i_FinancialAssetsAccumulatedDepreciationImpairments_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_FinancialAssetsAccumulatedRevaluations_loc" xlink:to="kvk-i_FinancialAssetsAccumulatedRevaluations_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_ShareCapitalNumberShares_loc" xlink:to="kvk-i_ShareCapitalNumberShares_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_RightsGranted_loc" xlink:to="kvk-i_RightsGranted_periodStartLabel_en" xlink:type="arc"/>
+	<link:label id="kvk-i_IntangibleAssetsCostPrice_periodStartLabel_en" xlink:label="kvk-i_IntangibleAssetsCostPrice_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Cost or manufacturing price, beginning balance</link:label>
+	<link:label id="kvk-i_PropertyPlantEquipmentCostPrice_periodStartLabel_en" xlink:label="kvk-i_PropertyPlantEquipmentCostPrice_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Cost or manufacturing price, beginning balance</link:label>
+	<link:label id="kvk-i_FinancialAssetsCostPrice_periodStartLabel_en" xlink:label="kvk-i_FinancialAssetsCostPrice_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Cost or manufacturing price, beginning balance</link:label>
+	<link:label id="kvk-i_NegativeGoodwillGross_periodStartLabel_en" xlink:label="kvk-i_NegativeGoodwillGross_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Gross value, beginning balance</link:label>
+	<link:label id="kvk-i_NegativeGoodwillAccumulatedAmortisation_periodStartLabel_en" xlink:label="kvk-i_NegativeGoodwillAccumulatedAmortisation_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Accumulated amortisation, beginning balance</link:label>
+	<link:label id="kvk-i_NegativeGoodwill_periodStartLabel_en" xlink:label="kvk-i_NegativeGoodwill_periodStartLabel_en" xlink:role="http://www.xbrl.org/2003/role/periodStartLabel" xlink:type="resource" xml:lang="en">Negative goodwill, beginning balance</link:label>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_IntangibleAssetsCostPrice" xlink:label="kvk-i_IntangibleAssetsCostPrice_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_PropertyPlantEquipmentCostPrice" xlink:label="kvk-i_PropertyPlantEquipmentCostPrice_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_FinancialAssetsCostPrice" xlink:label="kvk-i_FinancialAssetsCostPrice_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_NegativeGoodwillGross" xlink:label="kvk-i_NegativeGoodwillGross_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_NegativeGoodwillAccumulatedAmortisation" xlink:label="kvk-i_NegativeGoodwillAccumulatedAmortisation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="kvk-data.xsd#kvk-i_NegativeGoodwill" xlink:label="kvk-i_NegativeGoodwill_loc" xlink:type="locator"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_IntangibleAssetsCostPrice_loc" xlink:to="kvk-i_IntangibleAssetsCostPrice_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_PropertyPlantEquipmentCostPrice_loc" xlink:to="kvk-i_PropertyPlantEquipmentCostPrice_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_FinancialAssetsCostPrice_loc" xlink:to="kvk-i_FinancialAssetsCostPrice_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_NegativeGoodwillGross_loc" xlink:to="kvk-i_NegativeGoodwillGross_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_NegativeGoodwillAccumulatedAmortisation_loc" xlink:to="kvk-i_NegativeGoodwillAccumulatedAmortisation_periodStartLabel_en" xlink:type="arc"/>
+	<link:labelArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="kvk-i_NegativeGoodwill_loc" xlink:to="kvk-i_NegativeGoodwill_periodStartLabel_en" xlink:type="arc"/>
+	</link:labelLink>
+</link:linkbase>

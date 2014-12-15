@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of the Nederlandse taxonomy (NT, Dutch Taxonomy) 
+  Intellectual Property State of the Netherlands 
+  Version 7.0 
+  Released by the Dutch SBR Programme 
+  Release date Thu Nov 30 10:14:00 2012
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/document-entity-information" xlink:href="kvk-linkroles-pre.xsd#kvk-plr_DocumentEntityInformation" xlink:type="simple"/>
+  <link:presentationLink xlink:role="http://www.nltaxonomie.nl/7.0/report/kvk/linkroles/document-entity-information" xlink:type="extended">
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_DocumentEntityInformationTitle" xlink:label="kvk-abstr_DocumentEntityInformationTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_EntityInformationTitle" xlink:label="kvk-abstr_EntityInformationTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StatutoryNameEntity" xlink:label="nl-cd_StatutoryNameEntity_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_LegalForm" xlink:label="nl-cd_LegalForm_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_Namebusiness" xlink:label="nl-cd_Namebusiness_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_EntityOtherMethodIdentification" xlink:label="kvk-i_EntityOtherMethodIdentification_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../domein/kvk/tuples/kvk-tuples.xsd#kvk-t_StatutoryAddressPresentation" xlink:label="kvk-t_StatutoryAddressPresentation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_DescriptionLocationNL" xlink:label="nl-cd_DescriptionLocationNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StreetNameNL" xlink:label="nl-cd_StreetNameNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberNL" xlink:label="nl-cd_HouseNumberNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_HouseNumberAddition" xlink:label="nl-cd_HouseNumberAddition_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_POBoxNumber" xlink:label="nl-cd_POBoxNumber_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PostalCodeNL" xlink:label="nl-cd_PostalCodeNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_PlaceOfResidenceNL" xlink:label="nl-cd_PlaceOfResidenceNL_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_NameRegion" xlink:label="nl-cd_NameRegion_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_CountryNameISO" xlink:label="nl-cd_CountryNameISO_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../report/kvk/abstracts/kvk-abstracts.xsd#kvk-abstr_DocumentInformationTitle" xlink:label="kvk-abstr_DocumentInformationTitle_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentInformation" xlink:label="kvk-i_DocumentInformation_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_StartDateForFinancialPeriod" xlink:label="nl-cd_StartDateForFinancialPeriod_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_EndDateForFinancialPeriod" xlink:label="nl-cd_EndDateForFinancialPeriod_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialPeriodDifferentThanAnnualStatus" xlink:label="kvk-i_FinancialPeriodDifferentThanAnnualStatus_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialPeriodDifferentThanAnnualReason" xlink:label="kvk-i_FinancialPeriodDifferentThanAnnualReason_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_FinancialPeriodDifferentThanAnnualImpactComparatives" xlink:label="kvk-i_FinancialPeriodDifferentThanAnnualImpactComparatives_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentRelatesToIndividualEntityOrGroup" xlink:label="kvk-i_DocumentRelatesToIndividualEntityOrGroup_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentPresentationCurrency" xlink:label="kvk-i_DocumentPresentationCurrency_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/sbr/items/nl-common-data.xsd#nl-cd_DocumentCreationDate" xlink:label="nl-cd_DocumentCreationDate_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentAdoptionStatus" xlink:label="kvk-i_DocumentAdoptionStatus_loc" xlink:type="locator"/>
+	<link:loc xlink:href="../../../basis/kvk/items/kvk-data.xsd#kvk-i_DocumentAdoptionDate" xlink:label="kvk-i_DocumentAdoptionDate_loc" xlink:type="locator"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentEntityInformationTitle_loc" xlink:to="kvk-abstr_EntityInformationTitle_loc" xlink:type="arc" order="1"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EntityInformationTitle_loc" xlink:to="nl-cd_StatutoryNameEntity_loc" xlink:type="arc" order="2"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EntityInformationTitle_loc" xlink:to="nl-cd_LegalForm_loc" xlink:type="arc" order="3"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EntityInformationTitle_loc" xlink:to="nl-cd_Namebusiness_loc" xlink:type="arc" order="4"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EntityInformationTitle_loc" xlink:to="kvk-i_EntityOtherMethodIdentification_loc" xlink:type="arc" order="5"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_EntityInformationTitle_loc" xlink:to="kvk-t_StatutoryAddressPresentation_loc" xlink:type="arc" order="6"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="nl-cd_DescriptionLocationNL_loc" xlink:type="arc" order="7"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="nl-cd_StreetNameNL_loc" xlink:type="arc" order="8"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="nl-cd_HouseNumberNL_loc" xlink:type="arc" order="9"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="nl-cd_HouseNumberAddition_loc" xlink:type="arc" order="10"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="nl-cd_POBoxNumber_loc" xlink:type="arc" order="11"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="nl-cd_PostalCodeNL_loc" xlink:type="arc" order="12"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="nl-cd_PlaceOfResidenceNL_loc" xlink:type="arc" order="13"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="nl-cd_NameRegion_loc" xlink:type="arc" order="14"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-t_StatutoryAddressPresentation_loc" xlink:to="nl-cd_CountryNameISO_loc" xlink:type="arc" order="15"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentEntityInformationTitle_loc" xlink:to="kvk-abstr_DocumentInformationTitle_loc" xlink:type="arc" order="16"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentInformationTitle_loc" xlink:to="kvk-i_DocumentInformation_loc" xlink:type="arc" order="17"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentInformationTitle_loc" xlink:to="nl-cd_StartDateForFinancialPeriod_loc" xlink:type="arc" order="18"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentInformationTitle_loc" xlink:to="nl-cd_EndDateForFinancialPeriod_loc" xlink:type="arc" order="19"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentInformationTitle_loc" xlink:to="kvk-i_FinancialPeriodDifferentThanAnnualStatus_loc" xlink:type="arc" order="20"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-i_FinancialPeriodDifferentThanAnnualStatus_loc" xlink:to="kvk-i_FinancialPeriodDifferentThanAnnualReason_loc" xlink:type="arc" order="21"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-i_FinancialPeriodDifferentThanAnnualStatus_loc" xlink:to="kvk-i_FinancialPeriodDifferentThanAnnualImpactComparatives_loc" xlink:type="arc" order="22"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentInformationTitle_loc" xlink:to="kvk-i_DocumentRelatesToIndividualEntityOrGroup_loc" xlink:type="arc" order="23"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentInformationTitle_loc" xlink:to="kvk-i_DocumentPresentationCurrency_loc" xlink:type="arc" order="24"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentInformationTitle_loc" xlink:to="nl-cd_DocumentCreationDate_loc" xlink:type="arc" order="25"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-abstr_DocumentInformationTitle_loc" xlink:to="kvk-i_DocumentAdoptionStatus_loc" xlink:type="arc" order="26"/>
+	<link:presentationArc xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="kvk-i_DocumentAdoptionStatus_loc" xlink:to="kvk-i_DocumentAdoptionDate_loc" xlink:type="arc" order="27"/>
+  </link:presentationLink>
+</link:linkbase>
