@@ -43,6 +43,22 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
 
         return { height: height, width: width, nodes: nodes, links: links };
     }
+
+    positionConcepts: function( concepts, depth, totalSeenConcepts, accumulatedConcepts ) {
+        function positionConcept( memo, element, index, list){
+            var xPos = depth*15;
+            var yPos = memo*20;
+            element.x = xPos;
+            element.y = yPos;
+            accumulatedConcepts.push(element);
+            var totalSeenConcepts = Viz.positionConcepts(element.children, depth + 1, memo + 1, accumulatedConcepts);
+            return totalSeenConcepts;
+        }
+        
+        var placedConceptsCount = _.reduce(concepts, positionConcept, totalSeenConcepts);   
+
+        return placedConceptsCount; 
+    }
     
 
     /* Controllers */
@@ -124,6 +140,28 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
                 $scope.taxoDoc = data;
                 $scope.docLoaded = true;
             });
+        }]).
+        controller('PresCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+          $http.get('/presentationElrs', {
+            params: {
+              uri: $routeParams.uri
+            }
+          }).success(function(data) {
+            $scope.elrs = data;
+          });
+
+          function displayPresentationTree(elr) {
+            $http.get('/presentationTree', {
+              params: {
+                uri: $routeParams.uri,
+                elr: elr
+              }
+            })
+
+            var positionedConcepts = [];
+            var totalConcepts = Viz.positionConcepts(elrJson.roots, 0, 0, positionedConcepts);
+          }
+          
         }]).
         directive('highlightCode', function() {
             return {

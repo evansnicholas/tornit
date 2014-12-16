@@ -50,7 +50,8 @@ require(['jquery', './controllers', 'angular', 'angular-route'],
           templateUrl: 'assets/html/concept-viewer.html'
         }).
         when('/presentation', { 
-          templateUrl: 'assets/html/presentation-viewer.html'
+          templateUrl: 'assets/html/presentation-viewer.html',
+          controller: 'PresCtrl'
         }).
         when('/dtsGraph', { 
           templateUrl: 'assets/html/dts-graph-viewer.html',
