@@ -19,7 +19,7 @@
         </button>
         <ul class="dropdown-menu" role="menu">
           <li ng-repeat="elr in elrs">
-            <a href="" ng-click="">{{elr}}</a>
+            <a href="" ng-click="displayPresentationTree(elr)">{{elr}}</a>
           </li>
         </ul>
       </div>     
@@ -31,6 +31,15 @@
 </nav>
 <div class="container-fluid">  
   <div class="row">
-    <div id="presentation-display"/>
+    <div id="presentation-display">
+      <svg width="1000" ng-attr-height="{{height}}">
+        <g transform="translate(10, 20)">
+          <g ng-repeat="node in nodes" class="node" ng-attr-transform="translate({{node.x}}, {{node.y}})">
+            <circle r="4.5"/>
+            <text dx="7" dy="3" text-anchor="start">{{node.concept.ename}}</text>
+          </g>  
+        </g>      
+      </svg>
+    </div>
   </div>
 </div>

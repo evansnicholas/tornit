@@ -44,14 +44,14 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
         return { height: height, width: width, nodes: nodes, links: links };
     }
 
-    positionConcepts: function( concepts, depth, totalSeenConcepts, accumulatedConcepts ) {
+    function positionConcepts( concepts, depth, totalSeenConcepts, accumulatedConcepts ) {
         function positionConcept( memo, element, index, list){
             var xPos = depth*15;
             var yPos = memo*20;
             element.x = xPos;
             element.y = yPos;
             accumulatedConcepts.push(element);
-            var totalSeenConcepts = Viz.positionConcepts(element.children, depth + 1, memo + 1, accumulatedConcepts);
+            var totalSeenConcepts = positionConcepts(element.children, depth + 1, memo + 1, accumulatedConcepts);
             return totalSeenConcepts;
         }
         
@@ -150,17 +150,22 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
             $scope.elrs = data;
           });
 
-          function displayPresentationTree(elr) {
+          $scope.displayPresentationTree = function(elr) {
             $http.get('/presentationTree', {
               params: {
                 uri: $routeParams.uri,
                 elr: elr
               }
-            })
+            }).success(function(data) {
 
-            var positionedConcepts = [];
-            var totalConcepts = Viz.positionConcepts(elrJson.roots, 0, 0, positionedConcepts);
-          }
+              var positionedConcepts = [];
+              var totalConcepts = positionConcepts(data.roots, 0, 0, positionedConcepts);
+              var height = totalConcepts * 25;
+              console.log(positionedConcepts);
+              $scope.height = height;
+              $scope.nodes = positionedConcepts;
+            });
+           };
           
         }]).
         directive('highlightCode', function() {
