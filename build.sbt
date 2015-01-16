@@ -4,7 +4,7 @@ version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
-scalaVersion := "2.11.1"
+scalaVersion := "2.11.4"
 
 resolvers ++= Seq(
   Resolver.mavenLocal, 
@@ -18,7 +18,7 @@ libraryDependencies ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "nl.ebpi.tqa" % "tqa" % "0.5.5" excludeAll(
+  "nl.ebpi.tqa" % "tqa" % "0.6.0-M4" excludeAll(
     ExclusionRule(organization = "org.scala-lang"),
     ExclusionRule(organization = "org.scalaz")
   ),

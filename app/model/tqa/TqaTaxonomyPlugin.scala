@@ -27,6 +27,8 @@ import model.TaxonomyApi
 import model.TaxonomyPlugin
 import eu.cdevreeze.yaidom.utils.NamespaceUtils
 import org.apache.commons.lang3.StringEscapeUtils
+import nl.ebpi.tqa.model.xsd.XsdSchema
+import nl.ebpi.tqa.model.xsd.XsdDoc
 
 class TqaTaxonomyPlugin(app: Application) extends TaxonomyPlugin(app){
 
@@ -125,7 +127,7 @@ object TqaTaxonomyApi extends TaxonomyApi {
     val fullTaxo = Cache.getOrElse[DimensionalPathQueryApi](entrypointUri.toString){
       DimensionalPathQueryApi(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
     }
-    val doc = fullTaxo.relationshipAwareTaxonomy.taxonomy.taxonomyDocsByUri(docUri).doc.document
+    val doc = fullTaxo.relationshipAwareTaxonomy.taxonomy.taxonomyDocsByUri(docUri).taxoDoc.docawareDoc.document
     Utils.docPrinter.print(doc)
   }
 
@@ -171,7 +173,8 @@ object TqaTaxonomyApi extends TaxonomyApi {
 
     val decodedConceptNamespace = URLDecoder.decode(conceptNamespace, "UTF-8")
     val ename = EName(decodedConceptNamespace, conceptLocalName)
-    val xsdSchema = fullTaxo.relationshipAwareTaxonomy.taxonomy
+    val xsdSchema =
+      XsdSchema.build(fullTaxo.relationshipAwareTaxonomy.taxonomy.taxonomyDocs.map(doc => XsdDoc(doc.taxoDoc)))
     val elementDeclaration = xsdSchema.getGlobalElementDeclarationByEName(ename)
     val substitutionGroupHierarchy = XsdSchemaUtils.findSubstitutionGroupHierarchy(xsdSchema)(elementDeclaration)
     val typeHierarchy = XsdSchemaUtils.findTypeAncestry(xsdSchema)(elementDeclaration)

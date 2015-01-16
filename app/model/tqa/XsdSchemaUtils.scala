@@ -7,8 +7,9 @@ import eu.cdevreeze.yaidom.indexed
 import eu.cdevreeze.yaidom.utils.DocumentENameExtractor
 import eu.cdevreeze.yaidom.utils.TextENameExtractor
 import eu.cdevreeze.yaidom.utils.SimpleTextENameExtractor
-import nl.ebpi.tqa.model.xsd.{ XsdSchema, GlobalElementDeclaration }
 import nl.ebpi.tqa.XsAnyTypeEName
+import nl.ebpi.tqa.model.taxonomydom.GlobalElementDeclaration
+import nl.ebpi.tqa.model.xsd.XsdSchema
 
 object XsdSchemaUtils {
 
