@@ -26,6 +26,6 @@ GET /presentationTree               controllers.Application.computePresentationT
 
 GET /concept/labels                 controllers.Application.findConceptLabels(entrypointUri, conceptNamespace, conceptLocalName)
 
-GET /concept/references             controllers.Application.findConceptReferences(entrypointUri, conceptNamespace, conceptLocalName)
+GET /concept/references             controllers.Application.findConceptReferences(uri, conceptNamespace, conceptLocalName)
 
 GET /concept                        controllers.Application.findConceptElementDeclaration(entrypointUri, conceptNamespace, conceptLocalName)

@@ -14,22 +14,23 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="concept-viewer-navbar-collapse">
       <form class="navbar-form navbar-left" role="search">
-        <div class="form-group" id="concept-select">
-          <input type="text" class="form-control typeahead" placeholder="Find concept...">
+        <div class="form-group">
+          <input type="text" ng-model="selectedConcept" placeholder="Select concept..." typeahead="concept as concept.localPart for concept in getConcepts($viewValue)" typeahead-on-select="selectConcept($item, $model, $label)" typeahead-min-length="3" class="form-control">      
         </div>
       </form>
       <ul class="nav navbar-nav" id="concept-view-selection">
-        <li id="resources-view"><a href="#">Resources</a></li>
-        <li id="dimensions-view"><a href="#">Dimensions</a></li>
-        <li id="schema-view" class="active"><a href="#">Schema</a></li>
+        <li ng-repeat="conceptView in conceptViews" ng-class="{active: isActive(conceptView)}">
+          <a href="" ng-click="routeConceptView(conceptView)"><span ng-bind="conceptView.label"></span></a>
+        </li>
       </ul>
-      
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 <div>
-  <div class="page-header" id="concept-header"/>
-  <div id="concept-info"/>
+  <div class="page-header">
+  <h3>{{getConceptLocalName()}} <small>{{getConceptNamespace()}}</small></h3>
+  </div>
+  <div ng-include="getViewTemplate()"/>
 </div>
 
  

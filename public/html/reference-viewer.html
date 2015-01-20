@@ -1,0 +1,12 @@
+<div ng-controller="ReferenceCtrl">
+<div class="panel panel-default" ng-repeat="reference in references"> 
+  <div class="panel-heading"> 
+    <h3 class="panel-title">{{reference.role}}</h3> 
+  </div> 
+  <div class="panel-body"> 
+    <dl class="dl-horizontal" ng-repeat="part in reference.parts">
+      <dt>{{part.localName}}</dt><dd>{{part.value}}</dd>
+    </dl>  
+  </div> 
+</div>
+</div>

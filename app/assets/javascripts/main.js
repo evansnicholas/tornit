@@ -12,7 +12,7 @@ requirejs.config({
     'jquery' : ['../lib/jquery/jquery'],
     'angular': ['../lib/angularjs/angular'],
     'angular-route': ['../lib/angularjs/angular-route'],
-    'angular-bootstrap': ['../bower_components/angular-bootstrap/ui-bootstrap-tpls.min']
+    'angular-ui': ['../bower_components/angular-bootstrap/ui-bootstrap-tpls'],
   },
   shim: {
     'underscore': {
@@ -34,7 +34,7 @@ requirejs.config({
     'highlightjs': {
       exports : 'hljs'
     },
-    'angular-bootstrap' : {
+    'angular-ui' : {
       exports: 'angular-ui'
     }
   }
@@ -46,8 +46,9 @@ require(['jquery', './controllers', 'angular', 'angular-route'],
     angular.module('taxoscopeApp', ['ngRoute', 'taxoscopeControllers']).
       config(['$routeProvider', function($routeProvider) {
       $routeProvider.
-        when('/concept', { 
-          templateUrl: 'assets/html/concept-viewer.html'
+        when('/concept/:view?', { 
+          templateUrl: 'assets/html/concept-viewer.html',
+          controller: 'ConceptCtrl'
         }).
         when('/presentation', { 
           templateUrl: 'assets/html/presentation-viewer.html',
@@ -68,24 +69,4 @@ require(['jquery', './controllers', 'angular', 'angular-route'],
 
     angular.bootstrap(document, ['taxoscopeApp']);
    
-    /*
-    //Set the selected entrypoint and selected concept states to null
-    $("body").data("entrypointUri", null);
-    $("body").data("concept", null);
-
-    $("#dts-graph-view-selection").click(function() {
-      api.loadDtsGraphPage();
-      api.setActiveListItem("#viewer-selection", "#"+$(this).attr("id"));
-    });
-    $("#presentation-view-selection").click(function() {
-      api.loadPresentationViewerPage();
-      api.setActiveListItem("#viewer-selection", "#"+$(this).attr("id"));
-    });
-    $("#concept-view-selection").click(function() {
-      api.loadConceptViewerPage();
-      api.setActiveListItem("#viewer-selection", "#"+$(this).attr("id"));
-    });  
-
-    api.initializeTypeahead();
-   */
 });

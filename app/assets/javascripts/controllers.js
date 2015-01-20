@@ -2,7 +2,7 @@
 
 /*jshint strict:false */
 
-define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], function(angular, d3, _, hljs, ui) {
+define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(angular, d3, _, hljs, ui) {
 
     function processDtsGraph(data) {
         function extractName(uri) {
@@ -59,7 +59,6 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
 
         return placedConceptsCount; 
     }
-    
 
     /* Controllers */
     var taxoscopeControllers = angular.module('taxoscopeControllers', ['ui.bootstrap']);
@@ -82,7 +81,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
           ];
 
           function isActive(item) {
-            return $location.path() === item.path;
+            return $location.path().search(item.path) > -1;
           }
   
           function routeMenuItem(item) {
@@ -114,6 +113,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
           };
         }]).
         controller('DtsCtrl', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
+           
             $http.get('dtsGraph', {
               params: {
                 uri: $routeParams.uri
@@ -161,12 +161,90 @@ define(['angular', 'd3', 'underscore', 'highlightjs', 'angular-bootstrap'], func
               var positionedConcepts = [];
               var totalConcepts = positionConcepts(data.roots, 0, 0, positionedConcepts);
               var height = totalConcepts * 25;
-              console.log(positionedConcepts);
+
               $scope.height = height;
               $scope.nodes = positionedConcepts;
             });
            };
-          
+
+           $scope.formatLabelPopoverHtml = formatLabelPopoverHtml;
+
+        }]).
+        controller('ConceptCtrl', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
+          var conceptViews = [
+            { 
+              label: "Resources",
+              path: "/concept/reference",
+              template: "assets/html/reference-viewer.html"
+            },
+            {
+              label: "Dimensions",
+              path: "/concept/dimensions"
+            },
+            {
+              label: "Schema",
+              path: "/concept/schema",
+            }
+          ];
+                
+          function routeConceptView(view) {
+            if ($location.path() === "/") {
+               //do nothing, stay here 
+            } else {
+              $location.path(view.path).search({uri: $routeParams.uri, conceptNamespace: getConceptNamespace(), conceptLocalName: getConceptLocalName()});
+            }
+          }
+
+          function getConcepts(conceptQuery) {
+            return $http.get('concepts', {
+                params: {
+                  uri: $routeParams.uri,
+                  concept: conceptQuery
+                }
+              }).then(function(response) {
+                 return response.data.slice(0, 15).map(function(concept) {
+                  return concept;
+                });
+            });
+          }
+
+
+          function getViewTemplate() {
+            if ($routeParams.view) return "assets/html/" + $routeParams.view + "-viewer.html";
+          }
+  
+          function selectConcept(item, model, label) { 
+            $location.path(conceptViews[0].path).search({uri: $routeParams.uri, conceptNamespace: item.namespace, conceptLocalName: item.localPart});
+          }
+
+          function getConceptLocalName() {
+            return $routeParams.conceptLocalName;
+          }
+    
+          function getConceptNamespace() {
+            return $routeParams.conceptNamespace;
+          }
+         
+          $scope.getViewTemplate = getViewTemplate;
+          $scope.getConceptLocalName = getConceptLocalName;
+          $scope.getConceptNamespace = getConceptNamespace;
+          $scope.selectConcept = selectConcept;
+          $scope.getConcepts = getConcepts;
+          $scope.conceptViews = conceptViews;
+          $scope.routeConceptView = routeConceptView;
+        }]).
+        controller('ReferenceCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+        
+          $http.get('concept/references', {
+                params: {
+                  uri: $routeParams.uri,
+                  conceptNamespace: $routeParams.conceptNamespace,
+                  conceptLocalName: $routeParams.conceptLocalName
+                }
+              }).then(function(response) {
+                $scope.references = response.data;
+            });
+
         }]).
         directive('highlightCode', function() {
             return {
