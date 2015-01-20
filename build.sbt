@@ -24,5 +24,5 @@ libraryDependencies ++= Seq(
   "org.webjars" % "underscorejs" % "1.7.0",
   "org.webjars" % "requirejs" % "2.1.15",
   "org.webjars" % "jquery" % "2.1.1",
-  "org.webjars" % "angularjs" % "1.3.0-beta.2"
+  "org.webjars" % "angularjs" % "1.3.8"
 )
