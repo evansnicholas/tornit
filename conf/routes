@@ -16,7 +16,7 @@ GET /dtsGraph                       controllers.Application.computeDtsGraph(uri)
 
 GET /concepts                       controllers.Application.listConcepts(uri, concept)
 
-GET /dimensionsGraph                controllers.Application.computeDimensionalGraphs(uri, namespace, localPart)
+GET /concept/dimensions                controllers.Application.computeDimensionalGraphs(entrypointUri, conceptNamespace, conceptLocalName)
 
 GET /taxoDoc                        controllers.Application.showTaxonomyDocument(uri, docUri)
 
@@ -26,6 +26,6 @@ GET /presentationTree               controllers.Application.computePresentationT
 
 GET /concept/labels                 controllers.Application.findConceptLabels(entrypointUri, conceptNamespace, conceptLocalName)
 
-GET /concept/references             controllers.Application.findConceptReferences(uri, conceptNamespace, conceptLocalName)
+GET /concept/references             controllers.Application.findConceptReferences(entrypointUri, conceptNamespace, conceptLocalName)
 
 GET /concept                        controllers.Application.findConceptElementDeclaration(entrypointUri, conceptNamespace, conceptLocalName)

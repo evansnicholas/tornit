@@ -4,13 +4,7 @@
 
 define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(angular, d3, _, hljs, ui) {
 
-    function processDtsGraph(data) {
-        function extractName(uri) {
-            var array = uri.split("/");
-            var length = array.length;
-            return array[length - 1];
-        }
-
+    function processGraph(data, options) {
         var tree = d3.layout.tree();
         
         var diagonal = d3.svg.diagonal()
@@ -23,11 +17,11 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         var nodesPerDepth = _.countBy(nodes, function(node){ return node.depth; });
         var maxNodes = _.max(nodesPerDepth);
         var height = maxNodes*30;
-        var width = (maxDepth+1)*250;
+        var width = (maxDepth+1)*300;
         //Assume all node labels are about the same length
-        var labelLength = extractName(nodes[0].uri).length*6;    
+        var labelLength = options.extractNodeLabel(nodes[0]).length;    
 
-        tree.size([height, width - labelLength*2.5]);
+        tree.size([height, width - labelLength*options.widthScale]);
         nodes = tree.nodes(data);
         links = tree.links(nodes);
 
@@ -37,11 +31,15 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         });
 
         _.map(nodes, function(value, key, list) {
-            value.fileName = extractName(value.uri);
+            value.label = options.extractNodeLabel(value);
             return value;
         });
 
-        return { height: height, width: width, nodes: nodes, links: links };
+        function formatTranslate(x,y){
+          return "translate("+x+","+y+")";
+        }
+
+        return { height: height, width: width, nodes: nodes, links: links, formatTranslate: formatTranslate };
     }
 
     function positionConcepts( concepts, depth, totalSeenConcepts, accumulatedConcepts ) {
@@ -120,11 +118,16 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
               }
             }).
                 success(function(data) { 
-                    var processedGraph = processDtsGraph(data);
-                    $scope.height = processedGraph.height;
-                    $scope.width = processedGraph.width;
-                    $scope.nodes = processedGraph.nodes;
-                    $scope.links = processedGraph.links;
+                 
+                function extractName(node) {
+                  var array = node.uri.split("/");
+                  var length = array.length;
+                
+                  return array[length - 1];
+                }
+
+                   var processedGraph = processGraph(data, { extractNodeLabel: extractName, widthScale: 10  });
+                    $scope.graph = processedGraph;
                     $scope.getTaxoDoc = function(docUri) {
                       $location.path('/taxonomyDoc').search({ uri: $routeParams.uri, docUri: docUri  });
                     };
@@ -166,9 +169,6 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
               $scope.nodes = positionedConcepts;
             });
            };
-
-           $scope.formatLabelPopoverHtml = formatLabelPopoverHtml;
-
         }]).
         controller('ConceptCtrl', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
           var conceptViews = [
@@ -237,13 +237,35 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         
           $http.get('concept/references', {
                 params: {
-                  uri: $routeParams.uri,
+                  entrypointUri: $routeParams.uri,
                   conceptNamespace: $routeParams.conceptNamespace,
                   conceptLocalName: $routeParams.conceptLocalName
                 }
               }).then(function(response) {
                 $scope.references = response.data;
             });
+
+        }]).
+        controller('DimensionsCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+          $http.get('concept/dimensions', {
+                params: {
+                  entrypointUri: $routeParams.uri,
+                  conceptNamespace: $routeParams.conceptNamespace,
+                  conceptLocalName: $routeParams.conceptLocalName
+                }
+              }).then(function(response) {
+                
+                   function extractNodeLabel(node) {
+                     return node.ename.localName;
+                   }
+                   $scope.dimGraphs = _.map(response.data, function(value, key, list) {
+                    
+                 
+                  var graph = processGraph(value.graph, { extractNodeLabel: extractNodeLabel, widthScale: 50 });
+                  return { elr: value.elr, graph: graph };
+});              
+            });
+                  
 
         }]).
         directive('highlightCode', function() {
