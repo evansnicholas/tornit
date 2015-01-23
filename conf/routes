@@ -28,4 +28,4 @@ GET /concept/labels                 controllers.Application.findConceptLabels(en
 
 GET /concept/references             controllers.Application.findConceptReferences(entrypointUri, conceptNamespace, conceptLocalName)
 
-GET /concept                        controllers.Application.findConceptElementDeclaration(entrypointUri, conceptNamespace, conceptLocalName)
+GET /concept/schema                        controllers.Application.findConceptElementDeclaration(entrypointUri, conceptNamespace, conceptLocalName)

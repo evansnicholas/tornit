@@ -1,7 +1,7 @@
 <h1 class="page-header">DTS Graph</h1>
   <div id="dts-graph-result">
     <svg ng-attr-width="{{graph.width}}" ng-attr-height="{{graph.height}}">
-      <g ng-attr-transform="{{graph.formatTranslate(graph.nodes[0].label.length * 7, 0)}}">
+      <g ng-attr-transform="{{graph.formatTranslate(graph.nodes[0].label.length*7, 0)}}">
         <path ng-repeat="link in graph.links" class="link" ng-attr-d="{{link.d}}"/>
         <g ng-repeat="node in graph.nodes" class="node" ng-attr-transform="{{graph.formatTranslate(node.y, node.x)}}">
           <circle r="4.5"/>

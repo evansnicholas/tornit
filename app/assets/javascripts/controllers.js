@@ -17,11 +17,19 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         var nodesPerDepth = _.countBy(nodes, function(node){ return node.depth; });
         var maxNodes = _.max(nodesPerDepth);
         var height = maxNodes*30;
-        var width = (maxDepth+1)*300;
+        var width = (maxDepth+1)*275;
+          
+        var endLabels = _.filter(nodes, function(node) { return node.depth == maxDepth;  });
+        var longestEndLabelLength = d3.max(endLabels, function(node) { 
+          return options.extractNodeLabel(node).length;
+        });
+
+        var widthAdjustement = (options.extractNodeLabel(nodes[0]).length + longestEndLabelLength)*7;
+
         //Assume all node labels are about the same length
         var labelLength = options.extractNodeLabel(nodes[0]).length;    
 
-        tree.size([height, width - labelLength*options.widthScale]);
+        tree.size([height, width - widthAdjustement]);
         nodes = tree.nodes(data);
         links = tree.links(nodes);
 
@@ -268,17 +276,27 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                   
 
         }]).
+        controller('SchemaViewCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+          $http.get('/concept/schema', { 
+              params: {
+                entrypointUri: $routeParams.uri,
+                conceptNamespace: $routeParams.conceptNamespace,
+                conceptLocalName: $routeParams.conceptLocalName
+              }
+            }).success(function(data) {
+                $scope.elementDeclaration = data.elementDeclaration;
+                $scope.docLoaded = true;
+            });         
+
+        }]).
         directive('highlightCode', function() {
             return {
                 restrict: 'A',
                 link: function (scope, element, attrs) {
                     //Observe the docLoaded attribute to only highlight the xml once
                     // it is actually loaded.
-                    attrs.$observe('docLoaded', function(value) {
-                        if (value)
-                            element.html(hljs.highlight('xml', scope.taxoDoc).value);
-                        else {} 
-                        //do nothing because the taxoDoc is not yet loaded.
+                    attrs.$observe('highlightCode', function(value) {
+                      element.html(hljs.highlight('xml', attrs.highlightCode).value);
                     });
                 }
             };
