@@ -1,18 +1,27 @@
 <div class="row" ng-controller="SchemaViewCtrl">
   <div class="col-sm-12">
     <pre>
-      <code class="hljs xml" highlight-code="{{elementDeclaration}}" ng-attr-doc-loaded="{{docLoaded}}">
-      </code>
+      <code class="hljs xml" highlight-code="{{elementDeclaration}}"/>
     </pre>
   </div>
-</div>
-<div class="row">
-  <div class="col-sm-6">
-    <h5>Substitution group hierarchy</h5>
-    <div id="sub-hierarchy-graph"></div>
-  </div>
-  <div class="col-sm-6">
-    <h5>Xsd type hierarchy</h5>
-    <div id="type-hierarchy-graph"></div>
+  <div class="row">
+    <div class="col-sm-6">
+      <h5>Substitution group hierarchy</h5>
+      <div></div>
+    </div>
+    <div class="col-sm-6">
+      <h5>Xsd type hierarchy</h5>
+      <div>
+        <svg width="150" ng-attr-height="{{typeHierarchyHeight}}">
+          <g transform="translate(20,10)">
+            <g class="node" ng-repeat="type in types" ng-attr-transform="translate({{type.x}}, {{type.y}})">
+              <circle r="4.5"/>
+              <text dx="7" dy="3">{{type.localName}}</text>
+            </g>
+            <path class="link" d="{{line(types)}}" stroke-width="2"/>
+          </g>
+        </svg>
+      </div>
+    </div>
   </div>
 </div>

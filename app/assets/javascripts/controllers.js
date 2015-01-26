@@ -66,6 +66,20 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         return placedConceptsCount; 
     }
 
+    function positionHierarchicalENames( enames ) {
+       var positionedENames = 
+            _.map(enames, function(value, index, list) {
+                var y = index*30;
+                return { x: 0, y: y, namespace: value.namespace, localName: value.localName };
+            });
+        return positionedENames;
+    }
+    
+    var line = d3.svg.line()
+                    .x(function(d) { return d.x; })
+                    .y(function(d) { return d.y; })
+                    .interpolate("linear");   
+
     /* Controllers */
     var taxoscopeControllers = angular.module('taxoscopeControllers', ['ui.bootstrap']);
 
@@ -284,8 +298,13 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                 conceptLocalName: $routeParams.conceptLocalName
               }
             }).success(function(data) {
-                $scope.elementDeclaration = data.elementDeclaration;
-                $scope.docLoaded = true;
+              console.log(data);
+              $scope.elementDeclaration = data.elementDeclaration;
+              var positionedTypes = positionHierarchicalENames(data.typeHierarchy);                console.log(positionedTypes);
+              $scope.typeHierarchyHeight = positionedTypes.length*30;
+              $scope.types = positionedTypes;
+              $scope.line = line;
+               
             });         
 
         }]).
@@ -293,11 +312,10 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
             return {
                 restrict: 'A',
                 link: function (scope, element, attrs) {
-                    //Observe the docLoaded attribute to only highlight the xml once
-                    // it is actually loaded.
                     attrs.$observe('highlightCode', function(value) {
-                      element.html(hljs.highlight('xml', attrs.highlightCode).value);
-                    });
+                      if (element.html().length > 0) { /*do nothing */ }
+                      else { element.html(hljs.highlight('xml', attrs.highlightCode).value); }
+                  });
                 }
             };
         });
