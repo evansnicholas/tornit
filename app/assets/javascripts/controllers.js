@@ -162,8 +162,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                 docUri: $routeParams.docUri
               }
             }).success(function(data) {
-                $scope.taxoDoc = data;
-                $scope.docLoaded = true;
+                $scope.toHighlight = data;
             });
         }]).
         controller('PresCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
@@ -291,6 +290,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
 
         }]).
         controller('SchemaViewCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+
           $http.get('/concept/schema', { 
               params: {
                 entrypointUri: $routeParams.uri,
@@ -298,23 +298,23 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                 conceptLocalName: $routeParams.conceptLocalName
               }
             }).success(function(data) {
-              console.log(data);
-              $scope.elementDeclaration = data.elementDeclaration;
-              var positionedTypes = positionHierarchicalENames(data.typeHierarchy);                console.log(positionedTypes);
-              $scope.typeHierarchyHeight = positionedTypes.length*30;
-              $scope.types = positionedTypes;
-              $scope.line = line;
-               
-            });         
+                $scope.toHighlight = data.elementDeclaration;
+                var positionedTypes = positionHierarchicalENames(data.typeHierarchy);
+                var positionedSubstGrps = positionHierarchicalENames(data.substitutionGroupHierarchy);
+                $scope.typeHierarchyHeight = positionedTypes.length*30;
+                $scope.types = positionedTypes;
+                $scope.substitutionGroupHeight = positionedSubstGrps.length*30;
+                $scope.substitutionGroups = positionedSubstGrps;
+                $scope.line = line;
+              });         
 
         }]).
         directive('highlightCode', function() {
             return {
                 restrict: 'A',
                 link: function (scope, element, attrs) {
-                    attrs.$observe('highlightCode', function(value) {
-                      if (element.html().length > 0) { /*do nothing */ }
-                      else { element.html(hljs.highlight('xml', attrs.highlightCode).value); }
+                  scope.$watch('toHighlight', function(value) {
+                    if (value) { element.html(hljs.highlight('xml', value).value); }
                   });
                 }
             };
