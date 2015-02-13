@@ -9,8 +9,8 @@ requirejs.config({
     'highlightjs': ['../bower_components/highlightjs/highlight.pack'],
     'bootstrap' : ['../lib/bootstrap/bootstrap'],
     'jquery' : ['../lib/jquery/jquery'],
-    'angular': ['../bower_components/angularjs/angular.min'],
-    'angular-route': ['../lib/angularjs/angular-route'],
+    'angular': ['../bower_components/angular/angular.min'],
+    'angular-route': ['../bower_components/angular-route/angular-route.min'],
     'angular-ui': ['../bower_components/angular-bootstrap/ui-bootstrap-tpls'],
   },
   shim: {
