@@ -4,13 +4,12 @@
 
 requirejs.config({
   paths: {
-    'typeahead': ['../lib/typeaheadjs/typeahead.bundle'],
     'd3': ['../lib/d3js/d3'],
     'underscore': ['../lib/underscorejs/underscore'],
     'highlightjs': ['../bower_components/highlightjs/highlight.pack'],
     'bootstrap' : ['../lib/bootstrap/bootstrap'],
     'jquery' : ['../lib/jquery/jquery'],
-    'angular': ['../lib/angularjs/angular'],
+    'angular': ['../bower_components/angularjs/angular.min'],
     'angular-route': ['../lib/angularjs/angular-route'],
     'angular-ui': ['../bower_components/angular-bootstrap/ui-bootstrap-tpls'],
   },
