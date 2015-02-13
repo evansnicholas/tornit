@@ -1,0 +1,37 @@
+<div class="row" ng-controller="SchemaViewCtrl">
+  <div class="col-sm-12">
+    <pre>
+      <code class="hljs xml" highlight-code ></code>
+    </pre>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <h5>Substitution group hierarchy</h5>
+      <div>
+        <svg width="150" ng-attr-height="{{substitutionGroupHeight}}">
+          <g transform="translate(20,10)">
+            <g class="node" ng-repeat="sg in substitutionGroups" ng-attr-transform="translate({{sg.x}}, {{sg.y}})">
+              <circle r="4.5"/>
+              <text dx="7" dy="3">{{sg.localName}}</text>
+            </g>
+            <path class="link" d="{{line(substitutionGroups)}}" stroke-width="2"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <h5>Xsd type hierarchy</h5>
+      <div>
+        <svg width="150" ng-attr-height="{{typeHierarchyHeight}}">
+          <g transform="translate(20,10)">
+            <g class="node" ng-repeat="type in types" ng-attr-transform="translate({{type.x}}, {{type.y}})">
+              <circle r="4.5"/>
+              <text dx="7" dy="3">{{type.localName}}</text>
+            </g>
+            <path class="link" d="{{line(types)}}" stroke-width="2"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>

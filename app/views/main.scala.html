@@ -24,19 +24,18 @@
 
     <!-- Styles for animations -->
     <link href="@routes.Assets.at("stylesheets/animations.css")" rel="stylesheet">
- 
+    
     <!-- Styles for displaying the XML files-->
     <link href="@routes.Assets.at("bower_components/highlightjs/styles/github.css")" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
   </head>
 
   <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -48,32 +47,23 @@
           </button>
           <a class="navbar-brand" href="#">Taxoscope</a>
         </div>
-        <div class="navbar-collapse collapse" id="main-navbar">
+        <div class="navbar-collapse collapse" id="main-navbar" ng-controller="NavCtrl">
           <form class="navbar-form navbar-left">
             <div id="entrypoint-select">
-              <input type="text" class="form-control typeahead" placeholder="Find entrypoint...">
+              <input type="text" ng-model="selectedEntrypoint" placeholder="Select entrypoint..." typeahead="uri for uri in getEntrypoints($viewValue)" typeahead-on-select="selectEntrypoint($item, $model, $label)" typeahead-min-length="3" class="form-control">
             </div>
           </form>
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Selected entrypoint <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#" id="selected-entrypoint">No entrypoint selected.</a></li>
-                </ul>
-            </li>
-            <li><span id="loader-icon" class="glyphicon glyphicon-refresh navbar-brand" aria-hidden="true"></span></li>
-          </ul>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" ng-controller="MainCtrl">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul id="viewer-selection" class="nav nav-sidebar">
-            <li id="dts-graph-view-selection"><a href="#">DTS Graph</a></li>
-            <li id="presentation-view-selection"><a href="#">Presentation Viewer</a></li>
-            <li id="concept-view-selection"><a href="#">Concept Viewer</a></li>
+            <li ng-repeat="menuItem in menuItems" ng-class="{active: isActive(menuItem)}">
+             <a href="" ng-click="routeMenuItem(menuItem)"><span ng-bind="menuItem.label"></span></a>
+            </li>
           </ul>
           <ul class="nav nav-sidebar">
           </ul>
@@ -81,21 +71,14 @@
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="content">
+          <div ng-view></div>
         </div>
       </div>
     </div>
 
     <!-- Bootstrap core JavaScript
-    ================================================== -->
+         ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="@routes.Assets.at("bower_components/jquery/dist/jquery.min.js")"></script>
-    <script src="@routes.Assets.at("bower_components/bootstrap/dist/js/bootstrap.min.js")"></script>
-    <script src="@routes.Assets.at("bower_components/typeahead.js/dist/typeahead.bundle.min.js")"></script>
-    <script src="@routes.Assets.at("javascripts/taxoscope-api.js")"></script>
-    <script src="@routes.Assets.at("javascripts/taxoscope.js")"></script>
-    <script src="@routes.Assets.at("bower_components/d3/d3.min.js")"></script>   
-    <script src="@routes.Assets.at("bower_components/underscore/underscore-min.js")"></script> 
-    <script src="@routes.Assets.at("javascripts/viz.js")"></script>
-    <script src="@routes.Assets.at("bower_components/highlightjs/highlight.pack.js")"></script>
+    <script data-main="@routes.Assets.at("javascripts/main.js")" src="@routes.Assets.at("lib/requirejs/require.js")"></script>
   </body>
 </html>
