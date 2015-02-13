@@ -36,7 +36,6 @@
   </head>
 
   <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -54,9 +53,6 @@
               <input type="text" ng-model="selectedEntrypoint" placeholder="Select entrypoint..." typeahead="uri for uri in getEntrypoints($viewValue)" typeahead-on-select="selectEntrypoint($item, $model, $label)" typeahead-min-length="3" class="form-control">
             </div>
           </form>
-          <ul class="nav navbar-nav">
-            <li><span id="loader-icon" class="glyphicon glyphicon-refresh navbar-brand" aria-hidden="true" ></span></li>
-          </ul>
         </div>
       </div>
     </div>

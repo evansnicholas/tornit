@@ -1,4 +1,5 @@
-<h1 class="page-header">DTS Graph</h1>
+<h1 class="page-header">DTS Graph <span id="loader-icon" ng-class="isLoading" class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+</h1>
   <div id="dts-graph-result">
     <svg ng-attr-width="{{graph.width}}" ng-attr-height="{{graph.height}}">
       <g ng-attr-transform="{{graph.formatTranslate(graph.nodes[0].label.length*7, 0)}}">

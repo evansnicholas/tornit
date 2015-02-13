@@ -128,18 +128,19 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
               }).then(function(response) {
                 return response.data.slice(0, 15).map(function(item) {
                   return item.uri;
-                });
+                }, 
+                function(reason) {
+              });
             });
           };
         }]).
         controller('DtsCtrl', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
-           
+            $scope.isLoading = "loading";
             $http.get('dtsGraph', {
               params: {
                 uri: $routeParams.uri
               }
-            }).
-                success(function(data) { 
+            }).success(function(data) { 
                  
                 function extractName(node) {
                   var array = node.uri.split("/");
@@ -148,12 +149,15 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                   return array[length - 1];
                 }
 
-                   var processedGraph = processGraph(data, { extractNodeLabel: extractName, widthScale: 10  });
-                    $scope.graph = processedGraph;
-                    $scope.getTaxoDoc = function(docUri) {
-                      $location.path('/taxonomyDoc').search({ uri: $routeParams.uri, docUri: docUri  });
-                    };
-                });
+                var processedGraph = processGraph(data, { extractNodeLabel: extractName, widthScale: 10  });
+                $scope.graph = processedGraph;
+                $scope.getTaxoDoc = function(docUri) {
+                  $location.path('/taxonomyDoc').search({ uri: $routeParams.uri, docUri: docUri  });
+                };
+                $scope.isLoading = "notLoading";
+            }).error(function(error) { 
+              $scope.isLoading = "notLoading";
+          });
         }]).
         controller('TaxoDocCtrl', ['$scope', '$routeParams', '$http', function ($scope, $routeParams, $http) {
             $http.get('/taxoDoc', { 
