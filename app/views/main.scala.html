@@ -59,8 +59,20 @@
 
     <div class="container-fluid" ng-controller="MainCtrl">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-md-1 hidden-sidebar" ng-hide="showSidebar">
           <ul id="viewer-selection" class="nav nav-sidebar">
+            <button type="button" class="btn sidebar-btn-show" aria-label="Collapse sidebar" ng-click="toggleSidebar()">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </button>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-md-2 sidebar" ng-show="showSidebar">
+          <ul id="viewer-selection" class="nav nav-sidebar">
+            <li>
+              <button type="button" class="btn sidebar-btn-hide" aria-label="Collapse sidebar" ng-click="toggleSidebar()">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              </button>
+            </li>
             <li ng-repeat="menuItem in menuItems" ng-class="{active: isActive(menuItem)}">
              <a href="" ng-click="routeMenuItem(menuItem)"><span ng-bind="menuItem.label"></span></a>
             </li>
@@ -70,7 +82,7 @@
           <ul class="nav nav-sidebar">
           </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="content">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 main" ng-class="mainOffset" id="content">
           <div ng-view></div>
         </div>
       </div>

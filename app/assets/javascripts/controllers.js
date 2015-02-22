@@ -112,9 +112,23 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
             }
           }
 
+          function toggleSidebar() {
+            if ($scope.showSidebar) {
+              $scope.showSidebar = false;
+              $scope.mainOffset = "col-md-offset-1"; 
+            } else {
+             $scope.showSidebar = true; 
+             $scope.mainOffset = "col-md-offset-2";
+            }
+          }
+
           $scope.menuItems = menuItems;
           $scope.isActive = isActive;
           $scope.routeMenuItem = routeMenuItem;
+          $scope.showSidebar = true;
+          $scope.toggleSidebar = toggleSidebar;
+          $scope.mainOffset = "col-md-offset-2";
+
         }]).
         controller('NavCtrl', ['$scope', '$http', '$location', function($scope, $http, $location) {
           $scope.selectEntrypoint = function(item, model, label) {
@@ -280,15 +294,16 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                 }
               }).then(function(response) {
                 
-                   function extractNodeLabel(node) {
-                     return node.ename.localName;
-                   }
-                   $scope.dimGraphs = _.map(response.data, function(value, key, list) {
+                   
+                   
+                   $scope.dimGraphs = response.data;
+
+                   /*$scope.dimGraphs = _.map(response.data, function(value, key, list) {
                     
                  
                   var graph = processGraph(value.graph, { extractNodeLabel: extractNodeLabel, widthScale: 50 });
                   return { elr: value.elr, graph: graph };
-});              
+});*/
             });
                   
 
@@ -322,7 +337,79 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                   });
                 }
             };
-        });
-    
+        }).
+        directive('dimensionsGraph', function() {
+          return {
+            restrict: 'EA',
+            scope: {
+              data: '='  
+            },
+            link: function(scope, element, attrs) {
 
+                function extractNodeLabel(node) {
+                   return node.ename.localName;
+                }
+
+                // watch for data changes and re-render
+                var unbindWatcher = scope.$watch('data', function(newVals, oldVals) {
+                  scope.render(newVals);
+                }, true);
+
+                var svg = d3.select(element[0])
+                  .append("svg")
+                  .style('width', '100%');
+
+                scope.render = function(data) { 
+                                        
+                    if (!data) { return; }
+
+                    /* Since we have data unbind the watcher */
+                    unbindWatcher();
+
+                    var tree = d3.layout.tree();
+                    var diagonal = d3.svg.diagonal()
+                        .projection(function(d) { return [d.y, d.x]; });
+
+                    /* Compute node positions to determine sv height */
+                    var nodes = tree.nodes(data);
+                    var nodesPerDepth = _.countBy(nodes, function(node){ return node.depth; });
+                    var maxNodes = _.max(nodesPerDepth);
+                    var height = maxNodes*30;
+                    var width = d3.select(element[0]).node().offsetWidth;
+                    var labelLength = extractNodeLabel(data).length;
+                    tree.size([height, width - labelLength*20*2]);                  
+
+                    nodes = tree.nodes(data);
+                    links = tree.links(nodes);
+
+                    svg.selectAll('*').remove();
+
+                    var g = svg.attr("width", width)
+                        .attr("height", height)
+                        .append("g")
+                        .attr("transform", "translate("+labelLength*15+",0)");
+                    
+                    var link = g.selectAll("path.link")
+                        .data(links)
+                        .enter().append("path")
+                        .attr("class", "link")
+                        .attr("d", diagonal);
+                    
+                    var node = g.selectAll("node")
+                        .data(nodes)
+                        .enter().append("g")
+                        .attr("class", "node")
+                        .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+                    node.append("circle")
+                        .attr("r", 4.5);
+                    node.append("text")
+                        .attr("dx", function(d) { return d.children ? -8 : 8; })
+                        .attr("dy", function(d) { return (d.depth % 2 === 0) ? -5 : 5; })
+                        .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
+                        .text(function(d) { return d.ename.localName; })
+                        .on('click', function(d){ console.log(d); });
+                }; 
+            }
+          };
+       });
 });

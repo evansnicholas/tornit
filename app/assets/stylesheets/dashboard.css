@@ -49,6 +49,18 @@ body {
   }
 }
 
+.hidden-sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+
 /* Sidebar navigation */
 .nav-sidebar {
   margin-right: -21px; /* 20px padding + 1px border */
@@ -102,4 +114,18 @@ body {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+}
+
+/*
+ * My custom styles
+ */
+.sidebar-btn-hide {
+  float: right;
+  z-index: 5000;
+  position: relative;
+  background-color: transparent;
+}
+
+.sidebar-btn-show {
+  background-color: transparent;
 }
