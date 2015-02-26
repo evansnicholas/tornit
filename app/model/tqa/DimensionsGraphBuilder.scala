@@ -6,77 +6,49 @@ import scala.collection.immutable
 
 import eu.cdevreeze.yaidom.core.EName
 import model.{ DimensionsGraph, DimensionsGraphNode } 
-import nl.ebpi.tqa.model.dimensions._
-import nl.ebpi.tqa.model.dimrelationship.{ DimensionalLinkRelationship, DomainMemberRelationship }
-import nl.ebpi.tqa.dimensionaware.{ DimensionalPathBuilder, DimensionalPathQueryApi }
-import nl.ebpi.tqa.dimensionaware.DimensionalPathQueryApi._
-import nl.ebpi.tqa.model.dimensions.{ CompositeConnection, Dimension, Hypercube, Primary }
+import nl.ebpi.tqa.queryapi.QueryableTaxonomy
 import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
+import nl.ebpi.tqa.model.dimrelationship.DimensionalLinkRelationship
 import shapeless._
 import shapeless.HList.hlistOps
 import scala.collection.mutable
 
 object DimensionsGraphBuilder {
   
-  def findDimensionsGraphs(dimApi: DimensionalPathQueryApi, entrypointUri: URI, conceptEName: EName): List[DimensionsGraph] = {
-    val fullPaths: immutable.IndexedSeq[FullPath] = dimApi.findDimensionalPaths.filterConcretePrimary
-    val dimPaths = DimensionalPathBuilder[Primary :: Hypercube :: Dimension :: HNil](dimApi.relationshipAwareTaxonomy).filterConcretePrimary
-    val hycPaths = DimensionalPathBuilder[Primary :: Hypercube :: HNil](dimApi.relationshipAwareTaxonomy).filterConcretePrimary
-
-    val relevantFullPaths = fullPaths.filter(_.select[Primary].conceptDeclaration.targetEName == conceptEName)
-    val relevantDimPaths = dimPaths.filter(_.select[Primary].conceptDeclaration.targetEName == conceptEName)
-    val relevantHycPaths = hycPaths.filter(_.select[Primary].conceptDeclaration.targetEName == conceptEName)
+  def findDimensionsGraphs(qt: QueryableTaxonomy, conceptEName: EName): List[DimensionsGraph] = {
+    
+    val inheritedRelationshipChainsByBaseSetElr = 
+      qt.findInheritedDimensionalRelationshipChains(conceptEName).groupBy(_.relationships.head.extendedLinkRole)
     
     
-    val fullPathEdgesByElr = relevantFullPaths.groupBy(_.select[HasHypercubeConnection].elr) map {
-      case (elr, paths) => 
-        val allEdges = paths flatMap { path =>
-          val hasHypConn = path.select[HasHypercubeConnection]
-          val leftDomMemEdges = hasHypConn.extendingRelations map { rel => relationshipToGraphEdge(rel, true) }
-          val hasHypEdge = relationshipToGraphEdge(hasHypConn.baseRelation)
-          val hypDimEdge = relationshipToGraphEdge(path.select[HypercubeDimensionConnection].baseRelation)
-          val domMemRightEdges = path.select[DimensionMemberConnection] match {
-            case emc: DimensionExplicitMemberConnection => emc.allRelations map { rel => relationshipToGraphEdge(rel) }
-            case tmc: DimensionTypedMemberConnection => Vector.empty[GraphEdge]
-         }
-          leftDomMemEdges ++ Vector(hasHypEdge, hypDimEdge) ++ domMemRightEdges
-        } 
-        (elr -> (allEdges.toVector))
-    }
-    
-    val dimPathEdgesByElr = relevantDimPaths.groupBy(_.select[HasHypercubeConnection].elr) map {
-      case (elr, paths) => 
-        val allEdges = paths flatMap { path =>
-          val hasHypConn = path.select[HasHypercubeConnection]
-          val leftDomMemEdges = hasHypConn.extendingRelations map { rel => relationshipToGraphEdge(rel, true) }
-          val hasHypEdge = relationshipToGraphEdge(hasHypConn.baseRelation)
-          val hypDimEdge = relationshipToGraphEdge(path.select[HypercubeDimensionConnection].baseRelation)
-          leftDomMemEdges ++ Vector(hasHypEdge, hypDimEdge)
+    val inheritedEdgesByElr = inheritedRelationshipChainsByBaseSetElr map {
+      case (elr, chains) => 
+        val edges = chains flatMap { chain =>
+          chain.relationships map { rel => relationshipToGraphEdge(rel, false)}
         }
-        (elr -> (allEdges.toVector))
-    }
+        (elr -> edges)
+      }
     
-    val hycPathByElr = relevantHycPaths.groupBy(_.select[HasHypercubeConnection].elr) map {
-      case (elr, paths) => 
-        val allEdges = paths flatMap { path =>
-          val hasHypConn = path.select[HasHypercubeConnection]
-          val leftDomMemEdges = hasHypConn.extendingRelations map { rel => relationshipToGraphEdge(rel, true) }
-          val hasHypEdge = relationshipToGraphEdge(hasHypConn.baseRelation)
-          leftDomMemEdges ++ Vector(hasHypEdge)
-        }
-        (elr -> (allEdges.toVector))
-    }
-    
-    import scalaz.Scalaz._
-
-    // Combine the contents of maps without overwritting existing values.  If a key for a vector already exists, append the values 
-    // to the existing vector rather than replacing it.
-    // See http://www.nimrodstech.com/scala-map-merge/ for an explanation on map merge using scalaz semigroups.
+    val incomingChainsByElr = 
+      qt.findIncomingDomainMemberRelationshipChains(conceptEName).groupBy(_.relationships.head.extendedLinkRole)
       
-    val allDimensionalEdgesByElr = fullPathEdgesByElr |+| fullPathEdgesByElr |+| hycPathByElr
-
+    val incomingEdgesByElr = incomingChainsByElr map {
+      case (elr, chains) =>
+        val edges = chains flatMap { chain =>
+          chain.relationships map { rel => relationshipToGraphEdge(rel, true)}
+        }
+        (elr -> edges)
+    }
+    
+    val allEdges = inheritedEdgesByElr map {
+      case (elr, edges) => 
+        val newEdges = incomingEdgesByElr.get(elr).getOrElse(IndexedSeq.empty[GraphEdge])
+        (elr -> (edges ++ newEdges))
+    }
+                
+    
     //Construct the graph
-    val graphsByElr = allDimensionalEdgesByElr map {
+    val graphsByElr = allEdges map {
       case (elr, edges) =>
         val graph = edges.foldLeft(GraphBuilder(Map.empty[EName, GraphBuilderNode])) {
           case (graphBuilder, edge) =>
@@ -137,8 +109,8 @@ object DimensionsGraphBuilder {
    * Turns a relationship into a graph edge. The to and from can be reversed if desired (useful for domain member
    * relationships on the left side of the dimensional tree
    */
-  private def relationshipToGraphEdge(rel: DimensionalLinkRelationship, reverse: Boolean = false): GraphEdge = {
-    if (reverse) GraphEdge(rel.targetConceptEName, rel.sourceConceptEName)
+  private def relationshipToGraphEdge(rel: DimensionalLinkRelationship, reverse: Boolean): GraphEdge = {
+    if (reverse) GraphEdge(rel.targetConceptEName, rel.sourceConceptEName) 
     else GraphEdge(rel.sourceConceptEName, rel.targetConceptEName) 
   }
 

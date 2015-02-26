@@ -18,7 +18,7 @@ libraryDependencies ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "nl.ebpi.tqa" % "tqa" % "0.6.0-M4" excludeAll(
+  "nl.ebpi.tqa" % "tqa" % "0.6.0-SNAPSHOT" excludeAll(
     ExclusionRule(organization = "org.scala-lang"),
     ExclusionRule(organization = "org.scalaz")
   ),
