@@ -1,15 +1,5 @@
 <div ng-controller="DimensionsCtrl">
-  <div ng-repeat="dimGraph in dimGraphs"><h4>Base set ELR: {{dimGraph.elr}}
-  <!--svg ng-attr-width="{{dimGraph.graph.width}} ng-attr-height="{{dimGraph.graph.height}}">
-    <g ng-attr-transform="{{dimGraph.graph.formatTranslate(dimGraph.graph.nodes[0].label.length * 7, 0)}}">
-      <path ng-repeat="link in dimGraph.graph.links" class="link" ng-attr-d="{{link.d}}"/>
-      <g ng-repeat="node in dimGraph.graph.nodes" class="node" ng-attr-transform="{{dimGraph.graph.formatTranslate(node.y, node.x)}}">
-        <circle r="4.5"/>
-        <text ng-if="node.children.length" dx="-8" dy="5" text-anchor="end">{{node.label}}</text>
-        <text ng-if="!node.children.length" dx="8" dy="5" text-anchor="start">{{node.label}}</text>
-      </g>  
-    </g>      
-  </svg-->
+  <div ng-repeat="dimGraph in dimGraphs"><h4 id="elr-heading">Base set ELR: {{dimGraph.elr}}</h4>
     <dimensions-graph data="dimGraph.graph"></dimensions-graph>
   </div>
 </div>

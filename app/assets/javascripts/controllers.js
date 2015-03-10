@@ -212,9 +212,12 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         controller('ConceptCtrl', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
           var conceptViews = [
             { 
+              label: "Labels",
+              path: "/concept/label",
+            },
+            { 
               label: "Resources",
               path: "/concept/reference",
-              template: "assets/html/reference-viewer.html"
             },
             {
               label: "Dimensions",
@@ -285,6 +288,19 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
             });
 
         }]).
+        controller('LabelCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+        
+          $http.get('concept/labels', {
+                params: {
+                  entrypointUri: $routeParams.uri,
+                  conceptNamespace: $routeParams.conceptNamespace,
+                  conceptLocalName: $routeParams.conceptLocalName
+                }
+              }).then(function(response) {
+                $scope.labels = response.data;
+            });
+
+        }]).
         controller('DimensionsCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
           $http.get('concept/dimensions', {
                 params: {
@@ -293,17 +309,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                   conceptLocalName: $routeParams.conceptLocalName
                 }
               }).then(function(response) {
-                
-                   
-                   
                    $scope.dimGraphs = response.data;
-
-                   /*$scope.dimGraphs = _.map(response.data, function(value, key, list) {
-                    
-                 
-                  var graph = processGraph(value.graph, { extractNodeLabel: extractNodeLabel, widthScale: 50 });
-                  return { elr: value.elr, graph: graph };
-});*/
             });
                   
 
@@ -372,12 +378,15 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
 
                     /* Compute node positions to determine sv height */
                     var nodes = tree.nodes(data);
-                    var nodesPerDepth = _.countBy(nodes, function(node){ return node.depth; });
-                    var maxNodes = _.max(nodesPerDepth);
+                    var nodesByDepth = _.groupBy(nodes, function(node){ return node.depth; });
+                    var nodeGroups = _.values(nodesByDepth);
+                    var maxNodes = _.max(nodeGroups, function(group) { return group.length; }).length;
+                    var lastNodes = _.max(nodeGroups, function(group) { return group[0].depth; });
+                    var longestNode = _.max(lastNodes, function(node) { return node.ename.localName.length; });
+                    var longestNodeLength = longestNode.ename.localName.length;
                     var height = maxNodes*30;
                     var width = d3.select(element[0]).node().offsetWidth;
-                    var labelLength = extractNodeLabel(data).length;
-                    tree.size([height, width - labelLength*20*2]);                  
+                    tree.size([height, width - longestNodeLength*8]);                  
 
                     nodes = tree.nodes(data);
                     links = tree.links(nodes);
@@ -387,7 +396,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                     var g = svg.attr("width", width)
                         .attr("height", height)
                         .append("g")
-                        .attr("transform", "translate("+labelLength*15+",0)");
+                        .attr("transform", "translate(10,0)");
                     
                     var link = g.selectAll("path.link")
                         .data(links)
@@ -404,9 +413,11 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                         .attr("r", 4.5);
                     node.append("text")
                         .attr("dx", function(d) { return d.children ? -8 : 8; })
-                        .attr("dy", function(d) { return (d.depth % 2 === 0) ? -5 : 5; })
+                        .attr("dy", function(d) { return (d.depth % 2 === 0) ? -8 : 8; })
                         .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
-                        .text(function(d) { return d.ename.localName; })
+                        .text(function(d) { if (d.depth === 0) { return ""; } 
+                                            else { return d.ename.localName; }
+                         })
                         .on('click', function(d){ console.log(d); });
                 }; 
             }

@@ -1,0 +1,13 @@
+<div ng-controller="LabelCtrl">
+<div class="panel panel-default" ng-repeat="label in labels"> 
+  <div class="panel-heading"> 
+    <h3 class="panel-title">{{label.role}}</h3> 
+  </div> 
+  <div class="panel-body"> 
+    <dl class="dl-horizontal">
+      <dt>Language</dt><dd>{{label.language}}</dd>
+      <dt>Label</dt><dd>{{label.text}}</dd>
+    </dl>  
+  </div> 
+</div>
+</div>
