@@ -183,7 +183,11 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                 $scope.toHighlight = data;
             });
         }]).
-        controller('PresCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+        controller('PresCtrl', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
+          $scope.displayConcept = function(node) {
+            $location.path("/concept/label").search({uri: $routeParams.uri, conceptNamespace: node.concept.ename.namespace, conceptLocalName: node.concept.ename.localName});
+          };
+
           $http.get('/presentationElrs', {
             params: {
               uri: $routeParams.uri

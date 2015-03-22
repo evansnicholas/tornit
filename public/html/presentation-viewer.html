@@ -36,7 +36,7 @@
         <g transform="translate(10, 20)">
           <g ng-repeat="node in nodes" class="node" ng-attr-transform="translate({{node.x}}, {{node.y}})">
             <circle r="4.5"/>
-            <text dx="7" dy="3" text-anchor="start" popover-title="Labels" popover-placement="right" popover-template="{{formatLabelPopoverHtml(node.concept.labels)}}" popover-append-to-body="true">{{node.concept.ename}}</text>
+            <text dx="7" dy="3" text-anchor="start" ng-click="displayConcept(node)">{{node.concept.ename.localName}}</text>
           </g>  
         </g>      
       </svg>

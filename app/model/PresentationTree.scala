@@ -6,7 +6,7 @@ import eu.cdevreeze.yaidom.core.EName
 
 case class PresentationELR(elr: String, roots: Seq[PresentationNode])
 case class PresentationNode(concept: PresentationConcept, children: Seq[PresentationNode])
-case class PresentationConcept(ename: String, labels: Seq[Label])
+case class PresentationConcept(ename: EName, labels: Seq[Label])
 case class Label(role: String, language: String, text: String)
 
 object PresentationTree {
@@ -24,7 +24,7 @@ object PresentationTree {
       val childNodes = childrenRels map { r => build(r.targetConceptEName) }
       val labelRels = rat.findConceptLabelsByConcept(source)
       val labels = labelRels map { r => Label(r.resourceRole, r.language, r.labelText) }
-      val concept = PresentationConcept(source.localPart, labels)
+      val concept = PresentationConcept(source, labels)
       PresentationNode(concept, childNodes)
     }
     

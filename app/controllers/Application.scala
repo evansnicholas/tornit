@@ -100,7 +100,7 @@ object Application extends Controller {
   )(unlift(Label.unapply))
   
   implicit val presentationConceptWrites: Writes[PresentationConcept] = (
-    (JsPath \ "ename").write[String] and 
+    (JsPath \ "ename").write[EName] and 
     (JsPath \ "labels").lazyWrite(Writes.seq[Label](labelWrites))
   )(unlift(PresentationConcept.unapply))
 

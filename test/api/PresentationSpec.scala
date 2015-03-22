@@ -10,6 +10,7 @@ import play.api.libs.json._
 import eu.cdevreeze.yaidom.core.EName
 import play.api.libs.functional.syntax._
 import model._
+import ReadUtils._
 
 @RunWith(classOf[JUnitRunner])
 class PresentationSpec extends Specification {
@@ -48,18 +49,18 @@ class PresentationSpec extends Specification {
       rootNodes must have size(1)
       
       val rootNode = rootNodes.head
-      rootNode.concept.ename must beEqualTo("InformationRequiredForFilingTitle")
+      rootNode.concept.ename.localPart must beEqualTo("InformationRequiredForFilingTitle")
            
       val rootNodeChildren = rootNode.children
       rootNode.children must have size(3)
-      rootNodeChildren(0).concept.ename must beEqualTo("LegalSizeCriteriaClassification")
-      rootNodeChildren(1).concept.ename must beEqualTo("SbiBusinessCode")
-      rootNodeChildren(2).concept.ename must beEqualTo("ContactForDocumentPresentation")
+      rootNodeChildren(0).concept.ename.localPart must beEqualTo("LegalSizeCriteriaClassification")
+      rootNodeChildren(1).concept.ename.localPart must beEqualTo("SbiBusinessCode")
+      rootNodeChildren(2).concept.ename.localPart must beEqualTo("ContactForDocumentPresentation")
       
       rootNodeChildren(0).children must beEmpty
       rootNodeChildren(1).children must beEmpty
       rootNodeChildren(2).children must have size(6)
-      rootNodeChildren(2).children(1).concept.ename must beEqualTo("FirstName")
+      rootNodeChildren(2).children(1).concept.ename.localPart must beEqualTo("FirstName")
       
     }
   }
@@ -73,7 +74,7 @@ object PresentationSpec {
     (JsPath \ "text").read[String])(Label.apply _)
   
   implicit val presentationConceptReads: Reads[PresentationConcept] = (
-    (JsPath \ "ename").read[String] and
+    (JsPath \ "ename").read[EName] and
     (JsPath \ "labels").read(Reads.seq[Label](labelReads))
   )(PresentationConcept.apply _)
   

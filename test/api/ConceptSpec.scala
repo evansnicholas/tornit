@@ -10,6 +10,7 @@ import play.api.libs.json._
 import eu.cdevreeze.yaidom.core.EName
 import play.api.libs.functional.syntax._
 import model._
+import ReadUtils._
 
 @RunWith(classOf[JUnitRunner])
 class ConceptSpec extends Specification {
@@ -65,11 +66,6 @@ class ConceptSpec extends Specification {
 }
 
 object ConceptSpec {
-  
-  implicit val enameReads: Reads[EName] = (
-      (JsPath \ "namespace").read[String] and 
-      (JsPath \ "localName").read[String]
-    )(EName.apply _: (String, String) => EName)
   
   implicit val conceptElementDeclarationReads: Reads[ConceptElementDeclaration] = (
     (JsPath \ "ename").read[EName] and
