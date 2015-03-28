@@ -184,6 +184,23 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
             });
         }]).
         controller('PresCtrl', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
+          function setPresentationTree() {
+            $http.get('/presentationTree', {
+              params: {
+                uri: $routeParams.uri,
+                elr: $routeParams.elr
+              }
+            }).success(function(data) {
+
+              var positionedConcepts = [];
+              var totalConcepts = positionConcepts(data.roots, 0, 0, positionedConcepts);
+              var height = totalConcepts * 25;
+
+              $scope.height = height;
+              $scope.nodes = positionedConcepts;
+            });
+           }
+
           $scope.displayConcept = function(node) {
             $location.path("/concept/label").search({uri: $routeParams.uri, conceptNamespace: node.concept.ename.namespace, conceptLocalName: node.concept.ename.localName});
           };
@@ -196,22 +213,14 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
             $scope.elrs = data;
           });
 
-          $scope.displayPresentationTree = function(elr) {
-            $http.get('/presentationTree', {
-              params: {
-                uri: $routeParams.uri,
-                elr: elr
-              }
-            }).success(function(data) {
+          $scope.getPresentationTree = function(elr) { 
+            $location.search('elr', elr);
+          };
 
-              var positionedConcepts = [];
-              var totalConcepts = positionConcepts(data.roots, 0, 0, positionedConcepts);
-              var height = totalConcepts * 25;
+          if ($routeParams.elr) {
+            setPresentationTree(); 
+          }
 
-              $scope.height = height;
-              $scope.nodes = positionedConcepts;
-            });
-           };
         }]).
         controller('ConceptCtrl', ['$scope', '$http', '$routeParams', '$location', function($scope, $http, $routeParams, $location) {
           var conceptViews = [
