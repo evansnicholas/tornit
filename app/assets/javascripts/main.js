@@ -51,7 +51,8 @@ require(['jquery', './controllers', 'angular', 'angular-route'],
         }).
         when('/presentation', { 
           templateUrl: 'assets/html/presentation-viewer.html',
-          controller: 'PresCtrl'
+          controller: 'PresCtrl',
+          reloadOnSearch: false
         }).
         when('/dtsGraph', { 
           templateUrl: 'assets/html/dts-graph-viewer.html',

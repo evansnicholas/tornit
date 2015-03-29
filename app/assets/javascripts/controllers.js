@@ -108,7 +108,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
             if ($location.path() === "/") {
                //do nothing, stay here 
             } else {
-              $location.path(item.path).search({uri: $routeParams.uri});
+              $location.path(item.path).search({entrypointUri: $routeParams.entrypointUri});
             }
           }
 
@@ -132,12 +132,12 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         }]).
         controller('NavCtrl', ['$scope', '$http', '$location', function($scope, $http, $location) {
           $scope.selectEntrypoint = function(item, model, label) {
-            $location.path('/dtsGraph').search({ uri: item });
+            $location.path('/dtsGraph').search({ entrypointUri: item });
           };
           $scope.getEntrypoints = function(val) {
             return $http.get('entrypoints', {
                 params: {
-                  uri: val
+                  entrypointUri: val
                 }
               }).then(function(response) {
                 return response.data.slice(0, 15).map(function(item) {
@@ -152,7 +152,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
             $scope.isLoading = "loading";
             $http.get('dtsGraph', {
               params: {
-                uri: $routeParams.uri
+                entrypointUri: $routeParams.entrypointUri
               }
             }).success(function(data) { 
                  
@@ -166,7 +166,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
                 var processedGraph = processGraph(data, { extractNodeLabel: extractName, widthScale: 10  });
                 $scope.graph = processedGraph;
                 $scope.getTaxoDoc = function(docUri) {
-                  $location.path('/taxonomyDoc').search({ uri: $routeParams.uri, docUri: docUri  });
+                  $location.path('/taxonomyDoc').search({ entrypointUri: $routeParams.entrypointUri, docUri: docUri  });
                 };
                 $scope.isLoading = "notLoading";
             }).error(function(error) { 
@@ -176,7 +176,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         controller('TaxoDocCtrl', ['$scope', '$routeParams', '$http', function ($scope, $routeParams, $http) {
             $http.get('/taxoDoc', { 
               params: {
-                uri: $routeParams.uri,
+                entrypointUri: $routeParams.entrypointUri,
                 docUri: $routeParams.docUri
               }
             }).success(function(data) {
@@ -187,8 +187,8 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
           function setPresentationTree() {
             $http.get('/presentationTree', {
               params: {
-                uri: $routeParams.uri,
-                elr: $routeParams.elr
+                entrypointUri: $location.search().entrypointUri,
+                elr: $location.search().elr
               }
             }).success(function(data) {
 
@@ -196,18 +196,44 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
               var totalConcepts = positionConcepts(data.roots, 0, 0, positionedConcepts);
               var height = totalConcepts * 25;
 
+              $scope.selectedElr = $location.search().elr;
               $scope.height = height;
               $scope.nodes = positionedConcepts;
             });
            }
 
-          $scope.displayConcept = function(node) {
-            $location.path("/concept/label").search({uri: $routeParams.uri, conceptNamespace: node.concept.ename.namespace, conceptLocalName: node.concept.ename.localName});
+          function isSelectedConcept() {
+            var params = $location.search();
+            return params.hasOwnProperty("conceptNamespace") && params.hasOwnProperty("conceptLocalName");
+          }
+
+          function setSelectedConcept() {
+            $http.get('/concept/info', {
+              params: {
+                entrypointUri: $location.search().entrypointUri,
+                conceptNamespace: $location.search().conceptNamespace,
+                conceptLocalName: $location.search().conceptLocalName
+              }
+            }).success(function(data) {
+              $scope.selectedConcept = data;
+            });
+          }
+
+          $scope.displayConcept = function() {
+            $location.path("/concept/label").search({entrypointUri: $location.search().entrypointUri, elr: $location.search().elr, conceptNamespace: $location.search().conceptNamespace, conceptLocalName: $location.search().conceptLocalName });
           };
+
+          $scope.displayConceptInfo = function(node) {
+            $location.search({entrypointUri: $location.search().entrypointUri, elr: $location.search().elr, conceptNamespace: node.concept.ename.namespace, conceptLocalName: node.concept.ename.localName});
+
+            setSelectedConcept();
+          };
+
+          $scope.isSelectedConcept = isSelectedConcept();
 
           $http.get('/presentationElrs', {
             params: {
-              uri: $routeParams.uri
+              entrypointUri: $location.search().entrypointUri
             }
           }).success(function(data) {
             $scope.elrs = data;
@@ -215,10 +241,15 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
 
           $scope.getPresentationTree = function(elr) { 
             $location.search('elr', elr);
+            setPresentationTree();
           };
 
-          if ($routeParams.elr) {
+          if ($location.search().elr != $scope.selectedElr) {
             setPresentationTree(); 
+          }
+
+          if (isSelectedConcept()) {
+            setSelectedConcept();
           }
 
         }]).
@@ -246,14 +277,14 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
             if ($location.path() === "/") {
                //do nothing, stay here 
             } else {
-              $location.path(view.path).search({uri: $routeParams.uri, conceptNamespace: getConceptNamespace(), conceptLocalName: getConceptLocalName()});
+              $location.path(view.path).search({entrypointUri: $routeParams.entrypointUri, conceptNamespace: getConceptNamespace(), conceptLocalName: getConceptLocalName()});
             }
           }
 
           function getConcepts(conceptQuery) {
             return $http.get('concepts', {
                 params: {
-                  uri: $routeParams.uri,
+                  entrypointUri: $routeParams.entrypointUri,
                   concept: conceptQuery
                 }
               }).then(function(response) {
@@ -269,7 +300,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
           }
   
           function selectConcept(item, model, label) { 
-            $location.path(conceptViews[0].path).search({uri: $routeParams.uri, conceptNamespace: item.namespace, conceptLocalName: item.localPart});
+            $location.path(conceptViews[0].path).search({entrypointUri: $routeParams.entrypointUri, conceptNamespace: item.namespace, conceptLocalName: item.localPart});
           }
 
           function getConceptLocalName() {
@@ -292,7 +323,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         
           $http.get('concept/references', {
                 params: {
-                  entrypointUri: $routeParams.uri,
+                  entrypointUri: $routeParams.entrypointUri,
                   conceptNamespace: $routeParams.conceptNamespace,
                   conceptLocalName: $routeParams.conceptLocalName
                 }
@@ -305,7 +336,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         
           $http.get('concept/labels', {
                 params: {
-                  entrypointUri: $routeParams.uri,
+                  entrypointUri: $routeParams.entrypointUri,
                   conceptNamespace: $routeParams.conceptNamespace,
                   conceptLocalName: $routeParams.conceptLocalName
                 }
@@ -317,7 +348,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
         controller('DimensionsCtrl', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
           $http.get('concept/dimensions', {
                 params: {
-                  entrypointUri: $routeParams.uri,
+                  entrypointUri: $routeParams.entrypointUri,
                   conceptNamespace: $routeParams.conceptNamespace,
                   conceptLocalName: $routeParams.conceptLocalName
                 }
@@ -331,7 +362,7 @@ define(['angular', 'd3', 'underscore', 'highlightjs','angular-ui'], function(ang
 
           $http.get('/concept/schema', { 
               params: {
-                entrypointUri: $routeParams.uri,
+                entrypointUri: $routeParams.entrypointUri,
                 conceptNamespace: $routeParams.conceptNamespace,
                 conceptLocalName: $routeParams.conceptLocalName
               }

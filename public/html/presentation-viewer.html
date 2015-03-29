@@ -31,15 +31,31 @@
 </nav>
 <div class="container-fluid">  
   <div class="row">
-    <div id="presentation-display">
-      <svg width="1000" ng-attr-height="{{height}}">
+    <div class="col-md-8" id="presentation-display">
+      <svg width="100%" ng-attr-height="{{height}}" ng-attr-viewBox="0 0 620 {{height}}">
         <g transform="translate(10, 20)">
           <g ng-repeat="node in nodes" class="node" ng-attr-transform="translate({{node.x}}, {{node.y}})">
             <circle r="4.5"/>
-            <text dx="7" dy="3" text-anchor="start" ng-click="displayConcept(node)">{{node.concept.ename.localName}}</text>
+            <text dx="7" dy="3" text-anchor="start" ng-click="displayConceptInfo(node)">{{node.concept.ename.localName}}</text>
           </g>  
         </g>      
       </svg>
+    </div>
+    <div class="col-md-4">
+      <div ng-if="selectedConcept" class="well break-word">
+        <p class="text-right"><a href="" ng-click="displayConcept()">To Concept View <span class="glyphicon glyphicon-menu-right"/></a></p>
+        <h4>{{selectedConcept.ename.localName}} <small>{{selectedConcept.ename.namespace}}</small></h4>
+        <dl>
+          <dt>Type</dt>
+          <dd>
+            <h5>{{selectedConcept.xsdType.localName}} <small>{{selectedConcept.xsdType.namespace}}</small></h5>
+          </dd>
+          <dt>Substitution group</dt>
+          <dd>
+            <h5>{{selectedConcept.substitutionGroup.localName}} <small>{{selectedConcept.substitutionGroup.namespace}}</small></h5>
+          </dd>
+        </dl>
+      </div>
     </div>
   </div>
 </div>

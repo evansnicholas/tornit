@@ -128,6 +128,12 @@ object Application extends Controller {
     (JsPath \ "typeHierarchy").write(Writes.seq[EName](enameWrites))
   )(unlift(ConceptElementDeclaration.unapply))
 
+  implicit val conceptInfoWrites: Writes[ConceptInfo] = (
+    (JsPath \ "ename").write[EName] and 
+    (JsPath \ "substitutionGroup").write[EName] and 
+    (JsPath \ "xsdType").write[EName]
+  )(unlift(ConceptInfo.unapply))
+  
   def showTaxonomyDocument(uri: String, docUri: String) = Action {
     val json = Taxonomies.showTaxonomyDocument(uri, docUri)
     Ok(json)
@@ -158,5 +164,10 @@ object Application extends Controller {
       case Success(json) => Ok(json)
       case Failure(t) => BadRequest(Json.obj("error" -> t.toString))
     }
+  }
+  
+  def findConceptInfo(entrypointPath: String, conceptNamespace: String, conceptLocalName: String) = Action {
+    val json = Json.toJson(Taxonomies.findConceptInfo(entrypointPath, conceptNamespace, conceptLocalName))
+    Ok(json)
   }
 }

@@ -8,24 +8,26 @@ GET     /                           controllers.Application.main
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
-GET /entrypoints                    controllers.Application.listEntrypoints(uri)
+GET /entrypoints                    controllers.Application.listEntrypoints(entrypointUri)
 
 GET /entrypoint                     controllers.Application.loadEntrypoint(entrypointUri)
 
-GET /dtsGraph                       controllers.Application.computeDtsGraph(uri)
+GET /dtsGraph                       controllers.Application.computeDtsGraph(entrypointUri)
 
-GET /concepts                       controllers.Application.listConcepts(uri, concept)
+GET /concepts                       controllers.Application.listConcepts(entrypointUri, concept)
 
 GET /concept/dimensions                controllers.Application.computeDimensionalGraphs(entrypointUri, conceptNamespace, conceptLocalName)
 
-GET /taxoDoc                        controllers.Application.showTaxonomyDocument(uri, docUri)
+GET /taxoDoc                        controllers.Application.showTaxonomyDocument(entrypointUri, docUri)
 
-GET /presentationElrs               controllers.Application.listPresentationElrs(uri)
+GET /presentationElrs               controllers.Application.listPresentationElrs(entrypointUri)
 
-GET /presentationTree               controllers.Application.computePresentationTree(uri, elr)
+GET /presentationTree               controllers.Application.computePresentationTree(entrypointUri, elr)
 
 GET /concept/labels                 controllers.Application.findConceptLabels(entrypointUri, conceptNamespace, conceptLocalName)
 
 GET /concept/references             controllers.Application.findConceptReferences(entrypointUri, conceptNamespace, conceptLocalName)
 
-GET /concept/schema                        controllers.Application.findConceptElementDeclaration(entrypointUri, conceptNamespace, conceptLocalName)
+GET /concept/schema                 controllers.Application.findConceptElementDeclaration(entrypointUri, conceptNamespace, conceptLocalName)
+
+GET /concept/info                   controllers.Application.findConceptInfo(entrypointUri, conceptNamespace, conceptLocalName)

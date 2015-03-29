@@ -1,9 +1,11 @@
 package model
 
 import java.net.URI
+import eu.cdevreeze.yaidom.core.EName
 
 case class Entrypoint(uri: String)
 case class Concept(namespace: String, localPart: String, conceptType: String)
+case class ConceptInfo(ename: EName, substitutionGroup: EName, xsdType: EName)
 
 trait TaxonomyApi {
   
@@ -31,4 +33,5 @@ trait TaxonomyApi {
   
   def findConceptElementDeclaration(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptElementDeclaration
   
+  def findConceptInfo(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptInfo
 }

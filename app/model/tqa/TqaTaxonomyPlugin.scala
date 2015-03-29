@@ -29,6 +29,8 @@ import eu.cdevreeze.yaidom.utils.NamespaceUtils
 import org.apache.commons.lang3.StringEscapeUtils
 import nl.ebpi.tqa.model.xsd.XsdSchema
 import nl.ebpi.tqa.model.xsd.XsdDoc
+import nl.ebpi.tqa.{ XsSchemaEName, XsAnyEName } 
+import nl.ebpi.tqa.model.taxonomy.Taxonomy
 
 class TqaTaxonomyPlugin(app: Application) extends TaxonomyPlugin(app){
 
@@ -39,6 +41,8 @@ class TqaTaxonomyPlugin(app: Application) extends TaxonomyPlugin(app){
 }
 
 object TqaTaxonomyApi extends TaxonomyApi {
+  
+  class CachedTaxonomy(val queryApi: QueryableTaxonomy, val schemaApi: XsdSchema)
   
   val enameProviderCacheSize = System.getProperty("enameProvider.cache.size", "5000").toInt
   CachingENameProvider.setAsGlobalENameProvider(enameProviderCacheSize)
@@ -53,15 +57,22 @@ object TqaTaxonomyApi extends TaxonomyApi {
   
   val dtsCollection = DtsCollections.getLocallyMirroredDtsCollection(uriConverter, taxoCache, entrypointFilter)
   
+  def getCachedTaxonomy(entrypointPath: String): CachedTaxonomy = {
+    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
+    Cache.getOrElse[CachedTaxonomy](entrypointUri.toString()){
+      val queryApi = new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
+      val xsdSchema =
+      XsdSchema.build(queryApi.taxo.taxonomy.taxonomyDocs.collect { case doc if doc.documentElement.resolvedName == XsSchemaEName => XsdDoc(doc.taxoDoc) })
+      new CachedTaxonomy(queryApi, xsdSchema)
+    }
+  }
+  
   def entrypointUris = {
     dtsCollection.allEntrypointUris
   }
   
   def loadEntrypoint(entrypointPath: String) = {
-    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString){
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
+    getCachedTaxonomy(entrypointPath)
   }
   
   def queryEntrypointUris(query: String) = {
@@ -69,10 +80,7 @@ object TqaTaxonomyApi extends TaxonomyApi {
   }
   
   def listConcepts(entrypointPath: String, query:String): List[Concept] = {
-    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString){
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
+    val fullTaxo = getCachedTaxonomy(entrypointPath).queryApi
     val items = 
       fullTaxo.taxo.taxonomy.findAllItemDeclarationsByEName.keySet map { e => 
         Concept(e.namespaceUriOption.getOrElse(""), e.localPart, "item") 
@@ -88,54 +96,56 @@ object TqaTaxonomyApi extends TaxonomyApi {
   }
   
   def listPresentationElrs(entrypointPath: String): List[String] = {
-    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString){
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
+    val fullTaxo = getCachedTaxonomy(entrypointPath).queryApi 
     fullTaxo.taxo.findRelationships[ParentChildRelationship].map(_.extendedLinkRole).distinct.toList
   }
   
   def computeDtsGraph(entrypointPath: String): DtsGraph = {
+    val fullTaxo = getCachedTaxonomy(entrypointPath).queryApi
     val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString){
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
-    DtsGraph.computeGraph(fullTaxo.taxo.taxonomy, entrypointUri)
+    computeGraph(fullTaxo.taxo.taxonomy, entrypointUri)
+  }
+  
+  def computeGraph(taxo: Taxonomy, entrypointUri: URI): DtsGraph = {
+    val docsByUri = taxo.taxonomyDocsByUri
+    
+    def buildGraph(seenDocs: Set[URI], docUri: URI): (Set[URI], DtsGraph) = {
+      val referencedDocs = docsByUri(docUri).usedDocUris
+      val newDocs = referencedDocs diff seenDocs
+      val updatedSeenDocs = seenDocs ++ newDocs
+      val (allSeen, children) = 
+        newDocs.foldLeft((updatedSeenDocs, IndexedSeq.empty[DtsGraph])){ case ((seen, graphs), doc) =>
+          val (allSeen, graph) = buildGraph(seen, doc)
+          (seen ++ allSeen, graphs :+ graph)
+        }
+      (allSeen, DtsGraph(docUri.toString, children ))
+    }  
+    
+    val (_, graph) = buildGraph(Set.empty[URI], entrypointUri)
+    graph
   }
   
   def findDimensionalGraphs(entrypointPath: String, namespace: String, localPart: String): List[DimensionsGraph] = {
-    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString){
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
+    val fullTaxo = getCachedTaxonomy(entrypointPath).queryApi
     val decodedNs = URLDecoder.decode(namespace, "UTF-8")
     val conceptEName = EName(decodedNs, localPart)
     DimensionsGraphBuilder.findDimensionsGraphs(fullTaxo, conceptEName)
   }
   
   def computePresentationTree(entrypointPath: String, elr: String): PresentationELR = {
-    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString){
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
+    val fullTaxo = getCachedTaxonomy(entrypointPath).queryApi
     PresentationTree.createPresentationTree(fullTaxo.taxo, elr)
   }
   
   def showTaxonomyDocument(entrypointPath: String, docUriString: String): String = {
-    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
     val docUri = new URI(URLDecoder.decode(docUriString, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString){
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
+    val fullTaxo = getCachedTaxonomy(entrypointPath).queryApi
     val doc = fullTaxo.taxo.taxonomy.taxonomyDocsByUri(docUri).taxoDoc.docawareDoc.document
     Utils.docPrinter.print(doc)
   }
 
   def findConceptLabels(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[Label] = {
-    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString){
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
+    val fullTaxo = getCachedTaxonomy(entrypointPath).queryApi
 
     val conceptEName = EName(URLDecoder.decode(conceptNamespace, "UTF-8"), conceptLocalName)
     val conceptLabels = fullTaxo.taxo.findConceptLabelsByConcept(conceptEName)
@@ -146,10 +156,7 @@ object TqaTaxonomyApi extends TaxonomyApi {
   }
 
   def findConceptReferences(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): List[Reference] = {
-    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString){
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
+    val fullTaxo = getCachedTaxonomy(entrypointPath).queryApi
 
     val conceptEName = EName(URLDecoder.decode(conceptNamespace, "UTF-8"), conceptLocalName)
     val conceptReferences = fullTaxo.taxo.findConceptReferencesByConcept(conceptEName)
@@ -166,17 +173,10 @@ object TqaTaxonomyApi extends TaxonomyApi {
   }
 
   def findConceptElementDeclaration(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptElementDeclaration = {
-    val entrypointUri = new URI(URLDecoder.decode(entrypointPath, "UTF-8"))
-    val fullTaxo = Cache.getOrElse[QueryableTaxonomy](entrypointUri.toString) {
-      new QueryableTaxonomy(dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri))
-    }
-
-    import nl.ebpi.tqa.XsSchemaEName 
+    val xsdSchema = getCachedTaxonomy(entrypointPath).schemaApi 
     
     val decodedConceptNamespace = URLDecoder.decode(conceptNamespace, "UTF-8")
     val ename = EName(decodedConceptNamespace, conceptLocalName)
-    val xsdSchema =
-      XsdSchema.build(fullTaxo.taxo.taxonomy.taxonomyDocs.collect { case doc if doc.documentElement.resolvedName == XsSchemaEName => XsdDoc(doc.taxoDoc) })
     val elementDeclaration = xsdSchema.getGlobalElementDeclarationByEName(ename)
     val substitutionGroupHierarchy = XsdSchemaUtils.findSubstitutionGroupHierarchy(xsdSchema)(elementDeclaration)
     val typeHierarchy = XsdSchemaUtils.findTypeAncestry(xsdSchema)(elementDeclaration)
@@ -189,5 +189,14 @@ object TqaTaxonomyApi extends TaxonomyApi {
     val elemDecString = Utils.docPrinter.print(strippedElementDecl)
        
     ConceptElementDeclaration(ename, elemDecString, substitutionGroupHierarchy, typeHierarchy)
+  }
+  
+  def findConceptInfo(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptInfo = {
+    val xsdSchema = getCachedTaxonomy(entrypointPath).schemaApi 
+    val ename = EName(conceptNamespace, conceptLocalName)
+    val elementDecl = xsdSchema.getGlobalElementDeclarationByEName(ename)
+    val substitutionGroup = elementDecl.substitutionGroupOption.getOrElse(XsAnyEName)
+    val xsdType = elementDecl.typeAttributeOption.getOrElse(XsAnyEName)
+    ConceptInfo(ename, substitutionGroup, xsdType)
   }
 }

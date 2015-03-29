@@ -52,4 +52,8 @@ object Taxonomies extends TaxonomyApi {
   def findConceptElementDeclaration(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptElementDeclaration = {
     taxoApi.findConceptElementDeclaration(entrypointPath, conceptNamespace, conceptLocalName)
   }
+  
+  def findConceptInfo(entrypointPath: String, conceptNamespace: String, conceptLocalName: String): ConceptInfo = {
+    taxoApi.findConceptInfo(entrypointPath, conceptNamespace, conceptLocalName)
+  }
 }
