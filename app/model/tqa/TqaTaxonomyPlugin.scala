@@ -5,6 +5,7 @@ import play.api._
 import play.api.Play.current
 import play.api.cache.Cache
 import play.api.libs.json.JsString
+import java.io.File
 import java.net.URI
 import java.net.URLDecoder
 import java.net.URI
@@ -29,8 +30,9 @@ import eu.cdevreeze.yaidom.utils.NamespaceUtils
 import org.apache.commons.lang3.StringEscapeUtils
 import nl.ebpi.tqa.model.xsd.XsdSchema
 import nl.ebpi.tqa.model.xsd.XsdDoc
-import nl.ebpi.tqa.{ XsSchemaEName, XsAnyEName } 
+import nl.ebpi.tqa.{ XsSchemaEName, XsAnyEName }
 import nl.ebpi.tqa.model.taxonomy.Taxonomy
+import play.api.Logger
 
 class TqaTaxonomyPlugin(app: Application) extends TaxonomyPlugin(app){
 
@@ -42,6 +44,10 @@ class TqaTaxonomyPlugin(app: Application) extends TaxonomyPlugin(app){
 
 object TqaTaxonomyApi extends TaxonomyApi {
   
+  val LOGGER = Logger(this.getClass())
+  
+  val TqaTaxonomyRootDirProperty = "tqa.taxonomyRootDir"
+  
   class CachedTaxonomy(val queryApi: QueryableTaxonomy, val schemaApi: XsdSchema)
   
   val enameProviderCacheSize = System.getProperty("enameProvider.cache.size", "5000").toInt
@@ -50,7 +56,20 @@ object TqaTaxonomyApi extends TaxonomyApi {
   val qnameProviderCacheSize = System.getProperty("qnameProvider.cache.size", "5000").toInt
   CachingQNameProvider.setAsGlobalQNameProvider(qnameProviderCacheSize)
 
-  val taxoRootDir = Play.getFile("lib/taxonomy")
+  val taxoRootDir = {
+    //This will always exists because there is a default
+    val rootDir = Play.configuration.getString(TqaTaxonomyRootDirProperty).get
+    LOGGER.debug(s"Loading taxonomy from root dir: $rootDir")
+    //This could be dangerous if the application is being run with too many privileges
+    val rootDirFile = new File(rootDir)
+      
+    if (rootDirFile.isAbsolute()) {
+      rootDirFile
+    } else {
+      Play.getExistingFile(rootDir).getOrElse(throw new IllegalStateException("No taxonomy root dir was set and lib/taxonomy does not exist."))
+    }
+  }
+  
   val uriConverter = new DefaultUriConverter(taxoRootDir)
   val taxoCache = DtsCollections.createTaxonomyDocCache(uriConverter, 500)
   val entrypointFilter: URI => Boolean = uri => uri.getPath().contains("/entrypoints/")
