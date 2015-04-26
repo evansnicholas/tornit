@@ -22,7 +22,7 @@ class DimensionsSpec extends Specification with JsonMatchers {
       val conceptEName = EName("http://www.nltaxonomie.nl/8.0/basis/sbr/items/nl-common-data", "FirstName")
       
       val requestUri =
-        s"/dimensionsGraph?uri=${entrypointUri}&namespace=${conceptEName.namespaceUriOption.getOrElse("")}&localPart=${conceptEName.localPart}"
+        s"/concept/dimensions?entrypointUri=${entrypointUri}&conceptNamespace=${conceptEName.namespaceUriOption.getOrElse("")}&conceptLocalName=${conceptEName.localPart}"
 
       val conceptDimensionTree = route(FakeRequest(GET, requestUri)).get
 
@@ -34,9 +34,11 @@ class DimensionsSpec extends Specification with JsonMatchers {
       
       val jsonString = contentAsString(conceptDimensionTree).trim 
       
-      jsonString must /#(0) /("elr" -> "urn:kvk:linkrole:adimensional-table")
-      jsonString must /#(0) /("graph") /("ename") /("localName" -> "FirstName")
-      jsonString must /#(0) /("graph") /("children") /#(0) /("children") /#(0) /("ename") /("localName" -> "ValidationTable")
+      println(jsonString)
+      
+      (jsonArray(0) \("elr")).as[JsString].value mustEqual "urn:kvk:linkrole:adimensional-table"
+      (jsonArray(0) \ ("graph") \ ("ename") \ ("localName")).as[JsString].value mustEqual "FirstName"
+      (((jsonArray(0) \ ("graph") \ ("children"))(0) \ ("children"))(0) \ ("ename")  \ ("localName")).as[JsString].value mustEqual "ValidationTable"
           
     }
     
@@ -45,7 +47,7 @@ class DimensionsSpec extends Specification with JsonMatchers {
       val conceptEName = EName("http://www.nltaxonomie.nl/8.0/basis/rj/items/rj-data", "PurchaseIntangibleAssets")
       
       val requestUri =
-        s"/dimensionsGraph?uri=${entrypointUri}&namespace=${conceptEName.namespaceUriOption.getOrElse("")}&localPart=${conceptEName.localPart}"
+        s"/concept/dimensions?entrypointUri=${entrypointUri}&conceptNamespace=${conceptEName.namespaceUriOption.getOrElse("")}&conceptLocalName=${conceptEName.localPart}"
 
       val conceptDimensionTree = route(FakeRequest(GET, requestUri)).get
 
@@ -75,7 +77,7 @@ class DimensionsSpec extends Specification with JsonMatchers {
       val conceptEName = EName("http://www.nltaxonomie.nl/8.0/basis/venj/items/bw2-data", "BalanceSheetBeforeAfterAppropriationResults")
       
       val requestUri =
-        s"/dimensionsGraph?uri=${entrypointUri}&namespace=${conceptEName.namespaceUriOption.getOrElse("")}&localPart=${conceptEName.localPart}"
+        s"/concept/dimensions?entrypointUri=${entrypointUri}&conceptNamespace=${conceptEName.namespaceUriOption.getOrElse("")}&conceptLocalName=${conceptEName.localPart}"
 
       val conceptDimensionTree = route(FakeRequest(GET, requestUri)).get
 
@@ -106,7 +108,7 @@ class DimensionsSpec extends Specification with JsonMatchers {
       val conceptEName = EName("http://www.nltaxonomie.nl/8.0/basis/venj/items/bw2-data", "Equity")
       
       val requestUri =
-        s"/dimensionsGraph?uri=${entrypointUri}&namespace=${conceptEName.namespaceUriOption.getOrElse("")}&localPart=${conceptEName.localPart}"
+        s"/concept/dimensions?entrypointUri=${entrypointUri}&conceptNamespace=${conceptEName.namespaceUriOption.getOrElse("")}&conceptLocalName=${conceptEName.localPart}"
 
       val conceptDimensionTree = route(FakeRequest(GET, requestUri)).get
 

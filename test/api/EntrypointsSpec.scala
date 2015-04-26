@@ -16,7 +16,7 @@ class EntrypointsSpec extends Specification with JsonMatchers {
     "return a list of all entrypoints that match the 8.0/reports/kvk query string" in new WithApplication {
       val queryString = "8.0/report/kvk" 
       val requestUri =
-        s"/entrypoints?uri=$queryString"
+        s"/entrypoints?entrypointUri=$queryString"
 
       val entrypointsResult = route(FakeRequest(GET, requestUri)).get
       
@@ -31,7 +31,7 @@ class EntrypointsSpec extends Specification with JsonMatchers {
     "return the empty list for a query string that doesn't match any entrypoints" in new WithApplication {
       val queryString = "/us-gaap/" 
       val requestUri =
-        s"/entrypoints?uri=$queryString"
+        s"/entrypoints?entrypointUri=$queryString"
 
       val entrypointsResult = route(FakeRequest(GET, requestUri)).get
       
