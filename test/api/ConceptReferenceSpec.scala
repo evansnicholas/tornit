@@ -22,7 +22,7 @@ class ConceptReferenceSpec extends Specification {
       val entrypointUri = TqaTaxonomyApi.dtsCollection.allEntrypointUris.head
       
       val dts = TqaTaxonomyApi.dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
-      val dtsConceptReferences = dts.findRelationships[ConceptReferenceRelationship]
+      val dtsConceptReferences = dts.findStandardRelationships(scala.reflect.classTag[ConceptReferenceRelationship])
       
       val conceptEName = dtsConceptReferences.head.sourceConceptEName
       

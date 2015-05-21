@@ -20,7 +20,7 @@ class DtsGraphSpec extends Specification with JsonMatchers {
     
     "return the dts graph for an entrypoint" in new WithApplication {
       val requestUri =
-        s"/dtsGraph?uri=http://www.nltaxonomie.nl/7.0/report/bd/entrypoints/rpt-bd-omzetbelasting-2013.xsd"
+        s"/dtsGraph?entrypointUri=http://www.nltaxonomie.nl/7.0/report/bd/entrypoints/rpt-bd-omzetbelasting-2013.xsd"
 
       val entrypointsResult = route(FakeRequest(GET, requestUri)).get
       

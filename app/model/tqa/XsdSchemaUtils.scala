@@ -9,17 +9,17 @@ import eu.cdevreeze.yaidom.utils.TextENameExtractor
 import eu.cdevreeze.yaidom.utils.SimpleTextENameExtractor
 import nl.ebpi.tqa.XsAnyTypeEName
 import nl.ebpi.tqa.model.taxonomydom.GlobalElementDeclaration
-import nl.ebpi.tqa.model.xsd.XsdSchema
+import nl.ebpi.tqa.model.xsd.SchemaSetLike
 
 object XsdSchemaUtils {
 
-  def findSubstitutionGroupHierarchy(xsdSchema: XsdSchema)(elemDec: GlobalElementDeclaration): List[EName] = {
+  def findSubstitutionGroupHierarchy(xsdSchema: SchemaSetLike)(elemDec: GlobalElementDeclaration): List[EName] = {
     (elemDec.substitutionGroupOption map { sg =>
       xsdSchema.findSubstitutionGroupAncestorsOrSelf(sg)
     }).getOrElse(List.empty[EName])
   }
 
-  def findTypeAncestry(xsdSchema: XsdSchema)(elemDec: GlobalElementDeclaration): List[EName] = {
+  def findTypeAncestry(xsdSchema: SchemaSetLike)(elemDec: GlobalElementDeclaration): List[EName] = {
     xsdSchema.findAncestorTypes(findElemType(elemDec))
   }
 
