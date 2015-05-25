@@ -75,6 +75,7 @@ object Application extends Controller {
   
   implicit lazy val dimGraphNodeWrites: Writes[DimensionsGraphNode] = (
     (JsPath \ "ename").write[EName] and
+    (JsPath \ "elrOption").write[Option[String]] and
     (JsPath \ "children").lazyWrite(Writes.seq[DimensionsGraphNode](dimGraphNodeWrites))
   )(unlift(DimensionsGraphNode.unapply))
   

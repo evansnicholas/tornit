@@ -51,8 +51,7 @@ object DimensionsGraphBuilder {
     val graphsByElr = allEdges map {
       case (elr, edges) =>
         val graph = edges.foldLeft(GraphBuilder(Map.empty[EName, GraphBuilderNode])) {
-          case (graphBuilder, edge) =>
-            graphBuilder.update(edge.from, Some(edge.to)).update(edge.to, None)
+          case (graphBuilder, edge) => graphBuilder.addEdge(edge)
         }
 
      (elr -> graph)
@@ -71,24 +70,36 @@ object DimensionsGraphBuilder {
   private case class GraphBuilder(nodes: Map[EName, GraphBuilderNode]) {
     /**
      * Updates a node in the graph with an optional new to node, or adds the node to the graph if it does not exist.
+     * The elr is the elr of the edge that points to the new node.
      */
-    def update(nodeEName: EName, toOption: Option[EName]): GraphBuilder = {
-      nodes.get(nodeEName) match {
-        case None =>
-          val newNode = GraphBuilderNode(nodeEName, (toOption map { Set(_) }).getOrElse(Set()))
-          GraphBuilder(nodes + (newNode.ename -> newNode))
-        case Some(node) =>
-          val updatedNode = GraphBuilderNode(node.ename, (toOption map { node.toNodes + _ }).getOrElse(node.toNodes))
-          GraphBuilder(nodes.updated(node.ename, updatedNode))
-      }
+    def addEdge(edge: GraphEdge): GraphBuilder = {
+      val fromEName = edge.from 
+      val toEName = edge.to
+      val edgeElr = edge.elr
+
+      val updatedFrom =
+        nodes.get(fromEName) match {
+          case None =>
+            //Pass None as the ELR because we cannot know it.  This will get updated at some point if there is an
+            //edge pointing to the node.
+            GraphBuilderNode(fromEName, None, Set(toEName))
+          case Some(node) => node.addToNode(toEName)
+        }
+      
+      val updatedTo = 
+        nodes.get(toEName).map(_.updateElr(edgeElr)).getOrElse {
+          GraphBuilderNode(toEName, Some(edgeElr), Set.empty[EName])
+        }
+      
+      GraphBuilder(nodes.updated(updatedFrom.ename, updatedFrom).updated(updatedTo.ename, updatedTo))
     }
   }
   
   /**
    * A node in the graph.  The node is identified by its ename, and keeps track of the nodes that it points to.  In this
-   * way this is a node in a directed graph.
+   * way this is a node in a directed graph.  Also contains the elr of the edge that connected to this node.
    */
-  private case class GraphBuilderNode(ename: EName, toNodes: Set[EName]) {
+  private case class GraphBuilderNode(ename: EName, elrOption: Option[String], toNodes: Set[EName]) {
     //This method is not stack safe, but this shouldn't be too much of a problem because dimensional graphs that start at a 
     //particular concept are quite small.
     def toDimensionsGraphNode(graphBuilder: GraphBuilder): DimensionsGraphNode = {
@@ -96,22 +107,31 @@ object DimensionsGraphBuilder {
         val node = graphBuilder.nodes(ename)
         node.toDimensionsGraphNode(graphBuilder)
       }
-      DimensionsGraphNode(ename, children.toVector)
+      DimensionsGraphNode(ename, elrOption, children.toVector)
+    }
+    
+    def addToNode(newTo: EName): GraphBuilderNode = {
+      GraphBuilderNode(ename, elrOption, toNodes + newTo)
+    }
+    
+    def updateElr(newElr: String): GraphBuilderNode = {
+      GraphBuilderNode(ename, Some(newElr), toNodes)
     }
   }
   
   /**
-   * An edge of the graph that connects two nodes, identified by their ENames.
+   * An edge of the graph that connects two nodes, identified by their ENames.  Also contains the elr containing
+   * the relationship that gave rise to this graph edge.
    */
-  private case class GraphEdge(from: EName, to: EName)
+  private case class GraphEdge(from: EName, to: EName, elr: String)
   
   /**
    * Turns a relationship into a graph edge. The to and from can be reversed if desired (useful for domain member
    * relationships on the left side of the dimensional tree
    */
   private def relationshipToGraphEdge(rel: DimensionalLinkRelationship, reverse: Boolean): GraphEdge = {
-    if (reverse) GraphEdge(rel.targetConceptEName, rel.sourceConceptEName) 
-    else GraphEdge(rel.sourceConceptEName, rel.targetConceptEName) 
+    if (reverse) GraphEdge(rel.targetConceptEName, rel.sourceConceptEName, rel.extendedLinkRole) 
+    else GraphEdge(rel.sourceConceptEName, rel.targetConceptEName, rel.extendedLinkRole) 
   }
 
 }

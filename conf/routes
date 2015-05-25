@@ -16,7 +16,7 @@ GET /dtsGraph                       controllers.Application.computeDtsGraph(entr
 
 GET /concepts                       controllers.Application.listConcepts(entrypointUri, concept)
 
-GET /concept/dimensions                controllers.Application.computeDimensionalGraphs(entrypointUri, conceptNamespace, conceptLocalName)
+GET /concept/dimensions             controllers.Application.computeDimensionalGraphs(entrypointUri, conceptNamespace, conceptLocalName)
 
 GET /taxoDoc                        controllers.Application.showTaxonomyDocument(entrypointUri, docUri)
 
