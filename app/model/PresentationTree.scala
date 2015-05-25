@@ -12,7 +12,7 @@ case class Label(role: String, language: String, text: String)
 object PresentationTree {
   
   def createPresentationTree(rat: RelationshipAwareTaxonomy, elr: String): PresentationELR = {
-    val parentChildRels = rat.findRelationshipsByExtendedLinkRole[ParentChildRelationship](elr)
+    val parentChildRels = rat.findStandardRelationships(scala.reflect.classTag[ParentChildRelationship]).filter(_.extendedLinkRole == elr)
     
     val parentChildRelsBySource = parentChildRels.groupBy(_.sourceConceptEName)
     val allChildren = parentChildRels.map(_.targetConceptEName).toSet

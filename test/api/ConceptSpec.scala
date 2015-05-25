@@ -22,10 +22,10 @@ class ConceptSpec extends Specification {
     "return a list of all concepts in the taxonomy that match a query string" in new WithApplication {
       val conceptQuery = "equ"
       val requestUri =
-        s"/concepts?uri=http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-middelgrote-rechtspersoon-publicatiestukken-model-b-j-direct-2013.xsd&concept=$conceptQuery"
+        s"/concepts?entrypointUri=http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-middelgrote-rechtspersoon-publicatiestukken-model-b-j-direct-2013.xsd&concept=$conceptQuery"
 
       val conceptList = route(FakeRequest(GET, requestUri)).get
-      
+
       val json = contentAsJson(conceptList).as[JsArray]
       
       val conceptENames = json.value map { value =>
@@ -49,10 +49,10 @@ class ConceptSpec extends Specification {
     "return the information related to a concept in the taxonomy" in new WithApplication {
       val conceptParams = s"conceptNamespace=$Bw2DataNamespace&conceptLocalName=Equity"
       val requestUri =
-        s"/concept?entrypointUri=http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-middelgrote-rechtspersoon-publicatiestukken-model-b-j-direct-2013.xsd&$conceptParams"
+        s"/concept/schema?entrypointUri=http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-middelgrote-rechtspersoon-publicatiestukken-model-b-j-direct-2013.xsd&$conceptParams"
 
       val conceptDec = route(FakeRequest(GET, requestUri)).get
-      
+
       val json = contentAsJson(conceptDec)
             
       val ced = json.as[ConceptElementDeclaration]

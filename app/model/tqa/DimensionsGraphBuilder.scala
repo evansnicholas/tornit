@@ -5,17 +5,13 @@ import java.net.URI
 import scala.collection.immutable
 
 import eu.cdevreeze.yaidom.core.EName
-import model.{ DimensionsGraph, DimensionsGraphNode } 
-import nl.ebpi.tqa.queryapi.QueryableTaxonomy
+import model.{ DimensionsGraph, DimensionsGraphNode }
 import nl.ebpi.tqa.relationshipaware.RelationshipAwareTaxonomy
 import nl.ebpi.tqa.model.dimrelationship.DimensionalLinkRelationship
-import shapeless._
-import shapeless.HList.hlistOps
-import scala.collection.mutable
 
 object DimensionsGraphBuilder {
   
-  def findDimensionsGraphs(qt: QueryableTaxonomy, conceptEName: EName): List[DimensionsGraph] = {
+  def findDimensionsGraphs(qt: RelationshipAwareTaxonomy, conceptEName: EName): List[DimensionsGraph] = {
     
     val inheritedRelationshipChainsByBaseSetElr = 
       qt.findInheritedDimensionalRelationshipChains(conceptEName).groupBy(_.relationships.head.extendedLinkRole)

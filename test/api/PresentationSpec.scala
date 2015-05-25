@@ -22,7 +22,7 @@ class PresentationSpec extends Specification {
     "return a list of presentation elrs for an entrypoint" in new WithApplication {
       val entrypoint = "http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-grote-rechtspersoon-model-b-e-direct-2013.xsd"
       val requestUri =
-        s"/presentationElrs?uri=$entrypoint"
+        s"/presentationElrs?entrypointUri=$entrypoint"
 
       val elrsList = route(FakeRequest(GET, requestUri)).get
       
@@ -38,7 +38,7 @@ class PresentationSpec extends Specification {
     "return the presentation tree for an elr" in new WithApplication {
       val entrypoint = "http://www.nltaxonomie.nl/8.0/report/kvk/entrypoints/algemeen/kvk-rpt-grote-rechtspersoon-model-b-e-direct-2013.xsd"
       val requestUri =
-        s"/presentationTree?uri=$entrypoint&elr=urn:kvk:linkrole:information-required-for-filing"
+        s"/presentationTree?entrypointUri=$entrypoint&elr=urn:kvk:linkrole:information-required-for-filing"
 
       val elrTreeFuture = route(FakeRequest(GET, requestUri)).get
       

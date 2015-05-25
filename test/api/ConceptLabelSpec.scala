@@ -21,7 +21,7 @@ class ConceptLabelSpec extends Specification {
       val entrypointUri = TqaTaxonomyApi.dtsCollection.allEntrypointUris.head
       
       val dts = TqaTaxonomyApi.dtsCollection.findEntrypointDtsAsRelationshipAwareTaxonomy(entrypointUri)
-      val dtsConceptLabels = dts.findRelationships[ConceptLabelRelationship]
+      val dtsConceptLabels = dts.findStandardRelationships(scala.reflect.classTag[ConceptLabelRelationship])
       
       val conceptEName = dtsConceptLabels.head.sourceConceptEName
       
