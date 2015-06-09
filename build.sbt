@@ -1,4 +1,4 @@
-name := """taxoscope"""
+name := """tornit"""
 
 version := "1.0-SNAPSHOT"
 

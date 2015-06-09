@@ -12,7 +12,7 @@ import eu.cdevreeze.yaidom.core.EName
 object Application extends Controller {
 
   def main = Action {
-    Ok(views.html.main("Taxoscope"))
+    Ok(views.html.main("Tornit"))
   }
   
   def loadEntrypoint(entrypointPath: String) = Action {
