@@ -12,7 +12,7 @@ Prerequisites:
 * A local maven repository with a version of TQA (Taxonomy Query API) compiled against Scala 2.11.  The TQA dependency can be adjusted in build.sbt.  Note that the TQA library is not open-source.  However, if you have your own taxonomy query engine, you can integrate it with tornit by implementing the plugin API defined in the model.TaxonomyApi trait, and then configuring tornit to use your plugin by adding an entry to conf/play.plugins.
 * The typesafe activator with the activator command available on the command line.
 
-Setting up the taxoscope:
+Setting up tornit:
 * Clone the project into a local directory.
 * Place the taxonomy files you wish to view in the lib/taxonomy directory.
 * Open a terminal in the root directory of the application and start the typesafe activator (with the *activator* command).
