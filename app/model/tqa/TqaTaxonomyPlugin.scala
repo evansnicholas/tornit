@@ -138,7 +138,7 @@ object TqaTaxonomyApi extends TaxonomyApi {
   
   def computePresentationTree(entrypointPath: String, elr: String): PresentationELR = {
     val fullTaxo = getCachedTaxonomy(entrypointPath)
-    PresentationTree.createPresentationTree(fullTaxo, elr)
+    PresentationTreeBuilder.createPresentationTree(fullTaxo, elr)
   }
   
   def showTaxonomyDocument(entrypointPath: String, docUriString: String): String = {
